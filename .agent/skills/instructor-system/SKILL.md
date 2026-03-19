@@ -30,6 +30,9 @@ El sistema opera en **5 fases secuenciales**. Nunca saltes una fase ni generes c
 
 ### HISTORIA: {Título del contexto histórico} (si aplica)
 {Contexto histórico relevante en 2-3 líneas.}
+
+### ESTRATEGIA VISUAL: {Tipo de recurso}
+{Definir obligatoriamente cómo se mostrará: Ej. Diagrama vivo en Excalidraw, imagen estática en Canva, o manipulación de código en vivo}.
 ```
 
 **Reglas de la Capa 0:**
@@ -60,6 +63,10 @@ El sistema opera en **5 fases secuenciales**. Nunca saltes una fase ni generes c
    - **Ejercicios de código** que el instructor debe completar (ya sea en el propio markdown, en un editor de código, o en una terminal).
    - **Rúbrica de autoevaluación** al final con criterios claros de "listo" vs "necesito repasar".
    - Debe ser lo suficientemente riguroso para que, al completarlo exitosamente, el instructor tenga certeza de que domina el material.
+
+3. **Script Espejo (Caso de Estudio 0)** — Un archivo `.md` detallado (ej: `estudio-caso-0.md`) con la ejecución paso a paso del laboratorio que hará el instructor en vivo.
+   - Sirve como guion de diseño/código.
+   - Debe contener los "porqués" de cada decisión técnica tomada por el instructor para no improvisar respuestas en clase.
 
 ---
 
@@ -179,9 +186,14 @@ Preguntas diseñadas **sin respuestas polares** (NUNCA Sí/No). Deben generar re
 - Escenarios hipotéticos.
 - Preguntas de cálculo mental.
 - Análisis visual ("¿Qué cambió en la pantalla?").
+**Obligatorio:** Debajo de cada pregunta, incluir SIEMPRE `*(Respuesta esperada o guía de seguimiento)*` para darle al instructor la "pista" si nadie responde en el chat.
 
 ### `**La acción guiada:**`
 Pasos **hiperespecíficos y numerados** (1, 2, 3...) sobre qué botones presionar, qué comandos escribir y qué teclas dictar a la clase.
+- Siempre dictar el **Criterio de Éxito Público** al iniciar una práctica autónoma: `"El éxito de estos 15 minutos se mide cuando: {Resultado tangible}"`.
+
+### `> **Nota táctica de inicio: {Objetivo Psicológico}**`
+Abre cada Momento estableciendo la meta psicológica de esa sección (Ej: *Romper el sesgo de anclaje*, *Desmitificar la terminal*), ajustando así el tono del instructor.
 
 ### `> **Nota táctica de transición:**`
 Puente breve entre un momento y el siguiente. Conecta el problema resuelto con el nuevo problema que se va a plantear.
