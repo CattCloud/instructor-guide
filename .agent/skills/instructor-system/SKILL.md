@@ -198,6 +198,41 @@ Abre cada Momento estableciendo la meta psicológica de esa sección (Ej: *Rompe
 ### `> **Nota táctica de transición:**`
 Puente breve entre un momento y el siguiente. Conecta el problema resuelto con el nuevo problema que se va a plantear.
 
+### `> **Preguntas de Activación (2-3 preguntas por punto conceptual):**`
+
+Bloque obligatorio al final de cada punto conceptual dentro de un Momento. Estas preguntas **no buscan confirmar que el alumno memorizó** — buscan forzar que aplique, compare o prediga usando el concepto recién explicado.
+
+**Reglas de calidad (todas son obligatorias):**
+- **No cerradas:** Nunca preguntas de Sí/No ni de opción fácil obvia.
+- **No genéricas:** Prohibido "¿se entiende?", "¿alguna duda?", "¿para qué sirve esto?".
+- **No poéticas ni de analogías:** El foco es técnico y situacional, no filosófico.
+- **Sí precisas y contextualizadas:** Anclar la pregunta al concepto exacto que se acaba de enseñar.
+- **Sí orientadas a escenario o consecuencia:** El alumno debe razonar *qué pasaría si*, *cómo aplicarías*, *cuál elegirías y por qué*, *qué diferencia hay entre X y Y*.
+- Siempre incluir `*(Respuesta esperada o guía de desvío para el instructor)*` debajo de cada pregunta.
+
+**Ejemplos de preguntas MALAS vs BUENAS:**
+
+| ❌ MALA (Prohibida) | ✅ BUENA (Correcta) |
+|---|---|
+| "¿Entendieron los tokens?" | "Si escribo el mismo texto en inglés y en español, ¿cuál consume más tokens y qué consecuencia práctica tiene eso en el costo de tu API?" |
+| "¿Para qué sirve Git?" | "Si dos alumnos del mismo equipo hacen `push` al mismo archivo a la vez, ¿qué creen que pasa? ¿Quién gana?" |
+| "¿Les gusta Figma?" | "Tienen su diseño en Figma con `Ctrl+G` (Grupo). ¿Qué pasa con ese grupo cuando el cliente les pide doblar el tamaño del botón? ¿Por qué el Auto Layout lo resuelve diferente?" |
+| "¿Qué es un Prompt?" | "Si al prompt de ayer le quitas el campo de 'usuario objetivo', ¿en qué parte del código generado notarías primero el impacto de esa pérdida de información?" |
+
+**Formato visual a usar en el documento de clase:**
+
+```markdown
+> **Preguntas de Activación:**
+> 1. {Pregunta precisa y contextualizada}
+>    *(Respuesta esperada o guía: ...)*
+> 2. {Pregunta de escenario o consecuencia}
+>    *(Respuesta esperada o guía: ...)*
+> 3. {Pregunta comparativa o de decisión técnica} ← (Opcional, si el bloque es extenso)
+>    *(Respuesta esperada o guía: ...)*
+```
+
+
+
 ---
 
 ## 4. DINÁMICA DEL AULA
