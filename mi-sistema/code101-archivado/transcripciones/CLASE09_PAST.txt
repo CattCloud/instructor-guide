@@ -1,0 +1,1321 @@
+Clase_09 Code101n19
+23 de marzo de 2026, 12:41a.m.
+3 h 42 min 1 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   0:03
+Pantalla.
+Mhm.
+Incluso mío, no creo que necesitas un miedo.
+Ya.
+Bien, estimados, hoy vamos a pasar al módulo 3. Bien, la semana pasada terminamos el módulo 2.
+¿Qué vimos en el módulo 2? o K, en el módulo 2 primero vimos herramientas importantes, además de la terminal Git, súper importante en tu stack. Ahora este pertenece lo que serían tus herramientas de desarrollador porque nos permite guardar este cambios, pero también poder interactuar con GitHub.
+Cierto, ese repositorio o esa ese centro de alojamiento mundial, donde usualmente un programador o los equipos de programación del mundo suben sus proyectos para interactuar con otros, para este dar a conocer su código, etcétera, correcto.
+Conocemos ahora GitHub, tenemos cuenta de GitHub, hemos deployado en GitHub, hemos subido con nuestros proyectos tanto el uno como este módulo 2 y este la semana pasada.
+Nos enfocamos también en ver de una forma un poco más profunda lo que son el diseño, cierto, los weather frames, que es este de baja calidad, y los el low fi, como le llaman y HiFi, que es de alta calidad, no más fiel a lo que sería cómo se vería tu página web. Ahí usamos Figma.
+Pero acá hicimos una transición importante, estimados, y es el uso de lo que sería la IA. ¿Lo recuerda? Usamos IA en la clase anterior. Vimos conceptos de IA como los tokens, como el prompt, como técnicas de prompt. Vimos el concepto de que la respuesta que te da IA depende de la calidad del prompt.
+Mientras un prompt sea específico, sea de calidad, por así decirlo, bien desarrollado, la respuesta va a ser el mejor, ya va a ser mucho, mucho mejor. Ahí lo hicimos, ahí les compartí también algunos prompts y con eso lo que tuvieron que hacer era ustedes este pasaron de.
+Como que de manos a la obra a la guía, manos a la obra y tú el maestro de obra, no, tú lo vigilas, tú lo guías, tú le lo corriges y se equivoque, si se equivoca, perdón, o k, entonces cambia esa perspectiva de el programador tradicional que antes tenía que pasarse tiempo.
+Codificando a tú dando indicaciones a la IA a un programador que está usando IA, que hoy en día es ya este ya nos ya no es opcional, es necesario ya en términos así este realistas y crudas, es necesario como programador que tú uses IA hoy en día.
+O K que uses IA en lo que sería tu camino o tu carrera como programa, porque comentamos, creo que no sé si recuerdan esa ese mito no donde decían si la IA va a reemplazar los programadores y la respuesta era no, en realidad reemplaza a los que no usan IA.
+O a las que se están quedando atrás, cierto, los nosotros que tenemos que estamos entendiendo conceptos, estamos entendiendo la base, ya estamos dominando esto. Tenemos más conocimiento de cómo guiar a la guía respecto a lo que sería el desarrollo, en este caso web, no que es lo que nos estamos dedicando en lo que sería este.
+Este code 101 y los code respectivos, el desarrollo web. Entonces con eso se tuvieron que generar, ustedes tuvieron que generar sumain links, una página my links basada en un diseño, bueno, basada en un en el diseño que usted hayan hecho o en alguna inspiración que hayan sacado de la página, no, y al final publicar sumain links.
+Ese fue el proyecto del módulo 2 entonces.
+Ahora pasamos al módulo 3, pero quiero cerrar con una pregunta, mis estimados, una pregunta de programador a de programador que usa IA a programa a futuro programador que usa IA o tal vez ya lo estás usando ya. ¿Qué ventajas sientes que te dio que te dio programar con IA? O sea, ¿qué ventajas tú sentiste al usar IA y programar?
+Quiero que me comentes, por favor, en este porque lo hiciste en este proyecto número 2 y quiero que me expliques a ver qué ventajas. Aún no te va la frase. Gracias, verdad, cierto. Gracias, Kevin.
+Pero por favor vayan respondiéndome.
+Ver.
+únicamente el módulo.
+Ya publiqué las 2, gracias por eso, pero coméntenme por favor qué ventajas sintieron. Ajá, qué ventajas sintieron. Abril, buenas noches al usar ustedes la IA en este proyecto número 2, en el proyecto módulo 2. Ustedes usaron la IA para programar este esta página web de My Links, pero ¿qué sintieron? ¿Tiempo?
+Optimización, este no sé, rendimiento. ¿Qué ventajas ustedes sintieron al programar con la guía al estar ahí chateando y que estas le genera el código?
+Tiempo que cero desde cero, muy bien, más automatización. Esa palabra está muy ligada a la IA, no la automatización, porque ahora este la IA es la que básicamente tú le das las reglas y la IA la sigue tal cual. Entonces automatiza, automatiza perdón, ese procesamiento.
+Y eso efectivamente lleva lo que sería menos tiempo, porque la automatización una de las ventajas es el tiempo que nos toma, no el tiempo que nos toma.
+¿Qué ventajas ustedes sintieron que les que les este que les dio usar la IA? Porque esas ventajas lo van a este primero compártanlo con los demás para que también este puedan ver que posiblemente también lo sintieron y otras como ustedes este en ese lugar, pónganse en ese lugar, dice más rapidez, muy bien, Yarney, y también puedo aprender nuevas cosas para comprar.
+El conocimiento que ya tengo, ajá, también usas la guía para eso, genial.
+Ya, pero respecto a este proyecto, ajá, sí, este proyecto no sé si ustedes sintieron también que podían tomar cualquier diseño y simplemente ponerlo y que la ella se los dé. No había como que esa sensación de que se había esa sensación de como no sé, ya vemos de poder, pero no es más este como que.
+Recuerdan que la ya tiene miles y miles de datos, o sea, de programación las tiene tantos. Tú le mandas básicamente casi cualquier diseño y te la puedes replicar, no al 100%, ya no al 100%, porque te estás mandando solo una imagen. Si es dinámica, obviamente no lo va a replicar los movimientos, tienes que explicarlo y todo, pero sí había esa sensación.
+Cierto, había esa sensación a ver.
+Por favor, quiero escuchar sus ventajas, chicos, a ver todas hemos usado aquí.
+En este proyecto, así que dale.
+Solo que al final le pedí que me explique cómo lo hizo para poder ser capaz de hacerlo mucho, cero y entender la estructura.
+Bien, eso es este coudi responsable. Muy bien, Yarni, no existe un punto interesante.
+¿Qué es exactamente, no? La IA es como aprendizaje, la IA como aprendizaje y no simplemente generar código de manera, no sé.
+Con el fin simplemente de tener el resultado, no, sino entender en el proceso que es parte de lo que sería un programador que usa la guía con responsabilidad, no la guía con responsabilidad. A ver, chicos, gracias por ese punto, Yarnik.
+Una opinión más, vamos a ver, hay tantas ventajas que nos ha dado la idea a ver.
+Más de tiempo, obviamente, porque es reduce, reduce el tener que hacer código desde cero. También, por ejemplo, es en los errores. Ya la I así no solamente es para desarrollar, chicos, también se usa para tú le das el código y te identifica errores, te puede identificar errores. Ya se puede hacer lo que se llama debuging.
+Que es identificar este efectivamente manejo de errores. Ya también este permite, por ejemplo, hacer el testeo, que es probar tu tu código. ¿Qué más? La guía no es solo programar, también es en el diseño, eso estimados, también te puede dar una lluvia de ideas en cuanto a lo que sería el diseño.
+Ahí están chicos, a ver.
+Por favor, coméntenme, ahí solamente tengo a Kevin Yayarni dándome su respuesta, a ver, so.
+A Yabril dijo ventajas, exacto, ventajas, pero ¿qué ventajas? Este coméntame, sintiendo tú personalmente, no todos van a tener las mismas ventajas, pero les hayan encontrado distintas.
+¿Qué es lo que sientes que más test? Por ejemplo, eficiencia ya incluso tal vez haya usado.
+¿Cómo se puede decir, elementos o conocimientos que todavía no hemos dominado nosotros no? O todavía no hemos visto en clase, tal vez en algunos haya generado, no sé, algunas propiedades CSS que no lo hemos visto antes, no alguien. Sí, por ejemplo, tal vez haya alguien leído el código de CSS que generó.
+Ya a algunos tal vez les haya generado con JavaScript.
+Y estamos esperando también.
+Ya eso es necesario, chicos, poder comprender en qué nos ayudó la IA, pero también a su a su vez sacar un pedacito, como comentó Yarney Day, qué es lo con qué te quedas tú de aprendizaje de haber interactuado con ella.
+Ya la IA sí te da mucha ventaja, mucha ventaja al momento de usarla, al momento de programar, al momento de indicarle, pero es parte también de nosotros, está en guiarla ya en saber usar eso. Ya no sé, a veces se me viene a la mente ese.
+Esa frase de del abuelo de Peter, de del Hombre Araña, donde dice: un gran poder conlleva una gran responsabilidad. Ya el poder es que ahora tienes la IA a tu mano, ya y ahora incluso con eso puedes hacer ya ni se ríe. Y es que ahora con el poder de la IA, tú puedes hacer este básicamente.
+Casi cualquier código con facilidad, ya casi cualquier código con facilidad. Y hay que hablar de un de alguien que fue alumno en su momento, ya de alguien que estuvo sentado al igual que ustedes como alumno y que este aprendió también con la IA, ¿no? Y que en su momento sintió esa necesidad de oye, y si lo hacemos rápido con IA porque no tengo tiempo.
+Hay esa sensación de mi parte, yo lo digo, pero este justamente también tiene viene la responsabilidad de parte de cada uno, no de cómo lo usamos. Abre y me dice la posibilidad de analizar el código nos da la guía para explorar conceptos nuevos o más avanzados. Además, podemos probar con distintos diseños como el.
+Ajá, muy bien, a ver, vamos a desglosar, aprier tu comentario, primero exactamente la analizar el código. Sí, tú incluso le puedes pedir tus opiniones a la IA en cuanto a código, tú le compartes, tú digamos, haces tu programa, solo ya le compartes tu código y le dices, no sé, a ver.
+Coméntame si mi código sigue las buenas prácticas de programación, sino si no, guíame qué es lo que debería hacer, como si fueras un maestro, un maestro de programación enseñando a un alumno y te va a guiar paso a paso y te va a decir, o k, a ti te faltó esto o esto lo hiciste muy bien, genial, y esto tal vez se podría corregir.
+Se puede guiar ya luego lo de explorar conceptos nuevos o más avanzados. Sí, mis estimados, yo les recomiendo la guía. Personalmente, yo la uso para para estudiar, ya yo personalmente lo uso para estudiar. Yo soy de armar apuntes, yo soy de armar apuntes de entender conceptos específicamente.
+Antes de programar ya, y esos los obtuve gracias a la IA, a la IA recurrí a la IA y él me explica todo, ya me da incluso todo un apunte estructurado. Si quieren, yo les puedo compartir mis apuntes de Notion. Yo tengo apuntes de Notion de JavaScript, HTML, de CSS y de otros lenguajes.
+Yo les puedo compartir, ahí los tengo. Estaba incluso pensando hacer una página web donde se pueda visualizar para todos los demás, o sea, donde puedas entrar y simplemente se pueda leer lo que hice yo en mis apuntes. No, ese es un proyecto a futuro mío, la verdad, usar este, pues hacer eso junto con la I A y también usar Notebook LM.
+Ya que es una herramienta que permite estudiar con IA. Ya para los que no lo conozcan, chicos, Notebook LM se los recomiendo.
+Notebook LM es una herramienta que este tú le das apuntes y notebook te genera videos, te genera preguntas, te genera este diapositivas, infografías, te genera todo. Miren, aquí está mi, aquí tengo algunos este cuadernos, por ejemplo, maestría, maestría en apuntes, esto no tiene tantos.
+Y si tiene ya este de acá, ya aquí estaba viendo, por ejemplo, un curso. Yo le estaba dando mis apuntes de prompt ya, pero un contexto rápido, yo le estaba dando mis apuntes de prompt, aquí está, se pueden subir fuentes, es decir, tus documentos, y en este lado de acá que es el estudio, tú puedes generar videos.
+Puedes generar audios respecto al documento. Ven aquí, ya aquí tengo un video, por ejemplo, donde yo he generado melo, donde yo he generado justamente este conceptos y te los haces, pero súper, miren 10 segundos.
+Ahí está, ni nos da un consejo también de pasar, pero vean la calidad en serio del video que me ha generado. Ya me ha generado este, me ha generado, o sea, un video didáctico muy bonito con las presentaciones y todo, y es súper sencillo, o sea, como que le vean, es gratuito. Esta herramienta es gratuita con algunas este contenido que te puede generar gratuito. Yo se lo recomiendo.
+Ya, y también he generado este lo que serían cuestionarios. Te puede generar preguntas basado en efectivamente lo que tú le das, ¿no? Acá yo he respondido algunos.
+Pero a ver si volver a realizar cuestionario. Mire, acá me está haciendo la pregunta y acá yo puedo seleccionar una de las respuestas y continuar, no continuar, continuar. Los las preguntas es basada en, es en serio, esta herramienta es específicamente, si tú quieres estudiar con IA, te recomiendo notebook que me voy a poner acá.
+Ya te va a cambiar, ese va a facilitar tu manera de estudiar, mi estimado.
+Notebook.
+El te lo recomiendo de programador a programador. Okey, entonces ahí, por ejemplo, vimos eso. Muy bien, chicos, ya dejando y creo que dejando en claro el papel de la IA en lo que serían nuestras carreras como desarrollador.
+Vamos ahora sí a pasar lo que sería el módulo 3. Bien, ahora sí vamos a pasar a lo que sería el módulo 3 y en este módulo 3 nos vamos a enfocar en un lenguaje solamente en uno, mis estimados, que es JavaScript. Ya en el módulo uno y el módulo 2 vimos.
+Recuerdan que mencioné, pero voy a compartir, voy a cerrar algunos.
+Dale por un mensaje, no lo quería.
+Eso.
+Ya no sé si recuerdan que en la clase número uno hablamos de que generar, o sea, que hay 3 tecnologías, 3 tecnologías para desarrollar tu página web. Ya las 3 son necesarias para tener una página web de calidad.
+En este módulo uno y 2 vimos las 2 primeras, htmlyccs. Hoy nos vamos a encargar de JavaScript, ya nos vamos a encargar de JavaScript, le vamos a dar ahora interacción a nuestra página web.
+¿Cómo empezamos? A ver, empezamos con lo siguiente, chicos, empezamos con lo siguiente.
+Ya voy a abrir YouTube.
+They want to send out it.
+Creo que se escucha, me comentan si se escucha chicos.
+Gracias, ya o K, si se escuchó perfecto. A ver, vamos a analizar esta página web. Ya este es un video musical, pero no se enfoquen en esto. Ya vamos a analizar esta página web. Digamos que esta página web fue hecho con este HTML, CSS y JavaScript. Ya podemos identificarlo fácilmente.
+¿Qué es lo que nos da HTML? Efectivamente nos permite, por ejemplo, HTML nos permite.
+Colocar los elementos en la página web, elementos en la página web, nada más que su armar el esqueleto, las letras que ves, los iconos, las imágenes, ya este, el tamaño de las letras, mayoría, iconos, imágenes, incluso el video. Ya hay un este, no se les enseñó las etiquetas, pero.
+Este sí les digo ahora que hay una etiqueta para hacer para colocar videos ya para colocar videos. Hay una etiqueta que usualmente no se usa porque obviamente no usualmente no diseñamos páginas web que introduzcan videos, pero hay ya entonces este video se puso con HTML, digamos ya.
+Y ese fue el papel de HTML para esta página y luego vamos al papel ahora de CCSY bueno, CCS que nos hizo nos hizo este pues darle estilos, no que por ejemplo, al darle click, este botón se sombree que al pasar el mouse por acá cambie de color. Muy bien, posicionar, posicionar los elementos así porque con HTML no se puede.
+Ya uno por encima de otro, por ejemplo, Flexbox, ya aquí que estén así en fila y aquí en columna.
+Genial, vean cómo pasa eso ya hasta ahí, genial, hasta ahí genial. Ccc, pero ahora yo les pregunto algo, mis estimados.
+Vean acá, yo le doy este botón y miren.
+Ya pasa como una pequeña animación, cierto, le doy a suscribirse.
+Y obviamente me, pues también este vemos que pasa una acción, no le doy a guardar y me abre una pequeña ventanita o le doy a descargar y me abre otra ventanita. O sea, yo lo que estoy haciendo ahora es interactuar con la página web, ya o sea, estoy interactuando con la página web.
+Y la página web me está respondiendo, ya me está respondiendo en el código. ¿Ustedes, chicos, quién creen que decidió que iba a suceder esto?
+A ver.
+¿Quién creen que decidió HTML CCS?
+¿Quién creen ustedes que decidió qué es lo que iba a pasar al momento de que yo interactúe?
+Porque.
+Vimos eso con HTML.
+Un color aparece, una ventana aparece, este hay animación, algo está pasando, está habiendo interacción y la respuesta, mis estimados, es efectivamente, oye, te pasamos aquí.
+Ajá, exacto, mis estimamos, es JavaScript, ya JavaScript es el único de los 3. Ahí me están respondiendo también, chicos.
+Acá está siendo un poco más específico. Genial, gracias, Carlos.
+Muy bien, exacto. El programador también John Peña dando reglas, pero como está dando las reglas, no la estamos dando con HTML ni con CCS, porque con CCS tú das reglas de estilo, ya no reglas de interacción, por así decirlo, y con este con HTML tú solamente estás poniendo los elementos.
+Pero con JavaScript, mis estimados, gracias Kevin. Ajá, con JavaScript, con JavaScript podemos interactuar, podemos hacer que nuestro programa interactúe con el usuario que responda a esta interacción. Ya puedes puedes hacer que tu página web.
+A ver, se modifique en tiempo real, que tome decisiones, etcétera. Por eso decimos que JavaScript es como que el cerebro o los músculos le da vida a tu página web. Ya sabemos que con CSC obviamente se da como que ese estilo, pero este nosotros usualmente entramos a una página web, no solo para verla, chicos.
+No solamente entramos para verla, cierto, sino para presionar un botón para hacer algo, porque si esto no tuviera interacción, tú solamente estarías así bajando y subiendo.
+Cierto, pero no, tú vas y le das play al video, tú vas, bajas y tal vez despliegas esto. Mira, cierto, ves cómo despliegas y te da más respuestas. Esto no lo haces CCS.
+Bien, entonces mis estimados, eso se permite gracias a JavaScript. Ahora en su proyecto, en su proyecto de MyLinks, ya en su proyecto de MyLinks, obviamente si hubo una interacción ya porque si un visitante, acá estoy en mi proyecto de MyLinks, si un visitante accede, por ejemplo, le hace clic.
+¿Quién de los 2 permitió esto? A ver, ¿quién permitió que al darle clic pase algo en su proyecto? A ver.
+¿Acaso fue JavaScript?
+Cuando le damos clic, ¿qué es lo que hacían los enlaces?
+Ahí me está abriendo otra página web, ya no voy a este, este voy a cerrar también a ver.
+¿Quién nos permitió esto? Mis estimados HTM, cierto, porque gracias al comportamiento de específicamente la etiqueta a cierto de enlace nos permite ir a otra página web.
+Ya, pero esto es un comportamiento predeterminado por defecto y no solamente es decir que está establecido en a, pero nosotros no solamente vamos a querer cierto que un usuario vaya a otras páginas webs, sino querer.
+Con lo que es.
+Bueno, sí.
+Yo creo que a ver, algunos de aquí son programadores, o sea, algunos entienden, pero los que no, mis estimados, JavaScript es un lenguaje de programación. Ahorita vamos a ver qué es programación, pero es un lenguaje de programación, es decir, nos permite hacer programas y hoy en el mercado hay muchos, muchos, hay una cantidad de lenguajes de programación absurda, hay bastantes ya.
+La programación ha ido evolucionando a lo largo de los años y han ido creciendo, han evolucionado desde.
+Pues nos no sabría decirles un año, pero ha ido evolucionando y algunos lenguajes han quedado obsoletos, han quedado muy atrás. Algunos todavía sí saben si todavía tienen conocimientos de usarlos ya, pero hoy en día hay lenguajes estándar, hay lenguajes todo.
+Bien, y usualmente los lenguajes de programación son específicos para diferentes actividades. Si hablamos de JavaScript, JavaScript es uno de los lenguajes top ya en cuanto a lo que sería desarrollo web. Si tú te vas a enfocar en desarrollo web.
+El mercado laboral, la mayoría de programadores te va a recomendar Javascript sí o sí. Hay otros, como por ejemplo Python, creo que también hay.
+O creo que Go también se podría hacer. Ya hay otros lenguajes de promoción que también se se usan para hacer lo que sería páginas web, pero el estándar, el estándar sí o sí, en lo que sería página web te van a decir JavaScript, aprende JavaScript. Ya no sé si algunos han visto en videos.
+Esos vídeos donde dice tienes que aprender sí o sí, tú recoges la programación y te dan una cantidad absurda de cuáles PHP también, perdón, PHP también es, pero a hoy en día JavaScript está en el top de lo que sería lenguaje de programación más usados o que tienes que aprender sí o sí.
+Ya hay otros, por ejemplo, Python. Python está más enfocado, o sea, Python sí también te permite hacer el desarrollo web, pero Python está más enfocado en lo que sería análisis de datos. Por ejemplo, sí, en análisis de datos Python es el rey sobre JavaScript porque JavaScript no es tanto para análisis de datos. Python es mucho mejor.
+Ya, pero nosotros no vamos a ser analistas de datos, cierto, estamos desarrollando páginas web. Hay otros como Java, si algunos han escuchado Java, Java es el lenguaje para hacer aplicaciones de escritorio, no páginas web, o sea, estas que ves tú abajo, ya que tú ves abajo las opciones de escritorio con las que inicia Windows, Linux.
+Mat, ya que están, que tú te los descargas, no los abres desde un navegador. Esas son aplicaciones de escritorio, esas se hacen con Java, es uno de sus estándares ya usualmente para este sistemas empresariales. Luego hay otros como Android. Android también es un lenguaje, a ver, Android no un Android tú usa por detrás.
+Perdón, Android es un sistema operativo para móviles, usa por detrás Kotlin, usa por detrás Java. También es una hoja de programación, pero netamente para móviles, para celulares, ya para aplicaciones de celulares. Me desvié, pero este quiero hacerte recordar que tú ahora vas a ver un lenguaje de programación todo.
+Bien, vas a ver un lenguaje de programación top que usualmente están entre los primeros puestos. Bien, entonces con eso dicho, espero verte motivado también un poquito. Vamos a ver los conceptos.
+Ya no vamos a presentar el proyecto, mis estimados, porque va a ser diferente. Yo creo que en esta oportunidad, en el módulo 3, que va a ser su último proyecto, creo que van a presentar su proyecto en vivo. Quiero verlo ahí, creo que lo van a presentar en vivo. No es un proyecto tan complejo. Este proyecto, creo yo, no usa tanto interfaz, o sea, no vas a construir una interfaz.
+Si no va a ser interacción full full programación con JavaScript, ya es un proyecto súper súper este divertido, ya no es tan complejo, a menos que tú le quieras agregar algunas cositas más. Ya el proyecto del módulo 3 significa adivina el número, nada más que eso.
+¿Qué pasa? ¿Tú vas a construir un programa?
+El programa va a este elegir un número entre 1 al 100 y lo que tú tienes que hacer es adivinar. Va a haber una interacción entre el usuario que usa el programa y el bueno, el programa no, el programa va a elegir el número con un número random.
+Y le va a preguntar al usuario.
+voy a usar nada seguir el flujo voy a bajar
+Hey, este ya tengo el número, ¿cuál es? Dime el valor del número que yo he elegido y el usuario va a decir o k es 5 el programa por detrás hace el procesamiento y dice si digamos que el programa escogió 7, ya pero tú dijiste 5, el programa lo que va a decir es a.
+Es muy alto, ya acá es una de las respuestas que te puedo dar, es muy alto y esta respuesta es lo que le va a dar al usuario muy alto, intenta de nuevo.
+Va a tener también un contador de intentos por la cantidad de intentos que hace, este va a tener que ir subiendo por cada intento.
+Bien, muy alto, el usuario dice o K, si es muy alto, entonces voy a bajarle a 6, no mejor a cuatro, ya les le baja a cuatro, él le responde. ¿Y el programa qué hace? A ver, vamos a analizar, no es cuatro, no, espere, creo que me compodí así me este.
+Yo le dije 5, no, perdón, este acá hay un lapsus porque no tiene que ser muy alto, sino muy bajo. Ven como me desvié porque el programa escogió 7, yo le di 5, entonces el programa tiene que decir a muy bajo.
+Tiene que ser un número más alto. Intenta nuevo bien, si es muy bajo, vamos a dar otro número. Veamos qué pasa cuando te digo 8.
+Le dices 8, no adivinaste porque 7 y te dice muy alto, no, así va a ser la interacción hasta que en una de esas va a adivinar, te va a decir 7 y te va a dar un mensaje correcto. Éxito, ya adivinaste el número así, y también te va a dar el número de intentos si deseas decir, hiciste 8 intentos para adivinar el número.
+Bien, es así de simple, el proyecto en teoría o en base debería ser así, pero si tú quieres, si tú quieres, digamos, este basado también en el desarrollo que tú tienes, como desarrollador, como desarrollador usualmente le agregamos cositas, no a un programa, le alegramos nuestras cositas para que mejore, no es nuestra creación y queremos que sea, pues uf.
+Que tenga este más testes, pero en teoría esta es la base de tu programa ya.
+También creo que la lago 3 para que ustedes lo puedan ya si de si quieren ya si quieren revisar de qué se trata.
+Yeah.
+Para que ustedes ya puedan estar al tanto también ya lo abrí para que ustedes puedan al tanto también este y puedan estar preparados para ese proyecto. Ya acabo de habilitar ese proyecto 101 para que lo puedan ver.
+Bien, entonces de eso se trata lo que sería ese.
+Ese último proyecto que vamos a hacer bien, chicos.
+Dicho esto.
+Dicho esto, ahora sí vamos a.
+Acosar lo que sería parte del este.
+Pero estoy ahí, a ver, mensajes nuevos, entiendo, gracias, okey.
+Ay, perdón, se me escucha bien.
+A ver, por favor me confirman si ahorita se me escucha bien.
+A ver, ahora sí, genial, gracias Carlos, gracias April. Bien, muchas gracias. A ver, chicos, no sé si todos hemos entregado hoy día. A ver, chicos, una última aclaración antes de continuar, los que todavía no han entregado su proyecto número 2, por favor, informeme, ya no hay problema, se les va a considerar tal vez con.
+Una nota menor ya no sobre no sobre el 100, pero se lo va a considerar, pero por favor sí les pido que me avisen. Vale, este más que nada porque es una, es un paso. Como comenté, es un paso para ustedes que hagan este proyecto número 2, no por este entregarlo al bootcamp, sino por ustedes. porque.
+Van a tener que interactuar con la IA. Entonces tómense este proyecto como parte de su carrera como programadores de su carrera en este lo que sería el desarrollo. No véanlo así como una práctica y ustedes me avisan cualquier cosa, si tienen algún problema ahí, si no pudieron entender, me avisan chicos y yo normal.
+Los guiones aparte bien, dicho esto, ahora sí vamos a continuar porque voy a pasar con esta pregunta.
+Si tuvieras que explicarle ya a una computadora ya o a alguien ya cómo preparar un café, alguien que no sabe ya que no tiene idea.
+¿Cómo preparar un café? ¿Qué lista de pasos tú le darías? Lista de pasos ya en orden, por favor. Lo que quiero que aquí me des es la lista, es el paso siguiente. Ya yo, por ejemplo, a ver, voy a poner acá primero hervir el agua en una tetera. ¿Cuál creen que sería el segundo paso? A ver.
+No hay cafetera, chicos, no es cafetera. Ya voy a ser específico, no cafetera, porque yo nunca he usado una cafetera en mi vida, así que no sabría cómo poner. Por ejemplo, no sabía cómo guiar y decir, hey, para cafetera, haz lo siguiente, no lo sé, vamos a poner como de manera tradicional, tienes tu, no sé, tienes tu vaso.
+Tu vaso le echas el café, le echas el este, le echas azúcar, no ya. ¿Cuál creen que se viene el segundo paso para preparar un café? Si el primero es hervir el agua.
+¿Cuál creen que sería el segundo paso?
+Lista de tareas, lista de pasos para preparar un café.
+O sea, bajar acá.
+Lista de pasos para preparar un cafecito.
+Es curioso porque yo no soy fan del café.
+Pero sí he visto a mi mamá prepararlo, así que acá sí voy a tener algo de acá. Creo que yo también les preguntaría, a ver, sería la cantidad deseada en una taza ya, pero hay que ser específicos, falta poner la taza, cierto, llenar el agua en la tetera una vez llena la tetera, poner en la cocina, sí.
+Recuerda que es la computadora ya y la computadora.
+Vamos a ver que también necesitas ser específico ya porque ahorita lo vemos, pero necesitamos ser específicos, claros con la computadora. Tú le dices hervir el agua en una tetera y tal vez este no sé, a ver poner.
+El agua en una tetera más específicos por 10 minutos ya.
+Ya por 10 minutos, listo, súper específico ya.
+Listo, a ver, servir la cantidad de cero en una taza, llenar el agua en la tetera. Ajá, y hay que saltarnos el llenar el agua en la tetera, pero ya está bien, paso cero ya paso cero.
+Para su ser.
+También hay que limitar qué tan específicos somos, por favor, porque no nos vayamos hasta atrás, es decir, comprar el café, llenar el agua en una tetera, no en la tetera.
+Yeah.
+Agua limpia, voy a poner para no, ya creo que ahí ya basta llenar el agua en la tetera. unos.
+2 vasos, ya unos 2 vasos.
+Unos 2, unos 2 vasos, ya ahí listo.
+Vertir el agua en una taza, disfrutar o k o k este a ver una vez hervido el agua, vamos a leer chicos, llevan a la tetera, una vez llena la tetera, poner en la cocina, prender la cocina, vertir el agua en una taza. Sí, vamos a poner la taza ya chicos, vamos a poner la taza.
+Poner agua una tetera por 10 minutos.
+Prender la cocina, no, pero es que ponerle agua una tetera por 10 minutos ya involucra prender la cocina, ¿no? A ver.
+Colocar la taza.
+La taza sobre la mesa ya porque la taza se usa para servir, ya vamos a colocar la taza sobre la mesa.
+¿Que me dicen chicos? A ver, si ves, prende la cocina, es que ajá, poner el agua en una tetera por 10 minutos. Creo que acá, a ver, poner el agua en una tetera por 10 minutos. Acá es poner el agua en una tetera sobre la cocina. Ya acá recién vamos a poner encender la cocina.
+Y hervir.
+Por 10 minutos, ajá, ahí está, ven, ahora sí.
+Acá sería alistar la tasa.
+Alistar la tasa.
+Y colocarla sobre la mesa, ya colocarla sobre la mesa. Bien, ver, poner un cuchara, vertir el agua. Ajá, exacto, a ver.
+Toma este.
+Abre el café, ya abre el café, lo que sea, sea sobre, sea tarro, abre el café y vierte 2 cucharadas.
+Sobre chicos, si me faltan algunos pasos, me avisan, por favor.
+Yo estoy suponiendo que preparar café es como prepararte, no sé, un Milo, así que abrir café y vierte 2 cucharadas sobre natas.
+Ya algunos usarán 5 bien cargados, no sé ya acá normal, eso no importa. Lo importante es que preparemos café ya.
+Ajá, gracias, Carlos, sí, hay algunas, pero a ver.
+Este hay que sobre nosotros lo sobre entendemos porque somos humanos. Lo que pasa es que la computadora sí necesita ser específico, por eso es que estamos diciendo valores: 10 minutos, 2 vasos, 2 cucharadas. Ya la computadora necesita ser súper específico porque se lo estamos diciendo a la computadora, se lo estamos explicando en la computadora.
+Ya y ustedes también se lo van a explicar mis estimados cuando programen.
+Bien, abre el café y vierte 2 cucharadas sobre la taza.
+Ya y último, ya vamos a hacerlo acá, repito, ya apaga, ya apaga la.
+Apaga la tetera.
+Y este vierte la cantidad.
+Y vierte el agua en el paso sin rebalsa ya.
+Ya hasta ahí, muy bien.
+Acá puede ser la cucharada de azúcar, puede ser antes o después. No hay acá, no, algunos le echan antes, algunos después. Bien, acá creo que no hay tanta, este no.
+Echa, no sé, ya 2 cucharaditas. Yo personalmente no, este no tomo azúcar, no consumo azúcar, pero bueno, en el café creo que es súper amargo y sí lo necesita. 2 cucharaditas de azúcar, ya ahí me han dicho también.
+Ya, pues mover, ya remover.
+Ya 7 remover hasta disolver.
+El café y el azúcar.
+Y ya, pues ahí lo que nos nos comentó este, lo que nos comentó mi estimado Carlos, ya vamos a.
+Toma tu café.
+¿Ya toma del ojo de golpe, no?
+Disfruta, toma el café y disfruta ya.
+Chicos.
+¿Qué tal fue lo suficientemente específico? No tanto tampoco. Ya sí, o sea, me pueden salir hasta 20 pasos, seguro si soy loba, este lo bastante ya, pero se entiende que tendría que ser explícito y además tenía que seguir una serie de pasos para preparar el café. bien.
+Cierto, chicos.
+Okey, entonces.
+¿Qué es lo que pasa? ¿Qué es lo que hicimos aquí, chicos? A ver.
+Bien.
+Esta es la lista de pasos que tendríamos que seguir para.
+Bueno, para preparar un café.
+Ahora.
+¿Por qué hice esto? ¿Por qué creen que hice esto? Por lo siguiente, mis estimados, porque lo que acabamos de hacer aquí juntos.
+Es lo que vamos a hacer en JavaScript. Ya esto tiene un nombre, o sea, construir así una lista de pasos ya para lograr algo es lo que nosotros denominamos.
+En acá.
+Ya.
+Lo que denominamos algoritmo ya un algoritmo.
+¿Es eso, qué es un algoritmo?
+Vamos a bajarla acá, vamos a poner qué es un algoritmo ya es una secuencia.
+Es una secuencia este de instrucciones de pasos.
+Ya de instrucciones de o de pasos.
+Para resolver un problema o para lograr algo, ya este que en este caso, cuál fue tener la taza de café no para resolver un problema.
+O llegar a un resultado, vamos a decir ya que en este caso puedes obtener el café. Bien, esto es un algoritmo, un algoritmo, mis estimados, tiene lo que sería a ver, vamos a poner acá 3 características importantes. La primera es que tiene que ser finita.
+A esta característica se refiere que obviamente tiene que tener un fin, tiene que tener un fin porque si no tienen, si no tiene fin, obviamente nunca acaba tu programa, no nunca acaba lo que sería tu programa, tiene que tener un fin.
+Esa sería una de las características, la segunda.
+Es que tiene que ser ordenada.
+La El orden importa ya la lista tiene que ser secuencial porque el orden importa.
+¿Cómo así? A ver, tú no puedes echar, no sé, a ver, hay pasos que tienen que seguirse sí o sí una antes de otra. Son como que requisitos.
+Ya tú no puedes echar el café si no tienes la taza, ¿dónde la vas a echar? No puedes hacer, tú no puedes alistar la taza y colocarla sobre la mesa. Si este, o sea, perdón, tú no puedes verter las cucharas sobre la taza o verter el agua si no hay taza, si no las has alistado, las has colocado sobre la mesa bien.
+Tienes que tener un orden, el orden importa en tu algoritmo, el orden importa.
+Y lo otro es ya listo y el último es que tiene que ser precisa y acá nos vamos justamente con el término explícito.
+Ya claro, tenemos que ser precisos.
+Por ejemplo.
+No tenemos que ser generales específico, nos referimos justamente con este no dar pasos generales como unos 2, como comentamos, no llenar el agua y la tetera y ya no. ¿Qué cantidad vas a llenar? Encender la cocina y hervir ya, pero por cuánto tiempo, ya cuántas cucharadas de café, cuántas cucharadas de azúcar.
+Eso, entonces a eso se refiere con ser explícito. ¿Por qué? Porque lo va a hacer la computadora, la valer.
+La computadora, o sea, al final la computadora es la que va a ejecutar esos pasos y la computadora, chicos, solamente sigue instrucciones, sigue pasos, no resuelve de por medio. O sea, en el intermedio no es que sigue lo único que tú le dices lo va a seguir, no va a ser algo adicional, no es que va a decir no, pero si tú le dices, por ejemplo, 8 cucharadas.
+Ya no es que la computadora te vaya a dar una opinión y decir no te va a salir muy dulza, le voy a echar 2 nomás, ya no le va a echar las 8 cucharadas ya porque ese fue su orden, ya ese fue lo que dijo tu programa y lo que dice tu programa lo va a hacer.
+Entonces, la computadora o en este caso sí sigue reglas ya computadora móvil, lo que ejecute tu programa sigue las reglas que tú le definas ahí. Por eso tienes que ser preciso y explícito.
+Bien, entonces, pero a ver qué es lo que es un algoritmo. Ya lo comentamos, nosotros, mis estimados, vamos a construir programas. Lo dijimos, cierto, nosotros, el usuario, nosotros.
+Construimos programas, de ahí viene lo que sería el término programación de los programas. ¿Pero qué es un programa? Un programa es sencillamente un algoritmo. Exacto, es un algoritmo, o sea, vamos a construir esto, vamos a construir secuencia de instrucciones.
+¿Ya secuencia de pasos para resolver o resolver algo, no? Por ejemplo, que con el proyecto que vamos a lograr llegar a un resultado, que tenemos que lograr que pueda adivinar el número, que nos pueda dar el número, darle el resultado de si logró o no adivinar. ¿Lo ven? Para eso vamos a construir instrucciones o pasos que le vamos a dar en.
+Usando a ver un algoritmo.
+A ver, un algoritmo es en un lenguaje. A ver, un programa es exactamente. Ya vamos a ver programa, creo que acá me desvié un poco, es un algoritmo.
+Escrito, perdón, vamos a escribirlo, obviamente en un lenguaje.
+Ya es un armonismo escrito en un lenguaje que la computadora.
+¿Va a ejecutar ya o va a realizar?
+Puedes realizar o ejecutar.
+Es así de sencillo, es eso, es un algoritmo que nosotros vamos a escribir en un lenguaje que la computadora va a realizar y ejecutar. ¿Y cuál es ese lenguaje?
+¿Cuál es ese lenguaje?
+¿Ese lenguaje es, efectivamente, lo dijimos al inicio, cierto? ¿Cuál es ese lenguaje que nos permite hablar con los computadoras, chicos?
+Que nos permite hablar y decirle, hey, vas a hacer esto o vas a hacer lo siguiente, a ver, y lo hablé al inicio, a ver, exacto, Kevin, muchas gracias. JavaScript, no. ¿Cuál es el lenguaje? Nos permite este hablar o interactuar con la computadora.
+Es JavaScript.
+Por eso vamos a usar JavaScript, por eso es que ¿Por qué? Porque JavaScript es un lenguaje de programación. Esa es la función, mis estimados de los lenguajes de programación. Nos permiten interactuar con más específicamente con el sistema operativo. Ya un lenguaje de programación es un lenguaje.
+Para que el sistema operativo que está detrás, sea Windows, sea Linux, sea Android, nos entienda, ya nos entienda.
+Es así, o sea, es eso el papel de un lenguaje de programación y nosotros vamos a usar JavaScript para efectivamente darle esa lista de pasos. No va a entender tu español, no va a entender tu idioma. No, nosotros hablamos usando lenguajes de programación.
+Ya listo entonces, dicho esto, mis estimados, ¿alguien tiene alguna pregunta respecto a esto? ¿Todo claro?
+Quedó todo claro el papel que nosotros vamos a tener al usar JavaScript. Quedó claro también qué es JavaScript, un lenguaje de programación.
+¿Ya y nos y qué vamos a usualmente escribir?
+Ver alguna duda con algún concepto, tal vez, por favor.
+Alguna propiedad que no se entendió ya porque nosotros vamos a construir programas, como comente acá, y un programa es esto, no intenté conectar ahí las piezas para al final tener conciencia o tener más o menos claro qué es programar. Ya programar no es tan complicado, mis estimados, es construir simplemente instrucciones.
+Claro, en este cada cada lenguaje de promoción tiene sus reglas. Ya esto tienes que tenerlo claro. Nosotros vamos a ver las reglas de la del lenguaje de promoción JavaScript cada lenguaje.
+Tienes como su sintaxis, hay que decirle así, su sintaxis. Ya nosotros vamos a ver la este, la sintaxis de JavaScript y de cómo construir programas.
+Python tiene su sintaxis, PHP tiene su sintaxis.
+Tiene su sintaxis.
+Y reglas, así como lo vimos en HTML, también tenía sus reglas, cierto, nombres, etiquetas en CCC, también aquí lo vamos a ver con este JavaScript. Bien, todo Carlos, Carlos, todo claro, Carlos, perdón, confundí términos, todo claro, chicos, para poder continuar.
+Go back.
+Bien, Yael me confirma, listo, listo, entonces si está todo claro.
+Si está todo claro, vamos a pasar a lo siguiente.
+Bing.
+Ahora, si ya sabemos qué es JavaScript que vamos a programar, cómo lo integramos en nuestro proyecto o cómo escribimos JavaScript.
+Más que formas de escribir es dónde escribir, chicos. Si ustedes recuerdan CSS, habían formas de vamos a poner acá formas de integrar ya de integrar JavaScript en HTML, ya porque ya tenemos como que digamos, ya tenemos un documento de HTML, cierto.
+Tenemos un documento de HTML.
+Tenemos un documento de.
+SS.
+¿Y ahora qué es lo que vamos a hacer? Tenemos que integrar JavaScript. ¿Cómo lo hacemos? Existen 2 formas y quiero que vinculen esa similitud con CCS. Si ustedes recuerdan el CCS, teníamos que habían 2 formas, cierto que está dentro del HTML o como un archivo externo.
+Lo mismo es como JavaScript, ya podemos integrarlo dentro del HTML o podemos crearlo como un archivo externo. ¿Cómo lo hacemos dentro del HTML? Sencillo, para integrarlo dentro del HTML usamos la etiqueta una etiqueta nueva, mis estimados.
+Etiqueta, aquí entra la etiqueta script con la etiqueta script.
+Se crea, se bueno, se ejecuta, digamos.
+Código JavaScript en HTML. Vamos a ver la sintaxis.
+Yeah, in Texas.
+Vamos a aumentar esto ya listo *****, ya la sintaxis es así.
+Etiqueta JavaScript, así se abre una etiqueta, así se cierra una etiqueta.
+Igualá, ya tienes el como que el área para escribir aquí dentro.
+Aquí dentro, pones tu código, ya ves.
+Ya pones tu código JavaScript, así de sencillo, mi estimado, es así.
+Bien.
+Esa sería la forma de colocar dentro del HTM. ¿Y cómo se hace con un archivo externo? Un archivo externo. Primero tienes que crear un archivo, ya creas un archivo externo en JavaScript. ¿Cómo es la sintaxis del nombre?
+A ver cómo es la sintaxis del nombre así.
+Es súper sencillo, tú pones nombre, punto JavaScript y ya, o sea, el nombre que va a tener tu archivo, no el nombre del archivo, nombre de archivo.
+Punto JavaScript, nada más. Eso sí es sencillo, punto JS, en este caso JS. Con eso creaste lo que sería tu archivo de JavaScript, formato JavaScript en HTLM vimos que era punto HTML y en cc punto CSS en JavaScript va a ser así.
+¿Pero cómo vinculamos ese archivo?
+No sin CSS, creamos un archivo aparte para vincularlo con la etiqueta links. Si lo recuerda, ¿cómo hacemos que ahora este archivo de acá se vincule a lo que sería mi archivo HTML? O sea, que el archivo sepa que existe un archivo. Ya ves que ¿cómo se hace eso?
+Super fácil, es lo mismo, mi estimado, lo mismo.
+Usamos la etiqueta script. La etiqueta script funciona en ambos casos, tanto dentro de HTML o fuera, pero fuera perdón o como archivo externo, pero fuera va a tener otro este, vamos a copiarlo ya.
+Va a tener, vamos a usar un atributo adicional que ya el script continúa ya, pero aquí adentro no vamos a escribir nada. Solamente acá no se escribe nada porque ahora el código va a estar conviviendo afuera, cierto, el código va a estar aquí.
+El código estará en el archivo.
+En el JS, así le llamamos o también a veces la llamamos script, ya va a estar ahí. Entonces, ¿qué usamos si ya nos podemos escribir aquí? Vamos a usar una propiedad que nosotros conocemos de otro elemento, CRC. ¿Lo recuerdan? ¿Recuerdan esta propiedad? Estimado este atributo, a ver quién es.
+¿Quién nos recuerda CRC?
+Carlos García, a mí me costó aprender JavaScript, imagino por lo que noto.
+Yael, pero ¿qué es? A ver, CRC, ¿quién no lo recuerda? ¿Pero de dónde viene? A ver, si lo recuerdas, coméntame Yael, a ver de dónde viene esa propiedad, porque lo hemos visto en otro elemento.
+¿De dónde viene CRC?
+Dimache, ajá, de HTML para naces, no, Carlos, HTML recuerda que era HRC.
+HTML es HRF. Ajá, exacto, Yael. Efectivamente, CRC viene de lo que sería, lo hemos visto o.
+Lo vimos en imágenes, qué hacía en imágenes, estimados.
+¿Y Maganes, esto qué hacía? A ver, qué hacía la etiqueta C, perdón, la etiqueta, no, ahí puse incluso CRCCR. Ay, madre mía, este qué hacía esa etiqueta, voy a eliminarlo ya.
+¿Qué hacía esa etiqueta? Perdón, esa propiedad, ese atributo ya me confundo propiedad porque propiedades en CS es que asistía ese tributo CRC en imágenes a ver qué les permitía hacer.
+A ver, quién me responde esa pregunta, ubicar el archivo. Ángel me dice ubicar el archivo, ahí ya ya él, perdón, me dice ubicar el archivo, ahí Ángel es la ruta de la imagen. Efectivamente, nos permite en términos más precisos vincular, cierto, vincular esa etiqueta con la imagen que queremos mostrar.
+Correcto, ahí ahí adentro que colocamos la ruta de la imagen, cierto que en este caso era una ruta local, si la imagen estaba dentro de tu proyecto o una ruta externa, no si la imagen estaba en Internet, el mismo funcionamiento va a tener en script ya.
+Pero no vas a conectar una imagen, que vas a conectar un archivo de JavaScript. Acá tienes que poner la ruta de tu archivo JavaScript. Es así y con esto CRCC, perdón, JavaScript y HTML van a estar conectados. Bien, es así de sencillo. CRC es.
+Poner la ruta de tu archivo Java Script, o sea, dónde está. Ya creo que sí vimos el concepto de cómo poner rutas si están localmente. Lo vamos a ver otra vez, no se preocupen, pero vamos a repasar eso bien, pero vamos a verlo mejor en la práctica.
+Vamos a verlo mejor en la práctica, porque aún hay una regla fundamental que nos falta mencionar. ¿Y esas reglas dónde lo ubicamos? Ya tú me dijiste Script, porque dónde está ubicado es muy importante.
+Muy bien, ¿dónde lo ubicamos? Perfecto.
+A ver, yo tengo aquí esto es un este un proyecto prueba, no se preocupen.
+Pero lo que hice, a ver, tiene 2 formas, no, aquí yo sé con CRS.
+Esta es una forma, mis estimados.
+Esa es la primera forma, tú pones la etiqueta script, obviamente apertura y cierras y.
+Fíjense en esto nomás.
+Esto espero que no los distraiga, pero fíjese en esto aquí adentro tú puedes poner el código. Ya se comenta en JavaScript con sería. Esto sería como si fuera tu área para escribir el código de JavaScript que te vamos a enseñar. Esto sería como tu área. Acá puedes escribir todo lo que quieras. Ya se comenta usualmente con doble barra.
+Ya doble barra diagonal con eso se comenta, es un comentario dentro de llaves que.
+Bien, pero nosotros no vamos a usar esto, nosotros vamos a usar.
+Vamos a usar un archivo externo porque.
+¿Por qué creen que sería mejor usar un archivo externo en lugar de meter todo el código adentro?
+¿Por qué esa ventaja mis estimados?
+¿Por qué usar esta segunda forma?
+Sobre la primera.
+¿Por qué prefiero un archivo externo que dentro del HTM?
+A ver qué ventajas me da tener un archivo externo que tener dentro del HTML en este momento.
+¿Qué ventajas me da tener mi código solo en un archivo fuera que tener mi código dentro de HTML? Es una la misma ventaja que vimos con los con CCSY el archivo que creamos. A ver, ahí me han respondido.
+Bien, evita código espagueti. Sí, muy bien, Yael, también evita código espagueti. ¿Por qué? Pero por una razón, evita código espagueti. Más orden, sí, más orden, orden, sí, orden, pero específicamente por una cosa, mis estimados ya.
+Saber.
+Esa es la razón y eso lleva justamente a las consecuencias que comentaron, es separación de responsabilidades.
+Ya separación de responsabilidades, es decir, cada archivo va a tener su responsabilidad. Yo no quiero que haya código en HTML de JavaScript porque HTML solamente tiene que tener código HTML que me permite, no sé, ver este cómo coloca los elementos, etcétera.
+No CSS, el archivo CSS es un archivo únicamente de estilos y el archivo JavaScript es un archivo de instrucciones, de programación, de códigos de programación. Cada uno tiene su responsabilidad y no lo voy a combinar porque si lo combino voy a tener una cantidad, no sé, una barbaridad de código este solamente en HTML.
+Cierto que puede llegar hasta 1000 líneas o como tú lo llamas, evitar un posible código espagueti. Ya exacto, porque es difícil de leer. Se puede enredar tener código CSS, tener código HTML, tener código JavaScript dentro de un solo archivo. Bien, si este si separo responsabilidades y creo únicamente un archivo externo JavaScript.
+A este Ahí solamente va a tener código de JavaScript, no de HTML ni CSY, obviamente, en respectiva, va a tener más orden más orden.
+Ya porque aquí tú vas a poder ordenar tu código de JavaScript, aquí vas a poder ordenar tu código de HTML. Bien, entonces, dicho esto, ¿qué es lo que pasa?
+Pasa lo siguiente, ya este míreme que me echo ya como yo enruto un código con CRC.
+Bien, y yo le doy el nombre efectivamente de el archivo, que en este caso es ahí me lo está dando, ¿no?
+Recuerden cómo verifico si efectivamente se conectó correctamente al presiono control, le doy clic y wala, me lleva a ese archivo que yo he creado que es este de aquí. Vean como acá he creado un punto JavaScript, ahorita vamos a crear ustedes mismos van a crear uno, no se preocupen, solo vean cómo doy el ejemplo.
+Porque acá quiero dejar importante algo.
+Esta es una regla, mis estimados, que quiero que tengan muy en cuenta ya.
+Porque es necesario ahora que vamos a usar script o por sí, la etiqueta script, la ubicación.
+La ubicación es muy importante, ya voy a ponerlo con rojo.
+Ubicación.
+¿Dónde se ubica la etiqueta este la etiqueta script? ¿Ya dónde se ubica? Si aquí en head se ubicaba la etiqueta para CSS, recuerdan link ya dónde se ubica, dónde le voy a colocar script y por qué.
+Script en donde tú vincules, tiene que estar siempre, siempre justo debajo de body, mis estimados, justo aquí ya graba, por favor, recuerda eso ya.
+Justo por encima de la donde se cierra el body ya.
+Siempre tiene que estar justo por encima de donde se cierra.
+O sea, justo encima de.
+Esto acá.
+¿Por qué? ¿Por qué justo ahí el profe? ¿Por qué tiene que estar ahí? ¿Por qué no puede estar acá, por ejemplo?
+¿Por qué? Por una razón, mis estimados, recuerdan que cuando les comenté HTML, el navegador entra, lo lee secuencialmente. Cierto, el navegador lee de arriba a abajo. Cierto, si recordamos eso, bien, esto es muy importante.
+Porque obviamente el navegador va a leer primero esto, luego esto y luego tu etiqueta script porque está al final. ¿Qué pasa, mis estimados? Que nosotros con JavaScript usualmente vamos a interactuar, o sea, vamos con JavaScript, vamos como que a ver.
+Vamos que a cómo le decimos, vamos a modificar esos elementos.
+Ya vamos a modificar esos elementos o hay esa posibilidad de nosotros hacer referencia a estos elementos que tiene HTML. Bien, vamos a hacer referencia con este con tu código JavaScript. O sea, tú puedes acceder a tu, por ejemplo, puedes acceder.
+A un título y le puedes cambiar el título en vivo. Sí puedes hacer eso, puedes entrar al título y cambiar este, digamos, el usuario hace un clic y te cambia el título a práctica clase de JavaScript. Le diste un clic ya o claro, este eso.
+¿No? ¿Por qué digo esto? Porque pasa que si tú pones tu script arriba, mira cómo es cómo sucede esto. Sucede lo siguiente, cómo lo lees secuencialmente y sabemos que JavaScript puede hacer referencia a lo que sería tu código este de HTML.
+Primero tiene que pasar sí o sí, tiene que renderizarse, pues tiene que dibujarse tu código HTML. ¿Cómo tu JavaScript va a cambiar el título si no hay título? Cierto, si tú pones así, si tú pones esto arriba y acá dentro de tu archivo, ya se y acá dentro de tu archivo.
+Tú referencias al H uno le dices cambia de cambia de valor o cambia de contenido. ¿Cómo lo va a hacer si primero va a leer tu script? Va a leer acá dice, hey, tú me dices cambia de valor a mi título, pero no hay título. ¿Por qué? Porque está en script, o sea, me entienden acá el orden importa, es como decir.
+A ver, tú primero montas la moto o primero construyes la moto. Pues no sé, tú primero bebes el café o primero preparas el café. Primero tienes que preparar el café, cierto, antes de este tomártelo aquí. Primero tienes que renderizar el HTML, o sea, primero tienes que dibujar.
+Los elementos HTML y luego ya vas a poder, no sé, cambiar comportamientos ahí.
+Ya cambiar comportamientos ahí es eso. Por eso es que se pone justo debajo, se pone porque justo debajo del body, porque aquí antes ya estamos seguros de que se ha dibujado todos los elementos, mis estimados, como ya estamos seguros hasta aquí de que se ha dibujado todo.
+O K, ya puedo, ya puedo, ahora sí, ejecutar código JavaScript porque posiblemente esté haciendo referencia a uno de sus componentes.
+Ya acá voy a poner acá primero.
+Se dibuja los elementos de HTML y segundo.
+Se interactúa con esos elementos.
+Lo vamos a ver en la case 3 cómo se interactúan con esos elementos ya con esos elementos usando llaves que se pueden cambiar comportamientos. Por ejemplo, aquí ha hecho eso en realidad, ya aquí ha cambiado el comportamiento de.
+Del icono al darle clic.
+Ya esto es un elemento JavaScript.
+Ese es un elemento javascript y acá cambia el comportamiento. Mire este elemento icono se veía en blanco.
+JavaScript por atrás le ha dicho, cuando yo presione sobre este icono quiero que me lo pintes a *****. Ya primero se ha dibujado el icono, no es que primero haya sucedido píntame a ***** o la acción, no. Primero se dibujo el icono y ahora sí, tú recién vas a poder interactuar y obviamente pasa esa acción, ¿lo ves?
+Se modifican usualmente, se cambian los comportamientos de los elementos. Eso es interactividad, mis estimados, y esto tienen que ser el orden.
+Se ponen acá razón.
+Se quedó claro en por qué tenemos que ubicarlo, mis estimados, tenemos que ubicar efectivamente el debajo.
+Justo debajo del body.
+A ver, me confirman eso, por favor, si quedó claro eso, porque eso es vital. Ya me dice correcto, muy bien, gracias.
+Para pasar a lo que sería el laboratorio, porque.
+Hoy tenemos que hacer el laboratorio juntos. Kevin me dice todo, okay, perfecto, perfecto. Si quedó claro entonces eso, vayan a su laboratorio estimados, porque la idea de hoy es súper sencillo, súper relax, súper chill. Vamos a hacer el laboratorio juntos, vamos a hacer el laboratorio juntos.
+Y a ver Visual Studio Co ya lo repito, ya lo tenemos, tenemos Visual Studio Co, Blade Server, Google Chrome, ya no pasa nada.
+¿Qué es lo que tenemos que hacer en laboratorio? Vamos a hacer la parte uno, que es súper sencillo, que ustedes ya lo conocen, ya vamos a crear.
+Vamos a crear el proyecto ya el proyecto, el proyecto, no, el proyecto sí de este laboratorio se llama Guess Number.
+Ya se llama Guest Number y vamos a crearlo.
+Hagámoslo de esta forma, estimados, ya acá lo que nos dice es clonar. Para clonarlo necesitamos un repositorio, vayan a su repositorio, vayan a su, vayan a su GitHub, todos a su GitHub, por favor, y creen un nuevo repositorio con ese nombre.
+Vayamos a nuestro GitHub y creen un proyecto con ese nombre. Por favor, yo lo estoy copiando aquí. Lo demás no es necesario que lo toquen, todo bien y lo crean.
+Ya luego, una vez hayan hecho esto, vamos a clonar cómo se clona.
+¿A ver qué me ha dado? Sí, necesitamos esto, el enlace para clonarlo, cierto, copiemos este enlace que nos dio para clonación.
+Copiamos este enlace que nos dio para Club nació, que no tiene, no tiene contacto, es muy estrés.
+Bueno, lo dijo.
+Sí, estamos siguiendo el paso tal porque hay distintas formas, pero vamos a hacer ya copiamos ese enlace, vamos a la carpeta donde están nuestros proyectos. Ahí me han respondido, chicos.
+O K John, gracias. Estamos creando ya el proyecto donde vamos a trabajar. Vamos a nuestra carpeta que el mío en realidad está en disco C tiende. Aquí lo voy a pegar, voy a abrir acá git bash.
+Voy a abrir Git Bash aquí, abran ustedes Git Bash donde vayan, donde quieren que esté su carpeta de proyecto ya.
+Y aquí vamos a ejecutar el git clone.
+Git Cloud y pegamos ese el pegamos el link del repositorio para traerlo ya para traerlo.
+Nada más que eso, mis estimados, lo va a clonar y estamos trayendo el repositorio de remoto a local. Ya tenemos esa carpeta de proyecto, acá lo han creado.
+Bien, hasta ahí. ¿Cómo estamos, chicos? ¿Cómo estamos hasta ahí? Por favor, están siguiendo hasta ahí. ¿Cómo estamos?
+Tienen ya la ya lograron crear repositorio y ya lo clonaron en su este.
+Recuerde, es Git Cloud.
+Genial, genial, perfecto.
+Sí, o K, perfecto, no te preocupes. Bien, ve a tu GitHub, por favor, A pri, ve a tu GitHub.
+Ya y ándate acá, enfócate aquí en este.
+Crea un repositorio, ¿cómo se crea un repositorio? Te das aquí en el link de más.
+Colin Menores.
+Injustos.
+Ya aquí le das a nuevo repositorio, ahí te va a salir este formulario, te va a salir este formulario y tú le pones el nombre que te indica en tu laboratorio, que es esto de aquí ya guest number JS.
+Le pones esto de acá acá y lo creas, le das a crear repositorio, hasta ahí ya tienes tu repositorio.
+Bien, creas, hasta ahí tienes tu repositorio, voy a ver acá, o sea, tendrías que estar así.
+¿O sea, este sería tu repositorio, ves tu nombre?
+Sí, está un poco lento, ya acá tendría que salir tu nombre, o sea, este el nombre de repositorio y bueno, tu foto de perfil en este caso. Pero eso lo que tienes que hacer ahora es copiar el link, copias el link. Esto es importante porque necesitas el link para clonarlo, lo copias, te vas a donde quieres que se cree esa carpeta. de.
+Donde quieres este clonarlo, o sea, traer tu carpeta, traer tu carpeta Guest Number JS donde lo quieres traer y ahí abres git bash.
+Y haces lo siguiente, git plum, copias la URL past.
+Lo ejecutas una vez tú lo ejecutas, te va a traer efectivamente esa carpeta ahí a tu está tu proyecto. Bien, esos son los únicos pasos que tienes que hacer.
+Ya listo, ya entonces si hasta aquí estamos, chicos, continuamos, ya traemos los ya creamos y clonamos. Ahora ejecutemos esto en Visual Studio Code.
+Ustedes pueden abrir directo el o sea, hay varias formas o k yo voy a hacerla así.
+Sí, voy a ver, voy a explicar LS para mostrar las carpetas que tiene.
+Listo, voy a hacer CD.
+Que estoy usando este comandos que les mostramos.
+LS para mostrar la lista y CD para viajar ahí.
+Listo, ya estoy.
+Hasta 3 micro ya. Bueno, listo, ya estoy en la carpeta, acá se visualiza. Efectivamente me sale la información de que estoy en esa carpeta, incluso está inicializado, si lo ven, o sea, Git ya tiene como que ya está rastreando esa carpeta, ya es un repositorio y acá voy a ejecutar code punto. Ya automáticamente me tiene que abrir a las.
+Escribir code automáticamente me va a venir esa carpeta en el proyecto.
+Bien, abran esa carpeta en su proyecto, por favor, ya sea usando Git o directamente este dentro Visual Studio Code, aquí file open folder y acá abren esa carpeta de proyecto que se creó.
+Ya si no pudieron abren los de acá, no hay problema, le dan a esto y la selecciono.
+¿Aquí qué es lo que vamos a hacer?
+Vamos a hacer lo que indica acá efectivamente vamos a crear un index HTML.
+Esto es súper fácil, le damos a nuevo archivo index.htm
+Yeah.
+Está creando el Index HTML, ya me lo creó.
+Y esto de acá simplemente copien acá. Esto no hay necesidad de explicarlo, mi estimado, esto es código HTML que lo vimos, lo copian y lo ponen en su index. Ya ese código está en su laboratorio. Acá vemos que tiene un título, adivina el número h uno, mi primer programa en JavaScript.
+Y acá vean abajo que dice un comentario en HTML que dice: conecta tu archivo ya escrita aquí. Recuerda, la etiqueta script va antes de cerrar body, como les comenté, ven.
+Ese sería simplemente el.
+If.
+Y vamos a crear un JavaScript. ¿Cómo se crea un JavaScript? Ya lo comentamos.
+Aquí vamos a crear un chasque cómo se creaba el nombre.
+En este caso me está proponiendo el laboratorio que se llame script punto Java punto Js. Así se crea un archivo Java Script. Ya lo tienes cuando te sale un indicador de Js ya lo has creado correctamente.
+Cuando te sale ese indicador JS lo has creado correctamente, mi estimado. Si no, por favor, fíjate el nombre porque posiblemente hayas dado un símbolo de más, un JS no exacto. Fíjate eso ya, pero tiene que salirte un Java es un JS ya un indicador de que es un archivo de JavaScript.
+Dicho esto.
+Dicho esto, ahora sí vamos a conectarlo.
+¿Dónde se conecta? Se conecta justo antes del body, como comentamos, perdón, antes de cerrar el body, usamos la etiqueta script. Sí, listo, ya la abrimos y aquí vamos a usar la propiedad CRC. Aquí dentro vamos a vincular nuestra, vamos a vincular nuestro archivo JavaScript.
+Con el HTML le pusimos la ruta y debería estar, lo verificamos, presionamos control, tiene que salir como que una manita del al pasar el cursor por ese JavaScript le damos el click y nos manda ese click ya ves, entonces conectamos con éxito.
+Bien, hasta aquí tendrían que haber estado con el 1.2 y incluso pongan esto, miren este ahí les da un código que ahorita les voy a explicar qué es, pero pónganlo.
+Mejor lo vamos a probar después, pero hasta que me han seguido, por favor, ya tienen su HTML y su JavaScript creados, a ver.
+Lo voy a cerrar ya, ya lo tienen estimados equipo.
+Ver, me confirman, ya tienen el JavaScript.
+Bien, Kevin, gracias.
+Los demás, gracias, Carlos, también lo tiene.
+Ya tienen el Ya tienen los archivos de HTML y JavaScript creados y también tienen su JavaScript conectados.
+Ahí les voy a dar un tiempito, chicos, de unos minutitos, voy a.
+Puede tener algo 1 minuto, chicos, 1 minuto conectados a John, conéctalo, por favor, conéctalo. Recuerda, conectar es lo siguiente, ya tienes que colocar esto justo debajo de tu body.
+Ya si tú, obviamente tu JavaScript se tuvo que haber llamado Script JS, o sea, Script punto JavaScript. Ya ahí en el CRS va el nombre de tu archivo JavaScript. Cuando tú colocas eso justo donde está el body, aquí indica que ya está conectado exitosamente.
+Ya te imagino.
+Entonces.
+Pink.
+Ya estoy aquí, ahora sí lo pudieron comer, ya podemos continuar.
+Alamos.
+Listos.
+Creo que sí, cierto, estamos.
+Perfecto, yo bien, los demás, por favor, espero que esté porque voy a continuar muy bien.
+Pues muy bien, ahora lo que vamos a hacer, estimados ahí.
+Yeah, yes.
+Ya vamos, disculpe, creo que se me había ido el Internet.
+A ver, sí, creo que sí me escuche, vamos a continuar.
+Ya hasta aquí, mis estimados, ya tenemos todo el entorno listo para poder programar aquí, efectivamente, y si se dan cuenta, el laboratorio nos ha propuesto una línea de código, cierto, console log, hola, bueno, console log ya hola desde JavaScript. ¿Qué es lo que pasa? Vamos a ver primero este código a partir de aquí, mi estimados.
+Ya vamos a ver las instrucciones o las reglas o las sintaxis que tienen JavaScript. Ya dejemos de aquí lo visual, no vamos a construir una interfaz, no vamos a añadir estilos, vamos a programar. Bien, pasamos con console. log. ¿Dónde está mi? Voy a cerrar esto.
+Carpetas necesarias, pasamos con console.log es este elemento K. ¿Qué es consolelog? Consolelog, mis estimados, ya es una función.
+Que nos ofrece el navegador.
+Es una función que nos ofrece el navegador.
+¿Pero tú dirás, OK, pero qué es una función?
+A ver qué es una función, un término importantísimo. Ya una función es este, ¿cómo le llamaríamos? Es un bloque, o sea, es algoritmo mis estimados, es ese algoritmo, o sea, es un bloque de instrucciones construido ya que realiza una tarea específica.
+Ya vamos a ponerlas, es un bloque de instrucciones que realiza.
+Una tarea específica es como en realidad es un algoritmo, ya es un algoritmo, pero ya es un conjunto de algoritmos que realiza una tarea específica. Pongámoslo, por ejemplo, una máquina expendedora. Ya en una máquina expendedora tú pones tu dinero, cierto, le das un dato. le.
+Pones tu dinero, le pones, le das información, tu dinero, pones tu dinero y la máquina expendedora hace algo por detrás. Cierto, tú tal vez no lo ves el mecanismo de atrás, pero este hace un proceso. ¿Y cuál es el resultado? Te da el producto que tú has este escogido. Una función es casi igual.
+Ya tú le vas a dar una, tú le vas a dar algo, un elemento, o sea, le vas a dar valores, ya le vas a dar información, vamos a ponerle así, información que va a ser datos, etcétera, tu nombre, tu edad, por ejemplo, y dentro en la función va a realizar algo, un procesamiento, o sea, instrucciones que tienen detrás.
+Y va a realizar una tarea en específica, te va a retornar, te va posiblemente.
+Va a este retornar un resultado porque no todas las funciones retornan un resultado, pero sí todas las funciones realizan una tarea específica.
+Ya todas tienen una razón, que es una tarea específica, a partir de que de tal vez la información que tú le has dado.
+Bien, entonces una función es eso. Nosotros ahora nosotros podemos crear funciones. Sí, podemos crear funciones y lo vamos a hacer, pero en el la clase 3. Pero hay funciones que ya existen y que el navegador nos la da. Hay funciones que sí existen y justamente consolog es una de esas funciones que nos da el navegador.
+¿Y qué vamos a usar?
+¿Cuál es la tarea específica de esta función? A ver, ¿cuál es la tarea de esta función?
+¿Tú te preguntarás, okey, si es una función, cuál es su tarea? Su tarea es la siguiente, estimado desarrollador, voy a ponerlo cortito.
+A ver esta función.
+Le ordena, le ordena a la computadora.
+A escribir.
+Un mensaje en la consola, esa es su función, ya lo ordena la computadora a escribir un mensaje en la consola.
+Acá hay múltiples preguntas, o k ya sabemos que es una función, pero.
+Escribir un mensaje, cuál mensaje, dónde va ese mensaje, ese mensaje, mi estimado Baki.
+Aquí en el paréntesis va el mensaje que tú quieres escribir.
+Ya el mensaje que tú quieres escribir va, o sea.
+Ya mensaje que tú quieres escribir va aquí entre paréntesis, ya esto acá mensaje.
+Ojo, va aquí entre paréntesis.
+¿Y la consola, cuál consola?
+¿A qué te refieres con consola específicamente? ¿Dónde? O sea, a ver, consola no es esta pantalla que tú vas a ver aquí, mi estimado, no, esta no es consola. Ya vamos a ejecutar efectivamente este programa, vamos a ejecutarlo.
+Ya aquí hemos escrito ese programa console.log adentro, vean, a ver ya consola, ¿dónde está? Muy bien, acá hemos escrito consolelog y hemos querido mostrar, le hemos dicho al a la computadora, le hemos dicho, hey, estoy ejecutando consolelog y adentro te estoy dando un mensaje.
+Ya.
+El texto, mis estimados, el texto siempre va entre comillas dobles, ya por eso es que está usando aquí entre comillas dobles. Nosotros sabemos que es texto, no que es contenido textual, letras, etcétera. No, el texto en JavaScript se manda entre comillas, por eso es que yo estoy poniendo aquí las comillas y adentro estoy poniendo un texto.
+Yo le estoy diciendo hola desde JavaScript.
+Ya y el punto y coma para cerrar una línea.
+Esto debería mostrarse, pero yo he ejecutado este programa.
+Que está aquí, vean que se llama mi primer programa en JavaScript.
+Aquí yo no sé.
+Voy a cerrar esto.
+Ya mi primer programa en JavaScript que tiene como título h uno, efectivamente, pero no veo que me esté mostrando dónde está la consola, o sea, dónde está la consola, dónde está este mensaje de aquí. Este mensaje de aquí ya está en la consola, pero ¿dónde se habilita la consola? La consola mis estimados está justamente en la herramienta de desarrolladores.
+¿Recuerdan? Ya vimos esa herramienta. Si van a la herramienta de desarrolladores con F12 lo van a habilitar aquí. Vean, aquí está la consola.
+Justo ahí está el nombre, incluso console. Se los comenté, cierto, recuerdan hace clases que le dije, hey, vamos a usar esta herramienta muy seguido para cuando veamos JavaScript.
+Y efectivamente, lo estamos usando ya. Ahí es donde si visualizan, se está mostrando el mensaje que yo le di: hola desde JavaScript.
+Ya es eso, es simplemente eso. Muy bien, entonces la sintaxis es la siguiente: consolog mensaje y este mensaje se muestra en la consola.
+Ya nosotros vamos a mostrar usualmente no solo mensajes, sino resultados. El La consola nos sirve a nosotros como ese medio de diagnóstico para mostrarse, digamos, alguna instrucción funcionó o no. Vamos a mostrar valores, resultados, muchas cosas con el console log. Es, créanme, se va a volver, se va a volver este una función que lo vamos a dar muy seguido.
+Ya, pero hasta aquí primero recuerden que tenemos que poner el texto entre comillas, si lo ponemos así, vamos a ver, nos va a indicar un error, vea, nos va a indicar un error, tiene que ser texto entre comillas, sea simple o dobles, ya a ustedes les han dado entre comillas simple.
+Ya el texto en JavaScript, o sea, la información textual, lo que nosotros llamamos texto, se representa dentro de comillas, sean simples o dobles. Lo vamos a ver ahorita en tipos de datos porque hay tipos de datos, pero estamos viendo, ya te estoy dando un preámbulo de cómo escribir texto, pero quiero que te enfoques más que nada en.
+¿Para qué se usa Consolojo? Bien, se entendió eso, mis estimados, porque quiero que si se entendió, quiero que le tomen screenshot a esto y lo manden al WhatsApp. Esto es como que el primer mensaje que ustedes están dando desde JavaScript pueden poner, si quieren, no sé, hola mundo, ya hola mundo, yo digo, hola mundo, soy Eric.
+Mándalo así, vean, vean cómo ha cambiado y ya ha cambiado el mensaje. Ya tome el screenshot a eso por favor y mándelo por el WhatsApp. Quiero ver cómo quiero ver su resultado. Ya si tienen consultas, me lo dan.
+John dice sí.
+A ver, si tienen alguna consulta, lo profundizamos, no se preocupen.
+¿Se puede entender ahí?
+¿O K, se puede entender dónde está la consola? ¿Cómo mostramos mensajes en consola? ¿Cuál es la sintaxis de consola?
+Ya porque también podemos mandar números, mis estimados, pero a ver, avance en eso, por favor, podemos mandar números, podemos mandar cualquier tipo de contenido. En realidad no se limita solamente a texto, ya no piensen que siempre vamos a hacer así. 2 este comillas, es una forma simple.
+Bien, pero podemos mandar cualquier tipo de contenido que pueda mostrar a ver cómo vamos, chicos.
+¿Se pudo? Tómele captura a eso, por favor, porque eso involucra la parte número uno. Esta ya con eso ya termino casi terminando la parte uno.
+Todo claro hasta ahí, a ver.
+I'm too.
+Cuatro.
+A ver, me confirmaron.
+Por favor, uy, no tengo mi.
+mi tablet me permite un momento porque yo no tengo me voy a traer mi tablet no no puedo ver cómo está mandando a ver
+Bien, ya volví, ahora sí, ya puedo chequear justamente cómo están mandando esos resultados.
+Genial.
+Bien, este más bien que no comentan si tienen dudas, por favor, si tienen problemas.
+A ver, me comentan si tienen alguna duda o algún problema.
+Ya porque vamos a pasar a otro concepto.
+Chicos, algo importante ya JavaScript, al igual que CSS Index en JavaScript, también el código es secuencial, es decir, lo va a leer, se va a ejecutar de arriba a abajo.
+Ya, así que aquí el orden importa se va a ejecutar de arriba a abajo. Si yo pongo ejemplo, pongo otro console log.
+Aquí.
+Y acá pongo, no sé.
+Este es otro saludo, ya vean el orden de ejecución, ya este es otro saludo y aquí no sé qué pones acá. Hola mamá, salgo en la tele, no sé, pero mamá, estoy en la tele, estoy en la compu ya.
+Muy bien, vean el orden de ejecución, cuál se ejecuta primero.
+Vean como efectivamente se ha ejecutado en ese orden.
+Ya, así que el orden.
+Lee línea por línea, el navegador línea por línea lo ejecuta. El orden es importante, sobre todo en un lenguaje de programación, ya ahorita vamos a ver por qué.
+Y algo más también, no que nosotros podemos poner texto, pero también podemos poner número. Miren, para número no se requiere comillas, por ejemplo, podemos poner 56.
+Ya ponemos 56 y nos va efectivamente a mostrar ese número que lo muestra usualmente con otro color. Ya si quieren poner varios elementos en el console log, se usa lo que es la coma. Miren, vamos a hacer así.
+Con sol log.
+Ya acá pongo texto, miren, se puede combinar a mi edad.
+Yes.
+Ya aquí coma y acá puedo poner otro elemento para este para separar elementos. Ya se pueden poner varios elementos a la vez. Si yo pongo así, vean como efectivamente me lo ha mostrado.
+Por eso digo que podemos poner números, podemos poner texto y vamos a ver que podemos poner variables. Vamos a ver ese término usando la coma, pero hay una forma mucho mejor. Ya no vamos a usar tanto las comas, pero le he mostrado que podemos poner, por ejemplo, mirates y soy mayor.
+Ya ves acá, este el texto le he dado con un espacio para que salga así.
+Para que salga así ya.
+Oswaldo o K Oswaldo, algo fast. Mira, te quedaste en El Paso donde conectaste tu script a lo que sería este al HTML, lo siguiente después de eso de haberlo conectado.
+Es que escribas esto, como comento en tu laboratorio.
+Escribas esto en tu archivo JavaScript, ya escribe en tu archivo JavaScript, en tu laboratorio sale esto.
+Esto escríbelo en ese nuevo archivo que es creado.
+Copia esto por favor y pégalo en este tu archivo JavaScript. Una vez lo hayas copiado y pegado, vete a lo que sería.
+Ejecútalo, perdón, ejecútalo, ejecuta eso ya acá Golly, te va a salir el Golly, recuerdas ese botón para abrir este tu página web en el navegador, ejecútalo, va a abrir tu página web en el navegador ya aquí tiene que indicar como título efectivamente mi primer programa en JavaScript y
+¿Dónde se ubica ese mensaje? ¿Dónde lo vemos? Tú presionas F 12 nada más, no si estás en laptop o en la herramienta de desarrolladores. Ya le das clic derecho, inspeccionar herramienta de desarrolladores, te vas aquí console.
+Ahí es donde se visualiza, esta es la consola, ahí se visualiza los este, los mensajes que nosotros indiquemos con con solo. Ahí tiene que decir hola, este, hola desde JavaScript, te tiene que salir ese mensaje. Una vez hayas hecho eso, por favor manda la captura de eso para verificar que.
+Si no te sale el mensaje, posiblemente haya habido una vinculación incorrecta, pero por lo que veo en tu este en el chat que me estás indicando, está bien. O sea, le tuviste que haber creado con ScriptJS o K se muestra, sí, se muestra perfecto, este mándalo por favor, Oswaldo.
+Por este.
+Por WhatsApp y yo te doy tu check ahí ya listo, bien, continuamos entonces ya y ahí también algunas pautas y algunas pautas de consolog. También se pueden usar elementos, ya también puedes mostrar números, escribir números ahí y se visualiza.
+Bien, esto lo voy a borrar, no esto lo voy a borrar porque esto ya es parte del proyecto. Ahora ya vemos.
+Yes.
+La función lo vamos a ver en la clase 3, pero vamos a ver lo que son las variables.
+Ya para la variable es un concepto en lo que sería programación. Lo vas a ver en Python, lo vas a ver en este en JavaScript, en diversos este diversos lenguajes de programación y no casi es lo mismo para todos. Ya creo que sí es lo mismo, literal, ya, pero vamos a verlo.
+En una analogía para que tú lo puedas entender, una variable, imagínate que es una caja ya una caja, pero esto ya no es visual, mi estimado como HTML, olvídate de ahorita verla de forma visual, esto es como una caja.
+Ya y como una caja que tiene una etiqueta, una etiqueta y ya esta etiqueta, obviamente.
+Una etiqueta que representa la caja, no una etiqueta o lo que nosotros podríamos llamar.
+Un nombre identificador, cierto, un nombre identificador en la caja. ¿Qué te dice? Obviamente qué contenido tiene si el nombre es plato, pues la caja tiene un plato. Cierto, si el nombre es vaso, la caja debe tener un vaso. Si el identificador es número, la caja debe tener un número ya entonces.
+Y obviamente, la caja que también tiene la caja tiene un valor, cierto, tiene un valor adentro, pues esa es la función de una caja, no almacenar algo. Por ejemplo, si el identificador es número, ya tú dices porque adentro va a tener un número.
+Ya es un valor, es el contenido, ya el contenido de la caja es el valor. ¿Qué es lo que guardas adentro? Un número, un texto, etcétera. Ya, y se le llama variables porque efectivamente es eso, o sea, varía.
+Ya variables porque varían. ¿A qué se refiere con que varían? A que tú puedes variar el valor que tiene la caja, el contenido que tiene la caja, tú lo puedes variar, lo puedes cambiar, o sea, en un momento puede ser 6, pero en otro momento puede ser, por ejemplo, 5. Tú lo has cambiado, o sea, sigue siendo un número.
+Ya tú le has puesto ese nombre, identificador, número, porque esta caja va a tener números ya y en otro momento lo puedes variar y poner 10, está bien, lo ves. Por eso es que se le llama variable. Creo que hay que ser más específico acá porque el valor varía. Ya ese es el término preciso.
+Porque el valor varía ya entonces tienes 2 elementos en la caja, tienes uno que es un nombre identificador.
+Y tienes 2, el valor ya un valor que guarda la caja.
+Eso es una variable, mi estimado, es así de sencillo, es un este a ver si lo vemos de forma de programación, es un espacio en la memoria con un nombre que guarda un dato ya un espacio en la memoria. Sí, las variables cuando tú las creas ocupa un espacio en la memoria de tu.
+De tu máquina, pero es un espacio muy chiquito, es kilobytes, no, ni siquiera se va a sentir ya en tu memoria ocupa un pequeño espacio y ahí se guarda el valor.
+Entonces vamos a verlo mejor en sus fases. Ya tú puedes crear, a ver, puedes crear esto, puedes crear una variable de esta forma.
+Aquí vas a tener que aprender una nueva palabra para crear y la palabra es.
+Lift.
+Let es el término que nosotros usamos para crear variables, le decimos le y acá ponemos el nombre del identificador.
+Yeah.
+Para crear, o sea, la variable pasa por 2 fases, la fase de creación, donde simplemente creas la caja, por así decirlo, ya creas esa caja.
+Bien, dándole un nombre identificador, led nombre identificador. Con esto has creado una variable en lo que sería JavaScript, pero ahora lo que tienes que hacer obviamente es crearlo. Tienes que guardarlo porque esa es la misión de las variables. Las variables guardan información, mis estimados.
+Ya ese es su objetivo principal, guardan información, datos.
+Entonces, obviamente le tienes que dar valores. ¿Cómo se le da? Hay otra fase en la que nosotros llamamos inicialización. ¿Qué es lo que pasa en la inicialización? La iniciación, la inicialización es cuando le damos el primer valor a una variable que creamos. Ya hay que llamarlo así, es cuando pones.
+El primer valor.
+¿A la caja, a la variable, cómo lo quieras ver ya?
+Adentro.
+¿Cómo se inicializa? Se inicializa de la siguiente forma.
+Ya aquí es donde va a intervenir un operador nuevo, un símbolo nuevo, el operador asignación o lo que nosotros llamamos como simplemente igual. Ya aquí vamos a usar el operador asignación o igual.
+¿Cómo se ¿Cómo se inicializa así? Mire, tenemos que usar el nombre del identificador, ya usamos el nombre de identificador y este ponemos igual y aquí ponemos el valor que quieres poner.
+Ya así de sencillo, por ejemplo, ya led número aquí lo cree, vean led número aquí lo cree. ¿Cómo le doy un valor a ese número? Led número 5.
+B, perdón, led ya no.
+Ya creé este acá la variable y aquí vamos a poner otro color para que no se confunda.
+Ya aquí este le di un valor a esa caja número 5, vean, es esta caja que justamente mostré acá entonces.
+Va a tener de etiqueta número, como ven acá, número así.
+Y va a tener el valor 5 adentro que le he asignado ya o K esa es simplemente es así, chicos. o K en el ejemplo, ¿cómo sería? A ver, vamos a poner acá cómo se vería prácticamente esto.
+Vamos aquí, chicos.
+¿Y cómo sería crear una variable?
+Okay.
+Aquí, por ejemplo, led, acá estoy escribiendo led y aquí debería poner el nombre de la variable, digamos número, ya aquí lo cree, cierre con punto y coma, espacio ya espacio, perdón, bajamos de línea, bajamos de línea.
+Y ahora le voy a dar un valor a ese este número que es 5, listo, cerramos.
+Bien, lo cerramos así de sencillo, chicos, es así como funciona esta variable y guardo información.
+O K, se puede entender eso porque incluso podemos ir más allá. Recuerden que les dijimos que con solo puede mostrar texto, puede mostrar este.
+Puede mostrar lo que sería números, pero también podemos poner el nombre de la variable porque ¿cuál es el objetivo de una variable? Chicos, es lo siguiente, el objetivo de una variable.
+¿Por qué? ¿Por qué crear variables y no poner simplemente directo un número o un texto? Porque nos permiten reutilización, guardan información. Como te comenté, la variable guarda información y esa información que este tú puedes usar esa información, pero usando el identificador de la variable.
+Es decir, escribes tú una vez el valor, escribes una vez el valor.
+¿Y lo usas?
+Y lo usas en cientos de lugares.
+Yeah.
+A ver, relacionado justamente con guardar información, reutilización, escribes una vez el valor y lo usas en cientos de lugares. Ahora, cuando yo use ese nombre identificador con el nombre identificador, yo puedo indicar este número qué es lo que tiene, tiene cuál es el valor que ha almacenado estos números, estimados. A ver.
+¿Cuál es el valor que ha almacenado este número, el número 5?
+Hasta la creación.
+Y aquí está la inicialización.
+¿Pero qué valor tiene el número 5 a ver qué valor ha guardado ahí?
+Se puede a ver chicos, si no se entiende, por favor, dígame, no se pudo entender. Yo lo repito.
+Ya, pero aquí lo que cree es la variable con let y el identificador, o sea, cree la caja con let y le puse como que un identificador. La caja tiene número.
+Y acá lo inicialicé, es decir, puse ya un valor dentro, puse un valor, puse el valor 5 dentro de la caja. Entonces este la caja está referenciando al 5 acá. ¿Qué es lo que hice? Miren, acá obviamente con solo estoy mostrando el mensaje.
+Estoy menstrando un mensaje, pero al hacer referencia a número, número tiene una representación. Pasa lo siguiente, a ver.
+Paso a lo siguiente: cree, inicialice y aquí cuando el navegador lea lo dice: o k, ¿qué es lo que quieres mostrar? Console log estoy mostrando, pero lo que quiero es mostrar número. Entonces entra, ve a la variable y dice: o k, ¿qué valor tiene?
+Tiene el valor de 5.
+Eso es lo que está mostrando, usamos como te comenté aquí en el identificador.
+Nos permite reutilización cuando tú este usas el nombre, el identificador, en realidad estás usando el valor, mi estimado, estás haciendo referencia al valor que tiene la caja.
+Ya usar el nombre.
+Es usar el valor.
+¿Que tiene la variable?
+Por eso es que yo coloqué acá número, lo ideal lo que estoy usando al poner número acá es indicar 5.
+Y vean como voy a imprimir esto, esto no sé si está.
+Voy a abrir esto.
+Voy a ejecutar de nuevo aquí ya práctica clase 9, este es otro, por favor, no lo escriban eso este.
+Y vean que aquí sale 5. Esto no hagan caso, por favor. Este es este un mensaje del Server Life. Ya aquí vean como indiqué 5. Vean como efectivamente se imprimió eso.
+Ya imprí imprimió el contenido de la variable.
+Ya estoy haciendo referencia al obtenido.
+¿Qué tal chicos, puedo entender ese concepto de variable?
+El código.
+O.
+Ya me dice o K, por favor, me dicen si le quieren que lo repita nuevo.
+Porque las variables son muy usadas ya.
+Las variables son muy usadas hoy en día, entonces es necesario que ustedes puedan entender el concepto de LED.
+A ver, chicos, a ver.
+No quiero suponer que si se entendió, quiero que ustedes me digan si pudieron tener claro.
+Todo claro, me dice Carlos, genial. Sí, quedó todo claro, Kevin, John, Oswaldo, Diego, John, April, Jarni, a ver.
+Ángel.
+Gracias, Karin, por tu respuesta, igual lo dice claro, Ángel, todo claro, entonces perfecto.
+Gracias Journey, 100% genial, me alivia eso bien. Entonces, si se puede entender esto también, cómo es que usando la variable se hizo referencia, vamos a pasar a otro concepto que es similar, ya que es similar a una ya es similar, ya es similar y es la constante, mis estimados.
+Aquí la constante, digo, es similar porque la constante también guarda información, es lo mismo, ya vamos a separar aquí.
+Con un verdecito, yo les voy a compartir esta escala y dragón, no se preocupen, se puede importar y este yo se lo voy a compartir para que ustedes lo vean ya este cada vez que me está saliendo mejor los este ya entonces.
+Seguimos, voy a poner esto acá ya. ¿Por qué es igual? Porque las constantes también guardan información. También puedes usar el nombre, ya usar el nombre es usar el valor que tiene la variable, en este caso la constante.
+Pero hay una diferencia y es justamente el nombre. Vea el nombre ya si en las variables son variables, porque el valor varía en las constantes no, mis estimados ya en las constantes no, en la constante no hay variación.
+Es constante porque a ver constante. ¿Qué significa? Creo que ya ese término nos da una idea, cierto, porque constante es información que no se puede cambiar.
+Ya es información que no se puede cambiar. Entonces, como es información que no se puede cambiar, es constante, es decir, la constante guarda información, pero no va a cambiar esa información que tiene. Tiene lo mismo, mis estimados, tiene un nombre identificador y un valor que guarda.
+Pero va a pasar algo.
+Va a pasar algo, el mismo proceso es el mismo proceso, vamos a hacer ya vamos a querer inicializar.
+¿Cómo se crea para crearlo? Usamos otro término, este un término diferente y en este caso es cons, ya cons, nombre identificador.
+Un nombre identificador y listo, ya está creado, pero aquí pasa algo. La regla de crear constantes es que tienes que crear e inicializar a la vez, es decir, creas, pero ahora tienes que darle un valor al inicio.
+Ya esa es la regla respecto a lo que.
+Respecto a lo que son las constantes, por favor, esto se tiene que seguir sí o sí, porque.
+¿Por qué creen ustedes? Porque va a dar un error, vean, ya mira.
+A ver, por ejemplo, mira, const.
+Vamos a ver acá número y tú le das 20 ya y cierras el este le das cons número. ¿Qué pasa aquí? Muy bien.
+Pasa lo siguiente, mi estimado, tú le pones como etiqueta número genial y le has puesto un valor cierto, le has puesto un valor de 20. Bien, le pones un valor de 20. ¿Qué pasa que automáticamente ya que automáticamente tú le pones el la etiqueta y el valor?
+Ya no va a poder cambiar ese valor que tú le has dado. Ya ese valor que está almacenando la caja ya no tiene que cambiar. Si tú lo cambias, te va a dar un error. Si tú lo cambias, te va a dar un error. Ya por eso lo representé justamente como si fuera una caja cerrada. Una vez tú creas e inicializas una constante.
+Ya no te Ya no debes cambiar el valor, por eso se le llaman constantes, ya porque esa información que no se puede cambiar.
+O K, esa es la diferencia. Vamos a verlo mejor en persona para que lo puedan entender. Vean, voy a poner la palabra cons y acá voy a poner, no sé, este número, vamos a ponerle.
+A ver.
+Vamos a poner el números, miren acá noten algo también chicos que acabamos de ver.
+Mira, acá me da un error que dice.
+Vean, acá ya me dio un error mis estimados.
+¿Qué es lo que comenté respecto a las constantes que tienes que crear e inicializar a la vez? Cierto, vean como yo creé la constante, pero no la inicialicé y justo aquí me detalla el error, me dice: creaste la constante, pero no la has inicializado.
+Ya no lo has inicializado, por eso es que te estoy dando un error.
+Que es este que en este caso como que si son varía de rojo ya en JavaScript van a anotar estos errores que son errores en sintaxis. Al momento de escribir se los va a arrojar. Tú pasas el mouse por encima y te va a dar como que una información del error.
+Vamos a corregir este error como.
+Dándole ese valor, ahora sí ha desaparecido, ha desaparecido lo que sería el este bueno, el error que comentamos. Bien, podemos hacer lo mismo, podemos mostrarlo por consola, que en este caso es números ya.
+Podemos mostrarlo por consola y si vamos aquí, vean que me mostró el sí. Ahora, ¿qué pasa si yo le cambio de valor?
+¿Qué pasa si yo pongo este miren más adelante, por ejemplo, cómo le cambiamos de valor a un elemento?
+Cierto, no vimos esto lo mismo, mis estimados, para cambiar de valor.
+Usamos el mismo operador, el operador de igual ya si tú quieres cambiar el valor.
+Simplemente usas el operador de igual.
+¿Cómo es tocar?
+Pero obviamente, solamente puedes cambiar el valor a una a una variable. Vean, miren acá en esta operación.
+Número es 5, cierto, y esto mostró en consola, ven aquí.
+Ya es número 5. Ahora voy a cambiar el valor. Cambiar de valor significa, como comenté, no es que este a ver, no es que tu caja almacene varios valores a la vez, no es cambiar todo el contenido que está dentro por otro contenido. Ya es eso, es quitar todo ese 5 y meter otro valor.
+Ya no es que vayas a meter otro y otro, no vas a cambiar todo el valor que está dentro de tu caja. Solamente puede almacenar un valor a la vez. Ya eso cómo cambiamos el valor número igual con lo mismo, el mismo operador de igualdad y digamos, yo le quiero poner ahora que sea.
+10 y no 5, pregunta.
+¿Qué valor me va a imprimir aquí? Este console log me imprimió 5. ¿Qué valor me va a imprimir ahora?
+A ver si se comprendió qué valor me va a imprimir ahora.
+Fíjense solo en este bloque, aquí es secuencial.
+Creé, inicialicé y le puse un valor, pero acá hice algo, también le cambié el valor.
+¿Qué valor me va a mostrar en consola esta impresión? ¿Qué valor me va a imprimir en consola?
+¿Cuando yo lo vea, qué valor va a decir, qué número?
+101010, genial. Efectivamente, estimados, vas a ir 10 porque le hemos cambiado de valor. Si vamos, este no es este de acá. Efectivamente, vean cómo ha cambiado a 10. ¿Lo ven? Ajá. Podemos cambiarle número cuantas veces queramos, en realidad 50.
+Ya el último valor que tome número es el último con el que se ha quedado. Ya olvidó 10, ya olvidó 5. Ahora número, esta caja tiene 50.
+Bien, y va a mostrar 50. ¿Qué pasa con const? A ver, puedo hacer esto números.
+Igual.
+200, veamos qué pasa. ¿Qué creen que pase? Vamos a mostrar 200. ¿Ustedes qué creen que pase, chicos? A ver.
+Miren, a Consta, ya le puse, la creé y le puse un valor, pero acá lo cambié. ¿Qué creen que va a pasar aquí? ¿Vamos a traer 200 o va a pasar otra cosa?
+Aprilice 100, a ver.
+Vamos a ver abril.
+En realidad, lo que va a pasar es que te va a dar un error. Ven aquí, te va a dar un error porque le has cambiado el valor de una constante y eso no está permitido. Ya has asignado un valor a una constante diferente al que tenía.
+No te va a imprimir el 100, sino que te va a lanzar un error.
+O K, porque como comenté, las constantes no es información que tú no puedes cambiar, va a estar siempre con el valor que este que tú la has creado en la primera vez. Ya ahora, si tú quieres que no sea 100 y tengo 200, te lo cambias aquí.
+Aquí se lo cambias al momento de crear. Ahí es donde tienes que cambiar el valor. Ya ahí le cambias y ahora sí vas y obviamente 200 o K te tienes que cambiar al momento de crearlo, nada más que eso.
+Bien, eso es el punto otro punto. Estimados, las variables y las constantes entre sí tienen que tener nombres diferentes. Ya tú ya creaste acá una variable con número, con nombre y número. Tú no puedes crear otra variable con ese nombre porque ya está asignado.
+¿Lo ves? Por eso es que son identificadores. Tú no puedes identificar, obviamente es como el DNI. El DNI es único para cada este, cierto, para identificar a cada persona aquí, para identificar a cada variable, ese nombre tiene que ser único.
+Porque vean cómo han lanzado error.
+Vean como justamente me ha realizado error porque has usado el mismo nombre para otra variable más adelante. Ya toma en cuenta eso, por favor, al momento de crear una variable.
+No uses nombres, o sea, no uses el mismo nombre que ya le asignaste.
+O K, entonces listo es dicho eso, se puede entender lo que sería y una cosa más, ¿verdad? Una cosa más, una regla que me olvidé mencionar.
+Regular.
+Ya si tu dato no va a cambiar, si tu dato, o sea, si tú vas a crear datos que no van a cambiar, si tu dato no va a cambiar.
+Durante, bueno, Durante tu programa.
+Entonces.
+Entonces usa.
+Ya, pero si tú sabes que tu dato.
+Sí va a cambiar.
+Entonces usa ley o una variable. Ya esa regla creo que ese regla. Incluso ustedes lo pueden interpretar de los conceptos o las definiciones que vimos de ambas variables. Ya esa regla incluso lo pueden interpretar.
+Pero esta regla es súper sencilla, por ejemplo, este un estrella, una introducción, el número.
+¿Por qué? Porque va a cambiar, cierto, te va a dar 5 al inicio, pero puede que se equivoque y puede darte luego 8.
+Te puedo dar luego 7. Vean cómo cambia ese dato, entonces esa es una variable.
+Aquí, por ejemplo, una constante puede ser el número entre el uno, por ejemplo, el uno al 100. Esto siempre va a ser el mismo este dentro del programa. Ya el número siempre va a ser el mismo de uno al 100. Tú puedes, por ejemplo, crear una constante llamada límite mínimo y límite máximo, y ahí adentro el límite mínimo pones uno y el límite máximo pones 100.
+Estas no van a cambiar en tu programa, no te van a tocar, pero tú las puedes usar en este diversas partes de tu código, o sea, puedes hacer la reutilización.
+Ya eso es, por ejemplo, un avance de lo que van a usar ustedes, lo que sería bueno, las constantes y las variables dentro de support.
+Chicos, entonces hasta ahí, Carlos Messi, que gracias.
+¿Hasta ahí bien, no?
+Bien, listo.
+Vamos a avanzar, vamos a avanzar lo que sería bueno, la laboratorio, ¿no? ¿En qué parte? Más o menos si ahí estaríamos a ver.
+En el laboratorio eso está en las ya estamos entrando a la parte 2.2 y 2.1 y 2.2. Aquí vean como nos dice que creamos, creemos una constante nombre y ahí tienes que poner tu nombre. Ya tienes que declarar una variable das con tu edad real y una variable está aprendiendo con valor true.
+Ya primero creen, por favor, en lo que sería su proyecto, ya creen lo que sería 2 constantes, una de su nombre.
+Y otra de su edad.
+Cierto, acá pasa algo, chicos, y es que es este es un bueno, más que nada es este un atajo. Ya tú puedes crear e inicializar a la vez, puedes crear e inicializar a la vez como una constante, solo que para constantes son obligatorias, pero para las variables.
+Son este opcionales. Recuerden que les dije que puedes crear y luego, por ejemplo, le nombre y luego dar ese valor. No digamos, en mi caso, Eric, ya el texto se pone entre comillas, por favor.
+Vean, podemos hacer esto, pero podemos hacer un atajo y combinarlo, es decir, simplemente al momento de crear igual que una constante.
+Podemos asignar el valor, vean esto en una sola línea sin tener que crear 22 líneas. Por eso es como lo vemos en el laboratorio, está creando y también está dándole el valor ya, pero obviamente podemos cambiarle ese valor, no digamos nombre María, más adelante no.
+Y no va a haber ningún error, lo ven o k listo. Entonces creen una variable llamada nombre y otra llamada edad.
+Creen otra llamada edad.
+Edad, obviamente, es este.
+Pues ese es un número, no es un texto, ya su edad es un número, recuerden que es lo que representa el valor, ya entonces nombre entre el texto va entre comillas. Ahorita vamos a ver eso, ya está relacionado con tipo de datos, pero pónganlo entre comillas y edad es un número que escriben directamente sin 5 millas ya y luego lo que dice.
+Es que impriman eso, ya impriman su nombre. y.
+Impriman su nombre y su edad.
+Ya, por ejemplo.
+Pueden poner así, ya me llamo.
+Me llamo coma, recuerden las comas para poner varios estés y acá hacemos la referencia, miren como combiné ya.
+Vean que es lo que dice acá, voy a explicar.
+Lo mismo, ya cree el nombre, ya le puse valor. Cuando llega a esta línea, imprime, me llamo normal, es un texto, coma o k le vas a dar, va a haber otro elemento más que venga y estoy referenciando al nombre que guarda, pues esta caja, ¿no?
+¿Que es Eric? Entonces todo esto me lo va a presentar junto.
+Si vamos aquí, vamos a aquí, vean cómo ha puesto eso, no me llamo Eric, ha combinado.
+Ya listo, parece que ya viene como un espacio por defecto, que no lo sabían, pero cosas que se aprenden ya y aquí simplemente si quieres puedes poner edad ya o puedes usar la coma, no, mi edad es coma.
+O K, hagan eso chicos y les tiene que salir ahí, ustedes ponen este.
+Hagan eso y manden el screenshot.
+Respectivo, por favor, ya y aquí en la parte 2.2 también incluso hay para este esta bueno está enseñándote cons no cons curso está creando una constante que es llamada curso, que es el curso donde estás actualmente code 101 que no va a cambiar.
+Declara una constante más intentos con valor días.
+Y lo puedes imprimir también.
+Así, mira, con solo log, estoy en el.
+Y acá pones curso, mira.
+Usando una constante, estoy en el code 101 o K chicos, háganlo porfa, voy a voy a traer mi cargador. Miren esto que se me baje la batería, ahorita se me fue la disculpe momento.
+A.
+No.
+Yeah.
+Muy bien, a ver cómo vamos.
+¿Cómo vamos?
+Porque no.
+Sí, algunos ya pues están poniendo octubre directo.
+Ya entonces sí estamos avanzando, tuvimos la 2:01, ahorita vamos a ver el type of.
+Y este vimos también las variables y pues crear un curso y también mostrarlo por consola bien.
+Continuamos.
+Entonces, si no hay ninguna duda respecto a esto, vamos a continuar porque vamos a ver los tipos de datos. Recuerden que mencionamos que las cajas tienen valores.
+Cierto que las cajas tienen valores. Efectivamente, este un tipo de dato es el tipo de valor que le podemos dar y hemos visto los tipos de datos en realidad, hemos visto que hay lo que sería.
+Hay 3 tipos de datos, no hay más de 3, hay más de 3 tipos de datos. Ya primero mencioné que el tipo de dato es el tipo de valor.
+¿Que le damos a la variable o constante ya a una de las 2:00?
+O K, que le damos a la variable constante, ese es el tipo de dato, pero existen 3. La primera son los números, bien los números que ya vimos como pueden escribir en JavaScript. Hay lo que son los enteros, que son los números, pues enteros 12345 y son los números y hay lo que son los números decimales, no que tienen una parte decimal.
+No 10,5 a ver 10.5 así se pone un decimal, chicos, con punto, mientras que en los enteros, por ejemplo, es uno, 2, bueno, este números que no tienen una parte decimal ya uno, digamos 100, ya es eso, es súper sencillo. ¿Cómo les escribimos? ¿Cómo se los pasamos a una?
+A una variable, ya lo comentamos.
+Vamos a ponerlo aquí.
+Esta es la parte práctica acá, esto es nuestro proyecto, cierto, voy a crear un este LED.
+De hecho, ya lo hice acá, cierto, de hecho ya lo hice acá, voy a eliminar esto.
+Y vean cómo.
+Voy a acá le puse un entero, ven, les número 5 y este es un entero.
+Pero, por ejemplo, voy a crear.
+Número.
+Entero.
+Ya y ahí se va a mostrar eso y de hecho voy a crear un número decimal.
+No hay una, mis estimados, no hay una forma de decir, hey, este es entero, esto va a ser decimal, no, simplemente con el valor que tú le das ya se define si es entero decimal. No tienes que usar una palabra especial para decir va a ser entero decimal, no ya con el valor que tú pones.
+Así va a funcionar.
+Muy bien, está un poco lento, perdón.
+Un número decimal, ya si vamos a lo que sería, vamos a mostrar esto aquí, vean como efectivamente así me lo ha mostrado, me ha mostrado un entero y un decimal. ¿Lo ven cómo le damos números decimales usando el punto?
+Usamos el punto.
+Mejor aquí lo hubiera puesto.
+O sea.
+Mos el punto.
+Para definir decimanes ya o k el otro tipo de datos, estimados, es lo que nosotros llamamos texto, ya texto o string en inglés, le vas a escuchar mucho ese término string ya acá. ¿Cuál es la regla?
+La regla es que el texto va siempre.
+Dentro de comillas dobles o simples, yo siempre uso este comillas dobles, okay, yo siempre uso esa es mi este, pero tú puedes usar comillas simples también. Muy bien, esa es la única regla y adentro puedes poner lo que quieras, probemos.
+De hecho, voy a si quiero, voy a este, no ex texto, creo, abro comillas, y por ejemplo, esto es un contenido textual.
+Ya lo tuve que escriber entre comillas y si quiero lo puedo mostrar.
+Listo, aquí está.
+Aquí está, se visualizó, es súper sencillo, ya vimos lo que sería el texto, el último, el último tipo de dato que vamos a aprender hoy.
+Es lo que nosotros llamamos tipo boolean.
+¿Tal vez los que no tengan conocimientos de programación van a decir qué es eso? Un booleano, un booleano, mis estimados, es un tipo de dato que solo puede recibir 2 valores ya en texto y en números. Tú puedes poner los valores que quieras, cierto, en números obviamente tienen que ser números y en texto.
+O un tipo de texto, tú puedes poner texto o k, ¿qué pasa con un booleano? Un booleano solo puede tener 2 valores, ya no le puedes poner más de eso. ¿Qué valores puede tomar, true o fails? Estos términos, si saben inglés, obviamente ya lo saben, no true es.
+Verdadero y fails es falso. Ya un booleano no lo vamos a usar, no lo vamos a ver aquí, pero un booleano usualmente se usa para condicionales ya para operaciones de este de verdadero falso relacionadas.
+Justamente con comparaciones, lo vamos a ver más adelante ya en condicionales de if o els ya true of pues, pero este un booleano solamente puede recibir estos valores. Ya le puedes poner esto o esto no le puedes reponer más.
+No necesita otra cosa más. Por ejemplo, voy a crear aquí un booleano led, ejemplo ya ejemplo, no sé, a ver, vamos a poner booleano.
+Y aquí le voy a poner, por ejemplo, true ya automáticamente, mis estimados, la bueno, la máquina, el programa, el programador ha identificado que esto es un boolean. Ya le puedes poner esto o le puedes poner, como comenté.
+Juliano 2.
+Ya William 2 y aquí le puedes poner face.
+Ya le puedes poner lo que sería face. Estos 2 ya son booleanos, ya se identifica o k primero, obviamente no lo he imprimido.
+No ha imprimido esto.
+Pero si tú imprimes un booleano, te va a imprimir el valor que tiene ese booleano que es, por ejemplo, true y fails, ya que son los únicos que puedes asignarles. Cuando tú asignas a una variable true o fails, variable o constante, ya es un booleano. Ya si tú le esto es diferente a esto, por favor.
+Ya esto es diferente.
+No.
+Es automáticamente tumburén.
+Okey, me quedé ahí bien. Ahora mis estimados, ¿cómo yo identifico qué tipo de dato es? Ahí es donde entra otro operador, que es justamente. Está aquí. ¿Dónde lo comento? Aquí type off, que justamente dice ahí, verifica los tipos de datos.
+¿Qué es type of? Vamos a poner acá, vamos a copiar lo que dice ahí y lo vamos a poner acá.
+¿Qué es type of type of es un operador que te dice qué tipo de dato tiene una variable?
+¿Cómo es la sintaxis? Es eso, o sea, un typo. Vamos a usar typo para saber si, por ejemplo, o este tu variable es un número o es un texto o un variante.
+Ya la sintexis es la siguiente.
+Vamos a poner sintaxis, la sintaxis es así, tú pones acá type o.
+Ya con esto, tú automáticamente esto de acá.
+Te arroja, te arroja lo siguiente, te arroja string si es texto.
+Lo voy a poner aparte ya.
+Pero que arroja.
+Perro, o sea, te dice.
+Y dice string, si es texto.
+Te dice number términos en inglés, ya si es número y te dice.
+Boolean, sí, es boolean.
+¿Y tú quieres saber el tipo de?
+Dato de una variable, usa type, vamos a usarlo aquí justo con los que tenemos aquí ya.
+Obviamente, para mostrar lo que nos dice el.
+Necesitamos mostrarlo en pantalla. Ven aquí la importancia de console log. Yo pongo acá type numero entero. Debería decirme num number, cierto, pero si voy aquí.
+No veo nada por ningún lado, ¿por qué?
+Porque no lo estoy mostrando, pues chicos, solamente estoy diciendo que acá type of esto no muestra texto en pantalla, simplemente te está dando resultado. Esto está arrojando estimados number, o sea, el resultado de esto, el resultado es number, esto es number.
+Pero tú no estás mostrando en pantalla nada. o K, tú no sabes, tú no sabes qué resultado te está dando. Sí, lo sabes, pero no sabes para saberlo usualmente. Por eso decimos que el console ux se usa para dibujo o para mostrar nuestros resultados ya para verlo en persona lo vamos a ver aquí.
+Vean aquí.
+Voy a poner un consolog y no voy a mostrar.
+El número entero, si no voy a mostrar todo esto que está aquí sin el punto y coma claro todo esto y lo voy a poner aquí ya lo que va a imprimir console.log es esto de aquí.
+Incluso voy a hacer más detalles que voy a poner el valor de número en o sea el tipo, perdón, el tipo de dato de número entero es tal coma coma para separar ya y vamos a verlo esto en vivo.
+Ahora sí estoy imprimiendo que me está arrojando este.
+Y miren chicos, el tipo de dato de número entero es number.
+Okey, lo mismo va a ser con los demás. Si tú quieres este de acá, ¿qué debería dar? Debería dar este texto que debería dar, como comentamos, debería dar string. Cierto, ahora vamos a aplicar este type of a texto a esta variable de aquí y acá podemos decir el.
+El tipo de dato de texto es.
+Y me dice, el tipo de otro texto es string. ¿Lo ven? Así identificamos eso, lo mismo con los booleanos.
+El tipo de dato de boolean ya es y le aplicamos a esa variable el type of boolean.
+Bajamos y nos dice, el tipo de dato de booleano es boolean.
+Como comenté, vean cómo me ha arrojado sus valores.
+Según el tipo de dato que tengo.
+Yeah.
+O K, chicos, en se puede entender eso, a ver.
+Por favor, se puede entender cómo se se puede entender 2 cosas, los tipos de datos y cómo saber si un que este reconocer un tipo de datos. Carlos me dijo, todo claro, gracias Carlos.
+O K, sí se pudo reconocer, chicos.
+¿Por qué voy a hacer? Voy a hacer 2 preguntas, a ver la primera, si tú quieres que tu variable, gracias Kevin por esa respuesta, si tú quieres que tu variable.
+¿Y tú quieres que tu variable?
+Guarde una dirección de domicilio.
+¿Qué tipo de dato debe ser, número booleano o texto?
+Si tú quieres, me puse el dominicano, perdón, si tú quieres que tu variable guarde una dirección de domicilio, ¿qué tipo de dato debe ser? Texto, texto, exacto, porque tú no puedes guardar una variable de texto. Gracias, ya él también dice texto. Exacto, tú no puedes guardar una dirección de domicilio como número.
+Porque tiene, por ejemplo, las orquídeas manzana de, vean es texto, ya no es un booleano porque un booleano solo guarda, recuerden que true o face.
+Si tú quieres guardar.
+Tu número telefónico, tu número móvil.
+¿Qué tipo de dato debe ser? A ver, mejor no lo escribo. ¿Qué tipo de dato debe ser? Carlos dice number, Kevin dice.
+A ver, a ver, una respuesta más.
+Carlos, Kevin, number number, chicos, aquí la respuesta es.
+Depende.
+¿Por qué si tú vas a guardar tu número telefónico así más 519 tal tal? Obviamente esto no es number, chicos, porque acá hay un más. Miren, acá hay un símbolo que no es número.
+¿Lo ven? Acá hay un símbolo que no es un número, entonces aquí te atrapó, pero si tú guardas solamente esto.
+Obviamente, pues acá sí es un number, pues todos son números.
+Cierto, entonces por eso depende, no si lo quieres guardar con este, pero les comento algo, chicos, les comento a la gente escribiendo acá. Usualmente guardamos números para hacer operaciones matemáticas ya y guardamos texto este para mostrarlo. ¿Por qué digo esto?
+Porque usualmente los números telefónicos se guardan en lo que serían este.
+Lo que sería el texto, ya no como número, sí, no con no como número. ¿Por qué? Por lo que comenté, porque no vamos a hacer operaciones matemáticas con el número telefónico, pues lo que sí vamos a hacer, por ejemplo, es operaciones con texto con el número telefónico, ya así que.
+Usualmente en variables que son números, se guardan cantidad, se guardan, sí, se guardan valores de cantidad. Ya voy a poner acá porque.
+Porque este se van a hacer operaciones matemáticas con esto ya usualmente en variables de número se guardan.
+Cantidades para operaciones.
+Bueno.
+Ya cantidades, este distintas cantidades que vas a ver hablar en realidad, ya y en texto usualmente se guardan, pues contenido que tú quieres, no sé, como que presentar o informar, por así decirlo, se guarda más en texto, más van a usar lo que sería texto en verdad, porque tiene muchas funciones integradas el tipo de dato texto.
+Ya entonces.
+Por favor.
+Lo siguiente es, como ya reconocen el booleano y lo que sería el tipo de dato, pueden ya realizar lo que sería en la parte 2. Aquí miren, ya lo hemos hecho algunos, no declararon una variable está aprendiendo con valor true.
+Aquí hay esa tarea que está aquí, si te vas a tu guest number, declaras una variable aquí.
+Click.
+Está aprendiendo y tú le pones, esto es un boolean, ¿no? Y lo estás.
+Mostrando.
+No me puedes mostrar si deseas ya.
+Y acá vean que está aplicando los tipos de datos a cada uno, a cada una de las 3:00 variables que tú has creado aquí.
+Ya puedes poner un cuadro love, simplemente está aprendiendo.
+Yo le puse true, ahí te va a mostrar true, pero también está usando el type of.
+Acá voy a poner, por ejemplo, un consolo ya para separar y acá voy a poner.
+Ya un texto informativo.
+Mostrando los tipos de datos de las.
+Ta ta ta ta ta ya y acá.
+type of tas vean de nombre
+De edad y de estar aprendiendo.
+Ya voy aquí, voy a adivina el número y vean esto. El texto lo he usado como separación, mostrar los tipos de datos de las variables y acá está string, number, boolean. Si quieren ser más específicos, combinamos ya el tipo de datos de nombre es.
+Como aquí.
+Aquí está el tipo de dato de nombre es string, ya si quieren ser más específicos. Bien, entonces con eso estaríamos siendo la 2.1 y también bueno, 2.2 ya se hizo.
+Ok, pueden ir agregándole eso.
+Estimados, se toma como una buena práctica poner un número telefónico como texto. Sí, exactamente se toma como buena práctica poner un número telefónico.
+Sí, en campos que donde tú escribes un número telefónico se pone como texto porque es también este le da más la posibilidad de expandir esa capacidad de que tenga símbolos. Si tú lo pones como número, ya no va a poder tener símbolos y usualmente los números telefónicos tienen este.
+Tienen símbolos, hasta le ponen guiones, creo, para separar cierto, 3 cada 3 cifras. A veces le ponen guiones o espacios, no que un número no tiene esa capacidad. Ya si tú vas a este guardar un valor con el fin de manipularlo como texto, no por ejemplo.
+Saber cuál es el primer valor, no sé saber, por ejemplo, si que empieza siempre con 9.1 número tú no vas a tener esa capacidad con números. Tú usualmente haces operaciones de suma, de resta, de multiplicación, matemáticas, no como usualmente se usan los números hoy en día, pero con un texto sí vas a tener esa capacidad de.
+Por ejemplo, identificar el primer valor que es un 9 o identificar si son 9 números.
+Ya ese el texto es muy potente en ese aspecto, bien.
+Estaría solamente.
+Acción importante y es esto de acá, ya una buena práctica que les quiero enseñar. Ya nos faltan 3, este nomás, pero una buena práctica que les quiero enseñar, chicos.
+La buena práctica es los nombres de los identificadores. Ya estamos creando variables y le estamos poniendo nombres que lo identifican, cierto, pero acá hay 2 reglas que nos hemos que nos hemos olvidado mencionar, la primera, mis estimados, las primeras.
+El nombre de la variable aquí está, incluso es solo una palabra, ya el nombre de la variable, el nombre identificador, el identificador.
+Es solo una palabra o K, no es una frase, no es una oración. Tú no puedes poner, por eso es que lo puse aquí con un guión, porque tú no puedes poner así un este una variable, número decimal, no puede ser 2 palabras, 3 palabras, una oración, una frase, no solamente es una palabra o K es solamente una palabra.
+Número decimal o ky lo que hice acá fue lo siguiente, bien en el mundo de la programación. En realidad hay diversos estilos para poner nombres e identificadores cuando son más de 2 palabras. Ya los que más se usan son el Snake Case, que es lo que usé acá.
+Y es separar palabras con guión de bajo. Ya es lo que justamente yo sé acá para hacer número decimal. Vean, separé usando este un guión bajo, el quemap case que está aquí.
+Es el mismo, pero en realidad, en lugar de usar un guión bajo, usa un guión, ya un guión normal es esto.
+¿Es esto?
+Es número decimal 2, hay que ponerle para no repetir, es esto de aquí que no sé por qué.
+Cierto, acá en JavaScript no funciona esto. Vean, ya lo vimos en vivo en JavaScript, este de aquí no funciona, el Keball Case no funciona. Estimados, ya el Snake Case funciona.
+¿Por qué? Porque este menos en realidad esto es como si tú estuviera diciendo un operador, ya este menos de acá ya se está usando, chicos, lo vamos a ver ahorita, es como si estuvieras restando en realidad, por eso es que no funciona, lo ven. La siguiente que usualmente sí funciona y usa mucho es el camel case.
+El camel case es ponerle una mayúscula a la siguiente palabra, poner una mayúscula, o sea, sería así.
+Sería más o menos así.
+Ya sería así, ya la siguiente palabra tendría mayúsculas, eso es el camel case y este el upper case. Esto de acá, estimados, quiero que lo tengan en cuenta y es todo en mayúsculas. este Esta forma de escribir usualmente se usa en las constantes. ya.
+Las constantes, los nombres identificadores.
+Siempre o es una buena práctica para los programadores que los nombres de las.
+Dicho.
+Los El nombre, los identificados, el mejor ponga el identificador.
+De una.
+Ya vamos a ponerle, es una buena práctica, o k tú vas a ver usualmente identificadores de constantes como mayúscula, es decir.
+Así, por ejemplo, const.
+Test.
+¿Cómo de qué puedo hacer? A ver, límite.
+Vea, le puse todo mayúscula y le puse 100. Ya aquí estoy usando una buena práctica y estoy poniendo un nombre en mayúscula, límite.
+Incluso puedo combinar inferior. Vea, estoy usando el guión bajo, pero todos en mayúscula. Ya eso es una buena práctica. Tú le puedes poner un nombre en minúscula, claro, si tú quieres, pero yo te estoy dando esa recomendación a ti para que también tú puedas diferenciar. Mira, este tiene todo mayúscula porque vas a usar este nombre.
+En diversas partes de tu de tu código, por ejemplo, en la línea 500, si tu código es extenso, vas a estar abajo, abajo y tú no vas a subir, pues para adivinar si es.
+Una constante, una variable, pero cuando tú veas ya que tienes un nombre 2 mayúsculas, vas a identificar esta es una constante, yo no tengo que subir para ver si es constante o variable.
+Muy bien, entonces eso o k este pack case no se usa tanto, ya esto ignórenlo, solo tomen en cuenta.
+Estos en ustedes tienen que elegir entre estos 2 mis estimados ya en cómo quieren poner el nombre de la variable si tiene más de 2 palabras, ya vamos a usar camel case o snake case o k pero no combinen por favor, si no van a confundir al que lee, ya solamente usen uno de esos que yo estoy usando snake case.
+A.
+La verdad no me he amarrado con ninguno ya, pero creo que Snike Case me parece más práctico para mi parecer ya, pero las 2 son estilos de nombres que se le dan y el upper case que vimos que es solamente para constante.
+O K, entonces esa quería, quería darles eso como plus, pero que hayan acabado ya esa parte de laboratorio, la parte 2, porque vamos a pasar a la parte 3 para terminar.
+Ok, todo claro, chicos.
+Todo claro, hasta ahí vamos a pasar a la parte 3, la parte 3 del laboratorio en realidad.
+Gracias a lo ponen como constante todavía, todo claro, o k, Carlos, gracias.
+Sí, Kevin, listo, ya dicho esto.
+Vamos a pasar a lo que sería el momento cuatro, los operadores.
+Ya los operadores, pero aquí quiero que hagan una diferencia, ¿no? De hecho, sí capturaron el este ya los operadores, mis estimados.
+Ya los operadores.
+Aquí está, esta es la parte de operadores, los operadores. Primero, creo que todos aquí conocemos cuáles son las operaciones matemáticas básicas, ¿cierto?
+Ver.
+Creo que si no, todos conocemos las operaciones básicas, no conocemos suma.
+Presta.
+A ver, creo que esto ya es hasta.
+Creo que hazte preguntar.
+Un poco.
+En colgo, ya perdón, que los.
+O K, ya parece que volvió, por alguna razón se puso súper lento. Ya creo que todos aquí, mis estimados, conocemos lo que son las operaciones básicas, este las operaciones matemáticas básicas, cierto, suma, resta, multiplicación.
+División, los conocemos, cierto. Pues si conocemos esto, ya tenemos en claro que es un operador. Incluso hemos visto tal vez ese término en matemáticas, no un operador, operador matemático.
+En programación, un operador es un símbolo, ya es un símbolo.
+Es un símbolo que le dice a la computadora.
+¿Ya es un símbolo que dice la computadora, qué operación debe realizar?
+Bien.
+¿Qué operación debe realizar con los datos?
+Es simplemente eso. Ahora nosotros hay distintos tipos de de operadores. Nosotros vamos a ver hoy día lo que son los operadores aritméticos o los matemáticos que nosotros conocemos. Okay, nosotros conocemos porque lo hemos visto, pues en matemática básica. Ya la estructura es la siguiente, la estructura es súper sencilla.
+Ya operando, operador, operando.
+Esta es la estructura.
+¿Lo vimos en matemáticas, no? Obviamente para sumar, para restar, para multiplicar, para dividir, necesitamos 2 estes, 2 elementos, cierto más a más d.
+A menos b a por b a entre b, cierto, necesitamos 2 elementos, ya por eso la estructura es esta.
+¿Cuál es la estructura? Un lado operando que es un operando que puede ser una constante, una variable con el operador en medio, es eso.
+A ver.
+Vamos a sacar la tabla para verlo más clarito ya.
+Las operaciones las conocemos, hay suma, hay resta, hay multiplicación, hay división, hay módulo y hay exponenciación. Vamos a ver esas, pero la sintaxis sí tenemos que apegarnos a lo que dicta JavaScript. Ya las operadores, los operadores que vamos a ver que representan cada uno están en medio. o K, vamos a verlos de forma.
+1 1, de hecho vamos a copiarlo porque creo que está en tu.
+Ya no, vamos a ver.
+Aquí yo lo voy a practicar aquí.
+Te voy a mostrar aquí, ya voy a crearles valor uno.
+No, de hecho, voy a imprimirlo directo ya.
+Pero.
+Vamos a cómo son log y vamos a imprimir acá.
+Suma.
+Mhm.
+Mhm.
+Vamos a hacer una operación directo acá.
+Puede ser una suma, simplemente usamos.
+Mejor aquí ya LED flor uno.
+Directo, directo, a ver, perdonen, hay intromisión valor 2, ya esos son los 2 valores que vamos a sumar hasta restar, etcétera.
+Ya a uno le voy a poner, por ejemplo, 20 y el otro le voy a poner, no sé, 2 ya y vamos a aplicarle las operaciones a esto. Es decir, se pueden sumar, a restar, multiplicar, dividir variables. Veamos.
+Led resultado, led suma, vamos a poner.
+¿Qué es lo que le vamos a poner a esta operación?
+Vamos a ponerle como comenté acá.
+No, mejor lo vamos a mostrar directo, no lo vamos a guardar en una variable porque así es lo que está haciendo tu laboratorio. Ya el laboratorio directamente, como ven, está mostrando la el este, no, acá ha puesto valor uno y valor 2.
+Acá vemos el operador suma estimados para una suma es simplemente pues un más, no, acá no hay tanta diferencia, lo mismo para lo que sería una resta para una resta.
+Ya es un guión o una resta.
+Súper sencillo, cambia donde cambia lo que sería una multiplicación, porque en matemáticas sabemos que es una x. Aquí la multiplicación es un asterisco, un asterisco. Chicos, ya la multiplicación es un asterisco.
+Esa es la multiplicación asterisco.
+¿La división cómo es? La división es un.
+Esa es la división, la división es una barra inclinada, es esto de aquí, esta es la división.
+¿El módulo, qué es el módulo? El módulo es el resto en realidad, es decir, sabemos que en la división nosotros al dividir 2 números no siempre te da un valor exacto, cierto, sobra lo que es un resto. Por ejemplo, si dividimos 15 2 no es un valor exacto.
+Obviamente 2 * 7 te da 14 y hay un resto, o sea, sobra uno. Esa es el resultado del módulo. El módulo es el resto, mis estimados.
+Ya como dice acá el módulo.
+Devuelve el resto de la división.
+O será por atrás, por detrás, lo que va a ser.
+Lo que va a ser la computadora es va a dividir, pero no te va a dar el resultado de división, si va, te va a dar el resultado del resto de lo que sobre.
+Ya para calcular un módulo usamos porcentaje.
+Como indica acá, ven aquí.
+Porcentaje a D.
+Valor 2. Con eso estamos calculando el módulo y la exponenciación es la potencia. Chicos, la exponenciación es la potencia 2 elevado a qué a la 2: 2 elevado a la cuatro. Ya esa es la exponenciación.
+Potencia, vamos a llamarle potencia, ya es potencia.
+Para la potencia usamos doble comilla, vea, usamos doble comilla. ¿Qué le estamos haciendo? A valor uno, elévalo a la valor 2. Ya vamos a ver el resultado de lo que nos imprime.
+¿Dónde está aquí?
+No, espera aquí no es, perdón, es aquí ya acá me faltó cambiar el valor de resta, acá es resta ya.
+Chequeos, chequeos acá, porfa, valor uno, 20, valor 22.
+Ya a partir de aquí.
+Es donde están las operaciones, ya lo estoy sombreando, obviamente valor uno, 20, valor 2.
+2 suma, perfecto, lo hace, resta. ¿Qué pasó aquí? ¿Por qué me sale 22? A ver, vamos a ver, es que está como más. Pues vean, ves, me equivoqué.
+Ahora sí, ahora sí, ahora sí, ahora sí. ¿Y qué fue? ¿Se equivocó? No, yo me equivoqué. Entonces sigamos valor 20, valor 2 suma o K resta o K ya multiplicación, check ya por división también 20 / 2 módulo cero, porque efectivamente, si tú debes 20 / 2.
+No hay nada que reste, no es exacto, es un par de 20 y la potencia es 20 elevado a la 2. Nada más que eso, chicos. o K, eso está súper sencillo, súper fácil. No creo que ahí necesiten una explicación más profunda, más que pueden este aplicarlos las.
+Los operadores, que en este caso con esto, los matemáticos con variables no o pueden incluso hacerlo directo, o sea, aquí, por ejemplo, 100 2 vean.
+Ya 100 + 2 y acá me ha dado, pues la suma 100, no, pero usualmente usamos variables para eso. Bien, entonces en la parte 3 en los operadores nos indica eso, nos da let let y nos dice que sumemos y complemos las completemos las 3 operaciones.
+O K, esto se los dejo a ustedes súper fácil, pero vamos a ver la 3:02 que habla de cuidado con los sprints y números. Exacto, chicos, recuerden que yo les comenté, en realidad faltó comentar algo y es que.
+A ver, en tipo de datos faltó comentar algo y es que el tipo de dato define qué operación podemos realizar con ellos. Define qué operaciones podemos realizar con ellos. Por ejemplo, si tú eres un tipo de dato número, obviamente, ¿qué operaciones se puede realizar con ellos? Operaciones matemáticos.
+Cierto, tú no puedes hacer operaciones matemáticas con texto o stream. Cierto, tú no puedes sumar a más a o a más d a o C más d, no puedes sumar texto o k por eso es que dice que el tipo de datos define qué operación podemos realizar con ello.
+¿Por qué menciona? Porque aquí menciona cuidado con los strings y números. Vamos a probar qué es lo que pasa acá ya porque puedes saber cometer el error de, en lugar de darle números como le estoy dando acá, darle strings y vamos a ver qué es lo que pasa ya.
+Miren, acá le ha dado un string.
+Le ha dado un stream, perdón, me gusta poner comillas dobles, le ha dado un stream. Acá no le está dando 5 3 sino le ha dado.
+Vamos a poner también un consolo para diferenciarlo.
+Acá ejemplo.
+Porque estamos llenando un montón de este ejemplo, código. este.
+Cuidado, este ya listo, ahora sí, ya.
+Cuidado, ya ahí lo dejamos, ya no bien. ¿Qué resultado esperas? ¿Qué pasa si yo sumo un texto con un número? ¿Qué es lo que va a pasar?
+¿Qué creen que pase chicos? A ver, ustedes díganme su respuesta, ¿qué suponen ustedes que va a pasar?
+¿Va a sumarlo eso, acaso lo va a sumar?
+¿Qué pasaría?
+Carlos dice error, a ver, estaría un error.
+Ver alguna opinión más.
+Ok, nos cerramos con esto.
+Vamos a ver si nos da un error, vamos a ver si nos da un error cargos.
+No está, no es esto, es esto acá. Chequeen, por favor, vean qué es lo que ha hecho. Ya no te ha dado un error, sino que te ha dado algo.
+¿Me ha dado 53, qué es lo que ha hecho?
+Lo que ha hecho mis estimados no es que al paso lo siguiente, ya cuando detecta que uno de los valores es texto cualquiera, si es uno o más de 2, o sea que ha detectado que 5 es texto, no va a aplicar, no va a aplicar la suma como debería ser, o sea, no te va a dar 8 ni tampoco te va a dar un error.
+Lo que va a usar es la concatenación de texto, es decir, va a suponer, va a convertir este 3 en un texto y lo va a unir. El más tiene 2 funciones, chicos, cuando es números, el más suma, como vemos acá, cuando es cuando es número, el más hace una suma.
+Pero cuando es texto lo que hace.
+El más es concatena, concatenar es unir texto ya el más, perdón, acá vamos a poner el símbolo más.
+Con cadena, o sea, une.
+Cadenas de texto, una de texto, ya vamos a decirle, pero el 3 no es texto, este profe, profe, el test no es texto. ¿Cómo lo va a unir al 3 si no es texto? Es que a ver, por el la computadora es inteligente por detrás.
+Por detrás, chicos, lo que hace es convertir este 3 en un número, ya convierte este 3 en un número y luego recién justo recién lo une.
+Okey, lunes y te da lo que sería efectivamente 53.
+Bien, pasemos con este, por ejemplo, este sí, obviamente es puro número bien 5 + 3. Acá si sabemos que la respuesta nos va a dar 8 sin problemas.
+Ya la respuesta nos va a dar 8, pero aquí viene lo que sería a el texto. Aquí al ver texto junto con este tenemos que ver lo que sería efectivamente la concatenación de texto, chicos, porque la concatenación de texto es unir texto, simplemente eso es unir texto.
+Ya y para eso usamos.
+Usamos el símbolo de más, ya usamos el símbolo de más. Nosotros podemos concatenar texto, no solo o sea con la suma, pero podemos usarlo, por ejemplo, al momento de este ya consol punto log.
+Vean como concateno texto, chicos, mi nombre es y ya no voy a usar la coma, sino voy a usar el más, mi nombre es.
+Voy a poner acá Eric.
+Ya mi nombre es Eric.
+Vean como estoy concatenando texto, este es un texto, este es otro texto y estoy usando el más para concatenar.
+Ya aquí sale, por ejemplo, mi nombre es el, o sea, para unir puedo ir más allá incluso y simplemente usar una variable.
+Ya mi nombre es de acá, por ejemplo, voy a crear una variable LED.
+Nami.
+Le voy a poner mi nombre, Eri.
+Y acá lo voy a concatenar, ya no pongo la coma, sino que voy a poner directamente.
+¿El nombre es que nombre está usado, verdad? Sí, cierto. No puedo poner eso porque, chicos, hay palabras reservadas en JavaScript. Hay palabras que ya representan algo. Por ejemplo, tú no puedes usar este a ver.
+Acá no hay tanto ya, pero hay términos que tú no puedes usar porque ya los usa JavaScript, ya los tiene separados para alguna función, algún elemento. Entonces por eso es que me ha dado error, porque name representaba ya algo en JavaScript. Lo he tenido que cambiar al nombre para vean que para que vean la concatenación. Mi nombre es.
+Y acá vemos cómo lo concatenamos. Vean, mi nombre es Eric. Ya entonces así unimos texto con el símbolo más, nada más texto uno más texto 2.
+Etcétera, ya o incluso podemos integrar variables, texto uno, variable más podemos incluso poner otro texto, texto 2, etcétera. Así formamos cadenas que nosotros podemos este mostrar por control, como lo hicimos aquí.
+Bien, eso es la concatenación, súper sencillo, chicos, usar el más tiene 2 funcionalidades, usamos el este, si es texto, el más sirve como concatenador.
+Ya si es texto, el más sirve como concatenador, pero si son números, el más sirve como suma.
+Importantes, ya depende qué es lo que estés haciendo. Si estás usando texto o números, si estás usando datos numéricos, te va a sumar. Si estás usando datos que tengan texto, te lo va a convertir a te lo va a unir. OK, importantes separación, por favor, por eso es.
+Este Por eso es que el laboratorio menciona cuidado con los streams, cuidado con eso al momento de sumar.
+Ya, ok, chicos, ¿se puede entender eso?
+¿Te puedo entender el papel del más también y cómo cambia según el tipo de datos?
+Close.
+Okay.
+Vamos a avanzar ya porque ya son las 10:41, vamos a avanzar, vamos a ver los 2 últimos. Bien, los 2 últimos son los siguientes estimados, ya el siguiente es el otra funcionalidad que nos ofrece lo que sería este otra funcionalidad que nos ofrece el navegador. Ya si ya vimos lo que sería console log.
+Para mostrar, para mostrarlas, para mostrar bueno el mensaje por consola, recuerden que nosotros tenemos que interactuar en nuestro proyecto al haber una interacción, es decir, el programa le va a pedir un número. ¿Cómo le da este usuario el valor de ese número?
+Como le dice, hey, este es mi número, tiene que haber una función que permita que nosotros le demos valores al programa, cierto, y esa función es.
+La siguiente, la función es prompt, chicos, ya el prompt es lo opuesto al console. Si en consola tú mostrabas el mensaje, en prompt tú le pides un valor. En realidad, ya prompt es eso, prompt es una función.
+Del navegador que también nos lo da, no lo tenemos que crear ya que abre un cuadro, una ventanita ya que abre una.
+Una ventanita que marca ya en término este en el navegador.
+Y espera.
+Que el usuario escriba algo ahí.
+Ya la sintaxis es la siguiente, estimados, vamos a poner la sintaxis aquí es prompt.
+Abrimos comillas, abrimos, perdón, paréntesis y adentro va el mensaje.
+Para el usuario, es decir, el mensaje que tú le quieres dar al momento de que te salga esta ventanita. ¿Tú qué mensaje le quieres dar al usuario este para pedirle un valor? Por ejemplo, le puedes dar el mensaje de escribe tu edad, no le puedes dar ese mensaje.
+Escribe tu edad, ya le puedes dar ese mensaje y con ese mensaje te va a salir la ventanita, pero ahora pasa algo, chicos. Este pro te da un mensaje para el usuario. Mira, vamos a probar ya vamos a probarlo aquí.
+Vamos a copiar esto y lo vamos a copiar aquí, a ver, ejemplo, código prompt.
+Muy bien, vamos a escribir esto, chicos pronto ya como comenté y acá vamos a poner escribe tu data.
+Escribe tu edad cuando yo ejecute esto.
+Cuando ya se está ejecutando, voy a.
+Y no vean como automáticamente, por alguna razón no mes.
+Ya no me salió el mensaje aquí, no sé por qué vamos a iniciar de nuevo.
+Ahora sí, bien, me dice acá, escribe tu edad ya y me sale una ventana. Bueno, me sale una ventana con un campo donde tú puedes escribir obviamente tu edad. Tú le das a 13 y le das a aceptar.
+¿Pero qué pasa, chicos? ¿Dónde se ha guardado ese 13? Pasa lo siguiente, tú has escrito otra edad, pero no le has dado la capacidad de que pueda guardar ese valor. No es un valor que ha venido del usuario, pero.
+No lo has guardado ya esto de acá, cuando termine de cerrarse, arroja ya esto de acá.
+Arroja el resultado, hay que llamarlo así, da el resultado, ya eso da el resultado, pero ¿dónde lo va a dar si no lo hemos guardado? Por eso la sintaxis correcta en realidad para definir un este dónde podemos guardar chicos, dónde se guardan los valores, a ver dónde guardamos los valores nosotros o la información, ya vimos qué elemento hace eso.
+¿Qué elemento o este qué elemento de la de JavaScript nos permite guardar valores?
+Recuerda a ver.
+Exacto, qué bien, una variable. Efectivamente, muchas gracias. Vamos a tener que guardar el valor que nos dé prompt en una variable, chicos, en una caja. Si nosotros simplemente lo dejamos así, no lo estamos guardando. Hemos escribido nuestra edad, pero dónde se está guardando ningún lugar. Entonces la sintaxis en realidad es la siguiente, mira led.
+Acá ponemos el identificador.
+Identificador igual, ahora sí, chicos, ahora sí estamos guardando dónde se va a guardar ese este valor que nos arroje.
+Prompt en una variable, ya entonces sería así, led, miren, led mi edad.
+Ni edad, igual ya incluso voy a hacer lo siguiente, mire, voy a imprimir lo que me ha guardado.
+Mi edad.
+Mi edad es acá le pongo más los concatenadores que ya los ya hemos usado. Ya estoy concatenando esto en un solo texto. Aquí estoy ejecutando prompt que me salga la ventanita pidiéndome la edad cuando yo le dé la edad, luego de que le dé la edad.
+Recién lo va a guardar aquí en la variable mi edad y una vez que este mi variable edad lo tenga, se ejecuta la siguiente línea que es console.log, mostrando lo que guardó ese mi edad. Vamos a ver ese flujo ya.
+Estoy aquí, escribe tu edad, yo le digo 26.
+A ver qué pasó.
+Ver 26.
+Ahora sí, chicos, pongo un buja ahí, pero ahí ya se vio, ya se vio. ¿Lo ven? A ver si se pueden visualizar aquí. Efectivamente, escribió lo que yo le escribí. Vean, mi edad es 26, ven, ven, podemos pedirle lo que sea, ya podemos pedirle lo que sea entonces.
+Es eso, pero chicos, acá hay otra cosa que tienen que tomar en cuenta.
+¿Qué tipo de dato? ¿Qué tipo de dato nos da? Ya sabemos que nos da el resultado, o sea, nos da el valor. Sabemos que nos da el valor que nosotros esquivamos, cierto.
+Ya sabemos.
+¿Qué prompt nos da el valor que nosotros?
+Escribamos, pero ¿qué tipo de dato es? Esto es importante saberlo, chicos. Esto es importante, sabemos porque recuerden que necesitamos saber qué tipo de dato es para interactuar con ellos, para saber qué operación dar. Ya lo vimos con este la operación más, cierto, si te retorna un string y tú piensas que te retorno un número.
+Si tú usas el más, no te va a sumar, por ejemplo, si no te va a unir. Por eso es importante saber qué tipo de dato nos da y cómo identificamos eso.
+¿Con qué? ¿Con qué elemento identificamos qué tipo de dato nos daba este estimados para reconocer qué tipo de dato nos da una variable? También lo vimos, lo acabamos de ver.
+Ver John está escribiendo ahí.
+¿Qué ¿Cómo sabemos qué tipo de dato tiene una variable o qué tipo de valor tiene?
+Incluso el nombre.
+Equipo de dato.
+We we we.
+John, gracias, exacto, type of. Con eso identificamos qué tipo de dato era, cierto, con eso identificábamos qué tipo de dato era y eso es lo que vamos a usar aquí para identificar qué tipo de dato nos da.
+Ya vamos a poner otro con solo.
+Para identificar a ver el tipo de dato que nos da prompt es.
+Es ponemos suma aquí y vamos a poner acá type of.
+Need that.
+Bien, o k.
+Con esto vamos a prepararnos ahora sí para qué tipo de dato nos da, vamos a reiniciar esto.
+Me pide el este, yo le voy a poner, miren, le voy a poner un valor numérico. ¿Ustedes creen que al darle un valor numérico me va a dar un valor numérico?
+No o k me dicen que no, vamos a verlo, vamos a verlo que miren, yo le he dado un número, no le he escrito un texto, le he dado un número, debería darme un tipo de dato número, pero.
+Vean aquí abajo en el mensaje, dice, el tipo de dato que nos da pronto es string, porque efectivamente, chicos.
+Siempre, siempre ya atento con esto, siempre nos va a dar.
+Un string ya siempre, sea número, sea texto, sea booleano, lo que escribas siempre te va a dar un string. Mira, voy a incluso poner aquí true ya como sería un booleano y me va a dar un string, vean.
+Voy a poner más número y me va a dar un string, chicos, y obviamente con un texto sí te va a dar un string, no más. Es un string siempre, chicos, siempre te va a dar un string.
+O K, siempre te va a dar un string. Entonces esto es importante saberlo. ¿Por qué? Porque yo escribí mi edad. Yo le dije, hey, este, te estoy pasando mi edad.
+O ky lo que me retorna es un string. ¿Y qué pasa si yo, por ejemplo, al valor que me ha retornado, ya que es una edad, yo le quiero sumar 2.
+No vas a poder porque sabes que si haces esto, no, mira, si tú haces esto con solo punto mi edad más 2 ya yo le quiero sumar 2 años a mi edad.
+¿Qué creen que pase? Vamos a ver.
+¿Qué va a pasar? Miren, le voy a poner 26 a mi edad, escribes tu edad y tengo que reiniciar, ya a ver, no sé por qué ese burro ya 26.
+Y miren qué pasó, chicos, no lo sumó, no te da 28, sino que lo concatenó porque la operación de más, cuando de como detectó que mi edad es string, lo que hizo es concatenar, es concatenó porque mi edad.
+Ya mi edad es texto, chicos, es stream. Por eso es que ahí el más funcionó como el más funcionó, como lo que sería, pues un concatenador. Ya ahora es importante haber sabido por qué prompt siempre te va, siempre te va a dar un stream.
+Ya, pero ahora tenemos que resolver otro problema.
+Y el problema, chicos, es.
+¿O K, tengo mi edad más 2, pero ahora qué pasa? ¿Cómo convierto? O sea, yo a mi edad sí le quiero sumar números, pero ¿cómo convierto para que pueda sumar números? Ahí, chicos, interviene otro este una función.
+Ya una función que este nos permite. Nosotros, chicos, podemos cambiar entre texto a número y número de texto. Ya acá no lo puse, voy a ponerlo aquí.
+Neco, ya lo que nosotros estamos viendo ahora se llama casting o conversión de datos.
+Ya eso es lo que estamos viendo nosotros ahorita mismo, casting o conversión de datos. La primera, nosotros podemos cambiar de texto.
+A número ya y podemos hacer lo opuesto, podemos cambiar de número a texto.
+Para esto vamos a ver 2 funciones vitales, 2 funciones importantes, la primera es.
+Las funciones son sencillas porque luego este tienen términos en inglés. Ya primero de texto a número usamos lo que sería la función string. Ya esta función abres paréntesis y adentro simplemente pones el número.
+Esto va a ser lo siguiente: va a convertir, obviamente te va a dar el te va a arrojar un texto, no, que es lo que queremos. Ya te te devuelve esta función, te devuelve un texto, te retorna un texto.
+Creo que ya estamos entendiendo esa ese significado de retorna, porque como comenté las funciones tú le das un dato y te da un valor y acá te está dando un valor, un texto ya y en número de texto. Aquí la función que nosotros vamos a ver, voy a ponerlo en ***** para que se pueda entender. Ya aquí la función es sencilla, es number.
+Ya y obviamente aquí le vamos a tener que pasar el texto ya entre comillas.
+Es así de sencillo, chicos, súper fácil. Esta conversión no es nada del otro mundo, es convertir y esto te va a retornar un número.
+Pero ojo, chicos, ojo con esto, ojo con un número de texto. Acá tiene una precaución convertir de texto. A ver, si convertir de no, acá acá me confundí, acá me confundí, es al revés.
+¿Saben qué? Solo voy a cambiar los nombres. Ya acá es al revés, chicos, ya acá es número a texto. Lo que yo quiero es un texto, cierto. Entonces es string porque te va a retornar un texto. Si quiero de texto a número, o sea, quiero obtener un número, es number ya porque este me retorna un número.
+Muy bien, pero aquí tienes que tener cuidadito Wazowski. ¿Por qué? Por lo siguiente, convertir un número de texto es súper sencillo, chicos, cierto, vamos a verlo acá mejor, vamos a verlo en consola, ya vamos a ver acá.
+Castings.
+Así se le llama casting o conversión de tipos de datos, ya conversión de tipos de datos, super fácil. Con esto ya estamos terminando ya.
+Vamos a usar siempre el console console punto log y adentro vamos a convertir lo siguiente, ya comentamos que podíamos convertir con string, cierto, adentro poníamos el número.
+Ya podemos poner 342 y te lo convierte.
+Ya, aunque aquí no habría forma de sí.
+Miren esto, miren esta.
+Estación.
+Esto ya.
+Sí, voy a comentar esto, chicos.
+Porque si no me va a aparecer a cada rato.
+Listo, ya ahora sí, ya aquí lo que hice fue lo siguiente, mira.
+De hecho, para no confundirles tanto, voy a crear una variable variable texto uno y voy a hacer esta conversión aquí ya.
+Aquí y esto recién esto el typo de este texto aquí para que vean qué tipo de este dato tiene que tener acá. Miren, yo he puesto un número estimados, he puesto un número, esto es un número, ya no está dentro de comillas, le he puesto el string y el string lo que hace interno.
+Esto, es decir, es ese texto lo va a absorber. Texto se va a guardar en esta variable, en este valor de acá, así que texto uno va a tener este número, pero convertido en texto. Y aquí lo que estoy haciendo es simplemente mostrando qué tipo de dato tiene texto uno para demostrarte que string.
+Siempre te va a dar texto, ya voy a imprimirlo acá abajo y efectivamente me ha dado que es string. Has convertido con éxito este número a string. El proceso es opuesto cuando nosotros.
+Nosotros usamos number, que es para convertir texto, ya que es para convertir texto que, por ejemplo, es 26. Miren acá, chicos, ha calidad un número, pero como texto ya y aquí voy a mostrar por cómo.
+Es más, ni voy a mostrar por consola, chicos, voy a sumar número 1 + 2 ya miren, acá me estoy atreviendo tanto que estoy sumando. Ya estoy suponiendo que el número uno me va a hacer un número y me lo va a sumar uno. Sí, acá tiene que dar 28.
+Cierto, acá me tiene que dar 28 porque ha convertido.
+Esto acá, el flujo es el siguiente: number toma este texto que tú le has dado, lo convierte en número y acá lo estoy guardando en esta variable. ¿Qué estoy haciendo acá abajo? Acá abajo, pues como yo sé que el número uno es ahora el número 26.
+Simplemente le estoy filmando más 2. Como estoy usando más y son números, debería darme una operación matemática 28 o k.
+¿Si siguiera haciendo texto, qué me daría 26 2?
+Me tendría que dar 262 porque el más funcionaría como concatenador, cierto, pero no, yo sé que no me va a dar esto, sino que me va a dar 28 porque estoy usando number. Vamos a verlo.
+Voy acá y efectivamente me ha dado el 28 porque lo ha convertido. o K, entonces aquí ya tengo una solución a lo que es el prompt que está acá, me pide escribir mi edad y mi edad es ta ta ta ta ya, pero acá le voy a dar una solución y es aquí, miren, en mi edad puedo hacerlo directamente o crear una variable, miren.
+Voy a hacerlo directamente, ya voy a escribir number y le voy a pasar ese mi edad como operación.
+Ya acá ya estamos viendo, chicos, que este podemos incluso resumirlo en una sola línea toda la operación. Si nosotros entendemos esto, este number mi edad, ¿qué es lo que hace? La edad que tú escribas lo va a convertir en numérico. Ahora sí lo va a convertir en numérico. Ya si yo escribo 26.
+Hasta aquí, hasta aquí, chicos, sería texto, sería así este 26 ya, pero ahora cuando entre aquí.
+Se va a convertir primero en un número, o sea, va a ser un número 26, ya no va a ser 26 con comillas y luego va a ejecutarse la operación de más 2 y ahí va a ser 28. Debería darme ese resultado ya y aquí otra cosa, aquí de acá, el tipo de dato que nos da prompt, bueno, esto ya lo borramos, el tipo dato que nos da.
+Pero esto lo vamos a incluso subir acá ya.
+Y acá vamos a dar, acá vamos a poner otro, el tipo de dato que con al que convertimos.
+Dimos y edad, vean la diferencia, ya vamos a ejecutar, listo.
+Ya escribe tu edad 26, lo escribo acá, chicos.
+Hasta acá, miren qué pasó cuatro.
+A ver, es que sí, miren, miren, acá ha pasado algo interesante lo que pasó ya.
+Mi dato es 26, como yo le comenté, le di el valor 26, exacto, bien, el tipo de dato que nos da pronto es string, ajá, exacto, cumple y hizo lo que quise, ¿no? O sea, convirtió el 26 al número y le sumó el 2. Aquí ya no te está dando 262, si no te está dando una promoción matemática. Pero chicos, miren aquí, ¿qué pasó?
+El tipo de dato al que convertimos mi edad string. ¿Por qué siguen mostrando string? A ver, chicos.
+¿Pregunta interesante, por qué sigue mostrando Steam?
+A ver.
+Ahí está hablando parse parse este parse float también hay. ¿Por qué, chicos, mi edad sigue mostrando string? O sea, porque esta línea sigue siendo el tipo de dato que convertimos mi edad es string. ¿Por qué?
+ya.
+Ajá.
+A ver, type of mi edad.
+Sí, porque en realidad pasa lo siguiente, ya esto ya es un poco más complejo, chicos, y es porque este el number.
+A ver, ¿cómo lo pondríamos? Miren, acá va a ser diferente ya.
+Let number, mi edad le ha cambiado, claro, a tipo number, pero solamente para la operación, o sea, cómo le pondríamos, le pondríamos que.
+Hmm.
+Aquí ya viene con términos de si los cambios son directamente al valor o directamente a la variable. Ya acá le ha dado directamente al valor, por eso es que ha imprimido. Pero si nosotros hacemos esto, por ejemplo, lee.
+Mi edad 2.
+Sí, mire.
+Es interesante cómo funciona aquí la programación, chicos, mi edad 2. Ahora sí, mi edad 2 sí va a ser este, va a ser número, miren.
+Ahora sí va a ser número.
+Eso tiene que ver, chicos, con el cambio dinámico o estático, que ya es un concepto un poco más avanzado.
+Ya, pero miren cómo ha pasado acá, vean. Así está mostrando lo que sería number, ven, ya no está mostrando lo que sería string. ¿Por qué? Porque en sí este no está cambiando, o sea, no es que esté cambiando el valor de mi edad. Ya no este, no es mi edad sigue teniendo en prioridad 26.
+Lo que ha hecho es este es un cambio por fuera. Ha tomado el valor de mi edad, ha tomado el valor, escuchen, ha tomado el valor de mi edad.
+Y a ese valor lo ha convertido en número. Ya hay una diferencia, ahí ha tomado el valor y lo ha convertido en número. No es que haya convertido a mi edad en este, o sea, no es que el valor de mi edad dentro de la caja no me vamos a ponerlo con una logia.
+Así.
+Présteme la caja que está acá.
+Ya présteme la.
+Ha hecho lo siguiente, miren, ya este es mi edad.
+Esta es mi edad ya y le ha puesto el valor de 26.
+Se entiende mejor con esta tecnología, pero esperen, yo le he dado el prompt, le ha puesto el valor 96. Así chicos, así lo ha puesto ya y se lo ha guardado dentro de mi edad. ¿Qué ha pasado? Ha venido el bloque de number.
+Ha venido la función number.
+Yeah.
+Ha venido la función Amber y lo que ha hecho es lo siguiente, no es que haya agarrado tu edad, ya la función no es que haya agarrado tu edad.
+No es que haya agarrado tu edad y lo haya convertido ahí dentro.
+Ya no es que adentro haya convertido ahí el número y lo haya cambiado. No ha hecho esto ya porque si fuera mi edad así, ya ahora sí mostraría que es number, pero sigue mostrando string. ¿Por qué? Porque ha hecho lo siguiente, ahorita le ha sacado una copia a mi estimado, le ha sacado una copia, ya esa copia lo ha convertido.
+Ya por eso aquí lo que tiene que ver ya es un concepto de cambio dinámico o estático. Ya le ha sacado una copia, ya esta copia es lo que la ha convertido a 26.
+O K, a esta copia la ha convertido y esa es la copia que te está dando a ti donde tú lo has guardado, bueno, donde tú lo has imprimido.
+Muy bien, esa es la copia como yo he creado otra caja.
+O ya he creado otra caja. Aquí sí se está guardando la copia, que es el 26, pero no he cambiado a la variable de este de mi edad. A este no le he cambiado el tipo de, o sea, no le he cambiado el tipo de o k, sino a la copia.
+Hay funciones que este sí cambian el contenido, mientras que hay otras que hacen una copia y te retornan esa función. o K se puede entender con ese este, chicos.
+Sí, porque con eso ya estaríamos terminando. Se puedo entender ese detalle de cambio estático y cambio de que no pensaba verlo la verdad, pero aquí lo hemos visto este con eso.
+Bien, está bien chicos.
+Para cerraría con esto, por favor.
+Porque ya con esto yo creo que estaríamos, ya estarían terminando su.
+Estarían terminando su ya operadores, que es sencillo, cuidados con los strings. A ver, ahí me están comentando. Gracias, Kevin, cabezas, Carlos, y estarían así, no aquí, por ejemplo, ya están aplicando esto que les acabo de enseñar. Ya aquí está recibiendo el año actual, año nacimiento tipo number a.
+Acá estimados, acá en la 2.3 están pidiendo el prompt ya interacción con el usuario, están pidiendo el nombre por este el cómo te llamas por el prompt ya y este nombre se está guardando en esta variable ya y lo mismo para la edad.
+La creas un prompt donde pides la edad y se guarda en edad usuario.
+Aquí hay otro componente, este súper fácil, que es el alert. El alert es igual que el console log, chicos, este de acá este alert es similar. Ya solo hay una cosa, chicos, el console log muestra imagen en console.
+El alert aquí también va el mensaje que tú quieres darle ya el mensaje, entre comillas.
+Es lo mismo, solo que el.
+Muestra mensajes.
+Pero en una ventanita.
+Igual que el prompt.
+ya miren esto acá chicos lo vamos a ver acá ya súper fácil ya alert acá pones el mensaje Este es el mensaje que puse en contra
+Espera, esto no va a salir aquí, sí.
+Y vamos aquí, aquí bot, ya vamos a.
+Esto es ya necesario.
+Listo para que salga directo ya.
+Miren, no salió.
+No salió por mi Internet, pero me va a salir esta ventanita de aquí, chicos, y ahí te sale el mensaje. Tú practícale el alert, así ya practica este alert, le pones un el mensaje adentro y te va a salir la ventana.
+Con el mensaje interior que tienen nada más que eso, ya por eso digo que es igual que Consol, que este es muestra el mensaje en la ventanita, mientras que Consol muestra pues acá al costado.
+¿Ves? Aquí está, miren, ese es el mensaje que puse en Alger o K me sale como ventanita, no me sale aquí en la consola, sino que me sale aquí fuera. Tú tienes que darle a aceptar para este, pues para borrar o para cerrar esa ventana bien.
+¿Es eso, entonces quiere que muestres tu nombre y tu edad así?
+Ya quiere que muestres tu nombre y tu edad así usando concatenaciones con más y nada más que eso. Ya lo otro que te piden acá es estimado, es la los templates literal.
+¿Qué es otra forma de concatenar? Ya si nosotros vimos aquí usar más, ya con esto ya cierro. Si vemos usar más como símbolo, hay otra forma de otra forma.
+De unir texto ya de unir texto y eso es usando los templates literales.
+O K, los templates liters.
+Es así, chicos.
+Vamos a ver, acá un ejemplito nomás para que vean ya en los templates literal lo que se usan es el backstip, ya el backstip creo que es esto, ya este es el backstip. Ustedes fíjense por favor cuando hagan eso, fíjense en su laboratorio.
+No, fíjense en Internet, cómo este.
+Como con teclado crear el backstick ya porque es diferente. El mío es con alt paréntesis, alt que r paréntesis de ustedes, según supongo la marca de su teclado, les va a generar estas comillas que están aquí, que son como comillas invertidas ya.
+Ahí dentro vamos a este generar lo que sería.
+No.
+Lo que sería el este ya, por ejemplo, hola.
+Acá puedes poner texto cualquiera, ya texto ta ta ta ta ta, pero si tú quieres poner una variable, tú tienes que usar esta sintaxis, el dólar como el este. Aquí pones la variable ya y puedes poner más texto si quieres, ya es una forma más simple o más sencilla de.
+Y.
+Más sencilla de, por así decirlo, crear concatenación de texto. Ya como lo vemos en el laboratorio, por ejemplo, te da todo este. No miren aquí, chicos, esto es lo vamos a usar con el que acabamos de formar. en.
+Aquí se lo he visto, ya aquí vean, aquí ya puse mi nombre, mi edad, ahora voy a armar una cadena con eso.
+Ya voy a llevarme una cadena con él.
+Salud uno, ya no, aquí estoy usando esto, voy a usar.
+Esto lo voy a quitar.
+Ya porque esta es la concretación que vimos, vean como usando la suma estaba uniendo este mensaje, esto con esto que es texto, con esto, con esto te va a dar obviamente un mensaje y va a funcionar, pero hay otra forma que es así: led saludo, 2 igual tenemos el backstip.
+Quick.
+Ya sí, este es el backstick ya que adentro podemos unirlo así con total facilidad. Hola, pero ¿cómo podemos la variable? Lo ponemos dentro esta sintaxis dólar paréntesis. Aquí podemos poner el nombre de la variable que acá debería ser nombre.
+Hola, vean, este es más sencillo porque no tienes que tener varios este varias sumas para concatenar. Tú simplemente escribes, ya es más fácil. Si tú quieres poner una variable, como te comenté, tienes que seguir esta sintaxis, todo dentro del backstick, por favor, así se llama este símbolo de acá.
+Tienes y aquí este necesito la variable edad, creo otra vez este espacio y adentro pongo edad. Tienes años, ya vamos a mostrar esto.
+Como con un consolojo, hemos armado esta cadena de texto y solamente lo tenemos que mostrar. Saludo 2.
+Ya voy a comentar esto solamente porque no quiero que pues que obstaculice que se pueda notar eso. Ya estoy imprimiéndolo donde está, aquí está.
+Aquí está, chicos, lo ven, está imprimiendo 2, sí está imprimiendo este saludo uno y este saludo 2, por eso es que se está repitiendo, pero ambos tienen la misma forma. ¿Acaso me faltó poner el punto, pero cuál consideran que es el más fácil, chicos, esta forma de armar o esta forma de armar? A ver, ustedes decidan ya cuál consideran que es la forma más fácil de armar una cadena o unir cadena.
+Esta de acá que no le necesita tantas sumas, pero si necesitas saber el símbolo del dólar como el este o esta forma de acá, donde sí tienes que requerir tantas sumas y pues comillas y texto o k con esto, cuál cuál, chicos, consideran que es la forma más fácil.
+Ya con esto ya cerramos, no se preocupen, pero cuál consideran que es la forma más fácil de concatenar texto para ustedes en su opinión, esto o esto?
+¿O cuál usarían?
+Porque yo a veces yo interactúo entre más y este, pero más fácil a mí, por ejemplo, en mi opinión me parece esto ya.
+¿Pero en su opinión, cuál consideran?
+Ahí me está diciendo.
+O K, Kevin dice que prefiere la concatenación de sumas. Muy bien, está bien.
+Sí, algunos este le encuentran más como que una forma más sencilla, no creo que incluso no sé si me acuerdo si en Java o en CCS, usan esa forma de concatenar ya y a veces nos acostumbramos a eso.
+Bien.
+Ahí Carlos me está respondiendo. Carlos prefiere la segunda opción. Genial, Carlos ya es una forma también moderna, último que ha salido. Bueno, último en el sentido de que salió después que esta forma ya entonces esta forma también es súper más sencilla porque te evita tener que poner sumas. Ya tú dentro de un backstick escribes todo.
+Ya si quieres escribir variables, escribes simplemente así. Bien, chicos, entonces, pero por costumbre uso la primera. Ajá, sí, pues, pero sí es recomendable, mis estimados, que en un mismo programa ya que van a construir a partir de ahora se acostumbre a una forma normal. ¿Por qué vamos a confundir al lectura al programador? Si tú tienes 2 formas.
+En una vas a leerlo así y en el otro así no, mejor adáptate, solo aumento bien para este para hacerlo así continuamente o k o k listo.
+Entonces, dicho esto.
+Con esto ya tendrían todo el laboratorio de hoy, chicos, está súper sencillo, ya ahí incluso les da con este le da comentarios. Estos son comentarios, o k, no sé si les si les he indicado y lo he usado muy continuamente. Ya con esto pones un comentario en línea con el símbolo de.
+Espérate, esto para porque le voy a pasar esto, mejor lo escribo acá ya comentarios en JavaScript.
+Hay 2 formas de comentar, la primera chicos, es el comentario en línea porque solamente se hace en una línea. Ya usamos esto doble ya así comentario.
+¿Lo ven? Y la otra, estimados, es el comentario. en.
+Bloque para el comentario en bloque usamos esto.
+Este es el comentario en bloque porque puede tomar más de una línea. Por eso se le llama comentario en bloque. Acá puedo escribir, acá puedo escribir un montón de cosas y todo esto va a estar comentado. escribir este.
+Vamos a poner acá y vas a ser más específico bloque de comentario, que es como está comentando acá, miren.
+Aquí miren como me ha comentado como un bloque toda esta línea, no es que cada uno tenga 2 barritas. Fíjense, ha comentado todo este bloque con de esta forma, ya de esta forma, barra inclinada, asterisco y cierran con asterisco, barra inclinada. Bien, entonces eso ya acá hay varios comentarios.
+Entonces, simplemente lean lo que les dice y este lo resuelven. Vale, listo chicos. Entonces, ¿cuál es la entrega? La entrega es que una vez hayan terminado su proyecto, como este es un proyecto que lo han clonado, ustedes inicializan, ustedes ejecutan el flujo de git por detrás.
+Recuerden, ejecutan el git add ya el git add punto hay o se coma y perdón el git add punto ejecutan el git comi ya con un mensaje descriptivo. Ay, perdón, acá me faltó el menos m ya aplica el comi listo y luego.
+Ahora, como ya está guardado tu cambio, ya está en git, tú simplemente haces tu git push, cierto, es decir, lo subes al repositorio ya con el git push está subiendo al repositorio y tus cambios, si tú te fijas en tu repositorio.
+Ya te vas a tu repositorio, te fijas.
+Vamos a poner es.
+Está también en el repositorio, deberían salirte, obviamente, los documentos que tú pues que tú subiste, no que tú creaste. No sé por qué me salió esto, pero no importa. Okay, ese es el motivo de ejemplo. ¿Y qué más? Claro, Index, esto ya lo hicimos, variables declaradas. Todo esto ya tiene relación con.
+El código que está pidiendo aquí bien, chicos, entonces acá lo importante, a ver, atentos, no es esto, este no se presenta, o sea, sí se presenta, pero obviamente no tienen que copiar y pegar el código. Suficiente es con que me den esto de aquí, o sea, todo esto.
+Está metido dentro de su repositorio ya de su repositorio guest number. Si ustedes me dan el repositorio, yo simplemente lo veo y noto que han hecho esto. Entonces el entregable debería ser.
+El screenshot de su consola, un screenshot también de su consola. A esto ya que hemos visto el papel de la consola, o sea, esto de aquí toman screenshot con los resultados. Ya mandan eso, el screenshot, los resultados de su console log y también mándenme por favor su repositorio.
+Ya, esos dos.
+Para ver también cómo lo han hecho, pues el repositorio. Bien, chicos, ese sería el entregable con respecto a este laboratorio número 9.
+Bien, todo claro, hasta ahí ya para cerrar, para ya despedirnos.
+Todo claro, no hay ninguna duda, ninguna pregunta. Por favor, me confirma con un check. Sí, todo claro. Carlos dice todo claro, todo bien, chicos.
+El.
+Todo correcto.
+Gracias, Carlos, muy bien, todo bien, todo correcto.
+Y yo que me alegro ya.
+Ángel Yael, perfecto. Entonces, si todo está claro, todo está o k, o k yo soy él.
+Ya.
+Ya podemos entonces retirarnos, chicos. Muchas gracias por estar hasta estas horas. Gracias con todos y chao, chao, buenas noches, chicos, buenas noches.
+Air.
+Dejar de compartir.
+Y voy.
+Buenas noches, chicos, ya nos podemos retirar.
+
+Orador 1 ha detenido la transcripción

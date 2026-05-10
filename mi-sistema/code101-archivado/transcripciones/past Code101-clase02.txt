@@ -1,0 +1,915 @@
+Clase_2 Code101n20 
+ORADOR 1 es el instructor
+8 de abril de 2026, 1:06a.m.
+2 h 42 min 3 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   0:03
+Está grabando, como me indica acá.
+No estoy presentando tampoco bien, ahorita ya está empezando a grabar.
+el sonido y listo
+Good.
+En algún momento se me se me escapa la grabación, pediría por favor su colaboración y me interrumpen, nomás no hay problema y me dicen, profe, no está grabando. Yo pues empiezo la grabación.
+Listo, bien, ya está grabando, ya está presentando. Estimados equipo, ya podemos continuar. Bien, vamos a empezar ya porque este básicamente tenemos que hacer casi 2 clases hoy día, pero los conceptos son muy sencillos de entender. Primero nos habíamos quedado anteriormente un súper repaso.
+Y.
+En que una página web era un documento digital, cierto, o un archivo de texto escrito específicamente con 3 tecnologías, HTML, CCS, JavaScript. Habíamos definido estas tecnologías y qué responsabilidad tiene cada una al momento de lo que sería desarrollar nuestra página web.
+Habíamos visto que era HTML, que simplemente era los elementos o el contenido que tenía tu página web, cierto, elementos como imágenes, texto, etcétera. Aquí no tenías que ver nada de imágenes, o sea, no tenías que ver perdón, nada de colores, nada de estilos, nada de apariencia, porque de eso se encarga CSS, que es la que le brinda la apariencia.
+Cierto, tamaño de texto, colores, bordes, eso lo hace CSS y no los estamos viendo ahorita. Y el tercer elemento que era JavaScript, que lo vamos a ver más adelante, es la el lenguaje de programación que le graba, que le agregaba interactividad. En resumen, permitir que tu página responda a acciones del usuario, acciones como clickear, como scrollear.
+A eso bien, eso es en resumen. Entonces ahorita nosotros actualmente estamos viendo HTML y vimos que HTM era un lenguaje de etiquetas. o K, la etiqueta es la unidad básica de HTML, que es una etiqueta, representa algo dentro del documento HTML, ya representa algo, mayoría son visuales.
+Hay algunos etiquetas que hemos visto que no son visuales. Vimos la sintaxis de una etiqueta, una sintaxis o la regla de escritura que tenía que seguir justamente las etiquetas que vamos a escribir nosotros. ¿Dónde? Pues en nuestro código HTML no habíamos creado un documento HTML.
+Y ahí adentro es donde definíamos justamente el código HTML, que son las etiquetas. O sea, esto de aquí ya habíamos visto este, ya habíamos visto algunas. Primero esta, la estructura inicial que teníamos y que habíamos explicado, correcto, cada una de estas representaba una etiqueta y que además.
+A ver, la etiqueta HTML que representaba todo el documento y que era la etiqueta que anidaba otras etiquetas. Recordar que las etiquetas anidan otras etiquetas, es decir, tienen como contenido adentro más etiquetas, ya como una caja dentro de otra caja, así porque dijimos que uno de los elementos.
+De una etiqueta que es, pues es el contenido, ¿no? Y ese contenido puede ser texto o puede ser otras etiquetas. En este caso, HTML representa que representa todo tu documento HTML ya y adentro hay más etiquetas importantes como lo.
+Sería el head que era la etiqueta de configuración, es esta de aquí, cierto, esta caja que está aquí.
+Está chocando mi.
+Por eso está chocando.
+Ya es esta etiqueta que está aquí, que estoy sombreando, no me deja sacar el este el puntero. Es esta etiqueta que está aquí correcto, que dentro contenía más etiquetas y estas etiquetas eran configuraciones, simplemente ya configuraciones que visualmente no se miraban dentro de la página. O sea, todavía no se miraba en la interfaz que mira el usuario.
+Pero que sí, por detrás funcionaban configuraciones, este como metadatos, cierto, estas que esta que representa los caracteres especiales como el eni, etcétera. Esto los toma en cuenta. Vimos esta etiqueta que está aquí o toda esta línea que está aquí que se resume en que tu página sea responsive o se adapte al ancho de un dispositivo.
+Y esta etiqueta que visualmente sí se puede ver, pero no dentro de tu interfaz, sino que se miraba aquí, cierto. O sea, en esta parte de aquí, en la pestaña como título, esas 3 etiquetas vimos y con esas 3 son suficientes. Vamos a ver más adelante otras etiquetas. Luego pasamos a lo más importante, el body.
+Que ya es justamente esta pizarra que está aquí, el body si es ya esta pizarra que estoy red de.
+Sombreando ya donde vamos a dibujar. Ese es el body, porque ahí nosotros vamos a poner todas las etiquetas que vamos a aprender desde hoy, como imágenes, párrafo, etcétera. Van a ir dentro del body, ya vamos a dibujar elementos. Habíamos visto esto, todavía no estaba probando. Habíamos visto la primera etiqueta o el primer elemento que representaba justamente el título.
+No la etiqueta hidden o los haches h uno h 2 h 3 que representaban títulos subtítulos cierto le agregaban jerarquía jerarquía lo que sería tu página web porque este esa jerarquía de un título principal de un subtítulo principal la le graba jerarquía. ¿Por qué tú vas a tener dentro de tu página web secciones?
+Ya vas a tener una sección principal con un título principal, pero también vas a tener subsecciones que tienen sus propios títulos. o K, entonces esa era básicamente la función de lo que eran los las etiquetas de h uno y habíamos avanzado hasta ahí el laboratorio, o sea, hasta este punto tendríamos que tener.
+Dentro de nuestra página web de mi perfil, pues nuestro nombre como título principal, eso.
+Bien, hoy lo que vamos a avanzar, vamos a continuar es.
+Con otra etiqueta de texto, mis estimados, otra etiqueta de texto y la etiqueta que vamos a visualizar es.
+Okay.
+Me dice que no está proyectando a ver.
+Me comentan porfa si este porque estoy presentándolo a ver.
+Así se ve.
+O K, sí se ve, sí, ya estaba, o K, gracias. Perdón, no los leí en ese momento, ya no me está saliendo la notificación como mensaje. Bien, entonces vamos a ver otra etiqueta de texto, mis estimados, y esta etiqueta y esta etiqueta de texto es lo que se llamaría el párrafo, ya que lo opuesto a las etiquetas heading.
+El párrafo simplemente se etiqueta, son es texto corriente, nada más que eso, o sea, es texto que no es título, es eso ya el párrafo representa.
+Voy a agrandarlo para que se vean, ya es el elemento.
+¿Que representa pues texto corriente en tu página web, no?
+¿A qué me refiero con texto corriente? O sea, texto que no es título usualmente debajo del título, por ejemplo, van descripciones, cierto, como un párrafo correcto, lo mismo que un párrafo que tú visualizas, por ejemplo, en libros, en blogs. Ya eso es el este, es eso, texto que no es título, o sea, no es jerarquía, es texto normal.
+¿Qué elemento o sobre si vamos a la sintaxis, cómo se representa? ¿Con qué nombre? Pues se representa con p, simplemente con p minúscula. Ya sí, p se abre este, se abre el se abre la etiqueta, se pone el contenido adentro y se cierra la etiqueta, misma sintaxis que habíamos visto.
+Este es la sintaxis de lo que sería una etiqueta de párrafo. Contenido es obviamente el texto que tú le vas a poner adentro. Voy a copiar esto y lo voy a poner aquí.
+No.
+Ya.
+Esto es un párrafo, lo voy a poner.
+Y vean cómo se visualiza aquí ya la primera diferencia que notamos es, obviamente, pues visualmente no, que es el tamaño de texto, una diferencia entre el título y el este, pero no hay que, o sea, no hay que identificar, repito de nuevo, no hay que identificar a las a los elementos.
+A los elementos de HTML, mis estimados, con el visualmente, o sea, no hay que representarlos con que el título sea más grande que el este, no, sino con qué representa el elemento. Ya el h Uno es para hacer títulos y el P es para hacer párrafos. No a No uses el P para hacer títulos, no lo uses porque recuerda que el navegador interpreta tu página web.
+Lo lee o K lo lee y de acuerdo a si tú pones algo como título, o sea, tu título obviamente tiene más valor que tu párrafo, cierto, o sea, el título es el elemento más representativo, sobre todo si es el título principal sobre un párrafo, cierto, o sea, a ese le va a dar más prioridad y eso va a definir.
+En lo que sería el posicionamiento de tu página web. ¿Ya por qué lee tu página web? Porque le da un posicionamiento. Si tú obviamente sigues las buenas prácticas, vas a tener un mejor posicionamiento referente a qué a la búsqueda de tu página web.
+Bien, entonces ese es el este del párrafo, vamos a abrir el laboratorio para este avanzar la el laboratorio número uno, porque nos pide algo sencillo ahí.
+Nos pide lo que sería en el punto.
+2 3 que es aquí nos dice que agreguemos un párrafo describiéndote a ti, ya voy a copiar y voy a pegar esto.
+Un párrafo escribiendo usted a ti, acá hay comentarios. Recuerden que estos comentarios vamos a eliminarlo y vamos a escribir, por ejemplo, no soy este ya.
+Ahí acabo de escribir mi este, soy un estudiante de ingeniería, tal, tal una descripción tuya porque recuerda es tu, pues es tu perfil ya y visualmente se mira así mío, ya acabo de agregar todo este contenido que está aquí. Tú, por favor, quisiera que copies también esa parte.
+Del 2.3 solamente la etiqueta párrafo y pongas tu párrafo ahí, un no importa que sea corto con tal que te pueda describir.
+Bien, a ver.
+cierto, a ver, disculpe, a ver, recordar de nuevo esa parte, chicos, para estimados para poder abrir lo que sería el.
+El documento a la página web dentro de nuestro explorador, vamos a darle click aquí a Wall Life.
+Denle clic ahí y les va a dirigir a lo que sería el navegador abriendo su este su página web.
+Okay.
+Le dan click, les abre cuando les abre la página web, aquí le dan una información. Obviamente les dice servidor abierto o K se ha abierto en el este, ya no va a haber algo light. Lo que va a haber es lo que estoy indicando es que es puerto 5500, que es donde se está abriendo su página web.
+Que es donde se está almacenando su página web para que el navegador lo pueda ver bien. Si quieren cerrarlo, le dan click otra vez y vean que otra vez me dice primero el mensaje explicativo de servidor, pues apagado y te sale esto o k abran todos por favor suerte para que puedan ver en vivo.
+Y adición en eso.
+Adicionen, por favor, es 1 minutito para o 2 para que adicionen eso.
+¿Pueden poner a qué se dedican, de dónde son, qué los trajo aquí? No una biografía suya que los pueda escribir no tienen que ser tan compleja. Bien, mientras yo les hago una pregunta, o k se había comentado que h uno solamente había.
+Ya había h uno, solamente había una, este solamente podía haber una etiqueta h uno. ¿Cuántas etiquetas de párrafo creen que podemos poner nosotros en nuestra página web?
+Recuerden que podíamos poner un h uno solamente.
+¿Porque h uno representaba el título principal y no podían haber varias, pero qué con cuántas etiquetas de párrafo creen que se podría poner?
+A ver.
+Creo a ver lo que se les venga, no hay problema. Bien, recuerden que la participación es importante, mis estimados.
+Mhm.
+Todas sin excepción, dice Renzo, vale.
+Distintas profes, siempre y cuando cambie de h uno a h 2 h 3 OK.
+El visor code, okey, aquí.
+Ya a ver cómo van.
+Ahí me estaban comentando a ver.
+Desde H uno H6, claro, pero me refería justamente a la cantidad de P que podíamos agregar. O sea, este elemento P, ¿cuántas veces creen que podemos poner P dentro de nuestra página web? Entiendo que H uno sí va a ser solamente uno, es lo ideal ya, pero en cuanto a P.
+¿Cuántas consideran justamente que se puede poner?
+Indefinidas veces, dice, uf, varias o k, creo que sí. Entonces, ajá, exacto, creo que ahí justamente captan la esencia de lo que sería, pues este perfecto. Todos tienen justamente en claros, indefinidas, todas las posibles. Exactamente, exactamente.
+Exactamente, mis estimados, podemos poner una cantidad indefinida de textos de párrafo, porque claro, este aquí no está el factor de esto es un título principal, no, esto no es único, a esto sí lo podemos repetir, o sea, puedo poner otro y puedo poner acá párrafo 2, no.
+Puedo poner acá párrafo 2 y normal me muestra, pero aquí noten algo mis estimados, ya vean cómo se está apilando uno encima de otro, no esto. Vamos a explicar por qué pasa esto en la clase número 3, donde vamos a hablar de los tipos de.
+Los tipos de etiqueta, o sea, cómo muestra, hay tipos de etiqueta y cómo visualmente se muestra. Ya aquí vemos que está poniéndose uno sobre otro. Claro, no siempre va a ser así, no siempre va a ser así, pero es para que lo noten también. o K, listo. Entonces, claro, voy a.
+Terminar esto.
+Bien.
+Entonces vamos a continuar si han puesto, espero que hayan por favor este que hayamos puesto nuestra descripción. Vamos a pasar a otra etiqueta y esta es una etiqueta súper sencilla, o sea, es la etiqueta de imagen. Ya Renzo, todas las posibles. Exacto, bien, gracias por la aclaración, todas las posibles, teniendo claro este ya vamos con la etiqueta de párrafo.
+La etiqueta de título, vamos a pasar a la etiqueta de imagen, pues que el nombre lo dice, no? ¿Qué es lo que representa una imagen, una imagen? Y en realidad el nombre de la etiqueta es súper sencillo, o sea, la mayoría en realidad de nombres vienen de este de términos en inglés, porque este.
+En realidad, casi todos los todo lo que sería programación derivan de conceptos en inglés, términos en inglés, no image que viene justamente en imagen o K es el nombre, es el nombre, como vemos acá es el nombre con el que se dirige pues a esta etiqueta IMG o K.
+Y acá podemos notar 2 cosas, podemos notar 2 cosas, estimados, la primera es que no tiene etiqueta de cierre.
+Ya no tiene alguna etiqueta de cierre. ¿Lo ven? No hay una parte que cierra un contenido. ¿Por qué? Por eso, porque no hay contenido adentro, o sea, no tiene contenido.
+Claro, pues no hay contenido de texto o contenido de otras etiquetas adentro, es así, mira.
+Mhm.
+Listo, esta es una etiqueta imagen y ya no den cierro dentro, no cierra nada, como por ejemplo las que encierran el texto que van a mostrar o los títulos. Imagen no encierra nada. Entonces, si no encierra nada, como referencio yo a la imagen que voy a mostrar, o sea, la imagen muestra una imagen, pero como yo le doy.
+Esa imagen muy bien, hay 2 foros, o sea, para eso están justamente los atributos ya 2 atributos muy importantes. Aquí hay 2 atributos importantes.
+La primera es CRC, esta que es CRC. Bueno, como indica acá, es la ruta de la imagen, o sea, CRC es el atributo donde nosotros le vamos a dar la dirección de nuestra imagen.
+Ya hay 2 formas de darle imágenes, hay 2 formas de darle imágenes, pues a esta etiqueta, ya hay 2 formas.
+La primera son imágenes de Internet.
+O sea, podemos darle imágenes de Internet a lo que sería, pues esta etiqueta, y la segunda es las imágenes que están en nuestro local, es decir, las que están en tu dispositivo, las que tienes ahí físicamente y no están en Internet. Eso 2 formas, Ycry es cómo le pases tú a CRC.
+Pues la dirección, la ruta, ya la primera vamos a ver, voy a colocar acá CRC, ya me lo identifica.
+Ya me lo identifica. Espero que se pueda ver, parece siento que el tono de colores es muy.
+A ver.
+Okey, ahí creo que se nota mejor ya entonces CRC.
+Listo, la primera forma, vamos a pasarle una imagen de Internet. ¿Cómo le pasamos una imagen de Internet? Necesitamos la ruta de esa imagen en Internet. Vamos a cualquier imagen que está aquí, ya vamos a ver, no sé, vamos a la bandera del Perú, ya voy aquí, voy a imágenes.
+Y si quiero, obviamente aquí súper sencillo, no vas a la imagen y tú le puedes dar a copiar dirección de la imagen. Ya copiar, o sea, obtienes dónde está la imagen, la puedes abrir en una imagen, en una nueva pestaña y esta, por ejemplo, es la ruta, no la ruta que la dirección donde se encuentra esa imagen en Internet.
+Está en algún servidor guardado y con esta ruta tú accedes a esa imagen. Esta es la ruta que nosotros vamos a copiar, ya que usualmente tiene http y https, ya que es que representa los protocolos de la web.
+Le vamos a poner aquí y automáticamente vamos a ir a nuestra página web para ver si efectivamente se ve el cambio.
+Listo, ¿lo ven? Ya me trajo la imagen, me lo trajo en el formato o en el tamaño en el que está esa imagen. Si tu imagen está más pequeña, como por ejemplo esta de aquí, a ver, tal vez sea más pequeña. Mira, ahí está, está más pequeña.
+Copio, pego aquí, ven, me lo trae en ese mismo tamaño, ya en ese mismo tamaño como este. Ahora nosotros podemos modificar el tamaño, obviamente voy a copiarlo ya, y eso se hace con 2 atributos que, como dice el nombre, son width, que es para el ancho. Ya width es ancho en inglés.
+Que aquí le podemos poner números que representa justo el tamaño que va a tener. Aquí lo pueden variar. Por ejemplo, voy a poner 200 y el otro es hey mis estimados ya que es.
+El alto ya ancho y alto, nada más que eso es ancho y alto, a ver.
+Que le voy a poner 400 y 200. Ya esto, obviamente son unidades de medida que vamos a ver más adelante en CSS, pero ustedes pueden ir probando con poner valores numéricos. Obviamente aquí dentro van valores numéricos 400 y 200, y vemos como, por ejemplo, justamente se ha adaptado a ese tamaño que le he dado yo.
+Ya eso, pero eso es lo que sería el CRC. La primera, la primera forma que acabamos de ver es la de imágenes de Internet donde le das la ruta de la imagen.
+¿Pues que está en internet, no?
+Obviamente esta ruta tiene que ser es única, no es única.
+La segunda forma, mis estimados, la que nosotros vamos a usar en este laboratorio son imágenes que están ya dentro de nuestra, pues dentro de nuestro dispositivo. Para eso voy a descargar obviamente una imagen.
+Ya voy a descargar una imagen, digamos este de aquí.
+A ver, esto lo guardo, ojalá sea.
+Ya es JPG, en realidad soporta JPG PNG, creo que hasta BIF soporta.
+Ya voy a poner un nombre porque a ver, primero el nombre de la imagen es muy importante al momento de referenciarla, yo le voy a poner imagen prueba así.
+Imagen, prueba.
+Ya lo acabo de guardar en los descargables, ya lo recomendable aquí, tal como indica el laboratorio, o K, es que tus imágenes, mis estimados, las tengas en tu carpeta de proyecto. Ya ahorita mismo, por favor, te pediría que busques una imagen recomendablemente tuya.
+Ya de que porque como va a ser tu perfil, va a ser una imagen tuya propiamente. Yo estoy descargando una imagen cualquiera porque no tengo una imagen a la mano mía, pero sí quisiera que tengas una imagen tuya ya en tu local y lo lleves a tu carpeta de proyecto, o sea, a este proyecto de mi perfil, como por ejemplo, yo tengo aquí esta imagen que descargué.
+Lo copio, voy a disco local C.
+Voy a buscar esa carpeta de proyecto que era Code 101, cierto mi perfil y aquí lo voy a pegar.
+Ya aquí lo voy a pegar, llámale el logo, por favor, creo que con ese nombre está a ver con qué nombre está con foto, ya llámale foto, realidad el nombre, no importa ya, pero este.
+El nombre no es no es importante ya, pero con por motivo de laboratorio, para que no te confundas en realidad, porque el nombre importa mucho al momento de referenciarlo. ¿Cómo así? Mira.
+Cuando tú añadas tu imagen a tu a tu carpeta de proyecto, obviamente ya se visualiza aquí como lo ves, la imagen sale aquí. Si tú quieres ver si se ha subido correctamente, le das a la imagen y ves que te muestre en vivo. Sí, en Visual Studio Code se puede este abrir imágenes. Entonces, si te lo muestra, entonces perfecto, o k has subido con éxito.
+Tu imagen vas a.
+Vamos a cambiar esto porque ya no voy a hacer una imagen en ruta, sino en Internet. Perdón, ya no voy a hacer una imagen en Internet, sino en local. Entonces, ¿cómo referencia una imagen en local? Pues así, mi estimado ya.
+Así a ver como está ahorita en raíz, ya tu ahorita está en lo que sería raíz o k no tienes que poner nada, simplemente pones el nombre, simplemente pones el nombre foto, en mi caso, por ejemplo, se llama foto punta punto jpgy ahí me lo recomienda ya.
+¿Me recomienda eso entonces?
+Ahorita acabo de referenciar la ruta de mi imagen correctamente.
+Yo voy a presionar control.
+Control, me quedo presentando control y me ven que me sale un cursor, o sea, cambia a manito encima, le doy clic y me envía esa imagen. Ya si pasa eso está bien.
+Pero a ver.
+O K, entonces quiero que ahorita por favor suban una imagen a su este.
+Suban una a su imagen, una imagen suya. a su.
+A su carpeta de presto.
+Ya, porque esa imagen vamos a usarla justamente dentro de su mi perfil, a ver, me comentan.
+Bien.
+Simplemente es tener una imagen que está ahí, ponerlo en su este y claro, ponerle un nombre, no ponerle un nombre.
+¿Por qué? Porque lo que vamos a hacer es referenciar a esa imagen dentro de nuestro etiqueta imagen. El nombre es importante porque ese es el nombre que le indicamos aquí. Esto con esto, lo que le estamos diciendo es, ey, etiqueta imagen, o sea, va a leer el navegador, va a leer y cuando llega aquí.
+Y dibuje tu imagen, va a haber o K, estás usando una, no estás usando una ruta de Internet, no es una imagen de Internet, por lo que veo es una imagen local y la imagen que tú quieres poner dentro de tu etiqueta es foto JPG. Muy bien, voy a buscar eso en tu local. Aquí está esta imagen, entonces voy a dibujar y esto es lo que.
+Dibuja ya, y también obviamente lee los atributos de ancho y alto que están aquí y te dice: te voy a poner 400 de ancho y 200 de alto. Ya no es centímetros, mis estimados, no es centímetros, es píxeles, que es un que es una unidad de medida, pero usada ya en lo que sería desarrollo web.
+¿Que vamos a ver más adelante? Ahorita no nos centremos en esto, porque otra cosa es que tampoco vamos a ver with a dentro de HTML. Eso lo vamos a ver en CCS más detallado, ya usualmente no se pone aquí, pero yo le he puesto justamente con fines demostrativos.
+Ok, ahí veo preguntas, a ver voy a revisar.
+Perfecto, Carlos, ajá, bien, por favor, ya lo subiste, genial. Sí, veo que ya este ya lo conectaste ya.
+¿Qué más vamos a ver chicos?
+Genial, ícono PNG. Ajá, la imagen, tú quieres, si quieres, puedes probarlo bien, y también veo que has puesto tu P.
+Um.
+Muy raro.
+Eso este intenta probar con otro navegador, Cristian, ya algo que pasa en P, mis estimados, es que P no tiene este.
+Miren si se dan cuenta.
+P A ver cómo está así, ya mira, yo voy a poner saltos de línea.
+Ya voy a poner saltos de línea, como ven aquí le acabo de poner saltos de línea, ya, pero si voy a mi este.
+A mi página web vean que no ha seguido su estructura, cierto, o sea, no ha respetado los saltos de línea y me está mostrando todo lineal ya para eso, mis estimados, o k hay otra etiqueta que se llama pre.
+Pero si respetas saltos de línea, miren, voy a poner esto de aquí.
+Tal cual acá.
+Así como está.
+Y miren cómo me presenta, pre es esto de aquí, ven así tal cual como le pasé con espacios con saltos de línea.
+Eso está mostrando pre, o sea, pre es lo mismo que p ya es lo mismo en cuanto también es texto corriente, pero la diferencia con pre es que le muestra el texto en el formato o en la estructura en la que tú le estás dando ya como es esto de acá.
+Bien, eso es la diferencia, pero usualmente se usa P porque este creo que es el más usado pre saben para qué se usa pre se usa en realidad para código, ya porque el código, como ven acá, tiene una estructura, no tiene espaciados, tiene identación, ya eso es pre.
+Usualmente para presentar poemas, etcétera, que tienen una estructura diferente ya entonces, pero yo voy a dejarlo con p en caso tú quieras usar pre, tal vez quieras poner lista, ahorita vamos a ver las listas en realidad que es otra otra etiqueta.
+A ver cómo vamos.
+Ahí me están dejando en este bien Renzo, ahí también estoy viendo que acabas de subir tu foto, genial, chévere.
+Ahí.
+Ajá, parece que no te está cargando el.
+Uy, acá hay primero un detalle, este Cristian.
+La primera es que es tú acá tienes que cambiar tu este. Sí, te pediría que me mandes el la mira, ves y acá hay otro detalle, mira acá.
+Es justamente lo que te decía, mira, tienes un index dentro de otro index. Al parecer has creado una carpeta llamada index y adentro todavía has creado tu archivo index. Lo que te digo es que lo que te pido que hagas es que tu index, el index archivo, lo saques afuera de tu carpeta. Ya está así, mira.
+Más o menos está así, te voy a ayudar aquí. Has creado una carpeta, yo lo voy a poner cualquiera, la verdad. Esta es una carpeta y tu index se ha movido acá adentro.
+Ya está así, tú estás así.
+Tu index está dentro de esta carpeta que está aquí.
+No debería estar ahí, debería estar en la raíz. Mira, voy a voy a regresar y a mí también. Primero me sale el error de que no reconoce un índex, porque obviamente este el índex como regla principal es que esté fuera, no esté dentro de una carpeta de, o sea, esté dentro solamente tu carpeta proyecto.
+Por eso, mira, lo que te digo es agarras tu index y lo arrastres afuera, ya fuera de la carpeta. Sí, por ejemplo, ya te voy a decir que lo muevas y lo vas a mover, o si no, simplemente te vas a tu proyecto ya y tal vez esté dentro de esa carpeta, lo cortas y lo pegas afuera.
+Listo, voy a eliminar esa carpeta o k haz por favor esa corrección. No creo que no haya sido tu navegador, sino que no se está renderizando porque tu index está metido dentro de otra carpeta.
+Ajá, bien, chicos, genial. Todos estamos ahí, perfecto. Sí, todos han referenciado eso.
+Ya genial, genial, genial, estimados, perfecto, o k con esos cambios me avisas. Entonces, o k esto es importante, importante también algo, mis estimados, ya es correcto que se tengan que poner la foto, pero qué pasa si tú, por ejemplo, pones tienes varias imágenes ya y pones este creas una carpeta de imágenes.
+Acabo de crear una carpeta de imágenes y pones tu foto ahí. Mira, voy a poner mi foto ahí. Van a ver que cuando yo acceda aquí, primero lo voy a este. Miren como no me ha reconocido la imagen. ¿Por qué? Porque he cambiado la dirección. O sea, con esto lo que le estoy diciendo es que mi imagen.
+Está en la raíz, la raíz es aquí mismo ya, o sea, dentro de tu carpeta, cuando tú entras nomás a tu carpeta de mi perfil, ya esta es mi carpeta, mi perfil, cierto, entro y me muestra por encima, perdón, lo que está adentro, ¿no? Y adentro, obviamente pueden tener más carpetas y puede haber más cosas adentro.
+Lo que pasa es que he movido la ruta de mi imagen que estaba aquí, ya esa es la ruta de mi imagen.
+De Estaba en 10 con local seco, 101, mi perfil lo he movido a.
+Esta que está aquí, que es lo mismo, pero ahora dentro de una carpeta imágenes, entonces yo lo he cambiado.
+Por eso es que no me lo reconoce.
+¿Cómo se accede a una carpeta? Se accede así, mire, lo ve con barra diagonal, ya estás entrando en un nivel interior, con un nivel me refiero a una carpeta dentro. Presiono esto y ya visto el estudio code me ayuda y me dice o k a quién quieres referenciar a index o imágenes? Aquí te mueves con flechas, yo le digo imágenes.
+Ajá, aquí dentro de imágenes tenemos dentro esto, justo ese quiero referencia, ¿lo ven? Y ahora sí le estoy dando la ruta que es carpeta imágenes dentro de la foto que está ahí ya y sí vamos acá, vemos como si me lo ha reconocido.
+Bien, esto es para cuando tú tengas varias imágenes y usualmente te van a decir que lo guardes dentro de una carpeta para que no estén sueltas, o sea, para que los organices y los órdenes mejor. Bien, esto como demostración no, este si quieren lo pueden dejar así. O sea, si quieren pueden crear una carpeta de imágenes y ponerlo ahí. No se preocupen, yo lo voy a sacar afuera.
+Casi borro la.
+Sí, voy a borrar simplemente la carpeta imagen que simplemente era demostración y voy a retornar a como estaba la ruta.
+Ok, para no confundirlos bien, entonces tenemos imágenes, tenemos título, tenemos párrafo.
+Pero nos faltó algo, estimados, nos faltó, ya vimos este 2 formas, es la ruta en local.
+No en tu carpeta proyecto, o sea, no es en local, sino en tu carpeta proyecto vimos, pero dijimos que habían 2 atributos CRS para referenciar a la imagen que queremos mostrar.
+Pero hay otra.
+Y seguro lo han visto también en su laboratorio, que es.
+Alt, cierto, sí, justamente es alt. ¿Y qué es? ¿Qué hace alt alt? Bueno, en términos simples, simplemente es la descripción de tu imagen.
+Ya alta es la descripción de tu imagen, mi estimado. O sea, que es tu imagen, por ejemplo, no sé acá, persona cruzada de brazos con un paisaje atrás, no, ese sería en mi caso. o K, tú puedes poner, no sé, este la imagen que tú hayas puesto, tú lo describes, no, mío es, por ejemplo, persona.
+Detrás.
+De este persona, no sé, sonriendo.
+Con paisaje detrás.
+Ya Alt lo que hace es eso, pero hay una importancia mucho más grande, mis estimados, y es que Alt nos permite darle esa característica de accesibilidad a nuestra página web.
+¿Qué es accesibilidad? Y yo para responderte te voy a hacer una pregunta muy bien, te voy a hacer una pregunta y la pregunta es si un usuario no puede ver tu página web, o sea, una persona ciega, por así decirlo, una persona que visualmente no puede ver que tiene este.
+Pues lamentablemente, este visión este, o sea, está ciega. ¿Cómo sabrías que, o sea, cómo sabría qué hay en tus imágenes? Primero, ¿cómo miraría tu página web si una persona es ciega?
+¿Si una persona decía, cómo crees que va a mirar tu página web?
+A ver.
+Disculpa, Cristian, creo que.
+Sí, sácalo de tu index.
+Ajá.
+Sí, justamente lo que pasa es que tu index, tu carpeta se llama index HTML.
+Y tu archivo también se llama Index HTML, te dice que ya existen, ¿no? Entonces no se puede reemplazar. A ver, así reemplázalo, o sea.
+En todo caso, corta tu Index HTML y elimina el la. El objetivo es que la carpeta Index HTML que tienes no debería estar. Ya debería estar solamente el archivo Index HTML, Cristian, dentro de tu carpeta, mi perfil. Solamente eso ya esto no tiene que estar solamente esto.
+Entonces obviamente esto lo tienes que sacar afuera.
+O K, por favor.
+Renzo dice un audio que le explique que hay, va por ahí por el texto voz, me dice Jorge.
+Ahí, a ver, si no me equivoco, a ver.
+Me sale al ir a mi carpeta e ir a mi perfil a mi index, darle doble clic y sale, pero si voy a visual, pongo link, me sale al ir a mi carpeta, ir a mi perfil a mi index.
+Ya.
+O K.
+¿Entonces, esto cómo lo habrías abierto este, Andrea?
+No lo has abierto con todavía te sale el error porque creo que me mencionaste en la clase pasada que te salía el error.
+Okay, me confirmas eso, porfa.
+Mientras sigo con la pregunta, porfa, para no desviarnos en receso, creo que en receso podríamos arreglar eso.
+Ya la pregunta sería.
+Como una persona que una persona ciega ya que tiene esta carencia de la vista, pues nada, gracias. Es que tiene esta carencia de la vista, sabría que hay en tus imágenes. ¿Cómo creen que se habría ahí? Justo me comentó ya Renzo, me dijo un audio que le explique qué hay.
+Jorge me explicó por el texto a voz, ya a ver qué pensarían los demás.
+Mhm.
+Solo por el sonido. Exacto, sí, obviamente las personas este con carencias este así no visuales, este en la mayoría de objetos sí seguían con el sonido, no seguían con el sonido. Entonces en la página web sería lo mismo, aplicaría lo mismo.
+¿Pero qué es lo que usarían? ¿Cuál es la herramienta que usarían? Bueno, ya de por sí no se tienen que descargar nada, o sea, ya viene integrado lo que se llama un lector de pantalla, ya un lector de pantalla. ¿Cómo se activa un lector de pantalla? Primero voy a hacer algo, voy a esto, voy a hacerlo, pero con motivos pedagógicos voy a cortar esto.
+Miren un este un lector de pantalla se activa así será Windows Control Enter, si no me equivoco, la combinación.
+Narrador, diálogo, aceptar, botón al tía, atención, me confirma, se puede este, se puede escuchar porque obviamente es está pronunciando lo que está rodeando el borde celeste. Eso es lo que está leyendo. ¿Se puede escuchar eso? Mi perfil, Eric Verde, Google Chrome 2 detecta.
+Narrador 2 de 9 perfecto, o k ya sí, por el perfil, Eric Berg, voy a saliendo del narrador, ya acabo de salir, voy a hacerlo de nuevo.
+Narrador, diálogo, aceptar, Eric Edison Verde Wayne Axero, soy un estudiante de ingeniería, está leyendo la página web por la tecnología y el desarrollo de software.
+Ya me está leyendo lo que sería la página web, no sé por qué se ha quedado ahí.
+Mhm.
+Narrador, barra de control de uso con mi perfil, Eric Verde, Google Chrome ventana, mi perfil, Eric Verde, Google Chrome cat cloud, mi perfil, barra de control, narrador, diálogo, mi perfil, Eric Verde, que para mí es ventana con mi perfil, Eric Verde, saliendo del narrador. ¿Cómo será para alguien que pues tiene esa dificultad visual?
+Narrador Dial, Eric Edison Verde Wein Axero. Soy un estudiante de ingeniería de software con una pasión por la tecnología y el desarrollo de software. Me considero una persona creativa, proactiva y serio. Quiero que escuchen al momento llegar a las habilidades. Mi objetivo es convertirme en un desarrollador de software exitoso y contribuir al desarrollo de soluciones innovadoras que puedan mejorar la vida de las personas.
+Para obtener las descripciones de las imágenes, abre el menú contextual gráfico sin descripción. Ahí está. Vean que al momento de llegar a una imagen, el lector de pantalla comentó que la imagen no tiene ninguna descripción. Justamente ahí está la importancia de lo que sería alt, ya al leer el lector de pantalla y llegar a la imagen.
+Una persona que pues tiene esa dificultad visual no sabe que es una imagen, o sea, es no tiene ningún contexto, ninguna idea de lo que está ahí, y ahí es justamente donde ayuda al narrador, ya y lo voy a colocar porque cuando yo le agregue code 101.
+Code 101 en barra de control saliendo del narrador, lo voy a agregar.
+Le voy a agregar para ver que ahora me lea.
+Con voy a poner solo algo rápido.
+Usuario sonriendo, ya eso es lo que va a leer, voy a abrir de nuevo.
+Narrador.
+Eric Edison Verde Waynaxero, soy un estudiante de ingeniería de software con una pasión por la tecnología y el desarrollo de software. Creo que le puse mucho texto una persona creativa, proactiva y siempre dispuesta a crear nuevas habilidades. Mi objetivo es convertirme en un desarrollador de software exitoso y contribuir al desarrollo de soluciones innovadoras que puedan mejorar la vida de las personas.
+Usuario sonriendo gráfico, listo, lo ven, entonces narrador, justamente eso, saliendo del narrador, lo que justamente nosotros estamos permitiendo es accesibilidad, que es la característica o la capacidad que va a tener nuestra página web para que personas con dificultades como estas, o sea, como esta que mencionamos de ceguera o de esto, puedan también usar.
+Nuestra página web bien pueden usar eso. Entonces damos la accesibilidad también a estos, pero también hay otra persona, pero no persona, sino alguien que ve tu página, o sea, que accede a tu página web y que no tiene ojos. Y ese es Google, o sea, el navegador ya el navegador, como te comento, lee.
+Tú este ya lo comentamos muchas veces, lee tus elementos, pero obviamente no, o sea, no lee la imagen, no tiene ojos para ver la imagen. Lo que mira en realidad es el alt, o sea, es la descripción que tú le das o ky una imagen habla también mucho sobre lo que sería tu página web.
+No, imágenes de películas tiene pues la mayoría de estos, no de portadas de películas. O sea, las imágenes representan también lo que es tu página web. Entonces el alt es otra forma, o sea, colocar un alt es opcional, pero hoy día para ti tiene que ser obligatorio si quieres mejorar en lo que sería el posicionamiento de tu SEO.
+O K, o sea, en lo que es el buscador, porque Google también se apoya en lo que sería alt para este mejorar o mejor tener el contexto también del contenido de tu página web.
+Muy bien, entonces alt tiene esa función muy importante. o K, entonces recomendadísimo que a partir de hoy, cuando tú pongas imágenes sí o sí, pongas alt.
+Bien, entonces okey, eso es control Windows. Si estás en Windows es esto ya en maxi, no sé cómo sería perdón, control más Windows más enter.
+Sí, es no sé cómo controlar tanto esto. Imagínense, ya no he usado tanto esta herramienta, pero bueno, entonces continuamos. Estimados, acabamos de ver las imágenes, incluso acabamos de hacer lo que indica el punto 2.2 no de tener tu foto, subirlo a tu perfil.
+Y pasarlo así, como indica acá en el atributo vale esto.
+Claro, acá hay justamente he visto los avances que tienen ahí, chicos, hasta ahorita estamos así, ya hasta ahorita estamos así, tenemos descripción, tenemos título y tenemos imagen. Entonces pasaríamos a lo que sería lista de hobbies, específicamente lista.
+A ver, vamos a ver específicamente a lo que sería, pues una lista. Vamos a pasar a lo que es el elemento lista y yo creo que a ver qué significa una lista. Vamos acá.
+Vamos acá. ¿Qué es una lista? A ver, creo que nosotros, o sea, en el mundo así real, interactuamos con listas, cierto, una lista en realidad es una agrupación de elementos relacionados, nada más que eso. No tenemos lista de compras, lista de útiles, lista de tareas, o sea, es una lista.
+De varios elementos que tienen alguna relación en común. Bien para HTML, el concepto es el mismo, es sí, es lo mismo, o sea, es una agrupación, ya es eso, pero HTML tiene 2 tipos de listas, tiene 2 tipos de listas.
+Clasificados según una palabra muy importante y la palabra es orden, ya la palabra es orden.
+Hay listas ordenadas y listas desordenadas. El mismo nombre ya lo dice, no, las listas ordenadas tú las tienes que crear o las vas a crear cuando el orden de tus elementos importa, cuando importa el orden nuestros elementos. Por ejemplo, cuando vas a hacer una receta, no el orden en el que tú haces esa receta, primero pones la sartén.
+Luego pones el aceite, luego pones el pollo. Importa cierto, tú no puedes cambiar ese orden porque se altera. o K, creo que a eso se es este usualmente son lista de pasos que tenemos que seguir secuencialmente. Ya esas son las listas ordenadas, mientras que las listas desordenadas ya pues el orden no es prioridad, no importa.
+Este, pues tienes hobbies, tienes, por ejemplo, menús, no hobbies, no importa cuál es primero, cuál es segundo. Cuando pones hobbies, lo importante es que están ahí, cierto. Bien, entonces ahí, por ejemplo, nos podemos decir respecto a las listas. Yo, por ejemplo, te hago una pregunta a ti. sea.
+¿El manual para armar un mueble, qué creen que sería una lista ordenada o una lista desordenada? ¿Un manual para armar un mueble?
+O sea, un manual tiene una serie de pasos para armar un mueble. ¿Creen que sería una lista ordenada o una lista desordenada?
+Renzo me dice ordenada, vale.
+Ordenada.
+Ordenada.
+Jefferson Ordenada, Renzo Daniel Ordenada, Eli Ordenada y Jorge Samuelo Ordenada, Jean Pierre Ordenada. Exacto, ajá, justamente ven este el concepto a la esencia de que es una lista ordenada, que dicen también dice ordenada. Exacto, y por ejemplo.
+Una lista de alumnos para verificar si asistieron.
+Ahí es a ver una lista de alumnos para verificar si asistieron, o sea, una lista de alumnos de asistencia, nada más tiene que ser ordenada o desordenada.
+Ordenada.
+Mhm.
+Lista de alumnos para asistencia.
+Bien, ahí está agregando más información, ya que los ordenadores está nada más, no necesariamente ordenada y está desordenada de asistencia. Ajá. A ver, aquí la palabra es necesariamente tiene que ser ordenada o desordenada. Sí, o sea, necesariamente no tiene que estar ordenada, aunque obviamente creo que depende.
+Del usuario también, porque obviamente algunos, digamos, para mejorar su asistencia, no lo ponen ordenado. Tal vez en lo ordenan en apellidos, no, pero en esencia no importa que esté ordenado o desordenado, no, porque eso no afecta que tú tomes asistencia. Sí, exacto, Renzo.
+Sí, aquí depende, aquí debería decir, depende, ya da todo un debate, porque si tú quieres lo puedes ordenar, pero el orden no importa tanto, mayormente no importa tanto, ¿no? Sí, no sé, Luis está a primero, o se o último, lo ponemos último, no afecta en tus stems, en realidad.
+Okey.
+Listo, entonces vamos a ver los elementos, creo que ayer se va a preguntar algo.
+Depende del usuario que lo pones y ya.
+Ok, entonces vimos que eran listas ordenadas y desordenadas, pero ahora lo que vamos a ver es cómo se representa o qué etiquetas se usan para verlos en la página web. A ver, ahí veo una pregunta, me parece.
+Ajá, sí, ok, el registro de sentencia que se firme en una hoja puede ser desordenada.
+Bien.
+Sí, mayormente, justo como comento, sería eso bien. Entonces, ya aclarando lo que habían estas ordenadas y ordenadas, nos vamos a lo que sería, pues.
+Los nombres de los elementos con los que se representan a esto. Vamos con listas ordenadas primero ya con listas ordenadas primero. ¿Cuál es la etiqueta que se usa para representar una lista ordenada? Es o L. ¿De dónde viene este término? Pues de aquí de order list no o L ya las siglas de eso es o L.
+Esto, en realidad, mi estimado, es para abrir una lista. Ya tú haces esto, mira, ahí está. Mira, abres y cierras una lista. Esta de acá es la sintaxis.
+Ya esto sería la sintaxis, abres y cierras y aquí dentro van los ítems. ¿Qué son los ítems? Pues cada uno de los elementos que están en tu lista, no como si tú estuvieras haciendo una lista de tareas y obviamente la lista de tareas es la lista, pero adentro hay bañarse, este barrer, limpiar este el techo. ¿Lo ven? Ya esos son los ítems.
+Los ítems se representan ya con otro elemento que es LI ya con otro elemento. Mira, si yo pongo solamente o ly me voy aquí visualmente, si te das cuenta, no hay nada.
+No hay nada, ¿lo ves? Y eso es porque no he puesto ningún elemento de lista. ¿Cómo se ponen elementos de lista? Como comenté justamente con LI. ¿Qué significa LI? Viene de list items.
+Ya o elementos de lista de esto viene, ok, yo puedo, por ejemplo, por poner lit sitem uno.
+Lisitem 2, Lisitem 3.
+Ya voy a poner eso como ven acá y si me acerco aquí, vean como justamente me los ha colocado. Ya esta cantidad es indefinida. Tú puedes poner la cantidad de ítems que quieras, siempre y cuando respetando que tienes que abrir o L, que es un este que representa tu lista ordenada.
+Y que rodea, rodea porque ven aquí que dentro tiene el contenido, o sea, las listas o K lo mismo con UL, o sea, la diferencia no es tan compleja en realidad, mis estimados, porque UL lo que usa es lo mismo, o sea, usa Liz.
+Usa LIS, o sea, acá voy a poner IL así ya.
+Ay, perdón, pues al revés, sí, y cierro el ya aquí no es este, ya que es el contenido, este así ya lo mismo es aquí.
+Ajá, su primo y acá lo mismo en qué, porque aquí lo que hace simplemente es cambiar OL por UL.
+Lo ven así tal cual copia y pega.
+Porque UL viene de another list, o sea, listas desordenadas tal cual ya y adentro tú también creas los ítems como el mismo nombre de elemento que es LI. Por eso dicen que ambos usan etiqueta LI, o sea, ambos tienen esto, lo único que cambia es cómo abres o cómo.
+¿Cómo abres pues tú la lista con UL o con L? Nada más que eso. Entonces yo voy a hacer eso, voy a, por ejemplo, copiar aquí.
+Voy a poner si huele tal cual.
+Y adentro tú puedes poner pues una cantidad de listas. Así lo ven, acabo de ponerlo.
+Listo, o K, así es como se ponen, como se crean lo que serían las listas. Ahora creo que además de ver cómo se ven las listas, hay algo que diferencia a una de otra. Ustedes lo notan, o sea, notan qué diferencia a la lista ordenada de la lista ordenada visualmente.
+¿Qué tienen de diferentes? A ver, me podrían aclarar, o sea, me podrían.
+Si lo notan, por favor, me podría aclarar qué tienen diferentes ambos.
+¿Visualizan ustedes alguna diferencia entre estos 2?
+Ahí me están respondiendo. Vamos a ver, la lista ordenada tiene numeración, el marcador del párrafo, un símbolo versus un número arábico. Ajá.
+Está enumerada y la otra no.
+Ya números y viñetas.
+Bien.
+Mhm.
+Bien, a ver.
+Exacto, ajá, creo que la mayoría lo tiene bien claro, ¿no? Y yo creo que incluso.
+También.
+También responde a por qué las listas, o sea, por qué las listas ordenadas tienen números y las listas desordenadas tienen viñetas, ¿no? ¿Por qué tendrían que tener números una lista ordenada? Porque bueno, porque justamente el este no, porque una lista ordenada es secuencial, es cierto, es un primer paso, segundo paso, tercer paso es secuencial.
+Respeto en orden, mientras que en las listas no ordenadas no hay necesidad de una numeración, simplemente te muestra viñetas.
+Correcto, listo. Adicional, te comento, mi estimado, que en realidad nosotros podemos quitar estas viñetas.
+Usando CSS ya y de hecho se van a quitar, de hecho se van a quitar. Este usualmente los programadores los quitamos porque bueno, profesionalmente no se ve el diseño, no se ve tan cómo decirlo, pues estéticamente tan profesional ya y este se cambia en realidad eso.
+Se le quita ahí.
+Y eso no, y se se pone otro estilo que se puede cambiar, pero eso quería adicionar. Ajá. Bien, muchas gracias a los que respondieron entonces.
+Vamos a pasar a la parte del laboratorio que justamente habla de listas, que es la 2.4 donde te dice que agregues tus hobbies. Ya acá estamos viendo 2 cosas. La primera es que estás agregando un subtítulo, mi estimado, un subtítulo que representa tus listas. Ya vamos a copiarlo aquí y lo vamos a pegar.
+Ya haz lo mismo, por favor, y te quería comentar lo siguiente, que seguro, que seguro, perdón, no te lo he comentado. Y es la tercera extensión que habíamos descargado en la primera clase y es la de formatear, o sea, darle un formato a tu documento si tú te vas aquí.
+Te dice format document ya cuando yo le doy clic a formatear documento, mira como o sea, acá no hay espaciado, no hay este, pero al darle formateado.
+Automáticamente me ordena todo como debería estar para una lectura fácil. Ya a ti posiblemente te va a salir así, aquí ya cuando le des format document te va a salir que te va a salir la opción, no recuerdo que opción era, pero dale a aceptar ya y selecciona precare ya esto de acá.
+Selecciónalo para luego tú simplemente al formatear automáticamente te lo haga.
+Okey.
+Si tienen, si este, si están probando eso, chicos, este normal. Si se les presenta algún problema, me confirman eso. Voy a agregar algunos hobbies aquí, por ejemplo, no sé.
+Estudiar en Udemy. Esto no es este. Bueno, estudiar programación ya parece que le estaba haciendo comercial o de mí, estudiar programación.
+A mí me gusta cocinar ya.
+Caminar ya caminar. Sí, me gusta caminar listo, o k tú agrégale los hobbies de tu preferencia, mi estimado, y se visualizaría así ya sección y la lista de hobbies que tiene que ser una lista desordenada.
+Ajá, exacto, dale a configurar por favor, Andrea, dale a configurar y te va a salir esto de acá.
+Mira, te va a salir, creo que esto de acá, esto que visualizas acá arriba te va a salir, selecciona pretia.
+Ya selecciona apretar, le das clic y ya no te va a salir, ya no debería salir porque ya habías establecido eso.
+Perfecto, ya ahí le pusiste mis hobbies, genial. Debería mostrarse esa lista, Jean Pierre.
+Ya debería mostrarse esa lista, mis estimados, y con esto, porque con esto ya estaríamos terminando. Ya si lograron hacer esto, quisiera por favor que manden su captura de esto, o sea, como se visualiza acá.
+Porque esto en realidad es todo el laboratorio, uno ya el laboratorio uno es hasta aquí. Lo que hace ya más adelante es que puedes agregar más contenido, no, pero tómale la foto hasta aquí y mándalo por favor al grupo de WhatsApp para tener una verificación de tu parte.
+Tienes título, tienes descripción, imagen y pues un párrafo de tus secciones, un párrafo, perdón, de tus hobbies.
+Vale, yo voy a estar ahí, voy a acceder al WhatsApp.
+Do.
+No.
+Si tienen alguna duda, estimados, respecto a algún concepto, tal vez que no se haya entendido o algún error que se les ha presentado, me comenta.
+Si desean pueden levantar las manos.
+Yo los escucho o los oigo.
+Ja.
+Ahí le doy unos minutitos, 2 minutitos.
+3.
+perfecto, ya estoy viendo las páginas a ver.
+Ya ahí sí, este claro, Andrea, ahí Andrea, mira, lo que pasa ahí es que están comentados. Mira, te explico, por esta razón es que no se presenta tú este tu lista porque lo has escrito dentro de tu de comentarios. Mira, lo que has hecho es lo siguiente.
+¿Has escrito? Sí, mira esto de aquí, solamente esto de acá, ya esto de acá es comentarios. Ya los comentarios se representan de esta forma, como si pareciera una etiqueta, abriendo, cerrando y con un guión adentro. Es una forma extraña, la verdad. y este.
+¿Qué significa un comentario que todo el texto que está aquí adentro no se va a mostrar en tu página web? No se va a mostrar. Mira, acá yo he puesto lo que sea. Mira, voy a poner incluso algo grande para que tú veas un texto y uno pensaría que esto debería mostrarse, pero al momento de ir acá.
+Mira que no se está mostrando ya. Entonces tú has puesto tus hobbies dentro de los comentarios. Lo que quisiera es que incluso se nota en un color diferente. Creo que en el tuyo sí se nota en un color plomo. Si lo ves, es un color diferente a lo que sería un esto. Entonces es lo que tienes que hacer es quita los comentarios.
+Que van desde un este. En mi caso sí se nota visualmente, no desde cómo decirlo, no desde un mayor hasta un menor. No es una etiqueta, lo vas, lo quitas, quítalos, por favor, lo que está adentro no tiene que quedar nada. O sea, tu ley tiene que quedar vacío, sí, sin nada. Y ahí adentro ya sí puedes colocarle, pues.
+¿Tus hobbies y si se van a mostrar?
+genial, o k.
+la foto a ver.
+O K, si no, este a ver, más adelante deberíamos eso porque creo que se había solucionado en la clase pasada. O K, profe, no puedo acceder a mi cama según como les quema. Uy, Gabriela todavía no te comento, ya ahorita le comento eso, paso por paso. A ver, primero cómo se ajustaba Cristian, Cristian, ve por favor a tu index.
+Ya a tu proyecto, tu index tiene que estar afuera, tu index tiene que estar afuera como lo visualizas aquí, tienes que tener también la foto o k en mi caso se llama así, fíjate cómo se llama tu foto mío se llama foto con el formato punto JPG, tiene que estar también en tu proyecto.
+Y en tu imagen usa esto de acá, CRC este. De hecho, te lo voy a compartir para que lo veas, para que lo tengas tú. Me voy a quitar el alt y el with y tú simplemente si tú tienes tu foto con ese nombre.
+Debería salirte, si no cambiale el nombre de foto, o sea, cambiale todo esto por como se muestra aquí. O sea, a mí me muestra esto, por eso es que yo estoy usando este término, pero si tú lo has puesto como logo punto PNG, etcétera, tienes que ponerlo aquí, es donde se pone qué imagen vas a usar.
+Con eso se estaría referenciando.
+Sí, a ver, a ver, parece que lo has puesto.
+Creo que lo has puesto den qué raro, dentro es.
+Ya a ver este mis hobbies parece que lo has puesto así, mi estimado.
+Si has puesto P, mira como ves acá.
+Bueno, p no es, no recuerdo cuál era, pero lo que está pasando es que se ha puesto uno al lado de otro. No sé si ya lo regreso, genial.
+Claro, es que primero, obviamente no era un header lo que estabas poniendo por el tamaño. Creo que le has puesto un enlace o algo así. Ya eso se va a ver más adelante.
+Pero ya a ver, penazo que lo hayas arreglado.
+Esto lo voy a eliminar para no confundir. Ok, donde me quedé, a ver, voy a seguir leyendo.
+O K, este Cristian, me comentas, espero que te haya solucionado eso a Renzo. A ver, lo voy a comentar a Gabriela ya.
+Ahí sigan subiendo, por favor.
+A ver, Lens, te voy a contactar tal vez en privado, ya le acabo de mandar.
+Le acabo de mandar justamente tu nombre también para que te contacte sobre eso bien.
+Buenazo, listo, o ky también veo que subiste esto, perfecto, perfecto, perfecto.
+Que chicos, también hayan subido sus imágenes que podemos continuar.
+Ya listo.
+Felicidades a los que hemos llegado hasta aquí. En realidad, ya casi tenemos la estructura de lo que sería la página web, el la página web que estamos construyendo de mi perfil, no que es que más o menos tendría que terminar.
+Así ya más o menos tendría que terminar así. Acá le he puesto algunos estilos, ya más o menos tendría que terminar así el posicionamiento. Todo eso lo vamos a ver con CSS, como comenté, pero voy a explicar ahora.
+Luego lo que sigue después, en realidad ya eso ya sería casi el 80 o 90% de laboratorio uno. Lo demás en realidad es que añadas tú más contenido, no, ya agregaste mis hobbies, pero agrégale más secciones, como por ejemplo aquí te comentan, no tus metas para este año, tu música favorita, tu género favorito, tus películas que recomiendas, etcétera.
+No, o tu top 3, no sé de series. Ahí sí usarías una lista numerada, no sé, perdón, una lista ordenada, cierto, etcétera. Bien, agrégale tú más contenido y bueno, esta es una verificación final. ¿Qué significa? ¿Qué es lo que tiene que tener tu laboratorio?
+Para cumplir.
+Ya para cumplir, qué es lo que tiene que tener tu laboratorio y respecto a la entrega.
+Creo que esto mejor lo explicaría cuando hagamos, vamos a explicarlo aquí ya en la entrega. El entregable es lo que dice acá, solamente lo que dice acá, y el entregable es el screenshot de tu página web en el navegador donde se ve claramente. O sea, es esto el screenshot que justamente tú me mandaste por WhatsApp, eso tú lo tienes que mandar ahora por el canvas.
+¿Cómo lo mandarías? Bueno, voy a ponerme como estudiante para que ustedes vean cómo se manda.
+Ya si solamente tengo que mandar la imagen, lo primero que le tenemos que dar es empezar tarea. Ya el empezar tarea nos abre aquí justamente un campo para nosotros poder completar tarea. Y aquí es súper sencillo, la verdad. tú este.
+Tomas el screenshot, ya tomas el screenshot de tu página y lo pegas directamente aquí.
+Ya y así de fácil, o sea, es súper fácil en el campo que está ahí lo pegas. Ya si visualizas, bueno, si ves se visualiza completamente o k se visualiza completamente y luego le das a entregar porque es para esto solamente está pidiendo el screenshot, mi estimado.
+Y listo, tarea entregada.
+Bing, eso es con respecto al laboratorio uno.
+O K, entonces he explicado ya lo que sería el laboratorio uno, salgo indentado y con puntos en párrafo. o K, sí, para darle el formato o poder ordenar tu código. Carlos es le das clic derecho y acá como indica formato ya.
+Le das a eso, si lo vas a hacer por primera vez, te va a salir esto de aquí.
+Arriba te va a salir la no, primero te va a salir el poder seleccionar ya el poder seleccionar, si no me equivoco, esto de acá configurar default format, tú le das a configurar, luego te va a salir.
+Esto de aquí y selecciona pretier.
+Ya es simplemente la primera vez, porque ya automáticamente manualmente, después ya lo va a hacer automáticamente sin necesidad de seleccionar cada rato esta opción.
+Con eso ya.
+Ordenas a cada rato tu código bien.
+Okey.
+sobre entrega del trabajo, vale.
+Bien, acá les va a salir la bueno, acá ya no me sale entregar tarea, me sale el nuevo intento. Acá le va a salir a ustedes entregar tarea, el botón de entregar tarea, le dan a entregar tarea. Ya primero se fijan porque cada tarea, en realidad, cada tarea, mis estimados, cada laboratorio.
+Pide una u otra cosa, aquí solamente nos está pidiendo el screenshot, nos está pidiendo solamente el screenshot. Entonces lo que hice, o sea, el screenshot de qué a ver screenshot de tu página web en el navegador, o sea, aquí es esto, la página web que tú has construido es esto y está en el navegador. esto.
+Es lo que quiere el laboratorio. Tú le tomas captura con, o sea, captura de pantalla, ya lo tienes, vas a tu campo, lo pegas, no control, control C, control V, nada más. Ya la imagen se está cargando, como visualizas.
+Se carga ahí fácil. Este campo es muy flexible, tú puedes agregarle ahí la imagen, lo copias y lo pegas y le das a entregar tarea. Así de sencillo, ya le das a entregar tarea y te va a salir ahí. Si te equivocaste en enviar, mi estimado, puedes intentarlo de nuevo como miras acá, lo ves. Si te equivocaste, puedes poner nuevo intento y te va a salir otra vez el campo para que hagas eso.
+Bien.
+Listo, a ver si tienen otra duda, por favor me comentan para pasar ya a la clase 2.
+Yeah.
+Okay.
+mira a ver.
+Ya bien, este Carlos.
+A ver, estás, le das clic derecho, te vas al documento que tú quieres formatear ya en este caso el HTML, le vas al documento, le das clic derecho.
+Format document.
+Cuando tú le das a formar document a ti por ser por primera vez. le.
+Te va a salir esta opción que está aquí, que te va a decir si deseas configurar tu formato, ya te va a salir esta opción, tú le das a configurar, o sea, y al momento de darle a eso te va a salir esta ventanita de aquí, ya esta de aquí.
+Esta ventana que está aquí te va a salir para que tú selecciones una de esas opciones. Las La opción que tú tienes que seleccionar es Pretier, que es la extensión que nosotros habíamos instalado. ¿Recuerdas? Ya esa lo seleccionas y listo con eso ya cada vez que tú le des a formatear document.
+Automáticamente lo va a hacer, ya no tienes que seleccionar esa opción a cada rato porque pues ya se lo indicaste una sola vez.
+Vale, pruébalo por favor a ver si te funcionó.
+Y también veo que justamente el este lograste, aunque tus tu lista, no sé por qué tu lista sale este Carlos con este tamaño de como si pareciera un título.
+Mira, si te das cuenta, tu lista tiene un tamaño como si pareciera el título. Fíjate, por favor, dónde has colocado el la lista que tienes.
+A ver.
+Mira una cosa, Carlos, ¿ves aquí?
+Ya primero, en cuanto al código, sí quería darte ahí justo una corrección. Tu lista está metida dentro de tu título, mira.
+Por eso es que tu lista tiene un tamaño justamente así, sácalo por favor afuera de tu título, dentro solamente tiene que estar mis hobbies.
+Ajá.
+Lo has puesto como contenido, por eso es que tiene como que el tamaño de un este.
+Vale, ya okey, si no te salen las opciones, a ver.
+Mm.
+O sea, no te sale la opción de este simplemente al momento de dar a formar document.
+Aunque yo lo veo formateado, o sea.
+Si veo ahí tu código, este Carlos está formateado, tal vez ya sí lo hizo, o sea, tu código ahorita está ordenado con la identación correcta, en realidad está con la separación, bueno, o sea, está para leer así, justamente es como forma formatea el pretier.
+Claro, este Aaron, sí, este, pero te recomiendo que le agregues algunas secciones más. O sea, faltaría esto, ya se los dejo a ustedes como tarea adicional, o sea, no lo adicional, sino esta tarea de acá, agregar más contenido, agrega tus metas, tu música favorita, tus películas.
+Y con eso ya se subiría. De hecho, ahorita vamos a ver en la clase número 2, de hecho vamos a pasar ya estimados para perfecto, justamente ahora sí se te muestra bien, Carlos, ya entonces vamos a pasar a la clase 2 para no este no extendernos tanto, porque la clase 2 ya siendo ya casi, mira, tenemos 1 hora porque son las 9:24.
+Sin salir los puntos.
+Tal vez me olvidé. Okay, Carlos, parece que tendrías que tu lista que está así. Mira, tu lista tiene que estar así.
+Fíjate, por favor, si está así, y es que tus elementos de lista que tú tienes en tu caso es.
+Estudiar programación, hacer deporte, escuchar música, ver películas. Esos son estos elementos de acá, pero tienen que estar dentro de un este llamado huele, una etiqueta llamado huele. Ahí adentro tienen que estar. Si no están ahí, mira, lo voy a sacar.
+Y voy a mi este. ¿Ves que ya no salen los puntos? Posiblemente el tuyo no esté rodeado con lo que sería la lista, ya lo que sería el elemento lista que es UL.
+O sea, la etiqueta tiene que rodear al contenido. Los elementos son el contenido de esta etiqueta UL. Sin esta etiqueta UL no sería una lista, sino simplemente serían elementos sueltos.
+Bien.
+Okey, entonces listo.
+Ya vamos a continuar, mis estimados, y voy a empezar con una pregunta, ya una pregunta para despertar esa curiosidad.
+¿O K, si deciden construir su casa y ya tienen el lugar, o sea, ya tienen el terreno, ¿qué empezarían ustedes haciendo mis estimados? ¿Irían a comprar ladrillos y cemento directamente para empezar la construcción?
+¿Qué es lo que harían a ver?
+Ahí me han dado este.
+No te preocupes, Carlos, gracias más bien por esa aclaración también para aclarar el tema. Bien, a ver, sí, justamente ahí.
+¿La pregunta sería, vas a construir tu casa, la casa de tus sueños, no sé, tu mansión, tu casita de Minecraft? ¿Ya tienes el terreno, lugar? ¿Qué empezarías haciendo? A ver, te lanzarías al toque a comprar los materiales ya para empezarlos.
+Hacer los planos, me dice Carlos, bien diseñar el plano de la casa.
+Primero hacer los planos de la casa.
+Yeah.
+Bien, ahora quisiera que me respondan mis estimados. ¿Por qué me darías esa respuesta? ¿Por qué sería hacer los planos y no comprar los materiales directamente?
+Renzo me dice, ¿cómo sería mi casa modelo? ¿Por qué sería diseñar un plano o diseñar el plano en tu casa? ¿Por qué el motivo de tu respuesta?
+Okay.
+Ahí justamente viene el análisis y lo que tendríamos que hacer ahora, por lo que no es justamente el tema que concuerda con lo que es el concepto número 2.
+Ajá, Carlos dice porque hay que diseñar primero la distribución de los ambientes.
+Bien, modelo es el plano, me dijo Renzo ya.
+La distribución de los ambientes, porque con el diseño de la casa se podría comprar los materiales con más actitud de exactitud bien, Jefferson.
+Ajá, distribución, comentó Carlos, creo que ahí la palabra que resaltó. Exactitud también es otro término, no que está relacionado por con por qué planificar, cierto.
+Y Paolo ahí no está respondiendo.
+Mientras yo voy a abrir.
+Esto de aquí.
+Okey.
+A ver, Paolo.
+Porque sabiendo ya lo que quiero construir no tendría que estar improvisando genial a medida que voy haciendo las cosas, eso no, porque improvisar.
+Puede llevar a cometer más errores de lo normal, cierto, o sea, improvisar es un riesgo, una probabilidad de errores de caos. Exacto, muy bien, Pablo, perfecto. Sí, justamente eso no, las respuestas me alegra. Me alegra mucho que tengamos claro qué hacer antes de construir una casa ya.
+Creo que por el bien también de nuestros vecinos, porque en caso de temblor o eso, entonces.
+El diseño o el plano específicamente justamente tiene relación, mis estimados, con lo que vamos a hacer en nuestra clase número 2, que es diseñar y estructurar ya entonces diseñar y estructurar, porque la respuesta justamente a lo que se tiene que hacer antes de construir una casa es diseñar un plano.
+No, porque con un plano tenemos más exactitud. Como comenta, conocemos la distribución de las paredes, conocemos la distribución de las ventanas, de tenemos exactitud de los materiales y según eso sabemos que comprar, cierto, tenemos la cantidad de ladrillos, la cantidad de cemento.
+Ya, y también tenemos claridad para quién, para el que va a construir, como es el albañil. El albañil sabe la dimensión de la pared, el grosor, dónde va, etcétera. Entonces un plano ya nos prepara, nos permite aclarar las ideas y plasmarlas. Ya guía la construcción.
+El mismo, o sea, el mismo procedimiento se visualiza en lo que sería la construcción de tu página web. Tú con tu página web tienes ideas, o sea, sabes, por ejemplo, puedes tener la idea de cuál es la temática de tu página web, incluso de los elementos, pero obviamente.
+No nos lanzamos directamente, No nos lanzamos directamente al código, a planificar y a dibujar. Cierto, claro que lo hicimos aquí, pero por motivos de práctica. Pero no es recomendable. Obviamente, cuando tú vas a construir una página web, lo primero que se hace es tener un plano. Ya lo primero que se tiene que hacer es tener un plano. y.
+A ese plano, nosotros en desarrollo web le llamamos Wireframe, mi estimado, ya nosotros le llamamos Wireframe a este plano donde nosotros plasmamos. En realidad es un boceto de un boceto de nuestra página web del diseño de nuestra página web.
+Mira, te fijo acá, el wireframe lo que indica es una estructura básica de baja fidelidad. Ya como ves aquí, este es un wireframe, mi estimado.
+Este es un wireframe, ya un wireframe lo único que tiene no es colores, no es este estilos, no. El wireframe lo que tiene es qué elementos tiene en tu página web y cómo está distribuido o posicionado. Nada más que eso es lo único que piense, por eso es de baja fidelidad, porque no representa tu página web.
+Fielmente, como si serían los demás niveles que vemos aquí, un macap ya es agregar justamente esa imagen, ese es un diseño visual más fiel a lo que sería tu página web, ya agregando imágenes, colores, estilos, etcétera. ya.
+Y un prototipo ya es como que el prototipo es como la fase uno, fase cero de tu página web ya funcional porque ya es interactivo y es la fase inicial que tú le presentas, digamos, al usuario o k con el cual el usuario interactúa y tal vez te de mejoras, detecte errores, etcétera. Ya ese es un prototipo.
+Pero nosotros vamos a construir en lo que sería este laboratorio un wireframe ya un wireframe de nuestra página web. En realidad, bien, entonces aquí ya mi estimado, vamos a pasar de desarrolladores a como que arquitectos de nuestra página web. Para usar esto o para realizar esto, lo que vamos a necesitar es.
+Pues una herramienta que es en realidad la que tú estás visualizando es ScalyDraw. Mi estimados, la herramienta que nosotros vamos a usar es ScalyDraw, por si algunos no lo conocen. Alguno ya conoce esa herramienta, conoce ScalyDraw. Coménteme, por favor.
+Ya Pablo me dice que no.
+Sí, Skalid Draw es como un diagrama de flujo, no, en realidad Skalid te permite hacer diagramas de flujos, pero más es más que esas cosas, o sea, más que diagramas, te permitan hacer muchos diagramas. Bueno, la mayoría casi no conoce. Jefferson conoce, está bien, ya veo que no hay este.
+El concepto de eso.
+Pero no se preocupen, chicos, porque.
+Lo bueno de Scalidrau, perfecto, ajá, te va a hacer una herramienta. Si tú quieres acercarlos diagramas de flujo, Scalidrau es, pero buenísimo para eso en realidad, y es súper sencillo de entender. Ya vamos por favor a lo que sería, voy a cerrar esto y esto también mi Perú.
+Ver Perú, entonces es caliderado.
+Bien.
+Voy a escalera, escalera en realidad es una herramienta súper sencilla de entender. Bueno, este está abierto a mi este, ya voy a ir por acá. Pensé que se había roto aquí.
+Te voy a dar.
+Te voy a dar ahí la página web de Escalera. Bueno, ya ni siquiera necesitas loguearte, ya es una herramienta gratuita. Esa es la versión web la que te estoy mandando. o K, la que te estoy mandando, lo que te estoy mandando es la versión web y de hecho ya estaríamos avanzando lo que sería el laboratorio 2.
+Ya entonces.
+No lo he abierto, okey.
+Voy a abrir el laboratorio 2 también mis estimados ahora mismo, ya que lo vamos a hacer.
+Y voy a explicar lo que sería la herramienta. Esta es Scally Draw en realidad te da una pizarra infinita. Esta es una pizarra infinita donde tú te puedes desplazar, aplastas espacio y te puedes mover. Te sale la manita, ya te puedes mover en bueno en distintas direcciones. No se nota porque no hay ningún elemento, pero vamos a explicar la barra de herramientas que tiene.
+Que es súper sencilla en realidad la barra de herramientas. La primera es la manita que se usa para desplazarte, la segunda es el puntero, ya la tercera, esto ya son las herramientas de dibujado. Ya tiene 3 herramientas de dibujado o 3 herramientas de forma que son el cuadrado o el rectángulo, perdón, rectángulo.
+Tienes el rombo y tienes el círculo. Ya tienes eso, lo que te sale aquí en este lado simplemente son este las propiedades de estos elementos. No son como las modificaciones que tú le puedes agregar a esto, como por ejemplo los estilos. Ya en resumen, los estilos, tú seleccionas uno de los elementos.
+Te va a salir esto para elemento y tú puedes darle los colores, como ves acá, los fondos si quieres que tenga fondos, el grosor ya el grosor del este. En este caso estoy en un grosor más elevado, voy a poner en *****. También el estilo de trazo puntuados, el estilo de el estilo de trazo hay doble, este de acá es con puntitos.
+Y esto más que nada parece como que el formato de trazo ya y si quieres puedes agregarle.
+Le puedes agregar borde circular o esquinado, la opacidad que es para que se si quieres que se vea transparente o no.
+Y nada más. En realidad, esos son la mayoría de estos, mis estimados, súper sencillo, la los estilos que tiene súper básicos, pues es una herramienta, por eso como mete con una corva de aprendizaje rápida y las demás herramientas.
+Ya las demás, las demás figuras tienen las mismas propiedades, lo mismo que expliqué para el cuadrado lo tiene.
+Okey, lo mismo que expliqué para el cuadrado, para el cuadrado lo tiene estimados.
+A ver.
+Bien, entonces esos serían esto. Luego lo que tiene son las flechas. Por alguna razón me está saliendo su ya lo vi.
+Pero me estaba.
+Esto ya entonces, qué raro que no se veía. Digamos, perdón, nos quedamos en las figuras, vamos a pasar a las flechas. Las flechas, pues tienen la capacidad de conectar en realidad ya las flechas. La única diferencia que sí te daría es el tipo de flecha.
+Ya el tipo de flecha que tienes y las puntas de las flechas. Las demás son formatos que conocemos, el grosor, el grosor y el color. Ya formatos que tú, al interactuar, puedes notarlos. Las flechas nos pueden permitir conectar figuras. Ya si tú quieres conectar esto, por ejemplo, un punto aquí te sale ya.
+Y otro punto aquí, al moverlo, ven que se desplaza con todo y flecha.
+Ya esos esto te serviría. Si tú quieres generar diagramas aquí, las flechas te serviría aquí bastante para conectar eso. ¿Qué más tenemos? Simplemente las líneas ya las líneas. Bueno, en casi todos los las propiedades que vemos acá son similares, estimados ya.
+Son similares, tenemos la línea, tenemos el lápiz para dibujo libre, ya como si fuera paint, sería un dibujo libre, lo que tú quieras, letras, etcétera. Listo, y una de las herramientas sería el texto. Ya en el texto sí vería que viene tipo de fuente aquí o K hay 3 tipos de fuentes.
+Pero yo usualmente lo uso en determinado.
+O K, el tamaño de la fuente hay small, mediano, largo y extra largo. O K, sería eso.
+¿Qué pasa, que no veo?
+Es que estoy bien alejado, perdón, claro, con la ruedita se hace el zoom ya.
+No, espera, te quedas presionando, presionas control ruedita y se hace zoom o te alejas control ruedita ya con control ruedita hace zoom, te alejas o te acercas.
+Bien, ahí parece que me han preguntado algo.
+No, ya o K, qué raro, ya creo que no. O sea, hay una versión de pago, Andrea, pero este con lo que con lo que te brinde es suficiente, la verdad, suficiente con lo que te brinda. Bien, entonces, como te comenté, control, ruedita, te aleja o se acerca ya.
+Obviamente yo estoy bien alejado, por eso aunque ponga XL me lo ve chiquito, ya me voy a acercar, me voy a acercar y lo voy a poner acá. Ven, ahora sí se puede escribir, se puede alinear el texto. Esto es en caso tú pongas todo un área.
+Ya tú puedes poner 2 formas de poner el texto, simplemente le das click y te escribe automáticamente, el escrito es que está en esta posición ya o creas todo un área ya un área y el texto ocuparía toda esa área.
+Todo el ancho, o sea, tú puedes definir el ancho o manualmente se va, se va a definir con esto, que sería pues como que infinito el ancho, ya o sea, esto nunca se va a detener.
+O K, entonces eso no es. Yo creo que intuitivamente nosotros como desarrolladores vamos a entender esta herramienta mientras pues vas interactuando con esta, porque los elementos que te brinda en realidad para el dibujado no son tan complejos, no son, son incluso elementos que tú puedes encontrar en Paint.
+Si alguna vez lo has usado porque simplemente hay figuras, hay flechas, hay lápiz, hay este hay texto.
+Ya y algo que sí es buenazo con Scalydraw es que te permite integrar imágenes o iconos.
+Que es la justamente la razón por la que.
+Por la que yo lo uso. Mira, estas en realidad son imágenes mías que yo tengo en dispositivos en dispositivas y esto, por ejemplo, son iconos SVG que estoy subiendo. Entonces tú puedes este copiar y pegar nomás una imagen control C, control V o puedes cargarlo desde tu local.
+Ya eso y el borrador que este porque es que te permite borrar, simplemente no, pero si tú quieres puedes usar el suprimir, que es la forma más sencilla. Yo el borrador creo que ni lo uso, el borrador ni lo uso. Lo que yo hago es dibujo este ya y le doy a suprimir y listo.
+Y eso, mis estimados, son las herramientas que vamos a nosotros usar.
+O K, eso sería en realidad la parte uno del laboratorio 2 que vendría a ser.
+El weather frame en escalidro ya hemos accedido al.
+Hemos accedido a Scalydraw, lo hemos abierto necesitas crear cuenta y pues justo acabamos de familiarizarnos con las herramientas básicas. Ya hasta ahí mi estimados, han se pudo al menos comprender algo este cómo funciona Scalydraw porque vamos a usar justamente ahora es.
+Eso para que cada uno haga su diseño.
+A ver, me comentan.
+Sí, bien, sí, la idea es que se se note algo, no este Carlos, porque aquí la práctica hace el maestro. Mientras ustedes vayan interactuando, y si les gusta, tal vez podrían este integrarlo en su trabajo, en construcción de diagramas, no, ahí lo van a dominar mejor. Yo creo que.
+Con uno o 2 días en que lo usen como práctica.
+Lo van a dominar bien. Sinceramente, no tuve que ver un video de o un tutorial de Scaly Draw para bueno, en mi parte no tuve que ver un tutorial de Scaly Draw para entender la herramienta. No creo que aprendí.
+Empíricamente, o sea, simplemente agarrando y dibujando, no como si me hubiera como la primera vez que alguien se compra un solar y no conoces este y pruebas las opciones. Ya así agarré las cestes, las herramientas y las probé.
+Bien, parece que la mayoría sí no entendió.
+Okay, entonces si la mayoría entendió.
+Otro chicos, este otra forma que yo recomiendo, ya que yo recomiendo, es mira, váyanse a extensiones aquí, vayan a extensiones, por favor.
+Ok, vayan a extensiones.
+Si se van a extensiones, en realidad hay una extensión, es cálida o tiene una extensión.
+Ya nosotros podemos hacer ese gráfico dentro de nuestra página web, o sea, dentro perdón de nuestro proyecto. ¿Y cómo se puede hacer eso? Con una extensión llamada Escaly Draw.
+Si tú quieres, no quieres usar la versión web y quieres crear. O sea, ¿qué es lo que nos permite hacer esta opción? Mira, esta opción yo la instalé ya. Si tú quieres, puedes instalarlo. Lo que nos permite es primero crear un archivo ScalyDraw. ¿Cómo se crea un archivo ScalyDraw? Les el formato es esto: ExcalyDraw.
+Ya el nombre yo le he puesto water frames y quiero puedo ponerle cualquier cosa, por ejemplo, voy a poner prueba.
+Me voy a poner.
+Prueba punto escalibron. Listo, dicho eso, miren qué es lo que pasa automáticamente, similar a como está aquí en la página web, me lo he abierto, pero ahora dentro de mi proyecto, o sea, el mismo pizarrón es lo mismo.
+¿Cuál es la diferencia que ahora tú vas a tener esto? O sea, este el gráfico, si tú vas a hacer, por ejemplo, tu diagrama.
+Ya vamos a tomar este.
+Si tú vas a ser, por ejemplo, tu diagrama.
+Mira, tú ya lo tienes en tu proyecto, o sea, estás asociado a tu carpeta de proyecto. O sea, yo creo que si tú me este la diferencia no, o sea, no hay diferencia en tareas, ambas tienen las mismas tareas, pero lo bueno de tenerlo como extensión y tenerlo como archivo es que.
+Ya está en tu en tu carpeta de proyecto, ¿no? Y ya no tienes que ir al navegador todavía, pues a tener que revisarlo porque recuerda que en tu navegador, mi estimado, se puede, o sea, si tú vas a trabajar varios diagramas, digamos diferentes, obviamente aquí solamente en el navegador puedes tener uno.
+Ya porque para usar otro tendrías que limpiar, aunque puedes hacer esto, mira, puedes guardar si tú has generado un diagrama.
+Antes de limpiar, tú si quieres, puedes guardar en tu archivo, o sea, guardas en disco, lo guardas y sería un archivo escaliderado como el que como el que creamos. Mira, yo voy a poner acá.
+Prueba descarga.
+Ya pruebas, descarga, me voy aquí, que es donde subí.
+Aquí creo.
+Ya.
+Uno de estos es esto en realidad, vienen chicos, son diagramas, ya son diagramas. ¿Y dónde se abren estos diagramas? Si yo te voy a compartir un diagrama de mis apuntes, se abre desde aquí.
+Simplemente aquí le das aquí a la opción del al menú que está aquí le das abrir y aquí hay esta opción no cargar desde un archivo entonces, pero acá te dice ojo, cargando desde un archivo reemplazará tu contenido actual, o sea, lo que tú tienes dibujado se va a sobreescribir, se va a borrar y se va a cargar con lo que indica un archivo.
+Por eso te comento que en web simplemente tú tienes esta pizarra y nada más que esta pizarra. Ya si tú cargas archivos se va a borrar ya, y si tú quieres crear, digamos, diseños diferentes, no ordenadamente, tendrás que borrar eso y esto, etcétera. bien.
+La ventana de Scalydraw. Andrea, bien, lo primero que hice fue crear este descargar la instalación de Scalydraw. Una vez que hayas descargado la extensión que viene desde aquí, lo buscas, lo instalas, yo ya lo instalé. Lo que tienes que hacer es crear el archivo Scalydraw.
+¿Cómo se crea un archivo scalydraw con este formato?
+Este es el formato.
+Ya sintaxis.
+Para archivo es.
+Es así, mira, es nombre, o sea, nombre de archivo.
+Nombre de archivo, el que tú quieras, punto escalydrow.
+Ya con eso.
+Debería salirte automáticamente a la pizarra.
+O K, pero tienes que tener instalado la extensión porque si no te va a visualizar y ahí mismo, ya en lugar de ir a la página web, ya tendrías tu bueno, tu archivo de escalidro o en realidad.
+Bien, o k.
+Bien, estimados, la siguiente parte ya llega justamente con una tarea para ustedes, que es la de estructurar su página web.
+Ya lo que tendrían que hacer ahora es en Scaly Draw, ya que se vio algo la herramienta, lo que van a hacer es justamente esto de aquí.
+Es hacer el wireframe de tu página web. Miren, aquí hay un ejemplo, ya esto es un ejemplo. Lo que simplemente se usó fueron bloques, ya lo que tienes que hacer es cómo quisieras que se vea. O sea, primero ya te da una propuesta en el laboratorio, ves, te dice que un header, un bloque de header con tu nombre y navegación tiene que ir arriba, un about, una sección, sección 2, sección 3.
+Uderya así aquí, por ejemplo, hay una propuesta aquí. Si visualizamos, ha puesto un bloque así, ha escrito un bloque adentro.
+Mira, para escribir bloques con texto, este es el truco, agarra un texto, mi estimado aquí chequea, por favor, es un truco que uso yo, agarra un texto, escribe por ejemplo mi nombre, ya yo voy a poner acá Eric Edison Verde. Lo siguiente que tienes que hacer es darle clic, selecciona ese texto, le das clic derecho.
+Y acá dice envolver el texto en un contenedor.
+Dale clic a eso y automáticamente te lo va a envolver cuando tú lo expandas.
+Ya ves que no se va a afectar el texto, es flexible.
+Esa es la forma óptima de crear bloques con texto. o K, entonces tú vas a crear un bloque con texto como visualizas aquí. Luego vas a crear uno que representa tu imagen. Voy a poner acá, por ejemplo, imagen.
+Ya por favor, empieza ya haciendo esto, empieza haciendo tu este tu wireframe de cómo quisieras que se vea la posición. El posicionamiento lo decides tú, ahí te doy 5 minutos.
+955, a ver, lo van haciendo.
+Sí, el cuando quiera, a ver, eso lo pones ahí. Sí, exactamente ahí crea el archivo. Lo que necesitas es un archivo scaly draw.
+Ok, Carlos, mira, lo que tienes que hacer es.
+Como indica el laboratorio, hacer tu wireframe, ya comentamos que era un wireframe, cierto, ya que es como esto de acá. Lo que tienes que hacer es el wireframe de tu página, mi perfil.
+¿Tu perfil actual ya tiene elementos, pero tú cómo quisieras que se vea al final así, por ejemplo, no? ¿Cómo quisieras que tú se vea al final? O sea, algo el diseño en mente, cómo se te vendría ahí haces un boceto de tu diseño. Eso es un escalerón, haces un boceto así súper rápido, ¿no?
+En forma de bloques, como ves aquí en forma de bloques.
+Pero ahora aquí en escalibro, mira.
+Por ejemplo, yo estoy haciendo acá ya mi título es un bloque, mi imagen, digamos que yo quiero que sea un cuadrado, voy a poner el párrafo.
+De descripción.
+Ya les voy a hacer en vivo con ustedes. Un párrafo de descripción aquí le voy a poner en lo voy a envolver en un texto y digamos que quiero que esté acá al lado de mi imagen. Luego me indica mi laboratorio que tiene que haber una sección. Ajá, sí, va a haber una sección de.
+Mis hobbies.
+Esto de acá voy a envolver un texto y va a ser algo larguito, o sea, va a cubrir toda una fila, incluso si quiero, puedo ponerlo en el centro y luego seguiría una lista de hobbies, ¿no?
+O si quiera puedo poner así, por ejemplo, cocinar.
+Nadar, no sé, caminar ya todo esto lo voy a envolver en un texto y listo, va a estar debajo.
+Aquí voy a alinear el texto, lo voy a poner ahí y ya ven. De hecho, voy a copiar esto porque voy a reutilizarlo.
+Acá voy a poner mis películas.
+Voy a poner mis películas y acá, pues no sé las películas que me gustan. A ver, a ver, mi película favorita es Wally.
+A ver, what?
+Listo, ya otras. Uy, ya casi me ahorraste, ya, pero más o menos así, mis estimados.
+Vayan ustedes.
+Haciendo el wireframe de su de cómo quieren que sea o cómo creen que debería ser su mi perfil, ya algo súper sencillo que es usar bloques, etcétera. Ahora, si quieren ser más descriptivos, como aquí usan flechas también y le indican, no o k este va a ser mi párrafo.
+Este va a ser miel, este es una etiqueta h uno ya para ser más descriptivos. Esta de acá es una etiqueta párrafo.
+Esto es una etiqueta párrafo, esta de acá es una etiqueta.
+A ver.
+Ya esto es una etiqueta IMG.
+Ok y así no, esa de acá es una h 2.
+Y así lo hacen con cada uno si desean.
+Eso es simplemente un wireframe, nada de colores, posicionamiento. ¿Y qué elementos tienes ya?
+Elementos posicionados.
+Bien, mis estimados.
+Más o menos así, ves súper sencillo. La veo que ahí tú quisiste que tú a Boutique y tus fotos estén juntos, tu sección. Claro, tú decides en realidad el posicionamiento que cómo quieres que tenga. O sea, tú, por ejemplo, si quieres no una un ejemplo.
+¿Tu imagen puede cubrir todo, no? Si tú tienes una imagen que es muy ancho, lo puedes hacer cubrir todo o si quieres puede ser más delgado que el párrafo de descripción.
+No, también tiene que ser obviamente un párrafo bien. Bueno, tiene que cumplir con las características no de del contenido de tu párrafo. Obviamente, un párrafo chiquito no va a ser más alto que una imagen, pero bueno, es como tienes tú el estilo.
+Ajá, claro, este archivo de aquí, mi estimado, en realidad, si tú estás trabajando con extensión con la que te comenté.
+Esta de acá, si estás trabajando con este, o sea, has instalado eso, crea el archivo aquí, créalo aquí, ya creas con ese nombre. Si no, si tú estás trabajando desde la web, haz esto, te vas aquí y lo guardas, lo guardas en tu disco.
+Lo guardas en tu disco, ya en este caso yo lo puse en desktop. Mira, me voy a desktop.
+El archivo es así, ya este visualmente simplemente es así, no se puede tanto diferenciar, pero tú si quieres lo copias, mira, lo copias y lo mueves a en tu Visual Studio Code.
+Mira que al yo ponerlo, si te fijas, mira, esto es lo que traje de mi de mi Scale Draw de la web. Mira cómo es el nombre. En realidad es un archivo Scale Draw. Ya todo Scale Draw se maneja con este tipo de archivo Scale Draw ya y el nombre que yo le puse al momento de guardar, sino que tú lo estás haciendo desde Visual Studio Code.
+Si quieres, puedes hacerlo desde el navegador. Ahí la opción es tuya, mi estimado. ¿Cómo trabajarías tú eso? Ya yo lo voy a eliminar porque era motivo de prueba.
+O K, ahí les doy 1 minuto más, oye.
+Sí, justamente ahí. Si tú pasas en realidad el mouse sobre, te indica qué es lo que hace cada funcionalidad. En este caso, new file es nuevo archivo y new folder es nueva carpeta. Bien.
+Ya visto el estudio code, te ayuda en la mayoría de cosas, te dan las descripciones precisas, Andrea, bien.
+Y claro, miren, hay una cosa más, y es que el laboratorio 2 ya nos está diciendo. La idea es que agregamos más secciones, chicos ya, así que si desean, pueden aprovechar y agregar más secciones. Aquí, como comentan, mientras tienes películas, series, libros. Yo, por ejemplo, ya mientras tú vas dibujando.
+Voy a agregar una sección más mía que sea un L a con tu head, obviamente ya que voy a poner.
+Mis comidas.
+Y esto es esto es trampa ya porque obviamente no voy a meter más de 100 comidas acá a mí que me gusta comer, pero solo voy a poner 3. A ver, vamos con el lomo saltado, perdón si antojo, estimados.
+El.
+Pues ya me duele, me duele hacer esta lista.
+Ya vamos a poner chaufa y vamos a poner este ya vamos a poner uno diferente, ya vamos a poner ramen.
+Ver.
+Ajá, nunca opté cómo empezó a usar el Scally World, Scally Draw, mi estimado.
+Carlos es Calderón ya.
+Ya en Visual Studio Code es así, Carlos primero.
+Descargar la actualizas, descargar el este ya primero sería descargar el la extensión. ¿Cómo lo haces? Justamente pones ese término que te pase.
+perfecto, yo lo instalaste genial, lo siguiente sería.
+Te vas a tu explorador y aquí crea el archivo, ya le das aquí a crear archivo y ahí pones el mismo formato que está aquí.
+Es un punto escalydrau. Carlos es un punto escalera. Al momento de crear archivo, tú pones el nombre de archivo que quieras y le das punto escalydrau.
+Ya le das punto escalidrado y debería salirte, o sea, al momento de darle clic en ese archivo, debería salirte la pizarra de escalidrado, que es como que la igual a la que vimos en web, igualito.
+Perfecto, ya entonces vamos a continuar.
+1 minuto más, ahí los chicos para pasar a la parte 2.
+Porque ya estaríamos haciendo realidad la parte uno y la parte este.
+Ya aquí sí. este.
+Mhm.
+Cuando hagan sus secciones estimados, agréguenle también sus secciones en su este, como ven acá. Miren aquí, en este caso, esta alumna ha agregado su nombre, ha agregado su biografía, su imagen, pero ha agregado más secciones. Miren, no solamente asus hobbies, sino también sus películas favoritas, sus libros favoritos, sus canciones favoritas.
+Ya.
+Así también quisiera que le agreguen para que enriquezcan el contenido de su página web, ya que no solamente tenga sus hobbies, sino se quedaría cortito. Así vean que aquí he puesto series favoritas, he puesto comidas favoritas. Correcto, entonces anoten eso también esas calidad y como quisiera que lo ubiquen.
+Sea así o sea, por ejemplo, a.
+Así, no así, uno al lado de otro en filita, también se puede posicionar así.
+We there.
+2 minutos más estimados para.
+Pasar a la siguiente, este, en realidad la siguiente parte.
+Ya la siguiente parte no requiere tanto.
+No requiere tanto de su diagrama, o sea.
+Vamos a explicar el concepto.
+El diagrama en realidad nosotros lo vamos a usar cuando hagamos CCS ya porque ya el contenido ya está, no con CCS es como lo vamos a posicionar. O sea, CCS es lo que nos permite distribuir, así como lo vemos acá, no donde uno al lado de otro.
+En fila, etcétera, CCC nos permite eso.
+Eso es 1 minuto más y vamos a pasar a este.
+Buenas, hoy le pudiste agregar colores de Jean Pierre ya hobbies.
+Músicas favoritas, francés, no, bueno, buenazo.
+A músicas.
+Hay que ver, vea, ya, bueno, películas, ya, okay.
+Listo, o k chicos, entonces ahí sí le doy. La verdad es que inspirarse en hacer su winner frame sí requiere tiempo. No se preocupen, esto es hasta el sábado, ya esto es hasta el sábado. Vamos ya a avanzar a lo que sería la parte 2. Esto, claro, se los se les va a dejar a ustedes como una tarea ya de cómo quisieran que se vea su.
+Subway F.
+Vamos a pasar a lo que sería la par de 2 mis estimados.
+Porque en la parte 2 vamos a ver otro concepto importante que necesitan ver.
+Y es el HTML semántico, vamos a llegar a la descripción de eso.
+Ok, aquí por favor vamos a cerrar Skydra porque no lo necesitamos.
+Esto de acá ya voy a regresar a mi scalydraw para ir a la clase, al tema de la clase que vamos a ver.
+Muy bien, estimados, OK, vamos a pasar con una etiqueta muy famosa que es la etiqueta dip.
+Ya aquí, por favor, atentos.
+Vamos a pasar con una etiqueta conocidísima que es la etiqueta div.
+Y para explicar esto, bueno, hasta ahorita nosotros hemos visto etiquetas que representan un elemento visual, cierto, tenemos la etiqueta de imagen, tenemos la etiqueta de título, la etiqueta de párrafo que al momento de colocarlo se ven. Ya la etiqueta div no es visual, representa algo ya.
+Podemos decirle que representa como si fuera una caja vacía donde tú vas a poner tus elementos. Ya tú me dirás si no es visual.
+¿Si no es visual, por qué usarlo?
+Entonces yo te diría que su función principal, mi estimado.
+Es agrupación ya lo que te permite hacer una etiqueta es agrupar. ¿Qué te va a hacer agrupación de elementos? Ya por eso te comenté que funciona como una caja, porque dentro tú puedes poner, por ejemplo, imágenes, párrafo, texto, listas, etcétera. Ya o sea, funciona como una etiqueta contenedora.
+¿Recuerdas que en algún momento te hablé de etiquetas que dentro tienen otras etiquetas, como por ejemplo el UL no que tiene dentro su elemento de listas? Ya el dip es similar. La sintaxis es súper sencilla.
+Es esto de acá ya y adentro, obviamente, es son los elementos que tú vas a agrupar. Tú puedes poner la cantidad de elementos que quieras. Ya funciona para agrupar, pero usualmente, claro, lo que agrupamos son elementos relacionados. ¿Cómo relacionados? Por ejemplo, si tú vas.
+A lo que sería.
+Ya si tú vas, por ejemplo, pero vamos a verlo en una página web real, que es la página de.
+Esta de acá ya aquí ya se ve. Mira, si tú te fijas acá, esto de acá parece un contenedor, cierto, o sea, esto de acá, ¿qué está conteniendo? Fíjate, está conteniendo información relacionada respecto a qué respecto a tus hobbies.
+¿Respecto a lo que serían tus hobbies, no? ¿Qué está? ¿Qué está conteniendo? Está conteniendo tu título y tu lista. Ya esto es una lista, está conteniendo 2 elementos que se han relacionado, no está agrupando, no está agrupando lo que serían estos 2, o sea, estos 2 no tendría casos agrupados porque no hay alguna relación en común.
+Entre sus elementos, pero aquí sí, aquí también vean, visualiza como parece que hay un contenedor o una caja, o sea, como un rectángulo, no visualmente.
+Ya y adentro que ha agrupado tu descripción y ha agrupado tu imagen. Ya esto sería representaría como sobre ti, no, porque tiene tu este, tu bueno, tu descripción y tu imagen. Como comenté más o menos, así funciona, nos permite agrupar contenido.
+Relacionado ahora dip, como te comenté, visualmente no se ve nada. Mira, yo he puesto un dip acá y si nos vamos acá no hay nada. Vean, no hay nada o k visualmente no se ve este visual que tú ves aquí. Este contenedor en realidad se logró con CSS, que es lo que es una de las razones por las que se usa dip.
+Pero vi deep, así tal cual no representa nada visualmente, sino que en concepto es agrupación.
+Bien, o k, entonces en concepto sería agrupación.
+¿Ahora, por qué expliqué dip? ya ¿Por qué expliqué dip? Por lo siguiente, mis estimados, ya dip agrupa etiquetas adentro y funciona como una caja, pero es que pasa lo siguiente y acá para justamente llevarte al problema, porque dip tiene un problema, dip lleva años usándose para agrupar elementos.
+Ya mira, voy a agrupar aquí, puse un h 2, ya acá voy a poner un sub título y acá pongo un.
+mira esto.
+Sí.
+No.
+Párrafo, ya mira, voy a agrupar esto y tampoco visualmente se nota un este bueno, una separación visual. Ya entonces así se ha usado el div múltiples veces. Ya se ha usado el div múltiples veces, pero a o sea, a lo largo de su uso ha originado a un problema.
+¿Cuál es ese problema, para qué?
+Entiendas más claramente.
+Voy a explicarlo con una analogía. Mira, tú obviamente estás haciendo una mudanza, te estás mudando y este guardamos nuestros objetos de mudanza en cajas. ¿Cierto? Entonces, ¿qué prefieres al llegar, o sea, al el camión de mudanza? ¿Qué prefieres al llegar tener tus objetos dentro de cajas sin etiquetas?
+O cajas con etiquetas como se ve en la imagen.
+¿Prefieres cajas con etiquetas o cajas sin etiquetas? Durante son 50 cajas, digamos ya durante tu mudanza.
+Prefieres encontrarte con 50 cajas sin etiquetas o con 50 cajas con etiquetas que obviamente tienen tus cosas, no tienen tus cosas y están agrupadas, ya están agrupadas, pero en una hay etiquetas y en la otra no hay etiquetas.
+¿Y por qué?
+perfecto, pero por favor, ¿por qué?
+¿Por qué prefieres las que tienen etiquetas y por qué las que no?
+Bien.
+Jorge, dice mejor con etiquetas, Cristian dice porque con las de que te significo más rápido. Jajá ahí.
+Mejor organización, dice Carlos Renzo, dice más orden y organización. Ahí bien, orden y organización. Jorge dice Jorge Samuel dice: ¿Por qué con etiquetas invitamos a las órdenes y cerramos tiempo a organizar? Ajá, cierto, ¿no?
+Digamos tú para conocer el contenido ya las cajas con etiquetas.
+¿Cuál de estas 2 necesita que tú todavía revises el contenido para saber qué tienen?
+¿No? ¿Cuál de estos 2 tipos de cajas necesita que tú veas el contenido o lo tengas que abrir todavía para saber, hey, esto tiene esto?
+Ahí está, dicen las que no tienen etiqueta.
+Tenemos, vamos a seguir leyendo, hay más organización. Ajá, veo más la palabra organización. Sí, la mayoría son justamente beneficios, no de usar las cajas con etiquetas. Claro, obviamente es mejor usar las cajas con etiquetas porque te ahorra el tiempo, ya identificas qué elementos tienen.
+Y exacto, justamente las cajas sin etiquetas es la es las que tú tienes que todavía.
+Perder el tiempo entrando a cada caja para saber, oye, aquí están los artículos de baño, aquí están los artículos de cocina, a diferencia de una caja con etiquetas que no necesita eso, porque la etiqueta ya te dice que es lo que tiene. ¿Cierto? Exacto. Entonces hay muchos beneficios. Gracias, chicos, por sus respuestas a todos.
+Correctas o K, ahí este la organización justamente que te ahorra el orden y el caos. Ya exacto. ¿Por qué expliqué esto, mi estimado? Porque esto está relacionado con DIP, ya DIP, mi estimado, es una caja sin etiquetas, ya DIP es una caja genérica.
+O sea, Tip no representa nada, es una caja, sí, pero es genérica, no representa nada, ya no representa nada. ¿Y por qué es ese problema durante años, ya durante años para organizar el código, para organizar el código dentro de la página web?
+Como ves acá, se usaba mucho el dip.
+Para organizar tu título junto con tu logo, se usaba el DIP para usar tu descripción, se usaba el DIP para organizar tu contenido principal, se usaba el DIP para usar tus tu publicidad que estaba en la barra lateral. Se usaba el DIP para organizar tus enlaces, se usaba el DIP para todos, usaba el DIP.
+Para agrupar, porque en realidad eso era la función del dip, era agrupar. ¿Pero qué pasa? Aquí hay un problema y la y es justamente la que comenté, que para saber qué tiene un dip tienes que leer lo que está dentro del dip como una caja sin etiqueta para saber.
+¿Qué tiene una caja sin etiqueta? Tienes que ver adentro, cierto. Entonces es lo mismo con el div para que tú puedas saber qué tiene una caja o qué tiene un elemento div, tienes que leerlo. o K, la lectura no es difícil. Yo puedo leerlo, puedo entenderlo, pero hay otro problema que es más grave aún.
+Y el problema es tu navegador.
+¿Sabes por qué?
+El problema es Google en realidad o tu navegador, porque quién más además de ti tiene que leer tu, o sea, quién más además de ti tiene que leer tu página web, ¿recuerdas? Pues es Google y Google, al momento de leer, cuando llega aquí y ve un dip, va a decir o k, pero ¿qué es este dip?
+O sea, mira varias cajas vacías, así Google mira varias cajas vacías. Ahí ya está con esta cara que ves acá, pero mira varias cajas y no sabe cuál es tu contenido principal. No sabe cuál es tu, cuáles son los de tu enlace. No sabe cuál es tu, o sea, Google mira tu dip.
+Y no sabe qué representa este.
+O K, no hay una información, es ambiguo y eso originó muchos problemas en cuanto a la interpretación de la página web. ¿Qué es lo que hizo HTML? Bueno, HTML adicionó lo que sería HTML semántico ya.
+Adicionó.
+HTML semántico.
+¿Qué es HTML semántico? En realidad te te va a otorgar 5 cajas nuevas. Ya son más etiquetas, pero 5 son las principales. ¿Y estas qué son?
+Pues es.
+HTML simplemente es ahora son cajas ya con etiquetas, o sea, cajas.
+Con etiquetas o para hacer decirlo, para ser más preciso es.
+Lo que sería es que la etiqueta indica qué es el contenido.
+O sea, que es el contenido que tiene.
+Ya, porque esas son las cajas con etiqueta, la caja con etiqueta cocina. ¿Qué indica? Pues que aquí solamente hay elementos de cocina, la caja con etiqueta baño. ¿Qué indica? Pues que aquí solamente hay elementos, pues este utensilios de baño.
+Ya entonces las cajas con etiqueta que nosotros vamos a ver hacen eso, ya representan qué es lo que debería tener esa caja. o K, ¿qué es lo que debería tener cada una de esas cajas?
+Por ejemplo, vamos a verlos acá, ya son 5 en realidad y cada caja tiene su regla, o sea, HTML te da las etiquetas semánticas y te dice, mi estimado, tú usa esta etiqueta si tú quieres agrupar adentro esto.
+Si nos vamos a header, que es la primera caja.
+HTML nos dice, aquí tú vas a meter lo que sería logo y navegación principal. O sea, acaba, en realidad va lo que sería el título principal, lo que va en la cabecera. Ya van los logos, la navegación principal, este título principal, el menú, etcétera. Y vamos a una página web real.
+¿Qué es la de Coca Cola que hemos estado usando? Vean que ya automáticamente arriba se visualiza claramente. No creo que en la mayoría de páginas en las que hemos accedido tienen este formato, cierto, un logo arriba y luego lo que serían, pues como que enlaces de navegación para ir a distintos puntos.
+Cierto, y también algunos y adicionan un botón de login, de registro, etcétera. Ya eso es un header, tu header. Cuando tú lo creas, cuando tú creas, tu header tiene que tener estos elementos. Tienes que seguir esto y ya con eso le estás diciendo a Google, Google, aquí yo estoy guardando mi logo y mi navegación principal.
+Mire, vamos a lo que sería el laboratorio, vamos al 22.
+Aquí vemos header, ya voy a copiarlo.
+De hecho, voy a abrirlo aquí mismo, ya voy a abrirlo.
+Ya el header, mi estimado, siempre va en la parte de arriba, dentro del body. Siempre recuerden, ojo, dentro del body, ya seguimos dentro del body. Aquí en la parte más arriba siempre va el header, que es como dice el término, header viene de cabeza, o sea, lo que está sobre.
+Ya a ver, esto es el header y qué es lo que usualmente va adentro. Como comentamos, va tu título principal, tu navegación, tu logo, y eso es lo que voy a poner. Mira, voy a agarrar este h uno, que es mi título principal y lo voy a poner dentro del header, o sea, dentro de esta caja lo voy a poner.
+Le voy a dar formato.
+Lo voy a poner dentro, ya ahí ya estoy cumpliendo con la regla que me dice: Ey, mi etiqueta header tiene que tener h uno o título principal adentro. Ya lo estoy haciendo o K, entonces aquí ya estoy usando. Es como si tú estuvieras teniendo tu caja de de baño y estuvieras metiendo tus cosas de baño adentro ya.
+Porque las cajas de baño, perdón, la caja de baño tiene que tener solamente cosas de baño.
+O K, aquí la caja header solamente tiene que tener lo que indica aquí, que es el logo, navegación principal, título principal, menú de navegación global. o K, con respecto al menú de navegación, al menú de navegación global, hay una caja que representa eso que es la etiqueta nap. La etiqueta nap es justamente la etiqueta de enlace de navegación interna.
+¿Qué son los enlaces de navegación interna? Ya son este, tienen relación con la navegación, la navegación. ¿Qué es la navegación? A ver, la navegación es irse. En realidad nosotros navegamos constantemente cuando estamos en Internet. La navegación es simplemente desplazarte de una página u otra.
+O de una sección a otra en una página web. Esto, por ejemplo, son elementos de navegación. ¿Por qué? Porque al momento de darle yo clic a uno, o sea.
+Esto me envía a mira, estamos navegando a otra sección, lo ven, voy a ir acá.
+Estoy navegando a otra sección correcto, eso es la navegación. Esto de acá es su elemento de navegación de esta página. Nosotros vamos a tener nuestro elemento de navegación, como vemos aquí, miren que es navegación, pero ahora dentro de nuestras secciones, mira sobre mí y me lleva ahí.
+¿Ya cómo agregamos eso? Bueno, usando el nap, como vemos, como vemos acá, miren, voy a copiar este nap aquí, este nap que está aquí y lo voy a poner dentro del header. El nap va dentro del header, mi estimado, porque como comenté en el header, aquí incluye tu navegación principal. y.
+¿Quién es tu navegación principal? Tu nave.
+Ya si tú vienes del mundo de los videojuegos y los conoces, serían como ese menú de navegación que ve que es al que va, pues que se muestra al momento de acceder al juego. Ya más o menos así, Celia, o k.
+Entonces ya hemos visto 2 cajas súper sencillas, la cabecera y el menú de navegación que incluye tus enlaces. Ahorita vamos a ver este elemento que es el enlace, mis estimados, ahorita vamos a ver ese elemento, hay que dejarlo así como comentario porque vamos a pasar a la siguiente que es el main.
+Ya aquí chicos, cuando hablamos del main ya estamos hablando de creo que la caja más importante, ya porque el main lo que rodea es tu contenido principal respecto a lo que sería lo que tiene tu página web, el contenido principal.
+Es el main o k, entonces es el ese el main es único, no se repite porque es principal y tiene que tener, pues vamos a diferenciarlo aquí ya usualmente el main es a lo que refiere tu página web.
+Si tú, por ejemplo, aquí te vas, mira, voy a tomar esta página web como ejemplo. Esta página web habla de recetas, entonces habla de recetas. ¿Cuál sería el contenido principal? ¿Acaso tendría que ser presentando mi blog? No, esto de aquí es contenido secundario, ¿lo ven?
+Esto de acá es secundario. Hablar de entradas populares de esto de sigue mi blog. Es secundario aquí en esta página de recetas, el contenido principal es pues la receta, o sea, es todo esto. Ya usualmente el main es extenso. En realidad, los comentarios no son. Mira, es solo la receta.
+Este es tu main, ya el navegador lee tu main y de acuerdo a tu main identifica cuál es la temática de tu página web. Si dentro de tu main tú pones una sección de películas o no sé, imágenes de películas, va a interpretar que de eso se trata tu página web. Si dentro pones un formulario de citas.
+De veterinaria va a interpretar que de eso se trata tu main. Si pones ingredientes, va a interpretar que de eso se trata tu main. Ya el main habla por ti al navegador. o K, entonces aquí vamos a poner el main como indica en laboratorio. El main, como comenté, es único.
+Ya no tienes al igual que el h uno, solamente se crea un solo main y vean aquí que está integrando en tu main. Mira, si te das cuenta, el main tiene casi toda la información de tu página web, mi perfil ya el main, o sea, aquí en tu perfil.
+No es solamente esto de aquí, sino tu página web de que habla de tu información, cierto, de toda tu información. Entonces no es solamente esto de aquí, mi estimado, es todo esto de aquí.
+Ya es todo esto de aquí, o sea, toda tu información es tu main, tu contenido principal, porque de eso habla tu página web.
+Por eso es que estás considerando todo eso. Entonces vamos a crear el main, que es súper sencillo, simplemente abres así, cierras y lo que vamos a poner ahí, mi estimado, es todo lo que tienes en tu en tu body. Ahorita esto lo voy a eliminar porque solamente era motiva de este, pero todo lo que tú tienes actualmente.
+Dentro de tu este, lo que hemos puesto, lo que hemos construido hasta ahorita, recuerdan su párrafo, su imagen, sus listas, todo, muévanlo dentro del mail.
+Todos muevanlo dentro del mail porque eso es su contenido principal, le voy a dar formatear y listo.
+Bien, muévanlo dentro de su mente. Chicos, me comentan cómo van ahí. Si tienen hasta ahí alguna duda, por favor.
+A ver, vamos a ver, disculpe, menú de navegación.
+Ya o K chicos, ahorita estamos a estamos integrando las cajas semánticas, las cajas de agrupación de ordenamiento, no estamos agregando elementos visuales, ya estamos agrupando y ordenando nuestro código HTML en cajas semánticas, ya cajas que representan algo.
+Recuerden, ahorita ya hemos hecho el header, como ven acá, el nav y el main, por favor integren eso, ahorita me comentan cómo van.
+Ya este el main, como te vi acá, como comenté acá, perdón, vamos a bajarlo ya.
+Andrea, el mein está debajo del header ya y tienes que poner ahí tu párrafo, tu imagen, tu este, tus secciones de hobby, aquí está.
+A ver.
+Es eso el mail, todo tu contenido principal.
+Okey, a ver.
+Sí, también tu tus acciones, porque eso también es tu este bueno, el contenido principal de tu página web, mi perfil.
+Ahí pon por favor tu párrafo, tu imagen y este tus listas o todas las listas que tú hayas creado con su respectivo subtítulo.
+Ay, por favor, com.
+No recuerda que h uno este Andrea, por favor, recuerda que h uno es parte del header, porque ahí es donde va tu título principal, aunque algunos lo integran dentro del main porque ponen el logo.
+La verdad, pero el título principal tiene que ir en el header, ahí es donde lo hemos puesto aquí, mira.
+Ya es el título principal porque nosotros no tenemos logo, o sea, no le hemos puesto ningún logo.
+¿Ves? Aquí estoy usando el h uno dentro del header.
+Mhm, ya.
+¿Cómo vamos, estimados?
+¿Hay alguna duda? Todo claro, han avanzado, han podido avanzar hasta ahí, han creado esas cajas.
+Todo correcto.
+Perfecto, Paolo, muchas gracias por ese.
+Si hay alguna duda normal me lo comentan por favor para poder aclararlo.
+Ajá.
+Bien, parece que hasta ahí todo claro. Ya vamos a continuar para no pasarnos el tiempo. Vamos a pasar con la cuarta etiqueta ya o la cuarta caja.
+Que es la caja de section, mis estimados. Y aquí como indica esta caja es la de agrupación temática. Ya esta caja es casi igual que el dip. Ya recuerda que el dip es para agrupar. Ya el section es lo mismo, también te ayuda a agrupar, pero te ayuda a agrupar contenido relacionado temáticamente. Ya creo que sí hablamos del.
+¿De cómo es la agrupación temática o agrupación que tiene relación?
+Ya esto, esta caja, usualmente la caja section se usa dentro de main, pero se usa más como agrupación ya, por ejemplo.
+Aquí ya se nota claramente, es la misma funcionalidad que el dip, solo que el section ya es una caja semántica, ya es una caja semántica que sí le dice al navegador, hey, esto es una agrupación sobre algo.
+Bien, por ejemplo, aquí como es hobbies, esta es una agrupación. ¿De qué? Pues de tu de tu título de hobbies y de tu lista de hobbies. No, esta agrupación ha este agrupado esta temática. Esta es otra agrupación de tus sedes favoritas, otra agrupación de tus comidas favoritas.
+Ya otra agrupación de lo que sería, pues sobre ti.
+Aquí mira, hay un una agrupación.
+¿Que es que refiere a qué hay de nuevo o K? Sí, mira, si las secciones se identifican, si una sección tiene un título, un subtítulo, perdón, h 2, entonces es una agrupación. Acá hay una agrupación de tiene un subtítulo de mis hobbies. Mira, entonces si ves.
+Que este tiene un subtítulo. Esa es una sección, mi estimado, ya esa es una sección. Por eso es que le pusimos subtítulos aquí, porque esta es una sección, una sección de tus hobbies. Esta es una sección de tus comidas favoritas y bueno, las secciones que tú ya has agregado en realidad van a ir dentro de un section.
+Por eso voy a crear acá un section a cada sección que tú hayas creado. Le vas a poner eso ya aquí si vemos en el la en el si vamos en el laboratorio, ha puesto una sección llamado ID about. Bueno, ahorita vamos a explicar qué es este atributo, pero.
+Ha metido dentro.
+Ha creado.
+La caja.
+Ha creado la caja de sección y ha agrupado. ¿Qué ha agrupado? Bueno, ha agrupado tu foto y tu biografía. Así, estos 2 los ha agrupado. Le voy a dar el formato, estos 2 los ha agrupado. ¿Qué más ha agrupado? Bueno, acá vamos a meter dentro de cada caja.
+Ya solo mis hobbies y mi lista de hobbies, como había comentado, porque estos tienen relación.
+Bien y voy a meter esto de acá también.
+Que sería mis comidas favoritas y bueno, la lista de estas.
+Listo, perfecto, vean así de fácil, ya he metido o he agrupado estas que tienen una temática.
+Así también tienen que agrupar ustedes las suyas, por favor.
+A ver, Andrea, vamos a ver.
+bueno, ahí tienes el nap.
+Enlaces.
+Ese nap, Andrea, mételo dentro de el header. Mira, el nap es una caja que usualmente va dentro del header porque el header incluye la navegación. Mira.
+Mira esto aquí, este es el header. Mira, aquí este es el header y este es tu nap. ¿Lo ves? El nap usualmente, que son los enlaces, van dentro de lo que es el header. Igual acá, este es el nap.
+Perdón, este es el header y este es el na.
+¿Lo ves? Es una caja, la caja nap va dentro de la caja header.
+Bien, o k entonces.
+Y también, este bueno.
+Mete este, metan por favor cada uno de ustedes, chicos estimados, introduzcan o bueno, integren este aniden dentro.
+Cada sección, cada contenido, cada elemento en su respectiva sección, ya una sección para sobre ustedes, una sección llamada sobre ustedes, una sección de sus hobbies, una sección de bueno, las secciones que ustedes hayan adicionado, no, además de sus hobbies, sean comidas favoritas, música, etcétera.
+Integrenlo cada uno dentro de su propia caja de sección, porque eso representa justamente esto de aquí. ¿Ven este bloquecito? Ya cada uno representa eso.
+Ajá.
+Y en la última, la última caja que vamos a hablar ya para no extendernos es la caja, es una caja súper sencilla, ya es la caja de fooder, fooder viene de pie, ya viene de pie. ¿Por qué? Por una cosa en realidad, porque el fooder usualmente va al final, ya no va dentro del main, el fooder ya es como contenido.
+Último, último o contenido final que seguro ustedes han visto cada vez que bajan, ya cada vez que ustedes van al fondo de una página, seguro se han topado con esto, no con esto de acá, que pues tiene distintos colores, pero qué es lo que tiene usualmente ya lo que tiene el fútbol usualmente son este como que.
+Enlaces de contacto, ya sean sus redes sociales, como vemos acá, políticas de privacidad, este políticas, este, etcétera, no atención al cliente, ya eso es el fútbol usualmente.
+Siempre va, la mayoría de veces van al final. Seguro ustedes lo conocen ya. Entonces no está dentro del main porque no es contenido principal. Lo sacamos al fondo, lo creamos al fondo.
+Ya es por eso comento que es una caja súper fácil de entender, porque este primero por dónde va posicionado y porque yo creo que estamos familiarizados con este, con este fondo que vamos, que vemos cada vez que vamos al fondo. Mire, este también seguro tiene.
+Ya su fooder, ven, acá no lo tiene tan lleno, pero esto me ayuda en algo, y es que el fooder también tiene como que el derecho de autor.
+Ya en el footer, tú pones quién creó la página web, así como nos comenta aquí, mira, acá nos está diciendo que adicionemos el footer con esto, mira hecho por en mi caso Eric Verde, acabo de quitar el comentario y poner mi nombre en un párrafo, ¿no?
+El footer también integra quién creó la página que pues que estás visualizando.
+Exacto, muy bien, esa ese muy bien. Gracias por el término Jean Pierre, sí, como si fuera un pie de página ya con lo que usualmente tiene, son la creación de bueno, el autor de creador, las redes sociales.
+Complementarios ya complementarios que no tiene que ver tanto con lo que sería el contenido principal, derechos de autor, contacto, etcétera.
+O K, entonces esas serían las 5 etiquetas semánticas. Hasta ahí habría alguna duda, por favor, si no denme su che, si este si quedaron claro esas 5 etiquetas semánticas.
+Genial, gracias por ese está bien, está bien, me dice Jorge Samuel, chévere, chévere, vemos 2 comamos los demás. Renzo Vergara me dice, está bien.
+A ver, está bien la etiqueta footer. Adicional también la etiqueta footer, por favor, a su laboratorio, ya su proyecto es súper sencillo, va al final. Recuerden que va al este bajo del main, no va dentro del main, no lo coloquen dentro del main, por favor, porque es una caja.
+Que no representa contenido principal como el.
+Claro, no te preocupes, este Cristian, en todo caso sí, si tienen este ya recalcar ahorita si tienen alguna consulta, alguna duda, consúlteme por WhatsApp, no se preocupe, ya podríamos hacer incluso hasta un pequeño, una pequeña reunión si tienen algún problema con el laboratorio, etcétera, para poder guiarlos ahí.
+O K, la idea es que todos aquí salgamos teniendo el conocimiento ya exacto de esto, porque es la base para ustedes ya con esta base, chicos, como si estuvieras haciendo una casa, ya si la base obviamente se tambalea, la casa también se tambalea, ¿no? Entonces es vital tener conocimiento de.
+Estos conceptos para de que lo que venga a sea, pues una papayita o bueno, sea ahí, si no sea más comprensible.
+Bien, entonces Paolo me dice acá, Paolo Rodríguez.
+Eli, muchas gracias por ese check.
+Listo, Carlos, ahí Carlos me va a comentar si tienen alguna duda normal.
+Con eso ya estaría la parte de la parte 2 estimados, ya faltaría solamente la parte 3, pero esto ya para no este para no extendernos, lo vamos a dejar la parte 3 ya la navegación interna.
+Sí, porque ya serían las 10:37. El laboratorio uno ya está ya el laboratorio 2. A ver, lo que faltaría sería ver la etiqueta de navegación.
+Faltaría ver simplemente la etiqueta de navegación mis estimados.
+Está bien a ver.
+Está bien si lo vemos en 10 minutos, chicos, o lo dejamos para la otra. A ver, coménteme porque ya son las 9:00.
+9 y bueno, perdón, 10 y 38.
+A ver.
+Sí, ajá, perfecto. Tu footer está fuera del main y el main tiene ese contenido. Ya las sesiones también está dentro. Ajá, muy bien.
+Ahí.
+Muy bien, Andrea.
+Carlos, sí, no te preocupes, sí lo voy a voy a explicar cómo sería las capturas ya, pero sí quería consultar si nos nos nos quedamos 10 minutos más chicos para hacer esa parte que me falta o lo almacenamos para la siguiente clase. ¿Cómo lo ven ahorita en su tiempo, chicos, porque ya son las 10:39?
+A ver, este a ver, voy a ver este código, estoy viendo ahorita un código footer main genial.
+Sí, está muy bien. El main está adentro, la imagen ordenada de esa forma, los sections también ahí. Sí, te falta un section, solamente te faltaría un section para contener tu imagen y tu P y tu descripción, mi estimado.
+Jean Pierre.
+Ya Carol me dice ya.
+Bien, perfecto, mucho, perfecto, perfecto, o k chicos, o k estimados, se entiende. Entonces vamos a quedarnos ahí ya para no extendernos. Y además, ya como tienen conocimiento de Scally Draw, yo les voy a compartir esto ya para que tengan las imágenes, tengan las presentaciones.
+¿Y puedan acceder a estos ya cómo se accede a esto primero?
+Se van a su escala y draw, creo que sí les comenté.
+Ya Scalydraw aquí y recuerdan que en Scalydraw hay la opción de yo les voy a compartir el archivo por WhatsApp, pero hay esta opción de abrir cierto y la van a cargar desde un archivo que es acá y ustedes seleccionan pues el archivo que yo les voy a pasar ya si ustedes quieren abrir esto de acá en su Scalydraw.
+Esa es la forma, ok, la otra forma, o sea, perdón, ya habrá pasando lo que sería la presentación de laboratorio.
+sí, okey.
+¿Mandarían? Sí, les pediría que manden hasta acá su avance de laboratorio 2, la primera en cuanto al laboratorio uno, como comenté aquí voy a ir al laboratorio uno.
+Explorando la web moderna.
+Y vamos aquí.
+Ya esto no es, es que estoy como voy a ponerlo como estudiante ya.
+Chicos estimados.
+Voy a entrar al laboratorio uno, ya lo que les aparecería al momento de acceder al laboratorio sería este botón donde habría a ustedes les saldría pues entregar tarea ya o a los que ya han entregado les haría nuevo intento. Pueden intentar varias veces la entrega, si tal vez se han equivocado, bajarían acá al darle al momento de dar nuevo intento, les abriría este campo de acá.
+Les abriría este campo. Cada laboratorio pide, cada laboratorio pide algo distinto. En este caso yo les voy a mandar, o sea, terminando la clase, yo les mando la imagen de que solicita cada la descripción de qué es lo que quiere cada laboratorio. Este laboratorio uno lo que requiere es simplemente el screenshot de tu página web.
+Es decir, tu página web abierta, como está construida ahora, tú le tomas tu captura ahí en el navegador.
+Ya.
+Le tomas captura con control C control B.
+Perdón, como tú le tomes captura, no con el IMP.
+Yo le tomé captura, ya lo tengo y aquí simplemente en este campo control B.
+Ya eso es suficiente respecto a esta tarea, porque esto es lo que te pida acá en lo que sería la sección de entregable.
+Bien, y tú entregas la tarea y nada más.
+Ya como te digo, si te equivocaste, si te equivocaste al momento de entregar.
+Puedes entregar de nuevo. Ahora, si a ti no te carga la imagen ya al momento de pegarlo, no te carga la imagen. Ahí lo que sí te diría es que subas tu imagen a un drive y compartas el enlace aquí. ¿Cómo se comparte el enlace? Bueno, también sería fácil, ¿no? Tú tienes el.
+La URL, así digamos, tú simplemente lo pegas y entregas. Ya esa sería una forma o la otra podría ser acá a insertar. Ya fíjate aquí, por favor, te vas a insertar, aquí dice enlace, te das a enlace externo y aquí te dice aquí en enlace. Obviamente pones el enlace y aquí el texto con el que.
+¿Quieres que se muestre enlace, por ejemplo, mi imagen?
+Listo ya con ese texto que ves acá, esto ya yo al momento de darle clic, simplemente me va a enviar a tu drive o al enlace que tú lo has asociado. Muy bien, eso sería en el caso de que tú al subir tu imagen no te cargue, se muestre este porque nos ha pasado, ya nos ha pasado entonces.
+Simplemente adjunta el drive con el enlace de tu imagen.
+¿Oye, se entendió eso?
+Y ajá, sí, también voy a dar esa indicación, pero acá ya lo indico. Ya lo primero, mis estimados, sí tienen que mandar el laboratorio uno porque ya lo acabamos, mandar el laboratorio uno.
+Y mandar el laboratorio 2, mandar el wireframe. Lo que quiero es el wireframe de su laboratorio 2.
+De hecho, ya lo piden.
+La hora que me está pasando, estoy ya miren, vamos a ir al laboratorio 2.
+Okey.
+Vamos a ir a laboratorios, yo voy a mandar, yo voy a mandar, no te preocupes, este Andrea, los demás, yo voy a mandar.
+¿Pues qué es lo que tienen que mandar de cada laboratorio? Ya y también voy a mandar la fecha. ¿Hasta cuándo se puede entregar? Muy bien.
+¿Qué es lo que se manda en el laboratorio 2? Muy bien en el laboratorio 2 solamente avanzamos hasta la parte 2, parte 3 todavía no lo hemos hecho, pero sí quisiera que el del laboratorio 2, como ven aquí, miren, aquí está en lo que sería entrega entregable.
+Pide 2 cosas.
+Lo que pide en realidad es un una captura de tu Wireframe, o sea, pide esta foto tal como yo te lo pedí por WhatsApp. Recuerda, así quiere, quiere que tú le tomes una captura a tu Wireframe.
+Y lo mandes.
+La vaca le das a empezar tarea y lo mandes. Esto es lo único que quiero que mandes ahorita, por favor.
+Ya quiero que mandes ahorita tu este y también obviamente manda por favor lo que sería tu código, cómo se ve ahorita tu código. Quiero ver cómo se ve ahorita tu código, así que manda también la captura esto.
+Captura, por favor, haces esto y mandas la captura para también guiarme como ve. Y si yo detecto errores, yo te los aviso.
+Ya mira, acá puedes enviar varias imágenes en realidad.
+Puedes enviar varias imágenes, ¿lo ves? Puedes enviar varias imágenes, entonces vas en el laboratorio 2, mandas tu wireframe, que si es lo que hicimos, y manda el código de tu laboratorio, el código como se ve hasta ahorita ahí, esos 2, esos 2 es lo que te piden ya.
+El avance es hasta la parte 2, si autónomamente tú quieres repasar la clase 3, o sea, perdón, en la parte 3, tal vez quieras lo estudias normal, o k no hay problema ya, pero hasta la parte 2 ya contaría como un entregable. Eso sería respecto a laboratorio 2 y acá simplemente tú pues lo entregas.
+Y listo, bien, se entendió, estimados, lo que entendemos. Bueno, se entendió cómo se puede se va a enviar lo a lo que sería laboratorio tanto uno como 2.
+A ver, ¿hay alguna duda, alguna consulta? Todo claro, voy a mandar como comento, voy a repetir, o sea, voy a mandar qué es lo que tienen que enviar de su laboratorio.
+¿Y hasta cuándo es la fecha?
+Sí, justamente eso, tanto el laboratorio uno como el laboratorio 2 es hasta este sábado 11 en punto exacto, ya hasta el sábado 11 en punto exacto y de hecho ahorita mismo voy a poner ya voy a poner aquí, miren.
+Yo voy a poner, ya voy a establecer lo que sería la fecha de entrega para que ustedes vean ahí el contador para que le salga a ustedes el contador.
+Entonces la fecha de entrega es hasta el sábado 11.
+12 exactamente ya hasta el sábado 11 exactamente ya cuando termine ya ahí a ustedes les va a salir el respectivo contador para ambos.
+Okay.
+Sí, Andrea, no te preocupes, este ahí sí, 11 de la noche, 12 exactamente.
+Jean Pierre 2 exactamente.
+Sí, este ya se pueden retirar, no se preocupen, gracias a ti. Gracias por quedarse hasta estas horas, chicos. Ya si no tienen alguna consulta, alguna duda, ya se puede, ya nos podemos retirar. Buenas noches con todos, bye, que tengan un muy buen fin de semana cualquier.
+Duda cualquier contacto normal. por.
+Por WhatsApp.
+Jefferson, gracias a ti, nos vemos.
+Voy a dejar grabar.
+
+Orador 1 ha detenido la transcripción

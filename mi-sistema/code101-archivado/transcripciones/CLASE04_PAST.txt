@@ -1,0 +1,1319 @@
+Clase_04 Code101n19
+4 de marzo de 2026, 12:37a.m.
+3 h 30 min 50 s
+
+Orador 1 es instructor y ha iniciado la transcripción
+
+Orador 1   0:03
+Ya está grabando, muchas gracias por eso. Perfecto, ahora sí, entonces también quería preguntar, creo que si se me escucha bien, ahorita está prendió el ventilador, ya parece que estoy cerca de la playa, no lo estoy con este calor que hace, espero que no los moleste, está bien bajo, súper silencioso, entonces si no me comentan.
+Sí, suena el ventilador fuerte, no creo, ¿no?
+Ya listo, entonces voy a compartir pantalla.
+Pantalla, vamos a incluir sonido.
+Listo.
+Me confirman si lo ven, por favor, a ver por el chat.
+Sí, cierto, ya.
+Listo, listo, listo, entonces ya vamos a pasar chicos a la clase número cuatro.
+Pero primero, antes una breve transición a lo que sería la clase número 3. ¿Qué es lo que hicimos anteriormente? Vimos SS tal cual vimos CSS, ya vimos CSS, creamos un archivo CSS y lo vinculamos bien archivo CSS externo vinculado a HTML, también viendo que hay otras formas de hacerlo.
+Pero vimos que esa es la más recomendada. ¿Qué más hicimos? Elegimos una paleta de colores, obviamente vimos este lo que serían propiedades de color, cierto, background color, color para el color del texto y vimos también la importancia de los colores en tu página web y la armonía que tienen que tener.
+Bien, ahí les compartí algunas páginas web respecto a cómo pueden buscar sus colores y también cómo ponerlos, no que también vimos. Vimos también propiedades, perdón, propiedades sí relacionadas a lo que sería la tipografía, es decir, al texto. Una de ellas pont family, correcto.
+Para definir lo que son, pues las familias de , pues la familia de texto, básicamente de tu, pues de tu página web, la también la importancia que tiene la familia que defines, porque hay pues estilos que son modernos y otros estilos que son más caricatorescos, es decir, también le dan también habla es tu texto o el formato de tu texto también habla en tu página web.
+Ya mencionamos a Google Fonts. ¿Por qué? Porque Google Fonts es el repositorio de fuentes donde está, pues la mayoría de fuentes de tipografía y de donde se descarga para tu página web. También vimos otras, no vemos font este font size para el tamaño. Ahí mencionamos a Pixel, recuerdan a Pixel, que es la unidad de medida para este.
+Para definir tamaños en lo que sería en lo que va a ser CCS, bien para definir tamaños, así como acá definimos centímetros, metros, ahí este la longitud es píxeles y también hay otros o k eso también vimos, por ejemplo, el font wave para lo que sería la negrita, vimos el text align para el posicionamiento del texto, etcétera.
+Y algo no menos importante, sino muy importante, el box model correcto, el box model, que es lo que permitía es justamente esa representación de la cajita, no de que todo elemento está representado bajo una cajita.
+Bien, todo elemento está representado bajo una cajita y este lo podemos ver así, no que el mox model tenía cuatro áreas, correcto, cuatro áreas, tanto el contenido, el padding, aquí debe ver como elemento que tengamos.
+Creo que es mi secho o k aprendimos a usar también el la herramienta desarrollador para poder identificar este ese box model que es simplemente la caja, ¿no? Y cómo lo representas ese en nuestros diversos elementos.
+Ya que este, por ejemplo, este section tiene una información que es el contenido que está dentro, el padding que está alrededor, el border que no lo tiene, pero que después la caja en sí y el marching. No, esto lo relacionamos con una caja en la vida real, no donde en la vida real tú pones algo y ese objeto es el contenido.
+Pero no, ese contenido no va a ocupar todo el espacio de tu caja, cierto, hay un espacio adentro que sobra, tú metes la mano y hay un espacio que sobra, eso es el padding, el border es la caja, ya representa la caja y el margin es pues lo que está afuera, no lo que permite espaciar, lo que permite perdón, separar.
+Cajas, no separar cajas, una caja de otro marching. Con eso aprendimos a ver lo que son los justamente eso, los espaciados, no marching y padding y la forma de crearlo en nuestra página web. Hasta ahí nos habíamos quedado. Habíamos definido el marching y el padding para nuestra página web y le habíamos dado algunos estilos.
+Hasta ahí esos estilos muy bien, ahora como introducción vamos a ver nosotros, vamos a ver nosotros o k vamos a ver Flexbox ya, pero para llegar a Flexbox vamos a tener que ver unos conceptos muy importantes, como por ejemplo el que dice acá: dominarás Flexbox para layout profesionales.
+¿Ajá, pero qué es layout? O K, tú me dices que vas a que voy a hacer para ellos profesional, pero qué es? Vamos a ver ese concepto, por ejemplo, necesitas dominar un concepto antes de otro progresivamente para que podamos comprenderlo o k programadores y programadoras. Entonces vamos a pasar primero a una introducción.
+De selectores hemos visto, hemos visto que en total hay. Bueno, nosotros hemos visto 3 selectores, cierto, hemos visto 3 selectores, el primer selector es el selector, voy a ponerlo conmigo, el primer selector que hemos visto es el selector de etiqueta. Ya los selectores ya sabemos que son, pues para seleccionar elementos.
+En el CSS, eso ya lo conocemos. Ya hemos visto selector, esta sintaxis, no esta sintaxis de aquí y acá va la propiedad valor. Ya es básicamente eso, nada más. Ya entonces hemos visto selector de etiquetas, que es simplemente usar el nombre de la etiqueta.
+Hemos visto el selector.
+ID, o sea, de ID, que es básicamente usar el ID para seleccionar un elemento, ¿no? Primero tienes que colocarle, tienes que colocarle en el HTML el ID, obviamente.
+Tienes que colocarle en el HTML idy recién vas a poder hacer ese ID dentro de tus CC. ¿A través de qué? A través de un selector bien, que en este caso es el selector de ID y el otro que también hemos visto es el selector de clase, no el selector de clase que como hemos visto, ese selector que permite agrupar.
+Ya agrupar cruzando una etiqueta, agrupar o usando una etiqueta correcto. Sabemos que las clases sabemos que la clase es como una etiqueta y se lo podemos poner a varios elementos a la vez. Correcto, varios elementos a la vez o K a ver.
+
+Orador 2   6:52
+No.
+No.
+
+Orador 1   7:01
+Se escucha, hay un ronquido, creo.
+
+Orador 2   7:01
+No.
+No.
+
+Orador 1   7:06
+Yo listo, muchas gracias. o K, entonces nos quedamos en las clases, cierto, listo. Hemos visto estas 3 etiquetas, el selector de clase de ID y el de etiquetas. Vamos a ver otro otro este otro tipo de selector de agrupación que es llamado un selector de agrupación, así como el de clase.
+¿Ya por qué selector de agrupación? ¿Por qué vamos a ver esto? o K, lo que vamos a hacer en CSS o lo que queremos con esto es evitar escribir la misma regla 2 veces, ya por ejemplo, qué pasa si yo acá, si yo, por ejemplo, le quiero poner a mi fooder y a mi.
+A mi footer, acá como ve, le hemos puesto los 2 colores al, o sea, le hemos puesto el mismo color, tanto al header que está arriba como al footer que está arriba. Ahora yo no he hecho esto, o sea, yo no he hecho esto, o sea, no he hecho header, le pongo ese color y footer le pongo ese color.
+Decir que funciona, funciona, o sea, yo le puedo poner acá, no sé, background color, no sé.
+Vamos acá, vamos acá, ese es el color que he puesto, ya este es el color que he puesto, ya spoile ahí, este es el color que he puesto, o sea, que puedo hacer esto, puedo hacer esto funciona, funciona ya, pero obviamente tú me dirás, esto no es no es eficaz ya porque estoy repitiendo el mismo estilo si le quiero poner los mismos, estoy repitiendo el mismo estilo.
+Me estoy poniendo al header la misma línea que acá la línea. ¿No hay alguna forma de crear un solo bloque donde pueda poner los 2? Yo te digo que sí, y ahí justamente intervienen los selectores de agrupación. ¿Y cómo se hace? Pues usando esto, la coma, nada más que eso, mi estimado programador y programadora.
+Nada más que eso, es decir, selector de agrupación, yo bajo a ver.
+Voy a poner y la sintaxis es esta, no, simplemente ponemos un selector, ponemos selectores, definimos selectores, pero lo separamos con comas, nada más que eso lo separamos con coma, la cantidad de que tú quieras, 23, es decir, los selectores que tú quieres aplicarle la misma propiedad, la misma propiedad.
+La misma propiedad aplica a los electores que tú has definido ahí. ¿Cómo hacemos la agrupación entonces solamente con comas? ¿Cómo lo hice aquí?
+Esto que está aquí es igual a esto que está aquí, bueno, sin el este, no, sin es básicamente lo mismo, vean.
+Esto de aquí.
+Esto aquí que voy a encerrar, básicamente es lo mismo que esto.
+Es lo mismo, es similar, solo que acá he usado agrupación. Lo que le he dicho acá es lo siguiente: le he dicho, dame, ponme un background color a el header y al footer. Ese coma es como y como a ambos le tienes que poner.
+Entonces el navegador lo interpreta así, te ahorras duplicar líneas de código, no. Si tienes elementos que le vas a poner el mismo estilo, en general le vas a poner el mismo estilo, entonces aplica esto, mételos en un mismo bloque.
+Correcto, esa es la funcionalidad de los selectores de agrupación. Bien, entonces voy a eliminar esto y voy a poner esto acá.
+Porque solo era como tipo de listo. Espero que haya quedado claro el selector de agrupación, porque ahora vamos a pasar a los electores descendientes, los electores descendientes. El mismo nombre lo dice ya, el mismo nombre lo dice y tiene relación con padres e hijos. Vamos a nuestro código y vamos a index.
+Yo quiero decirles algo, a ver, quiero decirles algo, una pregunta si yo quiero.
+Seleccionar.
+Ya me voy acá, quiero seleccionar de este, mira aquí ya fíjense en esta sección, si yo quiero seleccionar al h 2.
+Quiero seleccionar al h 2 que está aquí ya.
+¿Qué selector ustedes me proponen? Ya ustedes escríbanme, selector que h 2 escríbanme en el chat. ¿Qué selector me proponen para seleccionar este h 2 de comida favorita? Me dicen, oye, pon etiquetas h 2 o ponle otro selector, que ahí este a ver, ahí está.
+Me dice class ya.
+A ver, muchachos, chicos, chicas.
+Id ya me está preguntando a mí o K, ahorita doy la respuesta, en realidad hay este este Id, ya lo vamos a analizar, solo quisiera su respuesta, ya ahorita si le digo sí, obviamente es como si le estuviera dando la respuesta, class Id, class.
+O K.
+Juan, ahí está escribiendo qué selector ustedes proponen para seleccionar ese.
+H 2 es.
+Class, muy bien. Lo primero, quiero felicitarlos porque nadie me ha dicho etiquetas, que está muy bien, muy bien. ¿Por qué? Porque etiquetas no sería, ya que si yo pondría, obviamente.
+A ver, vamos a ponerlo en rojo porque es lo que más se nota. Si yo pondría, por ejemplo, h 2, sí, obviamente esto estaría.
+Pues cerrado. ¿Por qué? Porque no solo estaría referenciando a este h 2, sí o no, también estaría usando a este y eso no es lo que quiero. Yo quiero únicamente referenciar a este de aquí.
+Entonces ahí h 2 estaría mal, bien ahí h 2 estaría mal. Otra otro otra etiqueta que dijeron ID, yo te digo muy bien, ID sí cumple, ya tú le pones un ID a h 2 y obviamente solamente te vas el ID, como no se repite, ya eres este.
+Ya identificaste a este h 2, ya lo seleccionaste con su ID y le puedes aplicar sus el selector respectivo, no, y lo puedes seleccionar. ID cumple. ¿Qué pasa con Class? El objetivo de Class es agrupar más de un elemento.
+Ya el objetivo de Class es agrupar más de un elemento y lo único que quiero aquí es seleccionar solamente uno, porque obviamente nosotros hacemos grupo de 2 o 3 o hay grupos de uno, no cierto, o sea, bueno, es una triste, no, pero grupo de uno es este bueno.
+No hay grupos de uno, no grupo se refiere al concepto de tener 2 o más elementos, un grupo. Entonces, ¿por qué poner clase si solamente quiero un elemento?
+Lo ven, entonces aquí, en este caso, Class no aplicaría porque solamente quiero esto. Muy bien, lo segundo, o k hasta ahí todo bien, pero qué pasa si yo te digo que hay una forma de referenciar a este h 2 sin necesidad, sin necesidad de usar un ID.
+Con lo que tenemos aquí y eso es justamente usando lo que son los selectores descendientes, nada más que eso o k vamos a ver acá como es la sintaxis de selectores descendientes. Es sencillo, es súper sencillo, ¿verdad? Es padre.
+Descendiente, descendiente que puede ser hijo, nieto, este y hemos visto el concepto de.
+Ya hemos visto el concepto de este cierto de elementos padres y elementos hijos. Lo hemos visto aquí. Sabemos que el elemento padre, el elemento padre es el contenedor, es el que está más arriba y el elemento hijo son los, o sea, contenidos, no los que están adentro. Aquí h 2 es hijo de quién, de series, o sea, de este section de acá.
+Este o L este del que estamos arriba, es básicamente es así de sencillo, entonces vamos a usar eso en realidad.
+La sintaxis, como le dije acá, es padre, espacio, descendiente. Por ejemplo, ¿cómo aplicaría en este caso? Acá primero ponemos el padre, ¿quién es el padre? El padre es Sektion, cierto, el padre es Sektion. Entonces eso es lo que voy a hacer. Voy a poner acá Sektion, espacio y el descendiente.
+Es decir, el hijo que yo quiero seleccionar de este section lo que quiero seleccionar es h 2. Quiero seleccionar h 2, o sea, simplemente pongo este espacio y veamos lo siguiente y le vamos a poner un color ya que sea de color color violeta.
+Ya color violeta.
+¿Qué va a pasar? A ver qué creen que pasa en chicos. ¿Creen que este he seleccionado section y el h 2 ya, pero ustedes creen que esto se pinte con eso? A ver, vamos a ver, ya mejor vamos a verlo y ya después le voy a hacer una pregunta.
+Está aquí.
+Bien, me pintó comidas favoritas, pero que también me pintó, me pintó los otros títulos porque a ver, les voy a explicar qué hizo esto ya para que ustedes me digan porque acá lo que yo le dije fue lo siguiente: ya le dije, hey, píntame de color violeta.
+Le dije al navegador pintame de color violeta.
+El section que tenga un hijo h 2. Eso es lo que le dije, porque el section es el padre, o sea, al section que contenga al h 2 a un h 2 y lo que hace básicamente el navegador es o k acá.
+El section, acá hay un section o k el navegador dice ajá, acá hay un section bien y contiene un h 2, tiene un h 2 adentro bien y me lo pintó, pero ¿por qué también pintó a los demás chicos? ¿Por qué también lo pintó a los demás?
+¿Ajá, Kevin me dice, se debe poner el ID section, alguien más, alguna idea más?
+A ver, 5, Ángel, ahí Ángel está ahí, estamos razonando, estamos cualquier, cualquier cosa que se que se les cruce en la mente, este chicos, no hay problema.
+Ya dijimos, acá nos podemos equivocar, la verdad, nos podemos este equivocar. Y de Massachos, exacto, Ángel dice y de Massachos.
+Muy bien, muy bien.
+Juan Carlos, dije Juan Carlos, no, Juan y Carlos, perdón, Juan y Carlos, este muy bien.
+Yo creo que la mayoría hemos ya hemos visto eso, no ya hemos visto eso, pero para los que no les vamos a dar la respuesta.
+Ya es exactamente exactamente.
+Hey, Juan.
+Es por ahí, es ahí, o sea, literal, es eso, exactamente es eso. ¿Qué pasó acá que yo le dije efectivamente que me pinte?
+¿Cómo chinga estos? Pero ya yo le dije que me pinte el que me pinte este de color violeta.
+El h 2 que está dentro de un section ya y efectivamente es lo que me ha hecho, pero estos también estos contenedores que están aquí también tienen la misma este, o sea, tienen el representan lo mismo. Este section tiene un h 2, este section tiene un h 2 y ha pintado también esos. O sea, ahí no he sido más específico.
+Por así decirlo, y como comentan, ahí hay una forma de decir más claramente, hey, ¿a qué a qué section te refieres? Pues al de comidas. Entonces, en lugar de poner simplemente section, ¿por qué no eres más específico, Eric, y le pones comidas? Ahí sí le estás diciendo, okay.
+Píntame aquel elemento con y de comidas, perdón, píntame el h 2 de el elemento que tenga y de comidas.
+Ajá, ahora sí dice, bueno, entonces el único que cumple es esto, pues porque ahí está este elemento, tiene un h 2 adentro y dicho y hecho, damas y caballeros, se pintó simplemente eso. ¿Lo ven? ¿Ven como fui más específico respecto a esto? Se pudo entender, chicos, los que los que este.
+Tal vez no tenían la respuesta.
+Ángel, o K, perfecto, o K, Ángel da su check. Sí, se puede entender muy bien, Juan, bien, genial. En realidad, en generalidad, este hay diversas formas. Yo no sé si ustedes se han dado cuenta, yo creo que sí. Al momento de programar con laboratorio le han dicho, oye, pero hay diversas formas de llegar a un mismo.
+A un mismo elemento, o sea, puedo llegar por la etiqueta, puedo llegar por el ID, puedo llegar por el selector. Hay varias formas muy bien, pero hay una forma, pero HTM, bueno, CCS te da una forma de que tú definas el selector para llegar a un elemento y es siendo más específico.
+O K, siendo más específico, ahí ya me está escribiendo, nos hará una pregunta, una felicitación, una pregunta, sobre todo que es más ordenada de esa forma, cierto.
+Mm.
+Claro, acá, por ejemplo, me evité crear el ID, ya me evité crear el ID y poner aquí más ID porque ya rehusé, por ejemplo, deception, no como ya este ahorré líneas de código, por así decirlo, ahorré líneas de código. Vale, entonces bien eso, pero ahora como te comenté y como les comenté.
+¿Qué o qué forma o qué digamos en qué me guío yo para definirse lectores para un elemento? Aquí viene el concepto, muchachos, de especificidad que lo había mencionado en la clase anterior y que lo voy a mencionar, miren, miren, miren.
+A ver, vamos a hacer esto con qué sería a ver con este section de acá de comidas ya y vamos a hacerle algo. También vamos a ponerle un class section de section. Ay, soy malo para los nombres. A ver, ay manches, manches ya section.
+Le aception selection seleccionado, listo.
+Section seleccionado, aquí lo que voy a hacer es voy a seleccionar este mismo section, este mismo section de 2 formas, uno usando su ID, que es el ID de comidas.
+Ya y le voy a poner un background.
+Background color red ya y voy a poner la otra forma de seleccionarlo, que es usar clase punto section select.
+¿Qué es lo que hice acá? Le vamos a poner el mismo ya el mismo y le vamos a poner.
+Yeah.
+No sé, por lo menos no me gusta el morado, así que lo vamos a poner ya aquí estoy seleccionando el mismo elemento que es este section de aquí, pero de diversas formas, con su ID o con su clase. o K, pero ¿qué está pasando aquí? Que estoy definiendo 2 colores, o sea, usando ID estoy definiendo este color.
+Y usando clase, estoy definiendo este color acá lo que estamos viendo. este.
+Es lo que se llama.
+Conflicto o contradicción de CCS, es decir, cuando estás definiendo el mismo, el mismo, la misma propiedad a lo que sería el mismo elemento. Acá CCS se pierde porque te estoy dando, estoy usando diferentes electores y le estoy dando la misma propiedad. ¿Entonces, qué tiene que hacer CCS para decir a ver?
+¿Cuál de estos voy a aplicar? Para eso usa especificidad. ¿Qué es especificidad? Es simplemente un sistema de puntos, ya como un sistema de puntos para decir o k el que gane más puntaje es el que vamos a colocar.
+Ya, y el sistema de puntos sencillamente se basa en lo siguiente, este programadoras y programadoras se basa en lo que sería los selectores. Ya hay diversas formas de seleccionar un elemento, como les comenté, pero hay formas que tienen más peso, es decir, más puntaje, y obviamente CCS a los que tienen más puntaje.
+Les va a decir o K, tú eres el que manda, a ti te voy a hacer caso en lo que refiere respecto a qué este, qué estilo voy a poner cuando hay justamente estas contradicciones. Se entiende o K, entonces, por ejemplo, por ejemplo, ya acá hay cuatro en realidad.
+Cuatro este formas de seleccionar o definir estilos. La primera es quién es el que tiene mayor peso. Ya el mayor peso va de arriba a abajo, el que tiene mayor peso que está arriba son los estilos en línea. Recuerden los estilos en línea que le mencioné, este que se puede poner directamente en el HTML con la.
+¿Qué te atributo es con la etiqueta styles? Eso un estilo, ya esos son los que tienen más peso. Segundo, los identificadores.
+Ya segundo, siguen los identificadores como este con el segundo mayor peso. Ya primero es eso, vamos a ver eso mejor en la práctica para que lo puedan entender mejor. La primera era poner style directamente, cierto, vamos a poner style directamente aquí en tu h 2, vamos a usar.
+Style y aquí, por ejemplo, le voy a poner un background color, vamos a ponerle.
+Branch ya acá le puse un background color, muy bien, y con eso vamos a sacar esto de aquí, vean como al ponerle background color a ese ya ahorita le he quitado a ese elemento el ID y el este como para que no se aplique en el estadio de acá, simplemente para que vean que al momento de definir ese atributo.
+Style se aplica obviamente ese color, no con eso correctamente hemos aplicado Style. Obviamente que tenga más peso, chicos, no significa que sea más recomendado porque ya les comenté que no es recomendable en realidad usar este tipo de etiquetado, no a menos que tengas muy poco código, pero en lo general no vas a verlo.
+Ya no vas a verlo, si hay un caso, ya si hay un caso que lo vas a entender cuando termine de explicar la especificidad ya.
+¿Y cuál es la al otro peso? El otro peso es colocando ID, cierto, colocando ID, voy a colocar ID.
+Y ya voy a colocar, esperen un momento, voy a moverme acá ya listo.
+Listo, listo, listo, ya voy a colocar ID, el ID que le puse en realidad no y el ID de comidas. Voy a cortar esta de clase aquí lo que tiene este section es 2. La primera le he puesto con style un background color y la segunda con este ID usando este selector le he puesto también un background color que es.
+Rojo, basándonos, basándonos en lo que dice, le he puesto el mismo estilo. Hay una contradicción. Primero quiero que noten eso, hay una contradicción. Le he puesto color naranja con este tipo de con esta forma de definir estilos y le he puesto rojo con esta forma de definir estilos, basándonos en lo que sería especificidad.
+¿Ya cuál creen ustedes que sea el color que se vaya a aplicar, rojo de ID o este naranja de estilo en línea? Coménteme ese el color, por favor, en el chat.
+Si se puede entender la regla especialidad, coméntenme o si no me comentan también para explicar de nuevo especialidad, coméntenme el color.
+Hey.
+¿El color de qué se puso, qué este qué color se puso? ¿Se puso el naranja que le puse aquí a la caja o se puso el rojo que le puse esa misma sección aquí con el ID? Voy a dejar esta fotito acá explicando que el que tiene mayor peso es efectivamente el estilo en línea y luego le sigue el ID.
+Okey, hay un conflicto, hay un conflicto. Escriban en el chat, por favor, ¿qué color creen ustedes que se puso?
+Naranja, me dice Carlos, hey, naranja, naranja o rojo, chicos, naranja o rojo.
+Rojo.
+Hay un naranja ahí, alguien rojo, alguien.
+Rojo, rojo, verde, verde, rojo, verde, combate o K, naranja, naranja. Vamos a ver si se puso naranja bien.
+Efectivamente, se puso naranja. ¿Por qué? Porque obviamente, como ya lo había comentado, pues naranja. ¿Por qué? Porque las etiquetas en línea son las que tienen más peso. Ya como yo he definido el naranja con una etiqueta en línea, esto es lo que se ha aplicado. Esto es lo que se ha aplicado así de sencillo.
+Okey.
+Bien, lo mismo pasa con clase, yo le voy a poner acá un este, lo mismo pasa con clase, yo le voy a poner este color aquí, voy a poner esto aquí, esto aquí.
+Esto aquí.
+Y esto aquí.
+Ya ven y le voy a poner.
+Cumple ya, y acá ahora lo que estoy comparando es el ID, el ID acá con la clase de acá, estoy comparando ID con clase. Ahora, ¿quién de los 2 ganaría, rojo o morado? Muy bien, voy a meter la especificidad y dice o k, ¿quién es el tercero que sigue?
+Si nos vamos otra vez a ver el peso.
+Ya vimos que la etiqueta en línea tiene más peso, segundo le sigue identificador y tercero son las clases, es decir, que si comparamos un ID con una clase, cuando hay una contradicción ganan los IDs o K ganan los IDs y por último estarían las etiquetas.
+Que pues este las etiquetas, como son generales, son las de menor peso. Muy bien, entonces, en este caso de aquí, ¿quién ganaría?
+Pues este, si les quedó claro el concepto de especificidad, yo creo que todos me dirían rojo.
+Cierto, vamos a ver, perdón, rojo, no a ver.
+No, sí, debería ganarlo. ¿Qué pasó? A ver, background color, ya le he puesto en el CD.
+Mhm.
+Me acabo de, me acabo de hacer una en este, a ver, yo le he puesto acá comida, ya vi, es que acá puse comidas, mira, a ver, casi de turismo, ya ahí está. Ahora sí se aplicó rojo, chicos, había, me había equivocado una sintaxis del ID, pero ahora sí, vean.
+Que al comprar el ID con la clase se había aplicado este el rojo del ID. Muy bien, que es lo que notamos con esos ejemplos. Se puede entender el concepto de especificidad, este creadoras y creadoras.
+Ok, me dan su feedback, por favor.
+Especialidad es uno de los conceptos pilares ya pilares en CCS que se tienen que entender al momento de aplicar estilos.
+Mhm.
+A ver.
+Ay, mire, tengo que mandar a pagar, se está pagando por el internet, perdón, se ha pagado automáticamente.
+Sí se entiende, me dice Sabrina.
+Sí se entiende. Muchas gracias, Sabrina, por esa respuesta. Muy bien, creo que sí se sí se entiende. Quiero comentarles algo también que había comentado la semana anterior, que era o k, oye Eric, pero tú no me habías dicho que CSS era un lenguaje de cascada. ¿Qué estoy haciendo?
+Ya CCC es un lenguaje de cascada y se supone que tendría que leer de arriba a abajo y aplicar estilos así. Sí, exactamente haz eso, aplica estilos de arriba a abajo, así, pero cuando llega una contradicción como esta, ahí no funciona. Ahí lo que funciona es aplicar a especificidad.
+O K, ahí funciona lo que es aplicar especificidad, por eso es que este por eso es que este van de la mano tanto cascada como especificidad. O K, deme un momento, por favor, que están.
+Muy bien, gracias por esa espera. Perdonen, perdonen, ya listo. Entonces terminamos de explicar lo que sería especificidad. Vamos a pasar a otro término que es hover. Muy bien, hover, ya lo habíamos visto también, así que vamos a hacer rapidito, pero habíamos definido, creo que hover es, o sea, hover es aplicar estados.
+Vamos a nuestro scan de draw ya holder es una pseudo clase que indica lo siguiente: cuando el puntero del ratón está encima de un elemento cualquiera, va a realizar lo siguiente o ky ese elemento no necesariamente tiene que ser un enlace o k no va a ser necesariamente un enlace, sino va a ser cualquiera.
+Esta es la sintaxis que tiene, es decir, ponemos el selector junto con 2 puntos hover y lo que pongamos adentro son las propiedades que se van a aplicar, pues al momento de pasar el ratón sobre el elemento. Nosotros lo habíamos aplicado, cierto, con lo que serían los enlaces, pero como comenté, se puede aplicar con lo que quieran.
+Por ejemplo, vamos a volver a comer comidas, pero acá vamos a poner 2 puntos hover ya 2 puntos hover y aquí vamos a ponerle, por ejemplo, color.
+Listo. ¿Qué va a pasar? Obviamente no hay ningún cambio ahí porque el cambio que le apliqué se va a ver cuando yo pasé el mouse por encima y solamente ahí ven cuando mueva el puntero dentro de la sección.
+Esas, esa, pues esa área de sección se va a pintar solamente ahí. Cuando lo saque, vuelve a su estado. Ya estos son esto es un estado, pseudo clases definen estados muy bien, y los estados que vemos es pues el usuario tiene interacción con la página web y esas interacciones son, por ejemplo, este estados, es decir.
+Pasar el puntero por un elemento, dar clic en un botón, escribir en un área, pues pasar focus a un elemento de formulario, etcétera. Muy bien, entonces Hover es el más usado. Ya hay varios, hay varios, pero este es el más usado y el que vamos a usar. Uy, también.
+Al momento de aplicar animaciones, bien, entonces yo creo que con eso ya podríamos pasar lo que sería este un layout ya un layout y voy a poner esto aquí. Bien, voy a poner esto aquí.
+Para ver si me pueden comprar.
+Antes de pasar a un layout, quiero hacerles una pregunta a este a ustedes, ya quiero en realidad que vean 2 páginas web y que las comparen, o k.
+Vamos a poner.
+Mhm.
+Ellos me peleó con mis.
+Quiero que vean, ya visto esto y dónde está, ambas.
+Mhm.
+Ya ambos, estos 2 son páginas web, ya los he puesto uno al uno al lado de otro, ya los he puesto uno al lado de otro. Quiero que olvidemos otra vez ese, olvidemos los colores y nos fijemos en los elementos y quiero que me diga si este la.
+El posicionamiento de los elementos ya uno a que en una página y en el otro son lo mismo o son iguales.
+Quiero que me digan chatos, eso por favor, son iguales estas páginas web, se ven iguales estas 2 páginas web, Canva.
+Y esta página que es de Strip Strip.
+Eso es financiera, ya se ven iguales, se ven idénticos, o sea, el posicionamiento, no la imagen, dónde está el texto, los bloques. ¿Cómo lo ven ustedes, chicos?
+Comentan, porfa, ven igualito a esas 2 páginas web o ven diferencias, contar las diferencias.
+Cierto, lo pueden notar. Yo creo que a este punto, ya al haber visto HTML, ya tenemos esa vista de entrar a la página web y decir, mira, esta es una etiqueta imagen, esta es una etiqueta de agrupación, esta de aquí es una etiqueta de texto, ¿no? Entonces ya podemos identificar al ver nomás la página web.
+De ya al entender HTML, entender eso.
+Se nota las diferencias, genial, muchas gracias, Kevin. o K, si quieren, me pueden explicar las diferencias, pueden ser detallados si desean decir, hey, mira, aquí hay más cuadrados, pero acá yo veo, por ejemplo, no sé, por ejemplo, acá veo su header, no su header, que es una barra.
+Pero acá, este, pero acá en el este, en el canvas, no, en el canvas no veo un header, veo un botón que al que al aplastar pues me da un menú, eso.
+Cierto.
+Es más estático y otros más dinero.
+Cierto, o K, aunque, aunque, aunque, aunque, claro, si bajamos acá no hay animaciones, cierto, no hay o hay leves. Mira, si tú pasas la tarjeta por una Sabrina, si ves cómo pasó el puntero por cada una de las tarjetas que está aquí, hay como que un pequeño sombreado que vamos a ver hoy.
+Mientras que acá sí, pues ya está chulazo, no este vean que hay animación integrada acá, sobre todo bajando más abajo, bien contra uno, creo.
+No.
+Sí, esto era ajá acá, por ejemplo, exacto, exactamente, pero lo que quería que noten justamente es que son diferentes, ya son diferentes. Entonces, ¿a qué me voy con esto? A que distintas páginas tienen lo que se llama, o sea, los elementos están posicionados de diferente forma.
+Eso, mis estimados programadores y programadoras, es layout. Es la forma en la que nosotros posicionamos los elementos dentro de una página web. Eso es layout. Vale, es específicamente eso.
+Entonces, no existe una única forma de acomodar los elementos dentro de una página web y lo acabamos de ver justamente diferenciando 2. Hay múltiples estándares de poner tus páginas web y lo hemos visto también entre nosotros al momento de hacer tal vez nuestro wireframe y poner este las imágenes y los párrafos de diferentes órdenes. Muy bien, hay tipos de layout, algunos ya son estándares, como por ejemplo.
+Este de aquí que creo que usa, lo usa YouTube ya para poner en el centro los videos y en un lado, pues las opciones no hay otros este que son de 2 columnas, etcétera. Ya hay muchos estándares. Con esta imagen de acá quiero demostrar que hay tipos de nayout.
+¿Por qué les hablo de esto? ¿Por qué hablo de Lajavu? ¿Por qué vamos a ofrecer? O sea, vamos a ver Flexbox y Flexbox es justamente una tecnología. Bueno, es unas son unas propiedades que nos ofrece este un sistema de propiedades que nos ofrece CSS para hacer esto.
+Posicionar los elementos dentro de nuestra página web es sencillamente eso muy bien.
+Vemos esto de acá, quiero que veamos esto de acá al momento de entrar a Sky Draw.
+Porque acabo y hoy he hecho un diagrama de acá y vamos a verlo así bien, vamos a mostrar nuestro este, vean, vamos a mostrar esto. Ya imaginen que ustedes tienen un contenedor, una caja ya dentro, obviamente le van a poner el contenido, cierto, pero hay diversas formas de hacerlo. Algunos tal vez hayan puesto una imagen ahí.
+Y el párrafo al costado.
+Correcto y los enlaces, tal vez así.
+Esa es una forma.
+Cierto, esa es una forma, vamos a poner acá el título acá al costado, ya lo habían puesto así.
+Otros tal vez no, otros tal vez hayan hecho lo siguiente, yo no quiero que mi título esté al lado de mis enlaces, yo lo pongo ahí y mis enlaces así.
+Lo ven, incluso no quiero ni que me ni que mi párrafo quiero que ocupe todo, o sea, mi imagen ocupa todo el vertical.
+Ya sí, y abajo le pongo otro párrafo ocupados.
+Ven, ven como este tenemos una caja vacía y el layout es justamente ese esa forma o ese arte de tomar piezas y organizarlas dentro de esa caja. Básicamente es eso ahora. ¿Por qué explico también el layout?
+Porque este ya había una forma, o sea, había una forma hablando de cajas ya.
+Mencioné en su momento, Mencioné en su momento los elementos en línea y los elementos en bloque. ¿Lo recuerdan? Fue en la clase anterior, había hablado.
+Elementos en línea y elementos en bloque.
+Que eran, pues a ver, vamos acá los elementos en bloque, que eran sencillamente elementos que ocupan todo el ancho y que dan un salto ahí cierto, y los elementos en línea, los que no dan ese salto de línea y simplemente ocupan lo que tienen que ocupar.
+Ya.
+Si nos vamos nosotros, ¿cómo es que definen eso? Acá entra la propiedad display y la propiedad display es la siguiente: ya en la propiedad display vamos a seleccionar uno. ya ¿Qué es lo que define eso? En realidad, lo que define si es un elemento en línea o un elemento en bloque es display. ya.
+Display es definir cómo quieres que se comporte tu caja ya y el navegador ha dicho que tu caja h uno se va a comportar en bloque.
+¿Dónde dice eso aquí? Si nosotros nos vamos aquí a tu h uno que está aquí, ya te voy a dar el clic.
+Entro este listo está seleccionado, nos vamos acá a las propiedades que le ha aplicado por defecto y si vamos aquí específicamente encontramos un display display que está diciendo, hey, este este va a ser un block que significa va a ser un elemento en línea y justamente así es como se está comportando ese h uno o k estamos usando display.
+¿Qué es que esa caja se va a comportar como elemento en línea?
+Vamos a seleccionar una imagen.
+Bien, que la imagen, no sé si se ve, creo que no.
+Sí, aquí está, ya hemos seleccionado una imagen.
+Chan lo tenemos y si vamos otra vez aquí donde están las propiedades SS, aquí en display, ¿qué dice online? O sea que es un bloque en línea, es un bloque en línea y es justamente es eso, ¿no? Una imagen es un bloque en línea porque tú puedes poner algo.
+Algo al lado de otro, cierto, vas a poner algo al lado de otro.
+¿Qué pasa para que se entienda mejor?
+Yo puedo modificar que un elemento sea en línea o en bloque usando display, nada más que eso.
+Vamos a contradecirlo ya nuestros enlaces son elementos en línea, pero si yo voy, por ejemplo, a mi código y le digo o k, yo soy un antisistemas, yo no quiero que sea en línea, quiero que sea en bloque, es decir, que a.
+Es decir, que a haciendo que cada enlace ocupe toda la línea, ya vamos a ver cómo se comporta al haber puesto esto de aquí, vamos, vamos a ver cómo se comporta el enlace al haber puesto esto de aquí.
+Vean, vean la magia, o sea, vean lo que ha hecho. Sencillamente lo que ha hecho es que efectivamente cada A ocupa un espacio, lo ven, ocupe ya todo el ancho y lo que ha hecho es pues hacer un salto de línea a los diversos A. Vean como con display he cambiado el comportamiento de esa caja.
+Bien, lo mismo pasaría, por ejemplo, si yo le aplicara esto a un h Uno, si a un h Uno, acá no hay ya si a un h Uno, tú le pones inline.
+Si tú le pones inline.
+Aquí ya lo que estás haciendo es que es este h uno.
+Este h Uno permita que pasen otros ahora porque no pasan, o sea, debería haber acá un costado. Primero, si yo lo sombreo, obviamente ya no está ocupando todo el ancho, pero no pasa porque este lo que sigue en realidad, si te fijas acá es un app y un app, si es un salto de línea, o sea, no se va a meter todo un app aquí, pues no se va a meter.
+¿Cómo veo que sí ha hecho que inline que h uno sea inline? Pues sencillamente voy a agarrar un a y lo voy a mover acá ya para que después de este h Uno venga otro elemento en línea.
+Lo ven, miren esto, como este que es un inline, ha metido otro inline, ahí ha permitido justamente que se acomode ahí, no que se acomode ahí un elemento en línea.
+Ahí se nota más claro el comportamiento.
+¿Ya más se nota más claro el comportamiento, pero por qué hablé de display?
+Abre display por una razón.
+Porque display nos permite definir un flex y es justo lo que vamos a pasar ya con display. Lo que estoy diciendo es que una caja tenga comportamiento flex. ¿Pero qué significa eso? Vamos a borrar esto, ya vamos a borrar esto porque ahora sí vamos a ver la magia de Flexbox.
+¿Dónde está este mis slides? Ahora sí, vamos a ver la magia de plexus, pero hasta ahí.
+Con los conceptos que vi de display, chicos, y de layout, ¿hay alguna duda y alguna pregunta antes de pasar a Flexbox? ¿Se puede entender esos 2 conceptos, layout y display, porque vamos a usar eso ya?
+Como dice todo claro, perfecto, algún feedback chicos, si quieren me pueden matar la mano por favor.
+Una duda, todo claro, me dice Juan, un todo claro más, por favor, para asegurarme porque.
+Juan no es el delegado, al pie, Diego me dice chévere, chido.
+Bien.
+Entonces yo creo que Kevin me dice todo claro, muy bien, muy bien, con eso ya.
+Ok, muchas gracias por eso. Gracias, listo.
+Con eso ya vamos a pasar, no los hago esperar más. Este muchachos, no los hago esperar más porque vamos a pasar a lo que sería Flexbox. Flexbox, como les comenté, es una tecnología para posicionar nuestros elementos, para posicionar por lo que son, básicamente para manejar el posicionamiento.
+Pero dentro de un contenedor.
+Ya dentro de un contenedor vas a controlar ahí el posicionamiento dentro de ese contenedor. Pero pasa una cosa, Flexbox solamente maneja el posicionamiento unidimensionalmente. ¿A qué me refiero con unidimensionalmente? A esto, miren, imaginen ustedes.
+Un anticucho ya vamos a improvisar un anticucho aquí en Escalibrau, vamos a poner esto acá.
+Vamos a poner unas bolas, imaginen que estos son trozos de carne, ya este imaginen más.
+Ya.
+¿Ya qué pasa con un trozo? ¿Qué pasa con este anticucho? ¿Por qué puse un anticucho? ¿Qué tiene que ver anticuchos con flexbox? Muy bien, parece loca esta clase, pero no tiene una razón. Ya ¿Cómo yo puedo posicionar estos anticuchos? Posicionar, no es lo mismo que ordenar, posicionar estos anticuchos.
+En este bueno, esta brocheta o este palo.
+¿Cómo lo puedo hacer?
+Obviamente hay solo una forma, cierto, y es la siguiente: poner uno sobre otro. No hay otra forma, no, eso es, pues lo usual no es poner uno sobre otro. Tú no vas a posicionarlo así. Esto no es un anticucho, obviamente, solamente esta es la forma de posicionarlo. No hay otra forma. A esto me refiero comunidimensional, chicos.
+Ya en que solamente este.
+Posiciona en una sola este línea, sea así o sea así, por ejemplo, ya que es mover el anticucho. Así posiciona flexbox o k sea horizontal o vertical. Es decir, si este es tu contenedor flexbox, la única forma es de posicionarlo es verlo como una fila o como una columna.
+Eso, nada más que eso, ya es decir, a ver, ya es decir, así en filita ya uno seguido de otro en filita.
+En filita o en columnas, ya como esa brocheta o en columnas. Nada de poner esto acá. Quiero poner esto acá a la otra esquina, esto ponerlo en el centro. No, chicos, es solamente unidimensional como la brocheta y de hecho, justamente se vas a tener.
+Se va a crear una brocheta, pero imaginaria o k se va a crear una línea que tú vas a usar justamente como guía. Ya se va a crear una línea, así como esta brocheta se va a crear una línea según como tú definas la dirección, nada más que eso. o K, si no se entendió esta teoría, no te preocupes, lo vas a entender mejor cuando se vea en la práctica.
+No.
+Ok, lo vas a entender mejor cuando se ve en la práctica.
+Bien, porque vamos a ver los elementos, los elementos que están compuestos. ¿Qué elementos tiene que tener Flexbox para que funcione? El primer elemento que tiene que ver, obviamente, es el contenedor que ya lo habíamos mencionado, el contenedor Flexbox, que es pues es el contenedor donde que va a contener a los items, ya nada más que es.
+¿Y los elementos que están ahí? El contenedor que tú le pongas flexbox se va a llamar, pues es un contenedor flex. ¿Cómo defines un contenedor flex? Así ya te lo había, te lo había mencionado. Vamos a escoger na para definir un contenedor flexbox. Ya vamos a escoger na, usualmente los contenedores flex, los contenedores flex.
+Son este las etiquetas de agrupación, nada más que eso, las etiquetas semánticas, los padres ya es entonces nap es un contenedor, pero ahora yo quiero que sea un contenedor flexbooks.
+Es decir, voy a poner acá display flex y listo con esto, con esta única línea, lo que les estoy diciendo, chicos, es que este va a ser un contenedor flexbox.
+Un contenedor flex, flexbox, como quieran, pero va a ser un contenedor ya entonces, automáticamente, ¿qué pasaría automáticamente? Lo que pasaría es que pues los hijos van a ser elementos flex, o sea, van a ser elementos flexibles ya, y también estoy diciendo que aquí puedo usar las propiedades.
+O sea, que adentro puedo usar las propiedades para posicionar las propiedades que nos da Flex para posicionar, que ahorita lo vamos a ver muy bien. Entonces ya tenemos el contenedor Flex que era requisito. Tenemos los hijos que en realidad van a ser los enlaces, cierto, los iters de Snap son los enlaces en este caso.
+Pero pasa algo más, pasa algo más y justamente esto es un elemento, otro elemento importante.
+Eje principal, se van a dibujar como si fuera una brújula, se van a dibujar imaginariamente sobre tus elementos, un eje principal y un eje secundario.
+Muy bien, el eje principal es donde se van a alinear tus elementos, es decir, usualmente se van a dibujar sobre.
+¿Se van a dibujar sobre tus elementos? Nada más que eso. No te fijes, por favor, no te fijes en que es horizontal o vertical. No te fijes en eso porque eso se puede cambiar. o K Un eje principal va a poder ser vertical o va a poder ser horizontal. Muy bien, lo que quiero que tengas en cuenta respecto al eje principal.
+Es que es el que controla cómo se posicionan los elementos. Lo vamos a ver ahorita, pero es donde se van a alinear tus elementos y luego va a venir un eje secundario. El eje secundario siempre es perpendicular al eje secundario, al perdón, al eje principal, perpendicular, o sea que lo cruza.
+Yo este este concepto yo creo que lo conocen porque viene de esto, chicos, lo hemos visto en primaria y es el plano cartesiano. Seguro lo han visto muchos, no, porque es un concepto muy conocido en plan en primaria, en colegio, no el plano cartesiano, donde vemos 2 este, cierto, 2 ejes, tanto un eje y como un eje X.
+Cierto, así comportamiento van a tener el eje vertical, perdón, el eje principal con el eje secundario ya o k listo. Entonces, teniendo ya eso en claro y sabiendo que se dibuja, por ejemplo, aquí en mi perfil, ya le puse, por ejemplo, vean, este es un contenedor flex nav y al momento aquí.
+Aquí lo que ha pasado es que se ha dibujado así, se ha dibujado así un eje principal ya y también se ha dibujado así.
+Un eje secundario imaginariamente no se ve aquí, no se visualiza.
+¿Pero por qué se dibujaba horizontal y por qué se ha dibujado el eje secundario y vertical? Si tú me dijiste que puede también ser este un eje principal, puede ser vertical, no solo horizontal. Por lo siguiente, por el siguiente elemento, recuerden que les dije que este flexbox solamente permite o.
+Posicionar, ya sea como fila así o como columna así, ninguna otra forma más, porque es unidimensional. o K, sí, ahora cómo defino yo cuál escojo, o sea, cuál seguir, o sea, cuál posicionamiento, cómo defino yo que sea una fila o que sea una columna.
+¿Cómo lo hago?
+Ahí entra el concepto de.
+Entre el Entre el concepto de dirección, chicos, o k programadores y programadoras entra el concepto de dirección que simplemente permite definir la dirección de tu eje primario. Muy bien, es solamente eso. Para eso se usa un atributo flex direction, flex direction.
+Permite definir si tú quieres que sea, que tú quieres que sea o en fila.
+O en fila, que simplemente es row, ya es row es pila en inglés o quieres que sea en columna, columna ya column column, perdón, perdón en inglés, pero es así, nada más que eso, es decir, tú pones acá flex.
+Flex direction.
+2 puntos, acá pones row o pones color según tú como quieras posicionar tus elementos. Muy bien, según eso y nada más que eso, entonces vamos a definirlo aquí. ¿Qué pasó aquí? Que por defecto, tú cuando tú defines tú este que un contenedor sea flex, vale.
+Por defecto, lo que hace es que va a ser row o k incluso no es necesario definir row porque al momento de tú decir, hey, yo quiero que sea un contenedor flex, pones esta línea nomás y ya este lo que va a hacer es.
+Lo que va a hacer el navegador es a o k, te voy a poner un flash row direction, o sea, no lo pone, pero se sobreentiende que está ahí, por eso al momento de al momento de haber creado.
+Por ese momento de haber creado ya mi flex row aquí donde está mi página web, perdón, aquí vean que está como fila, ya no está como columna, está como fila.
+Está como fila y el eje principal está así.
+Está así ya sencillamente eso, pero yo puedo cambiar eso o k cuando es como fila, el eje principal, como lo comentamos, es horizontal. Ya por favor, recordar eso es horizontal, recordar el recordar este que en fila es horizontal y este en columna, ¿cómo es?
+Pues es vertical, ya sigue eso, sigue sencillamente eso.
+Voy a poner acá flex direction, no quiero que sea fila, quiero que sea columna, es decir, y vean que el mismo que la misma página web demuestre qué es lo que ha hecho.
+Listo, ahora lo que ha hecho es ponerlo como columna.
+Ya no está uno al lado de otro, que es como fila, sino uno debajo de otro.
+Lo ven, está uno debajo de otro. ¿Por qué? Porque lo he puesto como columna.
+O sea, el eje principal cómo estaría este programadores y programadoras estaría así, o k así es como estaría tu eje principal.
+Muy bien, voy a poner algo más también al nap para que ustedes puedan ver la caja contenedora. Ya voy a poner un borde.
+3 píxeles.
+Voy a ponerle black.
+Y miren, ya listo, voy a ponerle black para que vean más clarito, más clarito la caja contenedora. Vean, ese border es para ver, hey, esta caja de aquí es el flex ya lo que está bordeando.
+Y también va a servir para el posicionamiento. Muy bien, correcto. Entonces eso es la dirección flex. Hay otros valores, los usuales son estos 2, row y column, pero hay otros valores que simplemente son la contraparte. Row reverse lo que hace es este es lo mismo que row, lo pone en fila, pero al revés.
+Por eso row reverse, no vamos a probarlo aquí, mire, este si yo le pongo row primero.
+A ver, si yo le pongo robo aquí, digo, oye Plex Direction, Robo va a ser una fila.
+Ya bacán lo pone ahí, o k lo pone ahí, pero cuando yo pongo row reverse van a ver que esta forma en la que está ahorita establecido. Vamos a crear esto sobre mi hobby series comidas se va a revertir y se va a poner acá al final. Es básicamente eso, ya row reverse, esto orden inverso.
+Vean, vean como lo puso al otro extremo de tu eje principal, al otro extremo del eje principal, y encima como que lo giró. Básicamente nada más hace eso. Lo mismo aplica para column reverse, pero sinceramente no son casos de uso usados, ya no.
+No lo he usado yo sinceramente hasta ahora en mi vida como programador, yo no lo he usado estos 2 tests, solamente los he puesto aquí para que tal vez ustedes quieran probar con eso ya listo, listo. Entonces hasta ahí este programadores y programadoras.
+¿Tienen alguna consulta? Se pueden tener hasta ahí con esos ejemplos que vi aquí. ¿Qué es FlexBo? Chicos, chicas, por favor, Juan, Diego, Yael, se pueden tener. Puede explicarlo claramente, por favor, me preguntan si quieren ya porque en serio.
+Van a usar mucho flexbox, ya van a usar mucho flexbox y grid, que es otro sistema también de posicionamiento. Lo vamos a usar bastante, entonces es vital. Vale que entiendan eso ya porque con eso van a salir modelos, pero uf, si lo entienden así al tope, genial ya.
+Listo, creo que hasta ahí se puede entender bien. Creo que incluso si vamos a este ritmo vamos a terminar hoy día temprano, porque también tenemos que hacer este, el profesor me dijo o si el profesor, pues perdón, así le dio, así le digo de cariño este a Bruno, que es mi.
+Que fue mi profesor en su momento, pero bueno, este me comentó que se les va a dar también un breve test.
+Así como les dije en el Kahoot, pero bueno, es en el canvas, ya entonces eso lo vamos a dar después. No se preocupe, y no es una evaluación, no es un examen final, tampoco, no sé, no es un examen final. Como les comenté, es una prueba de ustedes, es para ustedes, ya estoy en mi cama.
+Bien, disculpen que me he movido de posición. Entonces, al moverme arriba se está moviendo el cable del este. o K, espero que no afecte, eso sí, la explicación de mi pantalla, que es lo más importante, creo que sobre mi cámara. Bien, entonces, visto esto, ahora sí vamos a entrar a cómo posicionarlo.
+Ya sí, ya entendimos los elementos de Flexbox, el contenedor, los ítems y también el eje principal y el eje secundario. ¿Y cómo está? ¿Cómo lo podemos direccionar? Ahora sí, vamos a posicionar los elementos a lo largo de ese eje. ¿Cómo se logra esto? A ver, vamos a lograrlo ahora sí.
+Ya para eso vamos a pasar al concepto siguiente, que es bueno, vemos flex direction, vamos a pasar a otra propiedad.
+Y la propiedad es alineamiento en eje principal justificante. Esta es la propiedad que vamos a usar este para guiar cómo ordenar los elementos dentro de ese eje principal. Como comenté, es el eje principal donde nosotros.
+Ordenamos los elementos, posicionamos los elementos, se va a mover en ese eje principal porque, como dije, FlexBook es lineal, una línea. Entonces a lo largo de eso nomás se va a mover ya, pero acá pasan 2 situaciones. ya este, como les dije, el eje principal puede ser tanto en horizontal como en vertical.
+Entonces, los valores que tiene Justificante se van a ver, digamos que variados respecto a cómo estatuaje principal, si está así en fila o así en columna.
+Ya entonces.
+Es sencillo, chicos, es sencillo este este término. Lo que vamos a hacer es lo siguiente: justificante tiene estos 6 términos de aquí, ya son 6 términos aquí.
+La primera, vamos, primero vamos a ponerles, primero vamos a poner un eje principal a cada uno ya para que vean cómo lo está haciendo, obviamente el eje principal dentro del contenedor. Creo que sí se está entendiendo también que ese estos elementos, o sea este borde que está aquí, es el contenedor flex y los elementos que están aquí, 123 son los elementos items.
+Creo que sí, ¿no? O K una vez tú le hayas puesto a este contenedor que es display flex y le hayas dicho también este bueno, no le hayas dicho, no es necesario Flex Direction Row. Ahora lo que tú puedes poner es justify, justify, perdón, justify content, justify content.
+Y acá pones un valor, cual valor cualquiera de estos 6 que tú ves acá.
+Cualquiera de estos 6 que tuve esa, madre mía.
+Okay.
+Perdone, perdone.
+Pueden poner en la encuesta chicos cuando hacen encuesta de profesores.
+A ver, eliminando mis apuntes ya listo, entonces este pueden definir justificante.
+¿Y ustedes?
+Pueden poner cualquiera de estos valores que estoy indicando aquí.
+Ya cualquiera de estos valores que estoy indicando aquí, flex star o star en realidad solo star, ¿qué es lo que hace?
+Como el nombre lo dice, lo coloca al inicio del eje principal, es decir, como ven acá, el inicio es el lado izquierdo, nada más que eso lo coloca al lado izquierdo del eje principal. Center. Bueno, Center es al centro, no necesita mucho, mucha explicación ahí, en bueno, en es al final de tu eje principal.
+Es decir, al borde al lado derecho de tu contenedor, ya al borde al lado derecho. Bien, ahora el detalle está con estos otros 3. Muy bien, lo que hemos hecho acá en Flex Start, Flex Center y Flex End, este Center y Flex End. Lo que hemos hecho en realidad es mover como si fueran un conjunto. ¿Lo ven? No hemos.
+Definido espacio, no hemos distribuido espacio, sino que lo hemos movido al fondo, este al inicio, al medio o al final. Ya es sencillo, creo que esos 3. Ahora, con los otros 3 siguientes, lo que pasa es como que una distribución de espacio de espaciado también, es decir, va a posicionar, pero con espacio de por medio.
+O sea, espacio entre los elementos.
+El espacio claro que está dentro del contenedor. La primera es Space Between, esta de acá es sencillo, chicos, este lo que hace Space Between es coloca espacio solo solo entre los elementos. Ya coloca espacio solo entre voy a poner con B, coloca espacio solo dentro de los elementos, ¿lo ven?
+Y al borde, al borde de, pues al borde de los contenedores no le coloca nada, solo eso, espacio entre los elementos. Y claro, este espacio es igual, ya no le coloca espacio random, coloca espacio igual. Lo quiere hacer asimétrico, es si esto es x, este espacio es x, pues este espacio también va a ser x.
+Sencillo eso.
+Space around, Space around es como dice su nombre, ya espacio alrededor, o sea, alrededor de los elementos, es decir, alrededor de este y alrededor de este va a colocar el mismo espacio alrededor de este y este va a colocar el mismo espacio. O K, es sencillamente eso, ahora sí va a colocar.
+El mismo espacio alrededor, solo que pasa pasa lo siguiente, y es que este espacio que está entre los elementos se ve más grande que el de acá. ¿Por qué? Bueno, porque suma x, no. O sea, si esto es x, esto es xy esto es x, esto de acá obviamente vale 2 x, no, o sea, el doble no, porque le ha puesto.
+Espacio a estos elementos de acá, no sé si se me entiende ahí, okey, es así simplemente.
+Y Space Evenly es simetría pura. Acá sí te pone los espacios, este acá no te te pone espacios entre los ítems, sino que entre al borde o entres va a ser sí o sí igual. Ya esto es X, esto es X, esto es Xy esto es X, nada más que eso.
+Esa es la forma de distribuir muy bien, eso es así como lo ven, pero lo vamos a ver mejor cuando lo apliquemos aquí.
+Ya al momento de usar este nada.
+Vamos a poner acá justificante.
+Justificante.
+Si le pongo start, obviamente no se va a notar, pero por defecto está en start también. ya Por eso es que al momento de poner este simplemente flex, si yo no pongo esto, al momento de poner simplemente eso apareció el inicio. ¿Lo ven? Apareció el inicio, pero de nuestro este de nuestro página web, en realidad.
+Así todo esto, por eso señalaré con border el contenedor, porque vean cómo se va a mover dentro, ya vean cómo se va a mover dentro.
+Voy a poner un elemento que se enoje ya y eso es center.
+Igualá, vean como así de sencillo, este yo pude mover los elementos, pude mover el elemento dentro del poteador, lo puede centralizar. En este caso, ¿lo ven?
+Voy a cambiarlo a end.
+Y con él lo mando al fondo al final, siguiendo justamente el eje principal.
+Ahora vamos a probar los otros, ya los otros, que es el la distribución de espacios. Space Bitween Space Bitween hace justo lo que comenté, al borde no hay nada de espacio, ya al borde no hay nada de espacio, sino que lo pone entre solo entre los elementos. Listo.
+Otro.
+Space Around, exacto, muchas gracias. Space Around. ¿Qué es lo que hace? Pone alrededor, no alrededor. Listo, lo que pasa es que esto se ve el doble de lo que se ve aquí. Es eso es Space Around. Muy bien, y el último que es.
+Space M.
+¿Qué hace esto? Es simetría pura, esto es simetría pura. Todo esto sí quiere, este sí va a tener un espacio igual. Listo, es eso, solamente eso se usa ese flexbox para este.
+O posicionar, no en este caso lo que hicimos el nap ya y eso lo y eso es lo que le aplica en realidad simplemente para el nap muy bien.
+O K, hasta ahí, chicos, chicas, explicado también código, se puede entender lo que sería.
+El posicionamiento dentro del eje principal, por favor.
+Coménteme, por favor, un feedback, acabamos de aplicar, acabamos de aplicar una propiedad, ya ustedes lo van a aplicar tal vez ahí.
+En su nap, así como le enseñé ya, ahorita lo pueden aplicar en su tienen ahí una idea de ya poder aplicarlo en su nap. Muy bien, ¿cómo quieren ordenarlo? No sé si algunos, por ejemplo, prefieren este.
+Pues centralizarlo, no centralizarlo. Otros prefieren ponerlo a un lado. Otros bueno, hay esas formas. La verdad eso se basa en los puntos que tienen. Se le apagó la cámara. Ay.
+Perdón, perdón, sí, disculpa Carlos, este por hoy parece que se está pagando por Internet, ajá, pero.
+Este no hay problema, igual la pantalla sí se la pantalla se presenta, no si se presenta la pantalla normal, ya ahí si no se presenta la pantalla, ahí sí sería el problema, creo ya entonces.
+A ver.
+Aquí gustaría hacerle una pregunta, chicos, ya acabamos de ver el posicionamiento.
+Con Justify.
+¿Content ya, pero me había admitido una pregunta, ustedes cómo lo prefieren? ¿Ya es la preferencia que ustedes tienen como diseñador? No, algunos prefieren tenerlo así en los enlaces uno al lado de otro, pero otros prefieren tenerlo así.
+¿Ustedes cómo lo prefieren como columna? Sí, ya ustedes cómo lo han, tal vez lo han diseñado en su este, en su wireframe. No me pueden poner ahí fila o columna. No, yo profe fila. A mí me gusta que se vea así, este lo he imitado de una página.
+Ya él dice fila, perfecto, Carlos dice fila, Ángel dice fila, Kevin dice fila.
+Fila se ve mejor, claro, justo ahí exactamente, fila se ve mejor y fila es lo que usa la mayoría, ya, pero columna también se usa donde columna en realidad se usa para móviles, chicos, ya para móviles. Vamos a ver a la página de.
+Uy, cojo, pero me maniguó.
+Coca-Cola está.
+Como vean cómo está el enlace y el enlace está en fila, cierto que parece lo natural, pero vamos a ver si lo achicamos, es decir, para móviles, qué es lo que pasa.
+Vean cómo está en móviles, está en columnas, cierto, es que usualmente se usan columnas, se maneja en realidad, se maneja y esto es lo que le comenté, es responsive.
+Ya es buenísimo, lo ponemos en fila acá porque obviamente cubre la mayor espacio. Este tiene que ver también con el manejo del espacio, ¿no? Si tú lo pones acá en columnas, empujas tu contenido principal abajo y le das al usuario este trabajo adicional para que pueda ver.
+Para que pueda ver, hey, de qué trata esto, no o k eso cuenta o k eso cuenta y tiene relación con UI, con el diseño de páginas web. ¿Entonces, por qué vas a desaprovechar ya este espacio? ¿Para qué desaprovechar este espacio?
+Entonces lo que hacen justamente es no, yo no quiero fila, perdón, yo no quiero fila, yo no quiero columna, entonces usan esto y claro, tampoco desaprovechan este espacio, hacen lo que les comenté, no hacen Justify contencenter a veces ya que lo centralizan o los otros valores, no.
+¿Para cubrir la mayor cantidad, por qué lo usan en este? ¿Por qué lo usan en móvil?
+Por el tema también del espacio, pero porque parece que se ha convertido en estándar. Miren, acá me ha abierto todo un menú, me ha abierto todo un menú y este acá no hay en este en este menú que he abierto no hay como que no hay espacio que desaprovecharte. Acá tienes todo un espaciote. Entonces, para qué pegarlo cuando lo puedes desglosar.
+Lo ven entonces acá, sí, ya en móviles usualmente se usan como desplegables ya y esos desplegables son todo un área y para cubrirlo, pues hacen eso bien, entonces a eso con justo el tema de a ver qué este.
+¿Qué distribución quieres tú sin columna o fila? Ahí está bien.
+Listo, listo, listo. Entonces vamos a pasar a la otra forma, ya lo vemos en el alineamiento, lo vemos el eje principal horizontal, pero ¿cómo se comportaría? ¿Cómo se comportaría si fuera vertical?
+Cierto, les comenté que justify content, o sea, es la misma propiedad en realidad, pero vean si ven aquí este las 6 posiciones, que son las mismas, también Star, Center, End, Space Bween se comportan, en realidad se comportan de igual forma, pero ahora está vertical, o sea, está así.
+Correcto está así.
+Muy bien, está así. Entonces, a lo largo de ese de ese eje vertical, de esa columna, es donde se van a posicionar ya si tú le dices estar, va a ir arriba.
+Si tú le dices center, va a ir en el centro.
+Le dices en acá al final, ya ahí no necesito explayarme tanto.
+En lo que son los espacios va a tener el mismo comportamiento que les comenté con el eje principal horizontal.
+Al borde en Bitcoin, al borde no coloca nada y al centro coloca espacio en Space Arroad. Este coloca espacio entre bueno entre elementos, al le coloca el espacio alrededor de los elementos del mismo espacio. Bien, y Evelyn, que es justamente el puramente asimétrico, que es lo mismo entre.
+Acá del momento bien es similar, ya vamos a verlo aquí en el este, vamos a verlo aquí para que lo entiendan. Vamos a poner que sea colon, porque así estamos poniendo nuestro eje principal vertical y al ponerle colon voy a ponerle center ya.
+Atentos, porfa, atentos.
+Esto ya lo voy a cerrar, necesito y vamos a nuestro perfil muy bien.
+Okey.
+Este está en Center, está en Center, ya tú dirías, okey, esto es Center, vamos a ponerlo en.
+Que debería ponerlo al fondo.
+Pero no está pasando nada.
+¿Por qué chicos? Porque quiero que me respondan eso en el chat si ustedes lo han mandado. ¿Por qué a pesar de ponerle center o en no me está haciendo este desplazamiento que vemos acá arriba al centro? ¿Por qué?
+Respóndame eso, por favor, este si me pueden responder, claro, me lo escriben el tamaño por ahí más específico, por favor, Juan, el tamaño ya el tamaño de qué, el tamaño de qué.
+Vale cualquiera idea que se les que les venga.
+El tamaño del contenedor ya el tamaño del contenedor flex, como vimos acá el negrito, lo que he bordeado con el negrito es el contenedor. Cierto, ya los elementos son estos que están aquí. ¿Por qué no se ha movido o por qué no puedo ver algo ahí? Cambio.
+Ahí creo que falta ser un poquito más específico, este Juan, el tamaño de contenedor, o sea, sí tiene que ver con el contenedor, ya, pero este qué específicamente, porque el tamaño está ahí, ya el tamaño está ahí.
+¿Pero qué? O sea, que este sería el tamaño está ahí, pero hay una frase más.
+Más como que precisa.
+Sería a ver, ahí voy a dar unos segundos más, 5.
+Cuatro 32, bueno, ya bien el tamaño de contenedor.
+Por ahí va, porque en realidad es sí, el tamaño del contenedor más que nada va con el espacio del contenedor, o sea, el espacio que hay para desplazarse. Y sí, el tamaño es muy limitado para mover, cierto, el tamaño es muy limitado para mover lo que son los elementos. Aquí, si nos vamos a la gráfica que tenemos al slide.
+Si, por ejemplo, vemos cualquiera de estos, hay un espacio, o sea, hay espacio donde se puede mover. ¿Por qué? Porque el tamaño del contenedor lo permite. Bien, hay espacio donde lo puede mover, pero ¿qué pasa con el que nosotros tenemos? No hay ningún espacio o K, no hay ningún espacio.
+Por eso es que nosotros no lo visualizamos bien, como lo vamos a visualizar, okey.
+¿Cómo nosotros vamos a visualizar el tamaño con propiedades que ya hemos visto antes? Hemos visto 2 propiedades que nos permiten medir el ancho y el alto, cierto.
+¿Cuáles son esos 2 propiedades? Bueno, en inglés no eight y with ya o k en inglés eight y with y eso es lo que vamos a hacer ya por motivos de práctica.
+Por motivos para demostrarlo, yo le voy a poner un tamaño a este nap, un tamaño, una altura. En realidad, yo este el ancho no me importa porque yo lo que necesito es el espacio hacia abajo. Entonces yo te voy a poner un 400 píxeles.
+Con esto, ahora sí, ahora sí, vean como sí se pudo notar.
+Como si se pudo notar ese posicionamiento vertical, como si lo mandó al final.
+¿Lo ven, cómo se hizo End?
+Listo, es justamente eso. Tú necesitas un espacio para que puedas mover los elementos, porque si no hay espacio, ¿cómo lo mueve? Eso ha pasado, ha roto muchas cabezas metafóricamente porque hay alumnos que este han puesto flex y han intentado con esto y me han dicho, profe, no sirve.
+¿Por qué no se mueve, profe? ¿Por qué no va arriba, abajo? Yo le he puesto esto y pues solamente era eso, era un espacio donde se podía mover. Vale, incluso hasta a mí me ha pasado varias veces. Entonces eso ya y vamos a probar, por ejemplo, con otro que es Start, ya vamos a probar con Start y lo mueve arriba. Sencillo.
+Son lo mismo, no vamos a probar center, center lo mueve al centro ya al centro. Tenemos Space between. Ahí aplica esa separación, no al borde no hay espacio, pero entre ellos sí.
+Y lo mismo con los demás, no, ahí se los dejo para que lo puedan probar ya porque yo lo voy a seguir manteniendo en rojo.
+Lo voy a seguir manteniendo en RAW y claro, vean que todavía se mantiene late. Ya ahorita vamos a hablar de por qué, por qué este el late tiene ese tamaño. Ya ahorita vamos a hablar de eso, por qué el late tiene ese tamaño, pero vamos a pasar ahora a lo que sería el siguiente posicionamiento.
+El alimiento en el eje secundario.
+Ya porque ya vimos el eje principal, o k lo vas a mover este dentro del eje principal, puede ser horizontal o vertical, ya, pero.
+¿Qué pasa con el alimento en el eje secundario? Yo ya había comentado, cierto, yo ya había comentado que solamente hay una forma de este ordenar, cierto, una forma de, o sea, flexbox tiene solo una forma que sería como que sería como este.
+¿Perdón, como fila o como columna, cierto? ¿Por qué hay un eje secundario? O sea, debería solo ser uno, cierto, debería ser solo uno, porque esa línea es la única que necesita para posicionar, pero ¿por qué como eje secundario? La respuesta es este en realidad no se alinea.
+En el eje no se alinea en el eje secundario. Lo que pasa es que muchas veces va a sobrar espacio, ya como por ejemplo este contenedor, ya como por ejemplo este contenedor que está aquí, tú ya este contenedor, tú le aplicas flex, ya lo alineas.
+Y lo líneas como fila se va a ver así ya, pero si te das cuenta.
+Hay espacio sobrante, ya hay espacio sobrante. Entonces el eje secundario lo que va a permitir no es este mover estos, cómo decirte, mover estos bloques en ese espacio, sino mover todo este bloque en conjunto entre este espacio, o sea, en una línea en el eje horizontal.
+Tal nada más que eso ya, o sea, es una fila y como fila se va a mover y si es una columna como columna se va a mover en ese espacio. Es eso. Esa es la función del eje secundario. o K, en la práctica se va a ver mejor, pero este esto lo digo para que pues no piensen que.
+Se está quitando, o sea, se está contradiciendo el hecho de que Flexbox este ordena o posiciona en lo que sería unidimensional. Ya se está siguiendo eso para bidimensional o para 2 dimensiones es grit, ya que es otra forma de posicionar.
+Bien, no me no me desvío más. Espero como nos haya quedado claro, porque cuando para hacer justamente este alineamiento en el eje secundario usamos align items. Esta es la propiedad que vamos a definir.
+Para este.
+Para ordenar justo ese bloque, ese bloque de elementos.
+En el eje secundario, ya el eje secundario, o K, muy bien, voy a dibujar el eje secundario. Ahora voy a dibujarlo con azul ya porque el eje primario, este en este caso estoy diciendo que el eje secundario vertical, ya muy bien, como recuerda, se va a dibujar cruzado.
+Ya no se fije en la dirección de la flecha, eso no importa. Ya no se fije en la dirección de la flecha, sino fíjense en que es horizontal o vertical, que en este caso es vertical. Muy bien.
+¿Qué es lo que hace? Los valores son conocidos, ahí start en y center. Lo mismo ya este tu fila, tu fila lo va a poner al inicio. Ya no estoy hablando de items, estoy hablando como fila, lo va a poner tu fila al inicio, ya al inicio del eje secundario. Obviamente tiene que haber espacio aquí ya.
+Tiene que haber espacio para ver esto, este chicos, chicas esto creo que se sobreentiende. Ent lo va a mandar al fondo ya al fondo de tu este de tu contenedor. Todavía estamos hablando de contenedor al fondo de tu contenedor. Center lo manda al medio.
+Y acá hay 2 nuevos términos, stretch, stretch viene del término, o sea, es inglés y viene del español, estirar.
+Es el valor por defecto que tiene al momento de poner display flex. Es este video, es decir, tus elementos se van a estirar como chicle tanto para arriba para que se van a estirar verticalmente, hay que decir verticalmente en tu contenedor para ocupar este el espacio sobrante.
+Ya es eso, nada más que eso.
+¿Cómo lo veríamos acá? ¿Cómo lo veríamos acá? Si yo, por ejemplo, acá le pongo stretch.
+¿Dónde está?
+Sí, voy a.
+Quitar esto, si yo este le pongo stretch, lo que haría básicamente es estirarlo esto de acá hasta ocupar este espacio.
+Ese es estrecho y por defecto tiene esto, solo que aquí no se visualiza. ¿Por qué? Pues el alto es bajísimo, no se nota que está estirado, ya no se nota que está estirado.
+Bien, este eso y el otro es Base Light ya.
+Baseline Baseline, que es la siguiente, que también es no es tan usado, usualmente no es tan usado, es casos excepcionales. Baseline es como que seguía usando la línea de texto, o sea, la línea donde se apoya las letras. Ya ven que aquí visualizan, por ejemplo, 2 bloques que tienen texto.
+Pero este seguía usando esa línea y nada más que esa línea, como la línea pasa a través de los bloques ya a través de los bloques. Muy bien, es simplemente eso, no se usa tanto, solamente se usa para bloques, o sea, se usa para bloques con texto, pero este es muy raro.
+No lo he visto yo, o sea, no lo he visto yo como programador, no lo he usado la verdad con estos cuatro que están acá creo que es suficiente.
+No he visto un caso de uso, la verdad, pero base para decirles, pero ahí está el concepto muy bien y no creo que lo usen tampoco en su laboratorio baseline. Ya entonces eso, ¿cómo lo veremos acá? Vamos a verlo acá bien, vamos a poner, bueno, está en row, este lo puse en Justific Content.
+Pero ahora lo que voy a poner es align items.
+Voy a poner a Line Systems, chicos, chicas, y lo voy a poner center, pero aquí pasa lo mismo que nos pasó de Nantes.
+No les comenté.
+¿Cierto, cuál es el problema? O K, me lo repiten, si estuvieron atentos. ¿Cuál es el problema? ¿Por qué aunque le puse Center no se movió arriba o abajo?
+Ver chicos en el chat.
+El espacio, muy bien, muchas gracias, el espacio. Exacto, Carlos, el espacio, bendito espacio. Es el espacio el que no nos permite visualizar ese cambio que le hemos hecho. Entonces vamos a hacer lo mismo que este que hicimos para probar el otro, no le pusimos un eight ya.
+Le pusimos un eight, entonces al ponerle ahí ya se visualiza justamente que esto de acá voy a ponerlo de otro color ya.
+Voy a ponerlo de autocom.
+Esto mejor ya vamos a dibujar los 2 estes.
+Esto de acá es el eje principal y tu eje vertical sería esto. Tu eje secundario, perdón, sería esto. Ya yo le dije al eje vertical que me mueva al centro y lo que está haciendo es todo el bloque de fila. Lo ha movido al centro, nada más que eso bien, nada más que eso.
+Si yo le digo, ok, no quiero al medio, si no quiero al inicio, que creo.
+Perdón, al final en lo vamos a mandar al fondo. Si yo le digo stretch, vamos a ver qué hace en stretch. Ya en stretch, lo que ha hecho es estirarlo, solo que no se visualiza porque no tienen colores. Ya vamos a ver si acá al ponerle colores se puede visualizar mejor o si no me vas a ver.
+Bien, vean cómo ahí está. Vean cómo se estiró. Ahora sí se puede ver porque le puse colores a los enlaces, a los a la caja de enlace y vean cómo le estiró. Si yo le pongo estar, miren, aquí le voy a poner estar.
+Es otra forma, vean que solamente lo manda al inicio, pero no lo estira porque le he quitado el stretch.
+Ven ahí la diferencia entre star y stretch o ky, por ejemplo, este eso es eso, star stretch y nada más. Ya baseline lo vamos a dejar esa diferencia. Yo creo que sí puedo notar justo como con esto, al colocar esto, cómo funciona el stretch.
+Que es por defecto, en realidad por defecto está así, ya miren, este yo le voy a quitar esto de acá, el line items, le voy a poner justo ese background color que le había puesto, ese background horrible que le había puesto, pero vean como por defecto está en stretch, es por defecto significa, como le dije, es el es.
+Navegador lo pone sin que tú se lo digas, ya lo pone así, muy bien, listo, hasta ahí creo que a ver hasta ahí.
+¿Se pudo entender, chicos, el alineamiento en el eje secundario? Por favor, me comentan, se puede entender ese alineamiento.
+¿Qué tal, Juan? Muchas gracias, buenísimo.
+Buenísimo, se pudo Carlos, bien, a ver.
+Carlos, Carlos, buenísimo, Carlos, gracias.
+Bien, creo que sí se puede entender. Yael, genial, Yael, genial, eso por eso está bien, listo, va.
+Perfecto.
+Y similar, similar, ya similar ahora este el rendimiento de un eje secundario cuando ahora defines que tu eje secundario es horizontal, ya es decir, cuando tú pones, cuando tú pones, cuando tú pones tu eje principal como columna, comentamos cierto que cuando tú pones tu eje principal.
+Como columna, el eje secundario siempre tiene que ser, pues cruzado.
+Cruzado, entonces eso es lo que pasa aquí.
+Oye, eso es lo que pasa aquí, ya está muy raro. DMT Cloud, está muy raro, ya es eso es lo que pasa, es lo que está pasando aquí. Ya vamos a poner acá, por ejemplo.
+Aline items, aline items, lo mismo ya lo mismo y el valor que puede tomar, pero en este caso, pero en este caso.
+El aline items es horizontal, es así, nada más que eso es horizontal y se va a desplazar así ya lo mismo estar lo pone a la izquierda en al final y Center al centro, pero ahora Stretch lo que va a hacer es estirarlo, pero horizontalmente ya va a estirarlo horizontalmente.
+Esto se aplica, obviamente ahora estos ya no es una fila, es una columna, ya lo estamos viendo como columna. Eso bien, ya nos listo. Entonces vamos a pasar al otro concepto importante, que es el gap. Lo vamos a usar mucho, ya gap lo vamos a usar mucho.
+Yo tengo ya, yo tengo en mi nap.
+Vamos a cambiarlo acá a center, no le voy a poner espaciado, ya no le voy a poner espaciado, digamos que tú le quieres poner y vamos a quitar, tú le quieres poner a tu nap en el centro. Ya tú ves, dices, yo no quiero que le ponga el mismo espaciado.
+Yo lo quiero poner así, lo ves, lo veo así ya, pero obviamente no le pongo el máximo.
+Ustedes saben que cuando nosotros creamos este nuestra etiqueta enlace, lo les recuerdan es de HTML. ¿Han notado que su enlace ha salido pegadito, cierto? Ha estado pegadito al uno de otro y tuvimos que llegar nosotros hasta lo que sería Margi o márgenes, cierto de CCS.
+Para poder recién aplicar espaciado entre estos, no para decir o k, yo necesito este, lo veo pegadito, no me gusta así y van, le puse margin a este espaciado a cada uno.
+Vale, es decir, le pone a cada costado.
+Es eso, nada más ya.
+Flex Flex te brinda un atributo para espaciado más eficaz, ya más eficaz y relacionado también a los elementos que están adentro. Y ese elemento es, chicos y chicas, es gap.
+Ese elemento es gap. ¿Qué es lo que hace gap? Gap lo que hace es colocar espacio entre coloca espacio entre los elementos de tu de tu de tu contenedor flex. Nada más que eso, pero escuchen, es entre a no es a los bordes.
+Ya es de elemento a elemento. Por ejemplo, para definir gaps simplemente pones gap, ya no sé gap. Bueno, no sé de dónde viene el término, pero es así, solo pones gap en el contenedor flex, lo pones y tú le das una unidad de medida. Ya yo le voy a poner, no sé, 30 ya.
+Y van a notar que se separa efectivamente, así le ha puesto qué es lo que le ha puesto, con eso no se nota.
+Ya le ha puesto entre cada uno de los elementos, simplemente le ha puesto 30 píxeles. Bien, es una forma más inteligente de poder separar los elementos dentro de un contenedor sin necesidad de ponerle marching, ya sin necesidad de ponerle marching ya este gap automáticamente.
+Colocas espaciado y listo, no, tú lo puedes probar acá con 50, por ejemplo, y pues vas a ver que se va a notar más el espaciado. Bien, esto es GAP, chicos. Entonces con eso yo creo que la parte.
+No, con eso ya estaríamos este. La parte de Flexbox ya estaría cubierto casi totalmente porque hemos visto es eso. O sea, Flexbox en realidad es eso. Hay otras, hay este propiedades más avanzadas, pero con eso hemos cubierto la mayor cantidad de posibilidades. Muy bien.
+Chicos, entonces a ver qué me dice acá por el espacio del contenedor. Sí, hay diferencias entre el gap y el. Uy, acá te faltó el padding, ajá. Sí, hay diferencias. El gap es como el margin, mientras que el padding es este espaciado, pero dentro de tu contenedor. Ya mira, voy a mostrarlo aquí.
+Voy a entrar aquí, voy a inspeccionar para verlo más claro, siempre apoyándonos de estas herramientas.
+Ya solo que aquí miren, no se le no se le está contando a ver dónde está, vamos a entrar, tengo que querer, ¿no?
+Vean, este no se está contando, no se está contando cómo se llama, como si le hubiera puesto un margin. No se le está contando porque yo resalto, por ejemplo, ese enlace y tiene padding cero, border cero y margin cero ya, mientras que el gap es a nivel como de contenedor en realidad.
+Ese nivel del contenedor.
+Diferente sería si mira, si yo a comidas, mira, voy a hacerlo, voy a ponerlo para que lo notes, ya voy a ponerlo para que lo notes.
+Voy a quitar el gap y a le voy a poner pan.
+Padín de ese mismo padín de 30 píxeles ya y vas a ver cómo se ve diferente.
+Mira lo diferente que se ha puesto, ¿lo ves? No es lo mismo, ¿cierto? Lo que ha pasado aquí es que le has metido, le has metido espacio, pero dentro de la caja, que es muy diferente a el espacio dentro de la caja. Lo que hace en realidad es este separar, no los elementos, o sea.
+Los elementos vecinos no los separa, eso lo hace el margin. Lo que hizo el padding fue separar el en realidad la caja del contenido. Por eso es que aquí se ve una caja más grande. El padding te da cajas más grandes. Bien, el margin, no, el margin es lo opuesto.
+Vale el margen, yo le pongo el margen aquí, por ejemplo.
+Ya el margin lo que ha hecho es separar, ya lo que ha hecho separar, vean en este naranja ya, pero obviamente acá yo le he puesto obviamente margin este un solo valor, ¿no? Y pues obviamente le ha puesto a todos los lados y vean eso como te ahorra, no vean como te ahorra que tú solamente le pongas dado ya el acá le pone a todos los lados, pero yo no quiero eso, yo solamente quiero entre los elementos.
+Entonces ahí usa mejor gato.
+Vean como gap se ahorra el hecho de ponerlo arriba y abajo y solamente ya identifica los elementos que los ponen allí.
+Right.
+Tendría la misma, hay diferencias, tendría la misma función que el ley, okey, elite en realidad es este Carlos.
+Altura sería altura, claro, sí, ya en cuanto a cálculo de E, claro, le va a aumentar un poco más de altura, ¿no? Pero si tú quieres poner una altura fija, usa E mejor, ya usa E mejor.
+No, la verdad no tendría mucha este, o sea, padding es espaciado y Jake es dimensionamiento. Bien, entonces hay que usarlos, hay que usar esas propiedades de acuerdo a eso, vale.
+No está bien, no te preocupes, este Carlos, más bien gracias por esa pregunta, creo que se este aclaró muchas dudas, espero o k chicos, hasta ahí. ¿Cómo vamos? ¿Se puede comprender la clase para pasar a un test, rapidito Juan? Muchas gracias.
+Hey.
+Mira, me traje la taza de Papá Noel. Feliz Navidad, chicos. Feliz Navidad. Chao, muchachos, todo entendido. Muchas gracias, que.
+bien.
+Bien, espero que eso les pueda. Espero que eso les pueda ayudar en su laboratorio. Vale, vamos a ver si hay pasión, vamos a también avanzar el laboratorio juntos. Vamos a hacer más temas, ya todavía no hemos terminado porque lo que quiero pasar ahora.
+Es a un este primero a ese test y luego al receso. Ya vamos a hacer ese test y luego al receso porque me ha comentado este Bruno que si se van ustedes al Canvas, por favor diríjanse al Canvas, programadores y programadoras, dirijámonos al Canvas, vámonos al Canvas.
+Uy, un poquito este y por favor vamos a lo que sería el test del módulo uno. Ya nos dirigimos al test del módulo uno y ahí lo que hay. A ver, a ustedes le saldría sí.
+Sí.
+Le saldría esto y lo que ya.
+Ahí están las instrucciones, ya se va a realizar durante la clase, lo estamos haciendo, se van a ver los conceptos que vemos desde la clase uno hasta la clase cuatro. Por favor, me escriben en el chat si están ahí, vale, si están ahí en el ya lograron ver el test, por favor, si lograron al ver el test.
+No es evaluación. Bien, Diego, gracias. No es evaluación, como les comenté, pero sí es necesario, por favor, para este, para tener un conocimiento también de no como evaluación, sino como pues conocer cuál es este, en qué, en qué punto estamos. Vale, en qué punto estamos, similar al Kahoot que hice, pues ayer.
+Ayer, digo, el la plaza pasada, gracias a los que comentaron.
+Listo, entonces este test va a durar 15 minutos máximo, hasta puede durar menos. Y si terminan todos acá lo puedo ver ya y pues es individual, obviamente individual. No sé si acá es enseñía comida, pero es individual y nada más que eso. Yo voy a estar aquí con ustedes, le dan simplemente a realizar el examen y les va a dar preguntas de.
+De HTMLYDC lo que vemos, vale nada más. Eso chicos, le dan a realizar ya el examen, por favor le dan a realizar ya el examen y yo voy a contar que son las 9:20, aproximadamente 9:30 tendríamos que.
+9:30, ya si es un récord, tendríamos que terminar el test la mayoría.
+Bien, listo, chicos, ahí los dejo resolver. Vale, si tienen algún problema con el test, no me abre, no me este, me aviso.
+Yo aprovecho unos segundos porque estoy tomando mucha agua y tengo que ir al servicio urinario. a ver.
+Bien, chicos, gracias. Los que han terminado, por favor, todavía tiempo. No se preocupen, los que han terminado colocan en el chat entregado ya gracias a los que ya han puesto.
+Para guiarme y ya, pues.
+Gracias, Juan.
+Bien, hasta ahorita vamos.
+55 que hemos entregado en todavía hay tiempo, chicos.
+My.
+15 minutos ahí, supongo que ahí estará. Hay un contador ahí, seguro, habrá un contador, cierto, hay un contador ahí, chicos, al momento de que hagan su pregunta, a ver, respóndame los que han entregado, ahí hay un contador, si hay bien, entonces en el caso al contador, este a los que todavía no han terminado, claro, no.
+Nos apresuró, vale.
+Ta, tap, tap, tap, tap, tap.
+3.
+7.
+20015, nos falta incluso podemos estirar.
+¿Y hoy me incluso también ves algunas cosas más en laboratorio, no?
+No.
+Good.
+Ya gracias, sobrina, 3678.
+Creo que estamos todos a ver 3.
+And next.
+8 o k.
+Hay 8.
+Todavía faltan cuatro chicos, todavía faltan.
+Cuatro alumnos.
+Claro.
+Bien, todavía faltan cuatro.
+Perro.
+Spam.
+Estadísticas.
+Gracias, Carlos, gracias, John.
+Es 4567.
+Ya faltarían.
+2 participantes ya.
+2 participantes y cerramos.
+932, bien, bueno, yo no cierro, sino que 932 empezamos a ver este.
+Empezamos a hacer un análisis o K, ya lo veremos mejor al momento a ese momento, ya 932.
+Papa.
+She's showing.
+Yeah.
+Ustedes me dirán, chicos, también los que le faltan entregar, saben que hoy día sí, tal vez podemos omitir el receso y ir directo para salir más temprano. o.
+Tomamos ese receso de unos minutos.
+Y pues volvemos, ¿cómo lo ven?
+No quiero abrir una guerra, por favor, directo, dice profe, quiero abrir una guerra normal.
+Le damos para salir antes, genial. Sí, yo también, la verdad, este mi humilde opinión, pero normal, sí, este si los demás están de acuerdo en eso.
+Le damos, le damos control.
+Y luego me voy volando a casa bien.
+Genial, genial, prende stream, prende stream a las 7:30, los lunes a miércoles y ahí me ven. Gracias, sigamos, dice John Durán.
+Ajá.
+Bien, creo que la mayoría está de acuerdo mal, chicos.
+Mal, vale.
+Creo que sí también para no perder el ritmo.
+¿Y este?
+No perder el ritmo y este y continuar y irnos porque vamos a ver listo, 932 chicos, creo que ya es momento ya de pasar a lo que a lo siguiente, ya nos vamos a pasar a lo siguiente, voy a compartir mi pantalla porque lo que quiero es no voy a evaluar los test, felicidades, gracias por responder el test.
+Lo que voy a hacer simplemente es acá, tranquilos, no sale, no sale este quién ha respondido bien o respondido mal. Esto es una estadística general del examen. Acá solamente salen este.
+Las respuestas ya quienes han marcado este no salen nombres. Entonces vamos a pasar, ya veamos.
+¿La primera pregunta dice, qué ver cumple el navegador en el modelo cliente servidor? Hablamos de ese modelo cliente servidor y la mayoría respondió, actúa como cliente que solicita recursos al servidor. Exactamente, cierto, vemos también mandé una infografía con la regla de hoy, cliente pide y servidor pues sirve.
+Así, listo. Entonces, esa sería la respuesta correcta. ¿Cuál es el propósito principal de las etiquetas HTML semánticas? Bien, ¿cuál será el propósito? Describir el significado del contenido para navegadores y lectores de pantalla. Ajá, claro, no las etiquetas header main fooder por sí solos, sin necesidad de ver qué es lo que tienen adentro.
+Ya nos dicen que representa, cierto, es una regla de HTML, ya les da un significado exacto. Por ejemplo, main que nos dice main, el contenido principal, lo ven, ya tiene un significado propio.
+Y atributos es obligatorio en la etiqueta imagen para mejorar la accesibilidad alt. Exacto, CRC, vale, vamos, CRC era para indicar para la imagen. En cambio, alt era para pues accesibilidad. ¿En qué sentido? ¿En qué alt permite describir? Cierto, y esta descripción la puede este leer.
+Perdón, escuchar las personas que son, pues ciegas, no las ciegas al usar el lector de pantalla. ¿Cómo funciona un enlace ancla dentro de la misma página? Aquí nos vamos a navegación, cierto, y este mencionamos que las enlaces nos permiten también navegar dentro de nuestra propia página.
+Vale, como indicando simplemente michi y el nombre pues del IDE, y básicamente pues hace un scroll hasta el método bien en el box model. Buy, uy, estaba fresquito esta y mira nada más 12 respuestas en el modelo CSS. ¿Cuál es la diferencia entre padding y marching?
+Ya no, este es box model. Ay, me confundí con Flexbox, ya esto no, esto sí es la misma con la diferencia entre padding y margin. Ya lo comenté justo también al final, no espacio interno, espacio externo.
+Todos correctos, entonces ese tiene mayor especificidad. ¿A qué se refiere con mayor especificidad, chicos? A que al ser más precisos, no a ser más precisos en la definición. Exacto, universal, el tema con universal, o sea, es que es muy general, es muy general. No es lo mismo, por ejemplo, decir.
+Ey, este, él es el papá de tu papá a decir él es tu abuelo. ¿Lo ves? Ambos es lo mismo, papá de tu papá, abuelo, no. Si tú le dices, por ejemplo, eso a es, se entiende, no cuál es más específico, más claro, simplemente decir abuelo, que es como que el sobrenombre, en cambio.
+Con papá de tu papá eso no es como que más general, como por ejemplo las etiquetas. Ya lo más general usualmente es lo que agrupan la mayor cantidad de etiquetas. En cambio, cuando eres muy específico y muy preciso, ya sabes a qué etiqueta exactamente te estás dirigiendo. Bien, listo. ¿Qué propiedad CCS activa Flexpo?
+Muy bien, exacto, display flex, no que hace que un contenedor se vuelva flexbox, justo ese este sí es fresquita ya.
+Después de completar este módulo, ¿cómo escribirías tu nivel de confianza? O K, creo que este es personal, chicos, muchas gracias. ¿O K, algo inseguro, no se preocupen, no se preocupen, ya o K bien, esto creo que es para mí, muy seguro. Las personas que todavía necesitan guía, ustedes me pueden escribir.
+Al WhatsApp, específicamente el tema en el cual necesiten guía ya en el cual necesitan guía. Ustedes pueden hacerlo y yo voy a buscar recursos, tal vez por ahí algunos vídeos que podría mandarse. Vale, normal, yo los puedo ayudar. He hecho este, de hecho, he hecho algunas reuniones breves con algunos alumnos donde les he explicado algunas cosas.
+¿Que le faltaban? Y el vamos también me han preguntado porque así que siéntanse en la total este normalidad de hablarme ya de escribirme por WhatsApp.
+Mhm.
+Sea en lo que sería, pues su nota de laboratorio o del modo, no tiene, básicamente solo para pues para evaluar como eso no vas a ver cómo se están haciendo. Listo, voy a cerrarlo.
+Se escuchó todo.
+Sí, te escuché todo qué pasó, sentí una bomba.
+Escucho todo el tiempo.
+Se me escucha, ahora se me escucha.
+La.
+Uy, ahora sí, hola.
+Te habíamos, te había, no sé qué ha pasado, este es todo el cable de Internet ya porque estoy en la top.
+Pero ya acá salió con access, no sé si lo ven, acá está conectado ya este.
+40, por favor, me comentan a ver si se me escucha, si se me escucha para empezar ya de una vez.
+Ahora sí, ahora sí, genial, genial, vaya técnica y esto perfecto. Entonces vamos a pasar ahora de lleno a lo que sería.
+El siguiente punto y el siguiente.es relacionado a contenedor multilineal. ¿A qué se refiere con eso? Primero vamos a ver lo siguiente.
+Yo tengo mi contenedor, ya yo tengo mi contenedor, tengo este contenedor que lo había definido, pero ¿qué pasa? O K, este tengo cuatro elementos, lo voy a volver a subir, vale, lo voy a poner a subir normal.
+¿Para que pueda entender, qué pasa? ¿Ajá, ya puedo acomodar elementos dentro de un contenedor? Hasta ahí no hay lema, pero ¿qué pasa? ¿Acaso la cantidad de elementos que puedo meter dentro de un contenedor es infinito?
+¿No cierto? ¿Por qué puedo meter esta imagen aquí?
+No tendría que o reducir el tamaño.
+Correcto o eso, solamente eso, reducir el tamaño o no se puede poner. ¿A qué voy con esto, chicos? ¿A qué voy con esto?
+Main o la dimensión de un ponedor contenedor tiene límites, ya la dimensión de un contenedor tiene límites. Efecto ya pasa este efecto. ¿Cómo se llama este efecto?
+Vamos a verlo en código, vamos a explicarlo en código.
+Ya usualmente los contenedores, vale, los contenedores tienen un tamaño, una dimensión, ya se definen como un o un más, o sea un o un o un ya tienen un tamaño. Ya los contenedores en su página web van a tener que tener un tamaño. ¿Qué pasa? Acá no hemos definido tamaños.
+¿Por qué? Porque los ha definido el navegador por defecto. ¿Cómo así, profe? ¿Cómo es que lo ha define por defecto?
+¿Te acuerdas que me vas a verlo mejor cuando lo pongamos acá a columna?
+Nosotros ponemos a colum esto, ya obviamente pone uno debajo de otro, acá le voy a poner el gap, le voy a quitar y acá le voy a poner el margen, no, en realidad le voy a poner ese gap porque estaba muy franco.
+Ya.
+Listo y el justificante que obviamente no se ve, pero no quiero que se note esto, lo que quiero que se note es lo siguiente.
+Yep.
+Ya quiero que no te lo siguiente, este es tu contenedor flex, el que está aquí, el ya es un contenedor flex. ¿Qué pasa?
+¿Puedo poner infinitamente elementos? Vamos a ver, voy a poner varias ya.
+What's up?
+Efectivamente, ¿qué pasó? Sí pude, sí pude poner. ¿Por qué? ¿Por qué, profe? Porque, o sea, el navegador ha puesto, ha puesto una medida, pero esta medida es flexible, esta medida que algo esto en realidad.
+Este acá le ha puesto en realidad, es un eight auto, ya tiene un eight auto, o sea, básicamente ya esto lo ha puesto, ya lo hemos visto, ya cierto, es eight auto, lo que hace eight auto es.
+Que en altura, en altura, porque es altura, en altura sea que el contenedor sea sea flexible al contenido. Por eso es que aquí permite que puedas meter elementos sin que pase el efecto que ahorita te voy a comentar. Sí, voy a meter los.
+Elementos que yo quiera puedo seguir metiendo y va a seguir creciendo, va a seguir creciendo, o sea, porque sí.
+
+Orador 3   2:04:58
+Disculpe.
+
+Orador 4   2:05:02
+Solo se le escucha entrecortado.
+
+Orador 3   2:05:02
+Se pausó la se pausó la transmisión, no se vio nada.
+
+Orador 1   2:05:02
+A ver.
+Uy, uy, uy, a ver.
+A ver, voy a dejar de compartir.
+No, perdón, un momento, ya voy a voy a fijarme ahí algo ahí del este.
+Listo, chicos, ya sé qué pasó. Ya fallas técnicas caninas, chicos, mis perros se estaban moviendo el cable.
+¿Está moviendo la red entonces?
+Bueno, pues viva que se venía el internet, ahora no sé.
+A la transmisión, a ver.
+Voy a compartir nuevo.
+Ya se puede ver.
+Voy a mover esto.
+Me.
+Yeah.
+Se puede y se puede escuchar correctamente, porfa.
+No se ve nada.
+Entonces yo tengo que salir.
+Yo tengo todo.
+Sí, con.
+Listo, listo, perdonen, perdonen la interrupción, voy a compartir para probarlo, cortamos los dedos.
+ver dónde es aquí no pantalla
+Pantalla pantalla.
+O K, me comentan, me comentan, por favor, en el chat.
+Estoy compartiendo.
+
+Orador 4   2:09:06
+Honestly, professi.
+
+Orador 1   2:09:09
+Hey.
+Kevin, se puede ver, se puede ver. o K, nunca falla reiniciar la clásica de.
+Vea clásica, bien, listo, muchas gracias. Vamos a continuar entonces, o me quedé, me quedé acá ya este sí, me quedé, por ejemplo.
+Comsa.
+Ya estoy bien, me quedé justamente en que bueno, acá tienes un contenedor, ¿cierto? Este contenedor vamos, lo que estábamos probando era qué pasaba si le metíamos más elementos. ¿Qué pasaba con ese contenedor? ¿Podía soportar poner elementos infinitos o poner varios elementos o pasaba algo o se desbordaba?
+Ahí está la palabra. ¿Qué es lo que pasó? El contenedor efectivamente, como vemos acá, permite meter varios elementos. ¿Por qué? Porque lo que hizo el navegador o lo que pone el navegador bien es poner una dimensión, pero una dimensión flexible le puso altura.
+Una altura auto, ¿qué indica esto de índice? El navegador le dice al nap, ey, este, yo te puse una altura auto, o sea que si tú ves que vienen entrando elementos, tú tienes que adaptarte como si fueras un una plastilina, ya tienes que adaptarte, o sea, tienes que crecer, ya vienen más elementos.
+Crece, crece en altura ya, y eso efectivamente es lo que pasa. Si tú le metes acá un elemento más, esto se va a hacer más grande en altura.
+Ya eso funciona, pero en ocasiones va a haber casos donde tú tengas que definir un tamaño, como te digo, un tamaño para tu este, tu contenedor. Tienen que tener un tamaño, ya tienen que tener un tamaño porque como sabemos este.
+El bueno, la ventana, no, la ventana es limitada, cierto, la ventana es limitada. Entonces, si tú me le pones un tamaño, se va a expandir lo más que quiera y no queremos eso.
+¿Entonces, qué es lo que vamos a hacer acá? Vamos a cambiarle ese comportamiento porque tiene out y vamos a ponerle un valor que vamos a ver qué pasa al momento de ponerle 300 píxeles.
+Ya vamos a poner que pasa al momento de ponerle 300 pixeles, acá lo que le estamos diciendo es ya no eres auto.
+Tienes un tamaño fijo.
+Dicho y hecho, chicos, miren lo que pasó.
+Vean este comportamiento, el contenedor, vean cómo se ha salido los elementos que estaban dentro, se han salido algunos, vean este sobre mí está acá y este comida está acá, o sea, el contenedor es el borde ***** y se han salido. ¿Qué es lo que ha pasado? Lo que ha pasado es lo que nosotros o lo que en CCS se conoce.
+Como desbordamiento, ya se ha desbordado los elementos fuera del contenedor. Eso entonces es como si tú te este no sé, tuvieras, tú eres tú calzas, tú calzas 42 y metieras el zapato en un este en tallo 39, no entraría.
+Cierto, este se desbordaría tu pie. Básicamente más o menos así es lo que pasa aquí. Ya entonces, ¿por qué mencioné el desbordamiento? Porque Flex tiene un tiene propiedades que nos permiten manejar esto, nos permiten manejar el desbordamiento. Esta propiedad es lo que nosotros llamamos.
+Flex Wrap, Flex Wrap crea este justo como ven acá, no, Flex Wrap es la propiedad que nos permite manejar, perdón, nos permite manejar el desbordamiento. ¿Cómo lo hace? Ya sabemos que se pueden desbordar. Lo que hace Flex Wrap es crear múltiples líneas.
+Es decir, aprovecha el espacio y te dice.
+¿Por qué mejor tenerlo solo en una línea? Simplemente déjalo fluir, o sea, deja que la línea como que continúe. Lo vamos a ver mejor al momento de aplicar ya al momento de aplicarlo, vamos a poner acá flex.
+Wrap ya y solamente tiene 2 valores, tiene 2 valores, tiene no wrap.
+Que es que no haga nada. Este es el por defecto, por eso es que no está pasando nada, pero si nosotros le ponemos crap, le estamos indicando eso, le estamos indicando eso, vamos a indicarle esto.
+Yeah.
+Lo ven, chicos, vean lo que pasó.
+Vean como lo que ha hecho es ajustar, o sea, lo que ha hecho es crear más líneas, o sea, más ejes. En este caso principal lo ha creado ya si era columna, ha creado más columnas y si es fila va a crear más filas. ¿Para qué? Para justamente como que.
+Manejar lo que sería ese desbordamiento. Ya no hay desbordamiento, ha aprovechado su espacio y lo ha manejado así. Muy bien, eso es básicamente eso, solamente es eso, este fresh round.
+Es decir, acá hay un eje principal, en este caso lo he puesto columna, no cierto, sí, y acá hay otro.
+Le ha puesto eso, se ha continuado, ya ha continuado como ha visto acá, como ha visto acá, ya mejor lo dibujo con esto, como ha visto acá que no hay espacio para meter más elementos porque tiene este, acá hay un borde, ya no puede crecer más el contenedor. Lo que he dicho es o k entonces.
+Mejor le creo otra columna y dicho y hecho, eso es lo que ha hecho.
+Ver, lo ven o k se pudo entender ese concepto de fresh wrap, chicos, ¿cómo ha manejado ese?
+Ese desbordamiento también el hecho de desbordamiento no se puede entender.
+Okey, me comentan, porfa, no se ve nada, yo creo que eso es.
+Eso es de left.
+La grabación sigue, no se pudo ver eso, chicos.
+Lo que sería Fred Group y como este le decimos que no se use una línea, sino pues múltiples líneas. Todo claro, dice Juan Miguel. Muchas gracias por eso.
+Se entendió genial, bien, esto es necesario para cuando tú veas que hay un desbordamiento y digas que lo continúe.
+Bien, lo podemos, lo podemos ver, por ejemplo, en raw mini es una forma.
+Así se ve mejor más claro esto.
+Claro, si yo le pongo un robot.
+Este Todavía sigue teniendo este stay, le voy a quitar stay.
+Ya, pero vean como.
+Como este lo voy a poner acá start para que también veas como en cuanto a filas ha creado filas, ven, ha creado filas, ha hecho esto, estoy llenando aquí, aquí, pero aquí ya no puede entrar otro elemento más, simplemente lo continúo en la siguiente fila, es nada más que eso.
+Listo, bien, perfecto. Entonces, si se puede entender eso, se va a poder entender también el siguiente elemento porque está relacionado ya un contenedor justamente multi multilineal es cuando tiene muchas líneas, no sean columnas o sean filas. Es eso, nos permite crear gracias a Wrap.
+¿Pero cómo ordenamos esas múltiples líneas? O sea, ya todo como un bloque. Ahí lo que interviene es align content. Align content solamente funciona. Es una propiedad que solamente funciona cuando hay un contenedor multilineal y básicamente hace los tiene los comportamientos que vemos aquí, ¿no? ¿Qué vemos aquí? A ver.
+Esto es cuando el eje alineación al eje secundario. Claro, la alineación es el eje en el eje secundario, chicos, esto de acá ya en el eje secundario, que en este caso está vertical, ya es en la alineación en el eje vertical. Por eso es que lo ven cuando es start va arriba, cuando es enter está en el centro, cuando ese va abajo.
+Y acá, bueno, acá son los comportamientos los mismos que ya vimos, especie de between de arrow y de stretch que se estira. Lo vamos a ver mejor aquí en nuestro código, ya creamos multilíneas, es decir, que acá podemos aplicar.
+Pero obviamente no hay espacio para aplicarlo, ya no hay espacio para aplicarlo, así que por eso le voy a dar yo.
+Una de 400.
+Ya no hay espacio para explicarlo, pero ahora sí ya lo este bien. Con esto lo que voy a hacer es las líneas ahorita están por defecto, están stretch, ya están stretch. Si tú le pones acá background color y le pones aqua.
+Lo que está aplicado es este tipo de comportamiento de aquí.
+Vean como se ha estirado cada uno de estos.
+Ok, listo, entonces dicho esto.
+Yo no quiero stretch, yo quiero ordenarlo, por ejemplo, start.
+Bien, entonces pones acá a Line.
+Content, cierto, right content.
+Es.
+Listo, le pusimos eso. ¿Qué es lo que te haría pasando? Me manda todas las líneas, el conjunto de líneas arriba, ya me manda el conjunto de líneas arriba. ¿Es eso? Si yo le digo center, lo va a mandar al medio, o sea, aquí, pero lo va a mover todos juntos.
+Lo va a mandar ahí y si le digo en lo va a mandar, pues al final lo ven. Esto aplica a que a todo el conjunto de líneas.
+Si quieres líneas separadas, Space Bewin, vamos a ver cómo se separan. Ya voy a poner eso, Space Bewin.
+Listo y vean como justo este, como son 2 elementos, 2 líneas nomás al borde no le ha puesto espacio, pero entre ellas le ha puesto todo el espacio. Ya acá son solo 2, por eso se ve así, cuando son 3, si lo distribuiría mejor.
+Muy bien, listo. Entonces hasta ahí sería con lo que sería align content, que usualmente no es no es tampoco tan usado, pero es sencillo de aprender. Ya es sencillo de aprender. Listo, listo, listo, listo. Entonces vamos a pasar ahora sí.
+Animación, vamos a pasar animación, ya que no va a haber acceso, vamos a pasar animación.
+Es esto de aquí, Rex Wrap Fless. Esto lo voy a dejar, ya lo voy a dejar, no lo voy a voy a eliminar esto porque era solo motivo de este. Obviamente no voy a tener varias enlaces de comida.
+Ya no voy a tener esto bien, entonces.
+Vamos a pasar al siguiente concepto, chicos, vamos a pasar al siguiente concepto.
+Pero antes de ver lo que es la animación, quiero explicarles un concepto en lo que es el diseño de páginas. y ese es.
+Las carts, las carts que vienen del término carta. ¿Qué es una carta? Usualmente usamos una carta. En realidad se es un término muy usado en lo que es el diseño de página web y una cart es simplemente una un contenedor, una cajita. Ya es un concepto visual, no es un elemento que es un elemento que vamos a diseñar ya que vamos a dibujar.
+Este y es muy conocido.
+Es un contenedor que agrupa información relacionada de un mismo tema, casi igual que el concepto de section tiene cierto porque es similar, o sea, una card simplemente agrupa información de un mismo tema. Esta información puede ser, por ejemplo, imagen y párrafo, texto.
+O como lo vimos en el section, el título y este la lista de eso, no título, hobbies y la lista de hobbies. ¿Lo ven? Eso es lo que básicamente se refiere. Ejemplos, ejemplos, hay diferentes contenidos, tú le puedes meter cualquiera. Ya voy a mostrar las diversas cards que, por ejemplo, existen.
+Aquí, por ejemplo, esta es una card. Ya acá se puede visualizar claramente separar las cards. Ya acá las cards están compuestos solamente de imágenes. Vean como esta es una card, esta card. Todas las cards tienen la misma estructura que es solo una imagen. ya.
+Y es una misma temática. Por ejemplo, aquí hay una card que también es solo imagen, pero vamos a bajar uno acá se ve más clap. ¿Ven estos bloques rectangulares? Son cards, cada uno que es lo que tiene, tiene lo mismo, tiene imagen, texto y pues abajo parece que el autor ya, y esto se repite.
+Ya esto se repite, eso es una carta, se repite, se repite el diseño, ya se repite el diseño y este encierra una misma temática que pues esta carta serían básicamente, a ver si no me equivoco.
+Pues parece que son descripciones de lugares de viaje, ya de lugares de viaje.
+Es eso, esta es otra card. Vean, esta es otra card que tiene la misma estructura. ¿Qué estructura tiene este card? Imagen y acá hay links, no de la cantidad de vistas, comentarios y likes. Eso y todo esto se repite.
+¿Lo ven? Otra forma de diferenciar está acá, está acá también son karts. De lejos se nota que son, se nota que tienen la misma estructura, una imagen a un costado, un título, una descripción y adentro, tal vez hasta un botón. Ven, vean cómo se repite la estructura del kart y se usa usualmente para representar.
+¿Algún contenido similar en tu imagen?
+¿Ya algún contenido similar en tu imagen? Un ejemplo de card muy famoso, cuando van ustedes a las tiendas a comprar este algo en línea, las cards, los productos, ¿cómo lo representan? En realidad es eso, son cards.
+Bien.
+Ya esos productos de venta aquí debería haberme mandado.
+Ya, pero a ver, a ver, a ver, ¿por qué no me sale eso?
+Esto acá deberían salir directo, quiero comprar directo, por favor, no quiero publicidad.
+Ya aquí hay cart, chicos, vean como estos son carts. Vean que esto tiene la misma estructura para todos. Esto de aquí es una cart. ¿Qué es lo que tiene? Tiene favoritos, tiene la descripción del producto. A su vez, también tiene la imagen y el precio. Y bueno, la el selector, por ejemplo, de colores, el fabricante, etcétera.
+¿Lo ven? Logran aquí captar cuál es como que la esencia o el concepto de kart, un kart. El contenido se diferencia, pero es algo que en realidad lo multiplicas. Ya lo ves continuamente porque este va teniendo esa misma estructura usualmente, lo ven nosotros.
+Nosotros vamos a definir cards, ya también tienen cards, pero nosotros vamos a definir cards.
+Nuestra página va a tener cast.
+No se ve terrible, voy a quitarle.
+voy a quitarle esto, ya está ya listo.
+Just if you can clear so.
+Vamos a quitar el porque solamente son 4 minutos ya.
+No voy a dejar ahí.
+Hey.
+Listo, ya entonces lo voy a dejar ahí. Vamos a crear las cards. ¿Cuáles serían las cards de nuestra página web? Si seguimos ese concepto, recuerden que les dije, las cards son este, son contenedores que agrupan una temática ya y usualmente.
+Se repiten esta temática, usualmente se repite ya por eso es que se reproducen varias cartas.
+¿Cuál sería esta? ¿Cuál serían las cards? Las secciones que tenemos, cierto, esta sería una card, esta sería otra card y esta sería otra card. ¿Por qué? Porque abarcan temáticas, esta es de hobbies, esta es de series y esta es de comidas. ¿Por qué más?
+Porque tienen la misma estructura, chicos, tienen la misma estructura, tienen título y lista. ¿Ven cómo se repite la estructura? Título y lista. Por eso es que sería cart. Esto de aquí sería una cart.
+O sea, hacer una cara relacionada esto.
+A ver.
+La section, genial, gracias, ya mismo. Sí, sería una car, ya, pero sería una car personal propia. Ya este sería una car, sí, sería una car, pero no está este ligada necesariamente a estas cartas, o sea, a esta estructura ya no está ligada necesariamente a esta estructura, pero sí lo podemos hacer como car.
+Ya porque tienen una temática about cierto sobre mí. Muy bien, lo principal es seguir esa regla, ya que tengan una temática que se multiplique no necesariamente, ya, pero este sí hemos visto que la mayoría también lo usa para eso, ya como una segunda regla, por así decirlo.
+Bien, entonces vamos a transformar nuestras cards. Para eso voy a apoyarme de qué voy a apoyarme de una clase class y lo que voy a hacer es en vivo, voy a ponerle que se llame clase cards. Okey, se lo voy a poner a cada uno.
+Le voy a poner a cada uno cards a estos 3 en realidad y voy a referenciarlo, ya voy a referenciarlo.
+Ustedes a su sexto también pongan class class de le pongan cars y usted lo lo ahí le aplican a dice. Por ejemplo, yo voy a hacer que sea de un background este white que tenga un padding. Exacto, muchas gracias de 10.
+Y que tenga un borde radios.
+De 10 peces.
+Ya que tengo un border, esto se tendría que aplicar, creo que lo puse cards, ya ya puse cards.
+Si yo voy y bajo.
+Listo, aquí están mis cartas, pero yo no lo quiero así, ya yo no lo quiero así. ¿Cómo lo quiero yo? o K cada uno, cada carta está así, ya está en esa posición, está así. Bien, perfecto, está aplicado al diseño, pero acá vamos a aplicar lo que aprendimos nosotros de posicionamiento, porque yo no quiero ver mis cartas así.
+Yo quiero ver mis cartas en fila así, o sea, así quiero ver una carta aquí, una carta aquí y otra carta aquí. Muy bien. ¿Qué usamos para eso, chicos? ¿Qué usamos?
+Ahí me responden al chat. ¿Qué usamos? A ver, usamos qué propiedad o qué usamos de CCC que acabamos de ver.
+Quiero o quiero posicionarlos flex. Muy bien, Yami, muy bien flex, exactamente vamos a usar flex, vamos a probarlo con esto en vivo, con estas cars ya entonces, para eso, ¿cuál es el primer? ¿Cuál es el primer elemento principal que necesita un flex?
+¿Cuáles de los elementos que vemos? ¿Cuál es el principal que necesito definir ya a quién se le aplica un flex?
+Okey, me comentan, porfa.
+¿A qué a qué a cuál de los componentes que está?
+Aquí elementos flex le aplico el flex. ¿Cuál de estos es el que primero necesito como requisito?
+A ver.
+Ahí está, hay 3 respuestas, Ui, Buy.
+No es un elemento, Kevin es un elemento, yo estoy compartiendo ahorita la pantalla, ahí se ve, ahí están los elementos. ¿Cuál de estos elementos tengo que yo primero definir para este implementar Flex?
+A una etiqueta principal, nap, ya, pero el nombre, el nombre de acá.
+Sí, en general, no, no.
+Es.
+¿Dónde dónde tengo que, o sea, flex me sirve para ordenar elementos dentro de un contenedor?
+Cierto, dentro de un contenedor necesita entonces sí o sí un.
+¿Qué es lo que necesita un contenedor? Muy bien, exacto, necesitas un contenedor y exacto aplicar el display ahí. Lo primero que necesitas para implementar flex es un contenedor. Si no tienes un contenedor, entonces no vas a poder hacerlo de lo siguiente, no vas a poder este ordenar.
+Ya es importantísimo el contenedor. Ahora, si yo me voy a index y bajo acá, necesito meter estos elementos dentro de un contenedor, ¿cierto?
+¿Qué pasa? Tiene section, tiene section, a esto los tengo que meter dentro de un contenedor, ahorita están dentro de un contenedor, pero ¿por qué no lo puedo usar? O sea, puedo usar main como contenedor para ordenar solo estos elementos.
+Solo el section puedo usar el main como elemento para usar solo el section.
+Sí o no sería respuesta, recuerden que aquí hay otro contenedor.
+¿El lavado puedo o no puedo usar el main como contenedor para ordenar estos 3 elementos únicamente?
+O hay un o hay un obstáculo.
+¿O hay algo que no me permite eso?
+Tengo mi contenedor, o sea, yo voy a meterlos dentro de un contenedor y yo me fijo que están dentro de main.
+Entonces puedo usar este main y decirle, hey main flex y ordenar este solo solo escuchen la palabra solo estos 3 elementos.
+¿O es que pasa algo?
+¿Si yo le pongo a este main flex, a quién les estaría ordenando? A ver, yo pongo main a este contenedor main, yo le pongo flex y digo o k este va a ser mi contenedor flex, pero a quién les estoy ordenando. Ahí va la respuesta. Si ustedes se fijan a quién está ordenando, entonces se va a poder responder la pregunta: ¿sólo puedo ordenar a estos 3?
+Solo estos 3 no quiero ordenar a otro más.
+¿Cómo lo ven ahí este chicos y chicas? ¿Cómo lo ven?
+La respuesta es.
+Que a ver, no porque se ordena todo bien, exactamente, dijo exactamente, ajá, se hereda ya.
+Bueno, por ahí no va la respuesta, no va por si se hereda o no el display, sino por este el papel del contenedor. Juan, vale, mira, te respondo ya.
+¿Por qué no voy a usar este main como contenedor? Porque justamente, como comentó este Diego, nuestro compañero Diego, si yo le pongo a main flex, ya voy a ponerle a ese main flex.
+Si yo le pongo a Main Flex.
+Vean los vean lo que va a pasar, ya le voy a poner display.
+Felix.
+Ya y automáticamente este debería ponerlo como fila, ya vamos a ver.
+Vean lo que ha pasado, chicos, se han puesto infinita como yo quería, exactamente se han puesto infinita como yo quería mis cards, pero que también ha pasado, se ha incluido la sección de about.
+Y yo no quiero tocar about.
+¿Por qué se ha incluido? Porque efectivamente, cuando yo le digo a Mail que actúe como contenedor flex, le va a aplicar a todo lo que está dentro.
+Todo y eso no involucra solo a los contenedores que yo quiero, sino a quién es más, a estos de aquí, a About. Entonces no puedo usar main como contenedor porque tiene una sección que a mí no me interesa integrarlo en el orden, en el posicionamiento.
+¿Entonces, para esos casos que se hace?
+Si yo no tengo un contenedor, si no puedo usar el main, ¿qué hago? Yo lo creo, yo lo que hago es crearlo. Y aquí, chicos, viene una etiqueta que hemos hablado anteriormente y que lo vamos a usar. Viene la etiqueta div porque hemos dicho que la etiqueta div o k no lo podemos usar.
+Para etiquetas semánticas, cierto, no podemos usar div porque para eso tenemos section, tenemos main, tenemos footer.
+Pero hay algo que sí nos sí se usa muy seguido, dip, y es únicamente para fines de estilo, para fines de contenedor en estilo. Muy bien, el dip tiene ese caso muy este muy usado y es contener este actuar como un contenedor, porque así sí lo pongo así.
+Simplemente ya está actuando como un contenedor. ¿Lo ven? El dip es como una caja. Les dije que agrupa elementos y ahora lo que voy a hacer, cree el dip, ya tiene un contenedor propio, ya no hay ese miedo o ese cómo se llama, ese error de que pueda integrar a bot al meterlo dentro de un dip.
+Ya con fines, esto lo hago con fines de qué de solo meterle estilos, nada más. Justamente eso es lo que más se usa Deep para meterle estilos, se agrupa para que luego este haga referencia a eso y este le aplicas estilos. Voy a poner acá ID, voy a poner, por ejemplo, container.
+Cara.
+Ya y voy a usar esto y ahora sí, vean como aquí voy en michi container cards, le pongo display flex y vean como ahora sí solamente ha puesto en fila esos 3, esas 3 secciones, ven.
+¿Se puede entender eso, chicos? ¿Se puede entender eso para continuar? Dígame, se puede entender por qué le puse un dip ahí.
+Y mira, mi cámara está.
+Te puedo entender muy bien, Juan, porque vas a vas a usar muy seguido, o sea, te vas a topar con elementos ya con elementos que necesitan a contenerlo, necesitan contenerse, necesitan crearse DIFs para agruparlo y aplicar estilos específicamente para eso. Diego, puedes repetir, profe o K, coméntame, Diego.
+Que específicamente que parte no se pudo comprender y desde ahí repito.
+Si quieres, puedes este encender la.
+¿El micrófono en qué parte en esa parte en específico para poder explicar, te digo?
+Lo del dip ya mira por qué creamos el dip. El dip se creó porque no, porque necesitamos un contenedor para ordenar. Ya yo quería ordenar estas 3 secciones, pero no puedo usar el main como contenedor, no le puedo poner el main, el flex porque estaría incluyendo esta sección.
+Entonces lo que digo, o k, si no puedo usar el main, voy a voy a crear un contenedor que sí contenga solo a estos 3, ya porque solo a estos 3 es al que a los que quiero ordenar y porque necesito un contenedor sí o sí. Si no tengo un contenedor, no me no puedo usar Flex, no puedo usar Flex.
+Porque como te comenté, el contenedor es un el elemento principal de flex. Ya necesitas un contenedor porque si no lo tienes no vas a poder usar sus propiedades.
+Las propiedades se usan en el contenedor. Entonces, ¿qué es lo que hice? Yo creo un div por eso, uno, porque este es porque el div es una etiqueta contenedora, ya es una etiqueta contenedora que usualmente se usa para definir estilos. Este div de acá.
+Yo no lo creo porque me represente algo en mi HTML, yo lo creo porque voy a contener estos elementos y le voy a poner el estilo flex.
+Por eso es que yo creé este dip bien.
+Como contenedor ya tú vas a crear, por ejemplo, dips. Bueno, acá no, porque hay un sequio, tal vez más este, ahorita no creo que te topes con este que tengo aquí, pero los dips tienes que lo que quiero específicamente decirte es que el dip se usa más que nada con fines de estilo ya.
+Con fines de crear un dip y en el style referenciarlo ya para aplicar como usualmente contenedores, porque ese es el papel de dip. Lo comentamos en un momento, el dip es una caja vacía ya que le puse el ID solamente pues para referenciar a este dip no y ponerle ahora sí el display flex que como ves sí me funcionó.
+¿Lo ves? Solo me aplico a esos 3.
+Hey debo.
+¿Se puede entender eso, por favor, para poder continuar?
+Ja, ja.
+Te puedo, me comentas, Diego, porfa, o K, perfecto, Diego, muchas gracias. Entonces ya he entendido eso, ya puedo poner el display flex, ya está, o sea, es lo básico que quería, lo único que quería, ya están las cartas ahí, lo que sí yo veo es que están.
+El espaciado, lo que voy a hacer es voy a usar las otras propiedades. Está bien Flex Direction, ya no necesito definir porque ya automáticamente se pone en row. Lo que sí voy a usar el Justific Content Center.
+Para mandarlo al centro y un gap de 20.
+Ya y un gap de no mucho.
+Ya.
+Debe ser por el margin que tienen las cartas.
+Ya.
+De alguna razón es esto, le voy a poner un margin top ya porque está pegado al este. Si lo ven, está pegado al footer, está pegado al footer. Lo voy a Lo que voy a hacer es al dip. El dip está aquí, ya perdón, el dip está conteniendo esto.
+Si yo le pongo al div margin va a separar este espacio, o sea, el espacio último, el margin bottom de este footer, que es justamente la funcionalidad del margin, separar este contenedores. Entonces acá le puse top, no tiene que ser.
+Foto y acá le voy a poner por ejemplo 20 píxeles.
+Van a ver.
+Como ahora sí, exactamente el dip se separó de este de lo que sería el fugar, ya lo voy a dejar ahí.
+Vamos a verlo.
+¿Qué?
+Ahí está, vean que ahí ese naranja es ese margin que lo concurre ya y eso nada más eso.
+Okey.
+Ohh.
+Es que el section no se puede pegar más porque el section tiene margin ahí. Eso sí lo nota. ¿Ven esos naranjas? Como ya tiene margin, es ese espacio que está entre las cartas, es ese margin, ese naranja.
+Ya sea aquí.
+CC Margin Auto.
+Vamos a quitarle.
+Ahora sí lo ven, ok, es que se lo puse al este.
+Sí, acá tendría que ser más específico y agregarle una idea a este separarlo, ya separarlo, pero este eso no es necesario explicarlo. Ahorita lo que sí quería que entiendan ahorita es cómo pude crear carts, ya como pude crear carts en lo que sería lo que tenemos en la mi perfil, ¿no?
+Ustedes lo van a decir con un diseño distinto, vale, entonces con eso vamos ahora sí a pasar a lo que sería este.
+A lo que sería ya los últimos estes ya para poder ir cerrando.
+Ya vamos a.
+Vamos a pasar con.
+Ya vamos a pasar con las últimas propiedades rápido, ya primero el box shadow. ¿Qué es lo que hace el box shadow? Te permite implementarle sombras, ya le permite implementarle sombras a lo que serían, pues tus cards. Ya puedes implementar sombras a cualquier elemento en realidad.
+Pero usualmente se usan en lo que serían las tarjetas. Esta es la sintaxis que ven aquí ya la sintaxis que ven aquí son 55 componentes, 5 elementos. La primera es el eje X que va de derecha a izquierda, el vertical que va, perdón, el claro, el eje X que se mueve, pues así ya.
+El vertical que se mueve así, el difuminado. ¿Qué es este? ¿Qué tan borroso es? ¿Saben qué, chicos? Este no es necesario memorizarse esta sintaxis. Ya seamos honestos, yo tampoco me acuerdo esta sintaxis. Bien, no me acuerdo esta sintaxis y los desarrolladores de hoy en día.
+Este usan herramientas para crear esto y yo les voy a compartir una herramienta.
+Ya que yo uso y creo que la mayoría usa y es más sencillo todavía. Claro, es una herramienta que le voy a dar en su programación y es que hay páginas que te generan esto. Hay páginas que te generan el boxhadow. Ya uno de estos es bueno, esto de acá se lo voy a compartir.
+Por el Teams, porque sinceramente 5 sintaxis, no es este tanta, o sea, es si te la puedes grabar ya, pero este para motivos de facilidad en cuanto a tu desarrollar código fácilmente.
+Mira esta tecnología o bueno, esta página web de generador, ya que vamos a ver lo que tú ves aquí, estos atributos que tú ves aquí señalados, ya estas propiedades que tú le colocas al boxhaw para que funcione, es lo mismo que está aquí, es lo mismo que está aquí ya.
+La primera que es el horizontal que comenté, que es pues el este el eje X, el eje X, que simplemente acá se va a ver más fácil. Ya acá te da herramientas visuales que tú lo vas a ver, que tú lo vas a ver. El boxhadow es esta sombrita que está aquí, es sencillamente eso. Ese es el boxhadow. Tú le puedes poner eso y eso que le da como que un efecto de que está flotando.
+Ya como que está en 3D, cierto que tengo una sombra, así como nosotros no, que tenemos una sombra detrás. Ya como que tu tarjeta no es plano, no está pegado a tu a tu página web, sino que flota. Eso es básicamente la función visual que tiene un boxheado. ¿Y cómo lo podemos regular?
+Este con esos 5, este con estos 5, bueno, digamos, llamémoslo así, no elementos o 5 puntos que necesitamos. La primera es horizontal, acá se nota más sencillo. ¿Lo ven cómo se mueve de X a Y? Perdón, ¿cómo se mueve este horizontalmente? Lo ven, está en cero si lo pones en cero.
+Estaría como que en el centro, justo debajo del elemento, pero yo lo voy a poner acá, digamos, vertical, verticales en el eje vertical. Obviamente no, de ahí viene el nombre, es como lo mueves en el eje Y ya no solamente lo yo lo voy a poner ahí abajo, luego blur, blur lo que comenté era.
+¿Qué tan borroso se ve? O sea, ¿qué tanto se expande? Lo van a ver al momento de yo mover esto. ¿Lo ven? Ve como si le pongo cero es súper sólido la sombra, pero si yo lo desplazo, le aumento más, no le aumento más en número, se como que se desplaza o se vuelve más borroso. Eso es Blue.
+Ahora sí se entiende mejor qué es cada componente de boxhadow. Spread, ¿qué es lo que hace Spread? Spread lo que hace es qué tanto crece ya qué tanto crece, pues la sombra.
+Ya yo lo dejo ahí y el último, el último componente que era el color. ¿Qué color quieres de tu box shadow? Yo, por ejemplo, le voy a poner, digamos, este color ya con motivo de prueba. Luego de que has generado, tú dijiste o K, este box shadow o este sombreado me gusta, lo que haces es bajas abajo.
+A tu acá abajo te de allá el código listo para copiarlo. Por eso lo que te digo es que hay herramientas que nos facilitan eso sin necesidad de que tú lo tengas que memorizar.
+Bajo abajo al final le copio este código de boxado solo el último ya con el atributo boxado y digamos yo le quiero poner a mis cards, entonces bajo a las cards.
+A las cards ya le voy a poner a las cards, no al container card porque es diferente. Ya se le pone al elemento que tú quieres que tenga ese sombreado, ya que en este caso son mis tarjetas, no tienen ningún sombreado. Y si yo le pongo este boxeadow, van a ver la magia. ¿Lo ven? Efectivamente, el sombreado que yo elegí acá.
+Se están aplicando a mis tarjetas, chicos, se están aplicando a mis tarjetas. Es así de sencillo, muy bien, es así de sencillo. Ahí sí se los compartí, perfecto. Les compartí esto. Si ustedes quieren personalizar y encontrar su box shadow este por su propio medio, el que más le gusta lo implementa.
+O si no, o si no, hay otra herramienta buenísima que también les voy a compartir, o si no usas sombreados ya creados, ya predefinidos por este esta página web. Esta página web lo que te da es como si fuera un mercado de sombreados, te da los 100, digamos, no, acá dice los 95, los 95 sombreados.
+Como que más usados o más recomendados. Ya acá es como una tienda, acá tú ves claramente como hay diferentes sombreados, ¿lo ven? Hay diferentes sombreados. ¿Qué pasa? ¿A ti te gusta uno? Digamos que me gusta, no sé, ya me gusta este de acá, ya lo voy a copiar este 60 para que se note que estoy usando este ya.
+Cuando tú le das clic sobre ese, te va a dar ya el código copiado que tú vas y pues se lo pones en el elemento que tú quieres que tenga el sombreado. ¿Lo ven? Acá está box shadow, uso todo este línea de código para definirlo. Yo no necesitaba conocer toda esta línea de código, este me lo generó automáticamente. ¿Ven qué sencillo es?
+¿Ven qué sencillo es apoyarse de herramientas para programadores? Cuando yo vaya a mi perfil van a ver cómo le metimos ese.
+Ya entre comillas, bonito efecto, pero vean cómo se nota, no vean cómo se nota. Chicos, voy a también pasarles a esta página web para que ustedes lo usen ahí muy bonito, o sea, hay sombreros muy bonitos, muy elegantes. Ya obviamente no vamos a usar el que yo use porque no sé, este no. Bueno, si quieren lo usan ya.
+Pero ahí está con motivo de ejemplo. Muy bien, eso respecto a lo que sería el box shadow, yo le voy a quitar, yo le voy a quitar, le voy a poner ahí, listo.
+Ya, de hecho, voy a voy a este.
+De hecho, si le voy a poner un boxeado, uno que está aquí porque lo voy a necesitar para motivos de.
+Cualquiera, ya está, listo, nada más o K, ya creo que se vería suficiente. Listo, ya le va a dar un toque ahí ya que está flotando un poco más. o K, listo, vimos el box shadow, vimos las herramientas que podemos usar. Vamos a pasar a otro elemento que es la transición, la transición.
+O la animación suave.
+Para esto, primero empieza con el problema, eso es cierto.
+Ya hemos visto hover, cierto hover, lo hemos visto en lo que sería este en nuestros enlaces, en este caso ya con hover, chicos.
+Perdón, con Hover hemos definido qué es lo que pasaría si nosotros pasamos el cursor sobre un elemento, cierto en este caso.
+Bueno, aquí lo voy a cambiar con color.
+Para que le puedan mostrar.
+No.
+Para que pueda notar este con color.
+Vamos a contarlo, ahora si le he puesto un color cover.
+Mhm.
+Yeah.
+No me gusta como se ve, le voy a poner, esperen.
+Le voy a poner ya listo, así está mejor mis mis enlaces. Ya este le puse un hover y significa hover de background y significa que cuando pase el cursor que está aquí sobre ese va a cambiar de color. Ya, pero pasa algo, chicos, pasa que cuando yo paso el cambio es brusco.
+Ya la transición de no de no pasa, o sea, la el posicionamiento inicial al final es brusco, no pasar de un estado a otro, un estado donde no está el cursor a un estado donde está el cursor. Ven lo brusco que es, inmediatamente cambia ya transition interviene ahí.
+Ya y te da animación suave, no solo en colores, chicos, no solo en colores, sino por ejemplo, no solo en color, en cualquier propiedad. En realidad, en cualquier propiedad visual, lo que hace es este suavizar la animación de cambio. Básicamente eso, suavizar la animación de cambio.
+Vemos aquí el la sintaxis, vemos aquí la sintaxis, bien la sintaxis. La primera es propiedad, es decir, qué es o qué este o qué propiedad tú quieres darle una animación suave. La segunda es la duración. ¿Cuánto tiempo quieres que dure esa animación, esa animación suave? Obviamente esta es la sintaxis, le puedes poner en segundos ya.
+Mientras más segundos pongas, más tiempo va a durar.
+Luego viene el ritmo, el ritmo tiene que ver con el estilo de animación. Ya en el ritmo tú puedes encontrar, se ve como una curva, es decir, tenemos 2 estados, cierto, un estado inicial donde no he pasado el donde está sin haber pasado el cursor.
+Y hay un estado, pasa a otro estado donde yo paso el cursor ya de un estado a otro. El ritmo sería como puede ir, por ejemplo, puede iniciar lento y puede luego este terminar normal, o puede iniciar normal y terminar lento, o puede ser lineal.
+Más o menos así, eso se ve más que nada. Yo creo que conceptos no los no se podría entender, sino más que nada con ver cómo es la animación, no, y retardo es un opcional, es decir, le pones unos segundos de retardo antes de que empiece la animación, nada más que eso. Muy bien, o k.
+Otra buena noticia es que para eso también tenemos este también tenemos herramientas que nos van a ayudar. Ya es el mismo que le pasé ya en la misma página que le pasé del box shadow. También tienen si ustedes van aquí transition y aquí lo van a ver mejor, ya aquí van a ver mejor.
+Aquí van, aquí tienen justamente estas propiedades o estos, no sé, estos valores que tienen que completar ya para lograr un transitio.
+La propiedad que si tú pones al, si tú pones al significa que se va a aplicar a todas las propiedades que tiene ese elemento. Bien, pero yo lo voy a probar con background color. Ya la propiedad he definido background. La duración que quiero la animación es ya le voy a poner, no le voy a poner nada. Ya la propiedad es linear.
+¿Por qué no la voy a poner? No le voy a poner nada porque quiero que vean cuando le pase el cursor sobre ese elemento. Ahorita está en hover, ya está en hover.
+Vean lo rápido que pasa.
+Es brusco porque no le he puesto ningún tiempo, pero si yo, por ejemplo, le pongo no sé 0.4.
+Vean cómo es más suave. No sé si lo notan visualmente y si no vamos a aumentarle el tiempo. Mientras más tiempo, más claro se va a notar eso.
+Ahora sí, cómo cambia lentamente ya cuando saco el cursor, regresa al estado inicial, ven, cambia estado final. está.
+De Quito regresa al estado. Es simplemente su transición. Lo mismo puede ser con otra propiedad como el color, que es el color del texto. Cierto, vean que cuando le pase el elemento va a cambiar ese color.
+Ahora aplica a lo que sería.
+El este, el color del texto, vean como cambia.
+Podemos especificar en realidad.
+Para Whip, es decir, esto tiene muchas funciones ya y depende de tu creatividad, tiene muchas funciones. Usar el hover, usar junto con el trensitio en realidad le da la animación que tú quieras. Son esos 2 elementos, simplemente la opacidad, el box shadow que justo acabamos de verlo.
+Vean como al darle click aparece un sombreado. Es eso, es solamente eso y tú defines esto.
+Le das aquí, por ejemplo, en transitio y lo pegas en realidad, lo pegas en el en.
+¿Donde no está el hover? Ya recuerden que para definir transition necesitas 2, uno que no tenga hover, o sea, necesitas 2 estados. ya ¿Dónde está? A ver, vamos a generar C.
+Tendría que estar la.
+Ya le vamos a pasar esto, papá.
+Okey, acá debería anotarse con color, en realidad se le puse con este.
+Vamos a ponerle background.
+No.
+Con backron sería a ver.
+Sí.
+Ya vamos a verlo, es una palabra como bonito, todavía no me memorizo.
+background.
+¿Y si lo ponemos a?
+Vean como lentamente hace esa animación, lo ven, ya no es brusco. El chicos, el transitio se coloca, tienen que tener 2 estados, ya tienen que tener 2 estados, un estado inicial y un estado final, porque lo que le digo contra el sitio es lo siguiente, ya cuando tú cambies de estado, cuando tú cambies de estado.
+Aplica al background color, al background color, o sea, una animación suave de esta cantidad de tiempo que sea un estilo lineal. Ya, y aquí estoy cambiando de estado en hover, estoy cambiando de estado. ¿Entonces, qué es lo que pasa al hover? Lo que ven, claro, obviamente este background tiene que estar en el estado final, ¿no?
+Es como una conexión de elementos, ya tienen que estar en el estado final. Hay un cambio de color de a a un a con hover. Ya entonces, como hay un cambio de color a ese cambio de color de un punto a de este punto uno a este punto 2 hay un cambio de color ya porque en normal no hay color, pero en el cambio sí lo hay.
+A este cambio de color, a ese cambio le estoy aplicando la animación.
+Ok, ok, a ese cambio le estoy aplicando la animación y es lo que se ve.
+¿Se puede entender esos chicos, me explican por favor?
+Me comenta, ya este es el penúltimo o este elemento yarly o k levantaste la mano, sí, te escucho.
+O te leo.
+Se puede mal.
+Sí, me estoy o k levantaste.
+
+Orador 5   2:59:24
+Mi pregunta es un poco larga, así que mejor voy a usar el micrófono, profesor.
+
+Orador 1   2:59:30
+Claro, no te preocupes.
+
+Orador 5   2:59:32
+Yo he aplicado ambas, este los ambos puntos que estamos viendo ahorita, pero no me pregunto número uno, es que las cards, como bueno, todavía no sabía eso, no lo pude ver.
+
+Orador 1   2:59:33
+Canta.
+No.
+
+Orador 5   2:59:51
+Y yo creé, digamos, unas cards, pero con el margen y el padding.
+
+Orador 1   3:00:02
+Yeah.
+
+Orador 5   3:00:02
+¿Sí, y qué?
+
+Orador 1   3:00:04
+O sea.
+Yeah.
+
+Orador 5   3:00:06
+Y me creo que me salieron bien, pero el y luego, por ejemplo, el cómo se llama el transform. Yo lo he puesto en, por ejemplo, mi sección inicial con la los colores base.
+Y luego el hover con el transform, pero en la parte final hay un cierto orden que tengo que seguir. o.
+
+Orador 1   3:00:36
+Okey, sí, el transform.
+
+Orador 5   3:00:39
+Sí.
+
+Orador 1   3:00:40
+Bueno, al transmor todavía no llegamos, este todavía no llegamos de Jarny.
+
+Orador 5   3:00:47
+Mhm.
+
+Orador 1   3:00:48
+Todavía no llegamos, así que tendría que explicar eso primero porque sí.
+
+Orador 5   3:00:51
+Ya pensé que era igual o bueno parecido o la misma jerarquía que el transition, porque ese tampoco lo ese no lo he aplicado, pero para las el efecto de las cards hice jugué con esos elementos que ya habíamos visto de margin y el padding.
+
+Orador 1   3:00:54
+No.
+A.
+No.
+Di.
+
+Orador 5   3:01:10
+Y luego el pude investigar un poco más sobre el transform.
+
+Orador 1   3:01:11
+Okay.
+Okay.
+Ya respecto al a las CATS, ya lo vamos a ver, lo vamos a ver el privado si quieres por el WhatsApp, ahí para ver mejor me mandas la captura y respecto al transform, este Yarny justo es el este que sí, lo ves transform, ya sí, eso lo vamos a ver justo ya.
+
+Orador 5   3:01:23
+Mhm.
+Uh-huh.
+
+Orador 1   3:01:35
+Es la última propiedad que vamos a ver, es transform, que sí en realidad se apoya de transition. Ya el transition este abarca varias propiedades, como lo indica el primer valor que puedes poner. Acá tú puedes poner transform.
+
+Orador 5   3:01:41
+Mhm.
+
+Orador 1   3:01:50
+Ya, pero obviamente tengo que explicarlo para este poder llegar eso, vale.
+
+Orador 5   3:01:55
+Sí, y mi duda con las CARS era si necesito cambiar mi código o solo.
+
+Orador 1   3:02:04
+Sí, por eso en eso sí tendría que ver mejor tu código, pero eso te lo te doy un acompañamiento en privado. Vale, de nuevo en privado, perfecto, genial, ya listo. Entonces ya no te preocupes, entonces este si hasta ahí se pudo comprender transición ya.
+
+Orador 5   3:02:07
+I'll go.
+Sí, está perfecto.
+Listo, gracias, profe.
+
+Orador 1   3:02:22
+Es una propiedad que confunde, tal vez ya necesitas un punto, o sea, necesitas estados, necesitas un punto inicio y un punto final, no un movimiento, un cambio de cómo se cómo decir, un cambio visual, no como, por ejemplo, cambiar el color de.
+Cambiar, por ejemplo, el color de este es un cambio visual.
+¿Que nosotros notamos es un cambio de color, no? Y ahí es usualmente donde se aplican las transiciones. Ya ahí también similar a eso, yo les compartí este de acá, que es lo mismo de transiciones, un generador.
+Que ahí también lo pueden probar en vivo para que puedan comprender.
+Ya verdad, antes que me olvide, chicos, antes que me olvide, también acá tenía un enlace. Este es un juego, ya esto es un juego que han que han desarrollado para que tú entiendas Flex, ya tiene 24 niveles, es un juego que he diseñado para que tú puedas entender Flex. Acá tú pones el código y lo que básicamente es lo que tienes que hacer es.
+Posicionar la ranita, moverlo, posicionarlo sobre la hoja. Es eso ya, y esos juegos abarcan eso, lo ven como la, yo bueno, hasta acá llegué yo, como puse las ranas sobre esto, pero hay más adelante, a ver aquí no donde tienes que moverlo, ya eso juega esos.
+Lo pueden tomar como una práctica ya si quieren practicar flex, así a modo de jugar un rato, ya como un pasatiempo, ahí se los dejo también. Listo, o k ya no me desvío.
+Vamos a pasar ya a la última este ya para pues para ir cerrando también bien transition. ¿Qué es lo que hace transition? No, esto ya lo hicimos ya transform, transform, en realidad transform es la propiedad que te va a permitir modificar.
+Este modificar el elemento, es decir, aumentar o disminuir el tamaño, te va a permitir cambiarle de posición o rotarlo. Ya tiene en realidad muchas de estas funcionalidades, pero nosotros solamente vamos a ver 2, que es lo que justamente nos dice nuestro laboratorio ya y que son las más usadas también para trasladar.
+Trasladar viene, pues translate ya el viene en término translate ya desplazar un elemento de un lugar a otro. Es nada más que eso. Ya esta sintaxis sí es sencilla, chicos, esta sintaxis sí es sencilla porque usamos el término transform y adentro cerrado entre paréntesis, ignoren este estos corchetes, ya es simplemente estos corchetes es para que ustedes lo reemplacen.
+Pero es translate, es así.
+Ya es como está acá, no es como está acá, no necesito ponerlo acá. Los ejemplos se pueden ver claramente, es translate y en la primer valor va en el eje X como quieren que se desplace ya de derecha a izquierda, como desplazar el elemento y en el eje Y.
+¿Cómo desplazarlo de arriba a abajo? Es eso más claro como lo vemos. También lo vemos en el generador que tenemos, porque acá también tiene, mire, tiene transform, lo ven y específicamente para lo que vimos de translate, tiene estos 2.
+Es simplemente mover el mover el elemento en una posición en específica. Vean como lo ve si es negativo, siguiendo lo de plano cartesiano, si lo vamos a la izquierda, son valores negativos y a la derecha valores positivos. Es así en la izquierda, si tú pones.
+Negativos se mueve a la, pues se mueve a la izquierda. Si por esos valores positivos se mueve a la derecha en IE, bueno, en el plano ye arriba o abajo, similar al plano cartesiano, negativos arriba, no lo que es similar a, pero negativos arriba y este positivos abajo, eso.
+¿Lo ven? Vamos a, por ejemplo, probar con nuestro a que está aquí.
+Ya vamos a probar con el A que está aquí y este vamos a poner ese transformer que está ahí, ya vamos a copiarlo y vamos a probar.
+Vamos a poner, vamos a bajarlo para que se pueda visualizar. Le vamos a poner acá transporte lo que le estoy diciendo. Hey, aunque este acá me va a mover todos los enlaces.
+Para ser más claro, voy a definir un enlace acá, un ID, vamos a poner a select, solamente quiero mover ese a que está ahí o k a.
+Ya no.
+Acel, lo que debería hacer es mover ese a únicamente.
+Y como ven, este a se ha desplazado, que es justamente el a que seleccionado, el de comidas se ha desplazado respecto a los demás, a los demás no le afecta, ya a los demás no le afecta, solamente se ha movido ese de ahí.
+Muy bien, solamente se ha movido ese de ahí.
+Y eso básicamente es eso, también es compatible con Translation.
+Sí, se llama, perdón, la otra propiedad, la anterior transitio, disculpen.
+Y eso no, este se lo voy a quitar porque no tiene ningún sentido ponerlo aquí.
+Pero esto estaba como modo de ejemplo, ese es uno y la otra es la siguiente.
+¿Scale ya, scale, a qué tiene relación?
+A agrandar o achicar elementos, nada más que eso muy bien. Scrate tiene la este tiene esa función, agrandar o achicar elementos. Lo que hace en la edad es como un efecto lupa. Ya la no es que modifique el eight o el quick, simplemente hace como si con refiere a agrandar es.
+Hace un zoom ya y con achicares este se aleja. Ya vi bien, tal como indica el ejemplo, acá simplemente ponemos scale y acá le ponemos este.
+Entre 1 a más ya un mayor a uno agranda, como dice acá, un valor mayor a uno agranda y uno menor a uno.
+Lo vemos acá, es que si está en uno es normal, pero vemos que si lo ponemos más de uno, ¿cómo se expande?
+¿Lo ven? ¿Ven cómo se expande? Es simplemente eso ya donde vamos a usar skate, lo vamos a usar aquí, chicos.
+Ok, lo vamos a hacer aquí, yo ya tengo ya mi código que había hecho y vamos a hacer este efecto que está aquí.
+Este efecto que está aquí, si nos vamos a Stripe, ya hay un efecto aquí, vamos a las cards.
+Cargue, cargue, no sé si aquí están las carts.
+Creo que están arriba, no había acordado. Ya miren, si yo paso el estos son cars, ya si yo paso, vean como esta parece que se expande.
+Lo ven y también pues se pone un sombreado.
+Lo paso acá, ven como que se expande. Efectivamente, lo que está usando es skate.
+Estos son los vamos a poner nuestra imagen, miren nuestra imagen donde está, vamos a.
+Nuestra imagen aquí y vamos a expandirlo como queríamos, ya me voy al generador.
+Voy al generador, espere, esto no.
+Ya solo quiero mover Skype, quiero aumentarlo un poco.
+Ya eso nada más que eso voy a copiar esto mamá porque no voy a trasladarlo.
+Hmm.
+Esto, aunque yo lo había tenido acá, esto o k esto se aplica, ¿verdad? Al hover, mira para que se vea más claro, porque obviamente como lo ven es al pasar el puntero, cierto, ese efecto se ve ahí al pasar el puntero.
+¿Qué va a pasar? Que cuando yo pase el puntero lo que tiene que hacer es aumentar 1.05, o sea, un pequeño porcentaje.
+Vamos a nuestro perfil y si vamos a este, vean cómo se expande. ¿Lo ven? Pero acá falta algo. ¿No ven que es muy brusco este cambio? ¿Lo nota?
+Notan que ese cambio es muy brusco.
+¿Qué usamos para este darle una animación suave?
+¿Qué es lo que usábamos para dar una animación suave, chicos?
+Me comentan, porfa.
+¿Qué propiedad justo lo acabamos de mencionar anteriormente? ¿Qué propiedad usamos para desanimación suave?
+¿Es el transitio? Muchas gracias, Diego, exactamente vamos a usar el transitio y dónde lo vamos a usar.
+Pues como comentamos en el estado inicial, no que es la imagen, acá nosotros vamos a poner transitio. Lo que estamos diciendo es lo siguiente: o K, dale una animación suave a este la propiedad transform. Ya hay una propiedad transform en hover, ya voy a este, estoy aplicando transform para.
+Crecer mi imagen, pero quiero que a ese crecimiento tú le des este que te tome 0.3 segundos, que no sea brusco ya y con un estilo y.
+Dicho y esto, vamos a ver cómo es esto, es como que más lento, ya voy a aumentar el tiempo ya.
+Cero 5, se va a ser más lento.
+Hey.
+Se va a hacer un poco más lento. Ahora, si no quieres tener un este tan detallado, ahí está.
+Ven como sea, ven como se ahora está como que más elegante, o sea, ya no le he expandido tanto y además es más lento.
+Ustedes van probando con el tiempo o k lo siento muy brusco todavía.
+Ya ahora sí creo que está un poco más. Este se pudo notar eso, chicos, se pudo notar eso.
+O K, aquí también veo que hay este el transition, o sea, el transform en el translate. La idea se usa para Box Shadow también.
+Si ustedes quieren, lo usan para lo usado. A mi card le había puesto eso, no estará acá.
+El talco, cierto exactamente.
+A mi carro no le he puesto ningún efecto, si yo paso por acá, no le había puesto ningún efecto.
+Entonces, si yo pongo cards punto hover por aquí ya impongo estos 2 propiedades que se van a aplicar cuando le cuando pase justamente el puntero por ahí.
+Ahora se tendría tendría que tener ese efecto, solo que acá hay un boxado ya por eso es que no se nota.
+Ya, pero ahí tendría ese box, no se nota tampoco, voy a poner el que puse acá.
+Me voy a poner.
+Y se van a estar, esto lo voy a quitar.
+Lo voy a intentar con el box ya con el box, funciona más.
+Ya, pues ¿qué estoy haciendo? Perdonen el lapsus, el estilo.
+Listo, ven cómo se ahora se que usé aquí, usé transform para trasladar, o sea, un traslado ye hacia arriba y también te pone un box. ¿Lo ven? Se pone un este un box shadow. Ahora lo que voy a hacer es.
+Este hacer que sea más suave, simplemente eso.
+¿Y cómo hago eso?
+Simplemente poniendo el transition y el transition permite aplicarlo a varios propiedades a la vez, como así, separando por comas, separando por comas. ¿Cómo quieres que sea la transición de cada uno?
+Ahora tendría que ser un poco más suave.
+Muy bien.
+Si quieren le pueden poner más tiempo.
+Sí.
+Y ahora sí, nuestras cars son más dinámicas.
+Como ven chicos, ven cómo usamos, cómo combinamos transition, translate y boxhadow para lograr lo que serían animaciones.
+Se pudo comprender eso, chicos, porque con eso ya.
+Con eso creo que ya estaríamos cerrando este las propiedades que vamos a implementar en este laboratorio, o sea que se van a implementar en laboratorio cuatro. Ya las cards que pudimos crear se comprendió bien, genial, buenísimo. ¿Qué me dicen los demás, por favor? Porque hasta aquí se tendrían que haber comprendido, vale.
+Estas propiedades tanto de flex como de animación, ya algunos chicos, por ejemplo, están usando aquí, acá vamos a usar flex, ya vamos a usar flex aquí esto de este. ¿Por qué? Porque algunos tal vez han definido este texto no abajo, sino acá al costado, y entonces.
+Conflex sabemos que podemos poner en fila cierto y van a estar en fila.
+Simplemente haciendo esto.
+Simplemente haciendo esto acá en el section about, en realidad creo que ya lo tenemos aquí.
+Si no me equivoco, no lo tenemos, sencillamente hacen esto, no Mich.
+How about?
+En vivo ya.
+I.
+No.
+No, pero vean como ya justamente está uno al lado de otro.
+¿Lo ven? Algunos han querido tener este efecto. El problema es que acá dice center, no, yo no quiero center, yo lo quiero arriba.
+Yo puedo, por ejemplo, manejar la imagen y hacerlo más chico. Ya en este caso le puse 200, yo le voy a poner, en este caso le voy a poner 200, digamos ya para adaptarlo. Por ejemplo, le puedo poner más texto.
+Lo ven o si quieren, claro, pueden ponerlo al centro. Eso pueden jugar ahí, como por ejemplo, para los que han querido, no sé, ponerlo junto, ahí está en fila.
+Ok, chicos.
+Okey, alguna pregunta, alguna duda, por favor.
+Mira mi coma, ay santos.
+Muy bien.
+¿Alguna pregunta, chicos? ¿Alguna duda antes ya de explicar cómo entregar este laboratorio? Tenemos hasta el domingo, ya sábado, domingo.
+Hasta el sábado ya chicos, hasta el sábado porque me han pedido justamente que este lo revise antes, hasta el sábado hasta las 11. Ya lo ha puesto, ya lo ha puesto Gabriela, ha puesto la fecha límite, sábado 23 tantos, pero si tú tienes alguna dificultad, primero, obviamente pregúntame durante este tiempo el sábado.
+Sábado, viernes, jueves, tenemos pregúntame, y si no, si todavía tienes este dudas, puedo darte un día más. Pero claro, me lo tienes que comentar, no me tienes que decir, profe, este tal vez tuve esta dificultad es personal, no personal, tal vez no pude hacerlo y yo pues.
+Pues te entiendo, ¿no? Y te doy ese día, pero por favor, me avisas con anticipación, okay.
+¿O K, este cómo se entrega? Bueno, la entrega en realidad es la misma, no hay indiferencia, no voy a abrir mi canvas.
+Ya para cerrar eso.
+Voy a abrir mi canvas, disculpe.
+Ya terminando esto.
+Okey, el laboratorio cuatro, que es el laboratorio final. Ya si nos vamos al final, vemos las cartes, contenido, estado de cover y transiciones.
+Un desafío avanzado ya si quieres hacer más profesional tu este.
+Y si bajamos, bajamos, bajamos.
+Encontramos la rúbrica de evaluación. He visto ya he estado devaluando este el los laboratorios relacionados a HTML. Creo que faltan algunos por subir. Por favor, este el domingo cerramos todo el módulo uno, chicos, domingo, sábado, cerramos todo. Por favor, entreguen si les falta el laboratorio 2.
+Entréguenlo ya porque yo tengo que revisarlo. Ya a partir de eso yo no puedo hacer nada y simplemente pues con el dolor de mi corazón, lamentablemente pues se va a tener que poner como no entregado. Ya he visto que avanza avanzado muy bien los trabajos que han visto, genial, han he visto proactividad porque también han este.
+Integrado secciones que pues adicionales, no, eso se ve justo esa dedicación por querer tener una mejor página web, no mejor, una mejor creación. Vale, eso se nota. Gracias.
+¿Y qué es lo que se va a pedir acá? Se pide el código fuente.
+Copiarlo y pegarlo ya porque los que conocen GitHub ya me pueden pasar al repositorio si quieren, los que conocen le pausan el link, si no, simplemente copienlo y peguen ya, o sea, compriman este proyecto de acá.
+Este proyecto de acá que es mío, en este caso es mi perfil, no este de acá lo meten en un winrar.
+Lo metemos en un winrar, no añadir a mi perfil.
+Eso y eso me lo envían, chicos.
+Ya acá no me generó carrero, pero hacen eso, ya me lo generan el proyecto, la carpeta de proyecto su winrar y me lo pasan en este entregable y también, obviamente, un screenshot de cómo se ve su página.
+Eso con todo eso ya lo tendría listo. Por favor, no se olviden el código, es muy importante ver solo su página, no es suficiente, su código verlo es también muy importante. Necesito ver cómo este lo han estructurado, si hemos usado margin y padding correctamente, etcétera. Ya o K listo, con eso creo que ya estaríamos.
+Todo claro. ¿Tienen alguna pregunta respecto a la entrega? Kevin te escucho.
+TL o.
+
+Orador 4   3:21:40
+Sí, disculpa, me refería al entregable de lo del código. ¿Quieres este que copiemos el código? O sea, en pocas palabras, copiemos el código ambos, el index y el style, o sea, el HTMR, el CSS.
+
+Orador 1   3:21:43
+No.
+Claro.
+Ajá, creo que te da la opción. Lo que quiero con el código es ver, voy a ponerme como estudiante para, digamos, yo estoy en tu lugar, estoy aquí en empezar tarea, ya estoy aquí en empezar tarea. Ya aquí yo quiero ver, creo que sí se puede adjuntar un este.
+
+Orador 4   3:22:06
+Okay.
+
+Orador 1   3:22:17
+Si es posible este pasar los documentos directamente, o sea, copiar y pegarlo te va a salir muy extenso, creo que en el contenido.
+
+Orador 4   3:22:23
+Exacto, sí.
+
+Orador 1   3:22:25
+Ajá, exacto, entonces.
+
+Orador 4   3:22:26
+Y ahora entonces si es por winrar, o sea, bueno, si lo comprimo, puedo seleccionar la carpeta sí o sí.
+
+Orador 1   3:22:35
+La carpeta.
+
+Orador 4   3:22:35
+¿O lo jalo, nomás la carpeta, bueno, comprimida, no?
+
+Orador 1   3:22:37
+Claro, por eso te digo, vamos a jalarlo, a ver ahorita vamos a jalarlo, vamos a probarlo ahorita en vivo se puede jalarlo, ya acá tengo mi perfil.
+Vamos a no me hablo.
+No me abre porque estoy compartiendo ya entonces este.
+Ya había hecho esto.
+¿Qué hizo a ver?
+Sí, parece que sí se envió, acá me sale mi perfil.
+Ya sí, aquí sale el Winrar, creo que al darle clic me lo va a descargar automáticamente. Yo voy a dar entregar target.
+Ya te sale, felicidades, la entregaste ya listo, este lo voy a ver como abandonar la vista de estudiante. Me voy a.
+Me voy a aquí a Speedgrader, aquí yo veo los estes y.
+Vamos a probar si efectivamente el winrar es exactamente como yo lo quiero.
+Estudiante acá lo mandó a ver.
+Sale ahí cuando me sale el.es que efectivamente lo mandó y si yo le doy acá a mi perfil.
+A.
+sí se puede al parecer a ver.
+Sí, mira, me descargo el WinRAR, entonces envíen el WinRAR, ya le es más fácil el proyecto comprimido, este Diego.
+Okey, perdón, Kevin, vale.
+Okey, Kevin.
+
+Orador 4   3:24:28
+Sí, ya justo lo acabo de hacer.
+
+Orador 1   3:24:28
+Mhm.
+Ya perfecto, entonces sí pueden poner. Ajá, los que conocen GitHub ya chicos, simplemente me ponen el link de su repositorio donde han subido su proyecto y yo lo leo del wiki del GitHub. Ya no se preocupen los que conocen, los que no, ya hemos visto esa opción de poner la carpeta comprimida.
+
+Orador 4   3:24:33
+Okay.
+
+Orador 1   3:24:49
+Bien, y no se olviden también. este.
+¿Saben qué? Los que tienen GitHub si pueden hablar, ok, Carlos, te escucho.
+
+Orador 3   3:24:54
+Four.
+Sí, un favor, ¿podría repetir la los pasos para poder este compartir el WinRAR?
+
+Orador 1   3:25:03
+Para el WinRAR, sencillamente es esto. Primero tienes que ubicar, obviamente, tu carpeta del proyecto de mi perfil que tú acabas de hacer. Este lo extraes en un WinRAR, te va a dar un documento, justamente un punto RAR ya, y lo que básicamente lo que yo hice fue arrastrarlo, ¿no?
+Lo arrastré al.
+
+Orador 3   3:25:23
+¿No en el visual code, cómo lo convirtió?
+
+Orador 1   3:25:29
+No, en el piso no es necesario convertirlo, solo revisa en tu explorador de archivos tu carpeta. ¿Dónde está tu proyecto? Mira, puedes verlo así, mira, te vas a pail y acá ahorita estás en tu proyecto, no, acá lo que vas, lo que buscas es dónde era.
+Creo que resto open works brace from five.
+Acá te te permite buscar.
+Ese este te permite buscar esa carpeta, pero no lo puedo ver.
+Yeah.
+This a new, new, new, open, open, open.
+Save, save, save.
+No, ya este, pero con este tienes conocimiento, este Carlos, de dónde está tu carpeta de proyecto, o sea, dónde creaste esta carpeta de mi perfil en tu disco C. Ya entonces no necesitas este el Visual Studio Code, lo único que necesitas es ir a tu.
+
+Orador 3   3:26:37
+sí.
+
+Orador 1   3:26:45
+Explorador de archivos, no sé, disco local C o de donde lo hayas guardado lo encuentras. En este caso es esto. Por ejemplo, si yo le doy clic, aquí está mi index, mi styles, ya le doy clic, ahí ves mi código, o k es esta. Entonces a este simplemente lo conviertes en winrar nada más.
+Vale, y esto tú lo arrastras a donde te salga a entregar tarea.
+Que aquí no me sale ya porque ya entregué, o sea, pero aquí obviamente te va a salir ya yo voy a poner nuevo intento.
+Bien, en este, cuando tú le des a este a entregar tarea, te va a salir a este campo, tú simplemente lo arrastras.
+Ya simplemente tú lo arrastras. Este es el winner que yo he extraído de mi proyecto y lo arrastro y vas a ver cómo automáticamente me lo reconoce. Cuando te sale así, ya ha cargado mi perfil punto rar significa que lo ha cargado o k este este es el código ya.
+Este es el código, simplemente es el código. Ahora también tienes que mandar la foto de tu de tu proyecto, digamos, es hay que ponerle esto, ya digamos o K, este es mi proyecto, acabo de sacarle un print algo, también lo mando porque también necesito la foto de cómo se ve visualmente.
+Ya eso y tu código, con eso ya le das a entregar tarea y listo. Es todo eso o K Carlos, se se puede entender ahí.
+
+Orador 3   3:28:17
+Sí sé, no que yo la primera y la segunda sesión lo había mandado, había copiado el código y lo había puesto, pero me había olvidado mandar este el cómo se llama el esquema, el dibujo. Eso se me olvidó. Por ejemplo, lo puedo volver a mandar o tengo que mandar todo junto con el esquema.
+
+Orador 1   3:28:17
+Opar.
+Sí.
+Y.
+Sí.
+Mhm.
+Mándalo ahorita en el si quieres mando ahorita con el lab cuatro porque sí lo vi, claro, revisé el tuyo y claro, me mandaste el código y parece que tu código se ejecutó ahí en el este, parece que es un editor, se ejecutó y lo pude ver ahí, no, pero ahora ya sabes cómo mandar el código, este mándalo ahorita.
+Con este último lab cuatro mándalo porque se va a cerrar junto ya, así que no hay problema, se va a cerrar junto si lo mandas este así o k.
+
+Orador 3   3:29:04
+This.
+
+Orador 1   3:29:05
+Listo, listo, gracias a ti por la pregunta, Carlos, muy bien este chicos.
+Muy bien, chicos. Entonces, para no hacer la larga, alguien tiene alguna consulta más o si no, este ya podemos poner nuestro check este de o k todo claro para ya, pues pasar a retirarnos. No todo claro, entonces ninguna pregunta.
+Bien, creo que ninguna duda, ya bien. Entonces, dicho esto, chicos, ya este podemos retirarnos. Muchas gracias, o K por muchas gracias por estar presente en esta clase hasta el final. Gracias por estar presente en este módulo uno. Bien, la entrega sería hasta.
+Está el sábado 23.59 básicamente es que es en la madrugada. Muy bien, cualquier consulta, ya saben bien, cualquier consulta ya saben, ahí tienen mi número, el número es el profe. Listo, chicos.
+Que tengan todos muy buenas noches.
+Hasta luego, chao.
+
+Orador 4   3:30:17
+Chao, buenas noches, gracias.
+
+Orador 1   3:30:20
+Chao, buenas noches, Kevin. Buenas noches, bye Carlos. Gracias, bravo a ustedes también por comprenderlo hasta el final. Bravo, nos vemos.
+
+Orador 3   3:30:22
+Muchas gracias, cuéntanos.
+
+Orador 1   3:30:30
+Yarni es ya, pensé que habías levantado la mano. Bien, like a ti también, Yarni, gracias.
+Vale, buenas noches, nos vemos.
+Voy a detener la grabación.
+Ya chao, profe, chao.
+Ya bien.
+
+Orador 1 ha detenido la transcripción

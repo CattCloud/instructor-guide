@@ -1,0 +1,92 @@
+
+Ayúdame a construir un prompt estructurado para pedirle 
+a Claude que genere el código HTML/CSS completo de mi 
+página web personal "MyLinks".
+
+═══════════════════════════════════════
+MI PERFIL PERSONAL
+═══════════════════════════════════════
+
+- Nombre completo: Erick Edison Verde
+- Rol o presentación: Ingeniero de Sistemas / Full Stack Developer
+- Biografía corta: Me apasiona la IA y crear páginas web responsivas y creativas.
+
+═══════════════════════════════════════
+MI OBJETIVO DE REDISEÑO (de la Clase 07, Parte 1)
+═══════════════════════════════════════
+
+- ¿Qué estilo visual elegí?: Estilo Brutalista. Minimalista en contenido pero con personalidad fuerte, usando colores vivos y sombras duras pero con un fondo blanco.
+- ¿Quién es mi usuario objetivo?: Un reclutador o colega técnico.
+- ¿Qué problema le resuelvo a ese usuario?: El acceso rápido y directo a mis enlaces profesionales en segundos, sin distracciones.
+
+═══════════════════════════════════════
+MI LAYOUT ESCOGIDO (de la Clase 07, Parte 2)
+═══════════════════════════════════════
+
+- ¿Qué variante de wireframe elegí y por qué?: Asimétrica. Elegida porque la alineación de todo el contenido como un bloque a la izquierda permite un escaneo vertical rapidísimo de la foto hacia los botones de acción.
+- ¿Dónde va mi foto de perfil?: A la izquierda del encabezado, en un contenedor circular.
+- ¿Cómo se organizan mis botones?: Alineados ordenadamente en una columna vertical a la izquierda, debajo de la biografía.
+
+═══════════════════════════════════════
+MIS TOKENS DE DISEÑO (de Figma, Clase 07 Momento 03)
+═══════════════════════════════════════
+
+- Color de fondo principal: #F5F5F5 (Off-white)
+- Color de acción / acento (botones): #FF6B35 (Vibrante)
+- Color de texto principal: #1A1A1A
+- ¿Tiene sombras? Descríbelas: Sí, Sombra Brutalista Dura. Efecto Drop Shadow con Blur = 0, X = 4, Y = 4, en color negro sólido.
+- ¿Bordes redondeados o rectos?: Bordes redondeados con un border-radius de 10px.
+- Tipografía preferida: Inter (Sans-Serif moderna) con peso masivo/Bold para el nombre.
+
+═══════════════════════════════════════
+MIS ENLACES (los botones que tendrá mi página)
+═══════════════════════════════════════
+
+1. LinkedIn 
+2. GitHub
+3. Correo
+4. Whatsapp
+
+═══════════════════════════════════════
+INSTRUCCIÓN FINAL PARA GEMINI
+═══════════════════════════════════════
+
+Con toda esta información, genera un prompt 
+estructurado y completo que yo pueda copiar y pegar 
+directamente en Claude. El prompt debe incluir:
+1. Rol del modelo (Senior Frontend Developer experto en UI/UX)
+2. Contexto completo del proyecto (MyLinks profesional)
+3. Especificaciones técnicas (HTML5 + CSS3 en un solo archivo, Mobile-first)
+4. Restricciones de diseño basadas en mi estilo brutalista y tokens exactos
+5. La instrucción obligatoria de que el output sea un Artifact renderizable en Claude
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+[ROL] 
+Actúa como un Experto Desarrollador Frontend Senior de clase mundial.
+[CONTEXTO] 
+Te adjunto una captura de pantalla de mi diseño High-Fi  para mi página personal "MyLinks". Tu misión es convertir este diseño estático en un sitio web real y funcional.
+[MI INFORMACIÓN (Contexto que la imagen no tiene)]
+- Nombre completo: [___]
+- Rol o presentación : [___]
+- Biografía : [___]
+- Usuario objetivo: Reclutadores técnicos y colegas.
+
+[MIS ENLACES (Para los botones)]
+1. ENLACE → (Pon tu link aquí)
+2. ENLACE → (Pon tu link aquí)
+3. ENLACE → (Pon tu link aquí)
+4. ENLACE → (Pon tu link aquí)
+[TAREA]
+Genera el código HTML5 y CSS3 completo (en un solo archivo) que replique EXACTAMENTE el diseño de la imagen adjunta. 
+[RESTRICCIONES TÉCNICAS]
+1. Fidelidad Visual: Respeta los colores (tokens), las sombras duras, los redondeados de los botones y la disposición asimétrica.
+2. Responsividad: El código debe ser Mobile-First. Asegúrate de que en pantallas más grandes el diseño se mantenga elegante y no se rompa la asimetría.
+3. Tipografía: Usa fuentes de Google Fonts que se asemejen lo más posible a las del diseño.
+4. Código Limpio: No uses librerías externas (como Bootstrap o Tailwind) a menos que te lo pida. Usa CSS puro.
+[FORMATO DE SALIDA]
+Proporciona el código en un Artifact renderizable para que pueda validar el resultado visual de inmediato.
+

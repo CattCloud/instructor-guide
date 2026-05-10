@@ -1,0 +1,1045 @@
+Clase_03 Code101n19
+2 de marzo de 2026, 12:25a.m.
+3 h 51 min 58 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   6:04
+Pero ahora sí se me escucha, estaba hablando solo muy buenas noches, chicos, ¿qué tal cómo están?
+Primero me confirma si me escuchan, please.
+¿Qué tal?
+Mm.
+
+Orador 2   6:17
+Sí, qué tal, Eric, se escucha.
+
+Orador 1   6:19
+Hola, Kevin, ¿qué tal? Buenas noches, chicos, buenas noches, Carlos, buenas noches, Diego, Yarni, Juan, Kevin, Kelly, Osvaldo. Buenas noches, Carlos, ¿qué tal? Muy buenas noches a todos. ¿Cómo están? Espero que esta semana anterior las haya tratado bonito, gente bonita, porque ahora vamos a pasar.
+
+Orador 2   6:21
+Well, not much.
+
+Orador 3   6:26
+Anoche sí se escucha.
+
+Orador 1   6:40
+Chicos, en esta clase número 3, a lo que sería este, muy bien, vamos a cambiar de vista, vamos como que.
+Uh.
+Ponernos no juegos de diseñadores de modas como de esa película de Zulander, creo que es lo primero que se me viene a la mente cuando de eso, algo así o k entonces este ya lo ya lo veremos mientras veamos la clase. Bien, entonces vamos primero a ponernos en contexto, cómo nos quedamos.
+En la clase número 2, en la clase número 2 y en la clase número uno, lo que vimos fueron etiquetas HTML. Voy a compartir mi pantalla.
+Incluir sonido.
+Ya, pero se puede visualizar. Ya estoy grabando, ya estoy grabando. Ya sí, acá se ve que estoy grabando. o K chicos, un favor.
+Si a la próxima se me olvida de grabar, por favor, quiero que me hagan recordar, yo soy distraído en esas cosas aquí.
+En esto de aquí sale la fecha de que está grabando, o k pasa que la clase anterior no la grabé desde el inicio. Seguro los que han visto el la clase se habrán dado cuenta mis mis disculpas, en serio, este me distraje ahí, yo me distraigo, me dicen las cosas entonces.
+Por favor, si no ven que está grabándose, tal vez en una próxima clase me olvidé, me indican o k listo. Entonces con eso ahora sí vamos a entrar de lleno a la clase. o K Lo que tenemos hasta ahora era pues nuestro lab número 2 y esto me va a chingar. Vamos a bajar lo que teníamos simplemente era una página web visual.
+No, pero con los elementos ya, pues ya en su lugar, no, ya bien enriquecido con los elementos, cerrar esto.
+Bien, lo que voy a hacer ahorita es, chicos, un repaso así, rapidito, intensivo para luego está mi sorpresa. Bueno, es este un kahoot, un breve kahoot, no es examen sorpresa, pero es más que nada para que puedan ver ustedes mismos en qué punto están o qué tanto han visto o qué tanto saben actualmente HTML.
+Okay, voy a hacer un repaso rapidito de lo que vimos bien, entonces explicando nuestro código. ¿Qué es lo que vimos primero, chicos, programadores y programadoras? Bien, lo primero que vimos fue pues una estructura básica HTML. Cierto, sabemos que HTML es la tecnología que nos permite pues estructurar nuestra página web, no agregarle los elementos el contenido específico.
+Nada de colores, nada de diseño, nada de solo contenido. OK, cada HTML nos permite dibujar nuestra página web con etiquetas. Bien, las etiquetas que tienen esa estructura que ustedes lo pueden visualizar en el código. Vale, cada etiqueta tiene un significado, un concepto etiqueta de imagen, representa una imagen, etiqueta, por ejemplo.
+Etiqueta de párrafo representa un párrafo o k eso concepto. Luego pasamos a lo que era ver la estructura básica de una de un documento HTML donde vimos.
+Vimos, vimos, vimos el hit, no es que es esto de aquí, el hit que representaba justamente un contenedor y aquí adentro pues integramos etiquetas de metadata, no de configuración, título, responsive, etcétera, ya etiquetas que pues no se visualizaban en nuestra página web. Luego vimos otra etiqueta importante que era body.
+Body sí se visualiza en nuestra página web y justamente representa esto de aquí, no este contenedor de aquí, esta pantalla, esta pizarra que está aquí, donde ahí sí pues dibujamos los diversos elementos. Perfecto, listo. ¿Qué más vimos? Vimos etiquetas independientes, como por ejemplo la etiqueta de heading, la etiqueta h uno h 2 h 3 que representaban títulos.
+Subtítulos, cierto, una jerarquía, la h uno era el principal y solamente podía haber uno en nuestra página web porque era el título principal. De ahí viene el h 2, subtítulo y h 3, que es como un subtítulo de sección. Bien, luego vimos lo que son el párrafo, el párrafo que está aquí abajo. Esto es el párrafo que básicamente solo es un bloque de texto, nada más contiene nuestro.
+Contexto ahí diferente a un título.
+Eso bien, otra etiqueta muy importante que vimos es una etiqueta que le da vida a nuestra página web, que son las imágenes, porque si no serían puras letras, y las imágenes, cierto, con los atributos respectivos CRC, porque podíamos traer imágenes de Internet a través de una URL o imágenes propias que estaban en nuestro proyecto. También el atributo alt.
+Importantísimo, junto con el concepto de accesibilidad, cierto, el poder permitir que otros usuarios puedan específicamente usuarios con discapacidad como ciegos, puedan acceder a nuestra página web sin alguna restricción. Bien, hasta ahí, correcto, con alt.
+¿Listo, qué más vimos? Ajá, aquí está otro más escondido. Esto de acá es.
+Mejor este que no sea flecha porque esto es una lista. En realidad es todo esto, cierto. Vimos las listas que nos ofrece HTML, listas ordenadas y listas desordenadas. No depende de la importancia de si los elementos se deben ordenar o no. Vale, las listas aquí vemos, por ejemplo, hemos visto.
+Ya vimos UL, que es para listas desordenadas, o L para listas ordenadas, y también vimos el concepto de LI, punto esto muy, LI, que es básicamente los elementos de la lista, nada más que eso. Bien, hasta ahí todo eso. Luego pasamos a las etiquetas semánticas, bien.
+Las etiquetas semánticas que pues representan son esas cajas, correcto, que representan algo ya tienen un significado sin la necesidad de ver el contenido. Es decir, HTML nos lo ofrece para agrupar, para estructurar el contenido en nuestra página web, organizarlo mejor. Tenemos aquí header, que era la etiqueta de qué.
+Donde estaba nuestro título principal, estaba el logo y también estaba el menú de navegación. Es lo que incluía. Por eso nuestro h uno fue ahí y aquí adentro también vemos otra etiqueta semántica, la etiqueta nap, que es el menú de navegación. Específicamente es eso, no que integra adentro, pues los enlaces.
+Los enlaces de navegación que también habíamos visto, cierto enlaces, que es el es el elemento nativo que nos da HTML para construir enlaces y para navegar, ya sea entre páginas web o navegar entre secciones que lo habíamos hecho en el laboratorio número 2. Ahí vemos que se usa la etiqueta A con el atributo HRF.
+Para justamente enlazar a dónde queremos ir.
+Bien, genial, vamos con otra etiqueta importante. ¿Cómo me voy a olvidar esto? Porque es sí o sí lo tienen que tener en su página web, la etiqueta mail ya.
+No está.
+Miguel.
+Ya bueno, la etiqueta también es esto de acá, ya es ya lo vi, la etiqueta también es esto de acá y la etiqueta también que contiene porque es la etiqueta principal, pues porque eso no, porque tiene el contenido principal de tu página web. No es como que definiera este de qué trata tu página web, si por ejemplo era no sé de recetas.
+Básicamente, tu Main tenía el contenido de esa receta y había contenido secundario fuera, que no sé, fuera publicidad, fuera comentarios, opiniones, etcétera. Correcto, eso lo separa. Entonces Main es el contenido, es la caja que agrupa tu contenido principal. Adentro vimos otras etiquetas.
+Semánticas como era section, ¿qué hacía section? Section era la caja que dividía por temática, no representaba una temática y habían etiquetas relacionadas en cierto tema, los agrupados dentro de un section. Vale, por ejemplo, habíamos agrupado un section de series.
+Que pues básicamente tiene el título de tus series y el contenido de tus series en una lista, nada más que eso. Y por último, la etiqueta fooder. ¿Qué hacía la etiqueta fooder? La etiqueta fooder pues era la etiqueta que incluíamos al final de nuestra página web, usualmente va al final y acaba contenido como el derecho de autor.
+Va a redes sociales, formas de contacto, políticas de privacidad, información complementaria, pero más que nada referente a la al autor, ya al autor o a la empresa de la cual es la página web, no este al contenido. Ya eso, solamente eso bien, eso era el ese es el repaso, lo que hemos avanzado en un resumen.
+De lo que sería laboratorio uno, laboratorio, otro concepto importante que les quiero mostrar ahorita antes de hacer el quiz, que tiene que ver mucho con HTML, pero que también hace un puente, chicos, a lo que es CCS o bien hace un puente, pero antes quiero hacer una pregunta.
+A esos programadores curiosos y curiosos, si lo han notado, yo sé que sí, bien, yo sé que sí, porque algunos me han preguntado sobre eso, ya es el siguiente.
+¿En su página web, ustedes?
+No sé si han notado de que a pesar de que han escrito acá un texto chiquito, como por ejemplo esto de acá ya.
+¿A pesar de que han escrito un texto chiquito, por qué esto de acá? O sea, ¿por qué el siguiente elemento tiene que bajar? ¿Por qué no aprovecha todo esto?
+No se supone que debería apilearse así, es decir, este debería ir acá, porque alguno de ustedes ha preguntado, alce la mano por favor, que se ha preguntado esto a esas personas curiosas porque hoy chicos vamos a responder eso. Bien, se han preguntado alguna vez eso porque lo pone abajo, no sé porque no lo pone al costado, no si hay un espacio ahí, o sea, que hace HTM, no le gusta ahorrar espacio.
+Solamente quiero usar todo el este. ¿Por qué? Muy bien, perfecto. Muchas gracias, chicos, gracias. Vamos a responder esa curiosidad porque es necesario que lo respondamos para pasar a CSS. Bien, dentro de la página web es sencillo. Todos los elementos se organizan en un rectángulo bien en una forma.
+Rectangular como un bloque ya tiene un comportamiento, pero todo en HTML es un bloque. ¿Cómo lo vemos esto? ¿Cómo lo representamos esto al usar nuestra herramienta en navegadores? Cuando usamos nuestra herramienta en navegadores, cuando pasamos sobre un elemento, vean como lo resalta como si fuera un cuadrado, un bloque bien a este a de enlace como un bloque.
+No es un as, no es un óvalo, no es un triángulo, para ellos esto es un bloque.
+Así lo representa como un cuadrado, bien, un cuadrado, una caja, conceptos así, un cuadrado, un cuadrado no, perdón, porque un cuadrado tiene lo mismo, no es como una caja, ya como una caja, bien como esto es rectangular. ¿Qué pasa? Que este si nos referimos a conceptos, sabemos que las etiquetas tienen.
+Un significado cierto, las etiquetas tienen un significado, pero visualmente tienen otro concepto. Hay 2 tipos de etiquetas si los dividimos visualmente o cómo se comportan en cuanto a la vista, y estas son etiquetas en línea y etiquetas en bloques. Voy a compartir mi slime para que puedan verlo.
+Y aquí está. Hay etiquetas que son elementos en bloque y hay etiquetas que actúan como elementos en línea. ¿Cuáles son las características de cada una? Veamos las etiquetas en bloque, que son, ¿qué es lo que hacen? Básicamente son como que egoístas, ya son como que egoístas las etiquetas en bloque.
+Porque lo que hace h uno, por ejemplo, es una etiqueta en bloque, lo que hace es toma, toma, o sea, es un cuadrado, pero este cuadrado va a tomar todo el ancho, bien va a tomar todo el ancho.
+Lo que origina que obviamente no haya espacio aquí para un elemento y obliga necesariamente a que haya un salto de línea. Por eso es que se visualiza elementos abajo. h Uno es un elemento de un elemento en bloque, por así decirlo. ¿Cómo lo vemos esto cuando le damos justo sobre h Uno y vemos que ha ocupado todo ese ancho?
+Perfecto, esos son los elementos en bloque, elementos en bloque. Tenemos básicamente la mayoría son los contenedores, los elementos semánticos que vemos son esas cajas, por así decirlo. Por ejemplo, a ver si le damos a hit, ¿dónde está el header? Vean, es un elemento en bloque ocupado.
+Todo el ancho, como se resalta, el main es un elemento del bloque, el footer que está abajo es un elemento en bloque. ¿Lo ven? Básicamente son las etiquetas agrupadoras, el div también es un elemento en bloque. Bien, listo, el pasamos a la otra, que son las etiquetas en línea o los elementos en línea, y estos son los que sí permiten, estos sí son más.
+Hay que llamarle amigables ya, porque estos sí tienen el comportamiento que nosotros esperaríamos de un elemento, es decir, solamente ocupar el espacio que necesitan para su contenido. Ya, por ejemplo, aquí vemos una muy clarita que es el enlace. El enlace es una etiqueta en línea. ¿Por qué? Porque vean cómo se resalta solamente.
+El Esa partecita porque básicamente solamente ocupa lo que necesita para escribir, digamos sobre mí, no, que es el contenido de ese enlace. No ocupa más, no ocupa hasta acá el ancho, no, simplemente lo ocupa aquí. Lo vean, viene otro enlace que ocupa solo un ancho. ¿Ves? No obliga un salto de línea, simplemente continúa otro.
+Siguiendo otro, nada más. Eso sí es sencillo. Ese es el comportamiento de una etiqueta en línea. Etiquetas en línea. ¿Quiénes son? Son las son los enlaces, también son las imágenes. Chicos, aunque no lo crean, son las imágenes. Miren, voy a poner aquí.
+Voy a poner aquí debajo al costado de mi imagen, voy a poner un enlace cualquiera, ya solamente como prueba, y van a ver cómo la imagen no hace que se baje. Ya vamos a poner solo para este para pruebas y vean cómo sale justo al costadito. ¿Lo ven? La imagen no ha empujado, no ha hecho un salto de línea.
+Algo que se ponga justo al bien, la imagen es una etiqueta en línea.
+Perfecto, otras etiquetas en línea podrían son básicamente los que están relacionadas a texto, ya, pero no el párrafo, porque el párrafo es una etiqueta en bloque, o sea, este agrupa en realidad texto. Algunas que sí lo son, ya lo han visto en su laboratorio, son strong, por ejemplo, han visto strong, chicos.
+A ver, formadoras han visto Strong, que básicamente es para negrita, cierto, para resaltar en negrita. Ya Strong es una etiqueta en línea, ya miren como acá hay una etiqueta en línea, mira, a ver.
+Hay una etiqueta niña y no he hecho saltar, este es no hecho un salto de línea acá, no da un salto de línea ya.
+O sea que, por ejemplo, si yo a este le pongo p ya.
+Vean lo que ha hecho a este en vivo le ha dado un salto de línea. Ya claro, no tiene sentido, no porque un p dentro de p no este no tiene sentido, pero por ejemplo, vean cómo ha hecho que se dé un salto de línea porque p es una etiqueta en bloque. Ya bien, listo, tienen strong, tienen EM que es para cursiva.
+Por ejemplo, son etiquetas.
+Lo que sería etiquetas, pues en línea. Ustedes pueden, quieren saber cómo son etiquetas en línea, pues usan el la herramienta desarrollador, este icono que está acá, que es para seleccionar un elemento. Y por ejemplo, yo no sé, yo no sé si leí esa etiqueta en línea o en bloque, pero vean que cuando le doy sobre ellos.
+Toma todo el ancho. Entonces ahí me entero que leí es etiqueta en bloque y también las listas son etiqueta en bloque. Bien, perfecto, perfecto. Se pudo comprender ese concepto, chicos, de etiquetas en bloque y etiquetas en línea. ¿Tienen algún no consulta? Debe ver el chat.
+Era el Kia, ahí.
+Ya Arni, perfecto, ¿te puedo entender?
+
+Orador 3   23:06
+Sí.
+
+Orador 1   23:10
+Necesario chicos, porque este concepto lo vamos a ver mucho, quédense con el concepto.
+
+Orador 3   23:14
+Es en el día.
+
+Orador 1   23:16
+Sí, aló, lo digo, hola Carlos, sí se entendió perfecto.
+
+Orador 3   23:20
+sí, se entendió, se entendió todo.
+
+Orador 1   23:22
+Muchas gracias, Carlos, gracias por la respuesta. Perfecto, vamos a ver porque vamos a ver, quédense con esto de que los elementos se representan con una forma rectangular o una caja, ya porque vamos a ver en más detalle esa caja cuando vemos ese listo. Entonces, si se puede entender esto.
+Y ya hicimos el repaso. Entonces, ahora sí podemos pasar a un quiz. Chicos, no tienen que descargar nada, no se preocupen, no sé si algunos conocen Kahoot, han probado Kahoot, saben de eso, me pudieron levantar la mano, por favor, o escribir en chat. ¿Conocen Kahoot? Bien, hay algunos que han como Kahoot es un.
+Eso es literal, es una página web que permite pues realizar quiz. Ya entonces yo me he tomado la molestia de hacer un breve quiz sencillísimo, vale con todo lo que hemos hecho hasta acá este punto para que puedan evaluarse ustedes mismos. Bien, este quiz, chicos, no tiene este ni no tiene ningún este cómo le cómo le comentaría.
+No es que si no hacen bien este quiz se vayan jalados, no lo que quiero. ¿Cómo quiero que vean este quiz como una evaluación de ustedes para ustedes? Bien, porque digamos, tú respondes correctamente las preguntas, lo haces bien, pues felicidades. Estás avanzando en lo que sería HTML y estás comprendiendo muy bien los conceptos.
+Vale, pero si tal vez tengas complicaciones durante la resolución de este quiz, entonces también felicidades porque te has dado cuenta de eso y sabes lo que necesitas reforzar o y también puedes preguntar sobre eso a mí. No vale, voy a compartir esto por voy a compartir la página de Kahoot.
+Por el chat, por favor, me entren al chat de teams.
+Porque gracias, hay gente que es que hay muchos, pero muchos alumnos que conocen Kahoo, genial.
+Yeah.
+Yo recién lo conocí para hacer este quiz, chicos, así que hasta ahora no hay fallas técnicas, así que muy bien, muy bien. este.
+Esa es la página web de Kahoot. Cuando ustedes ingresan les tendría que salir esta interfaz que está con esta interfaz moradita, donde acá se pone un PIN de juego, ya que es el PIN que las asocia a bueno a la encuesta. Yo les voy a compartir este PIN también.
+Ellos, a ver, estoy preparando.
+Estoy preparando la encuesta genial.
+Uy, genial, genial, ya no se preocupe, vamos a esperar a todos, ok.
+Ya muchas gracias, que ahí están anotando ya de hecho 57643 ya 5764.
+Ese es el código, lo colocan ahí, yo les comparto acá si lo quieren ver grandazo, vale, cuando ustedes ingresen por primera vez les va a salir la opción de poder este modificar su su nombre, claro, pongan su nombre y la opción de poder modificar su su icono, vale, su icono.
+ya si quieren modificar le voy a dar 1 minuto más a ver ahí está uno dos Cómo son 12 yo contando contando dedo acá sale 12 y somos en el en el teams somos efectivamente 12 estamos todos estamos todos chicos le doy ahí un minutito para que si quieren pueden modificar su perfil hay uno
+2310 segundos, chicos, 1098765 mira, ahí veo varias tigres de Zucaritas de del cereal en 654.
+Cuidamos al planeta Tierra, Diego, 321. Perfecto, voy a empezar, ya voy a empezar y a ustedes les va a salir un cuestionario. Vale, es sencillo, la típica le sale un cuestionario y abajo le salen las alternativas. Ustedes simplemente pues escogen la alternativa que les parezca.
+Correc.
+Ya cada alternativa le da.
+No hablo más para no distraerlos, chicos, simplemente son 10 preguntas.
+Ya.
+Uy yo también estoy jugando ya voy yo soy como Tito voy a salir al último
+Sí.
+Yo lo voy a omitir.
+Perfecto, perfecto, el marco del está así.
+Ya siguiente.
+Ahí está la pregunta, ¿en qué parte del documento HTML colocamos el título de la pestaña y otras configuraciones a nuestra página?
+A mí no acaban de comenzar.
+Bien.
+No, yo sé.
+Bien, han respondido 10 correctas. Uy, uno puso título, vale.
+Creo que la primera pregunta lo omití. Ay, me pasé, entonces no le digo que eran nuevos chicos, este la primera pregunta ni siquiera esperé, creo, omití el no esperé el tiempo, tienes 6 niveles de título. ¿Cuál es la regla de oro para usarlos? no?
+Listo, uy, uno como uno se equivocó. Ahí puedes ver cuál es la era la respuesta, que era respetar esa jerarquía. No, el h Uno es el título principal siguiente.
+Bien, se está moviendo la tabla.
+Si quieres hacer una lista de pasos para armar un mueble paso a paso, ¿qué etiqueta usas?
+Bien, uy, acá hubo opiniones diversas, chicos.
+Ya la etiqueta que usamos efectivamente es la etiqueta de listas ordenadas, no ool.
+Para armar un buen.
+Uy, se movió, se movió.
+Siguiente.
+¿Cuál es la función principal de la etiqueta P, etiqueta de párrafo?
+Can.
+ya.
+Creo que ya les di la respuesta, chicos, yo en mi bocota.
+Mm.
+Sí, soy un profesor que quiere, quiere que ustedes aprueben, así que se me salió esa, ¿vale?
+Listo, siguiente.
+Concepto de una etiqueta en línea. ¿Cuál es el concepto de una etiqueta en línea? Acabo de justamente ya hablamos de etiqueta en línea y etiqueta en bloque, etiqueta en línea.
+Uy, no me acuerdo, vale, no me acuerdo, vale, chicos.
+Uy, uy, uy, chicos. Uy, ya está bien, está bien, es todo fresco. El concepto está fresco, ya por eso lo acepto, por eso lo acepto.
+Estaba fresco.
+¿Uy, esta pregunta vale por 2 chicos? ¿Tienen la oportunidad de pasarse de esta de primero? ¿Cuál es el atributo que nos permite colocar una descripción a una imagen?
+Mhm.
+Bueno, colocar una descripción a una imagen es la etiqueta alt. También lo mencioné. La etiqueta alt nos permite justo colocar esa descripción para ayudar a las personas en cuanto a lo que sería la accesibilidad.
+Listo.
+¿Por qué deberías usar la etiqueta nav en lugar de un DIV para tu menú de navegación?
+No.
+Bien, perfecto, o k sí es para ayudar justamente a los buscadores y a personas con lectores de pantalla, porque recuerden que los lectores de pantalla leen si es un nap y interpretan que el nap es un menú de navegación.
+Bien, se movió la tabla completamente y uf, parece la tabla del Mundial 2018. A ver, listo.
+¿Cuál es la etiqueta semántica correcta para el contenido principal y único de tu página? Bien lo mencionamos.
+Etiqueta semántica.
+Contenido principal.
+Y único, solamente se puede usar una vez.
+El main, el main, exacto, es el main, es el que contiene justamente tu este tu contenido principal. El header lo que contiene es el título principal, programadores y programadores, que hay una diferencia, vale, incluso pueden haber varios headers. Los sections pueden tener headers, es decir, una cabeza.
+Y un footer.
+Bien, y esta es la última pregunta, muchachos, ya.
+Etiqueta semántica que usualmente colocamos al final, al fondo de nuestra página web.
+Uy, esa estaba cantada, sí, esa estaba cantada. El fooder, no, efectivamente, creo que no necesito explicarlo, ya estaba claro. Bien, muchachos, muchas gracias por responder este quiz, la verdad, es el primer quiz que realizo. Entonces, este felicidades.
+Bien, Yarny, ay, perdón, me voy a ir 3.
+Juan o K, felicidades a los 3, no felicidades a todos, en realidad a ustedes, Yael, Yarmi, Juan, Diego, por presentar este bueno, por presentar ese conocimiento en los conceptos de HTMLY también felicidades a los que han participado, no, sí, tal vez este no hayas obtenido un buen puntaje como te comenté.
+hay tiempo de reforzar vale no hay problema html se puede reforzar vale eh tú me preguntas a mí si quieres yo estoy disponible me preguntas a mí me pides alguna clase en específico y yo te lo explico ya listo listo chicos ya con esto ya creo que se acabó ya puedo cerrar comería foto pero
+Ya o k con eso, chicos, este espero haber refrescado con esos conocimientos.
+¿Te están anotando su respuesta? Uy, sí, no me digas, no creo.
+Uy, no manches, a ver.
+Ajá.
+Ay, Dios mío, si mi jefe ve esta, si mi jefe ve el video de esta clase, me da ya o k este. Bueno, ya con eso empezamos y ahora sí de lleno a la clase número 3, muchachos, ya la clase respectivamente referente a lo que sería, pues.
+Los estilos con CCS ya vamos a cambiar la mentalidad de ver los elementos, ya no solamente como concepto, sino ver cómo lo quisiéramos ver en cuanto a estilo, colores, tamaño de fuente, tamaño.
+Posición, porque con CCS se puede cambiar la posición bien, etcétera, ya vamos a cambiar eso.
+En este punto lo que quiero es explicar, sabemos que es CSS ya este lo hemos visto incluso en las páginas, no hemos visto como un ejemplo, no, por ejemplo, en la página de Coca Cola, no que al momento de este quitarle ese estilo, básicamente lo que le quitamos fue este fue el todo el CSS, ya todo el color, todo eso.
+Y solamente quedó así HTM ya con esto, creo que ya tenemos idea de qué es CCS. CCS es específicamente para diseño de página.
+Bien, hay 2 conceptos importantes que también quiero explicar relacionados a lo que sería el diseño de página y estos términos son UXUI.
+UX refiere a, por ejemplo, esto ya es una profesión, ya los diseñadores UXUI ya los de UX básicamente lo que hacen es reunir requisitos para diseñar una página web, requisitos como, por ejemplo, si tú vas a hacer una página de, no sé, quieres hacer una página de.
+Un commerce ya una página de venta de productos en línea. Tú le preguntas a este qué elementos quisieras que se, o sea, qué de qué trataría la página y prefieres filtros, por ejemplo, prefieres filtros. ¿Qué filtros específicamente tú quisieras tener? No, uno diría, yo creo que los yo quiero que los productos se vean por precios.
+O yo quiero que los productos se dividan por, no sé, por un buscador de nombre. ¿Lo ven? Reúne requisitos como eso y nos vamos y nos vamos al punto de UI. Ya UI está relacionada más con la psicología del consumidor, del usuario que va a consumir tu página web, mientras que UI está relacionada más que nada.
+¿O cómo se ve? ¿Cómo se diseña esta página web ya a esa pregunta, por ejemplo, de por qué poner un botón aquí? ¿Por qué poner una imagen cuadrada en un circular? Ya son reglas que te da el UI para construir, digamos, una página, un diseño de página óptimo. Ya reglas, como por ejemplo, ustedes conocen una de ellas y es.
+Que los títulos tengan una mayor, o sea, tengan un mayor tamaño que, por ejemplo, los párrafos. Cierto, eso para nosotros nos parece cotidiano, pero es una regla UI. Bien, entonces, como les comenté, UXUI son conceptos muy relacionados ya con lo que sería el diseño en la página web.
+Vale, nosotros somos programadores. El bootcamp a ustedes los prepara como programadores full stack, pero en realidad esto se puede dividir en lo que sería backend, frontend y backend. Cuando nos hablamos, cuando vamos a lo que sería el frontend, el frontend es ese desarrollador que solamente está dedicado a lo que sería el diseño de tu página web.
+O sea, cómo se ve ya, y estos frontend usualmente son unos capos en lo que sería CCS, ya son unos capos en lo que es CCY también investigan a profundidad lo que serían las reglas UIUX, vale, y también pues dominan herramientas de diseño como firma, etcétera. ya.
+Estos son los de frontend, mientras que los de backend son los que este es el código detrás, pero referente a código de programación, por ejemplo, funcionalidades, bases de datos, etcétera. Ya lo que no está relacionado necesariamente con este cómo se ve tu página web. Bien, podríamos separarlo así, pero un full stack.
+Es alguien que reúne a los 2, tanto un frontend como un backend, bien, es decir, que compromera a los 2. Eres un desarrollador completo, vale, y es lo que justamente en el bootcamp, en cada uno de los costs, vamos a ver, no solo herramientas de programación, sino herramientas también para diseñar, como por ejemplo sea read más adelante read. bien.
+Perfecto con esto en mente, chicos, quiero verles, quiero enseñarles en vivo el poder de CSS. Vale, quiero enseñarles en vivo el poder de CSS porque yo me he encargado de buscar páginas webs, literal, que tal vez les meta, o sea, les meta adentro, les meta esa, les siembre esa.
+Esa semillita de decir, guau, quiero ser, quiero ser un diseñador de páginas, pero completo, o sea, quiero diseñar bien, quiero aprender CSS bien. Vale, vean esta página chicos, yo no estoy abriendo un videojuego, esta es una página web, ya esta es una página web increíble, yo me quedé este.
+Yo me quedé pasmado al verlo y miren el nivel de interacción, la verdad, parece un video juego, pero es una página web.
+Al momento de mover el mouse interactúa y al hacer scroll, aquí al hacer scroll es como se navega entre las.
+Vean como me abre este, que parece ser la primera opción, no sé de qué trata. Bueno, abre las opciones. ¿Cómo se puede interactuando? Sigo bajando, pues me muestra más opciones, vean.
+me muestra más opciones y está genial está está pero bueno y continúa no sigo haciendo el scroll y este parece ser el footer ya se tenía el concepto de footer este es el footer porque acá es como
+Me.
+Son sus redes sociales para contactar a la ya y nada más que eso.
+Regresa como que al inicio ya le ha metido ese comporte.
+¿Por qué muestro esta página web de programadores y programadores? Porque CCS te da las herramientas, o sea, te da los estilos, pero muy importante, más importante que las herramientas es tu creatividad de tu programa, como tú usas, como tú te desenvuelves de 100, y si diseñamos esto, usamos CCC.
+Lo intento, solamente practicando vas a conseguir, digamos, ese concepto de cómo diseñar.
+O K, por ejemplo, la página web hay otras. Me puedo enterar que hay como que premios a los sitios o a las páginas web del año. Esto de acá, si ustedes quieren, pueden verlo. Ya les voy a dejar el link.
+Ese también es para frontend de Android o iOS, no, Android tiene su propia página, este, cómo le digo, tiene su propio lenguaje nativo para Android, ya que es Dart, si no me equivoco, Flutter es otro para el otro este o Java, ya es este CCS es para página web.
+Es una tecnología de página web específicamente para página web. Ya ellos también tienen su propia, su propio lenguaje. Ya muy bien por la pregunta.
+Aquí los diseñadores UXUI usan genial. Pinma es una herramienta, yo creo que es top en cuanto a diseñar exactamente con UXUI.
+Perfecto, ahí te ahí les comparto el enlace para que ustedes, cuando cuando digamos este, puedan con su curiosidad ver cómo son las páginas web sorprendentes. ya Y si algún día tengo conocimiento, porque miren, voy a abrir una de estas que es esta de acá, es otra que vi.
+Ya curioseando es otra que vi, me está cargando, esto para lo fácil.
+Listo, me cargo y esto también tiene una animación, pero o sea, le da como que la que le da vida a esta página.
+Como le digo, es como si no sé, tú ni Stark hubiera decidido ser desarrollador web y ya haya programado esto ya es básicamente así. ¿Y qué es lo sorprendente? Lo sorprendente es esto, porque si ustedes se van a inspeccionar, es simplemente y sencillamente HTML.
+Y CCC detrás, vean, hay etiquetas, hay HTML detrás, voy a eliminar, ya voy a eliminar el CCC de esto.
+Y básicamente me quedaría así ya este es su CCS. Claro, hay otras etiquetas muy aparte de las que hemos conocido ya como canvas, que es una etiqueta para integrar animaciones, integrar, creo que era integrar contenido de otros de otras páginas web, ya de otras este que te parece. Ya canvas es una etiqueta muy interesante.
+Bien, usualmente voy a usar dips, esto vale, pero es así, ven, esto no tienes ese, puede quitar eso.
+Eso, chicos, bien, es sorprendente porque ahora sí, yo creo que con la yo creo que ahora sí, totalmente inspirados vamos a pasar a lo que es CC porque es estas personas, al igual que ustedes, han empezado desde lo básico, han empezado desde los conceptos básicos que nos enseñan CC.
+Muy bien, listo. Vamos a pasar con CSS. Primero vamos a crear un documento CSS. ¿Cómo se crea un documento CSS? Bien, vayamos a nuestro Visual Studio Code.
+A ver, vayamos a nuestro porque a ver, vamos a.
+Voy a ocultar, lo voy a poner en un blog de notas porque voy a hablar de esto, voy a eliminar mi este.
+Programadores, programadoras, vayamos a nuestra Visual Studio Code y vayamos a crear un archivo. Le dan a new file, simplemente le dan a new file.
+Bien, ¿y cómo se crea un CSS? El CSS se crea así, le ponen el nombre del archivo, ponen el nombre del archivo punto y cómo suena CSS, nada más listo. De esta forma ya tienen su archivo CSS. Yo le puse nombre acá, le voy a renombrar, pero ustedes pónganle styles.
+Muchachas, muchachas, styles es el nombre que usualmente, o sea que por estándar entre programadores se le pone a nuestro archivo CCS styles, ya así como se llama styles.
+Yeah, a ver.
+Es y.
+Ahí me comentan, por favor, si han tenido problemas, ya lo crearon el este, por favor, me lo dicen por el chat. Ya tenemos el CCG, ya lo crearon, me confirman por el chat para.
+Gracias Juan, gracias Ángel, yes, ya él dice yes.
+Bien.
+Todo bien, dice arriba. Bien, están hasta acá, pongo en contexto, estamos creando el archivo el archivo CSS, que es justamente donde van a ir nuestros estilos. Sí, genial y John. John creo que también ya creó su archivo CSS.
+Por favor, todos tenemos que estar hasta este punto.
+Genial, muchas gracias. Listo. Entonces, hecho esto, vale, vamos ahora sí a explicar. Tenemos el archivo CSS, pero ¿qué es lo que llenamos ahí? No lo sabemos, vale, entonces vamos a ver qué es lo que vamos a llenar ahí.
+Vamos a ver la sintaxis que tiene una regla CC, porque dentro de lo que se llenan son reglas. Como vemos acá, lo que se llenan dentro son reglas y estas reglas están compuestos por 3 elementos, un selector, una propiedad y un valor. Muy bien, el selector es.
+Simplemente es seleccionar a qué elemento tú le estás aplicando, ya a qué elemento tú le estás aplicando los estilos que tú vas a definir, y esos estilos son la propiedad, es decir, qué es lo que le quieres cambiar o le quieres tú aplicar. Quieres el color, hablas de la fuente, hablas del tamaño, los vamos a ver, pero la propiedad específicamente se relaciona.
+A eso y el valor que va a tener, no tú quieres cambiar el color, o K, dame el valor que le quieres poner a de color. Es así de sencillo y este documento, es ese que hemos creado, está compuesto por básicamente eso, por varios de estos que están acá, por varios de estas reglas que están acá, es así de sencillo.
+Ya entonces, con eso, por ejemplo, vamos a nuestro CSS, sería así, no sería así, selector, ya selector y adentro le pones la propiedad, los puntos y el valor. Esto sería así. Ahora vamos a reemplazarlo, obviamente.
+Por los que conocemos nosotros.
+¿Porque hay 2 formas de seleccionar ya cómo se define un selector? Hay 2 formas, hay 2 formas.
+Ya ya está, ya lo había hecho, simplemente pongamos esto.
+Ya entonces tiene esta forma, tienes esta estructura, selector, propiedad, valor. Hay 2 formas de aplicar selectores, la primera es por el nombre de la etiqueta, nada más que eso, nombre de la etiqueta, es decir, quieres aplicarle a un h Uno bueno es h Uno. Esto lo que hace le indica es a todos los h Uno.
+que tienen tu elemento les vas a aplicar esta propiedad de valor que tú indiques ¿Vale? Pones P a todos los pez que tienen este elemento les vas a poner todas las propiedades de valor que tú indiques ¿Qué es eso? ¿Bien? Eso es la forma uno
+Usando el ID o K, tú no quieres seleccionar todos los elementos. Selecciona uno en específico, usamos el ID. Recuerdan el atributo ID justamente es lo que vamos a usar. Es otro caso de uso que tiene el ID. Bien, el ID es ese atributo que permite identificar.
+Correcto, a un elemento dentro de lo que sería tu página web. Entonces, gracias a esto podemos asociar a uno de a uno de los elementos. Section es uno de los elementos que creamos que tiene un ID y el ID es about. ¿Cómo accedemos a un ID? La sintaxis es la siguiente.
+Usamos michi ID, nada más que eso.
+Coloco, por ejemplo, michi, about, que es el valor de este y lo que hace es seleccionar justamente específicamente este about. Lo que estoy haciendo es a este elemento con idea about, ponle la propiedad de valor que yo indique.
+Bien, nada más que eso es, muchachos y muchachos, ya es eso. ¿Cómo está compuesto nuestras reglas de CCS? Hasta ahí se pudo comprender. Me comentan, por favor, se pudo comprender la sintaxis porque vamos a pasar ya de lleno, Ángel.
+Bien, alguno si tiene duda, pregunta normal puede activar su.
+Genial, entendió. Si alguno tiene duda, pregunta, por favor, quiero avanzar juntos.
+Y parece que la mayoría entendió.
+Bien, pero creo que señor piso genial, Yarmin, sí, mira, te voy a dar una de este fácil, ya voy a escoger el header que es justamente el este, ya con eso te estoy diciendo, coge el header, es decir, al header, ¿qué propiedad quiero aplicarle?
+Voy a poner background color. Background color es una propiedad que me permite pintar la caja. Ya recuerden que les dije que cada elemento está representado como una caja, un rectángulo. Ya este background color lo que pinta es esta caja de un color en específico. Ya voy a poner aqua un color. Este el valor que le estoy poniendo es pinta de este color.
+¿Entonces, cuando vaya a mi CCS, qué creen que pase?
+Debería pintar.
+No lo pintó. ¿Por qué? Porque falta un paso importante y vital, programadores y programadoras. ¿Por qué no se pintó? Porque falta algo. Falta conectar tu archivo CSS con tu index HTM.
+Tu index no sabe que styles tu archivo CSS, o sea, no sabe, él no sabe que aquí están tus estilos, no lo sabe, no hay alguna forma de que le hayamos dicho, hey, aquí estamos. Entonces lo que falta es conectarlo. ¿Cómo se conectan? Hay 3 formas, bien, hay 3 formas, pero solamente una es la recomendada y la que vamos a usar.
+Ya es la forma link.
+Y nuestro recuerden que la energía iban etiquetas de configuración, aquí una de las etiquetas que vamos a usar es la etiqueta link, la etiqueta link nos permite conectar.
+Otros documentos a nuestro HTML, sean documentos, sean este páginas web. Eso se conecta a este a nuestro HTML y la estructura es esta. Vean, esta es la línea que ustedes tienen que colocar. Voy a copiar y pegar en su este para.
+Que puedan conectar su HTML a su TCS. Tiene que tener el mismo nombre. Bien, Rel significa, le estoy indicando con Rel, le estoy indicando que el documento que estoy conectando es un documento de estilos. Bien, IHRF ya lo habíamos visto en.
+En enlaces es este atributo que donde pones la ruta del archivo CSS que estás conectando. En este caso yo he puesto este el CSS porque es el nombre del archivo CSS que estoy conectando. Ustedes tienen que poner el nombre exacto del archivo que CSS que tengan bien.
+Tal cual, si no les va a salir error. Si ustedes le pusieron, no sé, Juanita punto CSS, ese es el nombre, ya, pero este yo les recomiendo que pongan styles punto CSS a su archivo. Bien, dicho esto, ahora sí vamos a ver la magia, chicos.
+Ahí está, lo ven, se logró pintar. Es porque he enlazado correctamente el ya ustedes al poner esto ya al poner, si ustedes al poner esto esto en su CCS ya y han enlazado correctamente. Si hacen eso, entonces significa.
+Que lo han hecho correctamente ya y hasta ahí me confirman chico, este programadores y programadoras.
+Y todo resultó correcto. Bien, ya él dice genial, sí se muestra ese color. Ángel también se le muestra ese color.
+Bien, recuerden que tienen que tener 2 estes. El nombre del archivo está el CCS en el index tiene que tener esta ruta que se les puede pasar donde HRF tiene el mismo nombre. Bien, si alguien tiene, si alguien le ocurrió otra vez algún problema al momento de conectar, me informa, por favor.
+Porque si no conectas tu documentos, si es correctamente, pues obviamente no vas a poder ver los estilos que muestras después bien.
+A ver.
+Parece que la mayoría sí me confirmaron, por favor.
+Me escriben por el chat, creo que eso me confirmó 2.
+Me escriben con el chat, porfa, todo bien, todo bien, Juan, bien, confirmadísimo, dice, buenísimo.
+Buenísimo.
+Hmm.
+Yo creo que con eso ya conectamos CCS. Hay otras 2 formas, ya la primera forma es no es necesario grabárselo, no es necesario memorizarlo, pero esto se lo estoy dando porque tal vez lo vayan a ver en algún momento. Es que existe un atributo llamado styles. Ya esta es la forma de integrar estilos linealmente.
+que solamente se aplica a un elemento. Hay un atributo llamado Style ¿Bien? Style y lo que haces acá adentro del contenido es la misma estructura que mencionamos de propiedad valor ¿Ya? Por ejemplo
+Color, no.
+Bueno, es así, ya es básicamente la estructura solamente para que se den buena idea. ¿Por qué no es recomendable esto? Uno, estás combinando código de CCS con HTML. Ya acá no se ve el problema, pero cuando tú tengas, digamos, muchos codi, muchas líneas de.
+Tu página web sea súper extensa. Si tú lo combinas, te va a ser muy difícil leer, muy difícil identificar qué estilos tienes.
+Bien, va a llegar incluso aumentar, es decir, todo va a estar metido en tu HTML con CC, te va a hacer una chanfaina ya para leer. Y el otro problema es que este estilo solamente se puede poner, o sea, este atributo de estilo solamente aplica a un elemento, o sea, está aplicando solamente el h uno, pero vamos a ver más adelante que.
+Se pueden aplicar estilos a varios elementos a la vez, ya como reutilizar estilos. Entonces esta este esta forma de conectar tu CCS a HTML no es la recomendable en el mundo laboral y no lo vas a ver muy esto. ¿Cuál es recomendable o cuándo se usa? ¿Por qué existe?
+Bueno, tienes una página web chiquita, ya página web chiquita y pues tú este le puedes poner así contando, no contando, pero no lo estamos haciendo porque estamos usando la forma recomendada. Ya esta es una forma, la otra forma es en el mismo hit, ya la otra forma es en el mismo hit y es como si trasladaras.
+O styles que está acá a tu hit, porque acá hay una etiqueta llamada solamente así.
+Creo que está ahí ya y adentro lo que ponías era específicamente esto, o sea, básicamente era esto, lo ponías acá.
+Ya esto era, lo ponías acá y digamos, si yo corto esto, no hagan esto, chicos, no hagan esto, es solo demostrativo, no hagan esto.
+Donde está, ahí está, ya ven como este ven como ahorita ya esto lo voy a cuando está avisar por esto.
+¿Ya este qué es lo que hice? Básicamente es como si trasladaras este style dentro de tu HTML, pero en un bloque solamente únicamente ya. ¿Cuál es el problema con esta forma de implementar? No lo implementen ustedes. ¿Cuál es esta el problema? El problema es que si se hace muy extenso, también es como si estuvieras combinando HTML con CCS ya.
+Te va a extender mucho tu documento, acá solo tienes 3 líneas, pero usualmente un documento de estilos tiene más de más de 100 líneas, o sea, básicamente 500 líneas. Así ya entonces va a ser grandísimo tu documento de HTML. Entonces, ¿qué es lo mejor y por qué usamos esto? La única razón, centralizar.
+Ya porque queremos centralizar nuestro código CSS en un documento y queremos centralizar el HTML en un documento. No es más fácil leerlo así, es más fácil decir, oye, quiero modificar un estilo, me voy a mi documento de estilos, no tengo porque que ir a mi documento de HTML. Muy bien.
+Entonces, por eso es que estamos usando esta.
+Perfecto, listo. Entonces, dicho esto, ya podemos pasar a otro punto importante. Ahora sí, ya podemos, este bueno, en realidad ya estamos poniendo estilos ya, pero esto es solo un ejemplo, yo lo borro, bórrenlo ustedes chicos, bórrenlo, bórrenlo porque obviamente no va a tener ese color terrible que se ve ahí, bórrenlo, vamos a pasar a otro concepto ya.
+Y acá viene otra pregunta importante.
+Otra pregunta importante para ustedes como programadores curiosos.
+¿Ya la pregunta es la siguiente, ustedes al momento de dibujar su página web con HTML, no han notado acaso que ya viene, no sé, con espacios, es decir, este espacio de aquí, por ejemplo, acá viene una separación, cierto? ¿Por qué? ¿Por qué esta separación? ¿Y por qué este tamaño de letra?
+No, porque este es más grande que este, no es porque este sea título y párrafo, no es así, vale, porque este color a la letra de acá, bien, porque está subrayado, o sea, porque el enlace estás, se han preguntado ustedes, levántenme la mano porque se han preguntado esto, porque también es una curiosidad que vamos a responder.
+Código espagueti muy bonito. Sí, el código espagueti es un concepto exactamente relacionado a lo que sería tener un código este desordenado, no como un espagueti.
+Gracias, este muchas gracias, Kevin, por ese concepto ya de código espagueti. Volviendo a lo que sería el tema, ¿no? ¿Por qué? ¿Por qué nuestro nuestra página web tiene estos espacios?
+Esta página web tiene este espacio, tiene este tamaño, tiene acá un espacio porque.
+No es por el concepto de bloque en línea, bloque HTML. Eso es lo que nos lo que nos mostró fue más que nada la distribución de los elementos, pero acá hay espacios, hay tamaño de letra, hay color de letra acá en el enlace. ¿Por qué?
+Porque sencillamente, programadores y programadoras lo que pasa es que.
+El navegador ya le ha puesto estilos a tu página. Tu página ya tiene estilos por defecto, tiene estilos predeterminados. Bien, ¿cómo probamos esto?
+Vamos a probarlo así, cuando nosotros vayamos a un esto y le demos clic a un elemento. Ya le hemos dado clic al h Uno, que pasa es lo siguiente uno, ya está seleccionada el h Uno.
+Pero si nosotros nos fijamos aquí.
+Ven vemos la lista de estilos que ya le puso el navegador a este HU. No le hemos puesto nada con CCS ya todo estos y los lista de estilos que tú ves acá lo ha puesto el navegador. Vamos a identificar a cada uno. Por ejemplo, vemos el display que en realidad es si es una etiqueta en línea o en bloque.
+Vemos que le ha puesto que es en bloque porque efectivamente h uno es en bloque, acá le ha puesto un tamaño de letra con size. Bien, vamos a ver ahorita le ha puesto si es si tiene que ser negrita o no, etcétera. Ya le ha puesto diversos estilos, muy bien con esto quiero que justamente noten eso, le ha puesto espaciado también que es.
+Marching, que lo vamos a ver también. Ahorita es un espaciado el concepto marching o k exactamente eso, todos tienen estilos, el a, por ejemplo, tiene estilos, no acá vemos.
+Aquí vemos, por ejemplo, porque tiene ese color de ya le puso el color, en este caso morado, ya RGB lo ven, le puso RGB, por eso tiene ese color, le puso un subrayado underline.
+Ya por eso quiero que noten eso, entonces por eso justamente que tu página web te ve con estilo. Ahora, ¿qué pasa?
+¿Acá viene una pregunta, por qué? ¿Por qué este HTML? ¿Por qué le pone estilos el navegador? La pregunta, la respuesta viene, se responde con la historia, el programadoras programadores se responde con la historia, y es que el objetivo de HTML en un principio cuando fue creado.
+¿Fue descubierto o fue creado por un científico? Bien, un científico en lo que sería la computación ya, y este científico, el objetivo de crear, digamos, HTML era hacer ver sus páginas, sus documentos científicos, bien, sus documentos científicos.
+Y por eso tiene este formato simplemente así, HTML al inicio o la creación de páginas web al inicio no tenía el objetivo de verse bonito, no había ese fin. Ya simplemente queríamos mostrar documentos científicos y obviamente los documentos científicos.
+En blanco y ***** tienen un título más resaltante, más grande, ahí están espaciados para vivir los temas. Este Bien, entonces por eso es que digamos que se quedó este esas esos estilos por defecto en tu navegador. Ya hay navegadores que tienen diferentes estilos. ya.
+Tiene este estilo, Blake, Edge, Safari van a tener otros estilos, pero casi se asemeja ya se asemeja.
+Se asemejan, entonces, ¿qué pasa? Acá viene otra pregunta, muy bien, ya sabemos por qué le pone estos estilos, ya es porque te vengo a página web, ya, pero obviamente esto afecta tu diseño, cierto, yo no quiero que tenga este espaciado, yo no quiero que tenga este color, yo no quiero que tenga este subrayado bien, o ustedes quién, no sé, a ver a ustedes.
+¿Yo les preguntaría, ustedes prefieren dibujar, digamos, sobre un documento en blanco?
+O sea, sin estilos o prefieren sobre uno que tenga estilo, digamos sobre algo. ¿Qué les parece más ustedes con vista diseñador? ¿Qué les parece más óptimo? Respondan en el chat, please.
+Para.
+Conocer esa respuesta, ¿qué les parece óptimo? No construir, dibujar, no este ponerle estilo sobre algo en blanco, así desde cero, que no tenga espaciado, que no tenga ese subrayado, que todo sea letra, y yo le pongo mis propios estilos mejor, o este.
+O adaptarme a lo que ya tenga el espaciado y no.
+¿Qué es lo que prefieren? Es momento en blanco, es decir, no que no tengas, no limpiarlo, no. Acá me dice, hey, el navegador me dice, hey, tu este h uno tiene ahí, no quiere chambear hoy día, tu h uno.
+Tiene tamaño 20. Ay, pero yo no quiero el tamaño 20 de ese título, lo quiero quitar, diseñar con mi propio estilo, documento en blanco, crear mi propio diseño. Muy bien, muy bien, exactamente. Eso es lo que uno quisiera, no crear mi propio diseño en parte.
+Se trabaja con los 2 o K en la vida real se trabaja con los 2 diversos programadores, diversos desarrolladores, lo que han hecho es buscar reglas, un conjunto de reglas que se aplican a CSS como que para normalizarlo. Ese es el término, normalizar, resetear ya.
+De tal manera que como que se empiece de ser, ya o sea, sin estilos, sin ningún diseño. Bien, en realidad son muchos estilos, muchachos, y quitarles todos es básicamente este, cómo le diría, imposible. Ya entonces se quitan los estilos que sí nos afectarían, como el tamaño de letra eso.
+Eso sí se puede, ya por eso le digo que en parte se usan los 2, se usan algunos estilos por defecto, bien de la página y algunos estilos propios, porque vamos a ver otro concepto importante más adelante. Pero eso aquí viene el concepto de normalización, ya ¿qué es lo que hace la normalización? La normalización lo que básicamente es.
+Eso no quitar algunos estilos como que normalizar ya para todas las páginas web a un mismo estilo. Como les comenté, los navegadores tienen diversos estilos para, por ejemplo, elementos, pero si yo lo normalizo, hago que todos.
+Que todos tengan el mismo estilo. ¿Por qué? Porque tu página web no se va a abrir solamente en Chrome o sí, tú lo creas en Chrome, claro, o bueno, no lo creas en Chrome, tú lo ahorita lo estoy abriendo en Chrome, cierto, pero hay un usuario que lo va a abrir desde Edge, hay un usuario que lo va a abrir desde otra página web, entonces como les comenté.
+Normalizar significa es que el HTML resetee ya acá está el una alternativa moderna y compatible con HTML al a restablecer CCS en los navegadores. Ya esta es la página o k si nosotros le damos a este me dan.
+Todo un código SSS ya, y estos códigos SSS ya no lo copien ni lo peguen, solo les estoy mostrando. La idea es bastante, no vamos a usar esto ya es solo un ejemplo. Nosotros vamos a usar una normalización sencilla, muchachos y muchachas, programadores y programadoras, y es esta de aquí.
+Se los voy a compartir por acá.
+Quiero que pongan esto en su CSS, por favor, quiero que pongan esto en su CSS y noten la magia.
+A, yo no lo puse, yo lo recargo con esto. Lo que estoy haciendo es en realidad quitarle los espaciados, nada más que eso, los espaciados. Vale, esto lo voy a leer ya, pero copienlo ustedes en los CSS porque a partir de ahí vamos a ir construyendo. Esto es una forma de normalizar ya un código chiquito.
+Para este tampoco no saturar nuestros ceces. Lo leemos, este asterisco es un selector, el asterisco es el selector global que indica que vas a escoger a todos los elementos de tu HTM. Bien, te estoy diciendo, hey, a todos los elementos del HTML.
+Perdón, quiero que le apliques esto: Marte en cero, pague en cero y esta línea de acá que es muy importante, que lo vamos a ver después ya, pero básicamente es que le quites el espaciado bien y por eso vemos nuestra página web que literal está prácticamente todo junto, ya prácticamente todo junto.
+Muy bien, te ve si visualiza. Sí, chicos, este pudieron aplicarlo ustedes, por favor, me confirman.
+Pudieron copiar ese código que está ahí y pegarlo.
+Genial, genial.
+Listo, bien, estamos todos a la par porque acabamos de normalizar, ya acabamos de como que limpiar un poco los estilos para poder trabajar nosotros ahí.
+Con esto vamos a ir a otro concepto muy importante que habíamos hablado, ya este recuerden que habíamos hablado en CCS.
+Por ejemplo, en HTML habíamos hablado cómo se renderiza una interfaz. Ya en Style vamos a hablar cómo es que se dibuja una interfaz. Para eso voy a voy a poner acá porque esto es muy importante para había hablado del back on color, ¿cierto?
+El background polvo.
+No en mi inglés.
+Y hablar de bracon color y que esta propiedad nos permite, por ejemplo.
+Nos permite, por ejemplo, cambiar el voy a ponerlo, voy a ponerle 2 colores a la vez intencionalmente porque es para motivo de explicación. No le pongan esto es motivo de explicación. ¿Qué pasa aquí? ¿Cómo lee, cómo lee este, cómo lee la página web? ¿Cómo lees? Perdón, CSS nuestra.
+¿Página web cómo implementa los estilos? ¿Tiene relación con su nombre? Muchachos, tiene relación con su nombre. Ya la relación viene de su nombre, y es que ¿qué significa CCS? CCS viene del término cascading style shet o hojas de estilo en cascada. Aquí hojas de estilo ya sabemos, ya dijimos que era claro, un documento de estilo.
+¿Pero por qué en cascada? Por lo siguiente, en cascada por lo siguiente, sabemos que una cascada va de dónde a dónde, de arriba hacia abajo, cierto, una cascada caterata, creo que ya lo hemos visto, o tal vez lo hayamos echado visto en Google Imágenes, correcto, yo nunca vi uno, pero sé que es una cascada por las películas.
+Ya tenemos que la cascada es una corriente de agua que va desde una altura elevada, cae bien.
+Así, similar analogía es como Style implementa tus estilos muy bien, porque también lo que hace es.
+Pues.
+Pues lo que hace es.
+Sí, lo que hace es de arriba hacia abajo, implementa los estilos de arriba hacia abajo, así como una cascada. ¿Qué pasa en el navegador? En el navegador pasa lo siguiente, cuando tú este cuando el navegador renderiza, primero el navegador renderiza index HTM ya es decir.
+Aplica el mismo proceso que dijimos, que pasa línea por línea y dibuja los elementos hasta ahí, perfecto.
+Hasta ahí perfecto, pero luego cuando termina de dibujar los elementos, es el turno de CSS y CSS lo que hace es aplicar cascada, es decir, va a ir hacia abajo. Ya primero aplica esto de acá, lee esta línea de acá que ya mencionamos que era y luego llega al body.
+Luego llega al body, ¿qué pasa en el body? Ahí le dijimos, hey, mi body, quiero que me lo pintes de este color, ya la caja de mi body quiero que me lo pintes de este color, background color muy bien, perfecto. Luego sigue continuando hacia abajo, digamos que aquí en el medio hay etiquetas, luego llega otra vez, hay un body de nuevo.
+Se puede poner body, no hay ningún error, o sea, no hay ningún problema. O sea, selección se puede. ¿Y qué pasa? Hey, acá hay otro body y lo estamos pintando también de background color red. ¿Qué es lo que hace aquí?
+Lo que hace aquí es que se se se puede sobreescribir un estilo sobre otro estilo. Bien, esto es parte de leerlo en cascado, implementarlo en cascada. Significa que el último estilo básicamente es el que se implementa. Ya si nos referimos, claro, al mismo elemento, acá es el mismo elemento body.
+Pero el último que se está aplicando es read y si vamos, por ejemplo, nuestra página web.
+Ya efectivamente, todo esto es nuestro body y nos ha pintado del último color que le hemos indicado. Está sobreescribiendo este body que está aquí. Muy bien, esto quiero que lo tomen en cuenta. ¿Por qué? Porque esto también representa como nosotros vamos a sobreescribir el código, o sea, los estilos que ya nos tiene, pero ya nos ya nos ha dado el navegador. Les comenté que el navegador nos había.
+Puestos este tamaño de título, no, pero nosotros ahora los vamos a sobreescribir. No lo hemos reseteado, esto no ha reseteado eso, pero lo vamos a sobreescribir muy bien. Y así, por ejemplo, este tal vez por accidente o intencionalmente, ustedes sobreescriban un estilo sobre el otro, ya basándose justamente en esta regla de cascada.
+de lectura de arriba hacia abajo. Bien, se pudo entender ese concepto. A ver, voy a quitar esto porque terrible, terrible, terrible. ¿Te puedo entender este concepto enters? Me confirman por el chat, porfa. Todo claro, genial. Bien, ya tienen claro ya cómo es que se renderizan los
+Ya con esto, ahora sí vamos a pasar a ahora sí de lleno, ya a representar cada uno de los cada uno de las propiedades. Perfecto, voy a ir a Miscal y Draw que aquí voy a mencionar con más propiedades.
+Ya, güey, ahí está el spoiler, spoiler perfecto. Vamos primero, vamos a agrupar los este propiedades, hay muchísimos ya propiedades de CCC hay muchísimos.
+Ya, pero yo les recomiendo una cosa y es la que les voy a enseñar yo. Forma en la que se aprenden las propiedades es agrupándolos, ya digamos propiedades por fotografía, ahí ya si los ven separados les va a aparecer un montón, entonces vamos a agruparlos, por ejemplo, vamos a ver ahorita.
+Hmm.
+Con rojito, vamos a ver los estilos.
+No.
+Vamos a ver los estilos de color, ya los estilos de color y creo que ya vimos uno. Ya hay 2 estilos de color, específicamente background, bueno, voy a ponerlo como suena.
+Voy a ponerlo como se escribe en realidad background color.
+Que tiene un valor de color y esto lo que representa es el color de la caja, ya color del interior de la caja, es color del interior de la caja, es nada más que eso ya del contenido de la caja del interior de la caja. Muy bien, o ese como les comenté, los elementos se presentan con una caja.
+Cierto es y el otro, la propiedad que se llama color.
+Ya y acá lo que va es un valor de color, ya para no confundirlo, valor de color, eso y que representa color. Color es el color del texto, ya el color del texto que está pues dentro que está dentro de una etiqueta, no como sabemos, por ejemplo, h uno.
+Tiene texto adentro, que es este el nombre que le pusimos, a tiene texto adentro. Bien, este texto se pinta con esta propiedad, nada más que eso. Bien, ahora, ¿cuáles son los valores de colores? Ya hay 2 valores de colores.
+Vamos a poner acá valores de colores.
+Valores de colores, todos que vamos a ver. Hay varias formas. Ustedes, como saben, vemos las más recomendadas, las más conocidas. La primera es nombres en inglés.
+Porque al momento de vamos a probar acá, vamos a seguir con el body porque al momento aquí está el background, corro, ya vamos a aprovecharlo porque si ustedes saben inglés, muchachos, ya tienen, ya tienen regalado este esta este tribu. ya Bueno, por ejemplo, mencióname un este, un amor de acá ya, por ejemplo, Green.
+Me da, por ejemplo, green, aquí está, ya es todo en términos en inglés. Ya tiene integrado colores, ya el navegador ya tiene integrados colores con cierto valor. Entonces, por ejemplo, si le pongo green, básicamente de este color se va a pintar, nada más que eso ya tiene un color.
+Red listo, pero sinceramente a la vista de un diseñador, este esto es muy, es, digamos, no son colores que despierten, no sé, no son colores como que básicos ya, y yo creo que estarían de acuerdo conmigo en que no son colores que.
+Tal vez pondrían en su página web, cierto, entonces vamos a ir a la segunda forma de poner valores de colores y esta es el código hexadecimal.
+Ya la segunda forma es usar códigos hexadecimales.
+¿Qué es colores hexadecimales? Los colores hexadecimales, código hexadecimal, ya tienen este formato.
+Y este 66 términos, ya 1234, de ahí viene hexa de 6, ya esta sintaxis es los que lo que tiene colores hexadecimales. ¿Dónde los encontramos? Hay diversas páginas web que ofrecen colores hexadecimales. Bien.
+Vamos a pasar a uno, que es la que sale en nuestro laboratorio, colors o ya.
+También nos paso por la.
+A ver, perdona Jardi, no te leí, me dices si quiero un color específico a pedido de un cliente, puedo poner el código de color. Exacto, sí, justamente eso. Mira, tú con tu cliente vas y vamos a la página web, tú le dices, hey, tengo esta página web, ya vamos a investigar colores juntos.
+Vas a la página web, perdón, no voy a pegar.
+Voy a pegar para que ustedes puedan ver, le dan a Star Generator, o sea, empezar el generador y lo que te propone esta página es un espacio, poder generar colores aleatorios, pero que en realidad combinan ya que tienen una armonía.
+Podemos remover colores si solamente quieren 3, lo removemos.
+Bien, lo removemos bien, chicos, esta es una página, ya si quieren este ver ideas de colores pueden estar yendo así, me gusta esto, perfecto, voy a copiar esto, le vas acá, copias el hexadecimal, ya estoy copiando el hexadecimal de esto, regreso a mi página web, el tema es que acá no me ha copiado con el mich, por eso es que me va a dar error.
+Entonces yo le pongo michi y cuando te veas que te salga aquí el color exactamente que tú has copiado, que veo acá, vean, yo he puesto entonces es has puesto correctamente el color. Ya 6 términos y un michi y 6 términos. Pero bien, en esa página ustedes pueden ver los colores.
+Otra página web que recomiendo que he encontrado Adobe Color ya Adobe Color.
+Es una página web que te brinda también colores, paletas de colores basados también en eso, no en armonías. Ya si tú te fijas acá, si puedes mover acá la paleta de colores y sigue una estructura que es esta de acá, la armonía de color. Esto ya está relacionado con términos de cómo combinar colores.
+Ya ahí el término de triada, término monocromático. Ustedes este ustedes experimenten, chicos, experimenten, ya experimenten la página web y vean cómo es otra cosa que tiene acá Adobe Color. Otra herramienta importante es explorar, ya te da paletas de colores.
+Formuladas, esto también es otro este basados en temáticas. Por ejemplo, quiero que mi página transmita felicidad. Acá ven, por ejemplo, una etiqueta de happy, que es ey, estos son colores que transmiten justamente eso ya porque como sabemos, yo creo que la mayoría ha escuchado.
+De la psicología del color, cierto, en realidad los colores, los colores representan eso, ¿no? Cada color tiene un simbolismo en cuanto a psicología, cada color transmite algo.
+Bien, cada color transmite algo y pues obviamente, si tu página es una página para niños, tú no vas a poner un colores oscuros, no colores con colores que digamos asemejen a, no sé, a algo fúnebre. Muy bien, no sé si me dejo entender en eso. El color es muy importante en cuanto.
+Al diseño de tu página web, vamos a BCP que hemos escuchado mucho.
+¿Y BCP, qué es lo que hace? BCP aprovecha el color de su logo. El color del logo de BCP es naranja y azul, cierto. Entonces, para construir su página web, usa justamente estos colores como paleta de colores, digamos, llamémosle sistema de colores.
+Ya porque toda página web va a tener sistemas de colores, es decir, que van a seguir este color en específico. Ya entonces vean que hay una combinación más que nada de ese azul y ese naranja en varios puntos y luego vean colores que es blanco, ***** y gris, que son colores neutro.
+Ya colores que combinan con casi cualquier cosa. Es por eso que la página no se siente sobrecargada. Ya esa es una recomendación UI, por ejemplo, se le hace, ¿no? Puedes basarte en tus logos, en el logo de tu empresa, puedes construir una página web y la mayoría de empresas hacen eso, se basan en el logo.
+Bien, entonces acá pueden encontrar paletas de colores, etcétera. Otro relacionado a la psicología del color, otra página web que encontré es HappyJuest y esta es una página más que nada informativa. Aquí van a entender más claramente cómo funciona esa paleta de color, porque esto lo hace de manera interactiva.
+Y va, si nos vamos a este lado, al lado izquierdo, vemos que hay paletas de colores y cada vez que seleccionamos uno, voilá, la página, a la página toma los colores seleccionados. Ya este es un sistema de colores, ya cada uno de aquí, cada uno de aquí, chicos, a ver.
+Me permite abrir esto, ahí está cada uno de estos. En realidad es un sistema de colores, ya un conjunto de colores que se va a aplicar a la página web que ha seleccionado intencionalmente el autor. Al darle clic a esto, lo que ha aplicado es ese conjunto de colores. Efectivamente, que ya le ha indicado qué es lo que te da.
+Acá te indica, por ejemplo, te ayuda y te dice, hey, yo he aplicado estos colores, lo que de la paleta que colores, yo he aplicado estos colores a cada uno de los elementos, por ejemplo, al párrafo le he aplicado este código de acá, al botón principal le he aplicado este color de acá, bien, al main le he aplicado este color de acá.
+Es interactiva esta página, te va a ayudar muchísimo porque también hay conceptos ya conceptos. Si quieres profundizar más en lo que sería psicología de color, terminología de color, puedes ver acá te da algunos conceptos. Más abajo te da esta psicología de color que representa cada uno de ellos, el rojo, el amarillo.
+El azul.
+¿Según qué es lo que quiera transmitir del según qué es lo que quieras transmitir con tu página web? Muy bien, y eso esto lo voy a poner acá. Perdón, creo que no se los he compartido.
+Se los voy a compartir.
+Ahí está para que ustedes también puedan.
+Visitar la página web, si desean, pues interactuar con ya hay muchas páginas que transmiten eso ya que transmiten, que les puede ayudar en lo que sería buscar una paleta de colores.
+Ahora lo que necesito, muchachos, es lo que necesito ahora y creo que vamos a aprovechar el receso ya es que ustedes encuentren 3 colores ya con lo que ustedes representarían en su página web. Solamente son 3 colores, 32, ya los colores que ustedes quisieran usar ya entre 3.
+¿A 2 por qué? Porque como dice su canvas, ya si me voy al laboratorio número 3.
+Hemos avanzado incluso sin darnos con el que hemos avanzado ya en laboratorio en 3, unos estilos y hemos visto el setup inicial, hemos creado el archivo CSS, hemos vinculado CSS al HTML en la este con la etiqueta link. Perdón, aquí está y hemos verificado si funciona perfecto.
+Y ahora estamos entrando a la parte de paletas de colores y este necesitamos crear nuestro sistema de colores. Muchachos, necesitamos crear nuestro sistema de colores. Ya hay colores primarios, colores secundarios, colores de fondo, colores de texto. ya.
+Básicamente es esto ya.
+Una herramienta más que me olvidé, no les pasé, no les pasé, pero que es muy importante.
+¿Es a ver dónde está esta de acá?
+Algo muy es una regla muy importante en cuanto a UI, a UI, perdón, es la interacción entre el color de fondo y el color de texto. ¿Ya? Vean esto de acá, en mi perfil. Okay, me gusta ese color de fondo, pero ¿Qué pasa con mi color de texto? Ustedes logran visualizar
+Aquí, por favor, respóndame en el chat sí o no, y visualizar ustedes el texto que está contenido ahí.
+Vale, bien, dígame en el chat si logran visualizar. No, genial, vean, vean, sí, Yael, por favor, me visto sus opiniones ahí.
+¿Logran ver ustedes aquí el color de mi texto?
+Ver.
+A ver, a las justas, poco, pero no lo ideal. Exacto, respuestas correctas, chicos, me alegra porque es así. Es decir, este el color me gusta, pero no logro visualizar el color de texto y esto es una mala práctica de UI. Muy bien, porque esto no ayuda al usuario.
+Le permite forzarse. Entonces, ¿qué es lo que hace esta página aquí? Esta página lo que nos hace lo que nos permite es justamente contrastar o definir si el color del fondo, o sea, el color del fondo.
+Tiene que permitir visualizar el color de texto, es decir, si son compatibles y a una compatibilidad entre el color de fondo y el color de texto, de tal forma que se pueda anotar el color de texto.
+Voy a poner este mismo color que yo había puesto aquí.
+Voy a ponerlo aquí.
+Es esta acá y aquí voy a poner uno, 2.
+Poner oscuro ya y vean que al final, abajo, abajo me da resultado y me dice que falló porque efectivamente es literal toda alguna falla. O sea, es que no es recomendable, ya no es recomendable, pero si yo pongo, por ejemplo, FFF.
+Y sí, ya sí.
+Y vuelvo acá, bueno, acá no, porque acá no lo cambié. Me dice que pasa, es pasable. Voy a poner eso, por ejemplo, voy a poner mi color.
+Y voy a poner eso, que en realidad es guay, ya voy a aprovechar, es guay y vean que ahora sí puedo leer, ya ahora sí puedo leer los el texto que está incluido. Entonces esto es recomendado, voy a pasarle estas esta página ya.
+Página para.
+Saber si el fondo es compatible con el color de.
+Yeah.
+Listo, con eso pueden saber si el color de fondo es compatible con el color de texto.
+Porque son colores que necesito, muchachos, muchachas, que me que ustedes que ustedes me encuentren. Cada uno va a tener claro su página web de distintos colores, ¿cierto? Entonces justamente es lo que quiero y esta de acá donde dicen documentar tu paleta. Esto en realidad es.
+Una forma de comentar en CCS ya lo que ven aquí de asterisco. Esto es una forma de comentar. ¿Cómo se comenta en CCS? Recuerden que los comentas, comentamos para hacer apuntes, cierto, entonces abrimos slash asterisco.
+Uy, ya habíamos ya slash asterisco y luego cerramos a lo que me está pasando acá es que me está.
+Slash asterisco y lo y lo cerramos lo mismo, ya lo mismo, pero al revés, slash asterisco. Esto de aquí es como que un contenedor de comentarios, ya nada más que eso. Y acá dentro ponemos como que apuntes notas que no van a afectar nuestro código de programación.
+Ya son como que notas que se hacen entre programadores, ya entonces entre esto, acá dentro podemos bloque de código, etcétera, y es lo que nos está diciendo aquí. Hey, aquí quiero que en esta casa me gusta bien arriba, no importa donde lo pongamos, no afecta.
+Nos está pidiendo arriba y nos digan aquí, pongan el código hexadecimal del color que ustedes que ustedes han encontrado para su página web. Tal vez les guste este diseño, ya que parece, pues parece de disco y bueno, simplemente como.
+Ya simplemente lo copian y lo ponen aquí, mi color primario.
+Mi color primario, los colores primarios usualmente son los colores resaltantes ya que se aplican a lo que serían hiders o elementos destacados. Por ejemplo, el color primario de el color primario de BCP es el naranja ya que le aplica solamente los botones ya que es para resaltar, para decir hey.
+Estoy aquí, ya resaltan, ya es el naranja. Bien, el color secundario parece ser el azul, que es acentos hovers, el color del fondo, es decir, el body. Recuerden que el body era todo esto, ya el body era todo esto de aquí.
+Básicamente es cómo vas a pintar tu body ya eso, pero a ver.
+Aquí vemos claro que hay diferentes colores. Por ejemplo, el header se lo se lo aplica al bueno, al header le aplica un blanco, al body parece que le aplica un gris. Muy bien, es que no hay un sistema, ya no hay un sistema, es variado, pero aún así sí este es.
+Es vital que encuentren ustedes colores ya colores este para formar su sistema y con esos colores van a trabajar ya y vamos a colores de texto. Usualmente los colores de texto son 2: o es blanco o es *****, nada más ya a veces tirando a un clon o a un gris.
+Pero ahí ya eso.
+Eso lo van buscando y lo ponen aquí y nada más que eso, chicos, es documentar su paleta porque hasta ahí ya son las 9:00. Exacto, son las 9. Exacto, vamos a tomarnos un break de 30 minutos, vale break de 30 minutos. Vamos a venir acá a las 9:30.
+Pero ya quisiera que tengan su paleta de colores listas porque luego de esto van a pintar, ya van a pintar su página web.
+Okey, entonces con esto, muchachos, alguien tiene alguna pregunta y dice: ¿cómo enlazo el CC con mi perfil? No me está reconociendo los cambios. Oh, okey, Carlos, te ayudo. Mira, primero has creado primero, bueno, se supone que has creado el archivo de CCS aquí ya el archivo de CCS que está aquí.
+Que tiene usualmente nombre styles punto cs. Hasta ahí bien, luego vas a tu indexed htmly lo que tienes que hacer es poner esta etiqueta de aquí, esta etiqueta de aquí llamada link Rel StyleShet. Bueno, esto lo vas a poner en tu head ya en tu.
+Dentro de tu contenedor head.
+Ya aquí lo vas a poner aquí dentro, esto te lo voy a pasar yo, ya lo había pasado, pero te lo paso de nuevo.
+Lo pones ahí y debería debería enlazarse. Ya debería aplicarse, es decir, si tú le has puesto, por ejemplo, un background color.
+¿Debería pintarse tú?
+Ok, asegúrate claro de que este el live server esté activo, actualízalo.
+Y me comentas eso, porfa, Carlos, ya si es posible, me comentas por el por el WhatsApp porque vamos a pasar ya a lo que sería el receso. Déjales también con esta tarea ya con esta tarea de que tengan colores.
+Que encuentren su paleta de colores bien.
+¿Alguna pregunta, chicos, chicas, alguna pregunta antes de pasar al receso, dudas, consultas, chismes, algo que me quieran contar?
+Todo claro hasta ahí.
+Por favor, me dan su check validación para poder continuar porque si no.
+A ver.
+Creo que ya se fueron al receso, ya se fueron al receso, chicos, pero.
+Carlos Ramos, ahí está escribiendo.
+Sí, chicos, es.
+Está igual fe, profe, mandamos captura. Claro, ustedes pueden mandar captura si ya tienen asociado al Stewart hasta donde estén ahorita acá. Bien, no solamente no deberían tener esto, ya ahí ya se vería ustedes que, por ejemplo, y claro, con el contenido acá de su este.
+Su color ya su color con el contenido de su color. Bien, así mandarían captura de este código, nada más que eso, porque esto no es nuestro motor.
+Está igual, dice, no lo reconoce.
+Ya un momento, Carlos.
+Ya entonces, con los este, los alumnos que no presentan dudas, no presentan inconvenientes.
+Vamos a pasar a un receso. Carlos, no sé si podrías, tal vez por WhatsApp, a ver, pues para que me mandes las capturas, porque necesito verlo. Sí, necesito verlo para poder ayudarte mejor.
+Ya para poder ayudarte mejor.
+Vale, este a ver.
+Puedes comentármelo, por favor, por si puedes puedes comentármelo por WhatsApp, a ver.
+Confírmame, por favor.
+O este la otra forma sería que me compartas tu pantalla por aquí.
+Eso sería la otra forma.
+¿Cuál?
+Ya a ver.
+Si puedes compartir genial, ya este.
+Yo voy a dejar de compartir.
+Ya, okey, no lo veo muy chiquito, por favor.
+Yeah.
+Ya primero un, por favor, este ve ahí justamente ahí y donde dice Style CSS al momento de un control y dale click sobre ese Style, o sea, aplasta control y debería convertirse en un mes. Ajá, exacto, dale click.
+Ahí está el problema. Parece que no está asociado correctamente porque no lo ha reconocido. Tal vez sea el nombre. A ver qué nombre tiene tu archivos, ese tal vez esté mal escrito el nombre exacto. Ahí, como dice, tiene que decir esto, ya te lo voy a compartir por.
+¿Es posible cambiar el este?
+Porque parece que le has puesto una un carácter de más suficiente con un carácter de más y créeme que va a ser que pues que no lo reconozca. A ver, intenta cambiarle todo el nombre con eso. Ya lo acabo de poner en el chat Styles punto CS.
+Es muy extraño que no lo reconozca, si no, en todo caso, tal vez sea.
+A B, puede ser, sí, yo la verdad, imagínense, le apuesto a ver.
+A ver, perfecto, sí, justo eso es lo tiene que poner exacto porque uy se pone exquisito el HTMR, se pone exquisito y bueno, hay que seguir las reglas como nos indica, como nos lo dice, no, sino.
+Ahora sí, ahora sí, exacto, te manda al documento. Ahora sí, perfecto, Carlos, ya sí, sí, ese bueno, eso muy bien, ya está conectada correctamente. Ahora sí puedes poner este, no, gracias a ti, Carlos, ya gracias a ti, ya podemos irnos más tranquilo, al revés. bien.
+Perfecto, perfecto, perfecto.
+It.
+Vamos, ya estamos en los 30 minutos, voy a poner algo ahí, un mensaje escritivo y ya.
+Sí, chicos, ya podemos regresar ya.
+Nos reportamos, por favor.
+Manita levantada.
+Ya podemos regresar lo que ya han cenado, ya han tomado respiro.
+Bien, ahí veo, ahí veo.
+Hola Kelly, Kevin, John, Ángel.
+Que nos integramos, por favor, las que faltan para pasar ya vamos a ser rápido, vale, vamos a ser rápido para acabar también a tiempo, vale, o k.
+Ya parece que estamos, ya podemos continuar. Espero que hayan encontrado su paleta de colores. Bien, si lo si lo han encontrado, si lo han encontrado, obviamente ha estado viendo en WhatsApp la paleta de colores que han colocado a cada uno. Ya pues les comenté, no hay un sistema ya de definido de.
+¿Cómo implementar colores ya?
+Ya está relacionado básicamente al diseño, pero uno de ellos ya, pero obviamente hay recomendaciones, ¿no? Si ve mi pantalla, ya lo estoy compartiendo, pero hay recomendaciones como por ejemplo vemos Coca-Cola y hace Coca-Cola, Coca-Cola lo que hace es.
+Usualmente les ponemos colores a 3 secciones de nuestro index HTML ya en nuestro body específicamente.
+Al header un color, al main un color y al footer un color. ¿Cómo hace Coca-Cola? Vean que al header le ha puesto el color blanco al main, que es el contenido principal, le ha puesto un color de fondo ya plomo, que es ese color que ven acá, ese color plomo.
+Y al footer, al fondo le ha puesto un coloroso. Vale, póngale un color este a su a estas secciones, por ejemplo, yo voy a poner acá.
+Ya y voy a poner.
+Header uter, voy a poner este color que yo ya tenía ya. Esto es una forma, por ejemplo, de poner el mismo estilo a 2 elementos a la vez, separarlos por comas. o K selector uno dice header, selector 2 footer. Lo que estoy haciendo acá es.
+A mi header y a mi footer con este color de background. Entonces yo cuando vaya a mi página web, ya yo cuando vaya a mi página web.
+Por ejemplo, voy a ver estos colores, obviamente no hay un este, como ven, no hay compatibilidad, entonces también voy a cambiar.
+Ya el color de mi este ya colores compatibles que también yo había encontrado.
+Bien, he puesto estos colores, ya puede ser blanco, puede ser gris. Bueno, lo ideal es que sean compatibles y puedan permitirte leer. Ahorita cambio esto de acá, los enlaces bien, y el otro que yo pongo acá, chicos, es.
+El body ya en el body lo que yo he encontrado es estos 2 colores.
+Lo que he aplicado acá es background color y colores, se me permitió darle este color.
+Bien, este ustedes, chicos, experimenten en colores ya colores oscuros arriba, por ejemplo, aquí de alfooter y colores claros en el body. Muy bien, ahorita no, ahorita o k, ¿qué pasa con CCS que es diferente a HTML? Mira, CCS funciona tú experimentando, por ejemplo, ¿dónde? ¿Dónde ves mejor?
+Poner un color ya donde ves mejor poner un color. Entonces tú vas a estar, por ejemplo, en el background color no me no le cae este color, ya no le cae este color. Le voy a cambiar de color a uno blanco o a uno de los otros colores que yo tengo y se le pone ya, pero CCS es como que ensayo y error hasta que tú le agarres.
+Esa maña del diseñador de Ey, sé que este color debe ir acá y este color no debe ir acá. Bien, entonces por eso, entendiendo yo eso, el laboratorio 2, no el laboratorio 2, perdón, el laboratorio 3 no necesariamente lo van a tener tal y como dice al final, o sea, tal como dice acá.
+Ustedes van a poder experimentar, pero esta es una propuesta que les da el laboratorio y les dice, hey, estiliza tu gira así, estiliza tu sección así o k te lo dice así, pero básicamente como ustedes tienen diseños de páginas webs distintas, decirles esto es como que obligarlos a que tengan este estilo.
+Pero sí es recomendable que ustedes, por ejemplo, vean el header y digan, mira, en el header ha puesto este color, tu color primario, lo ven acá en el header está recomendando poner el color primario.
+Y también un color white, o sea, en este caso el color primero debe ser un tono oscuro, por así decirlo, y el color white un color blanco para que puedan constatar. Entienden, entonces ahorita es, digamos, este, al estar también con el tiempo en lo que sería el tiempo de la pues de la clase.
+Es muy probable que no termines tu laboratorio hoy día y está bien porque durante el transcurso día lo puedes ir probando y practicando. Así funciona CCS, hay programadores y programadoras. Yo estoy dando, por ejemplo, una experiencia aquí. Vale, con esto ya este con estas propuestas que yo estoy dando, vale de Body y de cómo pintar un header, cómo yo lo pinté.
+Con paleta de colores, ustedes pueden pintarlo así viendo esa propuesta, así decir listo. Dicho esto, ahora vamos a pasar a otro término muy importante.
+Otro término muy importante, que sería la herencia, la herencia. ¿Dónde están mis slides que estoy más perdido? ¿Dónde están mis?
+Aquí está.
+Término de herencia y esto lo voy a probar, lo voy a voy a probarlo con un experimento. ¿Qué pasa? Dijimos que color es la etiqueta, cierto, color es la etiqueta que pinta el texto, o sea, el contenido textual de un body, pero si tú te vas aquí.
+Al index y te fijas en el body, el body tiene etiqueta textual, o sea, tiene adentro un texto así como h uno.
+Tiene un texto así como h uno, o sea, rodea un body, el body rodea un texto así, o sea, es directamente. ¿Ves un texto ahí?
+¿Ven ustedes, ustedes ven un texto ahí, chicos? A ver, a ver, cómo sé cómo a ver cómo plantearé la pregunta. Miren, se supone que si yo digo que color me dice, me indica netamente que solamente pinta el texto, me voy a mi index, pero el body no tiene un texto.
+O sea, el lo que continúa el body, el body que encierra, el body encierra todo esto, cierra todo y no es texto, que son es etiquetas, en realidad es etiquetas ya dentro de esta etiqueta, como por ejemplo h Uno, hay recién lo que vemos es texto, o sea texto puro, esto de acá es texto puro, no vemos una etiqueta de esto.
+¿Entonces, por qué? Porque, aunque haya dicho, o sea, o que yo indiqué netamente que en Buddy me pinten de este color.
+¿Por qué me pintó el texto de otro elemento que está aquí? ¿Por qué me pintó el texto de otro elemento?
+Se supone que debería quitarle solo del body, pero me pintó el del h uno, que es como ven acá le indique qué color es ya un color oscuro, ya un color oscuro y más o menos de ese tono me pintó acá al body, perdón, estoy bien aquí, el body aquí ya el body es lo que está aquí. Ya vean que esto me pintó de un tono oscuro.
+¿Por qué ahí viene un concepto que yo quisiera que ustedes me definan? Este Kevin, todavía tienes el la mano levantada. Un concepto que quiero que me definan y es quién tienen ustedes por herencia, así en general, qué entienden por herencia ya.
+¿Que lo que se le venga? ¿Qué entienden ustedes por herencia? ¿Por qué es el término que va a explicar eso? ¿Qué tienen por herencia, chicos, lo primero que se le venga?
+Primer concepto que se le venga, herencia que es heredar los terrenos de la abuela.
+De dar características bien, Kevin, pues cuando herida de una clase padre. Ajá, sí, va por ahí padre, ese término padre.
+Padre.
+Padre, no necesariamente lo tienen que explicar con programación, se va, se va a ver también desde un concepto de del mundo real, no un padre, por ejemplo, heredando sus bienes o algo a su hijo, no herencia.
+Dice, hereda los mismos estilos para otra clase. Miren, ya se me adelantaron, ya se me adelantó muy bien, yo muy bien, muy bien. Lo que dejamos como vas ya.
+Bien, creo que la mayoría tiene ese concepto de herencia integral y es por ahí, o sea, es eso, es eso. Básicamente herencia qué significa y cómo se ve en ceces. Herencia significa que efectivamente.
+Los estilos, o sea, la inherencia, los las propiedades de un padre se heredan al hijo. Esto viene ya desde muy atrás. Esto viene ya desde muy atrás cuando nosotros habíamos hablado sobre a ver dónde está, cuando habíamos hablado de HTML y lo habíamos visto como nodos, no sé si ustedes recuerdan.
+Que se veía HTML como un elemento así.
+Ya hago una imagen mejor.
+Ya que HTML se veía como una imagen así.
+Eso ya, perfecto, eso acá vamos a usar esto.
+Ya ahora sí.
+No se nota este bien, no importa, vamos a improvisar.
+Una.
+No está más clarita porque en este concepto de documentos HTML, o sea, de árbol de nodos HTM.
+¿Cuál misión internet?
+Porque no me está ******* muy bien que yo aquí está más clarito.
+Ya este, en realidad, los elementos que tú que tú, por ejemplo, o sea que tú dibujas, se ven como un árbol de nodos por detrás, un árbol de nodos donde este hay jerarquía, es decir, hay etiquetas superiores y etiquetas inferiores. Las superiores usualmente son los padres y los inferiores, pues son los hijos.
+Ya que se le llama una etiqueta padre o etiqueta contenedora, es decir, la etiqueta mayor es la etiqueta padre y la etiqueta hijo es la etiqueta que está dentro de que está contenida. Ya sencillamente eso es el concepto de elementos padre y elementos hijo en HTML. Por ejemplo, en nuestro en nuestro laboratorio, bueno, en nuestro código tenemos la etiqueta padre HTML.
+Es la etiqueta grande, o sea, la etiqueta raíz que involucra otras etiquetas. Hiat es hijo de HTML. Bien, es hijo, tiene una jerarquía como un árbol genealógico y Hiat, a su vez, también es padre, padre de quién.
+Padre porque contiene otras etiquetas adentro, es padre de este meta, es padre de esta etiqueta de esta etiqueta. Estos son hijos bien, y estos ya no son padre porque no contienen otro. ¿Lo ven así? Entonces, ¿qué pasa aquí? Por ejemplo, en nuestro header, efectivamente, el body.
+El body es padre de todo lo que tiene adentro, entonces Hider es su hijo, ya Hider es su hijo. ¿Quién es, digamos, este cómo va bajando la generación? H Uno también es hijo, H Uno es hijo de Hider y este es hijo de Body. Ya vean que hay un concepto de herencia.
+Body como padre, luego va bajando la.
+Bien, ¿qué pasa? Que este en CCS la herencia lo que significa es que hay propiedades que se heredan, que tú le pones al padre, pero que se van a aplicar también al hijo y al descendiente de ese hijo. Es decir, va a ir como que en una cascada también ya se van a transmitir de forma natural hacia abajo.
+Es decir, desde la mayor jerarquía hacia bajó. Por eso es que funciona al momento de decir, hey, dame, ponle a body el color tal.
+¿Por qué?
+Lo siguiente, o k Body no tiene ningún texto, su hijo bien, su hijo tampoco tiene texto. Heather no tiene ni un texto, pero si seguimos bajando encontramos un texto aquí, el texto de h uno que es un descendiente. Aquí ha visto un texto, por eso es que a ese texto le ha puesto.
+El color que nosotros hemos indicado y así va a ir bajando, es decir, hasta encontrar puro texto con enlaces pasa otra cosa ya que tiene una explicación porque mis enlaces siguen de ese color. Ahí tiene que ver el concepto de especificidad que les dejo como tarea, pero sí lo vamos a ver después bien y así, por ejemplo, aquí en P si bajamos también es un descendiente de body porque está dentro.
+Ya entonces ahí lo que vemos es que está aplicando, se está heredando, que se está heredando la propiedad de color. Bien, se está heredando la propiedad de color, y es por eso que aunque no lo hayamos puesto directamente a este h uno, el color, o sea, le hemos puesto H directamente el color, sí se ha heredado bien.
+Hay propiedades que se pueden heredar y como a su vez también propiedades que no se pueden heredar. No aplica para todos. Ya en texto hemos visto, por ejemplo, para color, ya el color sí es una propiedad heredable y hay otras como las de tipografía, es la siguiente que sigue ahorita y fuentes, etcétera. Esto sí se pueden heredar.
+Hay otros que no se heredan relacionados más que nada con el espaciado, el margen. Estas no ya o k qué más, qué más, qué se me olvidó mencionar. Siento que se me olvidó mencionar algo.
+Ya no creo que no, o k o k o k, sí, la razón. ¿Por qué heredar o k chicos, por qué heredar? Porque miren, si no heredar al body, ¿por qué le aplico al body? Esto facilita en realidad el por qué integrar directamente el color al body y no se lo integro directamente al h Uno por eso.
+Porque si quisiera poner a todo el texto del body, ya digamos a todo el texto que está aquí, tendría que ponerle uno aquí, cierto. O sea, tendría que ponerle al H Uno, luego buscar otro texto al P, luego otro este a donde buscar el H 2, luego el UL. ¿Lo ven? Sería como que.
+Como que muy la cantidad que involucra, o sea, sería muy trabajoso. Ya tienes que buscar y aplicar a cada uno de los textos que tiene tu página web, mientras que si tú le aplicas directamente al body, ya te ahorras la línea de tener que hacerlo a todo lo que está dentro. Ven la facilidad que es.
+Justamente la de poder heredar, y es que usualmente va así cuando nosotros definimos estilos, usualmente lo hacemos desde el nivel más alto. Ya empezamos en la parte de arriba desde el nivel más alto, por eso es que puse global. Luego vamos a poner, por ejemplo, al body, que es una jerarquía alta.
+Luego vamos a ser más específicos mientras bajemos, a su vez que también vamos a sobreescribir estilos como lo comentamos. Esa es la mejor práctica para crear o para pues definir estilos en tu documento CC. Bien, este entonces se pudo entender el concepto de herencia.
+Me confirman con feedback en el chat si o si no me pueden hacer una pregunta, no hay problema sobre herencia. ¿Te puedo comprender? La herencia es uno de los 3 conceptos pilares en cuanto a lo que sería este TCS, ya la siguiente es especificidad.
+Que es justamente uno de los consultos que los dejo como tarea, chicos, especificidad, que básicamente es el sistema de puntuación que CSS pone.
+Para determinar cómo definir estilos, , pero cuando este hay mismos estilos, o sea, cuando hay mismos le pones el mismo estilo a un mismo elemento, ya se guía por un sistema de puntos muplica siempre bien, pero lo estamos viendo acá en, por ejemplo, aquí.
+Ya voy a borrar, tengo páginas que.
+Que ya no necesito, voy a cerrarlo para no confundirlos. Esto, esto ya. ¿Por qué no se aplicó? Por ejemplo, aquí si yo le puse al texto y ya tiene el texto, ¿por qué no se aplicó? Porque hay un acá, hay un valor más específico. Ya con body, yo le puse el color a este texto, pero por defecto.
+Y nosotros vamos a nuestro F 12.
+Ya y vamos a nuestro enlace, vemos acá en Styles.
+Vamos a subir específicamente aquí, aquí ya específicamente aquí, que tiene un color propio. Eso ya como tiene un color propio por defecto por el navegador, no se ha no se ha podido sobreescribir porque este color es más específico, aplica directamente al elemento bien.
+Entienden, o sea, los estilos que se le aplican al hijo tienen como que más peso que los estilos que se le aplican al padre. Ya por ahí va tirando lo que sería el concepto de especificidad ya en CCS. Bien, con esto más en claro vamos a pasar a otro, ya vamos a pasar ahora sí a lo que son los estilos.
+Dejamos los estilos de color bien, les dejo ahí practicar con los estilos de color.
+Para su laboratorio hoy hay tiempo hasta el fin de semana, así que no hay problema porque ahora vamos a pasar a estilos de tipografía o de texto.
+Estilos de fotografía o texto. Pero antes quisiera que me levanten la mano los que conocen Word, porque vamos a usar Word para explicar esto. Ya en realidad, si conoces Word, créeme que vas a entender fácilmente eso. Ya Word es, pues bueno, la página no es Word de acá, o sea, es el editor de documentos, nada más que eso.
+O no hacen, yo creo que sí. O sea, aquí no ha usado Word en el colegio nos enseñan Word, cierto, nos enseñan qué es Word.
+Entonces, este yo creo que uf ya.
+Yo creo que todos tienen un sí en la mente. ¿Por qué? Vamos a ver, porque vamos a pasar a ver el primer, la primera propiedad de tipografía y este el fund family.
+Aquí va a tener un valor que es bueno, define la familia, no define el.
+Mejor lo explico aquí para que voy a abrir mi Word.
+Voy a mi Word.
+¿Es esto y?
+Todo documento en blanco y aquí voy a poner texto ya.
+Es él.
+Culo piense.
+Este es párrafo de texto con contenido de texto.
+Indescriptible, ya este es el título principal. La fuente de familia en realidad o los font family es representa las fuentes de familia que tú le vas a dar a tu tipografía con tipografía. Me refiero al texto, al contenido de texto de tu página web que representa en realidad esto de acá.
+No los fuentes del tema ya es esto, en realidad son familias de fuentes, ya son familias de fuentes que nos brinda Word para pues este aplicarlos al texto que tenemos ahí, no el conocido, por ejemplo, Arial. No, todos conocen Arial, que lo hemos usado mucho.
+Y ven que cada fuente tiene como que un estilo, no algunos tienen como un estilo, incluso le puedes aplicar a distintos textos diferentes fuentes. Ya entonces es eso, solamente es eso font family. Entonces nosotros podemos definir así como Kimworth fuentes de familia.
+Para nuestro texto, ya porque nuestro texto viene por defecto, ya esto es un este es un texto que viene por defecto.
+¿Cómo le ponemos fuentes de familia? ¿Dónde los encontramos? En realidad, cuando tú le pones un cuando tú este la fuente de texto que le pones a tu página web se descarga desde Internet. Ya entonces tú no le puedes poner cualquier fuente de texto de cualquier lado, porque este tal vez para ti se muestre, pero para el usuario digamos que.
+Para un usuario, digamos x que vea tu página y no tenga esa fuente de texto descargada en su este, en su máquina, no va a haber esa fuente con la que tú lo construiste. Entonces lo que tienen que haber es el mismo punto donde se reúnan las fuentes y ese mismo punto, ese como que esa base de datos o ese centro.
+Donde están todas las fuentes se llama Google Phone.
+Google Fonts es casi se ha vuelto un estándar para este reunir fuentes de la página web, voy a copiar y pegarlo aquí.
+Ahí están las diversas fuentes. Hay miles de fuentes, todas son gratuitas, todas son gratuitas las fuentes. Esta es la interfaz. Ahí les compartí el link porque lo que quiero que bueno, yo les voy a recomendar una fuente ya ustedes al momento de hacer laboratorio, tal vez este.
+En un momento después puedan buscar una fuente propia, vale, pero voy a yo usar una fuente que yo uso usualmente y se llama Popi, no Popis, Popi, o K Popi, vamos aquí, buscamos la fuente, me da esta estructura, ya no sé, no.
+Es letra árabe ya, pero me confié en es una buena fuente, yo lo uso y luego de entrar aquí diciéndome cómo se ve visualmente, voy a qued font.
+Luego de ir, o sea, get font, ir a la fuente, voy a poner get embed code. ¿Qué es lo que? ¿Qué es lo que hace get embed code? Me da un.
+Un código que voy a copiar y voy a pegar en mi página web. Ya este código que me da aquí, voy a copiar y pegar en mi página web, que mejor sería la segunda para que ustedes lleguen.
+Ya para que le manden directo aquí a código embebido, es embeber código es pegar justamente código de diversas fuentes, ya integrarlos a lo que sería nuestra página web. Es como que interaccionar páginas web y recuerdan ustedes cuál justamente era la etiqueta que nos permitía conectar nuestra página web a otras, o sea, documentos a otros.
+Ya lo habíamos hablado al momento de conectar, está el CSS y es link. Exacto, Google Fones nos va a dar una etiqueta de link, como visualizan acá, lo que hacen es copiarlo.
+Lo vamos a copiar.
+Y arriba de nuestro style van a poner esto de código ya listo, vamos a dar el formato y con esto ya debería este ya digamos.
+Tengo descargado, o sea, le estoy diciendo a mi página web que estoy trayendo fuentes de Google Fonts y específicamente la fuente pop. Eso nada más que eso muy bien, con eso hecho. Espero que me estén siguiendo, chicos, ya con eso he hecho.
+Vale, vamos a nuestro styles.
+Vamos a nuestro styles y al mismo body. Como les comenté, aprovechamos justamente la herencia de que body va, en lugar de ponerle letra por letra a la fuente, aprovechamos el body y se lo ponemos a todos de golpe. Esto es un recomendable, es recomendable ponerle este, es recomendable poner el font family en el body.
+Ya lo van a ver en muchas páginas webs porque no tiene caso, digamos, poner distintas fuentes. No tiene caso, digamos, que un una fuente este sea una, no sé, sea Arial y el otro, no sé, por ejemplo, o sea, se ve, se puede ver como que hay fuentes que sí combinan, ya, pero lo recomendable es que solamente yo soy una fuente.
+Para mantener la uniformidad de su página web para no sobrecargarlo, ya eso básicamente eso. Por eso es que solamente yo pongo una fuente que hago, pongo font family, listo, y aquí lo que ponemos es la lista de fuentes.
+Ya me está recomendando lo siguiente: poppings, ya que es el nombre. este ¿Qué es lo que me indica en realidad? Si ven acá es la forma en la que me indica poppings, así como se llama.
+Así, tal cual el nombre de la fuente que le pusimos mayúsculas, seguido de Sancel. ¿Qué es lo que está pasando acá? Ya en font family, nosotros en realidad podemos poner varias familias, pero lo que se coloca es por prioridad de izquierda a derecha.
+De izquierda a derecha.
+Ya digamos que yo tengo la fuente Roboto, que es otra fuente muy conocida, ya acá ponemos listas de fuentes. ¿Cómo el navegador le pone estas fuentes a nuestro texto de izquierda a derecha hacia, o sea, hacia allá? Primero implementa Poppins ya.
+Primero implementa Poppins. Si Poppins no se descargó correctamente, tuvo problemas, digamos, en cuanto a la carga, descargarlo. o K, vamos a la segunda opción, roboto.
+Y Roboto tampoco se descargó correctamente. Vamos a la fuente de respaldo que sí o sí se va a descargar ya porque ya está incluido en el navegador tan serio.
+Es una fuente genérica, ya, pero al menos te salva de que se vea, digamos, terrible tu, o sea, tengas este una fuente irreconocible, ya y por eso es recomendable poner San Series. San Series es una fuente que ya está incluida en el navegador. Ustedes pueden ver cómo es San Series al ponerlo acá, San Series.
+Y ven que más o menos tiene esta estructura de acá, ya que es creo que la que venía por defecto, es la que venía por defecto. Yo le puse, yo le puse poppins.
+Y vean como.
+Ya me cambió el este, vean como me cambió la fuente. Ya este parece distinto, vale, una fuente también le da mucho valor porque las fuentes también este tienen un tienen un valor psicológico, ya un valor de diseño en tu página web. Ya hay fuentes que comunican alegría.
+Otros que comunican profesionalismo como el como el Arial, por ejemplo, que es el Word, etcétera. Ya los fuentes también este definen la calidad de tu código.
+Perdón, la escalidad del diseño de tu página web.
+Bien, usualmente, usualmente, chicos, programadores, programadores.
+Las fuentes que tienen estas páginas web creadas por macas son fuentes compradas, ya no son de font fan. Nosotros estamos usando, perdón, Google Fonts, Fonts Google, perdón, porque son fuentes gratuitas, pero ellos compran fuentes ya fuentes como que personalizadas, ya son fuentes personalizadas.
+Que no se encuentran fácilmente porque cuesta ya son fuentes propias con derecho de autor. Por eso a veces este, digamos ustedes, algunos van a querer imitar el puente y van a decir, hey, ¿por qué no encuentro esa fuente? ¿Por qué este cuesta, cuesta, no? ¿Por qué no encuentro esa fuente en Google Fonts? Porque cuesta, no es gratuito.
+Vale bien, con eso chicos, se puede entender cómo poner fuentes y cómo este y qué significa fun family.
+¿Tienen alguna consulta?
+Mándeme su fijo, please, mándame su feedback porque hasta que hemos avanzado lo que serían las fuentes, no sé si a ver.
+Si lograron ponerlo, que sería genial, pero si no hay problema porque, como les comenté, este tal vez no quieran apegarse a poppings, no, que es la fuente que les estoy recomendando yo, tal vez no quieran apegarse.
+Sí, correcto, ¿ves? Mira este John, el lío aquí en el segundo link que te mandé.
+Genial, Juan, perfecto, gracias en este segundo clic que te mandé, pero me abre.
+Ya.
+No se vaya a colgar, ya no sale, ya perfecto, no hay problema, vamos a dar el primer link.
+En Google Fonts, copias el vínculo porque yo lo voy a abrir en mi.
+Peor determinado.
+Te manda Google Fonts, ya Google Fonts es la página donde tú, donde están reunidas las fuentes de Internet. Ya aquí en el buscador, bueno, me dices dónde puedes obtener este, no? Entonces vamos a pasar directo, ahí vamos a Poppins.
+Le damos acá a get font, ya cuando estás en la fuente que tú quieres, le das a get font y aquí en get en bitcodet.
+Aquí le damos click.
+Son varios pasos, ese es el tema, ya, pero bueno, simplemente botón más, botón, más, botón, más, le das a web aquí es esto lo único que necesitas. Esto es lo único que necesitas, copiar a este de acá, el la etiqueta link, porque esto es lo que vas a poner en tu HTML.
+Justo arriba.
+Justo arriba de tu.
+Justo arriba de tu este style de la etiqueta justamente aquí.
+Arriba de.
+Enlace a documento CSS, justo arriba del enlace al documento CSS, que es esto de acá, ya tú puedes poner si quieres un comentario diciendo enlace a fuente de texto.
+Pero un comentario descriptivo, así separas mejor. ¿Qué significa cada uno bien?
+Aquí me está dando un error.
+Um.
+Ay, pues ahí metió escondidito, ya listo, listo. Okey, ¿puedo entender eso, John, porfa?
+John Rivas, genial, muchas gracias. Ahí te leo. Listo, listo, listo. Ya entonces con esto ya avanzamos tipografías. Vamos a pasar a otro a otra propiedad.
+Pasa.
+Vamos a pasar a otra propiedad fácil y esta propiedad es font size, definir el tamaño de fuente, chicos, definir el tamaño de fuente, programadores y programadoras y acá le vamos a poder.
+Vale, definir el tamaño de fuentes sencillamente esto ya en Word. ¿Qué es sencillamente esto? ¿Ven cómo cambia el tamaño? Nada más eso, pero ¿qué valor le ponemos al font size?
+Los valores que usualmente se ponen son unidades de medida.
+Pero en programación conocemos las unidades de medida para representar longitudes, cierto, en la vida real tenemos centímetro, tenemos metros, tenemos kilómetros. Bien, en programación también hay unidades de medida para decir, hey, cuál es el tamaño, la longitud, por ejemplo, que quiero que tenga esta letra, o sea, en tamaño ya.
+Las unidades de medida, una de las más reconocidas son los íxeles.
+Sí lo mencioné, creo que en algún momento los píxeles. ¿Qué es un píxel? ¿Qué es un píxel?
+Bien, para ver que es un pixel me voy a pasar a este al siguiente slide.
+Porque este un píxel, en realidad tu ventana, imagínate tu ventana, ahorita tu pantalla que tú ves ya está compuesto de mosaicos de cuadraditos chiquitos. Esto tú lo ves cuando tú le haces un zoom, ya digamos que esta es la imagen que ahorita se ve en tu pantalla.
+Ya esta de acá, la imagen de la derecha. Si nosotros le hacemos un zoom a esa imagen, vamos a ver pequeños cuadraditos, cada uno con un valor. Estos pequeños cuadritos chiquitos es un pixel, es decir, tu ventana, la ventana que proyecta tu laptop, tu computadora, tu celular donde estés.
+Ese espacito donde ves tú todo eso está lleno de píxeles, ya cada uno con cierto color, pero son miles, son millones de píxeles. Entonces tú no los vas a notar porque son microscópicos, o sea, son pequeños, no a la vista humana no los notas, pero es así. Entonces, ¿qué pasa?
+Que cuando yo, por ejemplo, le digo.
+Cuando yo le digo, por ejemplo, pon.
+Si.
+10 pixeles.
+Lo que le estoy diciendo en realidad, 10 píxeles. Lo que le estoy diciendo en realidad es, hey, píntame para este tamaño de letra 10 cuadraditos, o sea, 10 cuadraditos en lo que sería en lo que sería el alto.
+Ya es decir, escrito así, píntame 10 cuadraditos ya y lo hace, lo pinta, vale, es eso básicamente eso, pero ¿qué pasa? ¿Qué pasa? Pasa que tus dispositivos son de diferentes tamaños, ya no podemos representar a un píxel.
+Como una unidad que nosotros conocemos, por ejemplo, no podemos decir, hey, un píxel es igual a 1 cm o 1 mm. No podemos por una razón, los píxeles en realidad se adaptan al tamaño del dispositivo.
+Y los dispositivos más chiquitos en realidad tienen más píxeles. Son ¿Por qué? Porque es porque nosotros lo vemos de cerca, ya nada más que eso. Los móviles que nosotros tenemos tienen más píxeles que las pantallas que nosotros tenemos acá, aunque no lo creamos.
+Porque este, si lo vieras, es decir, si tú lo vieras, si tuvieras que el móvil tiene la misma cantidad, ¿cómo decirlo? A ver, se llama densidad de píxeles, ya, pero quédense con esto, nada más que con esto no es necesario introducirnos en píxeles o introducirnos en el concepto técnicamente píxeles. Yo creo que se entendió hasta la parte.
+Decir que son pequeños cuadraditos que podemos pintar bien porque el concepto en realidad es intuitivo. Ya yo no sé cuánto mide un píxel en mi computadora, yo no sé cuánto mide, pero cómo yo lo calculo sencillamente haciendo esto. Ya por ejemplo, tengo mi h uno, es intuitivo por lo siguiente ya.
+Y le digo, hey, yo quiero un fonsize ya definir un tamaño.
+De 10 píxeles, digamos.
+2.
+Voy acá y vean, digo intuitivo por lo siguiente, hey, a mí no me gusta este tamaño, es muy chiquito, voy a probar otro, voy a subirle.
+Es 15.
+¿O K, ¿qué pasó? Ya creció, pero aún no me convence, voy a subirlo.
+20 píxeles. O sea, no sé si ahí se entiende, es que nosotros como programadores descubrimos probando cuál es el tamaño aproximado de un píxel. Ya por eso es que les digo que no relacionamos usualmente el píxel a una unidad real que nosotros conocemos como un centímetro, ¿no?
+Exactamente funciona así. Entonces yo le voy a dejar con 24 píxeles a mi h uno y me está dando este, por decir este tamaño. ¿Vale, se entendió eso de los píxeles, chicos? Es por no haberlos confundido el tema de los píxeles y también el font size, ¿no?
+Algo más que se entendió genial.
+El píxel es una unidad de medida ya que este una unidad de medida que vamos a ver que estamos viendo, sí, pero hay otras unidades de medida diferentes que son más recomendadas, ya, pero el píxel es más conocido, por así decirlo, lo voy a dejar ahí porque vamos a pasar a la siguiente propiedad.
+Si ya le pudieron cambiar de color de tamaño, por ejemplo, le pueden cambiar al h uno, le pueden cambiar también a su p a su pp que es, por ejemplo, 24 píxeles al p le pueden poner, le pueden aumentar el tamaño, es etcétera.
+Ya no me desvío, voy a pasar al siguiente, que es el phone.
+Güey, escriba así, un way, un way es para definir el.
+El grosor, nada más que eso, el grosor, es decir, negrita, nada más que eso. Si quieres que sea negrita o no, ¿cuáles son los valores que le podemos poner a un a esta propiedad? Son los siguientes, ya los valores son los siguientes, esto de aquí puedes tomar 2.
+Puede ser o este un valor numérico que es en realidad una centena, 100, 200, 300, 200, 500 hasta 900, o le puedes poner un término en inglés, que son los que están acá en minúsculas, ya en minúsculas. El grosor que nosotros vemos aquí para cada término es ese grosor que se va a poner.
+Al texto que le aplicamos, ya usualmente es el regular, o sea, el que no es negrita es este de acá, pues regular ya el que ves en tu párrafo que no es negrita y es un grosor normal, es el 400 o regular ya.
+El negrita negrita es este de acá, 700.
+Ya, pero si tú lo quieres ver más grueso, es el último que es Black.
+Te recomiendo más que te familiices con los números ya.
+Pero este este vamos a probarlo, vamos a probarlo, en la prueba se ve.
+Vamos a nuestro h Uno.
+Y vamos a quitarle ese font solo como pruebas, ya vamos a poner font.
+Güey, y acá le voy a poner 100, le voy a poner 100. ¿Qué es lo que pasaría? ¿Qué me indica si le pongo 100? Tendría que ser delgado.
+Y voy a mi perfil. Efectivamente, es eso lo que pasó, que voy a quitarle este porque.
+Voy a quitarle el body, permítame, porque verlo en blanco y ***** lo hace más claro.
+Bien, ven un blanco mío, las demás.
+Sí y aquí también.
+No voy a poner acá porque lo voy a usar después.
+Ya ahora sí se ve más claro, ya porque lo hice más delgado no se notaba, pero esto lo que pasó aquí es que al header le he puesto un grosor delgado, ya un grosor delgado, y es lo que ha lo que hemos visto bien. Lo que usualmente se usa para títulos es 700, ya es 700 y pues vuelve a su encript normal.
+O el término volts. Vean, he puesto volts y pasa lo mismo, el normal, el normal es 400, el normal es 400 y vean que en realidad tiene un tamaño igual que, o sea, tiene un grosor igual que un párrafo, solo que no se ve porque está del mismo tamaño. Bueno, es diferente tamaño, perdón.
+Si le bajo, por ejemplo, a 16 van a ver.
+Vean, vean, ahora sí se nota más claro que el con el grosor normal y con el tamaño de un párrafo casi ni se diferencia, ni se diferencia de que esto es un título y que eso es un párrafo.
+Ven, vean como el estilo influencia, exactamente el estilo influencia, ya por eso le he puesto un estilo de 24 y recomendable para títulos es bolt.
+Listo, con esto estaríamos pasando al phone way.
+Es todo listo, eso es font way, chicos.
+Creo que esto fue sencillo, o sea, el funway no es no tú tienes mucho que explicar, ya simplemente conocer la propiedad y poner los valores. Ustedes pueden ir probando cuál grosor implementar acá este ya, pero usualmente para títulos es, como le comenté, un grosor más ancho y para lo demás, déjenlo ahí, o sea, el párrafo no necesita.
+No necesita un cambio, en realidad un párrafo no, los enlaces sí necesita uno este y lo vamos a ver después los enlaces y usualmente se le pone una negrita.
+Bien, siguiente es acá viene el text align.
+El text Aline.
+Ya que significa es el posicionamiento, ya es como que el posicionamiento.
+Respecto al contenido o respecto al bueno, pues el posicionamiento del texto, en realidad ya posicionamiento del texto dentro de una caja, ya dentro de una caja es eso.
+Esto está relacionado, vale con esto de acá. En realidad ven, es esto de acá, es a la izquierda, al centro, a la derecha, justificado, que para justificar obviamente no se nota porque requiere mucho texto. No justificar es estirar el documento de tal manera pues que llegue a los.
+Pero como que hay texto pequeño no se nota.
+Pero es esto, es posicionar respecto a la caja, en este caso, en este caso.
+Vamos a, por ejemplo, posicionar este FN.
+Este h uno que está acá respecto a la caja. ¿Cuál es la caja? Pues es lo que está sombreando, es eso. Entonces, como vemos que hay espacio, nosotros podemos moverlo dentro de ese espacio. Ya efectivamente, podemos mover el contenido textual dentro de ese espacio. ¿Cómo lo vemos?
+Hay cuatro opciones y que es la que les comenté justamente ya, que es la que les comenté, la primera es.
+Imaginemos que esta es su caja.
+Ya este es su caja y adentro está el título.
+A lo mejor quito el título.
+Voy a mover ya, bueno, tú escribes tu título, empieza así, vale.
+Pasa lo siguiente, text Aline, tú le pones.
+Tiene cuatro valores ya y los cuatro valores en realidad son términos en inglés. La primera es center, que pues para los que tal vez no tengan conocimiento inglés es centrarlo en tu caja. Lo que va a ser básicamente es el contenido textual, lo va a centrar al medio, nada más que eso, muchachos, nada más que eso siguiente.
+El siguiente es left.
+Ahora lo voy a poner.
+El siguiente es left, ¿qué? Pues left que es izquierda, ¿no? Y pues eso es lo que va a hacer, vas a entrar el contenido a la izquierda de tu caja, ya de la caja que representa.
+El siguiente es text right ya o derecha y mueve esto a la derecha y por último estamos con el text a nine.
+Justify, Justify lo que hace es justo este comportamiento que está acá, no estirar el documento como el como el contenido es pequeño, no se va a notar ya, pero es lo que hace. Vamos a probarlo con nuestro h uno poniendo esto ex align.
+¿Qué pasa? Voy a poner center y aquí viene la magia. Ya la magia es que solamente ha movido nuestro documento al centro. ¿Lo ven? Le doy click a esto y dentro de ese sombreado lo que ha hecho es mover eso, nada más que eso desde nuestro propio estilo podemos modificarlo.
+Le pongo left bien, lo puso a la derecha, perdón, a la izquierda, estoy hablando right, lo puso a la derecha. ¿Lo ven? ¿Cómo se movió esto a la derecha? Porque es lo que puse aquí desde aquí, desde estoy usando la herramienta de desarrollador para editarlo. Ya es posible, es posible.
+Y ponemos Justify, pero Justify no se va a notar porque pues hay poco texto, nada más que eso. Bien, otro datazo, otro datazo, vale, solamente este text online usualmente o solamente funciona en documentos o perdón, elementos en bloque. ¿Por qué? ¿Por qué no funciona? ¿Por qué no funcionaría?
+Esta pregunta la hago a ustedes o K, se los voy a lanzar a ustedes para abrir la mente. Ya si yo pongo a, digamos, text center, perdón, text align center.
+¿Esto de acá, por qué no me funcionaría?
+¿Ya acaso sea movido? ¿Por qué no me funcionaría chico? ¿Alguien me da una respuesta ahí? ¿Por qué al poner text al Line Center, por qué no me lo movió al centro como si lo movió a H uno? ¿Por qué?
+¿Alguien tiene ahí alguna respuesta?
+La primera que se se les ocurra.
+¿Por qué al poner Texalign Center no me puso esto al centro? ¿Sigue ahí donde está?
+Sí, obviamente a tiene texto, no a tiene texto, lo ven, es sobre mí, pero ¿por qué no?
+Porque es link, dice, si tuviera que hacer la sección no ya porque es link, claro, sí, es link últimamente no tiene herencia, no tiene que ver con la herencia. Carlos, okay, tiene que ver con otro concepto.
+Ya es tiene que ver más que nada con el concepto de espacio, ya esa es la palabra espacio.
+Quizás porque tienes que especificarlo, como darle una ID.
+Mhm.
+No, ya vale, vamos a la respuesta. Ya en realidad tiene que haber espacio. Esa es la palabra clave, espacio. Recuerden porque es de un solo bloque. Sí, está por ahí, yarn está por ahí. Vamos a la respuesta. ya ¿Qué pasa? ¿Cómo les comenté, Cali Draw?
+Lo que pasa es que el text align hace el posicionamiento del texto dentro de la caja que lo representa. No, como sabemos, los elementos HTML se representan en una caja, pero ¿qué pasa? Pasa que si nosotros pasamos esto sobre un enlace, vean la caja, por favor, quiero que vean la caja. La caja no tiene espacio.
+Ven, la caja no tiene espacio. Entonces aquí, en primer lugar, obviamente estamos diciéndole a que aplique no este Texanine dentro de esa caja, pero la caja no tiene espacio, o sea, no se nota el movimiento.
+¿Entienden? O sea, no se nota el movimiento de enlace. Ahora, segundo, yo quiero sentarle. Si yo quisiera haber visto, digamos, entrado estos de acá, aquí no tendría que haberle aplicado a la A, sino a quién a la caja más grande. ¿Cuál es la caja más grande?
+Al nap exacto, creo que me mencionaron.
+Exacto, se se tendría que aplicar, no a la caja más pequeña, porque este por eso justamente ahí viene de por qué se aplica el text align a lo que sería documentos, perdón, elementos en bloque.
+Ya si yo le, por ejemplo, le pongo a nav este text anime que está aquí, vamos a ver que sí se va a notar.
+Ya vamos a ver que sí se va a notar, vamos a borrar esto.
+Vamos a dar el formato.
+Ya.
+Vamos a ya.
+Al esto y vean como si se me centra, ya vean como si se me centra, porque aquí le estamos aplicando al elemento en bloque que sí tiene espacio para poder mover el contenido textual que está bien y aquí también se está aplicando justamente eso de.
+Bueno, por herencia podría decirse por herencia, pero bueno, es ya este relacionado a nada. Bien, espero se haya podido entender, chicos, eso y por de por qué también solamente este solamente el espacio es el determinante. Diego, te escucho, dime.
+
+Orador 4   3:01:54
+Y este a ver si me escucha.
+
+Orador 1   3:01:57
+Ajá, sí, te escucho perfectamente, te escucho.
+
+Orador 4   3:01:58
+Ya mi pregunta es si, pero si tienes más de un nap, pero solo quieres este meterle el, por ejemplo, centrar la parte de arriba, tengo que ponerle un ID al primer nap, algo así o con.
+
+Orador 1   3:02:13
+claro, si tú tienes más de una ya y solamente le quieres poner a uno en específico.
+Efectivamente, tú le tienes que poner un ID y solo seleccionar eso, no digamos a ID, digamos menú secundario. ya ¿Cómo accedes a este solamente a este nap? Lo que haces es más abajo, le aplicas esto y sabemos que se sobreescribe en primer lugar.
+Si este no le pusiste esto, mira cómo va este text align.
+Yo le pongo a este left.
+Ya que es el menú secundario.
+Voy acá a mi perfil y mira como a pesar de que esto siendo un app, ya el segundo siendo un app que es menú secundario, haya aplicado este estilo que está acá, ya el segundo sobreescribe y se está aplicando solamente a ese menú secundario.
+Okey, se pudo entender, Diego.
+
+Orador 4   3:03:09
+Sí, perfecto, perfecto.
+
+Orador 1   3:03:11
+Perfecto, qué bueno, o k listo. Entonces con esto ya podemos continuar ya con esto podemos continuar con la siguiente, con es la siguiente, este con la siguiente propiedad de texto. Ya vimos con Wayne, creo que con esto ya vimos todas las propiedades respecto a lo que sería.
+Lo que sería los estilos de tipografía, pues son los más importantes en sí, entonces con esto este ya podemos pasar a otros estilos.
+Ya a un concepto en realidad importante, ya que es el concepto de box model. Recuerden que mencionamos que cada uno de los que hay en este que voy a eliminar, ya recuerden que mencionamos que hay un concepto que se representa en los elementos como una caja. bien.
+Ahora vamos a ver a detalle esa caja, ya cómo está compuesto esa caja. Si nos vamos al slide que tengo por aquí, ya la caja en realidad está compuesto por cuatro áreas. Bien, esta caja está compuesto por cuatro áreas.
+El área del contenido, que es básicamente lo que encierra la etiqueta. Ya vamos a tomar como ejemplo h uno. El contenido es lo que cierra la etiqueta, que es esto de acá, no el contenido de texto. Por ejemplo, el nap. ¿Cuál es el contenido? Es esto, el contenido lo que está interiormente dentro de la etiqueta.
+Ese es el contenido, el padding en esa caja es vamos al border primero, ya el border es la caja, o sea, es ese borde de caja, ese cartón que tienes, ese es el border y el padding es como que el espacio entre el contenido y el border, pongámoslo así.
+Tú tienes una caja de verdad y si tú metes, por ejemplo, un mouse, ya metes el mouse dentro de la caja, ya el mouse es el contenido bien.
+¿Qué es el padding? El padding es ese espacio que está dentro de la caja que no ocupa el contenido. Ya es ese espacio que está ahí porque sobra, ya es una caja grande, digamos, y obviamente tu mouse no va a ocupar todo el espacio. El padding es ese espacio restante dentro de la caja y el border es esa caja en sí, es esa caja de cartón.
+¿Qué es el margin? El margin es lo que está, el espacio que está fuera de la caja, es simplemente eso, ese es el margin. Bien, esos son los 3 elementos, cuatro elementos en realidad. Bueno, son 3, porque el content es contenido, no es un el content no es una propiedad, ya margin, border y padding son propiedades que nosotros vamos a poder manejar o modificar, vale.
+Pero quiero que quede en claro esto, el padding es el espacio de interno en la caja y el margen es el espacio externo que usualmente se usa para separar cajas, ya para separar un elemento de otro elemento, nada más que eso. Ya HTML, perdón, el navegador nos ofrece una herramienta para poder visualizar eso.
+Y eso lo vemos al momento de abrir nuestro, nuestra herramienta de desarrollo. Y si nos vamos a lo que sería, bueno, no tienes que ir a computer, en realidad sí tienes que ir a computer aquí a esta opción de aquí y te da este graficazo que está acá, que es muy.
+Te va a ayudar bastante, ya te va a ayudar bastante. Voy a quitar aquí, por ejemplo, esto aquí, ustedes no lo hagan, voy a quitarlo yo por motivos de enseñanza, porque aquí vamos a justamente ver esos espacios que el navegador le he quitado la normalización, así que vamos a ver esos espacios de que le ponía el navegador por defecto.
+Bien, y vamos a nuestro h Uno, ven, ven que el azul en realidad vamos a ir acá, el azul es el contenido, ya este espacio que tú ves, cada uno de estos, cada uno de estos espacios se representa con un cuadrado, ya con un cuadrado tienen que tener eso claro, el contener su cuadrado del perdón, con un rectángulo.
+Porque el content es un rectángulo padding con un rectángulo. Ya pasamos por aquí, el contenido es un rectángulo y es ese rectángulo azul, no tiene padding. Por eso, al momento de pasar el padding me dice cero, no tiene border, no le he puesto ningún border, pero sí tiene algo, tiene marching. Ya ese marching lo ha puesto.
+El navegador por defecto, yo no el puesto.
+Bien tiene este, así le ha puesto a cada uno espacios.
+Bien, le ha puesto espacios ahora. ¿Cómo lo visualizamos en nuestra página web? Voy a volver a poner esto y voy a hacer algo para visualizarlo. Ya voy a poner la propiedad de border. Border me permite justamente ahora sí quiero mostrar ese espacio.
+Que mencionamos que es el borde, ya el borde, voy a agarrar uno de los elementos.
+La propiedad border nos permite justamente poner un borde a este al elemento, voy a poner border.
+Ahorita explico la sintaxis, no se preocupen, pero esto es simplemente para fines este ya con esto lo que he hecho lo siguiente, genial, le he puesto un border a cada uno y así se visualiza nuestra página web. Si se pudieran ver las cajas, ya vean como es todos, todos en realidad todo se representa en cajas, incluso hasta lo más pequeños que son los.
+Los enlaces, vean el borde rojo, es básicamente eso, un borde, ya lo que está rodeando ese rojo es la caja.
+No ven así de sencillo, pues ustedes pueden este identificar.
+Justamente eso, no las cajas en CSS. Bien, se pudo comprender el concepto de box model, chicos, chicas, por favor.
+Me hacen un feedback en el chat, este concepto es importante ya referente sobre todo al espaciado.
+Seguro lo han escuchado mucho, Paddy Margin.
+Nos va a permitir separar elementos de un esto.
+Genial, yo.
+Kevin, Juan, ya listo, vamos a continuar para no comernos tanto el tiempo. Bien, entonces acabamos de ver el concepto de cajas.
+Viendo el concepto de cajas, voy a copiar esto porque aparte vamos a ver cada uno de estos. Ya vamos a ver cada uno de estos. Voy a copiarlo acá, buenísimo. El calidero me permite esto porque vamos a ver cada uno de las propiedades. ¿Cómo se define? La primera propiedad es.
+¿Border que representa simplemente el borde de la caja, ya cómo se cómo se coloca esta propiedad?
+Mhm.
+Se coloca esta propiedad.
+Bien, la propiedad es sencilla, ya la sintaxis es así.
+Border is.
+Border, puntos, propiedad y el valor es el siguiente: ya es el grosor, el grosor del borde es el estilo y es el color. Estos 3 elementos separados por espacio, así se pone un.
+Un border.
+Por ejemplo, border.
+El grosor es una unidad de medida y vimos el píxel, cierto. Aquí podemos, por ejemplo, un píxel, 2 píxeles, 3 píxeles. Esa es unidad de medida, el estilo, el estilo es esto, programadores, el estilo es esto de aquí, ya estos son los estilos que tienen los borders. Ahí ven el término que ven es el nombre que vamos a poner al estilo.
+Tienes el none, que en realidad es no tiene ni un estilo, no tiene ni un borde y es el que usa por defecto, pues el navegador porque no le pone border a ninguno de nuestros elementos. Ya el doted ya yo no he usado ninguno de estos, ya o sea, ninguno de estos que ves acá he usado el único que he usado yo.
+Es Solid, que es el es el borde normal, ya es el borde normal de lineal y Dotted, tal vez para algunos este es este para algunos elementos, pero nada más que eso. No es necesario grabarse estos ya con Solid y Dotted y None también suficiente, tal vez para quitarle estilos, perdón, borders a algunos estés.
+Pero nosotros vamos a poner solid bien, por ejemplo, un píxel solid y acá en el color puede ser hexadecimal o puede ser, por ejemplo, el color. Ya vimos cómo definir colores, cierto, puede ser hexadecimal o el término de un color. Esto Esto es justamente lo que puse aquí, vean.
+Border, un píxel, grosor de un píxel, solid y read. Se lo puse a todos, ya, pero se lo voy a poner, por ejemplo, al body ya para poder diferenciarlo. Si lo veo acá, bueno, el body es todo esto tampoco es que se diferencie. Voy a ponerle al H uno.
+El h uno que efectivamente vean como solo el h uno es el que tiene el borde, ya ahí podemos diferenciar la caja.
+Eso es respecto al border.
+Ya que es uno de los conceptos más sencillos que se pueden entender.
+Listo, vamos al siguiente y el siguiente es el padding, vamos a ver el espacio interno que puede tener eso.
+El padding, que es con doble, con doble este de listo hasta acá, genial, o k el padding. ¿Cómo definimos el padding? El padding es tal como se escribe ahí, simplemente escribimos padding, pero acá hay la forma, o sea, la forma depende de.
+A ver.
+Primero tengo que explicar, obviamente, el concepto de lados, que básicamente es esta caja tiene lados, nada más que eso. Ya cada lado se asocia, o sea, cada lado tiene un término, un nombre de término para referirte. Ya tú quieres poner espaciados, pero digamos quieres poner espaciados solo en este lado.
+Ya o solo en este lado, bien cada lado, o sea, la caja tiene lados y cada lado tiene un nombre. Es eso nada más que eso. El lado superior se llama top.
+Ya viene ese término inglés top arriba, el lado inferior que está abajo se llama bottom. Voy a ponerlo en minúscula porque así es como se debe escribir bottom.
+Esto es todo.
+Ya vamos a ponerle naranja.
+Yo voto ya hasta ahí, sencillo los lados, los costados. Todavía es más sencillo porque son términos que conoces. El lado izquierdo es left, es pues izquierda en inglés, y el lado derecho es right o right, nada más que es.
+Así de sencillo. ¿Por qué definir los lados de una caja? Porque justamente vamos a usar estos términos para decidir, por ejemplo, a qué quiere poner tu espacio. Ya cómo funciona si quiero ser específico y sólo ponerle a un lado, o sea, ponerle a un lado en específico, el la sintaxis sería esta.
+Padding y el nombre de lado y acá pones el lado ya y acá pones el valor que no le das píxeles, por ejemplo, ya o la unidad de medio ejemplo, padding top ya padding top. Estoy diciendo que quiero ponerle a la parte de arriba un espacio igual a que.
+Digamos que igual a 10 pixeles.
+Ya vamos a probar esto.
+Vamos a probar esto, vamos a ponerle un espacio. ¿Cómo ven ustedes? El h Uno no tiene ningún espacio arriba, ya no tiene ningún espacio arriba, no hay ningún espacio, sea separado del límite que está arriba.
+Lo que hago con esto al ponerle esto es que le digo, hey, yo sí quiero espacio arriba. Bueno, en este caso dentro de la caja, vean, dentro de la caja se ha añadido un espacio.
+Ahí lo pueden comprobar, o sea, el contenido es el azul, pero ahora ha agregado un espacio que está en verde que, como indica acá, es el padding, pero solamente le ha agregado arriba, no le ha agregado a los otros lados en específico. Bien, eso es la forma de ponerle padding a un lado en específico.
+Pero hay otra forma, hay otra forma que es mucho más sencilla, es como que como que un atajo ya un atajo y es el siguiente, simplemente usar el término padding y acá, según la cantidad de valores que tú pongas aquí adentro, va a tener cierto comportamiento.
+Ya comportamiento según la cantidad de.
+Comportamiento según la cantidad de valores, nada más que eso.
+Veamos, veamos, si tú le pones solamente un valor, por ejemplo 10 píxeles, lo que hace aquí es lo siguiente, lo que hace aquí es ponerle padding, perdón, aplica.
+A todos los lados ya es simplemente eso. Si tú le pones un único valor, aplica a todos los lados ya valor.
+Aplica a todos los lados, nada más que eso.
+Por ejemplo, si yo no hubiera puesto padding top, yo no quiero padding top y pongo simplemente así padding 10 píxeles. ¿Qué es lo que hace? Voy a subir arriba, voy a ver mi perfil y si lo vemos.
+Vemos que exactamente ven, vean el área verde, el área verde que ha pasado y es que le ha puesto ahora sí está aplicado acá uno tanto arriba, tanto los lados como tanto abajo o ky si visualizan aquí esto más descriptivo todavía, ya si visualizan aquí es más, es más descriptivo y está diciendo sí, efectivamente hay 10 arriba, 10.
+Abajo, 10 a la derecha y 10 a la izquierda. Es así de sencillo, ya así es la forma de poner a todos los lados a la vez si lo deseas, si tienes seguro de pues querer espaciarlo así. La otra forma, seguimos con el atajo, si ahora le pones 2 valores, ¿qué pasa si le pones 2 valores y ya no le pones uno?
+Separado así con un espacio, simplemente si tú le pones 2, aplica así, aplica un valor a la vertical, perdón, a la horizontal.
+No, primero es a la vertical, perdón, primero es a la vertical, aplica el primer valor.
+El primer valor a la vertical.
+Es decir, ato y voto.
+Y aplica el segundo valor, el segundo valor a la horizontal, o sea, left y right, nada más que eso.
+Es eso lo que hace ya aplica el primer valor a la vertical, es decir.
+Ya.
+Es decir, al top y al bottom lo que están aquí y lo segundo a las costados. Ya vamos a verlo, vamos a verlo, vamos a ponerle 10, pero al costado hay que ponerle 20 pixeles para que se visualice más claro.
+Vamos aquí y si le damos sobre este, veamos, veamos, veamos exactamente que arriba sigue con 10 píxeles, pero ¿qué ha pasado con los costados? Es un padding más ancho, le he puesto 20. Bien, esto se visualiza ahí porque es justamente lo que he dicho, se ha aplicado arriba.
+El primer valor de 10 píxeles, que es esto de acá a la parte de arriba superior, y se ha aplicado este 20 píxeles a la parte de los costados, ya nada más que eso. Ese es la segunda forma y la tercera y última, chicos, la tercera y última es poner los cuatro valores.
+¿Qué significa? Pues ponerle a cada uno, acá es como que valor específico, no es valor a cada uno de los cuatro lados que está ahí, nada más que eso, cómo va, cómo va, o sea, cómo se aplica, se aplica en los sentidos de la aguja de reloj, es decir, así, uy, correcto.
+Aplica los sentidos de la aguja de reloj, es decir, el primer valor es top, el segundo es right, el tercero es bottom y el cuarto es left.
+Esto es así, nada más que eso vamos a poner acá stop.
+Ya, top right.
+Bottom y left.
+Es eso.
+Es nada más que eso.
+Vamos a probarlo aquí y vamos a ponerle valores distintos para que puedan visualizar más claramente cómo se aplica a cada uno, ya a top, a left, a right, a bottom y a left.
+Le selecciono el documento y efectivamente pasa eso. Vean como la parte de arriba solo tiene 10, luego viaja a la parte de la derecha que tiene 20, abajo tiene 30 y al costado tiene el mayor ancho, que es perdón, el mayor espaciado que es de 40, nada más.
+Con eso respecto a lo que sería Padding.
+¿Se pudo entender, chicos, cómo hice el espaciado internamente, el espaciado padding?
+Los leo ahí en este todo clarito, genial.
+Bien, Yael, bien, se pudo entender. El Diego me dice bien, genial.
+Genial, genial, genial. ¿Por qué? ¿Por qué es necesario entender padding? Porque la misma sintaxis va para margin, chicos, la misma sintaxis es lo mismo para margin, ya tal cual. La única diferencia es que margin es espaciado a exterior, ya o k, pero lo mismo que ustedes ven aquí.
+Ya tal cual está aquí, tal cual es marching.
+Ya tal cual es margin es tal cual, es decir, si queremos, por ejemplo, acceder a margin.
+Simplemente cambiamos en lugar de padding, ponemos margin.
+Ya que es el término justamente para referirnos a ese borde, ya margin. Si queremos este mencionar a un lado, margin, margin lado ya, y también el comportamiento varía según la cantidad de valores, ya margin de un solo valor aplica el margin, o sea, el espacio fuera a todos los valores.
+Margen de 2 valores aplica al primer valor vertical y al segundo valor horizontal, y el margen de cuatro valores se le aplica pues a los cuatro específicamente. Vamos a verlo en acción para que ustedes lo puedan ver.
+Vamos a quitar el padding.
+Vamos, de hecho, vamos a poner un padding de 10, lo vamos a dejar así. Vamos a dejar ese border porque quiero que vean justo la diferencia entre espaciado interno y este espaciado externo. Vamos a ponerle el margin, el mismo a todos ya de 20 píxeles a ese HU.
+Y cuando lo veamos, cuando lo veamos ejecutado, vean cómo es la diferencia. Ya vean acá, ahora están implementados los 3. Este ahora sí se ven, sí se ve claramente las 3 áreas, las cuatro áreas en realidad que mencionamos.
+En el box model no que mencionamos aquí se ven claramente las cuatro áreas. Ya vemos el azul, que es el contenido donde está justamente pues el nombre que pusimos. Vemos el verde, que es ese padding de 10 que le pusimos, el borde que es esa línea de ahí, es solo un píxel, así que es delgadito.
+Y vemos el margin, que en realidad es el que está espaciando, está fuera de la caja. ¿Cómo lo notamos que está fuera de la caja? Por el borde, vean que está fuera del borde. Ese es el margin y que es se usa usualmente para separar el elementos uno de otro, porque este margin lo que está haciendo es separar este h Uno.
+De estos enlaces de este cuadrado que está acá, ven, está separando de esto y también ha hecho un espaciado arriba, separando justamente la página. Bueno, el límite de este elemento comunitario, ven como aleja como que la caja respecto a este otros elementos. Ese es sencillamente el margin.
+Y la sintaxis que tiene es similar a la de padding, solo que el comportamiento obviamente es distinto, chicos, es distinto.
+Ya se puede comprender ahí el margin, el espaciado.
+Me comentan, porfa, porque es idéntico, ya es idéntico. Yael, Diego, genial.
+Si tiene la sintaxis de uno, ya pueden entender la sintaxis de otro. Si quieren, pueden experimentar usando el es buenísimo. Pues al inicio tal vez no puedan hacerlo al ojo. Ya te van a apoyar mucho de lo que sería esta interfaz de desarrollador.
+Ya viendo aquí el esto, pero luego lo van a hacer al ojo, nomás al ojo van a calcular el espacio entre cada uno.
+Bien, entonces eso es respecto a lo que serían las alimentaciones. Muy bien, y ya el último, lo último que nos tocaría hacer, porque ya vimos este el border, vimos el padding, vimos el margin. Lo último que tocaría hacer sería los detalles finales. ya.
+Uno de ellos es las imágenes, las este, los atributos de imágenes, que son 2 simplemente atributos de imágenes, atributos de imágenes. Tenemos 2 en la vida, ya tenemos 2. ¿Cuáles son esos atributos? Perdón, atributos este.
+Ya me está ganando en este propiedades de imágenes porque atributos es lo que es HTML, propiedades de imágenes. La primera, la primera sería.
+Uno que ya conocemos, ya la primera es uno que ya conocemos y es referente a dimensiones de la imagen. Ya la habíamos visto en HTML y es justamente width para este para definir el ancho.
+Y Eight es, creo que se escribe así, ya es para definir el alto de la imagen. Nosotros podemos definir estas dimensiones con CCS. Si recuerdan, durante HTML una imagen tenía atributos with y Aight, cierto, podemos eliminarlos.
+Y poner automáticamente lo automáticamente en CSS ya referenciamos a esa imagen, referenciamos a esa imagen.
+Y ponemos propiedades, ya ponemos e para la dimensión. Y bueno, hacer una dimensión, obviamente necesita la unidad de medida de la que ya hablamos, no píxeles. Aquí también se aplica eso. Pixel lo vas a ver en casi las propiedades que requieran eso, unidades de medida. Ya vamos a ponerle.
+400 pixeles.
+400 píxeles y vamos a ponerle, por ejemplo, de it de with, perdón, a ver, así se vería como.
+Cuando vamos a nuestro este, obviamente lo ha hecho así, un cuadrado, ya, pero acá viene un tu caso, chicos, ya y está relacionado con el aspect radio.
+Toda página web, pero toda página, en realidad, perdón, página no imagen. Toda imagen tiene un formato ya un formato que es la proporción entre lo que sería el alto y el ancho. A eso se le llama aspect radio de una imagen bien, que es la proporción en la que usualmente están las imágenes, no un cuadrado.
+Un cuadrado, pues tiene una proporción de uno a uno. Ya como ven acá, un cuadrado tiene una proporción de uno a uno. Significa que el ancho y el alto pues es igual. Hay otras imágenes que tienen de cuatro a 3, es decir, el a bueno, el ancho es más alto que el, sino el altura es más grande que el ancho.
+Hay otros que tienen 3 a 2 acá, pues tienen que el ancho es más grande que el alto. Muy bien, tu imagen tiene un aspect radio, una proporción. Ya si tú no sigues esa proporción, usualmente se ve distorsionada. ¿Cómo mi imagen? Mi imagen no es un cuadrado, por eso es que es distorsionada. Yo le puse los mismos.
+Las mismas dimensiones, tanto a mi alto como a mi ancho, pero obviamente se ve distorsionada. ¿Por qué? Porque ese no es el aspecto de radio o la proporción de alturas de perdón, de dimensiones de mi imagen. ¿Entonces, qué truco se usa acá?
+Usa el valor de auto. ¿Qué es lo que hace auto? Vean como ya este vean como y ya pude arreglar lo que sería esa distorsión.
+Auto lo que indica es lo siguiente: es dejar que el navegador calcule calcule la dimensión basado en justamente esto de aquí. El navegador conoce esta proporción de tu imagen. Entonces, si yo, por ejemplo, le puse.
+Auto a mi altura lo que me dice o k este tu ancho es de 400, ya entonces si tu proporción es de cuatro a 3, ya digamos este esto es el ancho es de cuatro a 3, tu altura debería ser de aproximadamente 300, porque así es como debería estar.
+Y yo me voy a inspeccionar.
+Ya me voy a inspeccionar en este caso, bueno, este.
+Acá le ha puesto una altura de 532 ya entonces la proporción debe ser más o menos de 5 a cuatro, ya debe ser de 5 a cuatro respecto a acá se ve ya respecto a mi imagen, lo ha calculado. Entonces ese es el trucazo ya para que ustedes no estén tanteando de a ver cuál es la proporción de mi este de mi este y radio para que no estén así tanteando.
+Pongan auto a uno de los elementos y pónganle el tamaño al otro, ya pónganle auto a uno de los estés porque y pónganle un tamaño fijo, eso sí, a la otra dimensión para que pues pueda calcularlo automáticamente. Pues si yo, por ejemplo, le pongo 200, aunque le pongo 200, vean que no se ha distorsionado porque ha seguido la proporción, ya ha seguido la proporción. y.
+El sistema del navegador ha calculado matemáticamente cuánto es tu altura. Muy bien, este programadores, programadores, déjenle este, déjenle ese cálculo matemático a lo que sería el sistema. Ya bien, ahí hemos visto las dimensiones y ese trucazo de este. y.
+Por otro, otra propiedad que vamos a ver es el border radius. El border radius simplemente es bordear las esquinas de una imagen, nada más que eso, ya nada más que eso.
+Vamos a poner aquí es.
+Bordear las esquinas de una imagen es simplemente eso. ¿Qué haces? ¿Qué cómo se? O sea, vamos a probarlo border radios. Bien, por ejemplo, pongo una unidad que sería 10 píxeles y vamos a ver cómo las esquinas.
+De nuestra imagen, vean, ya no son puntiagudas, ya no es un cuadrado, sino que se han redondeado, que es lo que hace ese atributo. Mientras ustedes, mientras más este dimensión, más píxeles le pongan, se va a redondear más ya consejo aquí.
+Si ustedes quieren tener una esquina así completamente redonda, no esas este fotos de biografía redondas circulares, se recomienda poner 50%, que es otra unidad de mina, el porcentaje. Ustedes le ponen 50% borde radius, lo que va a hacer es si es un cuadrado.
+Ya se va a notar este un círculo perfecto, ya un este un redondeado perfecto. El mío como no es esa proporción, entonces parece un óvalo. Ya por eso se visualiza así, pero si este su imagen es un cuadrado, si se va a notar el borde radius como un círculo. Ya eso es para tal vez aquellos este.
+Aquellos de ustedes que han que hayan puesto, digamos, quieran su imagen, verlo como un círculo, no con ese diseño, con este, con este código, con esta línea de acá de borde radio, 50%, se logra eso bien, eso creo que con eso ya estaríamos ya terminando lo que serían los atributos.
+De este las imágenes y vamos a terminar ya con lo de los enlaces ya para terminar lo que sería, pues básicamente los las propiedades de CCS ya en propiedades de enlaces también solamente hay, les voy a mostrar 2.
+Propiedades enlaces, vamos a ver 2, una de ellas es.
+En realidad, los enlaces ya solamente vamos a mostrar uno, ya es text decoration.
+Es de Correction, justamente lo que hace es modificar esa línea que ustedes han visto aquí, ya como ven los enlaces que ya estamos acá.
+Los enlaces vienen con una línea por defecto, cierto, esa línea es text decorrection. Lo que ha hecho es ha puesto text decorrection underline.
+Este término acá, cuando pones text de correction underrain, lo que hace es exactamente es no ponerle una línea así. ¿Cómo se lo quitamos? Se lo quitamos de esta forma con esta propiedad de aquí, test de correction no con test de correction no.
+Vamos a poder eliminar eso.
+Vamos a probarlo a.
+Test de correction, esto aquí y aquí me indica no.
+Ya se lo puse y vean como vean como exactamente han desaparecido. Eso ya están muy juntos. Voy a aprovechar que hice esto para colocarle 20 píxeles de espaciado para que vean cómo se separó. Ven, ya no están juntitos, ya se puede visualizar mejor y como el enlace es un este, pues simplemente es texto.
+Nosotros le podemos poner ahí propiedades de texto que ya vimos, por ejemplo, color, no, ahí vimos color *****. Vean cómo le cambié ahora sí a color, ya se puede notar. Le pueden poner, por ejemplo, un foam wait de 500 ya y le ponen así una negrita o k.
+Vean como tienen ya casi el mismo estilo que los enlaces que vemos acá en la página de Coca-Cola. ¿Lo ven? Ya no, ya son más serios, por así decirlo, o ky solamente eso ya. Y por último, el hover, chicos, el hover es.
+Bueno, los enlaces son elementos de interacción, cierto, los enlaces son elementos de interacción y acabo de.
+Los enlaces son elementos de interacción, cierto, es decir, el usuario usualmente interactúa con los enlaces dándoles clic a esos enlaces. Ya entonces lo que se presentan son estados, ya por ejemplo, cuando le das clic a un enlace es un estado de cuando pasas un cursor es un estado. A esto se le llaman pseudoclases.
+Pero vamos a verlo mejor en código porque se ve más sencillo. A estas pseudoclases se le agregan al momento de crear, o sea, al momento de definir una regla, ya se define una regla normal, pero como le agrego una pseudoclase: 2 puntos.
+Ya 2 puntos y el nombre de la segundo clase. ¿Cuál es el nombre que ustedes solamente necesitan conocer para es hover? Ya hover te indica que al momento de pasar una de al pasar tu mouse sobre el enlace, vas a aplicar los estilos que están aquí.
+Es así de sencillo, ya es así de sencillo, aplica.
+Estos estilos al momento de pasar el cursor.
+Sobre el enlace.
+Un ejemplo fácil y rápido ya es el siguiente, vamos a poner un background color, uno que se note ya para que se pueda ver a simple vista.
+Aquí no tiene ningún background color, ya está limpio. Vean, he puesto background color, pero no ha cambiado nada. ¿Por qué? Porque se va a ver solamente cuando pase el cursor sobre el enlace, miren.
+Uy, qué pasó, a ver.
+Ha pasado algo ahí, ya no pasó nada ya.
+Where?
+Uh.
+¿Vamos a eliminar, entonces hay algún este?
+ya vamos a ver mejor con provincia.
+Con colores.
+I.
+Hm.
+No.
+Mhm.
+Color sangueña.
+Sí, ya me llamé, ya sé que pasó. Es que había cerrado mi página web y estoy con una página web, vean, congelada porque es de lo que había cerrado. Ya entonces no es la actual, ya tenía que abrir de nuevo esto y ahora sí, miren, vean como al pasar el cursor.
+Sobre la página, sobre el enlace, sí me cambia ya aquí sí funcionaría background.
+Ya solo que no me voy a funcionar, voy a poner esto para que lo vean más claro todavía.
+Ya le puse un background color al enlace, pero vean que no se aplicó aquí, sino cuando se va a ver, cuando a cuando pasa el cursor sobre ese enlace ya.
+Lo ven nada más que eso. Ese es el comportamiento. Ya es uno de los aquí no, aquí no se visualiza. Bueno, sí, miren, miren qué pasa cuando le pasamos, vean que en realidad aplica un border. Ya acá hay hover ha aplicado un border y también un movimiento de iconos. ya.
+Pero vean el border que aparece debajo cuando pasamos, solamente cuando salimos no hay eso.
+Es ese comportamiento que usualmente se ven.
+Okey, listo, creo que con eso ya tendríamos la mayoría de propiedades. Dice: Uy, perdón, que no te había leído, Yarni. Profe, si tengo varias imágenes, creo una caja con ID para cada imagen. No se puede poner ID a cada imagen directamente sin necesidad ponerlo en caja. Okey, si tienes varias imágenes, creo una caja con ID.
+Para cada imagen ya.
+No, bueno, este el border radius aplica a lo que serían las imágenes, ya si te refieres a redondear las esquinas, a sí, por eso a ver el selector, ahí ya tiene que ver el papel de selector ya y el selector es a quién tú quieres seleccionar. Recuerda que mencionamos en el selector.
+Hemos visto 2, ya hay varias formas de seleccionar, pero hemos visto 2. Muy bien, ¿dónde está?
+¿Dónde está? Aquí ya hemos visto, no, aquí no está, aquí está.
+El nombre de la etiqueta que al momento de mencionar el nombre sí le va a aplicar a todas las imágenes. Ya aquí está buscando a todas las imágenes que tenga tu HTML. Si yo tengo 2 imágenes, a esas 2 imágenes le va a aplicar, pero si tú quieres ser específico y escoger a una imagen en este en común.
+Ya ahí sí te conviene ponerle ID.
+Ya si te ponía, por ejemplo, imagen.
+Por ejemplo, vamos a poner imagen perfil ya ahora, si tú le quieres poner solo a esta imagen, usa su ID, es decir, haces esto.
+Pones michi, que es la sintaxis para escoger un ID y le pones imagen perfil. Con esto ya estaría seleccionando únicamente a esto de acá ya y acá dentro le pones, pues el las propiedades que tú le quieres aplicar. Ahora hay otro, hay otra forma de selector.
+Ya que yo les voy a dejar como tarea, chicos, que también es muy usada, que es por clase, ya usamos por clase.
+Aquí se usa así, punto clase, clase, clase es otra propiedad ya en index, otra propiedad donde nosotros este podemos agrupar bajo, o sea, bajo cierto criterio. ¿Cómo así? A ver, clase es igual que ID ya, pero con clase lo bueno de clase.
+Es que nosotros seleccionamos, creamos el grupo ya y nosotros seleccionamos qué elementos formen parte del grupo, por ejemplo, class about. Mira, acá me indica todavía aquí ya vamos a ver a qué hay idea, vamos a ver, vamos a ponerle class, que es un atributo que se le pone a cualquiera y vamos a decir.
+Texto.
+O no sé, listo.
+Pro.
+Ya list rojo.
+Y esto sí lo podemos repetir acá. Lo que estamos haciendo es agrupando a estos 2 elementos en esta clase. Ya la clase sí lo podemos repetir, si son valores que se pueden porque no es un identificador. Ya la clase es un agrupador, agrupas elementos y bajo este mismo concepto ya.
+¿Por qué le puse clases a esto? Porque digamos, tú no quieres seleccionar este, tienes varios elementos ya varias listas. Tú no quieres seleccionar a todas las listas. Bien, no quieres seleccionar a todas las listas, pero sí, por ejemplo, tampoco quieres este, quieres seleccionar a tienes 10 y quieres seleccionar a 8.
+No vas a poner a cada uno de esos 8 un ID, no para poder seleccionar 1:1, entiendes, mejor mete los 8 dentro de un grupo y a ese grupo llámalo. Eso es el objetivo de CLAS. Ya eso es el objetivo de CLAS y es por el cual se usa más. Por ejemplo, vamos a usar CLAS.
+List rojo punto list rojo, acá ya me lo dice, ya le estoy poniendo rojo y vean como al momento de ir a mi este a mi página web, solamente a esos 2 elementos de lista le ha aplicado esa propiedad. ¿Lo ven a este que es hora de aventura?
+Yo no lo he, no lo he integrado dentro de la clase, entonces por eso no me lo he aplicado. Es otra forma de poder agrupar elementos ya, pero no usar una etiqueta. Ya usualmente usamos clase para styles ya para seleccionar, nada más que eso para justamente seleccionar.
+Decir voy a agrupar a estos 2 porque solamente a estos 2 les quiero aplicar el estilo a este no.
+Eso.
+¿Clase se puede repetir el nombre y el ID es único, verdad? Sí, exactamente Juan, el ID es único ya, mientras que clase sí puedes repetir porque obviamente le tienes que aplicar la misma clase a varias etiquetas. Ese es el objetivo de una clase: agrupar.
+Genial, Jerry, no, gracias a ti bien. este.
+Justo este último me faltaba la última pieza clave, class ya class y el objetivo que tiene, que es uno de los electores también más populares con estos chicos, ya con esto yo creo que ya podrían avanzar su este podrían avanzar su laboratorio. Ya yo, por ejemplo, ya había avanzado, voy a.
+Incluso lo voy a poner en vivo, como me quedo a mí, solamente con lo que aprendimos ahora ya.
+Porque obviamente hay más, ¿no? A mí me quedó así, ya oye, esto no. Bueno, aquí por alguna razón me está saliendo muy grande la imagen.
+Voy a quitar esto porque le he hecho modificaciones.
+Y esto también lo he visto.
+Y creo que ya sé porque la imagen se le así, porque acá no le he puesto etiqueta de imagen. Disculpen chicos, vamos a poner auto y acá vamos a poner fit, ¿no?
+Bite cuatro.
+Ya listo, más o menos a mí me salió así. Ya he escogido estos colores para mí. He centrado, por ejemplo, en el footer el texto, he tenido, le he puesto un border a mi imagen, ya un color más o menos este que se visualice en este.
+Body, los las etiquetas de enlace al pasar por ellos cambian un color blanco con hoover con hover, perdón, y eso no, eso es lo que yo le puse a esto. Entonces yo quisiera que ustedes interactúen con su página web, prueben los colores que ustedes han seleccionado y le pongan las propiedades que hemos aprendido hasta el día de hoy.
+Ya ahí este ahí en el laboratorio justamente están las indicaciones, entonces pueden seguir eso o pueden poner el valor que ustedes deseen. Bien, chicos, lo que básicamente les pide aquí en el laboratorio es, además de implementar esto, ya logros adicionales, acá vemos el border.
+El border, este sí, hay diferentes formas de implementar border. Yo les mencioné una que es border solo, pero también podemos especificar el lado al que le podemos poner el borde ya clases. Aquí está el concepto de clases, cómo se crea una clase exacto y cómo se reutiliza ya las sombras boxhadow.
+Ya hasta hacerles alcanzar, por ejemplo, que en realidad este hay generadores, ya por ejemplo, boxhadow generator, ya es como una calculadora donde te tú puedes este como que aplicar el es que en realidad es el sombreado de caja. ya.
+Es el sombreado de caja.
+Vea, y acá ustedes pueden interrumpir que tiene muchos elementos. Eso listo, eso es en caso de logros adicionales. La entrega, la entrega aquí dice bueno, la paleta, el código básicamente es el código, el screenshot de su código.
+¿Y de su perfil ya cómo se visualiza su perfil? Ambos, el código y este cómo se visualiza efectivamente su perfil implementada justamente ese estilo. Eso únicamente es la entrega o k con eso ya que estaríamos concluyendo esta clase número, pues número 3.
+¿Ya alguna consulta, alguna pregunta que tenga antes de poder cerrar?
+Chicos, los escucho, tal vez me mandan su feedback de todo claro para cerrar con broche de oro.
+Diego.
+
+Orador 4   3:47:49
+Sí, he tenido problemas para intentar cambiar los enlaces. Por ejemplo, la alineación sí me ha salido el TextAlign bien, pero al momento de quererle meter quitarle el subrayado, ponerle otro color de fuente o el tamaño de letra,
+
+Orador 1   3:47:50
+Sigue.
+Ajá.
+
+Orador 4   3:48:11
+No se mueve, no reacciona.
+
+Orador 1   3:48:15
+Yeah.
+Ya posiblemente eso sea o K tiene varios este varias posibles causas. Ya lo mejor sería que sí me mandes la captura por el WhatsApp ya del código, pero este sí te dejo un dato acá y tiene más que nada relación con simplemente poner a no.
+No sé si con esto estamos interactuando con la etiqueta directamente de enlace y aquí podemos ponerle el color, podemos ponerle a el central, el centralizar ya no es a, pero a la etiqueta si le estás aplicando el color, el texto, etcétera, ya, pero para mayor detalle de eso.
+Diego, te voy a pedir el screenshot, porfa. Creo que espero que tengas. Tienes mi número o K ahí en el WhatsApp para poder ya genial. Ahí te voy a pedir el screenshot de eso para poder guiarte con mayor detalle. Ya listo.
+
+Orador 4   3:49:06
+Sí, sí, sí, sí.
+Gracias.
+
+Orador 1   3:49:16
+Genial, gracias a ti, Diego, por la pregunta. ¿Alguna otra pregunta, chicos? Juan, Jarni, Carlos, Kevin, Yael, Ángel, Yosidel, John, Kelly, John, Ay, y Oswaldo. Todo claro, perfecto, Juan.
+Perfecto, me alegra que usted haya quedado todo claro ya porque ahora pues en esta semana tienen para poder este practicar ese CSS en su página ya para que ustedes pues es su obra de arte, ya su creación. Entonces ustedes pónganle el color que más les guste, vean como el.
+Tamaño de texto que más les guste, vale porque su representación, su perfil va a hablar de ustedes.
+El código dirhover no es más, claro, este es esto directamente ya puedo poner esto directamente a hover aquí.
+Lo que hago, pues sencillamente es al elemento al que le vas a aplicar hover. Hover sabemos que es, pues es ese pseudoclase que actúa cuando pasamos el cursor sobre la sobre el elemento, que en este caso es el enlace, no le va a aplicar eso.
+Listo.
+Entender.
+Listo, genial. Entonces bien, chicos, creo que ya recibí el feedback de cada uno. Creo que con eso ya nos podemos retirar porque ya siendo ya muy tarde, porque me pasé algunos minutos procuré este cumplir y espero pues que hayan llevado alguna lección respecto a CCC.
+Cualquier consulta, cualquier duda, igual que yo, igual que, por ejemplo, Diego, me pueden consultar al WhatsApp durante la semana para poder guiarlos. Tal vez en alguna propiedad CCS quieran implementarle algo nuevo. Hay diversas propiedades, chicos, estas son las más vitales, por así decirlo, pero hay otras más que pueden pues descubrirlo, no con esa.
+Pasión autodidacta de porno 100% claro, uf, muy bien, eso me creo que eso me hace dormir aliviado, sabiendo que pudieron entender, chicos. Okay, entonces con eso ya nos podemos retirar. Muchas gracias a todos, hasta luego, chao, chao, bien, chao, buenas noches.
+Voy a dejar de grabar.
+Diego, te escucho.
+
+Orador 1 ha detenido la transcripción

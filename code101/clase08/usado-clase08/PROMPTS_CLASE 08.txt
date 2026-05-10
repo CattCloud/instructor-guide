@@ -1,0 +1,155 @@
+Prompt vago PARTE 1 DEL LABO---------------------------------------------------
+
+Crea una aplicación web tipo linktree que tenga botones para mis redes sociales y una sección para mi información de perfil.
+
+
+
+Plantilla de Prompt PARTE 2 DEL LABO A USAR EN GEMINI PARA OBTENER UN PROMPT DE CONSTRUCCION PARA CLAUDE
+- En caso tengas los detalles precisos de tu labo 07 llena este prompt con tus datos personales y de diseño(objetivos,layouts,colores)  -----------------------------------------	
+
+Prompt:
+Ayúdame a construir un prompt estructurado para pedirle
+a Claude que genere el código HTML/CSS completo de mi
+página web personal "MyLinks".
+
+═══════════════════════════════════════
+MI PERFIL PERSONAL
+═══════════════════════════════════════
+
+- Nombre completo: [___]
+- Rol o presentación (cómo quieres que te vean): [___]
+  Ejemplo: "Estudiante de desarrollo web",
+  "Diseñador gráfico freelance", "Músico y productor"
+- Biografía corta (1-2 líneas que irán en tu página): [___]
+
+═══════════════════════════════════════
+MI OBJETIVO DE REDISEÑO 
+═══════════════════════════════════════
+
+- ¿Qué estilo visual elegí? (brutalista, minimalista,
+  colorido, oscuro, corporativo, etc.): [___]
+- ¿Quién es mi usuario objetivo? (¿Quién va a entrar
+  a mi página y qué necesita hacer rápido?): [___]
+- ¿Qué problema le resuelvo a ese usuario?: [___]
+
+═══════════════════════════════════════
+MI LAYOUT ESCOGIDO 
+═══════════════════════════════════════
+
+- ¿Qué variante de wireframe elegí y por qué?: [___]
+  Ejemplo: "Layout centrado con foto arriba porque mi
+  usuario necesita reconocerme visualmente primero" o
+  "Layout asimétrico alineado a la izquierda porque
+  quiero que se lea como un documento profesional"
+- ¿Dónde va mi foto de perfil?: [___]
+- ¿Cómo se organizan mis botones? (columna vertical,
+  fila horizontal, agrupados por categoría): [___]
+
+═══════════════════════════════════════
+MIS TOKENS DE DISEÑO 
+═══════════════════════════════════════
+
+- Color de fondo principal: [___] (Ej: #F5F5F5)
+- Color de acción / acento (botones): [___] (Ej: #FF6B35)
+- Color de texto principal: [___] (Ej: #1A1A1A)
+- ¿Tiene sombras? Descríbelas: [___]
+  (Ej: "sombra dura sin difuminado, 4px offset")
+- ¿Bordes redondeados o rectos?: [___]
+- Tipografía preferida (si la definiste): [___]
+
+═══════════════════════════════════════
+MIS ENLACES (los botones que tendrá mi página)
+═══════════════════════════════════════
+
+Lista cada enlace con su nombre visible y URL real:
+1. [Nombre del botón] → [URL o placeholder]
+2. [Nombre del botón] → [URL o placeholder]
+3. [Nombre del botón] → [URL o placeholder]
+4. [Nombre del botón] → [URL o placeholder]
+(Agrega más si los necesitas)
+
+═══════════════════════════════════════
+INSTRUCCIÓN FINAL PARA GEMINI
+═══════════════════════════════════════
+
+Con toda esta información, genera un prompt
+estructurado y completo que yo pueda copiar y pegar
+directamente en Claude. El prompt debe incluir:
+1. Rol del modelo (qué tipo de desarrollador debe ser)
+2. Contexto completo del proyecto
+3. Especificaciones técnicas (HTML + CSS en un solo
+   archivo, mobile-first, responsive)
+4. Restricciones de diseño basadas en mi estilo y tokens
+5. La instrucción de que el output sea un Artifact
+   renderizable en Claude
+
+Plantilla de Prompt PARTE 2 DEL LABO A USAR EN GEMINI O CLAUDE PARA DIRECTAMENTE CONSTRUIR TU PAGINA WEB
+- En caso NO tengas los detalles precisos de tu labo 07(necesitas una imagen con diseño HIGH FI para apoyarte) o si tienes tu diseño en FIGMA HIGH FI,  , envia este prompt a la IA junto con la imagen del diseño -----------------------------------------	
+
+Prompt:
+[ROL] 
+Actúa como un Experto Desarrollador Frontend Senior de clase mundial.
+[CONTEXTO] 
+Te adjunto una captura de pantalla de mi diseño High-Fi  para mi página personal "MyLinks". Tu misión es convertir este diseño estático en un sitio web real y funcional.
+[MI INFORMACIÓN (Contexto que la imagen no tiene)]
+- Nombre completo: [___]
+- Rol o presentación : [___]
+- Biografía : [___]
+- Usuario objetivo: Reclutadores técnicos y colegas.
+
+[MIS ENLACES (Para los botones)]
+1. ENLACE → (Pon tu link aquí)
+2. ENLACE → (Pon tu link aquí)
+3. ENLACE → (Pon tu link aquí)
+4. ENLACE → (Pon tu link aquí)
+[TAREA]
+Genera el código HTML5 y CSS3 completo (en un solo archivo) que replique EXACTAMENTE el diseño de la imagen adjunta. 
+[RESTRICCIONES TÉCNICAS]
+1. Fidelidad Visual: Respeta los colores (tokens), las sombras duras, los redondeados de los botones y la disposición asimétrica.
+2. Responsividad: El código debe ser Mobile-First. Asegúrate de que en pantallas más grandes el diseño se mantenga elegante y no se rompa la asimetría.
+3. Tipografía: Usa fuentes de Google Fonts que se asemejen lo más posible a las del diseño.
+4. Código Limpio: No uses librerías externas (como Bootstrap o Tailwind) a menos que te lo pida. Usa CSS puro.
+[FORMATO DE SALIDA]
+Proporciona el código en un Artifact renderizable para que pueda validar el resultado visual de inmediato.
+
+
+
+
+
+EDITAR BOTONES---------------------------------------------------
+
+Quiero que modifiques los botones de enlace de mi
+MyLinks usando como referencia el estilo CSS de este
+estilo de botón que encontré , te comparto el codigo 
+para que lo implementes:
+
+[PEGAR AQUÍ EL CÓDIGO CSS DEL BOTÓN ELEGIDO]
+
+Instrucciones:
+- Aplica este estilo visual a TODOS mis botones de enlace.
+- Adapta los colores del botón a mi paleta existente,
+  no uses los colores originales del snippet tal cual.
+- Mantén la estructura HTML que ya tienes, solo
+  modifica el CSS de los botones.
+
+
+EDITAR BACKGROUND---------------------------------------------------
+
+Quiero agregar un fondo con patrón sutil a mi MyLinks.
+Aquí está el código CSS del patrón que encontre:
+
+[PEGAR AQUÍ EL CÓDIGO CSS DEL PATRÓN]
+
+Instrucciones:
+- Implementa este patrón como background del body o
+  del contenedor principal de mi página.
+- Adapta los colores del patrón a mi paleta existente
+  para que se integre con el diseño actual.
+- El patrón debe ser sutil, no debe competir con el
+  contenido principal (nombre, foto, botones).
+
+
+
+
+
+

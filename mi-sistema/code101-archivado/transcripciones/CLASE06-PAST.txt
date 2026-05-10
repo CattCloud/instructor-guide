@@ -1,0 +1,958 @@
+Clase_06 Code101n19
+11 de marzo de 2026, 12:42a.m.
+2 h 53 min 6 s
+
+Orador 1 ha iniciado la transcripción
+Orador 1 es instructor
+Orador 1   0:06
+Yeah.
+Uy.
+Y ahora sí creo, chicos, ahora sí, creo que sí, que sí, y ahora sí estoy compartiendo.
+Bien, entonces ahora sí continuamos bien. Entonces, ¿qué es lo que dijimos? Que íbamos a ver responsive, ese término nuevo que tal vez algunos conozcan y algunos no. ¿Qué es responsive? Empezamos por aquí, o k.
+Nosotros, cuando programamos, usamos esta pantalla, ¿cierto? ¿Qué pasa? Nosotros maquetamos, o sea, codificamos, desarrollamos la página web, pero pensando en qué chicos, en la pantalla en la que estamos actualmente, o sea, así como lo ves aquí todo está bien ya y en tu página cuando tú lo veas en tu computadora o en tu.
+Bueno, en tu laptop o computadora vas a ver que todo está correctamente en su lugar, ya donde tú quisieras que esté, pero nosotros programamos o bueno, diseñamos, por así decirlo, pensando solamente en nuestra pantalla. Pero aquí viene algo que no hemos tomado en cuenta hasta ahora. o K estamos maquetando sobre la pantalla de la laptop.
+Pero obviamente nosotros también por experiencia, no solamente navegamos a una página web a través de la laptop, cierto, muchos aquí. Bueno, muchos aquí hemos navegado una página web a través de nuestro celular o a través de una tablet, no, y de distintos tamaños. Entonces la página, el escritorio o el monitor no es la única, el único, por así decirlo, dispositivo donde se va a nuestra página web.
+O K, más de un datazo, más del 60%, ya por así decirlo, más de la mitad del tráfico en lo que sería la página web ya a nivel mundial es a través de móviles, porque hay personas que no tienen una computadora en casa. ¿Entonces, cómo sabemos nosotros que este diseño tan bonito, digamos?
+¿Que tenemos en la en el monitor o en la computadora? ¿Se ve igual de bonito en un celular, en una tablet? No lo hemos probado, cierto. Por eso yo empiezo con esta pregunta de aquí, hoy día voy a usar Scaly Draw, hoy día no voy a usar este.
+Yo voy a probar alumno, voy a usar full escalibrador.
+Entonces yo quiero empezar con esta pregunta, chicos, ya si un cliente les pido ahorita mismo ya que su página web se vea perfecta, bueno, se vea bien en diferentes dispositivos, en un iPhone, en una tablet, en un monitor.
+¿Qué se les ocurre que tendríamos que hacer hoy para probar si justamente tu diseño se ve bien en esos dispositivos? Porque ahorita solo lo hemos hecho en el monitor, no si solo tienen el monitor, pero no lo hemos visto en solar. ¿Qué se les ocurre para que ustedes lo puedan ver en el celular? Por ejemplo, los ponen esa pregunta curiosa en el chat, chicos.
+Hacer la página responsive, Kevin hizo la tarea, hacer la página responsive, pero no, o sea, sí, hacer la página responsive, pero por detrás, correcto, acá lo que estoy preguntando es qué herramienta, no, qué tal, qué herramienta vamos a usar nosotros para ver nuestra página web también en un celular, también este verlo en una tablet.
+No específicamente, qué herramienta, qué se los ocurre, no sé, tal vez.
+¿O qué modo no? Por ejemplo, sería decirle, a ver, me compraría tal vez un celular y probaría ahí mi página web.
+¿Qué se les vendría a la mente? Chicos, conocen, tal vez algunos sí conozcan herramientas. Ahí viene Kevin otra vez, yes, Dead Tools.
+¿Deps tool, chicos, espero ahí un debate, alguien más?
+Ahí miramos.
+Alguien más, chicos.
+¿Algún debate?
+Exacto.
+También hay en realidad hay varias herramientas, chicos, ya este Dead Tools es la que vamos a ver hoy día, pero por ejemplo, este había uno que no me acuerdo cómo se llama, no lo he estado usando.
+No me guardo la página, era para guardarlo a ver.
+Pero hay páginas webs donde tú pones tu perfil y lo pueden visualizar, no me acuerdo esa página web.
+Solo conozco my viewpoints, no, entonces ya.
+A ver si me sí.
+A ver, pongo mi link.
+Y veo la página en distintos formatos, ha evolucionado el buscador de Google.
+Ahí está, a ver, acá me dice responsive viewer. Creo que este también es ya. Efectivamente nos apoyamos en herramientas, aunque este.
+No, esto es una extensión.
+En distintos dispositivos voy a poner yo para ser más específico.
+Website Planet.
+Fish.
+Había otro que era más sencillo, ya o k nos estamos desviando de herramientas, yo les voy a buscar y se los voy a mandar, pero este vamos a usar efectivamente DevTools. Muchas gracias a Jarren. Si alguien tiene una herramienta donde ven digamos dispositivos, lo puede compartir sin ningún problema por el chat, pero en esta ocasión vamos a usar DevTools.
+Una herramienta que no necesitas descargar y que lo conocemos mucho, ¿no? O sea, no es necesario nosotros que tengamos que pues tengamos que comprar una tablet, comprar un celular este para poder probar ahí nuestra página web. Muy bien, no tiene que ser necesario.
+Pero bueno, sigamos, sigamos, sigamos.
+¿Qué nos dice Jarry ahí?
+Yeah.
+Pues está escribiendo, yo voy a amar en mi página y mi celular y usé mis CC Box. o K, ya eso ya sería una técnica para exactamente.
+Sí, veo que ya estás usando unidades relativas. Muy bien, muy bien. Ese es un spoiler, pero sí vamos a usar unidades relativas. o K chicos, entonces continuamos, continuamos, no nos desviamos. Entonces no tenemos que comprar, no tenemos que comprar entonces un celular. ya ¿Qué hacemos entonces?
+Usualmente, usualmente vamos a ver.
+Vamos a ver mejor directamente DevTools. Ya voy a abrir mi página aquí en DevTools porque directamente la página nos dice es fácil, ya lo yo no sé si ya es primer momento creo que podemos inspeccionar o directamente con F 2 C.
+Listo, nada más. Ya conocemos esta herramienta que le hemos usado desde el inicio en realidad para ver el código HTMLYCSS. Entonces, la primera parte del laboratorio número 6 es súper sencillito porque en la parte número uno lo que nos dice es que nos familiaricemos con cada una de estas, este, pues cada una de.
+Lo que nos ofrece el Deptools, no, entonces hay que dar un repaso al toquecito. La primera es el HTML sencillito para ver el código de una página web.
+Vale, la otra parte es el CCS que está a usted le va a aparecer, hay en diferentes.
+Diferentes este alguno también le aparezca abajo, o k, pero sí o sí se le va a aparecer y aquí viene el código de este, el código CSS, pues del elemento seleccionado. No es sabido que se puede seleccionar un elemento y te da los estilos que tiene integrado ese elemento, pero pasa algo más. También podemos editar aquí mismo los estilos.
+Okey, creo que si lo hice en un momento, pero miren, por ejemplo, este NAP es un Flex y tiene Direction Row, pero si yo acá lo modifico, chicos, vean como exactamente se aplicó, ven, se ha aplicado. Ahora una cosa con esto es que esto lo edita, digamos, en un borrador en blanco, o sea, no es que esté modificando mi código aquí en mi Visual Studio Code.
+Simplemente lo modifica aquí porque si yo lo recargo, vean cómo regresa exactamente hacer este row, o sea, una fila. ¿Lo ven? Simplemente esto pueden usarlo, por ejemplo, para ustedes hacer pruebas, no en su página web, digamos, no sé cómo se vería este el gap de 10 píxeles. A ver, vamos a probarlo aquí antes de ponerle mi código.
+No, en lugar de estar yendo al código, funciona, entonces regreso o k eso podría ser una utilidad que le dan, que yo usualmente no lo he modificado acá, pero bueno, luego tenemos el computed que está en esta parte y también lo hemos visto al momento de en la clase justamente de explicar los box model, no el modelo de caja que es la representación de cada uno y pues acá las cuatro áreas que ven.
+Y acá abajo todas los todas todas las propiedades respectivos a un elemento, nada más que eso la consola. Bueno, la consola la vamos a ver mucho, chicos, en cuando vemos JavaScript, ya porque esto básicamente sí es con programación. Ya cuando interactuamos con JavaScript, acá se van a ver como que los resultados que hagamos con las funciones.
+Imprimir por teclado, etcétera. Ya ahora no lo estamos usando por eso, pero sí lo vamos a usar después. Luego este pues Network lo vamos a usar más adelante en cuando hagan API, REST o APIs, porque acá pues se hacen llamadas a esos elementos. Ya lo van a ver, pero lo van a hacer más adelante. No quiero confundirlos con eso.
+Y nada, no, eso lo más, lo más vital, pero la razón por la que entramos aquí es efectivamente solamente por esto de aquí, no, esto de aquí es un simulador de dispositivos, chicos, es un simulador de dispositivos y lo que nos permite pues es simular dispositivos, ¿no?
+Si nos vamos aquí a este lado de aquí, a la izquierda totalmente, aquí podemos colocar el dispositivo que queramos y nuestra página web se va a visualizar en ese dispositivo, o sea, cómo se muestra en ese dispositivo. En mi caso, bueno, yo sí también estuve modificando.
+Bueno, estuve modificando. A ver, ustedes pueden verlo también en su página web, o sea, le pueden ir al link de su página web y ver cómo se visualizan distintos cestes o ky si tal vez presenta, no sé, cambios distorsionados, chicos, no se preocupen o k para los que se presentan cambios distorsionados.
+Porque este eso se va a arreglar justamente. Bueno, hoy día se le van a dar las herramientas para que lo puedan mejorar, para que puedan hacer ese sitio responsive. Muy bien, pero acá estamos viendo justamente un iPhone, una tablet. ¿Cómo sería esto sería más o menos el tamaño de una tablet? No, si tiene 912 de ancho, acá están dando las dimensiones que tiene.
+912 de ancho.
+Y Nest Hub sería como ya como que tal vez el tamaño de una laptop pequeña, ya un ancho este bien, pero yo usualmente no uso eso, yo simplemente modifico así. O sea, esa es otra forma, chicos, ya es otra forma de editar en realidad el ancho. Ya esta es otra forma de editar solamente el ancho porque es lo que necesito.
+Ya el ancho, ahorita van a ver porque, pero modifico este, por ejemplo, así sería para un celular.
+Sigo avanzando y entraría a una dimensión de tablet y sigo avanzando y ya, pues yo entraría a una dimensión de nada. Es eso, chicos, bien, es eso, coméntenme por favor, quiénes han estado usando, quiénes han estado usando estos días o ya se han familiarizado con lo que es el diptos al momento de programar. ¿Lo han estado usando?
+Chicos.
+¿Cuál es su opinión respecto a esta herramienta de desarrollador o?
+O no sé, tal vez todavía no se han familiarizado con esto, porque pues como comenté, ya lo hemos visto hace aún no me dice que bien, lo vas a usar mucho. Sí, lo vas a usar mucho, o k justamente por eso se llama una herramienta desarrollador, porque es para nosotros los desarrolladores.
+Ahí me están respondiendo.
+¿Quién lo seguía usando durante su semana de codificación? ¿Otra vez hayan revisado algún página web? Yo todavía no.
+Hmm.
+Okay.
+Sí, efectivamente.
+Efectivamente.
+Y todavía pasa muy bien, chicos, o k para los que todavía no lo han usado, no se preocupen porque justamente de eso se trata el laboratorio 6, la parte uno, ya cuando ustedes van a simplemente explorar acá. Bueno, no hay tanto que no hay nada, no hay un entregable respecto al punto uno, ya simplemente te dicen que abras tu.
+Abras el proyecto, ya en este caso My Links, pero tú ábrelo con tu mi perfil para que lo veas mejor, para que veas en un proyecto real, por así decirlo, porque tú mi perfil ya está terminado casi, ya abres el DevTools y este ves el código de HTML, la consola, bueno, la consola este.
+Hay algunas funciones ya, pero eso lo vamos a ver más en JavaScript. Como comenté, inspeccionas un elemento, modificas CCS que justamente como te comenté se puede modificar en tiempo real y activas el modo responsive, que es básicamente simular dispositivos, nada más que eso.
+¿Y este qué más, qué más y observas el problema? Y esto es lo que vamos a hacer ahora chicos, pero vamos a hacerlo con una web real. Ya vamos a hacerlo con una web real porque yo voy a ver en YouTube y quiero que vean algo.
+Vamos a probarlo con una web real, vamos aquí.
+Ver.
+No sé porque yo me acostumbro, es que en laptop yo tengo que prestar Fnyf 12 todavía en laptop. Entonces no es como una computadora donde tienes que prestar. Yo a veces me confundo. Si aprieto aplasto mal, voy a activar el modo avión y ya la regué porque me va a botar de la reunión. Entonces estoy haciéndolo así.
+Ya ahora sí, voy a cerrar esto chicos y voy a probar en YouTube y yo quiero que noten o k lo que va a pasar aquí ya.
+Iniciar.
+Y eso también vamos a quitar páginas que no vamos a ver.
+Ya quiero que miren, por favor, y noten el comportamiento mientras voy reduciendo el ancho. Ya usualmente cuando entramos en una laptop o en una computadora tiene esta estructura, pero vean qué va a pasar, chicos, cuándo, cuándo, cuándo, cuándo.
+Yo voy bajando el ancho, cuando voy bajando el ancho, en realidad lo que estoy haciendo es pasando a distintos dispositivos, ya pasando a distintos dispositivos.
+Vean cómo se comporta para cada, digamos, cada dispositivo.
+Ya ha desaparecido ahí una otra cosa.
+Y vean cómo ha cambiado y digamos que llegamos a celulares. Coméntenme por el chat, chicos, ¿qué comportamiento han visto? ¿O K, ¿qué es lo que acaban de reconocer ustedes?
+¿Se han puesto ese ojo de programador, sobre todo los que ya tienen response, qué han visto chicos?
+No, este, por ejemplo, han visto que un botón se movió.
+O K o han visto que pasado, pasó de ver 3 videos en una columna a solo tener una columna. ¿Qué es lo que se pudo ver? Se acomodó a la mirada de la pantalla.
+Ajá, sí, adaptación, muy bien, precisa, adaptación.
+Y lo dijo, que dice Juan.
+Ahí estoy esperando las respuestas, el análisis que tienen, pero sí, a ver qué comportamiento vieron. No vieron cómo este ahí mientras están respondiendo también normal, responda, chicos, no se preocupa. Quiero comentar por qué vemos el ancho, chicos, por qué vemos el ancho y no la altura.
+La altura no nos importa modificar.
+¿Que vemos el ancho? A ver, a ver.
+Peter condio.
+Primero YouTube, acabo de reconocer ya la página de YouTube, acabo de reconocer que la pantalla por donde la estamos mirando es pequeñita, o sea, están reconociendo el cambio de ancho, ya está reconociendo el cambio de ancho y lo que hace en ese momento es mutar, o sea, va a mutar todo su diseño.
+Pero el bloque de HTML no cambia, chicos, no cambia el bloque de HTML. ¿Qué es lo que cambia? Bueno, no cambia en realidad nada de código. Lo que pasa es que CCS tiene instrucciones, por así llamarlos inteligentes, ya que le dicen, hey, mira tú, este, mira este.
+Mira esta, digamos, el ancho de esta pantalla y adáptate a eso. Ya adáptate a eso. Básicamente esto a esto es justamente lo que se le llama responsive, chicos. ¿Qué es responsive? Entonces es la capacidad de que tu página web se adapte ya automáticamente y responda, pues al tamaño de la pantalla.
+En la que se está visualizando usualmente el ancho, chicos, ya usualmente el ancho. ¿Por qué? ¿Por qué el ancho, chicos? Porque este en el alto hay un en el alto es infinito. En realidad hay un scroll vertical. Yo creo que estamos acostumbrados todos al scroll vertical, cierto, lo tienen todas las páginas web.
+Pero lo que sí no se recomienda que tenga tu página web es que es un scroll horizontal, es terrible. ¿Alguien ha visto alguna página web con un scroll horizontal, es decir, aquí?
+Ya aquí y ha tenido que desplazarlo de izquierda a derecha. ¿Alguna vez alguien entró a una página y ha tenido que desplazar la izquierda a derecha?
+No, yo creo que a ver si alguien ha levantado la mano, ha encontrado algo súper raro. Exacto, en blogs antiguos ha encontrado, por así decirlo, un shiny ya algo súper raro porque no hay ya hoy la página web, las páginas web de hoy en día no tienen eso. Se considera que si una página web tiene un este es un indicador ya.
+Si una página web tiene un scroll horizontal, se le considera una página rota. Ya se le considera una página rota porque la estructura ha sido pensada solamente para, no sé, para un material para PC, pero cuando entra en otros dispositivos, lo que pasa es que pues este.
+Te genera un scroll horizontal, que lo que tienes que hacer es girarlo a la derecha para ver el contenido, para ver el contenido. Muy bien, entonces, entendido lo que es responsive, chicos, yo lo que hice ayer fue o k ayer yo estuve practicando, yo hice una landing page. Una landing page es una página con un objetivo único.
+Ya en este caso es simplemente informar de un audífono, ya que es este acá. Acá puse algunas este descripciones y bueno, acá un footer normal a primera vista. Chicos, ¿ustedes cómo lo notan? ¿Ven algo raro aquí?
+O si lo ven bien en mi pantalla, o sea, ven algo raro aquí, yo voy a cerrar YouTube.
+O lo ven bien, o sea, la posición está bien en mi, en mi, en mi monitor. ¿Cómo lo ven ustedes? Le dan un o k, está chévere, está bien diseñado.
+¿Cómo ven este esta página web que yo estaba haciendo ya?
+A ver, ahí cualquiera pueden sacar sus carteres, es decir, una puntuación uno al 10, ahí cuánto profe, no me gusta, el color tan feo normal, pero más que nada en este fíjense en este, en cómo se ha adaptado, cómo se ha adaptado a mi, a mi monitor, ya cómo se ha adaptado, o sea.
+¿Ustedes ven que están apretados los las tarjetas o está bien espaciado, está tiene tal vez el tamaño de letra correcto?
+No.
+No notan nada raro, o sea, notan nada roto. Por ejemplo, acá no hay un escolar horizontal, si lo ven no hay ningún escolar horizontal, o sea, no hay nada que me vea este, entonces es hay un indicador bueno ahí cierto.
+El espacio de arriba, ¿cuál es puse arriba? No, un espacio arriba, a este de acá, no, yo le puse ahí, yo le puse ahí, no, así es parte de la web, es como para bajarla, mamá, pero es parte de la web, no te preocupes.
+Ajá, es parte de la web. ¿Qué es lo que quería mostrar en estos chicos? Ya ¿Qué es lo que quería mostrar? Efectivamente, a primera vista, ya no hay nada extraño, por así decirlo, o sea, el tamaño está bien acá, las tarjetas están espaciadas, no están pegadas, parece una imagen correcta, este un tamaño de letra correcto para este.
+Muy bien, ya a primera vista quería que justamente digan eso, pero vamos a pasarlo por la prueba que acabamos de hacer con otras páginas.
+O sea, voy a oír.
+Mi herramienta de desarrolladores, chicos, y de en serio, o sea, ya literal, ya me dio la respuesta. Ya miren, actualmente está así, o sea, lo definí. Lo que hice yo acá es maqueté o diseñé esta página web, pero solo para el tamaño de mi laptop. de.
+De lo que se ve en mi laptop, pero vean que cuando voy reduciendo no pasa nada, ya no pasa nada y noten algo todavía, algo peor, chicos, algo peor, o sea, no pasa nada.
+Ya no pasa nada y pasa algo peor, chicos.
+Es que ahora sí apareció justamente eso.
+Ya ahora sí apareció el scroll horizontal. Ya este es el famoso scroll horizontal. Cuando tu página no se adapta a un dispositivo al ancho, específicamente tiene que aparecer esto de aquí.
+Tengo que tiene que aparecer un scroll horizontal porque lo que pasa es que el contenido no se ha encogido, ya no se ha encogido, entonces se ha desplegado, ya se ha desplegado. Entonces yo tengo que ir todavía hacia acá para poder ver. Ya son 2 scrolls todavía, ya este los usuarios de teléfono tendrían que deslizar a cada rato.
+Y esto es una muy mala práctica para diseñar una página web. Bien, pero ¿por qué? ¿Por qué no sé, por qué se ve así, o sea, por qué no se adapta? La respuesta es sencilla, chicos, y es algo que hemos estado usando ahí, pero que lo hemos estado usando por bueno, por necesidad, por así decirlo. Pero hoy, tíos, hoy se acaba la tiranía de ese lento.
+Da razón, chicos, da razón, a ver dónde está.
+La razón, chicos, es.
+Simplemente que hemos estado usando píxeles es eso. Recuerden la unidad de medida píxeles. Ya esa es la razón, el problema es píxel. Hemos estado usando píxeles para definir dimensiones, espaciado, etcétera. ¿Pero qué pasa algo? Aquí pasa algo, chicos, píxel es una unidad.
+Pero es una unidad absoluta.
+¿Qué significa que sea una unidad absoluta? Que el valor que tienen es fijo, o sea, es un valor fijo, no varía para nada.
+Si tú le dices, ya si tú le dices es un valor, a ver, es un valor fijo, ya no varía. Si tú le dices a, por ejemplo, a una imagen, ya si tú le dices a una imagen que tenga.
+Yeah, vamos a ver, OK.
+Si tú le dices a una imagen que tenga 700 pixeles de ancho.
+Que dice es que el navegador lo va a dibujar con sus 700 píxeles de ancho y no va a cambiar eso para nada. ¿Y dónde está ahí el problema? Profesor, yo no veo el problema, el problema pasa aquí. Mire, el problema pasa aquí, ya puedo eliminar esto. El problema pasa que obviamente o k.
+Estos son, digamos, tus dispositivos. Ya son esta ventana que tú miras aquí, son esta ventana que tú miras aquí. Tómalo así, es la ventana que tú miras tu página web o K un monitor que tiene, digamos, más de 1000 píxeles de ancho. Yo dibujo la imagen con un ancho de 700 píxeles, le digo 700 píxeles en CCS.
+Y ahí no noto el problema, digo, o k, no pasa nada aquí ya.
+¿Qué pasa? Un usuario que está usando tablet ya abre mi misma página y pues ahí también se va a dibujar la imagen con ese ancho y lo que va a pasar es esta tablet tiene 700 píxeles. Aquí lo que va a pasar es que va a ocupar todo el ancho acá. Tal vez no note la note justamente el scroll.
+Porque ha ocupado justo exactito el cabello, digo como hacia las justitas ha entrado ya entonces el de tablet tal vez no lo note, pero ¿qué pasa con el de móvil que es de 480 más o menos 320 por ahí? Ya a él sí, uy, a este sí le cae a este lo al del usuario que está usando móvil.
+Sí va a detectar el problema ya. ¿Por qué? Porque tu imagen es de 700 píxeles, pero tu ancho de móvil es 480. No va a caber, no va a caber y va a pasar justamente lo que pasó aquí con mi página.
+Va a pasar lo que pasó justamente con mi página, va a necesitar un scroll horizontal. ¿Para qué? Para que pueda ver el resto que no cabe. Aquí va a aparecer un scroll horizontal para que pueda haber, pues este el resto de lo que no cabe. Es así, chicos, es la razón. Esa es la razón en realidad por la que Pixel.
+No es recomendable para definir lo que son, este bueno, no es recomendable porque no es flexible ya porque no es flexible. Entonces lo que vamos a hacer el día de hoy es pasar de unidades relativas, porque los píxeles son rígidos, mientras que las unidades relativas sí permiten que el diseño fluya. Es decir, las unidades relativas sí son flexibles ya.
+Son otras unidades que le vamos a poner a nuestras dimensiones, a nuestro ancho, a nuestro alto ya para que sí se adapten al tamaño y algunos lo han mostrado ahí, por ejemplo, el porcentaje que es el que sigue o k entonces.
+Entonces, chicos, con esa explicación se puede entender el problema de por qué tendríamos que cambiar a píxeles, a ver.
+Sí, Yarmi, todo bien, bueno, no todo bien porque este no todo bien, porque ya vimos que efectivamente en dispositivos hay un problema, pero lo vamos a arreglar. Ya el objetivo de esta clase van a ver es que esta página se adapte, sea responsive, no es responsive, ahorita no es para nada responsive, para nada responsive, no lo es.
+Kevin León dicen, sí, bien, genial, me confirman ahí.
+Yeah.
+Muy bien.
+Y me están confirmando, ahí es cierto, chicos, ya parece que sí se comprendió esa explicación.
+Porque acá pasa otra cosa, ya algo a tener mucho en claro es que las unidades relativas, chicos, van a ser dependientes de algo. Ya van a depender de algo en bueno, de algo este en tu página web, por ejemplo, el porcentaje que ya saben que depende, por ejemplo, de.
+Del padre lo van a entender cuando lo explique, pero son dependientes de algo ya cada unidades que vamos a ver son dependientes. En cambio, las unidades píxeles no, pues son unidades rígidas y tú les pones y ya porque necesitan ser dependientes, lo van a van a necesitar ser dependientes para que sean flexibles y adaptativos. Bien, vamos con la primera unidad que es la de porcentaje.
+La de porcentaje es como las matemáticas, chicos, no hay acá, en realidad no hay tanto que no hay tanto que pues no hacer, es matemáticas básicas, no hay tanto que es detallar, no es como por ejemplo, tú tienes un cuadrado, ya este es un cuadrado con área, ya es un ejemplo de matemáticas, no vamos a matemáticas, digamos, tienes un.
+El área de un cuadrado ya de este 400 m.
+400 m de ancho. Ya si tú le dices cuánto es el 50% de área, ¿cuánto es el 50% del área de este cuadrado? Pues 50% que es la mitad y efectivamente la mitad. ¿Cuánto sería el 50%? Pues.
+200, es así, lo ven, es así de sencillo. ¿Cuánto es el 25% 1/4? Entonces sería 100, el 100%, bueno, el 100, 100 m, cierto, ya así lo vamos a ver en porcentaje, chicos, así lo vamos a ver en porcentaje. ¿Cómo se representa el porcentaje? La sintaxis, ya obviamente se pone el.
+Ya acá se pone lo que sería la propiedad, o sea, la propiedad que vamos a modificar, o sea, la propiedad sea dime sea with sea e son propiedades que requieren justamente de unidades ya en las que le poníamos Pixel, por ejemplo, font size, ancho, alto ya ahora.
+La sintaxis es así, la propiedad y el valor. Y acá está la diferencia, ya no es pixel, o sea, px no es porcentaje. Con esto ya estaremos definiendo el porcentaje de algo, ¿no? Por ejemplo, yo defino un with.
+2 puntos, 50%.
+Ya, pero tú me preguntarás bien, with es 50%, pero 50% de qué 50% del padre. ¿Cómo que del padre? A ver, primero que nada, los porcentajes, como dice acá, se basan en el tamaño, bueno, en el tamaño, no, en el tamaño del elemento padre. Ya nosotros le aplicamos los porcentajes a un elemento.
+Sabemos nosotros no en que en HTML hay padres e hijos, lo hemos repetido tantas veces y nosotros le aplicamos el porcentaje que digamos al h uno ya y el porcentaje, el valor de ese porcentaje va a depender de quién del padre. ¿Cuál es el padre de h uno? El div o K.
+Es así de sencillo, si por ejemplo, este es h uno.
+¿Ya si esto es h uno, el padre quién es?
+Es deep aquí, ya eso sí, a donde tú lo apliques, vamos, ponle como que estuviera en la posición de hijo. Le voy a poner a Button y haces el hijo, pero tú te fijas, también tienes que fijarte en el padre porque de eso depende el valor de el porcentaje. ¿Cómo así? A ver si este padre que es deep.
+Digamos, tiene 400 píxeles de ancho. A ver, vamos a poner aquí un width de 400 píxeles de ancho. A este h uno yo le voy a decir lo siguiente.
+¿Tú vas a tener un whip?
+We they.
+Vamos a ponerle 25%, ya vamos a ponerle un buit de 25% y voy a agregar, voy a alargar esto un poco más.
+¿Qué le estoy diciendo con esto? Con esto le estoy diciendo es cómo se calculan a partir del padre, si el width, si el ancho el padre es de 400 píxeles, el width sería el 25% de ese ancho, es decir, 1/4, ¿cuánto sería 100 píxeles?
+Y 100 píxeles es lo que se va a aplicar. Bueno, no se va a cambiar, pero es 100 píxeles lo que se aplica muy bien. Hay que verlo mejor en este. Vamos a verlo mejor aquí en el código porque yo tengo código exactamente preparado para eso.
+Ya voy a descomentar esto de aquí.
+Y voy a descomentar.
+Exacto, sí tenía ya porque en código se ve mejor. Sí, en código se ve mejor, chicos. Por eso es que preparé código aquí.
+¿Ya qué tenemos aquí? Tenemos una caja hija, una caja padre y una caja vuelo. Ya voy a formatear para que lo vean, ya caja hija, caja padre, caja vuelo. Así lo he llamado yo, justamente esta es la caja hija que está más adentro. Esta es la caja padre de la caja hija. Bueno, la caja vuelo es como que pues del hijo no.
+Creo que se entiende ahí y he definido estos de aquí para la caja padre. Yo le he dado un ancho de 400. Fíjense en esto solamente el color no importa aquí, simplemente importa el ancho. A la caja padre yo le he dado un 400. Si a la caja padre, perdón, a la caja hija le digo, hey, tú vas a tener el 25% de quién.
+Del padre, cuando le digo este qué es lo que pasa por detrás, por detrás, lo que hace el navegador es lo siguiente: o K, la caja padre tiene este 400 píxeles, ya yo lo dibujo así. Cuando llega la hija y lee aquí que tiene 25%, automáticamente busca al padre, busca al padre y le dice: a ver, tú tienes el ancho de 400.
+Entonces, si tu hija quiere tener tu 25%, va a tener 1/4, es decir.
+400 25% no que si calculas aquí, o sea, 25% 1/4, sería 100 100 qué 100 píxeles, todo al final, o sea, al final todas las propiedades de medida o que justamente tengan como respuesta medida van a representarse en píxeles, chicos.
+Por detrás lo calcula el navegador y lo va a dar en píxeles. Muy bien, no lo va a cambiar en tu código, pero va a dar en píxeles. Y aquí lo que ha hecho es efectivamente le ha dicho: oye, tú vas a tener 100 píxeles entonces y con esos 100 píxeles lo va a dibujar. Vamos a verlo aquí.
+A ver, aquí está. ¿Lo ven? La caja padre es esta de aquí, la caja gris y la caja hija es justamente la que tiene el nombre. Ha ocupado lo que sería el cuarto, el 1/4 parte, pero voy a cambiarlo ya para que lo noten, ya voy a decir que no quieres el este.
+El 25% si no quiero el 50%, o sea que sería la mitad, cierto, o sea 200 y vean como efectivamente ha tomado ese ancho. Ya fíjense, por favor, solamente en el ancho ya porque es lo único que estoy modificando. Entonces ha tomado ese ancho, no ven cómo se calcula a partir del padre y aquí ustedes pueden poner, no sé, 60%.
+Y vean, cuando pongo 100%, obviamente ya está ocupando todo el ancho del padre, ya solamente del padre.
+A ver, vamos a ver si se puede poner 110. Sí, aunque no lo sepan, aunque no lo crean, podemos poner este porcentajes mayores al 100%. Lo que pasa aquí es un desborde, ¿lo ven? La hija ha superado al padre, pero bueno, obviamente no es una práctica hacer eso. Ya no es una práctica hacer eso.
+Pero okay, cuando pones el 100% tomas todo el ancho y depende de quién del padre o k del padre. No depende del abuelo ni de otras cajas anteriores, depende directamente del padre que está arriba. Padre directo, por favor, ya padre directo. ¿Por qué? ¿Por qué digo padre directo?
+Porque esto, por ejemplo, bueno, acá mismo ya se está viendo, no acá mismo ya ni siquiera necesito crear quién es el hijo de la caja abuelo. A ver quién es el hijo de la caja abuelo, chicos.
+¿Quién es el hijo de la etiqueta que tiene clase Kajawall? Por favor, póngame eso en el chat.
+A ver, le voy a mostrar quién es el hijo directo de la caja abuelo.
+Ya para ver si pueden identificar al hijo.
+Nombre completo, padre, exacto.
+Ed.
+El hijo sería a ver, padre, padre, exacto, la caja padre sería el hijo, cierto, la caja padre sería el hijo y el hijo de la caja. ¿Y qué sería la caja hija? La caja hija este no sería hijo directo, no es hijo directo, ya no es hijo directo de la caja abuelo, no es hijo directo, por favor.
+No piense que al cambiar caja abuelo, o sea, la caja hija este se va a guiar de la caja abuelo, no lo hace. El porcentaje solamente es para hijos directos, o sea que este no se va a aplicar. Miren, un ejemplo, voy a poner acá a la caja abuelo le voy a poner.
+No sé, este me voy a poner acá un style.
+Y acá lo voy a poner, por ejemplo, un.
+500 píxeles ya y un bag. Ay, no mejor no.
+Y un background color así.
+Ya vean que la caja vuelo ahora está atrás, pero la caja hija ni se ha inmutado, sigue solamente dependiendo de quién, de la caja padre.
+Vean, sí, no importa la caja abuelo, no le ha tomado nada de interés o k a eso me refiero. Entonces, al momento de aplicar este, al momento de aplicar porcentajes, fíjense en la caja padre y ahora obviamente no solamente para Wii, en realidad también puede ser para eight.
+Ya, pero este se aplica a la propiedad respectiva, o sea que si tú aquí aplicas, digamos ya acá su eight es 400, ¿no? Si acaso eight tú le pones, no sé, 10%, se aplica este eight al mismo eight ya de propiedad a propiedad, chicos, de propiedad a propiedad de with a with.
+Eso sí, si le aplicas un padding de padding a padding.
+Bien, acá le puse 10%, entonces tiene que tomar una altura de 40, creo que sería sí, 40, no exacto, sería 40 y vean cómo se ha checado, lo ven, o sea, no es solamente para WIC, pero lo que sí les recomiendo es que a ver, son tantas unidades relativas que tenemos que limitarlas y decirnos.
+Y aclararnos como desarrollador, o k, yo voy a usar with perdón, porcentaje solamente para definir dimensiones with nada más, porque para lo demás voy a usar otras unidades relativas que vamos a ver.
+Bien, o k, entonces voy a este primero hasta ahí se puede entender chicos lo que es porcentaje, por favor.
+Confirman si se puede entender cómo se aplica el porcentaje en mi app. Es súper sencillo el porcentaje. A mí me gusta usar el porcentaje este, pues porque es como matemática básica y ya pues se adapta, no se adapta.
+Genial, genial, genial. Entonces voy a mi landi. ¿Se acuerdan esta página rota que estaba y voy a cambiar algunas cosas aquí? Porque la verdad es que acá hay una mala práctica y es, por ejemplo, que este acá hay 3 áreas. En realidad, ya acá tengo 3 áreas, en realidad, la negra que ven aquí, la caja negra.
+La caja blanca que está ahí en el medio y el footer ya la caja negras es giro y vean que su whip es 1350, o sea, se ha adaptado a mi este. Lo que voy a hacer es simplemente darle 100%.
+¿Ya quién más voy a cambiar? La otra es la otra caja se llama Feater. No tienen que grabarse esto, no se preocupen, solo les estoy besando para que exactamente sigan cómo estamos arreglando esta página web. Es Feater y el último es el footer, obviamente que también tiene acá miren una mala práctica.
+Ya voy a eliminar también esto de aquí.
+¿Acá, dónde está esto de aquí?
+Y acá.
+Esto aquí y también voy a poner mi giro content.
+Aquí le voy a poner un 80%.
+Este ya con eso tuvo que mejorar algo mi página, voy a ver.
+Ya acá no ha mejorado, pero este ya al menos se está adaptando al video. O sea, va a tomar acá si acá se nota ese 100%. Chicos, acá vean cómo se cómo se está adaptando ya.
+Con porcentajes estamos haciendo algo responsive, pero obviamente le faltan muchas cosas.
+Ya vamos a ir, entonces listo, voy a ir modificando después otras cosas porque vamos a pasar a lo que sería.
+¿Los rangos de dimensionamiento ya a qué? ¿A qué se refiere con rangos de dimensionamiento? Muy bien, nosotros tenemos nosotros y yo conocemos widget, no ancho y altura. Bien, hasta ahí todo perfecto, pero ¿qué pasa para hacer responsive una página? CCS nos ofrece no solamente.
+Este dimensiones fijas, sino también contar con un rango, contar con un rango este para cada una de estas, o sea, para el ancho y para el alto.
+A esas dimensiones, este a ese rango de dimensiones, pues se le conoce Minwid para Wii ya está Minwid que es.
+¿Es sencillo, no? Según el término min with es el ancho mínimo que tiene un elemento, ya más with para el with, más with es el ancho máximo que tiene un elemento. Vean cómo estoy estableciendo lo que sería este un rango, no, ya no solo digo cuánto ancho debe tener, sino entre qué ancho mínimo y qué ancho máximo debe estar.
+¿Ya para ahí, cómo sería para ahí? Pues seridamente tú le agregas el min o el max. Es lo mismo, chicos, es súper sencillo esto ya para ahí también tienes un alto mínimo o un alto máximo.
+O K, estos el estos este estas son propiedades, ya esto ya no son este ni ideas relativas, son propiedades. o K, en realidad estos no reemplazan, o sea, estos de aquí, estas propiedades no reemplazan a Widd A, en realidad lo necesitan, se usan en conjunto porque, como te comenté, esto establece rangos.
+Pero esto ya establece el valor de tu este de tu dimensión o k o los límites donde puede crecer el tamaño de un elemento.
+Pero vamos a verlo mejor, vamos a verlo mejor aquí otra vez en el código ya.
+¿Cómo está?
+Comentar esto de aquí.
+Para los que este, para tal vez los que no sepan cómo comentar, este es comentar rápido, es **** alta, súper rapidito, se comente y se descomenta.
+Con eso estoy haciendo así, ven al toque me pone el comentario.
+Datazo.
+Ya listo.
+Yeah.
+¿Qué he usado aquí? Muy bien, aquí lo que he usado es un elemento llamado caja elástica. ¿Qué le he puesto a la caja elástica? Le he puesto lo siguiente: chicos, miren, lo voy a quitar el mini y el max, ya lo tiene. Le han dicho que tome un 100% de obviamente este del padre, ¿no?
+¿Quién es el padre aquí?
+El padre es Body, ya el padre es Body o K, el padre es Body y por eso, y ustedes saben quién es Body, ya es cierto, y por eso exactamente va a tomar el 100% de todo lo que estamos viendo. Muy bien, ahí ven cómo se aplica eso ya listo, hasta ahí todo bien, pero qué va a pasar cuando yo le pongo un mink.
+Max, primero le voy a poner un Max con esto que le estoy diciendo lo siguiente, le estoy diciendo o K al navegador ya o K, tú vas a crecer 100% de ancho, es decir, del body vas a ocupar todo el ancho, pero también vas a tener que seguir estrictamente esto.
+¿Vas a tener un ancho máximo de 400 píxeles y de ahí no vas a crecer más, ya le estoy dando un ancho como qué?
+Un ancho este superior ya un rango superior de acá no creces, muchacho.
+Y dicho y hecho, cuando vean aquí van a ver qué pasó. ¿Por qué no me está ocupando todo el ancho? ¿Por qué? Okay, este establecí que with 100%, pero también te dije que no puedes crecer de ahí, no puedes tú crecer de ahí. Entonces es lo que he aplicado, ya es lo que he aplicado. Vean cómo puedo controlar.
+¿Cómo puedo controlar ahora acá? Obviamente, ¿por qué no aparece? A ver, porque acá no aparece el scroll horizontal, porque acá este sí puede reducirse. Chicos, miren, acá se está ocupando el 100%. Digamos que acá se está ocupando el 100% en realidad y está cumpliendo que el ancho no es más de 400.
+Si se fijan acá en el ancho que tenemos es 306, el ancho es 306, ¿lo ven? Entonces está cumpliendo esta regla de que el máximo ancho que puedes tener es 400 y se está cumpliendo también esta en esta dimensión que está aquí en este dispositivo, ambas se se van de la mano.
+O sea, se llevan de la mano, pero por ejemplo, si pasamos dispositivos de anchos mayores a 400, ahí es donde se nota la diferencia. Ahí lo que está haciendo sí es esto de acá, parece como si lo estuvieras sobreescribiendo a este de acá.
+Porque el, por así decirlo, este el más Wii y el min Wii tiene como que más poder sobre el Wii.
+O K, es así de sencillo y el minwi que es lo mismo, es decir, tú lo mínimo que te puedes reducir es 300 ya y miren, acá está ocupando el 100%, pero vean que cuando llegue a 300.
+Ahí está pasando algo, chicos. Ahí sí ha pasado. Miren un scroll horizontal. ¿Por qué? Porque ya no puede reducirse más. O sea, prácticamente está así.
+Así está, ya así está, aquí está tomando 300 pixeles.
+Ahí está sobreescribiendo justamente a los 100% que puede tomar. Por eso, como ya no puede reducirse más, ahí sí te dice o K, ya no puede reducirte más. Ahí voy a voy a aparecer, voy a este mostrar un scroll porque quiero que visualices también esta parte, pues obviamente.
+Vean como también se sobreescribe.
+O K chicos, ese es el poder de min y max. ¿Por qué existe minimax? Y la minimax usualmente o bueno para en general, para e y para e también min ey max e. ¿Por qué existe? Porque a ver, pasa que cuando usamos unidades relativas ya no tenemos un valor exacto, ya nosotros le aplicamos.
+Pero no tenemos un valor exacto porque, como sabemos, son tantos dispositivos, se adaptan, no para cada dispositivo te va a dar un valor de WIC. Chicos, el WIC para, obviamente, por ejemplo, para aquí para un dispositivo con ancho de 1039 te daría 1039 para otro dispositivo con ancho de 623 te daría 623. ¿Lo ves?
+No tienes un valor exacto, entonces tiene que haber una forma de controlarlo.
+Por eso existen los rangos. Si tú, por ejemplo, tienes una imagen, tienes una imagen que sabes, tienes una imagen que sabes que digamos con un ancho de que no quieres reducirlo de 500 píxeles, ya tú simplemente le pones un rango de min wid de 500 píxeles. ¿Por qué?
+Porque tal vez tu imagen se distorsiona terrible si tiene menos de 500 píxeles. Entonces controlas también el width, controlas el width y también controlas el late con sus respectivos estes. o K.
+Por ejemplo, lo voy a poner acá con una imagen. Ya acá tengo una la imagen es este de acá el Hero imagine.
+Aquí ya la imagen está súper grande, ya voy a controlarlo primero para la imagen. Bien, voy a controlarlo, primero voy a poner aquí.
+¿Dónde está el Hero Imagine? Aquí acá tiene un width de 600 píxeles terribles, muy grande. Ya este es fijo, entonces para dispositivos pequeños obviamente se ve tremendo. Le voy a poner 20 píxeles.
+Hey, voy.
+Quiero cambiar el pixel porcentaje. Ya le voy a poner 20 pixeles, ya ahora sí se está adaptando, pero yo lo veo muy chiquito. O sea, acá tal vez ya mejor le voy a poner 30, ya se ve muy chiquito.
+Porcentaje de 30 ya acá está bien, pero vean que cuando lo voy reduciendo en realidad va tomando más chiquito y más chiquito. ¿Lo ven? Eso no me gusta a mí y yo quiero controlar que también tenga un rango mínimo. Y ahí es justamente donde me sirve esto, poner un min y decirle a ver cuánto quisiera que no se reduzca.
+Ya no quiero que sea menor a 400 pixeles.
+Y dicho y hecho chicos, vean, ahora va a tener ese tamaño y de eso no va a bajar.
+De ese tamaño no va a bajar, chicos ya para dispositivos grandes, obviamente se nota eso.
+Ya para dispositivos grandes, eso me permite controlar también eso. Muy bien, se pudo entender, chicos, el poder de los rangos de dimensionamiento de estos de aquí.
+¿Alguna consulta, alguna pregunta, chicos, se puede entender eso?
+Red.
+Genial, yo me hice sí.
+Genial, todo claro, muchas gracias, Juan, ya él sí.
+Ahí guiar mi consulta bien, genial, muchas gracias. Exacto, bien.
+Ya listo entonces. este.
+Voy a continuar con este para la siguiente unidad de Mérida, el viewport.
+Bien, entonces si ya vimos min y vamos a pasar a lo que sería, chicos, el view por.
+¿Qué es el viewport? En primer lugar, las unidades medidas que dependen del viewport. ¿Qué es el viewport?
+Ya vimos el viewport, solo que no sabíamos que ese era el viewport. Ya vamos a ver unidades de medidas. Ya nosotros hemos dimensionado usando como referencia al padre, cierto, pero ¿qué pasa si queremos dimensionar respecto a lo que sería el viewport? ¿Qué es el viewport? El viewport es simplemente esa área visible.
+Esa área que tú ves en la de la página en el navegador ya es esto, o sea, es el body, sencillamente es eso, el body es esto de aquí, ya es esta área de aquí donde se muestra todo lo que cabe en tu dispositivo para mostrar la página web. Ese es el viewport.
+Vean cómo es diferente para cada una este de los dispositivos. Acá lo que está sombreado en el celeste, ese es el viewport para cada dispositivo. Ya ese es el viewport donde se está dibujando tu página web.
+Vean como hay diferentes viewports, eso ya el viewport no es esto de arriba, por favor, no lo cuenten, ya no cuenten esto. Esto es la cabecera parte del explorador, no es el resto donde se dibuja el este el la página web. Ya vamos a tomar justamente esas.
+Ya es ahora tomar tamaños que se adapten a esta pantalla es más sencillo. Bueno, no es que sea más sencillo. En realidad, el viewport se basa mucho en el porcentaje. Chicos, si entendiste porcentaje, vas a entender el viewport a la perfección.
+¿Por qué? A ver, hay 2 unidades de medida respecto al viewport, view BHYBW. ¿Qué significa cada uno? A ver, vamos con BHBH viene de.
+Está muy grande.
+PHVND Viewport.
+Uy, no, hey, perdón, inglés ya qué significa.
+Pues es la unidad que hace referencia al Alto del Este, o sea, que hace referencia.
+Al alto del viewport.
+A unidad que hace referencia al alto de viewport y esta es la regla fundamental, a ver esta regla.
+Voy.
+Al alto del listo y la regla es la siguiente, chicos, la regla de medida es la siguiente.
+Ya te regla.
+Muy este ya ahí está regla. La regla dice que un BH, o sea, una unidad de BH. Si tú pones un BH a un elemento ya a un Wii a un este, ¿qué es lo que le estás diciendo? Le estás diciendo que tenga pues 1%.
+Del alto.
+De el viewport.
+Yeah.
+¿Estás diciendo eso? Si tú le pones un BH, o sea, la unidad de un BH es 1% del alto del viewport. Entonces, siguiendo esa analogía, si un BH es 1% del alto de viewport, ¿cuánto es 100 BH?
+¿Cuánto sería 100 BH, chicos? Síguenos analogía, matemáticas simples, un BH es 1% ya de tu alto, este es todo tu alto, ya ese sería el 1% de ese alto. ¿Cuánto sería 100 BH?
+Me lo comenta, por favor.
+100% efectivamente es por eso digo que depende justamente si entendí este porcentaje, la aplicas sencillo, sería el 100%. Gracias chicos, exactamente. Siguiendo su analogía, un BH es 100% del alto, es decir, todo el total. Es decir, si a un elemento yo le digo, hey, ten 100 BH.
+En altura, por ejemplo, va a tener el 100, bueno, en altura va a tener el 100% del alto del viewport. Es sencillamente así, chicos. ¿Y cómo sería para with? Para with es lo mismo, o k es lo mismo, es view BWS viewport with, unidad que hace referencia al.
+Ancho del viewport y la regla dice lo siguiente: que un VH ahora a qué es igual, perdón, un VH no, un BBW, un BBW, a qué es igual.
+A 1% del ancho del viewport y aquí.
+¿Entonces, cómo sería la lógica? ¿Cuánto sería 100 BW 100% del ancho del VIUP? ¿Lo ven?
+A ver, chicos, se pudo entender esto, pero.
+Esta unidad es súper sencilla, por ejemplo, porque también vamos a ver justamente eso.
+Yep.
+Voy a explicarlo con código para que se note más clarito. Voy a explicarlo con código. Acabo de abrir mi antigravity.
+Ahorita sale mi, es mi otro editor de código, a ver dónde está.
+Acabo de abrir mi antigravity.
+Ya ahora sí, entonces estamos aquí, ¿cierto?
+Ya vamos a usar otro ejemplo para que se pueda entender.
+Vamos a comentar esto y vamos a descomentar lo que sería el view.
+Y vamos a descomentar el ejemplo del viewport, acá efectivamente tengo un elemento que se llama caja del viewport ya.
+En estilos, ¿qué es lo que hice? En estilos lo que hice, justamente le puse al Wii, le puse 100 BBW.
+Ya al with le puse 100 BW. ¿Qué es lo que le estoy diciendo con esto? Le estoy diciendo lo siguiente, chicos.
+O K, le estoy diciendo lo siguiente: cuando el navegador lea esto va a decir o K 100 BBW. Si mi viewport es esto, digamos este cuadrado, ¿cuánto va a ser el tamaño de la caja?
+A ver si mi view port es mejor, si mi view port es mejor no voy a poder ver el chat porque estoy usando esto, pero ya no importa si mi view port es esto de acá ya y yo le estoy indicando.
+¿Que tenga 50 BW cuánto? Ya digamos que tiene 1000 píxeles de ancho, ya mi viewport tiene 1000 píxeles de ancho y le estoy diciendo, le estoy diciendo que tenga el 50 BW que significa que.
+50 de si un VH es igual a 1% del ancho.
+¿Entonces 50 VH qué es?
+Efectivamente, 50%, o sea, la mitad.
+¿Cierto, la mitad, cuánto va a tener entonces caja View Puert?
+La mitad, o sea.
+A calcular y voy a decir o K, esta caja yo lo voy a dibujar.
+Sí, 500 píxeles con 500 píxeles de ancho, es decir, exactamente va a cubrir la mitad, la mitad. Hay que fijarnos en el ancho nomás la mitad de to viewport. Así de fácil, ya si yo le yo le decía 40 BH 40%, si le decía 100 BH.
+100% si le decía más del 100 MH, le decía 101, te va a pasar lo que vimos en porcentaje, o sea, va a sobresalir este.
+Sí, va a sobresalir y te va a generar un scroll horizontal. Entonces usualmente solo usamos de 100 para abajo, ya, pero así es como funciona. Chicos, acá no interesa, o k acá no interesa quién es el padre, quién es el abuelo, el nieto, no, acá no le importa al navegador para calcular el ancho, el este donde donde implementes esto. Acá lo que le importa solamente es.
+Tu pantalla ya nosotros todos tenemos diferentes pantallas, ya entonces va a calcular pues basado en tu pantalla.
+Entonces yo veo esta caja de viewport, voy aquí, pero obviamente, bueno, sí se ve poquitito, pero se ve, es que no le he puesto una altura en altura. Yo le voy a poner, digamos, 25%. no, sí, está bien, 25%. Mira, miren como combino, ya miren como combino.
+Bueno.
+Eso.
+Ya.
+Este.
+Hmm.
+Ya voy a poner 50 VH y luego me fijo porque no le puse with.
+Ya ahora sí.
+Le dije 50 de viewport, o sea, hay que probarlo aquí ya para este, para este viewport que es este de acá.
+Ya vean como justo exactamente ha tomado la mitad de ancho y la mitad de alto, y mientras yo voy modificando la el dispositivo, las dimensiones, vean como sigue siendo 5050, chicos, sigue siendo 5050 sin importar el ancho y la altura de bueno, en ancho, solo estoy comiendo el ancho.
+Pero sin importar el ancho lo ven.
+¿Es eso? Solo se está fijando en el viewport que es esa, es pues al final es así, ¿no?
+Ahora este yo puedo hacer esto, o K acá sí, pero puedo hacer acá 50 VH, o sea, VH es viewport. PH significa basado en la altura del viewport.
+Pero mira, se lo estoy poniendo a Wii, ¿qué va a pasar? Sí, va a pasar algo, chicos. Lo que ha pasado es que al ancho acá hay como un trabalenguas, ya lo que ha pasado es que al ancho este le ha puesto el 50% de que ay, estoy señor, al ancho le ha puesto que el 50% del alto, o sea de esto.
+Ya, o sea que esta medida, por ejemplo, que sería el 50%, esto lo puesto acá. o K, entonces esto porque lo explico, porque usualmente pues no se usa como que por así decirlo, no se usa solamente el viewport.
+Ya el uno vhy el BW no se usa solamente en Wiki Eight, chicos, no solamente se usa en Wiki Eight, pero sí es el más frecuente. Van a ver que tal vez se usa en padding en otras cosas, porque ya tenemos claro, vean como este la adaptación que tiene fácilmente a las unidades de este, o sea, al dispositivo.
+O K, es como conocen porcentaje, entonces le va a ser más sencillo eso, pero obviamente este para no confundir, entonces usenlo con BBW para decir o K lo voy a calcular respecto al al ancho y respecto al alto.
+Bien, ok, chicos, se puede entender lo que serían el BBWH, las unidades de medidas del viewport.
+Ver, por favor.
+¿Qué tal con esas unidades medias chicos? Llevamos 12, vamos porcentaje y vamos BHBW.
+Alguna duda, Jarni, bien genial, otra vez otro está bien.
+Cualquier duda, cualquier pregunta me la dan chicos para resolverla juntos, a ver.
+Para también.
+A ver dónde está.
+Ay, me están mencionando clarísimo, genial Kevin. Muchas gracias porque voy a reparar mi la página rota que tenía, la voy a reparar y a quién le voy a poner este al giro le voy a poner.
+A este giro le voy a poner.
+En lugar de poner 800 píxeles que ven aquí, como comentó acá, van a ser 100 VH, ya es decir, este contenedor que está aquí, exactamente el alto de este contenedor que es el giro, va a ser exactamente el 100% de mi dispositivo, o sea, de lo que ustedes ven acá.
+El 100% de altura de mi este de mi viewport. Eso es lo que le estoy diciendo. Entonces ya no ocupa este porque sí hay exactamente en páginas web. No sé si han notado, y es que hay como que la parte de arriba que ocupa el 100% exactamente.
+Hay páginas web que tienen como que el anuncio de cabecera que quieren que ocupa todo el alto. Usan esta técnica, simplemente le ponen un alto de 100 BH.
+Y efectivamente, este lo así de magia, así de forma rápida ocupa el 100% el este ya sin tener que estar, no sé.
+Mágicamente, no sé, pensando a ver cuánto es el alto de mi este, no lo conoces, correcto, pero se adapta. Entonces eso ya que voy a quitar esto.
+Listo para los que no conocen, tal vez el viewport de su máquina, simplemente acá hay un programa llamado mi viewport.
+Este de acá y ahí te dice cuánto es el viewport de tu de la máquina donde estás ahorita. Ya es así, esto lo voy a mandar por el Teams para que ustedes puedan quieran informarse de él.
+¿Cuánto es subí por 1366? Buen tamaño y 641 bien, listo.
+Okey, entonces con estos chicos.
+Con esto, yo creo que tenemos este conocimiento.
+Vamos a pasar a lo que sería, a ver, deme 5 minutos, por favor.
+Por algunos somos, me ha me ha dado ahí justo.
+Me dan unos ni 5, o sea, deme 3 minutos a mi está con, aunque ahorita un ratito me están tocando la puerta, chicos, y justo estoy solo hoy día. Entonces denme 5 minutos, por favor.
+Bueno, un momento, un momento.
+Listo, listo, muchas gracias por esperar. Disculpen ese tiempito, no me ha servido la llave, así que bueno, o k este ya podemos continuar. Ya vimos porcentaje, vimos rangos de dimensionamiento, vimos unidades.
+Relativas al viewport y lo que vamos a ver ahora vamos a ver cómo se ve esta página que estaba antes rota. o K Bueno, tienes algunos detalles, ya tiene algunos detalles, pero al menos sí está cambiando, ya al menos está cambiando.
+Pero pasa algo aquí, pasa algo aquí, sí, ha cambiado, pero está pasando una cosa.
+Yes.
+Nos vamos a centrar ahora, chicos, en la tipografía, porque el tamaño de texto, como sabemos, también tiene una unidad de medidas. ¿Cierto? ¿Recuerdan cuál es el cuál es la propiedad que este que usamos en CCCS para definir el tamaño de texto?
+¿Cómo se llama esta propiedad?
+Red.
+¿Ahí, alguien, alguien ganó es un puntito, oye, verdad, verdad, alguien chicos, cómo se llama esa propiedad que nos permite definir el tamaño de texto o el tamaño de fuente?
+De un elemento.
+Ahí vienen las propiedades que vimos justamente cuando hablamos de texto. ¿Cómo se llama esa propiedad, chicos? Propiedad CSS, claro.
+Where?
+¿Uy, qué pasó? Es súper básico, chicos. Propiedad CSS usada para definir la fuente. April, genial, le diste al clavo font size. Exactamente, recuerden, pues recuerden esa propiedad, miren.
+Este texto que está aquí, que es a ver título acá en ese giro título, aquí estoy definiendo font size. ¿Cuánto le estoy poniendo? 80 píxeles, esto este 80 píxeles, obviamente vean acá.
+Estos 80 píxeles obviamente me funciona en mi laptop, ya o sea, acá no veo ningún problema. Ya digamos que este lo puedo leer claramente, por así decirlo, ya, pero está pasando, chicos, lo mismo que está que estaba pasando con los contenedores, con el tamaño que expliqué justo aquí.
+Correcto con el tamaño que expliqué justo aquí.
+Yeah.
+También estamos usando un valor absoluto como es el píxel para definir el tamaño de la letra.
+Y obviamente, cuando nosotros pasemos a móvil.
+Ya no me sirve tener un tamaño así de 80 píxeles, primero porque obviamente es diferente diferente la visión que tenemos de escritorio a lo que tenemos en un celular. Cierto, no estamos a la misma altura, o sea, en un escritorio estamos, digamos, a más distancia.
+Que a un celular, a un celular podemos acercar la cara sin problemas, como si hiciéramos un zoom natural. Entonces ahí no nos ayuda, digamos, tener un tamaño de letra grandísimo, a diferencia de un monitor que pues acá pues este no hay no acercas la cara, obviamente al monitor a la computadora, no. O sea, me explico.
+En realidad, las fuentes varían ya las cortes tendrían que variar para computadora y para escritorio, pero hay una pequeña variación, ya es una pequeña variación. ¿Quién tiene que tener el tamaño más grande?
+He escuchado que lo tiene que tener en la idea en la computadora. La computadora tiene que tener un tamaño más, como que un poco más font size respecto a lo que sería el móvil. Ya, pero qué vamos a continuar. Entonces lo que tenemos que arreglar es cambiar este píxeles.
+A una unidad relativa que nos ofrece CCS para tipografías ya. ¿Y cuáles son esas unidades? Pues son em y rem, chicos, emirrem, así como suena, emirrem, ya remi, emirrem son unidades que se basan en el tamaño de la fuente, es decir, en esta propiedad.
+Ambas ya, así que importante esta propiedad, porque importante aquí porque la vamos a usar. Se basan ambos justamente en el font size, pero claro, cada uno tiene variaciones. ¿En qué? A ver, primero vamos con él, que fue históricamente en la primera unidad que se.
+Que se puso ya unidad hipográfica que se implementó.
+¿Ya qué hace acá? Vamos a ver otra vez lo que vimos en porcentaje o k que hemos visto en porcentaje lo siguiente.
+Entonces acá voy a bajar.
+El del padre e hijo ya lo vamos a ver aquí también, chicos, porque va a tener la misma similitud con padre. ¿Qué es lo que hace él? Lo que dice es que el tamaño de la letra es depende del tamaño de fuente del padre. Sencillamente eso.
+Yeah.
+El tamaño de fuente, bueno, o sea, es una unidad, es una unidad.
+¿Cómo lo pondría a ver? El tamaño de fuente del hijo depende, depende del tamaño.
+Fuente del padre, eso y es así de sencillo. ¿Cómo se calcula? Se calcula de esta forma, ya este es el cálculo para este sacar, digamos, el tamaño del hijo.
+El tamaño de letra del hijo es igual al valor en que tú vas a poner multiplicado.
+Multiplicado por el valor font size del padre.
+Ya por el valor fontage del padre. ¿Cómo así? A ver, por ejemplo, si tu padre tiene 100 píxeles, ya tu padre tiene 100 píxeles, el hijo se calcula así: primero la sintaxis, ya el hijo tú le dices que va a tener un enano, pues vamos a hacer 100 pixeles grandas.
+Le voy a poner 20 ya muy grandes, ya que el padre tenga 20 pixeles. El hijo va a tener un end. ¿Cómo se calcula esto así?
+Vamos a copiar acá porque acá vamos a poner el valor, el valor en cuánto puse el valor en notar acá que para definir un M usamos M al final. Ya tenemos otra sintaxis, habíamos dicho que porcentaje es así, en BH es así, en BW es así y en M es simplemente E ya.
+Entonces, el valor de que acá he puesto es uno, ¿lo ven? Entonces voy a reemplazar eso aquí por uno. ¿Y cuánto es el valor del font size? Es 20 píxeles. Entonces, por matemática sencilla, ¿cuánto sería el valor del tamaño de letra del hijo? 20 píxeles. Esto es lo que hace por detrás el navegador, chicos.
+Es así de sencillo, ya aquí también sí se tiene que fijar en lo que sería el padre, ya vamos a ponerlo con rojo.
+Acá se tiene que fijar en el padre, te tienes que fijar en el padre para calcular, digamos, el hijo, el tamaño de fuente del hijo. Ya acá es sí o sí la propiedad font size, chicos, sí o sí la propiedad font size en m depende de font size, ya no depende de otra propiedad, ni margen ni.
+De font size depende.
+¿O ¿K, pero pasa algo aquí? ¿Qué pasa? ¿Qué pasaría ya? ¿Qué es lo que pasaría?
+¿Sí, como dice acá, qué pasa si no define el font size del padre?
+¿Qué creen que pase si me olvido definir el font size y simplemente esto le pongo uno M?
+¿Alguien tiene una respuesta, chicos? ¿Alguien qué creen que pasaría? Le pondría cero, o sea, cero de píxeles. No haría nada.
+¿Qué creen que pasaría, chicos?
+O K.
+Okay.
+Ya pasa lo siguiente, chicos, y su silencio me dice que posiblemente a ver, Carlos, Carlos, ahí quería intentarlo. Su silencio me dice que efectivamente estamos con la duda, ¿no?
+¿Qué es lo que pasaría?
+Va a pasar, chicos, miren una pista ya.
+Lo adaptaría, pero de una manera no adecuada, ya lo adaptaría de una manera, a ver.
+Pasara, pasa algo, ya pasa algo. La pista sería Carlos para los demás. La pista es, recuerdan cuando hablamos de CSS y mencionamos que este el navegador también pone propiedades por detecto en CSS, ¿se acuerdan?
+¿Se acuerdan de eso? O sea, ya cuando nosotros escribimos ya viene con un tamaño con algo definido.
+Ajá, exacto, tiene que ver con eso, tiene que ver con eso. Carlos, si no tiene dependencia de algo seguro, ajá, exacto, por ahí, por ahí seguiría lo predeterminado. Acá van a influir 2 cosas, chicos, van a influir 2 cosas, ya pasa lo siguiente.
+Va a pasar lo siguiente, chicos, y acá lo voy a poner porque es importante esto ya la mayoría de navegadores.
+Lo que pasa es justamente la mayoría de navegadores.
+Ya la mayoría de navegadores web.
+Usan, definen ya un tamaño de fuente predeterminado, un tamaño de fuente predeterminado.
+¿Pero para quién predeterminado, pero para quién? Para la etiqueta HTML ya para HTML lo que definen es un phone size, casi todos ya de 16 píxeles.
+¿Por qué para la etiqueta HTML? o K, por qué para la etiqueta HTML dirán ya, pero esto es lo que pasa. Casi todas las páginas webs, perdón, navegadoras web, Chrome, Edge, todos han quedado de acuerdo en definir un tamaño de fuente para HTML. ¿Por qué? Porque acá viene.
+Otros chicos, acá vienen justamente lo que vimos anteriormente. ¿Recuerdan ese concepto de este?
+Herencia, recuerdan el concepto de herencia.
+Efectivamente, aquí se aplica HTML, que es según según chicos, el árbol de nodos. HTML es elemento nariz, es el elemento. A ver, aquí está.
+HTML es el elemento raíz.
+Uy, se ve totalmente borroso ahí.
+Aquí está mejor HTML, chicos, es el elemento raíz y recuerdan por herencia font size es una propiedad que se hereda. Si tú al HTML le pones 16 píxeles, a ver si tú al HTML le pones un font size de 16 píxeles.
+¿Qué va a pasar con los demás si tú no decides un font size?
+Pues casi todos ya todos los elementos van a tener 16 píxeles.
+Claro, todos los que tengan letras, obviamente no una imagen no le vas a poner porque ahí no le aplica, pero todos los que tengan letras le van a aplicar. ¿Por qué no afecta al h uno? Porque tiene su propio font size. Pero aquí viene algo importante. ¿Por qué vamos a necesitar esto? Por lo siguiente, chicos, por lo siguiente, pasa.
+Que si tú no defines un font size del padre, lo que va a hacer es subir a buscar al abuelo.
+¿Va a subir a buscar a la al elemento abuelo?
+Ya, o sea, va a subir en el árbol, chicos, va a subir de ancestro en ancestro, va a subir al elemento abuelo y si no está en el abuelo, va en el tatarabuelo, ya va a seguir subiendo hasta que al final. Si ningunos, si ninguno este tiene un font size definido, ¿a quién va a llegar?
+Al padre o elemento raíz de todos, el HTML. Por eso es que es importante este esta información o este datazo de aquí, chicos, porque cuando llega el HTML sí va a encontrar qué cosa un font size de 16 píxeles y eso es lo que va a usar.
+O K, si va a encontrar y ahí es donde va a ser el cálculo. Veamos este ejemplo de aquí para que lo capten, pues a la perfección. Ya acá hay un ejemplo que yo he extraído y vean aquí este es el HTML y este es el CSS. Ya le voy a poner acá separado.
+Lo voy a poner que esto es, no creo que sí se entiende, ya se entiende cuál es esto es HTML.
+Ya y esto es ese. Vamos a explicar rapidito esto muy bien. ¿Qué tenemos en el HTML? Tenemos.
+2 tenemos 2 cosas, primero tenemos un contenedor, hoy queda con esto, ya esto ya tenemos un contenedor hasta aquí, vean un elemento container y tenemos.
+Un elemento acá este independiente, sin ningún padre, por así decirlo, ya y vamos a ver, vamos a inspeccionar esto de acá. Aquí es donde vamos a hacer el cálculo, chicos, acá veamos.
+Veamos cómo es que se calcula el tamaño del título, el primero ya cómo es que se calcula el tamaño del título. Vamos acá, el título está dentro de quién de container, o sea, p primero no tiene ningún estilo, así que ahí no puedo calcularlo, pero sí quién puedo calcular esto, quién a container. ¿Por qué? Por herencia.
+Cierto, si a container yo le pongo un font size.
+Si le pongo un font size aplica para todos los hijos que estén adentro, este justamente ahí está a título. ¿Entonces, qué es lo que pasa? Container me dice que tiene 1.25 en.
+Ya me dice que tiene uno 1.25 my container por lo que vemos acá en el HTML no tiene un padre, o sea, no tiene un padre donde se haya definido el font size. ¿Entonces a dónde iría chicos? ¿A dónde iría container para o perdón el navegador a dónde iría para calcular exactamente este valor de acá?
+Como no hay un padre, va a subir directamente a HTML y en HTML se ha definido un valor de 16 píxeles. Ignoren esto, por favor, ya se ha definido un valor de 16 píxeles. ¿Qué es lo que hace? Pues simplemente calcula, ya calcula y es este cálculo que ven acá, o sea, ni siquiera yo lo voy a calcular porque ya está, pues acá es.
+Esto de aquí.
+Ya es eso de ahí, es decir, lo que va a hacer es 1.25, que es el M, o sea, a ver, valor de título.
+Va a ser igual a 1.1.25, que es el por quién por 16 píxeles.
+Por 16 píxeles ya y pues esto por matemática lo que le ha dado es esos 20 píxeles que están ahí y con estos 20 píxeles lo que ha hecho es qué es lo que ha hecho, pues es lo que se le ha dado a quién.
+A ver, se le ha dado al elemento título.
+Bueno, no.
+Listo, o k es lo que se da justamente aquí, 20 píxeles al título que tiene que ver con esto. Genial, ya vimos cuánto vale, cuánto valor tiene el título. Ahora vamos a ver cuánto valor tiene el otro texto que es P Class. Este, por lo que vemos, sí tiene una clase. Chicos, la clase se llama small font.
+Ya y tiene texto adentro, entonces si nos vamos a nuestro CSS, efectivamente, por lo que vemos aquí.
+tiene también un este un font size definido y lo vamos a calcular pero acá vemos otra cosa diferente chicos acá a partir de quién no va a calcular Quién es el padre aparte mejor pregunto esta pregunta a partir de quién va a calcular small phone chicos el font size a partir de container o de html respondan mes en el chat
+A ver.
+¿Chicos, a partir de quién va a calcular este elemento de acá?
+Este elemento de acá, el su font size, ya o sea, está definido aquí.
+Está definido aquí ya buenísimo, está definido aquí, pero a partir de quién va a calcular porque es un EM por lo que vemos, entonces tiene que ir a quién al padre, pero a partir de quién lo va a calcular a ver.
+Container, container, container, ahí Kevin me dirá, a ver.
+Efectivamente, container. Muy bien, chicos, han estado atentos. Exactamente, me va a calcular a partir de el padre, que es quien es container. Ahí ya no se fija al HTML. ¿Por qué? Porque container sí tiene definido un font size. Como tiene definido un font size, ahí sí voy a decir lo siguiente.
+El valor de quien ahora del small phone ya vamos a ponerle ahí.
+No espera mejor valor.
+Ya vamos a ponerle ese uno ya ese uno, eso no importa, lo que importa es el cálculo, tiene 0.9 y por quién lo va a multiplicar por el padre, pero el padre ya lo habíamos calculado antes. ¿Cuánto era el padre? 20 píxeles correcto, y es justamente lo que está calculando ahí abajo y vemos que el resultado es 18 píxeles como lo vemos acá.
+Entonces ese es el valor que se está dando a ese texto de ahí ya y luego vamos al último, al último que es esto de acá.
+Es aquí también hay texto, ya calculamos los otros 2, solamente faltaría esto. Aquí la pregunta de nuevo, chicos, aquí también está smartphone ya smartphone ya que está definido acá.
+Justo a ver.
+Que lo hemos definido justo acá.
+Ya aquí la pregunta interesante, esta pregunta.
+Para este elemento que está aquí.
+¿A partir de quién va a calcular su font size? A este elemento tiene una clase small font que está aquí y este es un EM.
+¿A partir de quién, chicos, va a calcular SM?
+A ver, eso ya miren, smartphones, fíjense que ya no está en container, es un elemento independiente. Entonces la respuesta está dicha a partir de quién, chicos, container o HTML.
+HTMLHTML, exacto, no lo dudes, Juan, no lo dudes. HTML, exacto, equipo Carlos John, gracias. Exactamente, HTML lo va a calcular a partir de HTML porque no hay algún padre definido, no hay algún padre definido que tenga font size ya container no es el padre entonces.
+Eso es lo que hace el valor, el valor de ese elemento 2 va a ser que va a ser justamente ese 0.9, pero lo va a calcular por.
+Por ese 16 píxeles, que es el del HTML, ya y aquí le sale como vemos aquí. Bueno, ahí abajo vamos a copiar porque no tengo una calculadora de la mano, pero es ese valor. Este es el valor de ese tercer elemento, chicos.
+Ven, hemos calculado el valor de cada uno de los elementos. Así es como funciona, chicos. Se pudo comprender cómo funciona, chicos.
+Te puedo comprender con este ejemplo, ahí Carlos por default, ver.
+¿Qué tal con este ejemplo se jugó con genial, Juan? Yes.
+A ver, cualquier duda o cualquier pregunta, chicos.
+A ver, a ver, a ver.
+¿Qué tal em se entendió todo? Gracias, muy bien, o k con ese check voy a pasar a em o k o k si ya te expliqué a ver por qué existe REM, o sea, por qué existe REM, si ya vimos cómo funciona em, o sea, por qué haber 2 ajá.
+Pasa por lo siguiente, chicos, y es justo lo que acabamos de pasar nosotros con este ejemplo de aquí pasa lo siguiente ya.
+Es cierto que, o sea, es una unidad flexible ya.
+Para nuestra tipografía, pero pasa algo, es una pesadilla, por así decirlo, que depende del padre, o sea, tienes que estar al tanto del padre, o sea, depende de cálculos así haciéndole al padre, al abuelo, etcétera. No tienes que estar al pendiente de ellos, o ky esto es como que saturación, una sobrecarga además para el programador.
+Lo hemos pasado con esto, hemos tenido que calcular para cada uno, etcétera, y ahí recién para saber, esto va a tener así, lo ven. Entonces lo hemos pasado en vivo. ¿Qué es lo que hizo CSS? CSS hijo pensó en nosotros gracias a Dios y dijo no a los programadores que están usando este que pues estamos usando esta tecnología, no vamos a darle una manita.
+Y ahí inventó Rem.
+¿Qué es lo que hace Rem, chicos? Rem es lo mismo.
+No, bueno, sí es lo mismo en que se fije en el font size, pero acá hay una diferencia importante, chicos, porque como dice acá, el tamaño de fuente ahora ya no va a depender de del padre, de quién va a depender.
+El tamaño de fuente.
+Del hijo, bueno, ya ni siquiera hijo del elemento al que le pongamos, va a depender del tamaño de fuente de la etiqueta.
+HTML y solamente de esa etiqueta HTML. Acá no le interesa el padre, el hijo, el niño, el tío. No sé, no le importa eso. Acá simplemente se fija directamente este elemento en.
+¿Se fija este elemento en el HTML directamente?
+Ya se fija este elemento en el HTML.
+Este es el elemento y se fija en el HTML sencillamente, y como sabemos por defecto usualmente cuánto tenía el HTML, 16 píxeles. Cierto, el cálculo ahora es así, o sea, el cálculo es el tamaño de letra del hijo es igual al valor de, pero ahora por el valor font size del HTML.
+Cierto, es nada más que eso, entonces, por ejemplo, para este caso que yo tengo 2 re.
+Para este caso, que yo tengo por ejemplo un font size.
+A ver, el tamaño del hijo, ya el tamaño del hijo no del elemento.
+Es igual a 2.
+Por 16 pixels.
+2 16 píxeles que en realidad acá pues nos tendría nos daría un valor de 32 píxeles. ¿Lo ven? Es así de sencillo, ¿no? Aclaro, acá no se ve tanto la diferencia porque es solo un elemento, pero cuando vemos a varios ya no tienes que sacar cálculo primero al padre, al hijo, a perdón, al abuelo, este no, simplemente fíjate en el HTML.
+Todos, digamos, todos los elementos que tú tengas lo pones en función del H, en función justamente en rem y tú solamente tienes que cambiar el H, el font size del HTML para cambiarlos a todos a la vez. ¿Ven ese atajazo que nos da este también para poder pensar? o K, vamos a verlo acá con un ejemplo súper sencillo.
+Súper sencillo, acá vemos exactamente este una estructura, aquí el HTML arriba que tiene adentro un div. Ya acá vemos un HTML, acá vemos que adentro tiene un div y adentro tiene hijos, ya ese div. ¿Qué va a pasar? Acá lo que me dice es o k este yo le puse en CCS.
+H uno.
+Con pound size igual a 2.5.
+¿Cómo sería esto? Bueno, tu h uno va a tener que a y estamos notando acá otra cosa. ¿El HTML cuánto tiene? Tiene 24 píxeles. Entonces el cálculo es súper sencillo, el h uno es igual a 2.5.
+Por 24 píxeles, lo que te va a dar 60 píxeles. Así de fácil, no se fijó en el DIP. A este h uno no le importó cuánto tiene el DIP, no, simplemente lo calcula en este. Entonces, dicho esto, mi estimado programador y programadora, ¿qué pasa si yo te digo que el h 3?
+Dingham form sites.
+Igual tiene un font size de a ver tan tan tan.
+Mhm.
+Acá sí creo que se tendría que sacar la calculadora. No, es que no. Sí, yo te digo que tiene un font size de 2 REM. ¿Cuánto sería, chicos, programadores y programadoras? ¿Cuánto sería el valor?
+O sea, el tamaño de fuente del h 3, a ver.
+¿Después una mesa en el chat, por favor, entonces yo estoy arreglando esto porque no sé por qué me, pero cuánto sería el tamaño de fuente?
+Del h 3.
+48 o 48. A ver, alguien da más, alguien da menos. ¿Cuánto sería el tamaño de fuente del h 3?
+Yo te estoy diciendo que h 3 tiene font size 2 rent y tu HTML.
+¿Y tu HTML?
+Uy, ya y tu HTML, si te fijas, tiene 24 píxeles. Entonces, sacando cálculos, chicos, básico, básico por Guess he puesto un valor entero.
+He puesto un valor entero. ¿Cuánto sería el font size de h 3 chicos ahí mentalmente?
+¿Ver alguien la captó o alguien la entendió?
+Ajá, oh, ya nos diste exactamente, ya gracias Kevin Garcias Carla. Exacto, el font size del HTML, o sea del H 3 es simplemente el 2 REM que tiene por el 24 píxeles de este del HTML, o sea que al final sería 48 píxeles ese tema.
+Ven, es así, es así, fácil, chicos, funciona lo que sería lo que sería.
+¿Bien en la práctica, cómo sería? A ver, en mi landing, por ejemplo, lo primero que se recomienda cuando tú quieres impulsar REM o EM, lo primero que se recomienda es esto.
+Justamente ponerle a tu etiqueta HTML un font size de 16 píxeles.
+¿Por qué?
+Ya hemos dicho que el valor es por defecto, pero tal vez puedas toparte con un navegador que no este que no tenga 16 píxeles por defecto. Entonces, para asegurarte, si tú pones esto, lo sobreescribes ya con esto ya estás seguro de que tu font size este vale 16 píxeles.
+Que en realidad 16 píxeles también es como que si nos vamos a lo que son temas de diseño.
+Un valor este equilibrado para que tenga tu texto ya tiene que ver con eso, también un valor equilibrado para que tenga tu texto. Entonces, como ya tienes HTML definido, ahora sí, ahora sí, por ejemplo, a lo que serían este, no sé, a ver a lo que serían este.
+Títulos, ya títulos, si le puedo poner dependiendo de eso, ¿no? Por ejemplo, acá le voy a poner 3 rem, le voy a poner 3 rem aquí.
+¿Dónde más, a ver dónde más hay?
+Aquí, acá hay otro font size ven que es el subtítulo de, o sea, que es dónde está acá el título ha bajado, pues ahora este subtítulo le vamos a poner que sea menos, ya si es 3 rem, el subtítulo que sea solamente 2 rem, ya porque es obviamente menor.
+Ya a lo mejor ponle 1.8 se pueden poner decimales, obviamente creo que ya lo hemos visto, se pueden poner decimales.
+Y este a ver otro donde hay más, aquí hay otro, pero vamos a poner 2 rem, este es título aquí del feature y este la descripción le vamos a poner un rem solamente.
+Ya le vamos a poner creo que cada 2 rem es mucho, le vamos a poner 1.5 red.
+Y ahora puedo controlar mejor los este. Si quiero cambiar el ring, quiero que se vean chiquitos, lo cambio acá nomás en HTML y se cambian todos.
+Ven, se cambian todos, vean como la configuración es sencilla. Le pongo 12, se hacen más chiquitos, pero obviamente este es muy chiquito. Ya lo voy a dejar con 16, ya lo voy a dejar con 16.
+Y eso, chicos, ya ha bajado el este.
+Ya haya bajado el tamaño de texto.
+Lo que pasa ahora es que, o sea, el texto ya se ve, lo que pasa es la este ya es con el posicionamiento, ya acá vamos a usar flex responsive.
+Es como el posicionamiento, acá se ve súper comprimido, la verdad, o sea, se ve súper, ahorita le arreglamos eso con otro técnica, pero hasta ahí se puede entender en irren, mis estimados programadores y programadores, se puede entender esas, pero específicamente REM, no, que es lo que necesita que entiendan más.
+Porque Rem es lo que van a usar ya a menos que sí les guste hacer cálculos, entonces váyanse a él ya.
+Vayamos a él.
+Y con MC este sí, pues tendrían eso.
+Creo que sí lo podemos entender bien. A ver, chicos, son las 9:26. Miren, solo me falta explicar qué es móvil first, o sea, esta metodología para diseñar y falta media queries. Yo digo que me tomaría media horita. Ahorita quieren que nos vayamos de largo o les damos un receso, chicos.
+Si le vamos de largo.
+Lo ideal, 10, terminamos 10, ya 10 salimos de aquí, ya 105, 10 así. ¿Cuál es su decisión? Chicos, lo dejo en sus manos, píldora azul o píldora roja. ¿Cuál es?
+Me dan de largo.
+Ok, de largo, gente de largo, de largo equipo.
+De largo nomás.
+De largo, muy bien, estamos todos de acuerdo, creo que vamos a ir de largo.
+Ahí los que tienen su cena al costado normal pueden comer, no se preocupe, de largo entonces.
+Ya entonces nos vamos de largo, chicos, nos vamos de largo, ya nos vamos de largo, vamos a pasar a web a Media Queries, vamos a pasar a Media Queries, pero para eso vamos a irnos a la historia, mis estimados programadores y programadoras. ¿Qué pasaba ya hace varios años, hace varios años?
+Cuando no existía el responsive, cuando no existía estas técnicas, el CSS para adaptar nuestra página web a lo que sería este, pues diferentes dispositivos. ¿Cómo era la historia? O sea, era una era una era oscura porque se tenían que crear 2 páginas web.
+Una página web para lo que sería el escritorio y otra página web para lo que sería el celular. ¿Se imaginan? O sea, tenía que tener un diseño para página web y un diseño para escritorio o ky este se veían en URL es así. Ya no sé si ustedes tal vez hayan topado con algunas.
+Creo que era, era, por ejemplo, si Facebook este era para escritorio, para celular era m.facebook.com ya y en la URL había una pequeña variación también para diferenciar. Yo sí me topaba con youtube, youtube.com y m.youtube.com, o sea, m de móvil.
+Bien, entonces así se diferenciaban lo que serían exactamente las páginas web antes de que existiera este, cómo decir ya era oscura.
+Así aún se mantienen. Ajá. Uy, mira, sí, pues porque actualmente yo he visto eso en YouTube, en mi móvil y este ahí lo entendió, pero obviamente tal vez estén rehusando porque ya se creó. Imagínense para, pues no sé, deshacerse de eso, pero lo que iba, no todos obviamente tienen una pacta, o sea, a ti no se te va a pedir.
+Que tú construyas una página web para tu para un escritorio y para un dispositivo móvil. Cierto, no se te pide bien. Entonces, ¿qué pasa primero sí o sí? Tienes que construir un dispositivo, o sea, tu página web, chicos, chicas, tiene que ser responsive, no solamente, no solamente digamos por.
+Por código, o sea por profesionalismo, sino porque Google lo pide Google. te.
+Google te castiga, Google te castiga si tu página web no se adapta a lo que sería el celular, te castiga, no te castiga con dinero, pero sí te castiga, digamos, ocultando tu página web de las búsquedas. O sea, en cuanto a búsquedas, tu página web sí va a sufrir una severa caída. ¿Por qué este? Porque como comenté, el tráfico.
+La mayoría de personas que visitan un navegador son usualmente personas que vienen de un dispositivo móvil, entonces Google lo sabe y para, obviamente, facilitar o para evitar problemas, comentarios, no con lo que son estos usuarios.
+Nos piden a nosotros los programadores que sí o sí tengamos que implementemos o que se adapte nuestra página web a lo que sería pues móviles. Bien, entonces hazlo por tu código, mi estimado programador, porque tu código depende, o sea, que tan bien sería tu código depende de eso. o K, entonces dicho esto.
+¿Cómo está?
+Vamos a pasar ahora lo que sería el paradigma de Movil First.
+Ya vamos a pasar al paradigma de móvil first, para eso yo voy a presentar aquí.
+¿Si bajamos o k, qué es el paradigma de móvil first? ¿Dónde está? Aquí lo tengo.
+Ya entonces la tecnología avanzó y ya no tenemos que hacer 2 páginas, sino una solamente. ¿Pero qué es Mobile First? Mobile First es lo siguiente, chicos, vean este flujo de acá. Ya en realidad es una estrategia de diseño y desarrollo que nos dice que primero construyamos.
+Pensando en celulares, o sea, pensando en móviles y solo después ya, pues vamos creciendo nuestra página a lo que sería este los dispositivos más amplios. O sea, si tú ya lo tienes para celular, lo siguiente es verlo para este tablet, luego verlo para escritorio.
+Ven, es como un flujo. Construyes tu página web primero para móviles y de ahí ya pues tú le vas aumentando el espacio, que es justamente lo opuesto que hemos hecho nosotros. Cierto, nosotros hemos construido nuestra página web, ya hemos construido la página web, pero en pensando en el escritorio, el móvil móvil first lo que te dice es, hey, construye tu página web.
+Con este espacito, o sea, es como si tuvieras la ven este espacito y luego cuando veas que exactamente funciona, ahí sí ve agregándole espacio y ve pensando en ese espacio cómo se posicionaría, cómo sería el layout, etcétera, hasta que al final llegues a escritorio. Es sencillamente eso, chicos.
+Ya entonces, ¿qué hemos estado haciendo nosotros? Esto específicamente ya una diferencia entre responsive web y móvil first web. Responsive web es lo que hemos estado usando, o sea, hemos la diferencia aquí es el punto de partida. Chicos, la diferencia es el punto de partida, mientras que responsive web.
+Lo que hace es empezar exactamente como es nosotros, con escritorio, y ahí le hemos le hemos tenido que agregar este técnicas de CCS para adaptarlo a tablet, para adaptarlo a móviles. Ya lo que dice Mobile First es diseña primero para celulares y luego lo vas a expandir a CP.
+Tallas más grandes.
+Bien, es simplemente esto.
+O K, ese es móvil Fierce, lo van a ver, lo van a ver con cuál. A ver, cuando ustedes vean en el bootcamp más adelante Tailwin, Tailwin es un framework de CCSY es una tecnología móvil Fierce, o sea, todas las, digamos, las reglas que te da Tailwin son móvil Fierce y te va a hacer construir a partir de.
+A partir de cómo se llama, bueno, a partir de un móvil, no, o sea de un celular es muy bueno. O sea, es muy recomendado construir a partir de móvil. Es muy divertido, la verdad, porque yo, por ejemplo, yo claro, yo llevo Tairwin Bootcamp y me he amarrado con Tairwin. Ya hay otros que es, por ejemplo, Bootstrap, que es diferente.
+Pero yo me amarré con Telwin por esa razón, porque es muy fears y este y bueno, es súper sencillo, ya súper entendible, van a verlo cuando lleguen.
+Bien, pero eso, pero eso no me desvío entonces.
+¿Qué pasa ahora ya para construir por móvil first o específicamente también para responsive ya lo que nos ofrece?
+CCS son herramientas ya porque CCC también nosotros podemos construir con CCS movie, chicos también lo podemos hacer ya no es que solo necesitamos.
+Para construir con CSS, lo que nos ofrece es una herramienta, bueno, no herramienta, sino propiedades.
+Hay que llamarle propiedades, reglas ya reglas llamadas medias queries. Medias queries no es aplicar estilos, es aplicar estilos, pero basados en condiciones para los que vengan de programación. Creo que sí, algunos me comentaron que era de programación, es como el if y el else ya.
+Si una es este aplicar, si una condición se cumple, se va a aplicar los estilos que tú indiques. La sintaxis es esta, chicos, la sintaxis es esta, esta es la sintaxis que ven aquí. Esto que está en naranja, en azul, en verde, ya lo dijo en verde, es la sintaxis.
+En CSS, en el documento CSS ponemos un arroba media y entre este entre lo que serían paréntesis se pone una condición. Ahorita les digo cuáles son las condiciones y luego se abre un llave como si fuera un bloque y adentro vamos a poner reglas.
+De condición, o sea, estos de aquí no, esas son reglas, pues esta es una regla, esta es otra regla, se pone toda una regla, no se pone solamente una propiedad así suelta, se pone toda una regla ya, y esa regla lo vamos a poner ahí dentro de las condiciones. Ya es así como funciona entonces.
+¿Qué más? Las condiciones que vamos a ver. Bueno, en realidad todas, la mayoría se basan en medidas del dispositivo. ¿Por qué? Porque es justamente en general lo que estamos viendo eso, cierto, medidas del dispositivo ya se basan en medidas del dispositivo, en orientación, etcétera. Y aquí les quiero hacer llegar a otro concepto súper importante.
+¿Que son los break points?
+¿Los breakpoints ya qué son los breakpoints, chicos? A ver, el primero.
+Hoy en día hay, pero una multitud tremenda de dispositivos. Ya hay este una gran cantidad de dispositivos en realidad de tantos tamaños de diferentes que simplemente, digamos, tú construir tu página web para un dispositivo en específico, pues nunca lo vas a terminar porque dices.
+Hey, yo voy a construir mi página web para el iPhone, este no sé s 14 ya perdonen si no me celeste porque yo no tengo iPhone, pero s 14 que sale con una división de 700, pero lo va a abrir este no sé un usuario que tiene un iPhone s 15 que tiene otra dimensión. ¿Lo ven? No se construye, o sea, no se construye tu página web pensando exactamente.
+En un En la marca de un dispositivo, chicos, ya se construye pensando en formas generales: laptop, tablet, celular. o K, así lo vas a tener más claro.
+¿Entonces, qué es lo que ha pasado? Lo que usualmente o lo que es un estándar entre programadores de diseño se han definido como que un rango de anchos para estos dispositivos. Ya entre ese rango de anchos hay, por ejemplo, existen, por ejemplo, en celular.
+Ya el celular tiene un rango de cero a bueno, no hay, obviamente no hay un elemento que tenga cero, pero este de cero a 639 píxeles y entre ese rango se van a mover los dispositivos móviles o celulares. Ya es lo que usualmente se considera con este ancho a cualquier celular.
+Ya entre ese rango va a haber uno de 600, otro de 610 entre ese rango. Bien, siguiente tablet, una tablet se mueve entre el siguiente rango, ya pasando ahora 640 a 768 píxeles aproximadamente. Entre ese rango se van a mover las tablets de 8 in, 10 in, 9 in, etcétera.
+Ya siguiente, acá se vienen 2, este que es más o menos la laptop y la laptop, porque hay laptops pequeñas y hay laptops grandes para una laptop pequeña, más o menos este estaría entre 600769 y 1024 píxeles. Muy bien, y este para una laptop.
+Poco más grande, ya como que es monitores pequeños, estaría entre 1024 y 1279 píxeles. Ya importante recordar, por favor, los anchos, porque en eso se van a basar las media cuel. Tienes que tenerlo presente también cuando tú construyas tu página web y ya digamos monitores grandes.
+Se basan este y laptops grandísimo, bueno, grandes, porque esto tiene más también este la que tengo ahorita, así más o menos va entre 1280 píxeles en adelante. Ya esas son las unidades de ancho de este de lo que serían pues los dispositivos en general, ya así ya no te pierdes.
+Construyendo una página web para un dispositivo o un modelo en específico, no, sino para un dispositivo en general.
+Ya van a ver otros valores chicos, pero estos son los más usuales, los más generales. Ya y un breakpoint, ¿qué es un breakpoint? Justamente es eso, no es cuando tú entras a ver, un breakpoint es esto de aquí.
+Pasa que aquí, por ejemplo, cuando yo te digo.
+Este, a ver, cuando yo te digo, a ver, ya cuando yo te digo que estoy en 1044, a ver en qué dimensión estoy, 1044, estoy justamente a ver, 1044 es, perdón, acá está, más o menos sería una laptop grande, no un breakpoint, ya es como que una línea invisible, no.
+Es un momento ya donde el diseño web cambia por completo. Aquí tú estás, digamos, entre celulares ya 639, tú estás aquí celulares ya y aquí estás construyendo para celulares. Mientras tú vas subiendo, ya pasaste los 639 que era de celulares y ya estás en los 640, ya estás.
+Ya aquí, por ejemplo, hasta aquí, digamos, estarían los celulares ya luego de ahí en adelante ya es como que el dimensionamiento de las tablets que llegarían hasta los 768, cierto, sí, hasta el dimensionamiento de las tablets que serían hasta acá.
+¿Ya qué es lo que pasa? Que cuando cambias de una dimensión a otra, eso es un breakpoint, chicos, punto de quiebre, por así se le llama, ya son puntos de quiebre. Exactamente es eso. Muy bien, se puede entender ese concepto de breakpoint y chicos, ajá, gracias Carlos Ramos, exacto, elif Else, elif Else.
+Lo van a ver en JavaScript. Eso el EFLS es súper sencillito, ya es súper sencillito, pero se puede entender este el concepto de Breakpoint y también que lo tengan en claro cuáles son esos anchos, porque con esos anchos van a trabajar, chicos. Ya este sí, en temas de diseño sí hay matemática, hay algo de matemática en recordar números, cálculos, es súper básicos.
+Ya no se preocupen, pero sí nos nos estandarizamos o pues nos referenciamos con medidas, obviamente ya exactamente con medidas en CES, en Tailwind también lo van a ver o k listo. Entonces, si se puede entender esto, ¿por qué expliqué justamente los anchos? ¿Por qué?
+Nosotros vamos, chicos, vamos a ver medias queries basados en el ancho del viewport, no tanto en el alto, porque no, porque nosotros solo vemos el ancho, como ven aquí, cierto, vemos el ancho. Entonces sí hay para alto, pero vamos a ver el ancho del viewport.
+¿Cuáles son esas condiciones para este para el ancho y el alto? Vamos a ver acá.
+Ya ignoremos esto, por favor.
+Vamos a poner acá en ***** ya esas condiciones ya lo habíamos visto. Bueno, no lo habíamos visto, pero sí lo conocemos. ¿Se acuerdan del Max Wit?
+¿Y el del más?
+¿Y el mingui?
+Exactamente es la estructura, es así, más win, min wick y acá un valor, pero no son propiedades. Chicos, acá lo vimos como propiedades anteriormente, pero acá lo vamos a ver como condiciones y acá hay un valor.
+Y acá hay un valor.
+Ya acá hay un valor, estas son las condiciones, chicos, es sencillamente eso.
+Yeah, a ver.
+Wait.
+¿Cómo se ponen? Justo acá puse, estoy copiando la sintaxis. A ver, voy a mover esto aquí.
+Voy a mover esto aquí para que vean cómo se interpreta eso, ya voy a agrupar esto y se baja.
+Esto lo voy a agrandar para que se vea, vean como he puesto, o sea, la sintaxis que he seguido, he puesto en realidad más with o más with valor. ¿Ya qué es lo que dice? ¿Qué es lo que pues cómo se lee esto? Con esto es lo que le estamos diciendo, si es más chicos, si es más, recuerden esto, por favor.
+Si es más, si es más, es a ver.
+Porque me sale chiquitito.
+Yeah.
+Si es Max, indica que aplica las reglas a partir de este ancho hasta atrás, ya es decir, si el ancho es menor a este valor, vas a aplicar lo que indica Max.
+Ya con esto le está diciendo esto, si por ejemplo, tú pones acá 100 píxeles.
+Ya más with 100 píxeles, lo que le está diciendo es aplica las reglas de 100 este para anchos para cuando el ancho del viewport sea este menor a 100 píxeles, nada más que eso ya si el ancho del viewport.
+No me faltó eso y el viewport es menor a este valor, o sea, a 100 píxeles.
+Eso, chicos, es eso. Vamos a verlo en la práctica o aquí ya digamos que nosotros tenemos aquí nuestro viewport. Ya he puesto acá y dibujado esto el viewport.
+Ya me salió ahí un dibujo bueno.
+Entonces vamos a desagrupar. He dibujado un viewport que es este borde *****. Nótenlo por favor, lo voy a poner incluso más oscuro. Ya he dibujado un viewport y adentro tengo un elemento chicos, adentro yo tengo un elemento.
+Ya tengo un elemento imagen ya que tiene una ID llamada imagen.
+Ya no importa, solo dense cuenta que es una imagen. Ya mi viewport tiene 1024 píxeles, mi viewport tiene 1024 píxeles.
+Voy a hacer acá una pregunta, ya si se puede entender ese medio.
+Voy a poner acá media y acá voy a poner la conexión max with.
+De 1000 píxeles.
+Con esto, chicos, voy a poner la regla para la imagen, que es así, estoy usando un selector de etiqueta.
+Ya voy, estoy usando un selector de etiqueta y adentro, como les comenté, se ponen las reglas, no se pone una propiedad solo, una regla, o sea, un selector y propiedades adentro. Le estoy diciendo, we igual a 400 píxeles.
+A ver, chicos, a ver, ustedes me dirán para este viewport que está aquí con ancho 1024, se aplica o no se aplica esta condición, o sea, se va a aplicar que la imagen tenga 400 píxeles.
+Sí o no, chicos, recuerden que Maxwick nos dice si el ancho de viewport es menor a este valor.
+A ver.
+A ver, chicos, se aplica o no se aplica.
+Esta condición ya le estoy dando la condición más width, 100 píxeles. El ancho del Bioport es 1024.
+¿Se aplica o no se aplica es esta regla que le estoy indicando acá?
+Ver, quiero en León me dice, sí, aplica o K, ya tenemos una respuesta.
+Ver mis programadores programadoras, se aplica o no se aplica.
+No se aplica. Uy, acá hay un debate, no se aplica. Vamos a ver si se aplica o no se aplica. ¿Y a qué caballero le damos la respuesta?
+A ver qué es lo que estoy diciendo con respecto a más with. Más with me dice lo siguiente, si el ancho es menor a este valor, voy a poner acá.
+Si el ancho es menor a este valor.
+Por lo pongo yo desde cero, o k si yo le estoy diciendo que más el ancho es menor a quién a 1000 píxeles. Con esto le estoy diciendo si el ancho es menor, o sea, si el ancho del viewport.
+Perdón, el Nacho de Viewport es menor a 1000 píxeles.
+Aplica lo que está ahí adentro.
+Aplica lo que está ahí adentro ya con lo que estoy diciendo con esta regla o con esta regla de media query. Estoy diciendo esto, si el ancho del viewport es menor a 1000 píxeles, aplica lo aplica. Bueno, aplica que aplica lo que estoy diciendo ahí, o sea, que una que la imagen tenga 400 píxeles.
+¿Cómo vemos esto fácil? ¿Cuánto es el ancho de mi bioport? Es 1024, el ancho es menor o no es menor a 1024.
+Bueno, el perdón, el ancho es menor o no es menor a 1000, no es menor. Entonces esta condición no se me va a aplicar, chicos. Esta condición se aplica para viewports menores a 1000.
+Correcto, entonces la respuesta era que no.
+Bien, la respuesta era que no se pudo entender eso, Kevin.
+It.
+O K o K o K, mira que ya primero hay que entender que más with nos dice lo siguiente, ya más with.
+Maswick nos dice.
+La perdón, más wick, pero la condición nos dice ya más wick: 2 puntos valor nos dice lo siguiente, ya nos dice, y acá lo estoy repitiendo de nuevo.
+Aplica, aplica la regla, o sea, la aplica si.
+El ancho, el viewport donde tú estás, donde o sea el viewport actual, donde está pasando el este, donde está sucediendo el ancho del viewport, ya sabemos que es el viewport, ya es menor al valor que estoy indicando ahí.
+Al valor que estoy indicando.
+Ya es menor al valor que estoy indicando.
+O K, en este caso me refiero a este valor aquí ya a ese valor. ¿Entonces, qué es lo que ha pasado acá? Yo le he indicado cuánto le he indicado 100 píxeles. Entonces, si yo reemplazo aquí 1000 por esos, perdón, 1000 píxeles, acá lo que estaría diciendo es justamente aplica si el ancho el view.
+Por es menor a 100 píxeles.
+Ya perdón, a 1000 píxeles, discúlpame, discúlpame, a 1000 píxeles entonces.
+¿Qué es lo que pasa? Que en un viewport, mi viewport actualmente tiene 1024 pixels, o sea, el ancho, el ancho lo voy a eliminar porque me este acá el ancho, el width.
+De este es 1024.
+Ya el viewport, el ancho es 1024, entonces, pero mi condición me dicen que solo voy a aplicar si es menor a 1000 entonces.
+Como no cumple la condición porque es 1024, es mayor a 1000, entonces no lo aplica o k no va a aplicarlo este así de sencillo. Bien, o sea, lo que tienes que hacer es primero fijarte en qué es lo que estás definiendo tú. Tú estás definiendo 1000 píxeles ya para un ancho.
+De viewport menor a 1000 pixeles y lo segundo es que tienes que ver el ancho del viewport ya para poder comparar con esos 2 elementos, ya sabes si se va a aplicar o no se va a aplicar este la regla que tú definas.
+Okay.
+Perfecto Kevin, muchas gracias. Listo entonces si se puede entender.
+Genial, si se pudo entender entonces el ancho, el perdón, el max with, el min with es todo lo contrario. Chicos, si el max with es como que un límite de un límite de rango superior, o sea, de acá para abajo, el min with.
+Es un límite del anbu inferior, o sea, de aquí para arriba.
+Ya el minwi es así.
+¿El min with ya el min with valor, qué es lo que estoy diciendo con el min with valor?
+Yeah.
+El min with valor es.
+Vamos a poner acá, vamos a reusar ya para no este aplica si el ancho es mayor al, o sea, el ancho del viewport es mayor al valor indicado, es sencillamente eso min width es del valor que tú estés le estás dando hacia arriba. ya.
+En cambio, más width es del valor hacia abajo. Es así. Entonces aplica si el ancho de por es mayor al valor indicado ya y vamos a hacer, por ejemplo, un ejemplo aquí.
+Digamos que ahora.
+Ver ya, pues no se copiar este, no se ocupen.
+Esto lo ponemos acá.
+List.
+Ese es el viewport y ese es el ancho. Ya voy a poner aquí una regla y la regla es.
+De hecho, voy a copiar esto mismo para no.
+Pero ahora conmigo.
+Yelmin dice.
+El min ahí mismo, chicos, ahí lo dejo, ya ahí mismo lo dejo, ni siquiera lo muevo, solo le puse minwi aplica o no aplica esa condición.
+Ya el viewport en el mismo ancho 1024, yo le puse 1000 with 1000 píxeles. ¿Aplica o no aplica esta regla que está aquí?
+A ver.
+Recuerden que el min with es mayor al valor indicado, ya aplica si el ancho de biport es mayor al valor indicado.
+Ay, ¿qué está pasando? A ver, perdón, hay un accidente acá.
+Ahí me responden, chicos.
+Voy a suprimir esto, a ver cuál es la respuesta, chicos.
+Aquí Carlos me dice que sí, a ver quién me da otra respuesta, a ver para ver, a ver cómo lo están comprendiendo.
+He dicho lo siguiente, ya he dado esta regla de aquí.
+Primero diciendo el min with, o sea, si yo pongo esta condición, lo que estoy diciendo es aplica si el ancho del viewport es mayor al valor que estoy indicando aquí.
+En este ejemplo yo le he dado 1024 píxeles.
+El viewport y estoy diciendo aquí min with igual a 1000 píxeles, ya estoy dando un valor de 1000 píxeles.
+Diferente a los 1024, ok, 1000 píxeles es mayor o menor. Pregúntense eso.
+Si es menor, es mayor o menor. A ver, 1024 es mayor o menor, perdón.
+Con eso detendría su respuesta, es mayor o menor a la condición que les estoy dando.
+Si cumple, si cumple exactamente, muchas gracias. Creo que sí, ahí sí lo pudieron cumplir exactamente.
+¿Cumple por qué? Porque 1024 es un ancho mayor al valor de los 1000 píxeles que le estoy indicando. Entonces, como es un ancho mayor, sí va a aplicar la regla. Chicos, bien, es así de sencillo, ya voy a verlo también.
+En código porque también lo tengo en código.
+Ya y voy a verlo con Big Point, chicos, ya con una imagen, lo que se hace supuestamente en tiempo real.
+Ver.
+Es Voy a ver específicamente con mi. Lo que usualmente se usa para los break points, chicos, es min ya para simular esto de aquí que comenté acá arriba para simular esto de aquí, lo que usualmente se usa es minwi.
+¿Cómo? Ahorita lo vamos a ver, no se preocupe.
+Ahorita lo vamos a ver, ya voy a empezar con esto, chicos, voy a empezar con esto, ya voy a incluso voy a este.
+Voy a fingir, ya estoy este desarrollando este esta página web con móvil ya tipo móvil first, o sea, voy a empezar desde móvil.
+Ya así se así se diseña desde móvil, chicos, ya o así se trabaja responsive desde móvil. Yo tengo esta imagen ya desde móvil desde esta distancia y como estoy pensando en móvil, yo simplemente le puse un ancho de 300 píxeles. Esta imagen tiene un ancho de 300 píxeles ya que justamente está en el rango de los móviles, no de cero a 639.
+¿Qué es lo que pasa? Quiero que.
+Vean que actualmente obviamente es fijo, le puse 300 píxeles, no varía, ven que no varía, ya se mantiene con 300 píxeles, no, yo quiero que crezca para cada dispositivo. ¿Cómo hago eso? Usando exactamente las media queries.
+Para celulares grandes uso justamente lo que definí ahí. Los celulares grandes tienen una dimensión aproximada entre 639 a 640. ¿Qué es lo que quiere decir interpretación de esto? Ya recuerdan para mi Wii.
+Ya básicamente es para tablet, no casi lo vemos, es para tablet, claro.
+Sí, porque ya o sea, estamos viendo esto de tablet, es decir, ven que esto sería como que el rango inferior, o sea, de 640 en adelante es tablet.
+Ya de 640 en adelante está lo que estoy diciendo acá es para, o sea, para ancho de view por mayores a 640 aplica esto.
+Eso es lo que estoy diciendo, es decir, como que para este dispositivo si nos vamos acá.
+Ya para este dispositivo.
+Ya estoy aplicando ya Breakpoint, chicos. ¿Y qué es lo que va a pasar? Vamos a verlo aquí, estoy en móviles, pero cuando vean aquí, por favor, ya aquí atentos al ancho.
+Cuando suba a 640, vean a este.
+Creo que mucho, ahí está, vean, ahí ha pasado un break point, chicos, un punto de quiebre en 640.
+Ha aplicado la regla que yo le he dicho en imagen.
+Ha sobreescrito en realidad a esto ya las mediqueries sobreescriben a estilos, este a los mismos estilos que le estás aplicando, o sea, a los mismos, no sobreescriben todo, sino a los mismos que le estás indicando. Acá yo le indiqué 300, pero le he dicho que para pantallas mayores a 640.
+Me aplique 500 píxeles y es lo que ha hecho. Ha sobreescrito ese estilo móvil fees. Bueno, media query se basa en sobreescribir. Chicos, van a sobreescribir mucho las propiedades, se van a empezar con propiedades base, así se le llama propiedades base, que es como tú empiezas y luego vas a ir construyendo sobre esas.
+Más propiedades para diferentes dispositivos ya entonces acá lo veo para, por ejemplo, tablet, por así decirlo, para tablet se vería así mi imagen.
+lo ven ahora vamos a considerar para quién para este como que laptops pequeñas ya ignora esto ya
+De hecho, acá voy a poner tablet, no sé porque se puso acá.
+Ya, pero acá vamos a poner, por ejemplo, laptops pequeños.
+Ya y qué va a pasar, chicos, para laptops lo voy a desbloquear. ¿Qué tiene que ser para laptops? ¿Cómo tiene que ser la media query? Mayores a 769 de aquí en adelante tiene que tomar en cuenta eso o ky tienen que notar algo también, chicos. Recuerdan que dijimos que el ancho de una tablet está entre 640 y 768. Ya estoy cubriendo.
+Este rango, mire este rango, ya lo estoy cubriendo con esta media cuella.
+¿Cierto, mayores a 640 de aquí en adelante, pero cómo estoy cubriendo este 768?
+Un justamente esta media query que está aquí, o sea, estoy cubriendo 2 cosas con esta media query, la primera, este rango de aquí. O sea, ya estoy diciendo que a partir de aquí empiezan lo que son las laptops pequeñas, pero que hasta ahí nomás llegue esto. ¿Por qué? Porque lo va a sobreescribir, es decir.
+¿Esto de aquí, chicos, ahora a quién va a sobreescribir?
+Hi, stop.
+Ya vamos a verlo en la práctica, ya acá lo que estoy diciendo es para un ancho mayor a 768, aplica este ancho mi imagen y vamos a llegar a este ya vamos a poner, vamos a fijarnos qué pasa. Estoy en tablet, ya vamos a 768.
+Ahí está el cambio, chicos, vean que 768 en adelante ya ha cambiado. ¿Ven lo que ha pasado? Hemos dejado para tablet, este hemos cubierto los 2 estos, el 700. Bueno, hemos sobreescrito ya el resumen es esto, hemos sobreescrito esto.
+Porque hemos llegado justamente a una medida que cubre la laptop pequeña de 768 en adelante. Esto lo que ha hecho es cubrir la tablet de 640 en adelante y ha llegado al límite de 768. Ahora para tocar para laptop pequeñas. Esto de acá, que es la base, se ha quedado para celulares, chicos.
+Celulares, tablets, laptops.
+Bien, o k chicos, se ha quedado para eso y así va a ser con los siguientes y así va a ser con los siguientes, miren para una laptop más grande.
+Por un lato más grande que es de 1024 en adelante, como indica aquí la medida le estoy indicando.
+Le estoy indicando 800 píxeles, vamos a verlo 1024, vamos a subir y ya.
+Vean como ahora la imagen se ha adaptado para 1024.
+Lo ven chicos y eso sería todo. O sea, yo no puedo llegar más ya porque se ha quedado acá mi este es pequeño. Entonces esto no lo podrían ver, ya esto no lo podrían ver, pero eso efectivamente, ¿qué es lo que ha pasado acá? Ahora esto sobreescrito acá.
+O K, lo que quiero que no tengas cómo he usado exactamente las medias como break points ya para definir exactamente los anchos ya para cubrir exactamente los anchos y así funciona hacer móvil first. En realidad, acá van a tener una cantidad de código de líneas de CSS para móviles.
+Para móviles así y luego, cuando quiera empezar, tal vez en tablet, digamos, van a mover ahora su espacio para acá para 600, o sea, van a cubrir este 768 ya.
+Hasta 1768 hasta aquí llegaría una tablet más o menos, y ahí van a programar usando, digamos, una min with como esta.
+Ya una minwit como esta ya y poniendo esto también, obviamente una minwit como esta, porque esta es para tablet y ahí adentro van a sobrescribir algunas líneas CCS, pero que sean ahora este que se van a sobrescribir con lo que estás indicando acá en media query bien y luego terminas en tablet y te vas a laptop pequeña, que ya sería otra unidad de medida.
+Ok, se pudo entender chicos, entonces lo recomendable siempre sería usar minwhip o tenemos que usar ambos para diferentes casos.
+Para abrir points es minwit cargos ya como te comenté acá, si hay ocasiones donde se usa más Wi ya donde si tú quieres, donde tú este quieres ser justamente lo que te dice más Wi que era, recuerdas menores a este menores a lo que sería.
+De hecho.
+De hecho, De hecho, mira, buena pregunta, excelente pregunta, porque Mobile First se apoya más en Minweek.
+Yeah.
+Mientras que Responsive Web Design se apoya más en más web.
+Más we.
+¿Ya por qué? ¿Por qué? Bueno, porque vemos de dónde parte, pues acá estamos aumentando los rangos, por eso un min with, porque min with es el límite inferior. Recuerda este para este en adelante, para este en adelante, para este en adelante, mientras que más with es hacia atrás.
+De acá para atrás, porque acá estás reduciendo, reduciendo el ancho de dispositivos, ok.
+¿Se puede entender esos carros? A ver.
+Creo que me costó.
+¿O sea, sí vamos a usar este más Wii, ya sí vamos a usar más Wii, no?
+Juan me dice bien, o K, Carlos, muchas gracias por eso. Entonces, si se pudo entender, a ver, voy ahí me dice, a ver, April, tienes una pregunta, yo.
+Y ahí vamos a ver, entonces si se puede entender en línea, cuál es genial.
+En nuestro código, entonces ponemos los rangos para cada dispositivo.
+Este Esto lo que he hecho April es para este para diseñar a partir de Mobile First.
+Ya si tú quieres poner en práctica exactamente como te comenté, construir tu página en móvil fields, genial, ya o sea, no hay una unidad, o sea, no hay una forma, por así decirlo, correcta de decir, hey, este, hazlo sí o sí, móvil fields.
+Este Hazlo 100 CM Mobile Cris porque es la correcta. No puedes hacerlo en responsive, o sea, como lo hemos hecho nosotros, también está bien construyendo a partir de este responsive, pero si quieres construir a partir de móvil fees como está acá, implementa justamente estas formas que están aquí.
+Ya por eso te la voy a pasar si quieres.
+Y ahí tú vas, este, por así decirlo, intentando.
+Vale.
+Créeme, te va a gustar, o sea, te va a gustar cómo cambia, o sea, cómo construyes para móvil y luego, cuando vas aumentándole este, vas a ir como que sobreescribiendo.
+Ya si lo vas a hacer para móvil, por eso yo me quedé con Telwin. Telwin es Telwin, ya viene como que Telwin no usa Media Quest, chicos, ya es súper sencillo, Telwin, la verdad, si lo si lo van a, si lo ven.
+Creo que me está diciendo algo Abril, es súper sencillo. Si lo ven, yo se lo recomiendo cuando entiendan CCS.
+Bueno, de hecho, ya el Bootcamp, como les comenté, lo va a hacer ya, pero también van a escuchar sobre Bootstrap. Bootstrap tiene un mayor nivel, por así decirlo, ateru. ya Así que si quieren en cuanto a, digamos, objetivo de aprendizaje, sigo usen tewin, chicos.
+Ya si usen Tairwin porque es súper este, es un framework, Tairwin CSS de incluso tiene su propia página web.
+Ya tiene una sintaxis súper, súper, súper sencilla. En Tailwin lo que van a hacer, miren, acá Tailwin va a poner su clase. Ya en Tailwin no hay un archivo CSS, más que nada las clases que pones lo pones directamente en tu HTML.
+Lo pones, pero son clases definidas, o sea, estas clases, estos nombres de clases, ya es una sintaxis SS, o sea, por ejemplo, robodet que está aquí significa que le estás poniendo pues este bordes redondeados, ya o sea, la clase, el nombre de clase ya tiene por sí un valor.
+CCS ya los así funciona. Este PX lo que está diciendo es un padding x cuatro, ya o sea que este cuatro creo creo.
+Cuatro píxeles por ahí ya por ahí, o sea, ya hay una sintaxis definida, es súper sencillo y súper ya organizado. o K, pero lo importante es estos breakpoints, no sé si acá está acá, pero vamos a breakpoints Talwi.
+Y termin exactamente tiene breakpoints definidos. Ya tiene 640 efectivamente para celular, 738 para tablet, 1024 para laptops y de ahí en adelante va creciendo. ¿Lo ven? Y con y lo que en realidad acá no usan media queries, lo que usan son como términos. Acá van a poner en realidad SM que es small.
+MD que es medio, LG que es large, ya XL extra large, 2 XL, así ya por eso le digo que es más sencillo, van a guiarse con sintaxis sobre eso. Ahí no van a ver tanto medias query porque sí es un poco confuso, la verdad, pero eso no.
+Vale.
+¿Entonces, alguien tiene alguna duda, alguna pregunta chicos?
+Porque voy a.
+Creo que se haya entendido, también un poquito, sé que no le he dado, no, pues tendría que ser toda una clase, pero bueno.
+Hey.
+Ya entonces, ¿qué es lo que voy a hacer ahorita? Ahí estamos.
+O K, pues o K Carlos, muchas gracias. ¿Qué es lo que voy a hacer ahorita chicos? Ya cerrando esto de aquí, miren, esto lo voy a arreglar con break points, chicos, esto de acá lo voy a agregar con break points, ya lo que voy a hacer es meterle flex.
+Meterle flex, ¿por qué se ve así? ¿Por qué se ve el giro se ve así?
+Por lo siguiente, ya si nosotros nos vamos al giro, que es ese *****, vemos que tiene display flex, tiene jazz tip content center ya.
+O sea, lo que tiene es que el flex direction por defecto es row, es decir, acá todos sus elementos están en row.
+O sea, son 2 elementos aquí en lo ideal, esto es un elemento y este es otro elemento, pero está en road, es decir, en fila. Yo no quiero que esté en fila, quiero que claro, en tamaño escritorio sí está en fila, sí quiero que se vea en fila, pero en tamaño móvil yo quiero que esté en columna uno sobre otro.
+¿Entonces, cómo hacemos eso? O K, vamos a acá a hacer un móvil first, ya o sea, un móvil design first. Vamos a empezar desde móvil, voy a establecer una este estilo base. ¿Cómo hago eso?
+Nada más que acaso simplemente voy a agregar este flex direction color, ya y ahora sí, vean, ahora sí, vean, y ahora sí, vean que en primer lugar sí está uno debajo de otro, pero obviamente el tamaño de electrón es muy grande, por lo que noto, entonces lo que voy a hacer es.
+Primero.
+La imagen lo voy a dar, lo voy a reducir, le puse, le voy a poner 300.
+No.
+Sí, ya y me estoy dando cuenta que el título todavía es grande, así que le voy a poner un 2.5 REM.
+Yeah, y aquí.
+claro, es que.
+Ya eso, el like ya está, el display test column o K el padding está muy grande, le voy a poner un 20.
+Sigue entrando todavía en el subtítulo, voy a poner.
+1.5 ya ahora sí entro perfecto. Sí, era muy este muy grande, 1.5 bueno, así van a ir probando. Acá le voy a poner también una separación. ¿Recuerdan cómo se ponía separación en flex usando gap? Cierto, voy a separar esos 2 elementos buenísimo y lo que voy a hacer es.
+No quiero que esté alineado en el centro, sino en.
+Al costado ahí ya así quiero que se vea para móvil, yo lo estoy creando para móvil, ahorita me voy a fijar en escritorio, pero lo estoy haciendo para móvil igual acá, igual acá lo voy a hacer para móvil solamente ya esto de acá también está en road, ya esto también está así en este, por eso es que no sé, por eso es que se visualiza así.
+Pero lo quiero en columna, es decir, hacia abajo, uno sobre otro, uno sobre otro. ¿Cómo lo hago? También me voy a ese contenedor, a feature. Aquí busco exactamente acá explícitamente me dice que es row.
+Voy a hacerlo en col.
+Ya lo voy a hacer en color.
+Bien, ya está, lo hice en colon. ¿Qué más le voy a quitar esto?
+Y le voy a quitar a acá el party, tiene un party muy grande.
+Sí tiene un país muy grande, vamos a darle, no sé.
+No dejo le damos 20 pixeles, mamá y acá le damos 10.
+Buenísimo, buenísimo, ya.
+Y.
+Ya primero le voy a dar un gap para separar esos de 10 píxeles, es decir, voy a separar los elementos bien, pero todavía está ya. Como yo le puse column, justific content sería como que a ver, si yo le puse column, ¿cuál es el eje principal?
+Acá, perdón, sí, cierto, el horizontal. Entonces lo tengo que alinear verticalmente. Acá está mal, acá tengo que ponerle center.
+Yeah.
+The align themes time serve center.
+Ahora sí está en el centro, chicos está en el centro.
+Ya listo, entonces ahora aquí, bueno, aquí también, aquí también. En realidad vean cómo se está pasando. Entonces acá en el footer también voy a hacer lo mismo súper rápido, voy a ponerle un flex, no, en realidad el footer no es el que los tiene. Si me fijo acá en el índex, el footer no es el que tiene los elementos, sino quién es el que lo tiene.
+El fooderlings no ven, los elementos hijos son del fooderlings. Entonces al fooderlings es al que tengo que aplicar, o sea, acá le voy a aplicar center, acá le voy a aplicar este flex.
+Direction row, column, casi digo row, column.
+Yeah.
+Le voy a aplicar column y ahora sí se ve uno debajo de otro, pero este está muy junto, así que le voy a aplicar un gap porque este quiero que estén separados uno de.
+Ya buenísimo, buenísimo. Ahí lo he hecho para móvil, chicos. Ahora sí, vean cómo se ha adaptado a lo que sería móvil ya a lo que sería móvil.
+De hecho, ya, pero ¿qué pasa en web? Obviamente en web se ve súper transformado, no se ve súper transformado. Entonces tengo que cambiar eso, chicos.
+Ya tengo que cambiar eso.
+¿Cómo lo hacemos o k? Primero tengo que fijarme.
+Donde quisiera cambiar aquí, por ejemplo, donde quisiera cambiar o que se vea en ahorita se ve en el column, donde quisiera que se ponga en row.
+Aquí ya creo, no más o menos sería como para a ver en qué ancho estoy, 768 ya sería como para tablet.
+¿Qué es lo que voy a hacer? Voy a usar justamente uno de estos.
+El que dice esto de acá ya como para esto quisiera que se vea esto de acá.
+En fila.
+No sería muy este, no, o sea, mucho espacio.
+Ya vamos a ponerlo para 1024 para que lo noten. Ya si para 1024 hay que ponerle, sí, vamos a ponerlo para 1024.
+Voy a copiar esto, voy a ponerlo aquí, sobre todo por la demostración aquí.
+1024 píxeles ya acá lo que estoy diciendo que a partir de 1024 va a pasar algo y qué es lo que quiero que pase es que el giro que era column.
+¿Ahora qué va a hacer?
+Hacer roles.
+Ya el giro que era quorum va a ser rock. Primero giro ya es flex, entonces yo no tengo que poner acá display flex, no, ya lo sabe. Lo que sí tengo que poner es flex direction, es decir que ese este.
+¿Cómo decirlo, ese esa propiedad flex direction se va a sobreescribir que era column aquí?
+Ya se va a sobrescribir por RAW ahora ya, pero para dispositivos mayores a 1024. Veamos, vean justo cómo ha pasado eso o K es justo lo que quería. Ahora para escritorio sí se ve uno al costado del otro, pero falta algo. También tengo que sobrescribir este como ha pasado a RAW.
+Y su justify content, no, justify content, no, su a ver, vamos a subir su align times, perdón, items es estar, es decir, primero está en row significa que esto es eje principal.
+Ya, y esto es eje secundario.
+O K, entonces yo le he hecho align items star.
+O sea que está, pues al inicio, no está al inicio. Entonces, ¿qué es lo que le tengo que decir ahora en este break point? Lo que le tengo que decir sencillamente es que aquí me vas a sobreescribir esta propiedad porque acá sí está diferente. No quiero que sea estar, ¿qué es lo que quiero que sea?
+Center ya y dicho y hecho efectivamente lo ha puesto Center.
+¿Lo ven? Ahora sí está en escritorio, se ve bien. ¿Y cómo se ve en este? ¿Cómo se llama en móviles? También o k no se ha visto afectado.
+O K, aquí vean como también ha cambiado. Entonces a esto también le tienes que aplicar básicamente lo mismo, pero aquí si tú quieres, por ejemplo, es casi igual. o sea.
+A giro acá en no, pero aquí a ver dónde consideran ustedes que se podrían poner los 3 acá de por sí me parece extraño que no se esté expandiendo el contenedor. A ver, déjeme fijarme algo, por favor.
+El contenedor no se está, no se está este a ver.
+Is play God with ya es normal.
+acá.
+Exacto, ves el contenedor, como lo ven, tiene un ancho fijo.
+Aquí el contenedor tiene un hecho fijo, por eso ya vamos a ponerle este, no sé a ver qué pasa si le ponemos.
+25 píxeles, ya 25% perdón.
+Uy, no, pues claro, es que como estamos, este estamos en columnas, obviamente este no. Ahora sí vamos a ponerle 100%, chicos.
+Aunque si lo.
+Ahora sí lo ven, ahora sí está en 100%. ¿Qué es lo que ha pasado? A ver, primero explico, este es feature este normal ya que ocupa el 100%. Este es feature box, que es lo que justamente acabo de poner en 100%. ya o sea que cada uno de estos tiene un width de 100%.
+Respecto al padre, que es justamente todo eso, okey, eso es lo que ha pasado. Yo de antes le he puesto 25%.
+Y por eso es que he ocupado solo este tamaño así cito, porque obviamente es 1/4, ¿no? Exacto, pero a ver, cuando lo ponga así también se ve, digamos bien, pero ¿qué va a pasar cuando lo pongan con en row? O sea, obviamente en row no es lo que quiero, no aquí.
+Vamos a poner flex direction world en el future a ver.
+Sí, ya.
+O K, todavía sigue mostrándolos, pero qué es lo que pasa como tiene Wi 100, no este no le está mostrando como una fila. Miren, le voy a quitar este esto de acá, el RAW que está acá.
+Y ahora sí.
+Ya este lo ha adaptado, básicamente lo ha adaptado el 100% acá es una cosa, chicos, es una cosa, son varias combinaciones de este. Ya primero hay que dejar en claro que flex también es responsive. ¿Por qué se le llama flex? Porque es flexible ya.
+Cuando tú defines, por ejemplo, en flex, el cómo decirlo, la Space Build Wing o el Start o esos posicionamientos, lo que le hace es a cada elemento le va a poner un tamaño proporcional igual a cada uno, no, si en tu caja tiene 5 elementos.
+Y la caja mide 100, a esos 5 le pone 20 ya equitativo. Eso es lo que ha hecho acá, a cada uno le ha puesto 100, aunque le aunque le diga 100% a cada uno el flex le ha puesto el 100%, pero de qué de este lo que le da lo que le da flex, por así decirlo ya.
+Eso es lo que ha hecho, básicamente por así, espero se pueda ver eso o k, porque lo que vamos a hacer acá.
+Ya acá vemos cómo se ha adaptado el future, ok, listo, se ha adaptado.
+Solo que acá sí lo veo un poco, este no me gusta, vamos a poner hey igual a.
+¿Pero este dónde lo voy a poner?
+Este no lo voy a poner acá porque acá estoy pensando en móviles, vean, ve, lo tengo que poner aquí.
+Un eight, digamos ya 25 BH, o sea, 25% BDB A chiquito no tiene que ser 50, a ver.
+Ahí está, ahora es el 50% de la altura que tengo, ven, es la mitad. Si esto es mi viewport, esta caja está ocupando el 50% de mi altura, porque eso le dije yo cuando le digo 50 BH, le estoy diciendo que ocupe el 50% de eso.
+Y está ocupando a partir de una medida mayor a 1024 chicos a 1024 ya no va a afectar al modo, por así decirlo, al modo solar no lo va a afectar, ya al modo solar no lo va a afectar.
+Listo y por último este el footer, no que también este obviamente a partir del, digamos, 2024 no me sirve que esté en columna, hay bastante espacio ahí. ¿Qué es lo que voy a hacer ahí?
+Voy a poner un punto fooder.
+Aunque no es no es footer, disculpen, es links, me confundo, es links el contenedor de los enlaces. Ya es estamos poniendo el contenedor de los enlaces porque ese es el display flex. Aquí lo que voy a cambiar es flex direction por raw.
+Ya voy a cambiar por row y ahora sí vean que a partir de 1024.
+Te pones.
+Ya a partir de 813 no se ve. De hecho, hasta podrían probar y decir, oye, a ver dónde ven que hay espacio, dónde ven que hay espacio ya a partir de más o menos 769.
+No, aquí no.
+Pero pueden hacer esto, miren.
+Voy a agarrar esto, voy a copiar, voy a pegar, voy a poner 769 pixeles.
+Voy a quitar esto.
+Y le voy a decir que a partir de aquí sea road.
+Ya acá no estoy en 779, ¿cierto, no?
+Ya que ahí a partir de ahí 700, ya ahí ya ves, vean como ha aplicado esto a partir de un ancho mayor a 769, aquí por ahí está aquí lo ha vuelto a row. Vean como pasó de columnas a filas ya y aquí si quieren, como hay mucho gap, le voy a reducir el gap.
+5 pixeles, digamos, no quiero tanta diferencia de.
+De separación.
+Ya y le va a bajar.
+Y le bajar y listo, chicos, vean como la página web se ha vuelto responsive.
+Ahora sí se ve este diferente para lo que sería móviles y para páginas web, ¿lo ven?
+¿Qué tal, chicos, qué fue con esa demostración? ¿Entendieron ahí?
+¿Cómo pude convertir una página web usando justamente las unidades que vimos hoy día en una página ya responsive que ya se puede adaptar tanto a móviles como a escritorio?
+Y cortos, no sé si tomar su silencio como mal augurio o buen augurio.
+Normal, normal. ¿Me pueden preguntar por favor? Esto ya es la última con esto ya pues estaríamos como que cerrando, así que.
+Quisiera que lo tengan en claro porque este.
+Sí, quisiera que lo hayan tenido bien claro, o sea, desearía, me gustaría.
+Que obviamente lo hayan tenido en claro, porque chicos, este yo no he hecho, o sea, el laboratorio lo van a hacer ustedes ya, pero lo van a hacer a que a la página de mi, a la página de MyLinks.
+¿Pasa algo con my links ya?
+Con esa página me lista, ahí creo que me está respondiendo 100% muy bien, gracias.
+Verán, todo claro, muy bien, gracias.
+Pasa algo, chicos, y es que ahora van a tener que aplicar a MyLinks.
+My links ya my links dónde está aquí ya a esta página le van lo tuvieron que haberlo personalizado, personalizado. Obviamente yo todavía no lo personalizo, pero este tienen que aplicar como que así decirlo a esas medidas. Ya básicamente lo que hemos aprendido hoy aplicar este mailings, pero pasa algo, pasa algo curioso.
+A este my list no se le nota tanto distorsionado por una razón, chicos, primero, ¿por qué? Porque acá no hay tantos elementos. En realidad, vean, es súper chiquito, entonces tiene todo un espaciote que mientras lo reduces no se nota que se está distorsionando. Ya no se nota que se está distorsionando. Por eso es que cuando yo este lo reduzco, ¿lo ven?
+No pasa nada, se está comiendo ese espacio restante.
+Ya y pasa lo otro siguiente, que si quisiera que investigue ya es este flex como responsive, como esto está construido con flex.
+Flex, chicos, ya de por sí es responsive, ya porque Flex, este como le comenté el contenedor flexible, investiguen ahí, pregúntense Proflex, el cómo le da justamente como que asigna tamaños.
+Tamaños basado en el este, o sea, tamaños basado en el contenedor. Si el contenedor, chicos, ya aquí está el resumen. Si el contenedor es pequeño, se contrae los elementos que están adentro también se contraen. Por eso digo que es flexible, y si el contenedor, o sea, el contenedor flex, aumenta de tamaño.
+Los elementos que están allá adentro también van a aumentar de tamaño.
+Es así como funciona flex chicos.
+Por eso es que este flex también se le puede llamar una tecnología que forma parte de las herramientas de responsive CCS. Ya aquí no van a notar muchos cambios, pero este por dentro, cuando vean el código de MyLinks, sí hay este píxeles, ya si hay, miren aquí a ver.
+Si ves acá ven, por ejemplo, dice 441 píxeles. Ya ustedes pueden probar, por ejemplo, con 50%, otros van a usar de HBW. Eso quiero verlos de ustedes, chicos, es su creatividad. Ya por eso es que no hice laboratorio. ¿Por qué? ¿Qué mejor tarea que ustedes que lo hagan justamente probando porque?
+Porque este el responsive es una etapa muy importante en su diseño de página web. Ya lo digo en serio, este lo digo como programador de programador a programador. Es muy importante que entiendan las unidades de medida.
+Ya muy importante y que sea responsive variante. Bien, la parte 3 es aplicar media query. Acá solamente te da uno, pero ustedes pueden aplicar las que quieran. Ya practiquen con eso, chicos, muy bien.
+Crear tu primera media query.
+Yeah.
+¿Y este bueno, acá en media query y haces un cómic de tu progreso, no? Al final, obviamente lo tienes que subir cuando ya estés seguro de haber este ya hecho los cambios, ya esté todo correcto, te quede genial. Obviamente haces un cómic, un cómic, este guardas tus cambios, no? y lo subes también a tu este repositorio para que se.
+Vean o se visualicen esos cambios bien y acá hay algunos logros adicionales.
+O K, era una pregunta, chicos, pero al momento de subirlo.
+Uy.
+Ya Jacqueline lo vemos, este lo vamos a ver en privado ya por WhatsApp ahí. este.
+¿Qué te parece? Bien, genial, ya no te preocupes, te voy a estar, voy a estar al privado, ya saben chicos, al privado me pueden contratar quien sea. Y si he respondido algunos chicos, han tenido ideas muy geniales, ya felicitaciones, este gracias por las dudas, por consultarme bien, okey, normal, me consultan sin problemas.
+¿Ya y qué más, qué es lo que necesitan aquí?
+La entrega de este laboratorio número 6, la entrega es un screenshot de to my links, o sea, un screenshot.
+En vista móvil y en vista disco, quiero ver cómo se ve en diferentes vistas.
+Ya como se ve en sus diferentes vistas y obviamente el URL de su repositorio ya y una tarea adicional, chicos, pero ya este esto no es bueno, sí, tal vez de algunos puntos, pero una tarea adicional es ya para los que es respecto a su práctica número uno.
+O sea, el proyecto número uno, chicos, si ustedes han visto su proyecto número uno, lo que quiero que hagan es que exactamente.
+Ya que ese es mi perfil, quiero que lo pasen por el filtro de como si es responsipono, quiero que pasen por el filtro de si es responsipono bien.
+Y si muestra errores, entonces hagan las modificaciones necesarias, porque ahora ustedes tienen el conocimiento para hacerlo, chicos, ya porque recuerden que esta página lo va a ver el reclutador y el reclutador. ¿Qué tal si lo ve en el celular y lo ve todo distorsionado? Entonces, ¿qué pasaría ahí?
+No, obviamente no sería una buena impresión, cierto. Por eso es importante que ahora que sabes que posiblemente tu página no sea responsive, el de mi perfil lo puedas modificar. o K es un consejo que te doy, vale como este como tarea. Y si tú quieres me puedes mandar también el screenshot y yo te voy a tomar en cuenta eso.
+Bien, okey.
+¿Qué chicos, alguien tiene alguna duda, una pregunta?
+Todo claro.
+Ver Yarni, las Carmen esta Yarni, muy bien, Yarni, me aplaude, me quito el sombrero. Gracias.
+A ver, chicos.
+Sí, acabamos, ya como que acabamos con la hora, ya acabamos como la hora. Entonces ya él me dice genial, Carlos está escribiendo.
+Listo, profesor, quedó todo claro. Ya creo que con la mayoría quedó todo claro, chicos. Entonces, si no hay algo más, nada más que decir, entonces yo me quedo aquí. La clase 6, ya la mitad de clase culminaría.
+genial, genial, Carlos, me alegro, me alegro. Buenísimo, proactivo, totalmente, genial.
+Ya entonces, sí, la sí, no hay ninguna duda, ninguna pregunta. Uy, mira mi cámara, ay.
+No me van a descontar, ya este sí, no hay ninguna pregunta, ninguna duda, chicos, yo hasta aquí me retiro, nos retiramos, era poner víncular la cuenta con exacto, sí, más o menos por ahí iba. Creo que eso, porque era muy raro que Git te pida contraseña, aquí no tiene contraseña, entonces era una de Git, ajá.
+Exacto, la primera vez que lo usas, que usas GitHub, te lo va a vincular, te va a pedir una autenticación, solo la primera vez, ya de ahí se guarda como para siempre en tu computadora. Listo chicos, entonces si no hay nada más que decir, yo me retiro, conmigo será hasta la próxima.
+Chao, chao.
+Yeah.
+Gracias a ti, John, por estar hasta el final de la clase.
+Gracias, chicos.
+Pero si nos retiramos como que a la hora, muy bien se cumplió. Buenas noches con todos, buenas noches con todos, chicos. Bien, voy a dejar de grabar a partir de aquí a ver.
+Voy a dejar de compartir.
+Mira, me olvidé.
+You stop.
+
+Orador 1 ha detenido la transcripción

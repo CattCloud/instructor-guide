@@ -1,0 +1,1215 @@
+Clase_08 Code101n19
+18 de marzo de 2026, 12:46a.m.
+3 h 27 min 8 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   0:03
+Una pantalla helada y una pantalla principal. Entonces, gracias por eso, ya está grabando así, perfecto. Gracias, Josegel, gracias Carlos, listo. Entonces, continuando, mencionamos que hoy vamos a usar la guía, vamos a publicar lo que el código que genera la guía y pues al final el.
+Tendrás una URL pública para compartir la idea de hoy, incluso hoy es un proyecto, este cómo decirlo, se puede terminar hoy en el mismo laboratorio. Sí, espero claro este que hayamos tenido el esa idea de diseño anterior, porque esa información se va a usar para la IA. Vamos a ver por qué es lo importante.
+Darle información o contexto ley.
+Ya listo, entonces vamos a pasar con la primera presentación. Y es que antes de hablar de la IA, mis estimados, quiero mención, quiero hablar de la historia de la IA, pero no voy a hablar de años, no voy a hablar de nombres, no quiero hablar de la historia de la IA como se llegó a estas tecnologías o K porque a la IA.
+No se llegó bajo una coincidencia. En realidad fue una serie de eventos que que permitieron llegar justamente a esta, pues a esto, no a lo que son LLMs, que en realidad ese es el nombre, ya no es tanto IA. Ahí creo que hoy en día ahí se ha malinterpretado ese término.
+En general la mayoría le dice ia ia ia, pero en realidad la ia o inteligencia artificial es una disciplina. o K. La IA es la disciplina de inteligencia artificial que involucra herramientas pues que imitan esto, no que imitan la inteligencia artificial y este los LLMs, que en realidad son esos modelos.
+Esos modelos que estás usando cuando tú, por ejemplo, entras a.
+ChatGPT ya que es conocidísimo cuando entras a ChatGPT y te dan esta interfaz, ya esto de acá es una LLM A, no es una LLM. Ya vamos a hoy día vamos a aclarar temas, mis estimados, ya para hay que aclarar temas para porque somos desarrolladores, somos programadores y tenemos que tener conceptos.
+Claro, entonces esto está mal dicho I A porque I es la disciplina. En realidad es LLM, que vamos a ver más adelante qué es lo que significa el LM, pero así es el nombre y esto es una LLM A, o sea, esto es una interfaz. El LLM en realidad es un modelo, un modelo matemático que está detrás. Esto es una interfaz.
+Que usa por detrás tu LLM. Ya entonces no les voy a confundir con eso, con esa previa, porque lo vamos a ver más adelante, más clarito. Pero quiero ver la evolución de la IA para no desviarnos. Bien, todo empezó justamente con la programación que hoy día conocemos, ya la programación Python, la programación JavaScript.
+Ya para resolver problemas, usualmente creamos un programa cierto y en el programa tú le dabas una serie de instrucciones, un programa es una serie de instrucciones para resolver un problema. Ya este programa sigue tus instrucciones tal cual para resolver ese problema. Tú escribes las reglas ahí, tú le dices si no sé.
+Si se pinta de si pasa A, haz esto, si pasa B, haz esto, si has si pasa C, haz esto. Ya las reglas son implícitas, lo que digas ahí va a pasar. ¿Pero qué es lo que pasa con la programación tradicional? Que este la, o sea, el mundo no seguía con patrones fijos, mis estimados.
+Mundo es tan variado que tú darle reglas para una cosa, le das las reglas para una cosa, pero pasa otra cosa. Entonces tienes que darle una regla para esta otra cosa, pero pasa otra variación y le tienes que dar esto para la variación para otra cosa. Ok, si por ejemplo quieres interpretar imágenes, uy, las imágenes tienen tantas variaciones, o sea, un gato puede estar en tantas posiciones, por ejemplo, en el este para que lo identifique tu.
+Programa que le va a ser imposible crear tantas reglas para cada pixel de la imagen. Son millones de reglas, son millones de líneas de código y esto es muy imposible. Entonces ahí la programación tradicional fallaba. ¿Qué es lo que se hizo? Se evolucionó, se pasó a lo que sería machine learning.
+Que los que conocen análisis de datos tal vez conozcan ese término de machine learning, ya que aquí lo que se cambia es lo siguiente: o K, yo no voy a escribir reglas, yo no voy a decir haz esto, haz esto y haz lo siguiente, no. Acá lo que va a pasar es que el mismo programa, el mismo sistema, va a aprender sus propias reglas.
+A partir de datos va a analizar datos. ¿Cómo así? A ver, este va, por ejemplo, va a analizar una serie de imágenes y va a detectar que así se identifica un gato, por ejemplo, o así se identifica un perro. Basado en ejemplos en datos, va a identificar patrones o una fórmula de cálculo.
+Que el propio sistema lo hace para justamente resolver este problema. Entonces pasamos de pasamos de crear nuestras propias reglas a que el propio modelo los cree. ¿Lo ven? Esto es básicamente, pues estadística, ya estadística y algoritmos de matemática, ya que no nos vamos a profundizar en esto, pero estamos aquí.
+Ya en machine learning, donde acá ya estamos insertando un término nuevo, chicos, acá estamos insertando, ay terrible.
+Acá la palabra claves es datos, porque el programa de machine learning necesita datos sin datos, no va a poder crear patrones. Ya acá ya estamos viendo como las primeras incidencias de un LLM o una I A.
+¿Qué pasó con machine learning? Bien, investigaba patrones, pero si la situación era compleja, como por ejemplo un video o un audio, este aquí lo que necesitaba era ayuda humana. El machine learning no era suficiente para resolver problemas complejos, necesitaba de ingenieros que le den como que más.
+¿Cómo decirlo? Las características precisas ya para que a partir de estas todavía te dé un resultado. O sea, todavía involucraba que el humano esté ahí, ayudándole este con datos complejos, como por ejemplo reconocer un gato en una foto. Un ingeniero tenía que programar manualmente. este.
+¿Cómo detectar bordes, cómo detectar texturas, cómo combinar este estas texturas? o K, eso no lo podía hacer el machine learning. ¿Y qué pasó ahí? Entonces un modelo simple no lo podía hacer. Se evolucionó el machine learning a un deep learning. ¿Qué es básicamente qué es lo que le agrega?
+Le agrega uno, le agrega redes neuronales, o sea, le da mayor capacidad de pensar, así a secos le da una mayor capacidad de pensar, pero esto que lleva más, ya no hay, ya no hay interacción humana para el deep learning, ya las tareas complejas si las.
+¿Si las puede resolver, pero qué es lo que pasa? Se necesitaban más datos para eso porque obviamente aumentó la capacidad. Si el humano ya no me da esas características, yo las descubro y como yo las descubro, son más datos.
+Son más datos. Entonces la máquina aprendía por sí misma porque le dabas como que capas, capas de aprendizaje, por así decirlo, ya capas de aprendizaje para que aprenda más. Pero esto llevó algo más, que necesitaba mucho más datos, lo que en consecuencia aumentaba. Y acá viene otro término.
+Ya el costo, voy a poner el cepa que para que quepa ya el costo computacional, chicos, si en machine learning tú simplemente usabas simples máquinas con poca capacidad de memoria para hacerlo este funcionar, en deep learning ya aumentaba la capacidad.
+Ya aumentaba, ya necesitabas máquinas más potentes, ya no pasamos de CPU, ya no estamos ahora en CPU, sino estamos en GPU ya este máquinas que hacían un procesamiento más complejo, ya más complejo y necesitabas más memoria, más capacidad, o sea, aumentaba totalmente ese costo computacional.
+Es decir, cualquiera no podía implementar ya acá estamos pasando también a como que fronteras económicas, mis estimados, porque aquí ya este ya son equipos que posiblemente no pueda adquirir cualquier persona con esa compacidad económica porque ya estamos aumentando y vemos como vamos este vamos creciendo ya.
+¿Qué pasa ahora con deep learning? El tema con deep learning es lo siguiente, muy bien, si con deep learning obviamente tú le dabas este, tú le dabas, no sé, un problema y te lo resolvía, tú le vas así como hoy.
+El problema con el deep learning era que era lento en un tema. Si tú le dabas texto, este lo leía palabra por palabra en orden secuencial. Imaginemos que tú le dabas a este una tesis de 100 páginas, ya le dabas una tesis de 100 páginas para que esa para que leas así y tú le preguntabas algo del final todavía para que lea esas 100 páginas tenía que ir letra.
+Por letra desde el inicio hasta llegar a la página 100. Y aquí había otro problema que tenía una memoria más pequeñita. Entonces, cuando llegaba a la página 100, ya olvidaba la página 1234, tenía una memoria limitada y no tenía contexto de palabras. Contexto me refiero a ver a qué.
+este.
+A la relación entre, por ejemplo, en mi cielo es azul.
+Ahí sabemos que, por ejemplo.
+Términos relacionados con cielo no es tanto, no sé, plástico, no es tanto pared, sino tal vez el color del cielo, la apariencia del cielo nublado. o K, no hay palabras como que combinen en un contexto. o K, entonces no tenían un contexto en deep learning y ahí apareció lo que son los transformadores, que no es una tecnología, mis estimados. es.
+Como que un patrón de arquitectura ya y entonces el Transformer, el Transformer sí le dio a Deep Learning esa capacidad de poder leer todo el proceso a la vez. O sea, toda la frase a la vez lo pudo leer. Pero algo más importante, como indica acá, le dio el mecanismo de atención.
+¿Qué es para decidir justamente qué palabras le dio contexto? Esto es muy importante para lo que son los CLMs hoy en día. Contexto, chicos, ya le dio contexto, es decir, saben qué palabras este tienen relación, qué palabras se pueden interconectar. Muy bien, esto le dio lo que serían los transformers, por así decirlo.
+Pero había un tema con los Transformers, y es que los Transformers no eran el lenguaje natural, es decir, no lo podían usar cualquiera. Ya no estaba, este existía, pero nadie sabía cómo usarlo bien porque era básicamente a este punto era matemática pura. No, obviamente no todos entendemos eso como usarlo.
+Transformer y luego lo que pasó es que ChatGPT apareció con justamente eso, no con el bueno, perdón, no. OpenAI es la empresa que está detrás de ChatGPT. ¿Qué es justamente esta aplicación que tú ves en Internet? ¿Qué es lo que es lo que implementó? Implementó justamente un modelo gigante.
+pero con una interfaz o sea implementó este modelo todo esto de acá ya un modelo bien construido con millones con miles de datos que aprende o sea con contexto
+Lo integró a esto donde tú fácilmente puedes interactuar usando tu lenguaje natural. Ya no usas matemáticas, usas tu lenguaje natural para hablar justamente con este modelo y para que este modelo, con tantos datos que aprendió, pueda resolverlo. Ya entonces ahí lo que tenemos son ya los CLDMs.
+Entonces, en los LMs, el tema con los LMs es que fueron evolucionando porque no se quedó solamente en ChatGPT, mis estimados, no se quedó simplemente en interactuar acá, porque hoy en día vemos que la inteligencia artificial, el futuro de la inteligencia artificial son los agentes IA, es decir, ahora ya no solamente interactúan a través de un chat, sino que, por ejemplo, pueden interactuar con.
+Programas que tú tienes en Internet con servicios que tú tienes en Internet. Por ejemplo, pueden revisar tu Drive, tu Gmail para ver tus correos y hacer una tarea con esos. Lo puedes integrar en una aplicación que tú construyas. Tú puedes crear una app, un programa y le puedes meter este, le puedes meter el modelo de.
+ChatGPT que es GPT 5, se lo puedes meter, digamos, para una tarea que tú requieras ya de que se construyeron APIs que tienen costo que te permite integrar eso. Entonces así fue como evolucionando, mis estimados, la historia de la I A, ya cómo se llegó actualmente a lo que son los LLMs.
+Sí, todo lo que ven en la imagen no es simplemente una sola tecnología, sino que se fueron construyendo hasta llegar.
+A lo que son los LDMs, pero una definición más precisa, porque tal vez no se haya entendido que es un LLM. Una definición más precisa es que mis estimados, nosotros ya tenemos un modelo similar a LLM en nuestro celular, ya lo tenemos.
+Ya y es el famoso autocorrector.
+O K, creo que todos aquí conocemos al autocorrector, cierto, estás escribiendo un mensaje en WhatsApp y bueno, el celular te sugiere la siguiente palabra antes que la escribas. Correcto, no sé cómo lo sabe, pero bueno, yo ahorita yo sí sé, obviamente, pero.
+Tú tal vez te preguntes cómo lo hace o k el modelo, o sea, el autocorrector. ¿Cómo es que sabe que si yo digo, por ejemplo, hola, el autocorrector te dice buenos días o no sé qué tal, qué? O sea, si sabes el patrón que te da, cierto, o sea, parece como si fuera magia.
+¿Y sabe qué palabra exactamente, en la mayoría de casos, no, qué palabra exactamente te da?
+¿Se han preguntado ustedes por esa funcionamiento del autocorrector?
+Estimados.
+¿Por qué creen que el autocorrector les da esas palabras?
+¿O sea, por qué sabe qué palabra darte más o menos aproximadamente?
+A ver.
+Exacto, muy bien, Kevin, gracias por esa acotación, pero se va a ser exactamente importante porque los LLMs son tienen el mismo comportamiento que un autocorrector. ¿Saben por qué? Porque este los autocorrectores también son LLMs, pero son LMLMs a nivel local.
+Son LLMs a nivel local. ¿Qué significa que este hace lo siguiente ya?
+Para estos LLMs, los datos que trabajan son los datos este de tu celular, o sea, los detecta los chats que tú tienes este en WhatsApp, cómo respondes en Messenger en los diversos chats en mensajes en este y detecta más o menos tu patrón ya cómo tú respondes.
+Entonces, al detectar tu patrón, sabe más o menos cómo apegarse a ti, cómo apegarse a tu forma de pues de escribir, por así decirlo, y este te da una respuesta, pero aquí la palabra es la siguiente, chicos, el término aquí que tenemos que nosotros quedar en claro.
+Es predictivo un LLM, estimados, es predictivo, es decir, simplemente es lo mismo un LLM. En realidad, el funcionamiento de un LDM de hoy en día de un chat GPT que tú ves acá de Cloud, de Gemina y de cualquiera, es que es un autocorrector.
+Pero con la capacidad, o sea, entrenado no solamente ahora con tus mensajes, sino con toda la escritura de la humanidad, o sea, toda la información que está en Internet, sean este artículos, sean foros, sean este tesis, la mayoría de cosas. Esto, todo esto con esto ha sido entrenado.
+Ya y gracias a esto es capaz de predecir, ha creado como un patrón, como hay que llamarle como esa intuición, ya como esa intuición y es capaz de predecir.
+Es capaz de predecir palabras cuando tú le das, cuando tú le das este solamente un pro, lo que hace es simplemente predecir.
+Simplemente lo que hace es predecir, es decir, los LLMs son sencillamente.
+Son este hay que ponerle motores de completado de texto.
+Es eso, son unos motores de completado de texto, ellos predicen.
+Ya predicen cuál será la siguiente palabra.
+Pero claro, no te da una palabra, sino te da todo un párrafo, pero en realidad esto es como que a ver, es un bucle dentro. Ya estoy hablando dentro del proceso, pero este predicen la siguiente palabra, predicen este y te dan una respuesta que tú piensas, o k, ¿cómo pasó esto?
+Ya a ver, en un ejemplo se va a notar más sencillo, les voy a poner un ejemplo aquí.
+Para ver cómo funciona justamente esto, si yo les pregunto, mira, le voy a poner acá, el cielo es.
+El cielo es.
+¿Ya si ustedes fueran la IA que está entrenada con millones de datos, qué color ustedes predicen que va a seguir en esta frase? ¿Qué color iría después de eso?
+¿Pero qué color predecirían ustedes?
+Azul, bien, a ver qué más, qué colores predicen que va es justamente acá. El cielo es azul, me dice Carlos, a ver, Kevin me dice *****, muy bien, o k hay varias respuestas.
+Ya gracias por la respuesta, chicos. Efectivamente, a ver, el cielo es uno diría depende, efectivamente depende, pero en la mayoría de casos a la IA tú le dices el cielo es, le dices el cielo es.
+Te va a responder tal vez azul, te va a responder celestes, que son colores que nosotros entendemos que está relacionado justamente el color del cielo, no, pero depende porque acá ya estamos prediciendo en realidad, ya estamos prediciendo, estamos aplicando en realidad estadística como probabilidades de a ver cuál es más probable, qué palabra va a ser la que sigue.
+Así funciona la ida por detrás, tú le dices el cielo es y va a predecir.
+A ver, vamos a probarlo con y va a predecir.
+¿Qué es lo que nos responde? Ya el cielo es aquello. Mira, acá me da otra respuesta, ¿lo ven? ¿Qué es lo que hice acá? ¿Qué es lo que pasó? Miren, el cielo es aquello que miras, pero también aquello que sientes cuando estás en paz. Ya por eso dije, a ver, la mayor prioridad es celeste, pero lo que pasa es que muchachos.
+La IA es este a ver la IA con la IA tienes que ser específico, por eso te digo que depende. ¿Cómo así? A ver, qué pasa si en lugar de haber te he dicho el cielo, te hubiera dicho el cielo de a ver.
+El cielo de Marte es ahora pongo Marte. Ay, ¿qué color me darías tú? Si dijera el cielo de Marte, ¿qué posibilidades me darías?
+¿Qué color me dirías si yo dijera el cielo de martes? ¿Qué color acá? ¿Qué probabilidad tendría aquí? ¿Qué color me dirías tú, estimado?
+Freddy serías rojo. Exacto, porque el cielo de marte es rojo, lo ven. Por eso digo, depende. Acá te digo una respuesta muy general, yo te dije, el cielo es, pero tú me dices, o K, el cielo es, pero que el cielo es de noche, de día, porque son diferentes, el cielo de otro lugar o incluso acá ChatGPT.
+Este como que se puso poética y me y me hizo un completado de como que poesía, pero este así lo ves. No he sido lo suficiente en específico, a ver.
+En cambio, si le digo el cielo del martes, vamos a ver.
+Realis, a ver, realísticamente el cielo de Marte es, miren, acá estoy siendo más como que.
+Color rojizo, bueno, me da toda una respuesta, ya me da toda una respuesta, pero lo que me importa es aquí es de color rojizo. o K acá ya fui más específico porque dije, hey, tienes que ser realista, no me des un lenguaje poético, ser realista. ¿Cómo es el cielo de Marte? Y acá me dice es de color rojizo.
+¿Qué es lo que tenemos que hacer acá, chicos? Acabamos de enterarnos en realidad que la IA no es más que nada un motor de texto, pero es específica, es decir, no le podemos dar respuestas generales porque si no va a buscar la, o sea, va a tener tantas probabilidades de qué palabra es la que sigue si lo digo esto.
+No sé qué palabra sigue porque no me está dando suficiente contexto. Solo me dices el cielo azul, pero no me dices qué exactamente: cielo de noche, cielo de día, cielo de Marte, cielo poético. No me dice entonces nosotros como ahora futuros programadores que van a usar la guía.
+Tenemos que ser específicos por una razón.
+Tenemos que ser específicos por una razón, porque tenemos que reducir.
+Tenemos que reducir las posibilidades al resultado, hay tantas posibilidades si tú le das una respuesta general.
+¿Tenemos que reducir las posibilidades al resultado que ustedes desean, ya qué resultado tú deseas?
+Porque recuerda que es estadística, mi estimado, y en estadística se basa en probabilidades.
+Es así como funciona solamente el LM se basa en probabilidades. ¿Entonces esto cómo lo logramos?
+Esto lo logramos este dándole un contexto, logramos.
+Dándole un contexto súper específico y a un contexto específico, detallado, claro de qué es lo que queremos obtener.
+Es así, esta es una de las reglas que tú tienes que tener al momento de interactuar con la IA. Ya al momento de hablar con la IA, que es un lenguaje natural, tú tienes que ser claro y decirle específicamente qué es lo que quieres. Así vas a reducir la posible, la vas a reducir la posibilidad de palabras que puede usar a las palabras.
+Del resultado que tú quieres.
+Yeah.
+O K, hasta ahí se entendió, chicos. Voy a explicar también qué es el LM, o sea, porque tanto menciona el LM, pero que no lo he explicado porque se llama el LM. Pero con esto, gracias, León, efectivamente, siendo específicos.
+Yeah.
+Quiero que me respondan, chicos. ¿Cuántos de aquí usan la idea? A ver, porque yo sí entiendo, gracias Carlos. ¿Cuántos de aquí ya usan la idea? No sé, no solamente para programación, sino tal vez para su vida personal, para preguntar tal vez una receta. Kevin, genial, yo sí bien.
+¿Pueden ahí ponerme cuántos usan y tal vez qué modelo usan? No, genial, ahí también colóquenme que me interesa. ¿Qué modelo ustedes están usando? No hay ChatGPT, iCloud, Gemini, y tal vez hay más, o sea, hay tantos, pero ¿cuáles ustedes este usan en su día a día? Por ejemplo, yo uso ChatGPT como diario.
+Ya ahí yo tengo una conversación donde le cuento mi exacto, Ángel dice chat GPT, es el chat GPT. Es como que la madre en el sentido de bueno, no la madre, es el origen, ya es la primera que salió al mercado.
+A ver, a ver.
+Yo uso ChatGPT y Gemini. Genial. Sí, Gemini también es un modelo que hoy en día está compitiendo mucho con ChatGPT porque es un modelo de Google.
+Ya bien, me alegra que estén usando la IA ya. Entonces para ustedes ya no es como que un tema nuevo, pero este espero que sí, porque vamos a ir como que rompiendo mitos de que en realidad es la IA ya porque la IA no es magia, no es no es este, no es nada de magia. En realidad tiene una explicación y acá ya vimos una cosa que me puse acá.
+¿Pero que es la palabra predicción?
+Predice.
+Predice este, pues predice una palabra.
+Acá, por ejemplo, miren, voy a hacer lo siguiente, por ejemplo, ¿qué es lo que hizo acá?
+Ya miren, cuando tú le das un prompt, ¿cómo predice la siguiente palabra? No voy a explicar detalladamente el este, sino de forma general, elísticamente el cielo es Marte, ya yo le dije esto ya.
+Lo que hizo el prompt, perdón, lo que hizo el la guía fue efectivamente completarme con esto. ¿Cómo lo hizo?
+Ya primero hasta aquí.
+Hasta aquí, obviamente ya lo tiene, pero de ahí, si tú te das cuenta, porque estoy acá lo voy a poner con Azulia para que.
+Es lo que hizo a ver realísticamente el cielo de Marte es ya hasta aquí no necesitaba como que predecir, pero este las siguientes palabras que vinieron sí requirieron de un procesamiento por detrás del modelo para predecir cuál es la palabra que sigue.
+Cuando yo digo realísticamente, el cielo de Marte es ahí ha visto todos todos sus datos, miles y miles de datos que tiene y ha visto que en la mayoría de ellas la respuesta es rojo. Ya la respuesta es rojo, no azul, no amarillo, no este ha visto que la respuesta es rojo y basado en eso.
+Es como te ha dado a ti una respuesta, es decir, es de color rojizo.
+Ya ha completado, o sea, primero ha predicho es, luego ha predicho de, o sea, lo que hace en realidad es palabra por palabra, mi estimado. Con esto, usando ese es, ha predicho la siguiente palabra que es de usando el contexto, luego ha predicho la siguiente palabra color, luego otra vez ha hecho un procesamiento detrás.
+Ha predicho la siguiente palabra que es rojizo.
+Luego así ha hecho con cada palabra. Por eso que te digo que en realidad es en lo que predices palabras, pero a ti te da un texto. ¿Por qué? Porque ha hecho por detrás varios procesamientos hasta que a ti al final te dé efectivamente el texto que tú lo ves ahí.
+¿Y basado en qué? Simplemente en la información que tiene. Y eso es justamente a lo que nos vamos a los conceptos de qué es un LLM o Learch Leguage Model. Ya vamos a ver cada sigla. Learch, ¿qué significa Learch?
+Con Lerch ya lo mencionamos mucho, y es que no los Lerch. Lerch viene de que tiene miles y millones de datos. Ya no es un modelo pequeño como tu autocorrector, está entrenado con una gran cantidad de texto de Internet, sean libros, sean artículos, códigos, foros.
+Conversaciones con esto se ha entrenado y a partir de todo esto se ha logrado lo que llamamos un módem, que es simplemente, como dice, como dice acá, es simplemente una fórmula matemática compleja que permite exactamente.
+Lograr esa predicción ya es una función gigantesca que va a tomar tu texto de entrada y va a hacer tantos cálculos que al final te va a producir ese texto o esa respuesta que tú ves. Ya de eso viene el término modem, el término lerge entonces viene de que este son miles y miles de datos.
+Pero obviamente estos datos no están al aire, mis estimados. En realidad, por detrás de los modelos que tiene este chat GPT que tiene Cloud, en realidad son data certes inmensos, son infraestructuras, son edificios donde adentro hay servidores.
+Ya donde adentro hay servidores. No sé, este meme de acá me recuerda, ya este meme de acá me hizo reflexionar porque en realidad es la verdad. Ya estas empresas, pues que están detrás de estos modelos, en realidad tienen data centers así, o sea, en realidad gastan una millonada.
+Para mantener esos modelos, estimados, tienen este data centers con una gran cantidad de servidores, pero también necesitan electricidad, necesitan mantenimiento. Bien, necesitan este porque mantener esto no es no es cualquier cosa, ya una falla simplemente en esto hace que el modelo caiga. Necesitan infraestructuras kilométricas, necesitan, o sea, una cantidad de mantenimiento pero absurda.
+Que cualquier persona hoy en día no pagaría si quisiera crear un modelo desde cero ya o un modelo, bueno, no desde cero, sino un modelo así global para pues para todo el mundo, ¿no? Y este modelo me hace pensar porque obviamente qué es lo que se quiere imitar el pensamiento humano. Ya recuerden que I A es inteligencia artificial.
+¿Se quiere imitar el pensamiento humano, no? Y nosotros este podemos pensar lo mismo ya tal como dice acá con comida y agua, no, y todo esto, todo este gasto simplemente para imitar eso. Ya entonces learch viene de eso y linguage, linguage viene de que pues este.
+Están entrenados específicamente en el lenguaje humano.
+Ya anteriormente no era imágenes, no era videos, no era este audios, era puro texto ya y por eso se comunicaban también contigo. Ya es puro texto, pero detrás obviamente ahorita vamos a ver que el modelo no recibe texto, recibe números. Eso lo vamos a ver después.
+Pero viene de eso, de lenguage de este que están entrenados específicamente en lenguaje humano.
+Bien, ok.
+Entonces.
+A ver, coménteme ustedes, estimados, si sabían que por detrás.
+¿Por detrás, a ver, cómo sería algo?
+¿Cómo sería la pregunta? ¿Ustedes sabían que en realidad ChatGPT es pura matemática? A ver, era, era, o sea, ChatGPT, no, perdón, este el modelo es Gemini, ya perdón, es GPT 5, así se llama ChatGPT, es la aplicación, es GPT 5.
+Bien, pero usted es a ver.
+¿Ustedes sabían que éramos? No creo que esa pregunta es muy vaga, perdón, muy vaga, ya este ahorita se me va a ocurrir formular esa pregunta, se me va, se me va a ocurrir, pero vamos a pasar a estos 5 sombreros que están aquí.
+Detrás de estos 5 sombreros estimados.
+Cada uno ahí como que.
+Hay creencias, mitos o verdades muy comunes respecto a la IA.
+Entonces vamos a revelar 1 1. Yo quiero que ustedes me digan si es verdad o mito.
+Bien, quiero que me digan si es verdad o mito, voy a ver 1:1 y vamos a ver juntos también si en verdad es, pues si es verdad o mito, no vamos con el primer sombrero y lo voy a eliminar y dice: los LLMs piensan como humanos aquí, verdad o mito, estimados.
+Los LLMs piensan como manos.
+Y tú dice, Kevin, a ver.
+Ha ha.
+Los LLMs piensan como humanos, habrás seguro algún familiar tuyo que usa ChatGPT piensa eso, no, oye, habla conmigo como humano, me entiende, los LLMs piensan como humanos.
+Ahí ya tenemos a Kevin, a Kevin dijo mito, Ángel dijo mito, Ángel dijo mito.
+En alguien.
+Normal, dicen que es verdad, es Milton, yo a ver.
+¿Ahí están respondiendo, qué es verdad o mito?
+Y no exactamente se va adaptando las respuestas que van almacenando y sus servidores. Muy bien Carlos, o K, entonces también es gracias.
+Efectivamente, todos tienen check porque es correcto, estimados, las LLMs.
+Es la CLM, bueno, es correcto su respuesta, es un mito ya las LLM es.
+No piensan como humanos y lo acabamos de decir, mi estimados, ellos no razonan tu respuesta, ya no razonan. Lo que hacen es, como comenté, predicen, es eso, solamente predicen.
+Ya vamos a poner acá.
+Vamos a escribirlo acá ya solo predicen.
+Pero dicen basado en toda la información que tienen. Entonces predicen la siguiente palabra más probable, no hay conciencia, no hay intención. Si por ejemplo, tú le pides a la IA sumar 2 + 2, tú le dices a la le preguntas a la IA, oye, ¿cuánto es 2 + 2? Él te va a decir cuatro, pero no te va a decir cuatro porque haya hecho un cálculo matemático.
+Sino porque es la basado en todos sus datos, es la secuencia de caracteres más probables según su entrenamiento. Ha visto que en la mayoría de foros de artículos de libros, 2 + 2 es cuatro y como lo ha visto, y esta es la mayor probabilidad.
+Te va a dar cuatro, pero si sus datos dijeran que es 5, no. Si solamente le das datos con donde indica que 2 2 es 5, te va a decir que es 5 así sin con total seguridad, con total afirmación. Lo ves porque no piensan como nosotros, no razonan como nosotros.
+Bien, listo, buenísimo. Espero que se haya roto ese mito hoy día. Vamos con el siguiente.
+¿Los LLMs buscan información en Internet, a ver cómo manejamos esto, estimados, mito, verdad?
+Cartad, cartad.
+Verdad.
+Ajá.
+¿Verdad, verdad, verdad?
+Ahí Oswaldo escribió, este, gracias por separarlo, este Joswaldo o K, ya verdad, verdad, verdad, verdad. Ya chicos, aquí a ver, a ver, aquí hay que ser como que este aquí depende, ya depende, depende por una cosa, ya sí es verdad, por una parte, pero es.
+Por otra parte, no lo es ya porque vamos a dividir esto, ya vamos a dividir esto en realidad.
+Es lo que pasa mis estimados.
+Antes de que un modelo o un LLM salga al mercado, pasa por un entrenamiento, o sea, pasa por una serie de pruebas de fase de entrenamiento que requieren miles y miles de datos.
+Ya entonces pasa por entrenamiento en este entrenamiento, ya en este entrenamiento los distintos este se van a buscar fuentes, se le van a pasar todos estos datos en realidad ya para que pueda construir esa fórmula que te permita predecir y son miles y miles de datos ya.
+Luego, cuando ya está listo, se le ha hecho esa fase de entrenamiento o incluso se le han dado reglas ya reglas para que no sea, pues una un modelo, este, un modelo para uso público, no sea un modelo, por así decirlo, que suerte visuras, que este no ya para uso público, porque ChatGPT no actúa así, si ustedes ven.
+Tal vez en algún momento el modelo les haya les haya puesto un límite, porque en esa fase, en esa fase de entrenamiento se les pone esas reglas ya para que sea también complaciente con el humano.
+¿O K, entonces, pero qué es lo que pasa aquí en esa fase de entrenamiento se le dan datos.
+Se le dan datos estimados ya y son datos de Internet, obviamente de Internet y otros datos adicionales. ¿Pero qué pasa? Pasa que cuando sale al mercado.
+Pasa que cuando sale el mercado se cierra hasta ahí nomás, chicos.
+Se cierra hasta ahí cuando sale al mercado, simplemente sale con esos datos con los que se ha entrenado.
+Ya si han sido datos hasta el 2024, tú le preguntas algo de 2025, posiblemente no te responda.
+Te digo posiblemente por qué, porque hoy en día, hoy en día los modelos ya integran como la funcionalidad de buscar en Internet, ya es decir, ya no tiene solo sus datos, sino que el modelo puede entrar a Internet y mirar las páginas web y responderte.
+Por ejemplo, miren, miren, voy a estar Gemini porque Gemini, como es de Google, tiene acceso a Internet y te permite a pues mirar en tiempo real qué es lo que ha pasado hoy día. Ya hoy día fue la Champions, ya hoy día este yo no vi, pero hoy día se jugó la Champions.
+hoy día se jugó la Champions cuál fue el resultado del bueno Barcelona creo no del Barcelona Newcastle no me spoileen por favor no sepan el Barcelona tampoco ni ni del este Newcastle pero quiero este motivo de ejemplo hoy se juega la Champions cuál fue el resultado del Barcelona
+Así escriba si no, ya esto ocurrió hoy mismo, hoy mismo chicos, esto ocurrió mismo ya y se supone que si Gemini fue entrenado solamente hasta datos del 2025 y no de algo de hace 10 minutos, no debería responderme, pero.
+Pero sí me da la respuesta, no, incluso hasta me lo imprime. ¿Por qué? A ver, hoy no sé por qué aquí no me mencionó el este ya, pero este en realidad lo que pasa, mis estimados, es que se ha conectado a Internet. O sea, hay plugins que tiene el modelo, la aplicación en sí para este conectarse a Internet y leer.
+Este Leer información de Internet en tiempo real.
+Eso es lo que ha pasado. o K, entonces hay que acotar 2 cosas: primero, que el modelo tiene los datos de una fecha hasta que salga el mercado, claro, y lo segundo es que tiene plugins, perdón, plugins ya de Internet, pues si algo más también.
+¿Obviamente los modelos se actualizan, no? Si antes hubo el Gemini 2.5, ahora hay Gemini 3. ¿Qué es datos actualizados? Ya tampoco es que los modelos se se queden con estos datos de por sí, sino que les van actualizando y metiendo datos.
+Ya entonces esto de aquí de la información, busca información por Internet, es cierta, es correcta, ya, pero precisando efectivamente esta fase de entrenamiento. Bien, pasamos con la siguiente y lo elimino, dice: los LLM son precisos y confiables, son la verdad o solo dicen la verdad.
+¿Qué opinan de esto? A ver.
+Kevin dice mito. Uy, ya sí, pues ni la pensamos, cierto. A ver, los LM son preciosos y confiables, son la verdad.
+Mhm.
+Dice Osvaldo Ángel, mito, mito, mito.
+Yeah.
+Efectivamente, estimados, esto es mito.
+Ya los LLMs. este.
+Pueden primero, hay que dejar en claro qué es lo que hacían. Chicos, era predecir, recuerden, y predecir no es 100% de porcentaje de posibilidad. Entonces hay una votación de error. ¿Lo ven? Predecir no es 100% seguro, no es 100% seguro, y ahí ya te da a entender una cosa.
+Los LLMs pueden alucinar. Ese es el término que se le da a cuando un LLM te da como que respuestas falsas. Ya en la mayoría de casos, los LLMs te dan unas respuestas, te dan respuestas falsas o alucinan.
+Inventan datos, inventan citas, pueden inventar links y hasta personas que no existen ya con total confianza.
+Pero a ver, esto no lo hace porque sean malos, o k, no es porque te quieran engañar o porque sean malos, sino porque como te comenté en un momento, los LLMs, este o por ejemplo, ChatGPT, estas aplicaciones que están acá, en realidad han sido creados, tienen una regla de también ser complacientes.
+Ya y a veces no te quieren, te quieren dar la respuesta sí o sí, en lugar de decirte no sé, ya no sé si alguien, alguna al preguntar, le haya dicho el LM, no lo sé.
+No es cierto, a menos que tú le digas explícitamente, si tú no sabes la información, dime no sé, pero en la mayoría de casos sí te quiere dar una respuesta. ¿Por qué? Porque es complaciente a pues al usuario que lo va a usar.
+Y además, por ejemplo, vamos a ver ya que sí ha pasado. Bueno, acá este cómo pondré el ejemplo, pero sí ha pasado. Y es que si tú, por ejemplo, le pides hacer una cita, si le pides hacer citas para tus tesis, o sea, le dices que busque una fuente de cita para tu tesis, posiblemente la guía.
+Va a redactar una cita detallada, bien este bien estructurada, o sea, correctamente, ya siguiendo el formato de APA, que es para citas, pero el contenido puede ser falso, puede haber inventado un autor.
+¿Ya qué es lo que hizo? En realidad usó predicción porque las LLMs conocen cómo se escribe una cita. Sí lo conocen, pero a quien no conocen ahora es al autor que han inventado. No te digo que siempre va a pasar eso. Ya lo que tú tienes que hacer es verificar, obviamente, si es una información sensible.
+Tú lo tienes que verificar, ya no siempre las LLM se van a equivocar, pero justamente para eso estamos nosotros, no los que vamos a usar este para este, para validar si es correcto o no. Ya o K, entonces eso es lo importante, porque en programación, mis estimados.
+Los LLM suelen alucinar en ocasiones y se desvían, este inventan, no es que inventan, sino que se desvían del objetivo. Eso también va con alucinar, se desvían del objetivo que tú tienes. Entonces tú como programador lo tienes que enderezar y regresar a ese camino al momento de generar código.
+Ok, entonces vamos con la siguiente y dice: los CLMs entienden lo que dicen.
+A ver, ¿cómo sería esto? La i entiende lo que le escribes. Creo que acá he sido un poco, este sería los eleves entienden lo que acá vamos a poner, le escribes, ellos entienden lo que le escribes.
+¿Qué pensarían ustedes estimados entienden lo que le escribes?
+Esto es como que da que pensar, ¿no? Si no entendieran, entonces cómo se habrían que responder. Pero hay una, ahí hay una pregunta trampa ahí.
+Mito, mito.
+Ver, ahí están escribiendo mito, mito.
+¿Mito o verdad? Estimados, los LLMs entienden lo que tú le escribes, tú le escribes un prompt, obviamente. ¿Cómo es que te da una respuesta que parece como si te entendiera? No, yo le dije, realmente el cielo es de Marte es, pero cómo es que es justamente me respondió con lo que quería, rojizo o naranja durante el día.
+Patrones específicos, muy bien, ya o k exacto, patrones específicos, que es lo que, como comentamos, es lo que tiene el modelo por atrás. Bien, efectivamente, esto de acá, mira, nos olvidemos marcar esto porque esto cine merece una X totalmente, ya que esto es lo principal que tenemos que una de las.
+Ideas principales que tenemos que entender respecto a los LLMs y lo segundo es que efectivamente los LLMs no entienden lo que les escribes, estimado, no lo entienden, parece que sí, pero no lo que reconocen son patrones. Ya te lo comenté, el LLM lee este el prompt que tú le has dado, pero no entiende que tú le estás.
+No sé, por ejemplo, si tú dices 2 + 2 igual a cuatro o cuánto es 2 + 2, él me entiende que eso es un problema matemático, no sabe eso, solo que busca en su este, en lo que sería sus datos, donde hay un 2 + 2, lo busca y ahí encuentra el resultado entonces.
+Reconoce patrones, el significado no existe para lo que sería un LLM, solamente existe la probabilidad.
+Ya la IA no tiene empatía. Por ejemplo, si tú le escribes tengo hambre, ya no presenta, no presenta empatía, sino que te responde, te puede decir, por ejemplo, o k este mis datos después de tengo hambre, sigue recetas, entonces dice tengo hambre, aquí tienes recetas, te responde.
+Y te da una serie de recetas, o te dice, o tal vez te dice lo lamento, pero no te da ese lo lamento porque sienta algo, porque tenga empatía, mi estimado, sino porque los datos, los en la mayoría de todos, tal vez haya leído, no sé, artículos de psicología, de cómo responder o haya leído libros de psicología, de cómo.
+De este que viene en cada respuesta ya y basado en eso es como justamente te ha respondido.
+Bien, entonces así funciona en realidad las LLMs por detrás, no entienden lo que le escribes.
+Y la última, vamos con la última que dice, y esta es la más. Esta es donde sí quiero su opinión de cada uno de ustedes, chicos, porque acá sí ustedes merecen tener voz, ya que como futuros programadores, ya como programadores, esto es un debate que este se ha abierto durante tanto tiempo.
+No, ya la guía reemplazará a los programadores.
+Kevin dice mi top, a ver, aquí sí quiero su este porque.
+Porque esto sí, a ver, esto sí.
+Esto sí, es un tema de qué hablar para cada uno. Esto hasta te puedes sentar en un café y charlarlo con es un tema de conversación. Ya es un tema de conversación, John dice.
+Cesco de datos, sí, desviaciones.
+Sí, pero habrá sesgos de datos. Sí, aunque claro, eso creo que está más relacionado con, pero sí, esa es una de las razones ya por las que entiendo yo, tú interpretas que no reemplazará. Sí, pero hay una razón más.
+Claro, eso es una consecuencia, ya eso es una consecuencia de porque no reemplazaría.
+Pero el tema de por qué no va a reemplazar, por qué no reemplazaría una o por qué reemplazaría. Tal vez tú sí pienses eso, tal vez tú sí pienses y estés en el bando de oye, no sirve va a reemplazar porque yo hubiera oído artículos y.
+Hay mucha gente que se está quedando sin chamba, qué pena.
+Ya si las hay, si hay artículos sobre eso y como te comento, esto es un tema muy hablado en la comunidad de programadores.
+Ver.
+Vito por la lógica, me dijo.
+Ya a ver todos los demás, por favor.
+Yo creo que no porque no tiene emociones, que es lo que se busca para uno.
+Ya emociones.
+Aquí, Carlos, a ver cómo te comentaría, no es tanto, o sea, no tanto.
+No tanto este la resolución de un proyecto tiene que ver con las emociones de cómo estás emocionalmente. Creo yo no sé si no te has no sea tan específico ahí, si me puedes aclarar, porque hay que dejar algo en claro ya entre todos los programadores, entre colegas que estamos acá.
+Y es que la I A sí hace código más rápido que nosotros, ya sí codifica más rápido que nosotros y hasta. Creo que el programa ya como lee rápido información de Internet, puede leerte un libro de buenas prácticas de programación y ya te lo aplica inmediatamente. Ya entonces ahí la I A.
+Ya nos nos lleva, pues básicamente es todo lo que podemos, lo que nos toma aprender nosotros. La IA ya lo tiene metido ya en su base de datos, lo tiene ahí. Si a ti te toma leer un libro o un artículo este hasta una semana, a la IA ya simplemente es copiar, pegar en su este o aprender o pasarle ese dato y lo hace.
+Ten esa eficiencia, pero pasa algo, estimados.
+Pasar la IA es una herramienta muy poderosa, sí, muy eficiente, sí, pero ahí está la ahí está el término, es una herramienta.
+Okey, ahí están escribiendo, por favor, quiero sus opiniones respecto a eso, porque acá tenemos que ser realistas respecto al.
+¿Quizás no entiende bien el negocio? Sí, exacto, es que es justo el quizás no entiende bien el negocio, el siempre habrá sesgo de datos, el que necesite guía, Carlos, para los proyectos. Todo depende de una cosa, estimados, es una herramienta.
+La I es una herramienta, chicos, y una herramienta que necesita.
+A alguien que la use porque la IA no se maneja sola. La IA necesita a alguien que la use porque es una herramienta como un martillo que necesita un este, no sé, un carpintero para que se use. Está ahí, es eficiente, pero alguien la tiene que usar.
+O KY tú justamente lo usas porque tú eres ese que le dice, como tú comentaste, John Peña, no entiende bien el negocio, la ella no lo entiende y ahí estás tú usándola diciéndole que lo dándole justamente esa información de negocio.
+Bien, o cuando dices que abras algo de datos, efectivamente la IA no es este, no, este no es confiable, no dice la verdad y ahí es donde estás tú, alguien que la use para guiarla.
+Y por eso, por ejemplo, Carlos, con lo que yo entiendo es que este los proyectos sí necesitan este detalles en información. Ya entonces ahí estás tú, que con tu tal vez con tu motivación, con tu, con tu pasión de desarrollar este el.
+El programa interactúas con la IA. Entonces aquí la respuesta es, mis estimados, es precisa, ya la IA va a reemplazar.
+Va a reemplazar, pero a quienes no la usen.
+Hoy en día es vital que tú tengas al menos algo de conocimiento en la IA, porque hoy este.
+Hoy el ingeniero moderno, el desarrollador moderno, integra no totalmente la IA, pero sí lo está integrando. Entonces va a reemplazar a quienes no la usen porque la IA tiene muchos beneficios. Ya lo hemos visto, tienen muchos. Entonces el que sabe pedir.
+O sea, el que sabe usarla es el que siempre tendrá ventaja.
+Esto, esta frase es clave, estimados. Si tú sabes usarla, es tú siempre tendrás ventaja y tú estás aprendiendo a usarla ya justo ahora. ¿Por qué? Porque tú para hacer a ver, te pongo un ejemplo, ya si yo te digo a ti, créame una , una música, una melodía.
+¿Usando la IA, tú qué me dirías? ¿Lo haría? ¿No lo haría? Probablemente en sí, probablemente no. A ver, respóndanme eso. Les digo a ustedes, oigan, la tarea es créeme una melodía usando la IA.
+¿Ya qué se te pasa? Pero primero por la mente, sí, yo creo que sí lo haría o yo no, o no sé, no creo porque no tengo los conocimientos para hacer la música, a ver.
+April dice lo haría muy genérico, muy buena respuesta, efectivamente genérico aquí la palabra genérico.
+Ver que me los ponen los demás. ¿Tú serías capaz? Este ya estás usando su uno, que creo yo, es una herramienta específica para creérmelo. O sea, sí, la IA se está implementando en diversos este apps, IA Suno debe ser una app de generación de músicas.
+¿Pero este qué es lo que pasa?
+¿Obviamente te costaría por una cosa, ver quién tendría más ventaja entre crear?
+Una este usando IA, una música, tú o un músico profesional que ya tenga los conceptos.
+¿Quién crees que tendría más ventaja? ¿Lo tendrías tú que tal vez no tengas conocimientos de música o alguien que sí los tiene usando la idea? Ambos van a usar la idea, pero ¿quién crees que haría tal vez una melodía con más calidad o más detalle y no genérico, como comentó Apple? Exacto, Oswardo, el músico profesional y el que sabe de música.
+¿Por qué? Porque sabe cómo interactuar con la guía.
+¿Sabe cómo decirle? Hey, yo quiero ritmos así, quiero el soneto así, que las notas sean estas, es decir, entiende los conceptos. Entonces sabe cómo usar la guía. ¿Lo ves? Entonces, ¿qué es justamente en el programador? ¿Cuál es el papá del programador? Nosotros tenemos más ventajas sobre.
+Aquellos que quieren hacer una página web pero que no tienen conocimiento sobre web.
+Ya probablemente alguien que no sabe qué es web, que no sabe qué es HTML, CSS o los conceptos que vemos internamente, las propiedades, etcétera.
+Puede hacer una página web con ella, pero no la haga de mejor calidad que la que nosotros podemos hacer, porque nosotros sabemos cómo guiar a una IA. ¿Lo ven? Ahí justamente viene el concepto de el que sabe usarla, es el que siempre tendrá ventaja y que lo uses ya es que ahora integres.
+Haz la IA para que puedas hacer tus este tu codificación, que ahora tú te conviertas efectivamente ya no solamente en aquel que haga el código, sino en aquel que guíe a la IA.
+Bien, entonces este mito es totalmente falso y con eso.
+Acabaríamos los 5 minutos.
+Yeah.
+¿Bien, chicos, tiene alguna pregunta respecto a esta dinámica que hicimos? ¿Alguna interacción? Me pareció interesante. ¿Qué me comentan? A ver.
+¿Lograron despejar tal vez algún mito que ustedes sí creían que era cierto, pero que al final?
+Este resultó siendo eso, un mito.
+O hasta que me dan un check de validación. A ver, chicos, por favor, una respuesta, una señal de vida.
+Todo claro, me dice Carlos, genial, gracias, Carlos.
+En los demás.
+Si tienen dudas, comenten, no hay problema. Pueden este usar el micrófono, vale hacer consultas acá. Entre nosotros nos dejamos en claro ese papel. Se entendió todo. Gracias, Kevin.
+O K.
+¿Por qué en serio este ya con estos con estos mitos que espero se hayan quedado en claro, hayan tenido como que una mayor precisión del concepto de qué es un LL.
+Ya porque ya comentamos desde el inicio un LLM, en realidad a ver, hasta hoy día lo hemos usado, es diferente.
+¿Es diferente el término ya ya LLM diferente ya cómo es que acá no puedo poner el símbolo de igual?
+Ya sé que se me ocurre.
+Vamos a hacer esto.
+Ya en realidad LLMIA son diferentes, ya solo que hasta yo me acostumbré porque obviamente a quién hemos, a quién hemos escuchado decir LM? Creo que a nadie, no es como que un término más técnico, pero este formalmente o informalmente se diría usamos más el término de IA.
+Ya y este otra cosa, hablamos de LLM Apps.
+Aquellas aplicaciones.
+¿Que usan los modelos?
+LLM ya que usan los modelos LM más claro se ve aquí. en.
+Muchísimo, a ver, perdón.
+En cloud se ve, es más, acá se ven los modelos. En Chat, que no he logrado ver los modelos que usan, pero cloud.
+Sí, este te da la opción de escoger modelos. Mira, Cloud tiene Opus, Sonnet y Hideco. Ya estos son los modelos que usa por en realidad esto es programación, esto está programado. Estimados, esta interfaz es programación, es interfaz, tal vez sea CCSHTML lo es.
+Esa interfaz es programación, pero detrás cuando tú le escribes el prompt, ahí es cuando ya estos modelos actúan. Ahí ya no es programación pura de como comentamos en la historia de la guía, ahí usa netamente esto y este cloud es la aplicación y este es el modelo.
+Bien, listo.
+Ok, si ahí diferenciamos conceptos, vamos a otro concepto importante.
+Porque no podemos hablar de IA.
+Ya o de LLMs, si no tenemos, si no hablamos de otro concepto muy importante.
+Aunque claro, debería presentar los modelos de mercado, pero ya los conocen, cierto, real son tantos. este.
+Pero este vamos a mencionar solamente 3, los más conocidos, chat GPT, cada cloud y Gemini, cada uno en realidad. A ver, cada uno tiene un perfil, ya cada uno no son iguales, no son modelos iguales, son diferentes porque cada uno tiene como que un caso de uso.
+Recomendado, por así decirlo, pero a ver.
+Aquí hay diferentes opiniones, ya este yo uso los 3 modelos, yo uso los 3 modelos, pero no lo uso para las mismas tareas. Obviamente muy bien, primero está ChatGPT y ChatGPT.
+Es más que nada para tareas rápidas y simples, ya dudas rápidas.
+No solo de programación, también dudas de, por ejemplo, no sé, estás cocinando algo y le pides una receta. Ya dudas rápidas, te resuelve dudas, te da ideas creativas.
+En programación te puede, por ejemplo, hacer un debug. Tú te puedes acercar al chat y copiar tu error y te da una este ya, pero en cuestiones de complejidad no estoy usando yo chat chipity. Tal vez tú lo uses, como repito, es una opinión mía porque acá en realidad.
+Va a primar algo, cada uno va a usar los modelos. Tal vez cada uno ya tenga una opinión de cómo usan los modelos. Ya yo cuando uso Cloud, Cloud es buenísimo para generar documentación. Mis estimados, Cloud es este temas complejos y lee documentos largos sin perder el hilo de qué es lo que se está hablando.
+Entonces yo con Cloud te genero documentación, pero esa documentación, por ejemplo, que se usa este requisitos ya documento de requisitos donde de tu de tu código, por ejemplo, porque Cloud es muy potente. Ya creo que Cloud a diferencia de GPT y Gemini.
+Es más carito, ya si te da saldo para que tú puedas usar, pero si es más carito porque es un modelo más complejo, por así decirlo, y esa complejidad lo ves justamente en la en la calidad de la documentación que te da. Entonces en documentación te dan requisitos.
+Hasta te genera código, que lo vamos a hacer hoy día. Vamos a usar cloud hoy día porque es buenísimo para generación de código hasta de páginas completas, ya de páginas completas, etcétera.
+Gemini, a ver, yo estoy usando Gemini por una razón, y es que bueno, debido a yo estoy usando Gemini por una oferta, en realidad mi interacción con Gemini fue porque como soy estudiante, bueno, las San Marcos en ese momento estaba brindando cuentas gratis, bueno, cuentas con un año de licencia a los que son de universidad ya en ese tiempo.
+Entonces yo empecé a usar Gemini y la verdad me quedé con eso, o sea, desde ahí empecé a usarlo y me quedé con las herramientas que ofrece Gemini.
+Porque Gemini también casi este a la par de Cloud y a pesar de que está un poco menos, también te analiza documentos grandes. Y esto, pues Gemini busca Gemini tiene algo que Cloud y Chat GPT este no tienen. Gemini, chicos, es de Google. Entonces, al ser de Google, conecta con las herramientas.
+Conecta con las herramientas de Google. Pues recuerden que Google es todo un entorno. En Google hay Gmail, hay Drive, hay este calendario, hay este, incluso el mismo buscador no que es Chrome. Entonces conecta con las herramientas de Google y eso es un muy buen beneficio. Ya es un muy beneficio que tiene Gemini.
+Cloud, bueno, de Cloud es Anthropic, la empresa que tú vas a ver en Cloud es Anthropic.
+Y la empresa que está detrás de ChatGPT es Open.
+Esas son las empresas, ya tienen unas empresas por detrás. También diferencien eso, por favor, la empresa, el y el modelo que o k.
+Entonces yo quisiera que ustedes me comenten, no sé si me han comentado ustedes, pero es el cuál es el caso de uso que le dan a las IAS. O sea, sí me comentaron que usan la IA, pero ¿cuál es el caso de uso?
+Por favor, porque tal vez, exacto, nos pueden ayudar también y dar como una recomendación. Hey, yo uso para programación, lo uso para documentación, lo uso para frontend, lo uso para este y así pues nosotros también este tenemos como que esa recomendación y con eso vamos a usarlo, ¿no?
+Lo probamos.
+Tal vez en alguna tarea de universidad. Yo recuerdo que Clau yo lo usaba para yo me apoyé con de Clau para hacer mi tesis. Ya eso no lo voy a negar. Me apoyé con Clau por la documentación.
+Sinceramente, me ayudó bastante. No es que me haya hecho la tesis, pero este fue una herramienta. Creo que si no hubiera no hubiera existido en ese momento, Clau hubiera tenido dificultades para hacer mi tesis. Lo digo personalmente. No me traduce para investigar los fundamentos que aquí se enseñan. Sí, buenísimo eso, Yael. Este te genera apuntes.
+¿Te genera apuntes? Sí, yo de hecho yo usaba ChatGPT para eso. Miren, miren aquí, este, la mayoría son en realidad.
+A ver, esto no es, por ejemplo, aquí yo investigué evolución de IAS y LLMS hace tiempo, ya yo tenía una estructura de apuntes para hacer. Yo tenía una estructura de apuntes cuando estaba estudiando este las IAS, LLMs, cuando como quería ser ingeniero pro y este desarrollar me llevó no a.
+A ser autodidacta y este yo usualmente mi proceso es genero apuntes en sí, lamentablemente está tan lleno el chat, está ya tan lleno el chat que se demora en cargar, por eso es que no me sale esto. Sí, ahora me recuerdo esto justamente, pero bueno, a ver.
+Quienes más estaban respondiendo para programación o k Kevin dice programación, consulta sobre diferencia de algunas cosas.
+¿Diferencia de algunas cosas y cuál sería mejor y algo de la vida cotidiana?
+bien.
+Ajá, genial.
+Sí, tienes muchos usos, Kevin, buenísimo. Estás incluso integrándolo a tu vida. Sí, algo de la vida cotidiana, vale.
+Hey, bueno, aquí no me cargó, lástima, quería mostrar los estes, pero bueno.
+Y ChatGPT tiene, no sé si ustedes han investigado esta.
+Esta funcionalidad voy a reiniciarlo.
+Tiene un mercado, o sea, se pueden establecer roles, no que vamos a ver también ahorita.
+Va, va yo.
+Esta máquina tampoco soporta es esto, OK.
+Se pueden ver roles que no tiene, creo que cloud o.
+Bueno, acá tienes personalizar, ¿no? A mira, tiene skills, mira, no sabía chicos. Importante que investiguen qué es skills ya si van a interactuar. Las skills simplemente son instrucciones, este tareas.
+¿Qué son como prompts en un documento ya este de cómo quieres que se comporte el modelo? Ya si tú quieres que se comporte como un doctor ya sin necesidad de escribir un prompt aquí en el chat.
+Ya usas skills por detrás y es como que el modelo va a usar, va a leer eso, va a seguir toda esa instrucción tal cual lo indica. ya Bueno, es un es todo un tema de skills más adelante, pero no nos desviemos, no nos desviemos.
+O K, porque me estoy desviando.
+Yeah.
+Entonces ya hablamos de los modelos, ahora sí podemos ir a a ver, acá era un ejemplo que estaba dando, pero ya.
+Vamos a hablar de un término que.
+Que no tiene que faltar al momento de hablar de los LLMs y es un token.
+¿Tokens lo han escuchado ustedes la palabra tokens? ¿Qué entendemos tokens a ver?
+¿Qué concepto me darían ustedes de token chicos? ¿Les suena eso?
+Tokens.
+¿Qué es un token para la IA?
+Ya tu silencio me indica que.
+Tal vez todavía no tenemos el concepto.
+Bien, vamos a explicar qué es un toque.
+Todo empieza, mi estimado, desde el momento en que tú interactúas.
+Pon el LM en el chat, ya sabemos que es un prompt, cierto, sabemos que es un product, tú le das un prompt, por ejemplo, que es un token en el mundo de la IA.
+Explícamelo en una frase clara y imprecisa para alguien que no.
+Que ve por primera vez el término.
+Ya que tenemos que anotar algo en este prompt, que es la entrada que tú le das al modelo ya para que te arroje una respuesta.
+¿Qué es el lenguaje natural? o K es el lenguaje que tú entiendes, que en este caso el mío es el español. Ya tú le puedes hablar en inglés, en chino, en italiano. Bien, pero qué pasa cuando tú escribes, yo le doy.
+Cuando tú escribes qué pasa por detrás, pasa lo siguiente, te comenté que los LLM son modelos matemáticos y obviamente tú no puedes darle a un modelo matemático palabras. Ya cuando tú escribes en ChatGPT, crees que lo que le pasa son palabras. ¿O sea, tú crees que se le da esto?
+Pero no es así. El LLM no recibe esas palabras, mi estimado. En realidad, la este el LM ciego, estos no los entienden las palabras. Lo que pasa por detrás es un proceso llamado tokenización.
+¿Qué es la tokenización? Es simplemente el proceso de convertir esas palabras que tú les has dado en tokens.
+Ya a ver esto casi checando, perdón, ya.
+Va a pasar el proceso de.
+Ok, iniciación.
+Y tokenización es simplemente.
+¿Palabras a tokens, pero cómo así? ¿Qué es un token? Entonces exactamente a ver qué nos dijo la IA? Dijo un token en IA es una pequeña unidad de texto, como una palabra, parte de una palabra o incluso un signo que el modelo usa como pieza básica para leer, entender y generar el lenguaje efectivamente.
+Eso es un token, estimado un token.
+No es una palabra, o sea, no es solamente una, o sea, un token no es esta palabra, esta palabra no se para por palabras, un token en realidad.
+A ver, un token en realidad es un fragmento de información, o sea, es un fragmento de información y ese fragmento de información puede ser qué puede ser. A ver, como comentó ahí, sí puede ser una palabra.
+Puede ser una palabra.
+O pero tal vez no puede ser una palabra, puede ser parte de una palabra.
+Parte, una palabra hasta un espacio es un token o hasta un símbolo. Hey, eso es un token. Entonces, ¿qué es lo que hace la tokenización? Fragmenta, estimados, la palabra, el término que tú le escribes lo fragmenta en tokens. Vamos a verlo mejor en el este. en.
+En tiempo real, porque Openite, la empresa que está detrás de ChatGPT, tiene una, tiene cómo se llama una página donde justamente se ve eso en vivo. Lo voy a compartir por acá que se llama Tokenizer.
+Le voy a pasar, por ejemplo, esto que ha que he puesto acá y para cada modelo, a ver.
+Para cada modelo, este cada modelo en realidad presenta diferentes formas de hacer este proceso de tokenización. Mira, yo le voy a escribir y van a ver qué es lo que me da. Me arroja que acá hay 29 tokens, o sea, esta es la cantidad de caracteres que tiene ese.
+Pues esa frase que le he dado, pero ha detectado 29 tokens ya acá separados en colores. Estamos viendo cómo es que lo ha separado, cómo es que lo ha separado, cómo ha hecho ese proceso de separamiento. Vean que algunos no son palabras, incluso una misma palabra lo ha separado en 3, como ves acá.
+Otros incluso lo ha tomado con su espacio.
+¿Lo ves? A otros sí ha tomado una palabra exacta, pero a otros sí lo ha desglosado.
+Ven aquí, por ejemplo, el símbolo de pregunta ha hecho que sea un toque. ¿Qué es lo que pasa? Justamente cuando tú escribes, haz este proceso de fragmentación, lo separa y hace lo siguiente.
+Los convierte en números.
+Y esto sí, el modelo lo entiende, los convierte en números y el modelo entiende esto y con eso ya empieza lo que sería el proceso de predicción.
+O K O, K, estimados.
+Bien, entonces pasa eso, los tokens tienen en IDS, pero ¿por qué estamos viendo tokens? A ver, una cosa.
+Es cierto, a ver, es cierto, a ver, los tokens.
+Sabemos que son descomposiciones de palabras, cierto, y mientras más grande, a ver, mientras más grande sea la frase que tú le das, más tokens te va a arrojar. o K, matemática simple, tú le das todo un texto, le escribes todo un texto aquí más grande, mira, y te va a dar más tokens, ya vean como la cantidad de tokens aumenta.
+¿Qué pasa? El tema es que a ver, ¿a qué a qué se refiere con esto de acá de ratios estimados?
+Paso a lo siguiente, estimados, y es que el español, no sé si ustedes se han dado cuenta los que han visto español e inglés, los que conocen el idioma. El español en realidad necesita como que de más palabras para este formar frases. No, si tú, por ejemplo, este no sé, a ver, yo tengo aquí.
+Yo tengo aquí ya listo.
+Esta mes, perdón.
+Yo justamente tenía acá 2 frases, miren.
+Acá hay 2 frases en el mismo, o sea, misma frase en diferentes idiomas, y vamos a ponerlo a prueba para demostrar justamente que usualmente el inglés necesita como que son es más corto, a diferencia del español. Miren la misma frase, artificial intelligence is amazing.
+Te da 5 tokens.
+Pero si hacemos esa misma frase para el español.
+La inteligencia artificial es asombrosa. Vamos a ver que en su interpretación en español requiere más tokens ya porque son más caracteres. Mientras más caracteres tenga tu frase, más este más, por así decirlo, más tokens.
+Pasto que se van a usar.
+¿Lo bien o k, por qué digo esto y por qué la importancia? A ver, ¿por qué importa? A ver, parece como si yo estuviera este intentando decirles algo. Lo que intento decirles es, mis estimados, que contar tokens importa. La cantidad de tokens que te genera la frase que tú escribas importa muchísimo, pero ¿por qué?
+¿Por qué creen que importa este?
+A ver cuántos toques le estamos pasando.
+Ya cuántos saber cuántos toques le estamos pasando como prompt a lo que sería nuestro modelo es importante, porque creo.
+Porque ve a ver una pista, ya los modelos, los modelos en realidad te dan límites de tokens, te dan límites de cuántos tokens tú puedes usar.
+O K, que usualmente este son miles, ya son miles, 10010, 1000, creo por ahí ya.
+Ok, vamos a poner acá ventana.
+¿De contexto chatGPT, pero por qué? ¿Por qué necesito contar token, chicos?
+¿Por qué las empresas te limitan y te dicen, hey, este solamente hay un límite de cantidad de tokens que tú debes usar? ¿Por qué?
+Respóndame eso en los chato, por favor.
+Could you start now?
+¿Hay de 16000, es decir, pero estamos hablando de una conversación ya este GPT tiene 16032 1000 token, 128 1000 ya que son elevados, parecen elevados ya, pero por qué a ver?
+¿Por qué las empresas te dan límites en la cantidad de palabras que tú puedes usar?
+Ya porque tú no puedes usar, tú no puedes escribir la cantidad de palabras que se te da la gana, no le puedes mandar, digamos, todo un libro entero porque.
+¿Hay alguien me responde, por favor?
+Una respuesta, al menos estimados, esa parte es vital, okey, y recuerden que la participación es importante, así que.
+Es una respuesta, uy, ¿qué pasó?
+Mira.
+Ahí.
+¿Por qué el a ver qué me estará ahí? Qué bien, gracias, más señal de vida. Hola.
+¿Por qué?
+¿Por qué la empresa te da límites en la cantidad de palabras que tú puedes usar, la cantidad de tokens? ¿Por qué te hace contar? ¿Por qué tenemos que contar ahora, por así decirlo?
+Por el costo muy bien April, ya me hice el costo, ahí está bien varias respuestas.
+Para buscar palabras más exactas ya.
+Para nosotros la base de datos, bien también va por ahí.
+Ver ahí creo que estaba dando una respuesta más yo.
+It.
+¿Por qué las empresas control y calidad de servicio ya?
+Buscar palabras más exactas este respecto a eso, Kevin, sí es una consecuencia. Claro, ahora al saber que tenemos que contar tokens que ponen límites, obviamente nosotros como que ahora vamos a buscar un pro de mayor calidad, o sea, vamos a contar palabras y vamos a como que reducir las palabras a un términos más exactos.
+No, pero por detrás este la empresa no es consciente de si tú es un pront chiquito grande, sino hay una razón más precisa de por qué la empresa te dice.
+Bueno, no la empresa más. Bueno, sí, la empresa obviamente te pone límites. De esos es sabido. Ya no sé si ustedes han interactuado con ChatGPT, ya han llegado a un punto en que le digan: llegaste a tu límite de cuota, voy, vuelve en cierto tiempo.
+Ja, John dice por la capacidad de su datacenter, si no su dólaría, o k, efectivamente va por costo, va por base de datos.
+¿Recuerdan que cuál es una de las siglas? ¿Cuáles son una de las siglas de LLM? ¿Cuáles eran?
+Respecto a.
+Ledge.
+No olvidar esto, los modelos son data centers, estimados. ¿Por qué digo esto?
+Los LLMs no tienen memoria infinita.
+Son data centers y obviamente tienen una memoria limitada.
+Okey, es.
+Tienen una memoria limitada, entonces imagínate tú por qué te ponen límites efectivamente, por qué por el costo de cómputo.
+¿O K, ¿cuántas personas crees que están usando ChatGPT hoy en día? Son miles y miles, y esos miles y miles consumen espacio en ese data center. Si no te pusieran límites, le estarías dando un costo tremendo a la empresa que está detrás. Ya la empresa te va a regalar cierta cantidad de espacio.
+O K, te va a regalar cierta cantidad de espacio, pero no te va a dar este, no te va a dar sin límites a menos que sea, pero le cuesta costo computacional.
+Hay costo computacional detrás, le cuesta un hay un costo en valor monetario. Entonces, por eso la empresa pone límites. Pero hay otra razón también de por qué al momento de nosotros a tener una conversación, tomar en cuenta la cantidad de token.
+Porque ya lo dije de nuevo.
+Los LLMs tienen un tienen memoria, pero esto ya va detrás del modelo. Chicos, los LLMs tienen lo que se llama una ventana de contexto. ¿Qué es una ventana de contexto?
+La ventana de contexto es la memoria que tiene dentro de tu conversación, o sea, dentro de tu interacción. Aquí ya tiene un límite máximo de tokens por conversación. Cada conversación tiene un límite máximo de tokens basado en el modelo que tú estás usando. Hay modelos que tienen.
+Más capacidad de retener información y hay otros que tienen menos capacidad. ¿Y eso en qué afecta? Afecta en lo siguiente, estimado ya. ¿Por qué me afecta a mí? O K, si yo sé que la ventana de contexto es la cantidad máxima de texto que tu modelo puede procesar en toda una conversación.
+O K que nos referimos a todo el historial, ya voy a voy a ver este, voy a abrir otro que este aquí, por ejemplo, que tiene un poco más de este, es decir, todo el historial desde el inicio hasta la última conversación. Todo esto se cuenta como tokens, esto incluso las respuestas no solamente se cuenta como.
+Como tokens o instrucción, sino las que arroja. Estimado muy bien. Por eso también es importante fijarte no solamente en el prompt que tú estás dando, sino en el prompt que tú o en la respuesta que quieres que se genere. Ya todo esto se cuenta. Obviamente este es muy pequeño, acá no se ve tanto, pero ¿qué pasa? Pasa que si tú llegas.
+Al límite, cuando tú llegas al límite de la memoria de trabajo de lo del límite de ese modelo, lo que va a hacer el modelo es olvidar.
+O sea, va como que liberar memoria. ¿Cómo hace eso? Va a liberar memoria olvidando lo que estaba al inicio, o olvidar lo que dijeron al inicio del chat para darle más espacio a los que están al final.
+Por eso los prompts deben ser precisos o k por eso cada toque innecesario le va a robar espacio en realidad de lo que sería esa ventana de contexto en programación. Esto es importante, chicos, porque si tú tienes, por ejemplo, una conversación que tiene todo tu historial de no sé.
+De un proyecto va a llegar a un punto en el que tal vez tenías información importante al inicio de información vital sobre tu proyecto, pero lo ha olvidado el prompt, perdón, el modelo. ¿Por qué? Porque tú este has llegado al límite.
+Hey, para eso, para eso, ¿qué es lo que ha pasado? Obviamente, al tener límites, este los programadores o los que interactúan con la IA han implementado diversas técnicas, la verdad. Una de ellas, por ejemplo, que yo podría decir es que este seas preciso, justamente es imposible contar la cantidad de no te vas a pasar la vida.
+Obviamente copiando y pegando aquí los toques, no a eso no me refiero porque yo no hago eso, pero por ejemplo, una forma sería si tú, por ejemplo, le dices que revise una tarea, yo le digo, a ver, revisa.
+Le revisa, le vas a dar, digamos, tú le das un libro, un libro, pero tú le dices que te resuma solo la página de un libro. Ahí estás cometiendo un error. Ese libro tiene tantos tokens, pero tú solamente le estás pidiendo la página que lo resuma. ¿Entonces, cuál sería lo más efectivo? Ahí básale solamente esa página del libro.
+Pásale solamente esa página, que es lo que le sirve o tal vez el capítulo para que tenga el contexto, pero reduce, reduce eso y con eso también igual te va a dar la respuesta. ¿Lo ves? Entonces tenemos que controlar.
+Tenemos que controlar qué es lo que le pasa, o sea, controlar qué información le damos.
+No tiene que ser obviamente demasiado extensa. Hablo de libros porque esto de aquí no es no es como para pensarlo tanto, no es muy pequeño ya, pero si tú le das libros, le das tesis de más de 100 páginas, etcétera, sí vas a consumir una cantidad de tokens.
+La segunda que hacen es, yo he visto, ya no lo he implementado, y es que usualmente usan este prompts en inglés.
+Pero reciben resultados en español.
+Porque como comenté aquí.
+Como comenté aquí, el inglés en realidad consume menos tokens, formar palabras en inglés consume menos tokens que formar palabras en español. Ya entonces tú, por ejemplo, vas a leer una página de un libro en inglés en lugar de pasarle una página en español, él lo va a entender y tú le pides la respuesta en español, obviamente.
+Ya ahí, por ejemplo, podemos ver un caso.
+Ok, listo.
+Y eso no, más que nada, eso hay diversas técnicas, pero eso es relacionado al a lo que sería el cometeo de tokens y por qué hoy en día este.
+Se tiene que programar tomando en cuenta la ventana de contexto.
+La ventana de contexto que es un limitante, pero acá no es tanto, o sea, tanto no se maneja, chicos, en lo que sería este modelos apps como ChatGPT o Cloud. ¿Saben dónde lo van a ver cuando ustedes interactúan con su código en un agente de codificación?
+Ya, o sea, en tu este editor de código, aquí sí es súper súper vital que tengas eso en cuenta de la ventana de contexto.
+Ya aquí sí es súper vital, no sé por qué la abrir, porque obviamente ya tenemos integrado código dentro de nuestro de nuestro editor de código. Perdón, ya tenemos integrado un modelo dentro de nuestro editor de código, cierto.
+A ver.
+Dígame, por favor, por este.
+¿Pero cuántos de ustedes aquí?
+¿Saben lo que es un agente de codificación?
+Vamos a usar algún agente de codificación, por ejemplo, Oex.
+Ya mejor la pregunta es más precisa, ¿alguno ya ha programado usando y ya? O sea, ¿alguno ha usado en su editor de código? Aún no me dicen bien, bien o k bien, pues ya lo vamos a hacer, no te preocupes, pero alguno de ustedes ya este ha usado un modelo.
+Que ya tenga como que.
+Ya conozca tus archivos de proyecto, ya esté a ya entiende el contexto de tu proyecto y simplemente escriba directo. No es que te lo pasa por chat, sino escriba directo en tu proyecto.
+Conector aún muy bien.
+Exactamente muy bien, ya el copilot, el agente que está integrado en Visual Studio Code es eso.
+Es este.
+Es un agente de codificación y tiene conocimiento de tu proyecto.
+Tiene conocimiento de tu proyecto, ya lo voy a lo voy a ver después, pero este.
+A eso es donde se tiene que llegar en realidad nosotros como desarrolladores o k miren a ver cuando nosotros entramos a nuestro Visual Studio Code, todavía no entren por favor solo estos ejemplos. Si nosotros vemos acá, recuerden que se nos activó este prompt de chat.
+Esto, mis estimados, es lo que se llama un agente de codificación. En realidad, ya un agente de codificación es simplemente es aquel que tiene conocimiento de tu proyecto. Este de acá, este agente de codificación, a diferencia del chat GPT que estaba en web.
+Si sabe cuáles son tus archivos de proyecto, puede leer tus archivos de proyecto, incluso puede interactuar con la terminal.
+Ya tiene conocimiento de esto y el objetivo justamente de este agente de cuantificación es lo que comenté, ¿no?
+Él va a construir tu proyecto.
+Te va a dar ideas sobre tu proyecto, van a planificar juntos. Es como tú, este tu colega de programación. ¿Por qué? Porque ya tiene conocimiento de todo tu proyecto, ya sabe qué es lo que hay ahí y tú aquí le hablas en lenguaje natural en el chat.
+Y le dices, por ejemplo.
+Créame un archivo index punto HTML y agrégale mi nombre.
+Vea mi nombre, Eric Verde, como título.
+Ya es Visual Studio Code tiene como agente de codificación. Vean, ya me lo creo.
+Ya y me está dando las respuestas en inglés, me creó este directamente ha usado Croc, que es un modelo gratis, y vean como directamente me ha creado el HTML y me ha puesto lo que quería el título. Ya acá lo que me está diciendo es este, obviamente está bajo mi control porque me está preguntando acá lo siguiente, miren.
+Me está diciendo, hey, he cambiado un archivo, pero lo aceptas.
+O lo rechazas.
+Ya te está dando a ti el control, te está diciendo qué es lo que tienes que hacer. Esto es decisión tuya. Yo hice lo que tú me pediste.
+Yo le dije, lo acepto. ¿Lo ven? Esto ya es un agente de codificación, mis estimados. Acá lo que he usado es Grob, que es otro modelo, es el modelo de Elon Musk. Es un modelo gratuito, entonces eso.
+¿O K, ¿qué les pareció eso? ¿Qué les pareció un agente de codificación que pueda crear, que pueda codificar por ustedes, pero ustedes bajo bajo el control suyo? A ver, ¿qué opinan sobre un agente de codificación? Porque esto abre muchas puertas para ustedes. Exacto, Carlos, ¿sabían ustedes que existía esto?
+¿Sabían ustedes que insistían los agentes de codificación? ¿Habrán escuchado algunos?
+Sí, Oswaldo, yo lo uso, pero este yo lo uso bastante, para serte sincero, lo uso bastante. El mío se llama Antigravity, que es este de acá. Yo no uso tanto Visual Studio Code, la verdad no lo uso porque este Antigravity que está aquí, Antigravity.
+Es este vamos a pasar directo, ya vamos a pasar este porque esto yo pensaba dejarlo para Vico para más adelante, pero lo vamos a ver ahorita ya que estamos ahí.
+Chicos, nosotros en el laboratorio lo que vamos a hacer es vircoding diferente a lo que es coding.
+¿Ya qué es vip coding? Vip coding es usar efectivamente lo que hicimos, usar un modelo, o sea, una este, un agente de codificación, un modelo.
+Un bueno, este sí, esos más preciso es un modelo para que construya, o sea, para que a ver, la palabra precisa sería.
+No tanto construir porque se puede hacer muchas cosas.
+Ya sé cómo lo plantearía a ver.
+Coding sería como una forma de programar.
+Sería una forma de programar donde el usuario, o sea, tú el programador.
+Donde los describe lo que eso es lo que dice, ya describe lo que quiere, lo que tú quieres en lenguaje natural.
+Y la IA o el modelo, el modelo IA, vamos a ponerle ya y el modelo IA.
+Se encarga de escribir, se encarga de programar.
+Se encarga de programar y realizar las diversas tareas en tu proyecto, no solo programara, sino se encarga de a ver acá pose programas, perdón.
+Y programar y realizar las diversas tareas de tu proyecto.
+O K, eso es lo que vamos a hacer nosotros en laboratorio. Vamos a hacer bitcoding, estimados, pero vamos a hacer un bitcoding responsable porque hay un bitcoding responsable. Ya no sé, ahí viene esa frase de el poder corrompe, no porque tienes a un modelo detrás que literal te va a hacer todo lo que tú quieras, pero ahí justamente viene.
+El término de bitcoding, pero un bitcoding responsable, que es lo que vamos a hacer hoy en día. Pero esto es bitcoding y es justamente lo que nos lleva a los agentes de codificación.
+Que este hay varios, vean acá los este hay distintos agentes de verificación. Open AI tiene a Codex, Cloud Codec tiene Cloud tiene a Cloud Codec.
+GitHub Copilot, que es lo que está integrado aquí ya, pero todos tienen un chat, todos van a tener la misma forma. Chicos, van a ver un chat aquí y ustedes van a interactuar con ese chat para la construcción de su modelo. Miren, es mío, es antigravity.
+De hecho, yo uso Antigravity para preparar mis clases, ya yo uso mi antigravity para preparar mis clases, para definir dinámicas, etcétera. o K también te da lo que te da un chat, miren, y aquí tú puedes construir. ¿Por qué uso Antigravity?
+Porque este, si te das cuenta, aquí están los modelos que te ofrece. Mira, Gemini 3 tienes cloud, tienes GPT.
+Y lo bueno de Antigravity es que te da como que decirlo, a mí me gusta porque tiene más saldos. Ya yo no, yo no pago en realidad para usar esto. Hay algunos que sí gastan el saldo de tokens que te ofrecen y luego pagan. No, yo no he pagado antes, hasta ahora no he pagado yo por usar un modelo de programación.
+Hey, porque este digamos que también parte de un programador es justamente el conteo de no es usar por usar, es usar con una intención ya porque si tú le andas y otro también es.
+Usar distintos modelos estimados. Cada modelo tiene un costo distinto. Aquí Cloud, que está aquí, tiene un costo más elevado que Gemini Flash. Entonces aquí viene otra otro término que es separación de tareas.
+Tiene separación de tareas y es que yo no uso para una tarea sencilla, una tarea que es una pregunta rápida. Yo no uso un modelo súper grande, pues porque voy a gastar, voy a gastar saldo. Ahí no me sirve a mí gastar saldo de un modelo súper.
+Buenísimo, súper caro, pero también súper este potente. Tengo una pregunta que me puede responder un modelo súper sencillo, ya, y ahí viene la administración de usar modelos, etcétera. o K, entonces cuando tú te vas a ir a lo que sería el BIM coding.
+Y abusar lo que son los agentes de codificación, que son herramientas que tienen el contexto de tu proyecto. Vas a tener que ver también conceptos relacionados, no que ahorita están fuera de la verdad, me va a tomar el tiempo, pero es , espero que hasta ese punto hayan visto más o menos cómo funciona el Cody, porque hoy lo vamos a hacer, pero con.
+Con close.
+Okey, chicos, vamos a hacerlo nosotros con flop. Entonces me alegra verles como que abierto ese mundo nuevo que ustedes puedan este tal vez investigar.
+Que ustedes puedan crecer en eso, porque eso es parte de un desarrollador contemporáneo.
+Ya es parte de un desarrollador contemporáneo. Tenemos invo, perdón, pero con esto, chicos, voy a primero un momento, se me acabó, parece que.
+Son las 9:30.
+Yeah, antes de.
+Antes de este de continuar con el laboratorio.
+Creo que tenemos que hacer el test, chicos, en si nos vamos al laboratorio, por favor.
+Recuerden que al final de cada de cada módulo hay un test como un test de unas 10 preguntas.
+Por favor. Y bueno, este.
+Me han pedido a mí que les dé pues 8 preguntas, dice que dice 8 preguntas respecto al módulo 2 y esto, como les comenté, no tiene que ver nada con la evaluación.
+Pero sí es para que para que el bootcamp este pueda.
+Tener una idea clara de dónde, en qué nivel está cada uno.
+¿Ya en qué nivel está cada uno? Porque recuerden que Gabriela, no sé si algunos los ha contactado. Gabriela es la persona que revisa esto y les hace uno este como una retrospectiva. Ya conversa con ustedes y les comenta exactamente el tema de qué temas tienen dudas, dónde falta fortalecer. o K.
+Un seguimiento que les hace Gabriela, pero el test es justamente una de esas herramientas en las que se ayuda. Por eso quisiera que lo respondan. Por favor, les sale a ustedes, me confirman.
+A ver si le sale el test porque ya lo publiqué.
+A ver, chicos, perdonen, le sale el test, porfa, sí me sale bien, Kevin.
+Por favor, los demás cedan al laboratorio, el test es importante.
+Yep, you're the same.
+Genial abrir, gracias.
+Yeah.
+Bien, porfa, entren y ya si quieren pueden ir respondiéndolo, ya pueden este ir respondiendo. Les voy a contar los minutos automáticamente a cada uno.
+Ahí yo este les voy a dar también tiempo, pero ya se los da el propio test, vayan respondiéndolo ya.
+Mientras yo voy a servicios.
+Y voy a buscar también un video de Bike Coding ya para pasárselos para que puedan ver y profundizar mejor eso.
+Chicos, me confirman que estén recibiendo el test.
+Ja, ja.
+Sarah Mister.
+De hecho, voy a buscar también mientras están haciendo eso.
+Entra a YouTube y voy a recomendarles un canal que también me ayudó a mí.
+¿Qué?
+Same of first.
+Porque los programas no tienen miedo.
+Acá hay otro agente codificación Open Code, sus skills MCP.
+A mí en Plaza también tiene un vídeo de que es by coding, pero también es buenísimo.
+¿No tienes?
+Lo voy a poner en el chat.
+Gracias, Kevin, genial.
+¿Quieres puedes ir viendo este video o no?
+¿Cuánto dura 20 minutitos? Bueno, para la cena este.
+Pero ahí espero les dé un concepto más claro usando este slides sobre qué es el backcoding.
+So yeah.
+Así, sí, aprendieron programar utilizando guía y.
+No, mira que te va a dar fundamentos.
+Buenas.
+Sí, algunos también hablan de los problemas de usar el backcoding con EA.
+Porque como te comenté, hay backcoding responsable, pero también hay irresponsable.
+Okey, listo, listo. Gracias John Rivas, gracias Carlos.
+Estaba easy, creo que si no pongan mi easy, parece que estaba easy ya.
+A ver.
+Con estos conceptos ya estamos listos para ver también lo que sería.
+Aparte del laboratorio, porque hoy día vamos a usar ahí en el laboratorio.
+Yeah, yeah, yeah.
+La laboratorio es cortito, en realidad son 2 pasos, nomás.
+Son 2 pasitos.
+Pero son importantes, vamos a comparar en el laboratorio.
+A ver, mejor espero para no este para no desconcentrarlos.
+Pero los que quieran ya pueden ir leyendo laboratorio.
+Me ponen listo también, porfa.
+Tengo muchos estos abiertos, Chemina se va.
+Perdón, quinto.
+Yo rojo.
+Vamos a hacer un poco, estimados, de lo que sería ingeniería de Progress.
+Yeah.
+Vamos a hacer un poco de ingeniería de promos.
+Y empezamos con esta frase aquí.
+Muy bien, ahí todavía terminando, todavía no estoy diciendo este, solo estoy preparando lo que voy a buscar.
+Esto parece buenísimo.
+¿Cómo te sienta?
+Okay.
+Mhm.
+¿Te vas a ir para atrás cuando te diga que?
+Ya dice listo, a ver, vamos a ver cuántos se han respondido.
+No sé si ya chicos, 940.
+Entonces acá me indican ya.
+Right, Mom's.
+Ok.
+Este mes.
+Hey.
+Todavía hay 8 respuestas, chicos.
+The moss.
+A ver, 12345. Quiero ver que no haya duplicados, tal vez algunos estén con 2 equipos, entonces.
+Hay 12369.
+No, gracias, John.
+1111, chicos, ya si alguno no puede, chicos, este no le carga, me comenta también, porfa, se lo va a considerar, no se preocupen, pero es importante la comunicación.
+Si lo están haciendo bascán.
+And not coming up.
+Yeah.
+Ya van 9.
+Es el ese listo, genial, creo que falta 1222 más, chicos, yo Sidel John está.
+Waldo.
+Ya él también está Carlos.
+April este.
+Yo acabo el beso, entonces Kevin David.
+Ángel, Ángel, también me falta, que sí.
+Mira, peli, gracias.
+I'm on.
+Una vez moderar este examen, dice ya.
+¿A ver, oye, por qué me siguen saliendo 9?
+No.
+Porque me siguen saliendo 9.
+Faltan 2 chicos.
+1 minuto más, porfa.
+Falta a ver, faltan los chicos que faltan, por favor.
+John, this time.
+Yeah, yeah.
+Ok, ahí les cuenta, no, ahí les cuenta.
+Ya está, voy a cerrarlo, esto también.
+Mhm, a ver.
+Planes de pago.
+Qué raro, yo si tiene este, o sea, ¿en qué momento te muestra planes de pago este April? Sí, entiendo que muestra en cuando se accede a una funcionalidad premium, pero la instalación, o sea, el descargar el Excel, el Excel, el ejecutable, es totalmente gratuito.
+Y al momento de darle clic, no debería como que salir de esa opción de pago. ¿En qué momento exactamente te te salió? Porque tal vez por alguna, tal vez por error, habrás cliqueado, no sé en añadir efectos o eso, ahí sí.
+Porque Figma tiene este efectivamente.
+Funcionalidades gratuitas, pero como también tiene funcionalidades que requieren.
+Eso no pago.
+Ya, ya.
+De hecho, voy a buscar aquí mismo, aunque sí creo, o sea, por eso es extraño.
+Inténtalo de nuevo, por fabri.
+Ya en cuanto a instalar, que es muy raro que el momento de instalar eso te pidas jefe.
+Ya o K chicos, tiempo ya vamos a este porque si no nos vamos a largar.
+Yeah.
+Me comentan si necesitan un poco más de tiempo, se los doy chicos, la verdad.
+Este.
+No sé.
+Porque son a ver cuántos me han dado, 123.
+6.
+Me han dado 9 personas en listo, pero aún faltan.
+Algunos y entiendo yo normal, me avisan, por favor, sí.
+No es posible que tal vez por temas de Internet no les carga la página.
+¿O todavía están haciendo lo bueno?
+No tengo el conteo yo para decirles.
+Para saber yo en verdad si ya acabó o no el tiempo.
+The nice.
+sí, es eso sí, no puedes crear proyectos, obviamente, y la cantidad de archivos es este, creo que el límite es 3 que le das ahí y también incluso en las páginas te dice que son 2. Ya ahí sí, obviamente, si te vas a tener un plan de pago.
+Entonces creo que aplicamos la de.
+Eliminar las que no necesites.
+O trabajar en el en la misma página todo porque recuerdo que es un.
+Una pizarra infinita y tú puedes agregar ahí todas las.
+Las Los frames, recuerdas los frames, ya sea de celular, escritor, el que tú quieras, ya en una página puedes agregar los que tú quieras.
+Ver.
+Sí, esas son opciones que yo te daría porque yo tampoco tengo el plan, este el plan pro. En realidad no tengo el plan pro yo este.
+Equations.
+Y este ahorita no hasta ahorita no me he visto la necesidad de usarlo, no me he visto la necesidad de usar el plan Pro. Yo entiendo que para los que sí están enfocados en diseño, no te preocupes, listo. Los que sí están enfocados en diseño sí requieren porque hay este animaciones, sí requiere un figma Pro.
+Ya y no entiendo, no tengo entendido tampoco cuánto es el costo, si es si es carito o no me he fijado en eso, pero tal vez en un futuro o k listo. Entonces vamos ahora sí a revisar chicos, vamos a revisar un momento, unos 5 minutos. ¿Cómo es el test? Porque yo tampoco lo he visto, pero sí quisiera ver.
+¿Cómo les ha ido? Ya tranquilos, aquí no se va a mostrar el nombre, nada, simplemente se va a mostrar al igual que el Kahoot.
+¿Cuántos han respondido bien y cuántos han respondido? Bueno, han tenido esa dificultad. Primera pregunta dice, ¿cuál es la ventaja principal de usar Git en un proyecto de desarrollo? Y la mayoría respondió, efectivamente.
+Cambios bien, rastrear, guardear, guardar cambios es lo que nos permite usar Git en el proyecto de desarrollo. Si una persona de puesto hace que el código se ejecute más rápido, bueno, eso no depende tanto de Git. Entonces Git es un sistema de control de versiones.
+Okey.
+¿Qué comando de terminal lo usas para moverte a una carpeta llamada mi proyecto? Acá vienen ya los comandos que vimos en la terminal ya PW que hacía te mostraba la ruta git. Bueno, git no es un comando en realidad de este de terminal, es más de git, bueno de git, sí, pero es relacionado a.
+Al control de versiones, efectivamente, CD es esa, es ese comando que nos desplaza entre carpetas, chicos, git mi proyecto ya git. Bueno, primero no existe ya git mi proyecto, esto te va a dar un error. I git init, git pull, git commit, git push, pero git mi proyecto no.
+O KYLS es para mostrar la lista, bueno, la lista de este de contenido del mi proyecto.
+Porque se recomienda usar unidades relativas ya en lugares de píxeles en lugar de píxeles fijos.
+Los píxeles solo funcionan en móviles, no funciona en cual. Ni siquiera hay que hablar de móviles o de escritorio. Funciona en el diseño web. Ya las unidades relativas se adaptan a diferentes tamaños de pantalla. Buenísimo, creo que necesito aclarar porque todos están ahí. Sí, las unidades relativas se adaptan a diferentes tamaños de la pantalla, chicos.
+¿Qué herramienta del navegador te permite inspeccionar y modificar CSS en tiempo real?
+Ajá, la herramienta, a ver, la terminal no estamos hablando de CSS, chicos.
+¿Y recuerdan que este cuando ustedes abrían la terminal?
+Bueno, el terminal no, perdón, la herramienta.
+Era la herramienta de desarrolladores. Podían aquí en el mismo código CSS. Bueno, acá no me va a dar esto, pero el mismo código CSS tú podías cambiar esto.
+¿Correcto, podrías hacer esto, por ejemplo, 50?
+Bueno, acá no tiene sentido cualquier cosa, sí, pero podrías hacer esto y madre mía.
+Madre mía.
+Ya podías hacer eso y se establecía, pues automáticamente se cambiaba, ¿no? Como esta no es mi página web, obviamente no, hasta se podía quitar, vean.
+Ya puedes hacer modificaciones en tiempo real y se visualizaban aquí en tu este en tu pantalla. Obviamente esas modificaciones no afectaban al código detrás, pero es lo que te permite que lo que te permitía el navegar la herramienta desarrollador de Chrome. Ya esto es Visual Studio Code.
+Chicos, a ver, acá primero estamos hablando de una herramienta del navegador. Entonces Visual Studio Code no es una herramienta, es un programa de escritorio, está en tu escritorio, lo has instalado.
+Y GitHub page no, este GitHub page es el servidor web donde se guarda los repositorios. o K no es tanto modificarse es en tiempo real y no es herramienta en navegador. Tampoco es una página web, es un servidor con es una página web en sí.
+¿Cuál es la diferencia principal entre un wireframe de baja calidad, fidelidad y uno de alta fidelidad? Y ya, bueno, exactamente el de baja fidelidad es el esqueleto y el de alta fidelidad mayor de tres. Ya todos respondieron correctamente aquí. A ver, aquí es una media que en CSS, vamos a ver qué dice acá. Inserta imágenes responsivas automáticamente.
+A ver.
+Inserta imágenes responsivas automáticamente.
+A ver, vamos al concepto de media query. Media query lo que hacía era definir estilos basados en condiciones. o K comentamos eso, define estilos basados en condiciones y usualmente se usaba para hacer tu página responsive.
+Ya, pero tú este necesariamente no usas media para insertar imágenes.
+O K, primero tú insertas imágenes gracias a HTML. Las imágenes no se no se insertan con CCS, entonces ahí habría como que un este.
+Ya podría decir acá permite imágenes responsives. Eso sería distinto, pero aquí te dice inserta y CSS no inserta imágenes, inserta imágenes. Eso es papel de HTML o K. Ahí sería, por ejemplo, un ya una falacia respecto a esta alternativa. Segundo.
+Si te fijas aquí, aplicas estilos diferentes, ajá, exacto según condiciones, que es el concepto que vivimos, no como esta condición de aquí del ancho de pantalla. o K, entonces aquí podría interpretarse mejor si se dice permite imágenes responsivas, ahí sí o este hace que las imágenes se vuelvan responsivas, ahí sí podría dar un debate, ¿no?
+Pero acá dice inserta. ¿Qué necesitas para publicar tu sitio web con GitHub page? Todos respondieron un repositorio en GitHub page, GitHub. Exacto, con los archivos del sitio y activar GitHub page en 7 o K creo que si todos respondieron este, esta parte del laboratorio lo van a hacer solitos, que es justamente bueno, aquí ya estoy en el laboratorio, pero ¿qué es la última parte?
+Ya se lo pueden hacer solitos.
+Bien, después de completar este módulo, ¿cómo describirías tu nivel de confianza usando terminales kit y herramientas de diseño? Esto ya son respuestas propias.
+Muy bien, okay, los que necesitan guía me comentan, por favor, esas 2 personas, bueno, ahorita no en privado, que es justamente esa inseguridad o que es en que necesitaría guía ya para posiblemente darles alguna herramienta, alguna información para cubrir eso. okay.
+Los que están en buen camino, los que dicen bastante seguro, muy bien, está bien, felicidades, felicidades que estén, que se sientan así respecto a usar estas herramientas, porque para ambos ya para ambas respuestas, porque como comentamos, estas estas herramientas lo vamos a usar mucho en su trabajo ya y GitHub lo vamos a usar, pero bastante.
+Todo proyecto de una empresa, mi estimado, está en GitHub, ya tal vez no como público, está como privado, en realidad ya está como privado, no está para todos, pero se comparten entre los mismos desarrolladores que trabajan en esa empresa. Por eso es vital que tú entiendas GitHub. Bien, o k.
+Dicho esto, podemos ya continuar con.
+Lo que sería.
+La parte del laboratorio, pero antes quisiera hablar algo de.
+Some as yes.
+Chicos, receso de la verdad es que sí nos hemos este tomado un poco de tiempo. Son las 9:54.
+La parte de laboratorio nos tomaría tal vez media horita. No sé cómo nos sentimos, chicos, cómo estamos, receso de 10 minutos o vamos así de esto.
+De largo.
+9 y 54.
+Ostia.
+Se me ha hecho un poquito el árbitro esto.
+9 y 54, chicos, nos vamos de largo bien para.
+Para terminar al tiempo, para terminar lo más antes posible, no para acabar ese laboratorio, yo usaría. Efectivamente, vamos de la OK, creo que no me comentan nada, por favor.
+Colegas.
+De largo dice que de largo nos vamos.
+Bien, del IB, ahí o PET, Go Carlos, gracias. Go entonces, la mayoría está bien.
+De largo o K de largo, vamos de largo, chicos, vamos a ver lo que es este. Vamos a ver algo importante en lo que es la IA, muy vital. Ya vimos conceptos, pero vamos a ver aquí dónde está. Voy a cerrar mi antigravity.
+Voy a cerrar Visual Studio Code también porque no vamos a programar nosotros, lo va a hacer la idea, pero antes de antes de tocar justamente de usarla ya como programación, necesitamos ver algo súper importante y es son, son técnicas en realidad para hacer mejores prompts. Esto ya tiene que ya tiene relación con lo que sería ingeniería de prompt.
+Ya entonces es sabido que es un prompt, ya se sabe que es un prompt, pero alguno tiene conocimiento o tiene el conoce las buenas prácticas de cómo escribir uno. ¿Qué le digo a la qué le digo a la guía o cómo escribo la guía? Más que nada en programación, que es importante.
+¿Qué le escribo? ¿Qué le escribo para obtener la respuesta que yo quiero o cómo lo hago? Ya a eso va lo que sería la ingeniería de prompt y lo que voy a enseñar acá o lo que voy a aquí detallar son realidad algunas técnicas.
+Algunas técnicas de diseño de pronto.
+Ok, algunas técnicas de diseño.
+Porque, como dice acá la frase, la calidad de lo que produce la guía, o sea, el resultado que te va a dar depende mucho de cómo le diste la entrada. Ya lo vimos con el ejemplo del cielo es azul. ¿Se acuerdan? Tuve que ser súper específico, tuve que ser súper específico para lograr el resultado que quiero.
+Porque si no, si estoy muy general, si soy muy este, si le doy un prompt pobre, entre comillas, obviamente la respuesta también va a ser pobre.
+Entonces lo que se tiene que hacer es obviamente crear un prompt no tan detallado necesariamente, sino que calidad, chicos, calidad sobre cantidad. Entonces vamos con esto, primero vamos con la técnica llamada cero shot. En realidad no es tanto una técnica.
+Ya estos 2 de acá.
+Son referentes a la cantidad de ejemplos que tú le vas a dar a un este a la IAM. Shot viene del término que es shot en IA. Shot es simplemente ejemplo.
+Okey, es un ejemplo de entrenamiento, o sea, un ejemplo que tú le das al momento de darle tu prompt. Le dices vamos a verlo, pero es un ejemplo y esto ayuda mucho porque cuantos más ejemplos le das al modelo va mejor entender el resultado que quiere. Cero Shot es simplemente.
+Que tú no le das ningún ejemplo, ya aquí no le das, le pides directo acá pedir directo.
+Sin ejemplos, estos cuando se usa cero shock, cuando sin sencillamente tu este para respuestas rápidas, preguntas rápidas que no necesitan tanto tanto detalle, por así decirlo. Miren, voy a usar aquí tengo ya ejemplos de prompts.
+Eliminar esto con y voy a usar un ejemplo de cero shot, le voy a decir esto, miren.
+A la misma chat, no voy a usar chatGPT ya porque Cloud se me va a gastar, si no.
+Pero vean cómo es un prom de este cero.
+Cero shot, ¿qué es pedir directo y 100 ejemplos? Es un prompt simple, general y yo le digo, explica con qué son los nanobots y acá me dice ta ta ta ta, son máquinas extremadamente pequeñas del tamaño de nano, ya me da todo un concepto ya y me da incluso general, uf, me ha llenado esto.
+Ya eso es un cero shock. Yo no le he pedido, no le he dado un ejemplo de cómo quiero que me dé la estructura o este más detalles ya.
+Eso es un cero shot, one shot y fue un few shot, perdón, ya es agregarle ejemplos.
+Le adicionas ejemplos, le das un ejemplo del formato que tú esperes, le das ejemplos.
+¿Por qué le damos ejemplos? Porque los modelos en realidad hay que decir que son imitadores, ya son muy buenos imitadores. ¿Y tú al darles un ejemplo de qué hace?
+Ya un ejemplo de qué hace, no solo dices qué hacer, sino cómo hacer.
+Indica, o sea, le ayuda.
+Ayuda a la IA.
+A cómo hacerlo, o sea, cómo hacer definir la salida, por así decirlo.
+Muy bien, es eso, chicos, miren aquí, por ejemplo.
+Está ya perdón, miren, el voy a usar para la misma pregunta ya que yo hice acá, explica que son las nulobots. Acá le voy a usar un este un prompt siguiendo dando un ejemplo que está aquí.
+Dice siguiendo este formato analogía para explicar un concepto técnico, por ejemplo, la inteligencia artificial es como un chef. Ya te da un ejemplo acá tu tarea.
+Explica que son los nanobots usando esa analogía similar al jefe.
+Los nanobots son como mini doctores invisibles que viajan por tu cuerpo, encuentran problemas y los arreglan directamente desde adentro sin que tengas que oír nada. Ya me ha usado, ha este, ha estudiado la analogía que yo le he dado y básicamente casi siguiendo el mismo patrón me ha definido ahora que son los nanobots. Vean que ya no me da un.
+Una respuesta compleja, sino que sigue el ejemplo de dar efectivamente solo una frase con analogías. Eso es lo que ha hecho. Yo le he dado el ejemplo y le he dicho que sigue el ejemplo. Entonces ven como este le le dices a la I A cómo lo tiene que hacer con ejemplos mientras tú le das más ejemplos.
+Mejor va a entender, mejor va a mejorar, va a mejorar la calidad de la salida que tenga.
+Bien, va a mejorar la calidad. Listo, entonces vamos con lo siguiente que es rol prompting. ¿Qué es rol prompting? A ver.
+Roll prompting lo que hace es viene de role play. Ya seguro muchos conocen ese término role play, que es que tiene que tomar un papel, cierto, rolear, tomar un papel. El role prompting consiste en pedirle la guía que explícitamente adopte una función o una persona. ya.
+Pedirle a la IA que adopte un rol así de sencillo, que adopte un rol. ¿Por qué es importante que adopte un rol?
+¿Recuerdan algo, chicos? Los LLMs han sido entrenados con miles y miles de datos, miles y miles de datos. Cuando tú le das un rol, le das una identidad. Si tú, por ejemplo, le asignas al asignar un rol, activas un subconjunto ya una los datos que le van a servir para ese rol.
+Si tú le dices que actúe como un médico, a él no le va a interesar los datos de albañil, no le va a interesar los datos de profesor, sino los relacionados con médico, con medicina. Entonces tú estarías como que acotando o reduciendo a la cantidad que va a necesitar ese rol.
+Bien, entonces es así como funciona. Por eso es importante pedirle a ella que adopte un rol para que basado en este rol te pueda ayudar.
+Por ejemplo, acá yo tengo un prompt donde yo le estoy diciendo, mira, le estoy dando una personalidad con el este, le estoy diciendo, hey, actúa como un ingeniero de robótica. ya Obviamente el rol que tú le vas a dar tiene que estar relacionado con el problema que quieres que te resuelva. No le vas a dar un rol, por ejemplo, de panadero a alguien que quieres que te explique la inteligencia.
+No tienes que darle un rol a compatible con la solución que quieres que te plantee. Si quieres que te diseñe una página web, un este, un diseño, UAX, away, alguien que tenga esos conocimientos de eso o k o un full o un señor full stack, por ejemplo, o k actúa como un ingeniero de robótica.
+Ya que le estoy dando más este como que más personalidad, más personalidad, entre comillas, porque no tiene este personalidad, sino que va a seguir respuestas así como que carismáticas o divertidas. Y explica los nanobots a jóvenes de 15 años. Ya aquí también estoy acotando la población, porque este no es lo mismo explicarle, digamos, a niños, adolescentes o adultos.
+No, obviamente un adulto tiene mayor mayores conceptos, por así decirlo. Entonces, ¿cómo me va a dar esto? A ver, hey equipo, póngase en modo imaginación porque esto es de otro nivel. Los nanobots son como robots diminutos tan pequeños que podrían viajar por tu sangre como si fuera una autopista. Estamos hablando de algo tan minúsculo que ni siquiera lo puedes.
+Ver como un microscopio normal y vean como hasta me está insertando este emoticonos no para expresar esa carisma, esa como que hacer divertido la respuesta.
+Y bueno, te invitaste a imaginar muy diferente a este de acá.
+¿Qué más parece técnico? Son como robots microscópicos que pueden ver ya. ¿Qué más parece técnico? Pero aquí como que agrega analogías, etcétera. Se se pega al roll que se le estoy dando. Okay, eso sería el roll prompt muy bien y luego pasaríamos al prompt.
+Ya este término de acá, vamos a copiarlo, vamos a traducirlo porque creo que podemos sacar algo de qué significa esto, andando porque está más o menos relacionado con esto. Y esta, chicos, es la técnica que nosotros vamos a usar hoy en el laboratorio.
+Ya vamos a usar en el autor.
+Ya vamos a usar esta técnica en el laboratorio. ¿Qué es lo que hace el prompt?
+¿Ya el prompt andamio ya este qué es lo que hace esta técnica? Lo que hace esta técnica es construir una instrucción, o sea, un prompt vas a construir.
+¿Para qué sirve el andamio? A ver, el andamio. Recuerda que a un edificio te da como que la plantilla o la estructura base, cierto, para construir encima tu edificio o lo que sea que le ponga. Cierto, es como que el esqueleto ya esto de acá, el plum de escape ya.
+Este Esta técnica de acá hace efectivamente eso.
+Construyes tú, o sea, va a construir una instrucción.
+Un pro.
+Estructurado, es decir, como una plantilla, vas a construir un pro estructurado ya este que tenga bloques.
+Que tenga bloques con bloques, me refiero a separaciones de que es cada uno, por ejemplo, de rol, por ejemplo, de contexto de área.
+Ya de contexto de área.
+Distinto, o sea, acá no hay este, no hay una regla, etcétera, etcétera, porque eso tú lo defines, pero es un prompt con estructura, con plantilla. Esto para guiar mejor, para guiar detalladamente a lo que sería, le da un mejor detalle, porque si tú le das ya toda una estructura va a construir sobre esta.
+Para guiar a la ya.
+Hacia un resultado más exacto mientras tú seas más específico.
+Mejor este mejor resultado te da y el prompt scaffoling es la técnica que te permite ser más específico porque vas a usar un prompt estructurado.
+Ya miren, aquí tengo un ejemplo, así que voy a cambiarlo para que puedan entender.
+Vean a que me refiero con bloques ya.
+Aquí miren cómo estoy separando.
+El rol, esto es como si fuera un bloque, ya estoy acá separando el contexto.
+El contexto es como que información importante, ya sabemos, es la información de la situación o la información importante que va a usar la IA para darte una mejor respuesta. La tarea que es qué objetivo quiero, incluso yo puedo ponerle restricciones si quiero.
+Es decir, que use máximo 100 palabras, que no use términos científicamente complejos y hasta el formato. Mira, devuelve la respuesta en formato de cuento corto con un final motivador. Estos son bloques, chicos, estos de aquí son bloques, ya no siempre vas a tener que definir rol, contexto, tarea no, tú defínelo según el prompt.
+Que tú quieres construir porque vamos a ver que en el laboratorio el prompt es distinto.
+El prompt es distinto, ok, vamos a ejecutar esto.
+Para que vean qué es lo que justamente ha hecho.
+Y efectivamente, tal como le comenté en el formato.
+Cuento corto con final motivador y la tarea quería explicar los nanobots y ya, pues había una vez, hasta había una vez me dice, había una vez unos robotitos tan pequeños que eran los nano. Su misión era acá y te está explicando, arreglaban puertas dañadas, llevaban medicina, mantenían todo funcionado bien con pequeños serios invisibles.
+Y este Y creo que hasta ha usado mi contexto porque es como que yo le voy a explicar a quién. Mira, mi sobrino de 8 años tiene curiosidad por los nanobots porque vio el traje de Ironoman hecho de nanobots.
+Entonces un día y uso eso, no es como que para que tú le hables de los nanobots a tu sobrinito.
+Y así descubrí algo importante, acá me da como que ese final motivador. Los grandes enmientos empiezan con una pequeña idea como un punto.
+Ya entonces ahí están los ejemplos, mis estimados, de lo que serían ejemplos de este específicos. Obviamente, ustedes tienen que adaptar eso al a lo que ustedes desean, pero en general, ¿qué es lo que pasa, chicos? ¿Qué pasa aquí? Pasa lo siguiente, que estas no son técnicas.
+Excluyentes, es decir, las pueden combinar ya las pueden combinar.
+Y eso en realidad hace que mejore tu prompt, combina darle ejemplos, darle una estructura. ¿Cómo quieres que sea tu final? Ya hasta le puedes dar un guión de exactamente quiero que me des una lista, exactamente quiero que me des una tabla y te lo va a dar o exactamente quiero una imagen o ky el importante también el rol prompting que era.
+Definir el rol que debe tener.
+¿Qué debe tener para este resolver tu problema? Entonces estos no son excluyentes, chicos, úsenlas.
+Se las en conjunto.
+Para mejorar la calidad de su pro.
+Bien, entonces listo. De hecho, el pront de scaffoling lo que hace es combinar estos, o sea, ha combinado esto. Por ejemplo, acá yo le pasé, si se dan cuenta al momento de usar el pront scaffoling, usé rol aquí le indiqué, le indiqué que era. Ya acá me faltó, tal vez poner ejemplo.
+Pero fui a causar restricciones ya formatos. Ustedes definen los bloques, chicos, ya estos no siempre son los bloques, ustedes los definen según lo que quieran.
+Bien.
+Te puedo comprender estas técnicas, chicos, se puede entender esto porque es importante que las usen desde ahora. Puedo entenderlas antes de pasar al laboratorio. Ahora sí, con esto ya estamos listos para laboratorio.
+Ver alguien me da un check, entendió chicos.
+¿Cómo lo vieron? Todo entendido, me dijo Kevin, gracias Kevin, check algo, chicos, pueden preguntar por favor, pregunten lo que quieran.
+No se preocupen.
+Ver Yael, gracias por ese check.
+Todo claro, me dice Carlos, o K o K todo claro, entonces bien, ya ahora sí vamos a usar este sí se entendió. Gracias Oswaldo, sí se entendió, entonces ya con más seguridad voy a avanzar a lo que sería el laboratorio, pero para eso necesito por favor que tengan.
+Que se creen una cuenta en Cloud y en Yemen, chicos, ya los que no tienen, por favor, accedan a Cloud y créense una cuenta ahí.
+Yeah, a Cloud y a Gemini.
+¿Qué me va a salir el este?
+Se pueden crear con Google, con este no se necesita costo, no te van a pedir nada de eso, no te preocupes.
+Ahí te comparto el enlace de Cloud y el enlace de Gemini también te lo comparto porque vamos a usar en realidad esos 2 modelos para construir.
+Esa una página web.
+Comía.
+Yeah.
+Voy a pasarte esto aquí.
+Me comentan normal, los que ya tienen me dicen, sí, ya lo tengo, ok.
+De esos 2.
+Hay un listo a los que ya tienen la cuentas en ambas ambos modelos, porque si no, hoy día va a ser su primer día. Usamos bien, ahí voy 5 minutitos hasta las.
+10 y 10 y 13, 10 y 18.
+A partir de acá, chicos, yo les voy a compartir prompts, ya creense la cuenta, por favor, yo les voy a compartir. En realidad, yo tengo aquí prompts.
+Ya vamos a hacer lo siguiente, miren, mientras ustedes se crean, yo les voy explicando, vamos a usar Gemini para construir el prompt que nos permita construir, construir, construir ya el prompt que nos permita eso, construir, pero en Cloud, o sea, vamos a apoyarnos de un.
+De un modelo que es Gemini para construir este para apoyar a otro modelo. Primero lo que vamos a definir es un prompt de calidad con un prompt de calidad. Tu página web va a salir de rechupete, por así decirlo. O sea, va a salir con un buen resultado como tú quieras.
+Ya por eso es que justamente necesito los 2.
+Pero este.
+Con mayor priorización en Gemini, chicos, ya.
+Ya que.
+¿Clau tiene alguna situación hoy en día? No vayan, créanse, no se preocupen, yo solo estoy este igual se van a necesitar amos.
+Pero yo voy a dejar de compartir un momento porque voy a voy a regresar algo. Tengo que regresar algo importante, ustedes vayan, quedarse cuenta ahí.
+Quiero revisar cuántos han podido terminar el laboratorio 7 porque se va a usar.
+Recuerdan, si ustedes recuerdan el diseño, el la información del diseño de mi objetivo, los colores, incluso lo que construyeron en Figma, ustedes se lo pueden pasar a la guía y la guía va a seguir ese estilo que tú construiste y va a ser un mejor diseño.
+¿Ya entonces los que han terminado el laboratorio 7 como que van a tener mayor este, cómo decirlo?
+Mayores posibilidades, pero los que no, chicos, los que no se preocupen, también crear un plan B para llegar a esos alumnos que no han podido todavía tal vez tener un diseño o no han podido, este no lo tienen claro en eso ya.
+A ver.
+Hay unos minutos más, me confirman por favor por el chat quienes ya tienen ya que hace, ahorita lo veo vacío, siento que voy a trabajar este porque sí quisiera avanzar como ustedes ya a la par el.
+Y compartir las herramientas también, o sea, yo tengo los productos preparados y ustedes más que nada, simplemente lo tienen que llenar con su información.
+Bien, con la información que yo les dé.
+Kevin, León dice, ya tengo Cloud, gracias Kevin, Gemini también porfa. Gemini va a ser también como un plan B porque Cloud al parecer no está aceptando imágenes. Ya hay un problema ahí para los que sí tienen su imagen y Cloud no lo acepta. Entonces ambos son buenísimos para programación.
+Pero el laboratorio dice, hay que usar cloud ya, pero obviamente que por diversas situaciones, que cloud tenga problemas por detrás, vamos a usar Gemini para apoyarnos. Ya creense Gemini también, gracias John Peña.
+Número de teléfono, sí, Carlos, este Cloud pide un número de teléfono para que puedas este validar, pero si no lo tienes, tú dime nomás y puedes usar solo este Gemini. No te preocupes, ya si tienes dificultad en hacer esa verificación porque Cloud si te pide un número de teléfono.
+Sobre todo porque ha pasado que muchas personas se han creado varias cuentas de Cloud. Ya Cloud es buenísimo, es buenísimo. en.
+Es buenísimo, como te digo, es un buen modelo para curificar, pero te da una cuota. ¿Cómo decirlo? A ver, te hace, te da como que una cuota pequeña, no pequeña ya, pero este que sí te hace preocupar de que sí te hace preocupar de este de.
+Ve a veces un cierto cierto miedo de que en algún momento te diga llegaste al límite de tu cuota, entonces y eso en medio de un proyecto pues te afecta y se han creado cuentas, cuentas, cuentas como para volver a usar el modelo. Entonces Claudia dijo, mejor te pongo una confirmación de teléfono para que no me crees así tal cual.
+Incluso si tú te creas varias cuentas en Cloud y le pones el mismo teléfono, Cloud va a identificar y va a decir, hey, ya has usado este teléfono varias veces, usa otro.
+Bien.
+Usa otro tienen cloud crees en Gemini también por fa en Gemini.
+Ya en cloud test, yo creo que no creo, no creo que necesite guiarlos en el punto de que también se creen una cuenta en Gemini, porque ahí sí, ahí sale, no bien.
+Buenísimo.
+Bien, vamos a cerrar esto, estaba revisando el laboratorio 7, pero.
+Vamos a ver, laboratorio 8.
+Yeah.
+Voy a cambiar también mi cloud, ya son las este 10 y 20 chicos, voy a.
+Yo voy a entrar también con una cuenta de Chrome creo que estoy compartiendo, voy a compartir.
+No estaba compartiendo.
+Voy a compartir para que vean, yo voy a entrar con este de aquí, yo tengo 2 cuentas de Cloud. que.
+Confirman, porfa, Gemini también es vital que se lo que se creen una cuenta ahí.
+Yeah.
+Yep, the paying of continuous.
+No.
+Vamos a dar un modelo más normalito, por así decirlo.
+Vamos a cerrar esto.
+listo chicos Jimmy también gracias Kevin
+1 minuto más.
+1 minuto más.
+Ajá, esto de aquí es a ver, chicos, hoy día vamos a tener que separar, bueno, no separar, sino que quiero que cada uno tenga en claro los que tuvieron, los que terminaron el laboratorio 7 y tienen la imagen de Figma.
+Les va a ayudar muchísimo y los que no vamos a hacer lo siguiente.
+Quiero que vayan asus inspiraciones a donde y escojan uno de esos porque lo vamos a usar. Ya vamos a en una de las inspiraciones, porque ya la verdad es realmente para hacer esa eso, este lo el objetivo aquí es que tengan algo ya algo que pueden usar como información.
+De estilos de diseños para la IA, porque lo necesita ya. Entonces, como no has tal vez este has tenido dificultades, todavía no has no se entregó el laboratorio 7, que todavía está para el sábado. Vamos a que uses.
+Uno de estas inspiraciones que le va a servir a la guía para guiarse. Entonces tú busca uno de estos. Yo, por ejemplo, voy a y tómale una captura, ya guarda la captura, guarda la captura, por favor. Yo, por ejemplo, voy a usar este.
+Ay, pero aquí no.
+Quiero que si tú no tienes este, si tú no has logrado, repito, no has logrado terminar el laboratorio 7, no tienes tu diseño en Figma, no te preocupes.
+Usa este, vamos a.
+Eso sí lo he compartido, no usa uno de tus inspiraciones, la que mejor quieras, porque lo que vamos a hacer es como que la guía lo que va a hacer es imitar ese diseño para que vean cómo es que así de fácil lo hace ya, pero obviamente con.
+El correcto, no, simplemente le vamos a lanzar la imagen y le vamos a decir, hey, programa, no, así no.
+Aquí te comparto eso.
+Acaso tú no hayas para que escojas uno de estas inspiraciones.
+Es el número ya.
+Okey, listo, entonces dicho esto, voy a.
+Ya tengo mi imagen aquí.
+Este voy a editar algo en su momento porque la imagen me sale con esa cabecera.
+Entonces voy a quitar porque si no lo voy a tomar en cuenta.
+Mi nombre ya.
+¿Cómo me saldrá interesante? ¿Cómo me saldrá mi este con eso? Voy a hacer de ambos modos, ya vamos a continuar. Entonces nos vamos al laboratorio en el paso uno es súper sencillo, ya en el paso uno dice redacta un prompt superficial, es decir, simplemente colocas este prompt que te ofrece.
+El laboratorio y lo pegas en tu y lo ejecutas. Es súper sencillo. ¿Por qué? ¿Cuál es el fin de esto? Acá lo que como te comento es demostrar la diferencia entre cómo se vería un prompt cobre, por así decirlo, con un este.
+Un pro súper detallado.
+Yeah.
+Te lo voy a copiar acá y aquí te lo voy a pasar yo, en realidad yo también tengo uno aquí.
+Ok, yo había preparado esto.
+Esto de aquí, ya yo tengo otro que aquí te comparto, los que tengan Cloud o Gemini, cualquiera.
+Más que nada en Cloud, sí.
+Yeah.
+Sí, porque el laboratorio nos especifica claramente que tiene que ser cloud, pero si estás en Gemini.
+Ahorita lo hago ya, primero voy a poner en cloud stop.
+Y automáticamente.
+Ya estoy ejecutando cloud, vean chicos.
+Vean cómo actúa Cloud, ya yo le di un prompt pobre, general, no le di diseño, no le di colores, no le di estilo, no le dije objetivos, no le dije nada de esto.
+Entonces acá hay algo muy bueno de los chats, lo de los apps LLMs y sobre todo de Cloud.
+¿Qué es que este él ya sabe esto? A ver, dice antes de crear cuéntame un poco sobre ti para personalizarla. Voy a crear una app estilo link tree completamente personalizada con diseño atractivo. Usaré algunos valores de ejemplos que podrás editar directamente al código.
+A ver.
+Yeah.
+Cuéntame un poco sobre ti.
+No está haciéndolo directamente.
+A veces algunos de ustedes, chicos, lo que le va a salir es aquí.
+¿Un formulario preguntándonos exactamente pidiendo más contexto, ya cómo quieres tú este este diversas opciones?
+O sea, el mismo modelo te va a pedir activamente.
+Que le des más información porque sabe que esto es muy plano para que cree una página web.
+Aquí lo está creando, miren, yo lo acabo de ver este.
+Que bajo y lo está creando, vean cómo está creando todo el este.
+Y listo.
+No le he dado ningún diseño, así que no sé cuál es. Ya este es mi diseño, obviamente a ver.
+Acá recién me sale este formulario, es el formulario que pide para obtener más.
+Información, lo voy a emitir todo, ya lo voy a emitir todo, voy a emitir todo.
+mira, no quiero que hagas nada más, gracias.
+Pero si yo le hubiera dado algún valor, lo hubiera editado basándose en eso.
+Lo hubiera, lo hubiera editado basándose en eso, o sea, se puede cambiar. ¿Qué es lo que hace aquí? Vamos a explicar le dimos el prompt o k un prompt plano y me ha dado un diseño obviamente que yo no, yo no tengo ni idea. O sea, los colores son randoms, los enlaces incluso también son randoms, te dice Twitter, te dice LinkedIn, te da bastantes.
+Yo en mi gusto personal, yo no quería bastantes.
+Y te da, obviamente ni siquiera pone tus datos personales aquí.
+O K, eso es lo que ha generado lo que sería. Ese es el ejemplo de un prompt vago, un prompt plano ya no se adapta a lo que tú quieras.
+Bien, aquí ya lo que pasó es que me ha dado un formulario donde ya se me pide información y ahí sí lo va a adaptar a lo que yo quiera. No van a necesitar más datos, más información, ya, pero hasta aquí queda con esta parte que sería la parte uno.
+¿Y luego qué dice acá? Lo que te dice acá básicamente es.
+Que este resultado que te ha dado lo guardes, no lo tienes que guardar, no sobre esto no lo guardes, por favor, esto es solo un ejemplo, lo que vas a guardar es el siguiente ya porque esto obviamente es muy genérico, muy general. ¿De qué te sirve guardar esto a ti? Esto estoy usando como ejemplo, así que la parte uno, por favor.
+No, este no lo guardes, pero sí estima los tokens utilizados. Esto sí, mi estimado quisiera quears porque acá vas a aprender los cálculos ya cuenta la cantidad de caracteres generados por la I. Acá te va a enseñar los cálculos.
+Lo segundo que tienes que hacer.
+Ahora sí vamos a darle un prompt scapholine, o sea un prompt más detallado, y esto nos va a servir para construir lo que sí queremos, como nosotros queremos que sea. Le vamos a dar ahora sí información, lo vamos a enriquecer con información de como sí queremos que sea nuestra.
+Página web, ya entonces para eso yo les voy a compartir aquí un prompt.
+¿Que nosotros tenemos que ejecutar en Gemini? No, pero espero que ya lo tenga. A mí lo hizo directamente. Exacto, algunos lo hace directamente, o k.
+Pero te pide al final ya el orden no es el mismo, el orden no es el mismo aquí. Pero bien, si tú ya tienes instalado Gemini o incluso puedes usar el mismo cloud, ya no te preocupes, puedes usar el mismo cloud, pero en otra conversación sí creo otra conversación.
+¿Dónde está? Esto no es mío, perdón, ya somos esto, ya ese es el prompt scaffoling que yo.
+Te voy a Le voy a compartir a Gemini, pero esto es en tu caso, mi estimado. Si tú tienes claro ya si tú tienes claro el color que quieres usar, la cantidad de enlaces, el objetivo o tú las objetivos, este tú lo has definido en tu laboratorio. Tú, mi estimado, puedes usar este prompt que te estoy compartiendo.
+Y reemplázalo, obviamente reemplázalo, léelo y reemplázalo por el lo que sería tus datos, ya lo que serían tus datos.
+Lo voy a pasar también por chat GPT, o perdón, por WhatsApp para que lo puedan, este como ya no vamos a terminar el laboratorio, lo puedan ustedes este personalizar durante el tiempo ya que lo vayan a usar.
+Muy bien, pero lo estoy compartiendo aquí. Yo tengo el mío ya lleno aquí, yo tengo el mío, lo llené con mi nombre, mi rol de presentación, mi biografía corta.
+Ya y mi objetivo de rediseño, que sí lo tenía yo claro, no que era en la clase en laboratorio 7, el layout que yo escogí, como lo respondí, mis tokens de diseño, ya mis enlaces y bueno, mi instrucción final.
+Ya aquí te lo paso como ejemplo.
+Si te quieres guiar, cómo es esto ya, pero lo anterior es solamente para aquellos que tienen claro su diseño, su objetivo de diseño, o sea, su objetivo de diseño, su layout, sus colores. Muy bien, ahí lo pueden usar.
+Porque para eso justamente requiere responder esas preguntas que están ahí.
+Ahora, si tú no has terminado tu laboratorio, mi estimado, no te preocupes. Primero voy a usar esto de acá, este pront scaffoling y lo voy a usar en Gemini. ¿Ya dónde está Gemini? Aquí está Gemini.
+Vean a Jimena, yo lo voy a pasar directamente ya llenado esta plantilla que yo te que yo les compartí. Ahí está estructurado, justamente eso está estructurado.
+¿Qué es lo que pide cada este la plantilla? Pide los datos de tu información personal, pide el objetivo de rediseño, pide el layout que escogiste, pide los colores y también los enlaces, no qué enlaces exactamente vas a usar. Vean qué tan específicos estamos siendo.
+Correcto, muy bien. Entonces se lo vamos a compartir Gemini y le vamos a decir justamente aquí cuál es la tarea. No, ayúdame a construir un prompt para pelear a cloud que genera HTML. Entonces yo le voy a dar.
+Ese prompt le voy a dar ese prompt y van a ver cómo lo hace para los que no, chicos ya bueno, se van a se van a tener que saltar este paso de Gemini porque van a usar este otro paso directo para cloud.
+Perdonen que tenga tantos documentos, aquí está.
+Lo que sí tienen que tener, chicos, es necesario, es la imagen de la inspiración que tomaron. Necesitan la imagen de la inspiración que tomaron y arrastrenlo a su cloud. Ya yo voy a generar una nueva conversación.
+Voy a terminar primero con esto porque no quiero confundirlos. La verdad, estoy haciendo como que 2 rutas ya para los alumnos que tuvieron que tuvieron dificultades el laboratorio 7 y todavía no tienen claro su objetivo de diseño en un momento. Para los que sí lo tienen, sí pueden llenar esto de acá.
+Ya se pueden llenar esto.
+No.
+O si no, ya si pueden dañar, dicen este llenar esto de acá, o si no, descarguen su figma también, ya descarguen su figma. el.
+¿Eso cómo se llama eso de firma, el exportar este la imagen?
+bien exportar la imagen a ver
+No voy a No voy a ver, siento que estoy combinando los términos, no lo voy a hacer un momento ya.
+Ya me ha dado, por ejemplo, este código, ya nos vamos al laboratorio.
+La parte 2 nos dice que generemos un plan más controlado.
+¿Qué es lo que dice aquí? Yo les compartí una plantilla por el chat que ustedes pueden llenar para los que han terminado su laboratorio, pueden llenar y luego pasarlo a Gemini donde le va a dar efectivamente este pronto. Miren, ya me está dando el rol todo esto con esto, vean como ya ni siquiera lo voy a leer, estoy seguro de eso.
+Bueno, también por el tiempo, pero yo siento que con toda la información detallada que yo tuve.
+Con toda la información detallada con que yo tuve, confío en que el pro efectivamente es de calidad ya porque me da el rol que está aquí, me da este especificaciones exactas que debe seguir estrictamente el modelo, nombre, este enlaces, layout, colores, etcétera. Ya yo le voy a dar a este y mientras esto se construye en cloud.
+Para los que no, los que han descargado una imagen ya los que tienen la imagen de su diseño claramente.
+Usen este prompt de aquí, chicos, ya usen este prompt de aquí.
+¿Dónde? ¿Cómo vamos? Primero llenen ahí sus datos ya en ese último product que les compartí, llenen su nombre, su rol, su biografía y sus enlaces, que eso sí es lo que se necesita porque obviamente es el para que lo llene la misma guía con sus datos personales. Ya el anterior pro.
+Es en caso tengas tu imagen de diseño referencia. Si tú tienes una imagen de alta fidelidad, vamos a poner así de diseño de alta fidelidad, no un wireframe de alta fidelidad, un wireframe no me da colores, no le va a dar colores a lo que sería el modelo. El modelo puede leer imágenes, va a leer imágenes o las va a interpretar.
+Pero necesita un modelo de alta fidelidad porque ahí es donde hay colores, ahí es donde hay posicionamiento, ahí es donde sabe las imágenes, los íconos que necesita.
+Ya entonces de diseño referencial.
+Porque se lo vamos a pasar también.
+Yum, yum, yum, yum.
+O K, ya me ha construido, vean aquí chicos, me ha construido ya lo que sería este mi página web.
+Me ha construido mi página web. Algo que sí no me gusta es que lo ha hecho centrado. No quisiera que esté centrado. Sí, he respetado lo que sería este esa ese sombreado de atrás con colores.
+Pero este me lo ha puesto centralizado. Aún así, no se preocupen porque aquí mismo tú le puedes dar indicaciones de correcciones.
+O K, por ejemplo, tú le dices, yo le digo aquí no este corrección.
+Mi contenido.
+Está centralizado.
+Pero quiero que esté pegado a la izquierda.
+Ya sí, que es la izquierda, no sí que esté pegado a la izquierda.
+A ver, le vamos a pasar eso y vean como en tiempo real va a modificar el código.
+Y debería moverlo.
+Aunque no sé si aquí fue específico y a ver, vamos a ver si lo toma en cuenta porque debería haber hecho mi contenido principal.
+No, a ver.
+¿Ves? Dice que ya hizo el cambio, pero todavía continuó. No, acá se está actualizando allá. Ahora sí, vean como mi contenido sí se ha ido efectivamente a la izquierda, tal como se lo planteé. Ya si tú quieres copiar esto, obviamente aquí simplemente sale copiar y si lo quieres ver aquí arriba sale todo el código.
+Tú copias esto, mi estimado te da un documento, un único documento con HTML, CSS y hasta JavaScript junto.
+Ya esto tú lo copias y lo pasas y bueno, creas un proyecto Visual Studio Code y ahí lo pegas.
+Okey, ahí lo pegas, vamos a hacerlo junto también con los que no han podido, este con los que están usando una imagen. ¿Qué pasa con los que estamos usando una imagen? A ver.
+Les dije que este era el prompt, cierto, vamos a ponerlo aquí.
+Y aquí respecto a datos, que si voy a reutilizar esto aquí, primero voy a usar esto, lo voy a.
+Y.
+Y estoy reutilizando en realidad la misma información que le di en mi pronta anterior aquí ya eso es lo que sí o sí tienes que llenar.
+Y importante que tú le pases la imagen, esta imagen tú se lo pasas a Cloud.
+Pero aquí lo que me está pasando, a ver, no sé si se habrá solucionado. Ya salió la imagen, ya está la imagen ahí y está el prompt que yo les compartí, donde efectivamente vemos que somos específicos y le decimos hasta que dice no experto desarrollador frontend senior de clase mundial contexto.
+Te estoy adjuntando una captura de pantalla de mi diseño de alta fidelidad, que es esto de acá, mi para mi página personal MyLinx. Tu misión es convertir este diseño estático en un sitio web real y funcional. Aquí te va a dar la información que vas a adjuntar efectivamente ahí y tu tarea es generar código HTML CSC completo.
+Ya y bueno, acá hay algunas restricciones más y el formato de salida es.
+El código efectivamente, ahora vamos a ver si lo interpreta.
+Sí, está bien, está leyendo.
+Ya ustedes saben eso también chicos, adjunten su código y ese último prompt que les compartí, el anterior.
+Ya ahí deberías redesarrollarlos, por favor, comenta si tienen problemas ahí. ¿Cómo les va, chicos? ¿Cómo les está yendo a ver?
+Respetuosa y a ver está teniendo problemas.
+¿O este se han perdido en algún punto, por favor?
+Estoy tratando de este dejar claro el camino para si tienes la imagen, si tienes la imagen de Figma o la imagen de tu inspiración, o este si tú quieres plantear el otro modo que es ser específico con palabras, no más específico sería con eso, pero cómo van, por favor.
+Miren que me está creando el código.
+Me está generando el código, ya yo lo estoy dejando ahí por mientras yo voy a hacer lo siguiente.
+Voy a abrir mi Visual Studio Code porque yo voy a guardar ahora sí este código que me está generando, ya lo voy a guardar en un proyecto mío de Visual Studio Code.
+Bueno, este no.
+Este es paso, voy a abrir un folder nuevo, o sea, voy a abrir un proyecto nuevo.
+Recuerden que tengo que crear mi proyecto nuevo y aquí, por ejemplo, le voy a dar nuevo.
+Quiero pegar una carpeta.
+Se colgó un poquito, esperen a ver.
+Le voy a llamar MyLinks, pero le voy a dar versión 2 ya para no confundir.
+Mi links versión 2 esta carpeta lo que voy a seleccionar y aquí es donde voy a guardar eso.
+Ya ustedes también tendrían que hacer ese proceso de una vez les haya dado el código de proyecto, tienen que guardarlo. Bueno, primero no, primero antes de guardarlo, chicos, miren, ya me generó el fondo.
+Ya me generó este, ya me generó el diseño y es casi idéntico, o sea, me sorprende, es casi idéntico. Solo el tema es que el en el este es un fondo blanco, ¿no? Y acá me lo he puesto como un fondo, pero con todo lo demás los colores, miren, es casi guau, es bueno, acá sí me ha puesto, no sé por qué me ha puesto más enlaces.
+Pero lo que tú puedes hacer, como te comento antes de copiarlo aquí, estimado, lo que tienes que hacer es hacer interacciones, o sea, correcciones, que es lo que también te propone.
+El laboratorio ya refactoriza tu código, es decir, hey, esto no es perfecto para mí. Por ejemplo, voy a hacer las correcciones específicas.
+El fondo principal.
+El fondo principal, o sea, el background es debe ser de color blanco.
+Ya, ese es uno.
+Otro, los íconos.
+Los íconos este.
+Del fondo, como son.
+Porque hay iconos acá, los iconos que están en la parte inferior, los iconos, elimina.
+Los iconos que están.
+Los 3 iconos, ya los 3 iconos hay que ser específicos, recuerden los 3 iconos, los iconos que están en la parte inferior.
+Deja solamente los.
+Los enlaces.
+Los primeros, Los primeros cuatro enlaces.
+Ya vamos a ver si ha podido captar eso y creo que no tengo ninguna discusión más, ninguna discusión más.
+Vamos a ver si simplementa eso bien, a eso se refiere con antes de que tú lo copies, plantea interacciones y aquí mis estimados, quiero este compartirle en 2 páginas que a mí me han servido como este diseñador.
+La primera es esta de aquí.
+Es aquí, chicos.
+Que es aquí vas a encontrar backgrounds, pero preciosos, ya es como un mercado de backgrounds.
+¿Que tú puedes usar para tu aplicación ya?
+Este Los backgrounds son los fondos, o sea, es el fondo que está este página de backgrounds.
+Es este fondo aquí, acá se ve más clarito. Mire, si tú le das a un fondo, por ejemplo, preview, vean como detrás.
+No solo detrás, sino el fondo que está atrás se cambia ya uno que se puede notar más esto. Por ejemplo, miren, me voy a dar a preview y efectivamente ha cambiado ese fondo detrás.
+¿Por qué les doy esta página chicos? Por lo siguiente, miren.
+Voy a copiar, voy en realidad usar uno de estos fondos y se lo voy a dar a la guía. ¿Cómo lo hago aquí? Pero este de acá vamos a usarlo con este estilo, a ver cómo sería con un estilo así rosado. No te pases, bueno, este uno morado ya que es mejor, creo yo.
+Creo yo a ver, nos vamos a quedar aquí bastante tiempo, entonces cualquiera ya este de acá.
+Es totalmente casi celeste.
+Madre mía, mejor solamente uso esto ya.
+Sí, ya esto nomás. ¿Cómo lo uso? Voy a copiar esto, voy a copiar este fondo, voy a ir donde el este ya lo cambió, miren, pero todavía ahí es el diseño cuadriculado. ¿Ven? Entonces voy a hacer correcciones, voy a decir acá correcciones.
+Quita el fondo agriculado.
+¿Pero qué más?
+Aquí tengo un prompt específico para eso. o sea.
+Voy a darle con ese ya que también se los voy a compartir para editar background.
+Es esto de aquí.
+Ya se los comparto por el este. Vamos a usar este prompt aquí que dice: quiero agregar un fondo con patrón sutil a misma y links. Aquí está el código CSS del patrón que encontré, que es lo que le voy a compartir.
+Se apega aquí el código. Si tú vas a usar, o sea, si tú quieres cambiar el background y este lo copias, pégalo aquí por favor. Y acá hay unas instrucciones específicas que debes seguir. También no implementa este patrón, adapta los colores también.
+No usar ese color celeste que está usando, sino va a seguir el estilo de colores que tenía mi página web ya para que no sea todo un alboroto, etcétera.
+Voy a copiarlo, voy a ir a Cloud y aquí, estimados, lo voy a pegar ya.
+Aquí en voy a reemplazar este el código CSS por el que les compartí.
+Copiar y lo pego ya y con esto vamos a hacer el cambio, vamos a ver cómo le va.
+¿Ya lo que tiene que tener es este fondo de aquí, como qué?
+Este de aquí que le he dado este de aquí, sí, un fondo azul como que arriba no parece como un arco azul, eso es lo que tiene que tener.
+Y vean, chicos, como me lo ha implementado, lo ven, le ha quitado el fondo cuadriculado y le ha implementado ese estilo como que arco.
+O K chicos, eso ustedes pueden usar la guía, o sea, aquí ustedes van a interactuar con la guía y ya así de fácil. Yo ya tengo una página de MyLinks que puedo copiar.
+¿Que puedo llevar aquí crear index punto html?
+Index HTML, ya aquí ha puesto CCC en línea. Si ustedes quieren todo este style que está aquí, lo meten a.
+Lo meten a un archivo CSS, pero sí, obviamente tienen que referenciarlo, cambiar todo, etcétera. No, mejor déjenlo así ya, porque si no, este bueno, si hay un conocimiento elevado en eso, obviamente lo pueden hacer, ya lo pueden centralizar, pero acá sí, obviamente miren que me ha usado este ya.
+Conceptos avanzados de CSS, vean conceptos que usualmente nosotros no.
+No, este todavía no dominamos, ya que todavía no dominamos, lo ha usado él.
+Lo ha usado la I O. También puedes acotar qué conceptos quieres usar, o sea, qué elementos. Tú le puedes decir, por ejemplo, usas solamente Flexbook, no uses este CCS avanzado y lo va a hacer ya basado en eso lo va a hacer. Ahí puedes poner como que límites más precisos ya.
+Y aquí, pues aquí está el cuerpo del HTML. Aquí incluso puedes hacer cambios. Mira, mi imagen, no la puesto como imagen, no.
+A ver, perdonen, acá ha puesto EE, pero no es una imagen.
+No ha puesto una otra vez, ustedes lo pueden cambiar aquí ya.
+Pero aquí no lo voy a cambiar por tiempo ya, pero si yo, por ejemplo, le doy a Golly, vamos a ver, vamos a ver cómo se ve eso.
+Ya está, ahí está, chicos, vean como ahora ya está en mi local, ya voy a inspeccionar para ver si es responsive.
+Tienen que fijarse en todos los detalles. Efectivamente, es responsive, se adapta, buenazo y ya está, así de fácil. Lo siguiente que tienen que hacer es este subirlo a lo que sería un repositorio, ¿no? Ahí ya viene el término de aplicar git, chicos, este proyecto lo guardan.
+La hacen el flujo de Git Tini, Git este todo lo que involucra correcto guardar este proyecto ya para que para luego subirlo a GitHub y ahí chicos ahí puedan este usar la última parte del laboratorio que es.
+Que lo tengan en su desplegado en GitHub page.
+Bien, lo que tienen que tener es ese resultado, ese resultado de diseño, esa página así desplegada en su git page.
+¿Cómo sería a ver?
+Hizo el estudio code, incluso aquí lo puedo hacer si quiero.
+Pero hasta ahí, chicos, antes de hacer eso porque no me quiero desviar, se puede entender eso o k se puede entender ese comportamiento que hice yo de cómo pude crear una página web como el diseño que yo quería con los enlaces, con la información que yo quería usando una guía.
+A ver, por favor, coméntenme qué tal les pareció eso.
+¿Qué tal les pareció sobre todo la velocidad con la que le hicimos? ¿No tuvimos que estar horas ahí, no? ¿Qué opinan ustedes de que la IA puede puede hacer esto, o sea, pero con nosotros detrás, con nosotros detrás, siendo esa guía, no?
+Where?
+Siendo justamente esa guía para la guía.
+Porque vemos que obviamente se ha equivocado.
+Si nos hemos dado cuenta en la versión uno me ha dado aquí, no sé si han notado ese error en la IA, ahí me ahorita lo leo chicos, no sé si han notado ese error de que me ha repetido los iconos, lo ven acá había un icono de GitHub en realidad, pero para qué va a poner un icono aquí si ya tenemos un enlace aquí.
+¿Lo ven? Este Había un icono de correo electrónico también aquí abajo, pero para qué si ya había uno de correo electrónico. ¿Lo ven? Se desvía en realidad la guía y ahí es nuestra chamba de nosotros hacer esas correcciones en el camino.
+Ya a ver, me comentaron.
+Sí, exacto, Carlos, mira, si a ti no te sale, sí, gracias por hacerme acordar. Si en Cloud no te permite la imagen, vamos a hacerlo con Gemini. Ya esta misma imagen lo vamos a hacer con Gemini.
+Gemini, chicos, para usar Gemini y para que te puedan para que tú puedas visualizar esto, nos vamos a Gemini. Ya voy a crear una nueva conversación porque Gemini también tiene esa capacidad, pero hagan lo siguiente, primero aquí cámbienlo de fast a pro, porque fast es solamente para respuestas rápidas. pro.
+Sí, es para programación, ya eso es uno. Entonces listo, pro hecho pro, lo que tienes que hacer es ir a herramientas y tienes que agregar canvas. Canvas es lo que usa, por ejemplo, este esto es canvas, chicos.
+Que tú puedas visualizar, que se puede ejecutar código en vivo, que lo puedas ver es gracias a esa funcionalidad. Cloud lo tiene y miren cómo este podemos visualizar en tiempo real, ya, pero aquí en Gemini nosotros que tenemos que activarlo, entonces le dan activar y dicho y hecho copian ese prompt.
+Y también la imagen.
+Si no les permite, pero aquí mira, voy a ser bien vanidoso y voy a posar otro ya o no sé, a ver, vamos a comparar ya, vamos a hacer ese mismo, a ver cómo nos lo da. ¿Quién se parece más? A ver, vamos a ver ahí.
+¿Quién se parece más? Ya le doy.
+Okey, chicos, vamos a ver a ver.
+¿Qué respuesta nos genera mientras lo hace? Voy compartiendo también esta otra.
+Que en realidad sí, esto sí está en el laboratorio ya esta otra página donde hay este efectos de botones. Chévere, tú si quieres le lo que puedes hacer es copiarlo y aplicar lo mismo que le hicimos a los fondos. O sea, copia esto.
+Y dile, hey, este.
+Y dile lo siguiente, mi estimado, te voy a pasar el prompt ya para que tú lo puedas leer más detalladamente y te des cuenta cómo se está planteando un prompt. Mira, editar prompt botones. Quiero que modifiques los botones de enlace de mi my links, usando como referencia el estilo CSS de este estilo botón que encontré. Te comparto el código para que lo implementes.
+Ya que hay algunas instrucciones.
+Ya esto, mi estimado, tú lo lees y ves como este siendo específicos te va a ayudar mejor lo que sería la y también te comparto la página, obviamente.
+Con eso, pero vas a construir la página de tus este de tus sueños, bueno, del diseño que tú tengas en mente.
+¿Bien, a ver qué pasa con Gemini? Me lo construyó, lo está haciendo todavía.
+Está, sí, también le voy a tomar tiempo, entonces hay que esperar.
+Mientras pasa eso, chicos, ya para ir cerrando o K lo siguiente, luego de que tengas tu página web aquí en Visual Studio Code.
+¿Es que crees el repositorio? Miren, acá voy a pasar un hack chicos, un hack. Y es que el mismo Visual Studio Code ya tiene aquí aprovechar este tiempo, ya tiene ya sin necesidad de usar los comandos, ya tiene la funcionalidad de usar Git ya si tú te vas aquí.
+¿Que es source control? Aquí, si tú le das a inicializar repositorio, te va a crear automáticamente en ese proyecto repositorio. Ya lo está, ya está, ya está hecho. Lo siguiente, este aquí lo que va a hacer es ya esto es una herramienta resumen ya súper fácil.
+Aquí automáticamente te va a ejecutar 2 comandos a la vez, el git add y el git commit. Aquí, por ejemplo, ven los cambios que he implementado, ya están este tomados en cuenta.
+Ya están tomados en cuenta.
+Entonces acá yo le voy a poner, por ejemplo, Fiat ya este es el mensaje descriptivo que ver con el commit, le voy a decir Fiat este init project.
+My Links versión two.
+¿Ya hago el cómic, me dice este, ajá, ves?
+Tengo que esto de acá, acá tienes que presionar el más, perdón, me faltó hacer el cómic, pero recuerdan qué es lo que faltaba antes.
+¿El git at y cómo es el git at acá? ¿Cómo se representa con este más adicionando esto para cambios? Listo, acá como ves, te acuerdas este término state change significa cambios avisados, ya están avisados o están preparados.
+Es diferente a Chains, que acá simplemente es cambios, pero tú para hacer un cómic tiene que estar en este término de aquí le hago el cómic.
+El commit ya se hizo y se va a visualizar donde aquí mire.
+Aquí en esta parte, aquí va a haber como un árbol de como recuerdan esa rama, ya acá se va a ver en modo visual. Acá ven que ya se subió mi cómic.
+Acá me dice, me da ese historial, es como si hubiera ejecutado Git Lock, me da quien lo subió el los datos, me da también la descripción y que este bueno, los cambios que se hicieron no que efectivamente hicieron en líneas, incluso aquí se puede ver.
+Ahora ya está o K, ahora sí lo siguiente, lo siguiente que tendrían que hacer es crear ustedes su repositorio chicos y subirlo. Vamos a ver el resultado de Gemini. Miren lo que me hizo Gemini. Gemini también lo hizo exacto.
+Ese es el resultado de Gemini chicos.
+También me puso este modelo acá, tal vez porque no lo especifiqué, ya que obviamente.
+Este, mi modelo tiene esos 3 acá, no, mi modelo tiene esos 3 acá, entonces debía haberlos descartado. Miren, ahí no fui específico, ahí no fui específico, pero bueno, eso obviamente tú lo puedes corregir ya en el canvas. Si tú te vas a código, lo copias sin problemas. .
+Donde se copiaba.
+Ya le simplemente seleccionas todo y le copias control C, control E.
+Eso.
+Pero a ver qué más, pero acá tú también puedes hacer los cambios. Mi estimado, voy a pasarle lo mismo que le pasé a.
+A mi cloud.
+Ya recuerden que le pasé a mi club.
+Esto de aquí para eliminar efectivamente.
+Esto acá, esta corrección le voy a pasar lo mismo.
+El fondo blanco, sí, el fondo este blanco sí me gusta.
+Pero este voy a pasarle esta otra de el fondo cuadrieste.
+De ese fondo azul que tiene, ya ese fondo azul que tiene, a ver cómo lo hace.
+Se lo doy y va a aplicar esos cambios.
+Eso sí, es igual, así funciona lo que sería Gemini. Lo que sí, chicos, tienen que este cuando van a hacer los cambios, posiblemente se hacen tantos.
+Les llegue la cuota de límite, ya el límite de intimida creo que es por mensajes, entonces es mejor que en un mensaje reúnan bastantes cambios.
+A la vez que noten y lo aplique.
+Ya ahorita me lo está este.
+Me lo está modificando y aquí también te va a dar un código que tú copias y lo publicas y lo bueno, lo subes a tu git remoto. Aquí ya tienes que ir a tu git.
+GitHub, crear un repositorio remoto.
+Creas un repositorio remoto aquí que tienes el proyecto guardado en Git.
+Y creas un repositorio remoto.
+Ni un repositorio.
+¿Y le pones my links?
+Pero le pones versión 2 porque no te va a dejar poner este my links porque ya existe un nombre, le pones versión 2 aquí ya no le doy tanto a este tanta bola, creo el repositorio.
+En ese proyecto donde lo cree, a ver voy a ver donde está el proyecto.
+Para no usar tanto tampoco este.
+Aquí estaba, creo, si no me equivoco, aquí está. Ya estoy en la carpeta de proyecto. Aquí voy a abrir Gitbash porque voy a ejecutar comandos para subir mis cambios a GitHub.
+Ya que es lo que tengo que ejecutar usualmente esto de aquí ya.
+Es lo que está aquí abajo, voy a conectar ambos repositorios, tanto el local como el remoto.
+Voy a este conectarlos listo, ya está conectado, ya sabe a dónde subir el cambio.
+Bueno, esto no es necesario porque ya se llama main, ya esto de acá voy a ejecutar el gift patch.
+Origin me.
+Okey, ahí se está ejecutando y listo, se subieron los cambios, refresco.
+Iguala, chicos, ya ahí está efectivamente ese archivo de index. Luego, ¿qué es lo que tienen que hacer? Una vez tengan su my links subido, se van a desplegarlo. Ya esto ya lo hemos visto con el proyecto uno, así que para ustedes esto va a ser pan comido, settings, page.
+Seleccionan la rama que quieren desplegar, que es main, lo guardan.
+Y simplemente esperamos ya la opción es.
+La opción es page, chicos, page seleccionan main, lo guardan y esperan. Simplemente voy a ver Gemini.
+Y ya hizo las correcciones, lo ven, hizo las correcciones. Esto de acá, este las imágenes, obviamente no le puedo pasar a una imagen para que lo comparta. O sea, la imagen va a estar en local, no, pero si tú le dices, por ejemplo, a ver.
+Si tú le das la ruta de una imagen que esté en Internet, o sea, imagen de 1000 teléfono de AT, perdón, a ver, vamos a ver.
+Yes.
+Ya cualquiera, ya voy a pasar, por ejemplo, esta de Pinterest, voy a copiar la dirección de.
+Y la dirección de imagen, a ver, vamos a ver si efectivamente me ha dado una buena dirección, tiene que salir.
+Se ve borroso, pero ya, pues por motivos de ejemplo.
+Cambia el logo.
+Superior.
+Por esta imagen.
+Vamos a ver si lo hace ya.
+Voy a poner esta imagen que no se ve tanto en HD, pero.
+Pero qué raro, a ver.
+Acá.
+Así es, mira.
+Ya lo puso, miren, miren cómo le puso la imagen arriba. Yo le di la este, ya si es con imágenes en Internet, obviamente este.
+Directamente lo trae del Inques, pero acá tú no puedes pasar una imagen local para dar una imagen local. Mi estimado, tienes que ir a tienes que ponerlo desde tu Visual Studio Code. Acá obviamente sí podrías hacerlo.
+Bien, chicos.
+¿O K, hasta hay alguna duda? ¿Se pudo entender eso? Al final lo que se tiene que hacer es tener desplegado su página.
+A ver, para culminar ya, porque con esto ya estaríamos culminando en cuanto sería. a.
+Este proyecto número 2, ya que es un proyecto, en realidad ustedes tendrían que ser en conjunto con la guía.
+A ver, voy a refrescar.
+Y ahí está, vean que el darle clic.
+Ya vean, la página está subida totalmente ya y ustedes tendrían que tener un link de Cloud Code, perdón, de Catflow de GitHub, este donde podemos acceder este que ustedes tienen que presentar en este en este último proyecto. No, este sería su proyecto final.
+Chicos, okey.
+Con esto cerraríamos por favor, así que coméntenme hasta ahí quedó todo claro qué es lo que tenemos que hacer en el laboratorio o qué es lo que se tiene que hacer en este laboratorio. Quedó claro los prompts que están aquí que se los voy a pasar yo por WhatsApp para que ustedes lo puedan usar.
+Está bien, a ver.
+Check Argo, please.
+Fui muy rápido. o.
+A ver, necesito algún este alguna señal de vida.
+Estimados, ¿qué pasó?
+¿Qué ha pasado? Carlos Ramos dice, ¿qué está pasando estimados? Sí, fue muy rápido.
+O tal vez tendría que haber detallado un poco mejor, por favor.
+¿Qué es lo que dice la instrucción de entrega? Dice, revisa que tu versión estable esté correctamente explicada en GitHub page y responde en canvas con link de tu repositorio, link al sitio explicado, captura del sitio explicado.
+Yeah.
+Creo que las los periodos son claros, lo que te dice es el link de tu repositorio, o sea.
+¿Dónde has el link donde has subido?
+Es esto de aquí, pues obviamente no el link de tu versión 2. Esto de acá esto lo tienes que pasar, eso sería uno. Luego que dice link al sitio desplegado ya es el sitio que tú has desplegado en sobre tu repositorio. Aquí una recomendación, chicos, porque he visto páginas que les ha faltado esto.
+Miren, en about hay un engranaje, ya denle ese engranaje y presionan aquí en website la opción para mostrar esa ese enlace que han generado ya porque yo en algunos algunos trabajos no me lo han mandado, pero.
+Pónganlo ahí porque este cuando alguien, por ejemplo, visite su página web.
+Hiciste su repositorio, va a poder acceder a ese enlace, mire fácilmente ya sale aquí automáticamente, no lo tienes que poner tú.
+Ese enlace me lleva exactamente a donde ha sido desplegado. Ya entonces, recomendación, por favor, póngale eso a su proyecto uno y a este proyecto que están haciendo ya para que su página, el enlace de su página sea visible para los visitadores.
+Perfecto, Carlos, genial, ya sino impleméntalo con Gemini, nomás. Gemini es muy potente y ya te comenté justamente los pasos que tienes que hacer. Ponle modo pro y ponle en Canvas si quieres hacerlo con Gemini, pero si quieres hacerlo con Canvas, no te preocupes, no te preocupes, también te va a dar un buen resultado.
+Ya o K chicos, entonces no hay ninguna duda, todo claro hasta aquí ya también ya detallé lo que sería.
+Las instrucciones de entrega.
+Las instrucciones de entrega a algo más, chicos, algo más que una última, un último detalle, y es cómo entregar la tarea. Ya A ver, voy a poner yo a ver como estudiante. Es como entregan ustedes, chicos, los enlaces ya porque en los enlaces se entregan de esta forma. Mira, hay una forma correcta de entregarlos.
+Y es que copien el enlace, obviamente, pero al momento de dar a empezar tarea, por ejemplo, la forma de entregarlo que yo hacía y que les recomiendo es acá donde dice insertar, le dan a insertar a enlace enlace externo del curso, perdón, enlace externo. Aquí les va a dar 2 campos.
+Uno es el enlace que va a copiar y el otro es el texto con el que se va a ver en el enlace. Este es mi repositorio, en realidad mi repositorio.
+Repositorio de my pueden ser específicos, si quieren repositorios de My Links versión 2 y listo. Y con esto ya se estaría generando un enlace clickeable donde yo simplemente le doy clic y me manda a su este. Bien, así esa de esa forma, chicos, por favor, les pediría que envíen su enlace.
+Ya pongan un texto descriptivo y el enlace respectivo, y también está pidiendo la imagen. O sea, no solamente está pidiendo el enlace, sino también este trabajo está pidiendo la captura del sitio desplegado, es decir, está pidiendo esto. ¿Cómo se ve el resultado final de tu sitio?
+Le tomas un screenshot a esto y lo mandas.
+Ya bueno, no se copió, pero aquí lo matas. Entonces tienes son 3: link del repositorio, link de la página del de donde se ha desplegado y la captura de tu sitio desplegado. Recuerden que este proyecto este está hecho con la IA, chicos, ya está hecho con IA, entonces eso se va a visualizar.
+Sí, lo yo lo puedo anotar, vale sobre eso nada más con esto. Sí, yo creo que habré dejado en claro cómo presentar la tarea. Entonces, si no hay alguna duda más.
+Nos podemos retirar o K chicos, buenas noches con todos. Gracias por quedarse hasta estos últimos minutos. Gracias, nos vemos chicos, buenas noches.
+Gracias Yael, okey, gracias, buenas noches, gracias a usted.
+Perfecto, buenas noches. Cualquier consulta, por favor, no duden en consultarme al WhatsApp.
+Ahí me piden ayuda con algún proyecto, con lo que tenga, con lo que tengan pensado hacer, yo los guío hoy, vale.
+Sí, Oswaldo, no te preocupes, voy a pasarlo ya por este. De hecho, voy a pasar directamente al blog de entonces, es una mejor idea. Muchas gracias por esa idea. Gracias, John, buenas noches, John, John Rivas también, John Durán. Buenas noches, chicos, voy a dejar de grabar.
+De tener grabación.
+
+Orador 1 ha detenido la transcripción

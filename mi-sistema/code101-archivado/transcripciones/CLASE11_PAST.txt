@@ -1,0 +1,1188 @@
+Clase_11 Code101n19
+30 de marzo de 2026, 12:41a.m.
+3 h 50 min 49 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   0:43
+Hey.
+No es su premio.
+Ahí estoy grabando, OK.
+Hola, estimados, ¿cómo están, colegas de equipo? Buenas noches, buenas noches, Yael, Carlos, Kevin, Abril, Yarni, Ángel, Oswaldo, Josiel. ¿Qué tal? Buenas noches, Yael, buenas noches estimados a esta nueva clase de hoy.
+Ya está grabando. Hola Carlos, hola Yarni, ¿qué tal?
+Todo tranquilo para acá, hermano cambia. Buenas noches, suicida, buenas noches, Kevin, ¿qué tal? Gracias por esos saluditos. Bien, chicos, primero que nada, felicidades por llegar hasta aquí porque hoy técnicamente.
+Sería la última clase, técnicamente sería última clase porque este miércoles es la presentación de proyectos y ahí no, pues no va a haber nada de conceptos de teoría, sino simplemente presentación. Ya entonces la clase de hoy.
+Técnicamente, por eso digo que sería la última en la que pues vamos a ver conceptos, teoría, práctica y un laboratorio. Bien, entonces por eso los felicito, chicos, por estar por llegar hasta aquí. Bien, espero que desarrollemos esta, pues esta clase 11 con el mismo espíritu con el que.
+Pues iniciamos la clase uno, no ya pasó un mes aproximadamente, no recuerdo. Sí, es exactamente un mes duró este coach 101. Algo fue rápido, la verdad, porque los coach siguientes duran 3 meses y el último coach dura como 6 meses, si no me equivoco, 6 5 meses por ahí.
+Porque es obviamente, pues más teoría y más cosas, ¿no? En este 101 lo que vemos es bueno, si recordamos lo básico, no las bases para lo que es el desarrollo web y las bases obviamente son los las 3 tecnologías que hemos visto a lo largo de pues de las diferentes clases como es.
+HTML, CCS, JavaScript y en el intermedio hemos visto, pues algunos herramientas, hay que decir tecnologías que también nos vamos a integrar nuestro stack como desarrolladores. Bien, lo que sería el diseño también.
+Que es parte de desarrollar una página web, temas terminales, si no me equivoco, sí, o k, entonces vamos a comenzar chicos ya con nuestra clase número 11. Bien, hoy día lo que vamos a hacer en realidad acabo de ver el laboratorio, ¿verdad? No lo he publicado, permítanme.
+Ya el laboratorio ya básicamente hace es el proyecto en sí, lo cual yo digo que el proyecto, el laboratorio de hoy se encarga de hacer el proyecto ya.
+Ya a ver, primero, ¿dónde nos quedamos a ver?
+Vamos a empezar algo fácil.
+Para no gastar nuestras energías ya en la clase anterior.
+Voy a presentar primero mi pantalla, no estoy presentando.
+Yep.
+Looking.
+Bus, bus, bus.
+Shh, fine.
+Chino.
+Yeah.
+Bien, estimados grabando 28 minutos.
+Ya.
+Esto de aquí bien, o k entonces, como cada clase, mis estimados, vamos a hacer un breve repaso, un breve recordatorio de lo que vimos en la clase 10, que fue como que la segunda parte de JavaScript, cierto, en esta vimos.
+Lo más importante que vimos, primero vimos lo que eran los operadores, ya, incluso manteis, no me acuerdo en WhatsApp.
+Ya así nomás vimos los operadores lógicos, cierto, aquí no lo tengo, o sea, aquí está. Muchas gracias.
+Está aquí, ya vimos operadores lógicos, ya primero vimos operadores de comparación que pues toman 2 valores y lo comparan, obviamente, y en esta comparación el resultante es un booleano, no true o fails, ya conocidos los operadores de comparación, sobre todo este que se usan sobre números.
+Ya, si son sobre números, son los conocidos en matemáticas como el mayor, el menor y también el igual y el diferente, sobre todo resaltar no el igual y el diferente en cuanto a estrictamente, ya porque son estrictos, porque además se compara el valor también comparaban lo que es guía, pues el tipo de dato.
+Bien, también vimos que se podrían comparar textos, es decir, solamente 2 operadores, que era el si 2 textos son iguales o si 2 textos son diferentes. También son case Sensity, que es, o sea, hay sensibilidad en las mayúsculas, no hay sensibilidad en lo que sería en las mayúsculas.
+Luego de aquí nos fuimos a los operadores lógicos que ya nos permiten combinar los operadores.
+Primero nos permiten o prioridad este combinar obviamente los operadores este de comparación, pero este no solamente se limita a operadores de comparación, ya sino los operadores de que os unen condiciones, mis estimados, ya hay condiciones. Obviamente, sí, pues toda comparación es una condición. Lo dijimos cierto, porque una condición es aquella que arroja.
+Si es verdadero o falso, pero vamos a ver, por ejemplo, más adelante que una función puede ser este una condición, incluso simplemente una sola variable como un booleano puede ser una condición, porque si tú pones una variable booleana, ahí es verdadero o falso, ¿no lo ven entonces?
+No se limita solamente a unir operadores de condición, pero en cuanto a unir vimos los 3 operadores de condición, el ANT, que era ese haz pensar, no sé cómo se llama ese símbolo, ya, pero el ANT, que era como el I que usábamos en la vida real, no tenía que cumplirse ambos para que sea verdadero, por eso dice acá.
+Va a devolver verdadero si ambas condiciones son verdaderas. En cambio, si con si falla uno, o sea, sin ninguno, en realidad es el verdadero, te retorna un falso. Bien, y en cuanto al lord, pues el lord es menos estricto, ya es menos estricto porque el lord te devuelve true si al menos.
+Una expresión es verdadera, o sea, con que una sea verdadera ya todo es verdadero, ya, pero obviamente si los 2 son falsos, todo es falso, ya que representaba a lo que usábamos pues en nuestro día a día y el otro que era el no lógico, que era simplemente invertir el valor de un boolean, un boolean o k.
+No hubo un número, no un texto, no un booleano, mis estimados, funciona solamente en boolean, ya o sea, invierte true a false y de false a true. Listo, o k. Dicho esto, también vimos que se podían establecer múltiples condiciones, ayudándonos de la paréntesis, que era que tenía más o menos.
+Similar función, digamos que las matemáticas básicas que conocemos, donde las paréntesis en las ecuaciones se usan para indicarle al pues al problema que primero se tiene que hacer lo del paréntesis, cierto, para hacer lo demás ya igualito acá el paréntesis, si tú encierras a condiciones o unas.
+Condiciones, ya si tú encierras condiciones, lo que estás indicándole a la computadora o al programa es que primero resuelvo lo que está dentro del paréntesis para luego hacerlo lo que está fuera. Esto nos ayuda porque si tú unías más de 3 condiciones ya usando lo que sería los operadores lógicos, pues este la computadora estaba perdida y no sabía cómo resolverlo.
+No, entonces con los paréntesis podíamos agruparlo, como vemos el caso de aquí, muy bien, listo. ¿Qué más? ¿Qué más? Y acá vemos lo más importante del día de la clase pasada, que era implementar las condicionales de mis estimados. Cierto, pasamos de simplemente tener un flujo secuencial en donde se ejecutaba instrucción línea por línea a tener condiciones.
+Ya a que el programa basado en condiciones ejecute un código o el otro, no. Si una condición era verdadera, ejecutaba obviamente el código verdadero. Esto era un if, cierto, el if era si la condición es verdadera, pues ejecuta la instrucción verdadera. ya.
+La sintaxis, bueno, la sintaxis la vimos o k la sintaxis la vimos en el laboratorio también estaba, pero si era falso, si era falso, chicos, ejecutaba el código que era falso y como dábamos ese camino alternativo usando lo que era un else, cierto, el else era el camino alternativo donde nosotros pues este le indicábamos eso como está aquí.
+Cierto, como dice la sintaxis, las líneas que están en el else son las líneas que se van a ejecutar cuando pues la condición que expones en el if no se cumpla. Bien, listo, entonces un if else que es súper este súper usado, súper usado en programación y el if else es totalmente conocido ya y ahora ya pues ustedes también lo.
+Y era el CEIF, chicos, era el CEIF que nos permite ya meter más condiciones de lo normal, ya no solamente 2, sino vamos a meter más muy bien y nada, no. El CEIF nos permite meter más condiciones en caso pues tengamos un problema más complejo que requieren, pues esto no solamente.
+Hay problemas que solo van a necesitar 2, sino que porque necesiten 3, puede que necesiten hasta cuatro. Ya ahora acá hay una cosa, chicos, a tomar en cuenta, por favor, y es este tampoco hay que exagerar como es el 6 porque puede que se arme este un desorden en cuanto a la cantidad de código. que.
+¿Cómo desearlo? Es como si anidas mucho, muchos el SAIF confunden a lo que sería el que lee el código. Ya es muy confuso. Entonces, usar estratégicamente el if es el SAIF, digo, el SAIF. Muy bien, listo. Entonces, ¿qué más? Y pues lo último vemos en la librería MAT, no?
+Perdón, el objeto Mat, que era un objeto, pues que reunía datos, reunía funciones y nosotros este accedíamos a él a través de esta sintaxis usando el punto. Esto recuérdenlo muy bien, chicos, porque hoy día vamos a ver muchos objetos y este esta sintaxis lo vamos a usar de correo. Ya esto lo tienen que.
+Recordar ya de corrido de aquí en adelante en su camino de programador, porque es este el punto el que nos va a permitir usar nombre de función y no solo eso, también este la propiedad que tiene que es una propiedad. Una propiedad simplemente es un dato, chico, un dato.
+¿Que tienes objeto ya la propiedad o la función?
+Pero acá sí me faltó algo, chicos me faltó algo y es que.
+Acá solamente estoy accediendo, pero no lo estoy llamando. Ya vamos a ver justamente hoy funciones y vimos la importancia de los paréntesis. Vimos la importancia de paréntesis porque ya la hemos usado con console log, lo hemos usado con prompt, hemos usado los paréntesis. A ver, hoy día vamos a ver por qué paréntesis, porque hoy día vamos a ver funciones ya listo y pues Matt.
+¿Que era ese objeto que tenía funciones matemáticas? Adentro tiene datos matemáticos, todo matemático ya. ¿Por qué vimos math? Porque teníamos que usar 2 métodos. ¿Qué vamos a usar hoy en nuestro proyecto? El math random para generar números aleatorios entre 0 y uno, y el math floor para redondear decimales.
+¿Al entero más cerca ya estos 2 para qué? Para el objetivo del proyecto que era era, pues adivinar el número era que el programa genere números entre uno al 100 y para hacerlo se va a apoyar de estos 2 métodos que también lo vimos en clase. ¿Cómo generar ese uno a cero?
+Recuerda como lo armamos en clase esto hasta el final, obtener esta ecuación.
+Que es la que pues nos permite generar, obviamente.
+Esta ecuación que nos permite generar es la ecuación que nos permite generar esos números entre 1 y 100.
+Ya nada más que eso y listo, listo, eso es todo lo que vimos.
+Sí.
+Como vio algo, no, ya, y eso es todo lo que vimos, mis estimados. Muy bien, con eso ya en mente ya podemos continuar. ¿Por qué nos quedamos nosotros en dónde está? No abrí mi visual, estoy yo creo, a ver dónde nos quedamos, o sea, el laboratorio. ¿Hasta dónde está hoy? Chicos, vamos a ver.
+Estoy viendo mi visual Studio Cómo me permite un momento, este servicio Studio Cómo pensé que estaba en escalibrado ya la confusión, ya listo.
+Miren B.
+Ya estaba en estudio Visual Studio Code, lo voy a ejecutar listo ya en Visual Studio Code. Bueno, en el laboratorio 10 nos quedamos en retos de condicionales, ¿cierto? El laboratorio 10 era muy cortito y simplemente nos proponían código de condicionales.
+Ya y también estaba el reto de laboratorio que algunos cumplieron, algunos todavía falta que cumplan el reto de laboratorio. Chicos, por favor, ahí les he mandado un mensaje, fíjense ahí en la entrega de su laboratorio número 10. Algunos todavía no han hecho el reto de laboratorio, integrenlo para tener una nota más completa. Ya les he puesto nota, pero para completar más su nota hagan el reto de laboratorio que he mandado también por el WhatsApp.
+¿Dónde? Pues era calcular un descuento basado en la cantidad que comprabas, ya lo tienen que poner en su pues en el laboratorio 10, o sea, le tienen que adicionar y subir el cambio ya para yo poder verlo. Y era eso, no era eso más que nada, y también otros retos no que estaban ya dentro del propio laboratorio que estaban hechos ya en realidad.
+Estaban hechos, pero ya si yo ejecuto esto, obviamente me saca un esto es un alert, no perdón, un prompt donde me pide valores.
+Ya me pide valores. Este era basado en si podía votar o no, qué temperatura hoy. Esto me recomendaba ropa segunda temperatura y esto era el reto. No voy a poner 80.
+Y me daba tu descuento bien, hasta aquí todo va acá, pero acá hay una cosa, chicos, acá hay un problema, ya acá no lo muestro, pero qué pasa a ver.
+Acá, obviamente, la lógica es correcto. Ya no hay ningún problema, no hay ningún error en cuanto al código ni la lógica. Pero aquí pasa algo, estimados, y vayamos al mundo real. Quiero que me digan por el chat.
+Si ustedes, al entrar a alguna página web, han visto un, o sea, han visto una ventana que le salga así. ¿Alguna vez a ustedes les ha salido una ventana, un prompt así o les ha salido un alert ahí dando mensaje? A ver, confirmen chicos, por favor, en la vida real ya en su este.
+A ver, ahí me dice Ander, yo me dice no.
+Ya me dice, no, claro, es justamente ya está viendo el problema, ¿cierto?
+A ver, están viendo, ya creo que ya están notando el problema que es efectivamente.
+Ya que efectivamente es no hemos visto una alert, no en nuestra vida real, en alguna página no sale un alert, no te sale un prompt y te pide datos. Así no funciona en la vida real. Ya ese es el problema que nosotros tenemos ahora porque no vamos a hacer páginas, obviamente con eso no, pero.
+¿Por qué lo vimos justamente para ver la importancia de pedir datos, de mostrar información? Ya en eso nos ayudó prompt y alert. Ya esa es la misión que tuvo hasta aquí, ya herramientas, digamos, de nuevos desarrolladores que les permite conocer.
+El cómo pedir datos, el cómo es cómo interactuar ya, pero en la vida real no se pide así, sino. ¿Qué se usa? Pues se usa la misma interfaz, mis estimados, la misma interfaz que tiene el este.
+La misma interfaz que Tinac, cómo les ya, pero creo que eso sí lo saben ya. O sea, sí sabemos que nos piden, por ejemplo, si acá yo doy.
+También añadir otra cuenta. Vean, aquí no me está saliendo un alert o un chrome para poner mi correo, cierto, me está saliendo un input donde me dice, hey, pon tu correo aquí y tú sabes eso que tienes que poner tu correo aquí y también digamos tu contraseña o esto no.
+Etcétera, ya entonces vamos a usar la propia interfaz, vamos a usar la interfaz. ¿Qué es pues lo más profesional?
+Bien, qué más, qué más, qué más, qué más. Ahora, chicos, ¿cuál es esa interfaz? En realidad está en el laboratorio, lo que lo acabo de subir ya sí, dónde está, pero se los voy a mostrar por aquí, chicos. Esta es la interfaz que nos brinda el laboratorio para lo que sería el proyecto de.
+Adivinar el número. Muy bien, es el proyecto adivinar el número que ya pues era una lógica muy sencilla de entender. El nombre mismo lo dice el adivinar el número. ¿Qué es esto de aquí? ¿Cómo lo visualizamos? Ya estamos plasmando este proyecto que está aquí, lo estamos plasmando aquí.
+Ya aquí está, adivina el número, te da un mensaje, estoy pensando en un número de uno al 100. Aquí está el input, esa cajita donde tú vas a escribir tu número, vas a darle a adivinar. Actualmente no tiene ninguna funcionalidad. Ya te va a salir un bueno, este mensaje va a adaptarse ya.
+Y te va a dar pues otros datos.
+Otros datos este para ayuda visual y también para informar al usuario, ya esa es la interfaz que nosotros vamos a manejar.
+Muy bien, entonces bien, chicos, a ver, entonces vamos a empezar porque, chicos, el la pregunta es la siguiente: a ver, vamos a crear el center más. Primero quiero que vean su laboratorio si ya está subido, por favor, fíjense si ya pueden ver el laboratorio.
+El laboratorio lo pueden visualizar.
+Irman, por favor, para empezar ya con.
+Con todo, a ver, laboratorio número 11. Carlos dice sí, a ver los demás 3 checks y ya confirmamos que efectivamente el laboratorio se ve.
+Ya me dice, sí, muy bien, muy bien, chicos, entonces vamos a empezar.
+Ya no.
+Mhm.
+You see.
+Ok, chicos, voy a presentar, voy a bajar un rato este esto aquí.
+Ya esto lo voy a cerrar porque ya vimos la casa que es muy bien, entonces primero primero, chicos, antes de empezar ya habíamos visto.
+Hay algo que tenemos que mencionar que no mencioné respecto a la clase anterior. La primera fue en la clase anterior vimos un definite, cierto, un di perdón, no sé cómo pronunciar esto, un definite. Ya vamos a pronunciar como suena ya un definite que era un tipo de dato, o sea, este es un tipo de dato así como number. como.
+Texto ya, pero había algo en particular, cierto que nosotros no podemos asignarle un definit a una variable cuando aparecía aparecía cuando usábamos una variable que estaba vacía. Correcto, a ver, esto lo voy a comentar, ya voy a trabajar aquí mismo.
+Vamos, ya veamos aquí ya leat número y miren, voy a hacer esto a propósito, voy a.
+Esto acá, listo, ya acá ya me dice que es un definir, pero si yo me voy aquí.
+Hm, ya.
+Listo, vamos a reiniciar y ya obviamente me da que es un definite muy bien, un definite. ¿Qué significa ausencia de valor en la variable? Eso es lo que significa porque la variable está vacía, no tiene nada, pero hay otra forma, chicos, de establecer ausencia de valor en la variable, y esa es null ya.
+Null, chicos, no es un tipo de dato null que es null es un valor ya.
+Es un valor, o sea, nosotros se lo podemos a este valor. Obviamente, como cualquier valor, 56, un texto o el dato son valores, se lo podemos sí asignar a una variable, ya valor que se lo podemos poner a una variable. ¿Por qué? ¿Por qué poner null a una variable? Porque.
+Queremos indicar ausencia de valor, como te comenté, ya queremos comentar, perdón, queremos indicar ausencia de valor en la variable. Entonces ambos definen ausencia de valor, pero hay una diferencia acá, mis estimados, y la diferencia es esto, la in.
+Tencio Nahli.
+O sea, la intención hay que llamarle allá, porque con nosotros intencionalmente le damos ausencia de valor, mientras que con un defini no.
+Acá no hay intencionalidad, no, porque es un definite. Recuerden primero que nosotros no le podemos dar el tipo, este no le podemos dar un definite a una variable ya, mientras que, por ejemplo, aquí a null a números sí le podemos dar null, chicos.
+Miren este tipo de valor, si le podemos dar, vamos a ver qué imprime. a ver.
+A ver, es que acá le borré un este.
+Ya ahora sí, vean, me está imprimiendo efectivamente null. Yo le dije, yo le estoy diciendo, le estoy diciendo a mi programa que esa variable está vacía.
+Esa variable está vacía. ¿Por qué hacer esto? Bueno, va a haber ahorita, no sé si se va a ver, ya vamos a ver, por ejemplo, hay un caso donde si yo.
+Miren, si yo.
+Le pido un número, ya ingresa un número.
+Compró, vean, ya obviamente me dice, vamos a.
+Vamos a reiniciar aquí, ya me dice ingreso un número. Vean qué pasa cuando yo le doy a cancelar. Cuando le doy a aceptar me da, no me da nada, ya me da un string vacío, pero si yo le doy a cancelar.
+Me parece null. ¿Qué es lo que pasó? Lo que pasó es que el prompt al darle tuvo cancelar automáticamente. Bien, automáticamente lo que pasó es que el número se hace, se o sea, le dio un null a número, ya por eso es que muestra null número. Ahora esto tú lo puedes controlar.
+Sin número, por ejemplo, es igual.
+Annul.
+Vamos a poner acá.
+Consol punto log, ya que esto es, por ejemplo, unas, ahí está el usuario canceló la entrada, ya canceló la entrada y vamos a ver, chicos, vamos a ver, miren, si yo cancelo la entrada, me va a pasar esto.
+Yeah, easy no.
+Obviamente, si no lo cancelé, entonces vamos a poner acá un.
+Gracias, el mismo este.
+El mismo agente de codificación me está, me está, cómo se llama, dando alternativas de código ya entonces para facilitarlo, ya listo, vean, ingreso un número, le doy a cancelar.
+Vean lo que pasó, el usuario canceló la entrada. Eso es justamente, estimados, la función del null, el null. Obviamente, este el número se ha asignado con un valor null porque le he dado cancelar la entrada, pero nos permite tratarlo como un valor más. ¿Lo ven? Acá lo estoy tratando como un valor más.
+Como un valor, por ejemplo, es como poner acá igual a 5, no lo ves, es igual a 5.
+Entonces acá yo puse null para tratarlo como un valor más. Por eso me dice este el usuario, por eso se ejecutó esto. En cambio, sí, yo sí ingreso un número, ahora sí, pues no es null y se ejecuta eso. Muy bien, eso es el valor de un chicos, tratarlo como un valor.
+Ya trátenlo como un valor. Va a aparecer null hoy día en el laboratorio porque va a haber ocasiones donde va a haber situaciones donde, por ejemplo, tú haces llamadas a, por ejemplo, pides datos, pero no te dan ningún valor y como no te dan ningún valor.
+Usualmente es null, la variable se acumula con null. Entonces tú para cómo decirlo para para pasarlo como un proceso de diagnóstico, lo tratas así, lo tratas con un if donde lo igualas a null para decir.
+Por si acaso no, número es igual a, por ejemplo, yo estoy tratando esto para que no muestres directamente esto, mira.
+¿Qué pasa si tú solamente muestras esto de aquí?
+Como pensando o k suponiendo, no como tú estuvieras suponiendo de que el usuario sí o sí va a ingresar el número y tú estás mostrando este mensaje en tu página web, pero tú no sabes que puede hacer el usuario. Tienes que como programadores, mis estimados, tenemos que tomar las este.
+Como que la probabilidad, la peor probabilidad ya porque errores pueden haber. Entonces tenemos que manejar las diversas situaciones. No solamente tenemos que suponer que el usuario va a hacer lo correcto, sino que el usuario se puede desviar y decir, okey, ¿qué pasa si le pongo a cancelar?
+Ya a verdad, aquí no se actualizó. ya ¿Qué pasa si lo voy a cancelar? Vean aquí, obviamente, este tú suponiendo estás mostrando suponiendo que el usuario iba a ingresar un valor, pero pone null. ¿Qué tal si tú, por ejemplo, haces lo siguiente? A ver.
+Pensando que el usuario puso un número, haces esto, le sumas ese número.
+Más 5 ya vamos a ver cómo lo trata.
+A ver, vamos a darle a cancelar.
+Listo, vamos a ver cómo lo trotearon.
+Ya ves, aquí por lo que veo le ha sumado null más 5 y te ha dado 5, o sea, no ha hecho nada. Ya no te ha arrojado un error gracias a Dios, pero pasa que si tú no manejas el null, mi estimado, si tu código es lo suficientemente grande, sí te puede dar un error, o sea, en alguna de esas operaciones.
+Sí puede, cómo decirlo, el null puede chocar con algo. Acá no ha dado un error. Vemos que ha manejado el null con 5, pero aquí la intención que quería hacerles ver es que manejen las diversas situaciones. Ya trátenlo con un valor y diagnostíquenlo.
+Bien o K chicos, entonces, dicho esto, ya vemos el valor del NUR, que es un valor que lo van a ver muy seguido. Ahora sí podemos pasar a lo que sería pues nuestro laboratorio. Bueno, vamos a pasar a otro concepto clave.
+Y el concepto es, de hecho, ya lo conocemos. O sea, ya hemos visto funciones porque ya hemos visto consolog, hemos visto prompt, cierto, hemos visto consolog, hemos visto prompt, que son funciones y mencionamos que eran las funciones. Cierto, que era una función, que era una función. A ver, chicos.
+Me hacen acordar qué era una función para ustedes. ¿Cómo ven ustedes a una función ya que ya han usado algunos? Quisiera que ustedes con sus propias palabras.
+Me comenten, a ver.
+¿Qué les viene un conjunto de pasos? Muy bien, April, un conjunto de pasos exactamente exacto, no una función también era una instrucción.
+Ya, pero ahí falta la palabra, una palabra clave.
+Falta agregarle un poco más, a ver qué le podemos adicionar.
+A ver, hay más.
+Una función, chicos. ¿Qué es una función? A ver.
+Estimados conjunto de espacios.
+¿Qué pasó?
+Uy, uy, uy, chu, chuy.
+Chicos, recuerden la participación es importante.
+Función.
+Función.
+Ya vamos a tomar el concepto de April. Bien, April, gracias que es un conjunto de pasos. Efectivamente, es un conjunto de pasos ya.
+Es un conjunto de pasos, pero más específicamente, pero es un conjunto de pasos reutilizable ya reutilizable para realizar una tarea en específico. Ya las funciones tienen, pues funciones vienen de funcionalidad.
+Ya una funcionalidad es este, está centrado en, por ejemplo, no la funcionalidad de la cafetera. ¿Cuál es hacer café? ¿Cuál es la funcionalidad de la cocina? Pues cocinar nuestros alimentos, no, la funcionalidad de la refrigeradora es mantener fresca nuestras pues nuestros alimentos.
+¿Lo ven entonces? Una función tiene una tarea en específico. Ya toda función, casi todas, la mayoría reciben datos ya y van a usar estos datos para pues realizar esa tarea en específico y te van a dar un resultado. Ya lo comparamos, por ejemplo, con una máquina expendedora.
+¿Dónde? Pues aquí, por ejemplo, vamos a suponer no que el dato es tu dinero, no tú le das tu dinero y también la indicación.
+Indicación de lo que quieres.
+De lo que quieres, ya le das la indicación de lo que quieres y cuál sería la salida. Pues la salida sería este la golosina, no hay que llamarle o pues el bocadito, ya la golosina o bocadito, ven, sería igual que una máquina expendedora adentro, dentro de este de la función.
+Hay conjunto de pasos o líneas de código o hay líneas de código, pero la una de las importancias es justamente que es reutilizable, mis estimados, ya es reutilizable, por ejemplo.
+Vamos acá.
+Ya, por ejemplo, si yo aquí vamos a borrar esto ya y vamos a hacer esto. ¿Qué pasa si estos de aquí ya esto de aquí? Yo lo quiero repetir como 3 veces, mis estimados, lo quiero repetir 3 veces. ya ¿Qué es lo que se me ocurre? Bueno, tengo que hacer esto. Bueno, aquí ya no puedes ejecutar otra vez, otra vez crear número porque ya se creó y esto no.
+Tenemos que hacer esto para que pues 3 veces se ejecute ese mismo paso, no pedirle 3 veces, 14.
+Revisar.
+13 otra vez, 121311. Ya ven para que se repita ese mismo proceso. La función nos permite reutilizar. Ya no tenemos que crear múltiples líneas de código, sino que esto.
+Que está aquí, lo metemos dentro de.
+Pues de un bloque.
+Lo metemos dentro de un bloque llamado función de un bloque función y este bloque que tiene estas líneas de código que el cuál es cuál es su objetivo. Su objetivo es este pedir un número y mostrarlo en consola. Ven, esa es su funcionalidad, es o la tarea en específica que tiene esta función.
+Y ahora yo voy a poder llamar a esta función que comentamos también comentamos.
+Que las funciones las podemos crear nosotros o hay funciones que existen y solo las usamos. Ya estas pues ya las probamos, ahí está consolelog y prompt. Pero chicos, hoy nos vamos a enfocar en crear nuestras propias funciones. Ya esto es muy importante porque nos va a permitir ahorrar muchas líneas de código.
+Ya no vamos a hacer esto, sino que con uno simplemente basta ya con uno, simplemente. Entonces, ¿cómo lo creamos? ¿Cómo hacemos este proceso?
+Hay 2 fases similares a la creación de una variable. En realidad, ya hay 2 fases similares a la creación de una variable. Vamos a ponerle el aquí. La primera es, pues, la creación de la función, ya que el mismo nombre lo dice, ahí creas la función y la segunda es lo que nosotros llamamos.
+Invocación.
+O llamada de la función. ¿Qué es lo que pasa aquí? Pues simplemente se usa la función, ya lo hemos hecho, lo hemos hecho cuando hemos llamado, por ejemplo, a console log. Vean, aquí hemos llamado a la función console log o la hemos invocado, así se define programación, invocar o llamar ya.
+O sea, como Yu-Gi-Oh, donde se invoca un monstruo y para que para que lo uses para que ataque. Ya así acá invoca la función, le das tus datos, mira, le has dado datos aquí adentro y la función ha hecho su trabajo, que es.
+Mostrar en consola, esa es su chamba de esta función que está aquí del ojo. Muy bien, listo. Entonces, explicado las 2 fases, vamos a ver cómo cuál es la sintaxis de creación de una función con esto de aquí. ¿Cómo se crea una función? Bien, aquí aparece un término clave.
+Ya un término clave que es function, súper sencillo, estimados, súper sencillo, porque function es pues función en inglés, nada más que eso ya empieza con function. Luego te sigue el nombre de la función. ¿Qué nombre le vas a dar tú alguna función con una variable?
+Este nombre de función, mis estimados, es el identificador de la función. Ya cuando tú lo vas a llamar, vas a llamarle con este nombre. Así que este nombre tiene que representar lo que va a ser tu función. Si tu función se llama, no sé, mostrar en consola, entonces pones así. Bueno, mejor después, porque si no lo voy a confundir ya.
+Vamos a abrir paréntesis, paréntesis. ¿Qué pasa aquí? Lo que vas a dar tú son parámetros, ahorita vamos a ver qué es parámetros, pero ojo, ojo, esto es opcional, ya los parámetros son opcionales, ahorita los explico, pero adentro voy a poner parámetros. ¿Qué es los datos que va a manejar? Pues la función.
+¿Qué sigue? Y lo último que va a pasar es igual que el if. Ya tenemos que encerrar las líneas de código, pues que tiene esa función, cierto. ¿Cómo se encierra en programación? Se encierra la mayoría de if creando un bloque. ¿Cómo se crea un bloque de función o un paréntesis? Vean igual que el if.
+Ya donde el if también tenía que abrir y cerrar así sus llaves para encerrar su código adentro. Ya el nombre, la función hace lo mismo, abre y cierra sus este, sus llaves, su cuerpo, hay que llamarlas, así se la llama en realidad, se le llama el cuerpo de la función.
+Porque aquí están las líneas, líneas de código.
+¿Que se van a ejecutar? ¿Cuándo, cuándo, qué? Cuando invocas a la función, cuando tú invocas a la función, automáticamente se va a ejecutar todo lo que está aquí adentro.
+Bien, okey, listo. Entonces esa es la sintaxis, pero hay que mencionar algo muy importante que tal vez a algunos les está duda, porque líneas de códigos es como las líneas que tú creas aquí. Ya es como si tú agarraras esto de aquí y lo pegaras aquí, nada más que eso, ya nada más que eso.
+Pero lo que confunde, chicos, es parámetros. ¿Qué son los parámetros? A ver, mencioné que las funciones reciben datos, cierto, y que con esos datos va a trabajar. Ahora estos datos son opcionales, ya los parámetros, los parámetros, mis estimados.
+Son variables, en realidad son variables que almacenan.
+Dato, ya tú le vas a dar datos a la función al llamarla, por ejemplo, console.log, donde tú le has dado esto, pero esto a dónde va a ir, va a ir al parámetro. El parámetro es una variable que va a almacenar tu dato.
+Ya es una variable que va a almacenar tu dato, por eso se dice que son variables en realidad que almacenan los datos, pues los datos.
+¿Qué tú le pasaste ya que tú le pasaste? Pues a la función más específico. ¿Para qué? Para que los use dentro.
+De la función o dentro, pues x dentro de la función, ya así esos son los parámetros.
+Esos son los parámetros sencillamente, mis estimados, ya vamos a hacer, vamos a crear una función aquí en vivo para que lo puedan ver.
+Se crea función, ahí ya nos este.
+El visual Studio Cove ya nos propone eso, función y acá voy a poner una función súper sencilla, ya una función de saludar. Voy a abrir esto y voy a cerrar. Chicos, acá voy a crear una función.
+Sin parámetros, por eso te dije que los datos son opcionales, pero te voy a ser sincero, casi la mayoría de funciones que vamos a crear van a necesitar datos, ya van a necesitar parámetros, pero yo te estoy creando aquí una función con sin parámetros para que veas de ejemplo que este no necesitas poner nada, simplemente un.
+Paréntesis vacío ya y aquí, por ejemplo, vemos que la función console.log lo que va a hacer es hola, bienvenido al curso JavaScript, nada más ya vea, nada más, ya acabo de ejecutar lo que sería la función. Muy bien, ejecutaste la este, perdón, creaste la función.
+¿Pero ahora qué es lo que falta hacer?
+Falta usarlo, cierto, porque ya creamos la función, pero falta invocarlo. ¿Cómo se invoca?
+Pues esto creo que ya ni ni debería mencionarlo, porque ya vimos cómo se invoca, chicos, sí, ya lo vimos porque ya hemos invocado funciones.
+¿Cómo se invocaba así? Cierto, invocas usando el nombre de la función adentro, abres este, pues abres paréntesis, ya abres paréntesis para invocarlo y adentro tú le pasas lo que son argumentos o datos, ya, pero en información se le llaman argumentos. Hay que usar el término correcto.
+¿Argumentos ya argumentos, qué son los argumentos?
+A ver qué son los argumentos, los argumentos son datos, pues nada más que son datos, ya son datos, pero más específicamente vamos a poner acá, son valores, chicos, ya estamos hablando aquí de valores, ya valores 56, este hola.
+¿Tú lo ves? Valores de variables, eso simplemente son los argumentos. Tú le estás pasando los datos o valores. ¿Cómo le pasaste al console of aquí? ¿Lo ves aquí? ¿Qué le pasaste? Una cadena de texto, esto es una cadena de texto. ¿Lo ves? Pudiste haberle pasado un número, ahí está un número.
+Ya entonces aquí vamos a poner saludar, pero ¿qué pasa aquí? A ver.
+Chicos, ¿qué pasa aquí?
+A ver, acá quiero hacer una pregunta, acá yo estoy invocando, chicos. ¿Debería poner valores aquí dentro de la paréntesis, dentro del paréntesis para invocar a esta función saludar?
+¿Debo o no debo poner paréntesis aquí?
+A ver qué me dicen ustedes.
+Estoy aquí creando la función saludar, estoy poniendo aquí, la estoy invocando y vean que al invocarle, que es lo que digo.
+Estos argumentos que están aquí, argumentos o datos, les se les tiene que dar ya, pero aquí se los tengo que dar o no.
+Kevin dice, sí, a ver quién me dice.
+Carlos me dice que no, a ver.
+O K, estimamos, la respuesta sería.
+¿No? ¿Por qué no darle datos aquí, chicos? Porque la función saludar no tiene parámetros. Ya la función saludar no tiene parámetros, o sea, no te pide datos.
+La función saludar aquí no te está pidiendo ningún dato porque aquí está vacío.
+¿Lo ves? Una función sin parámetros no pide datos, o sea, no pide valores, no los necesita. Por eso es que está vacío. Entonces, por eso no es necesario escribir un dato.
+Ya miren como al momento yo de entrar nomás aquí.
+Voy a poner este es 12, ay, pero este voy a este es del anterior, voy a reiniciarlo.
+Ya sí, ya voy a escribir esto ya y, por ejemplo, miren, se ejecutó la función que está dentro de aquí, la función saludar sin ningún problema, ¿lo ven?
+Aquí está la función que tenía que ejecutar esta línea de código cuando se le llame, aquí lo llamé y sin problema me mostró en consola. Hola, bienvenido al curso JavaScript, lo ven o k aquí la regla es la siguiente, chicos, la regla es la siguiente.
+Sí, hay parámetros.
+Si hay parámetros, hay datos. O sea, perdón, si hay parámetros, debo mandar los datos. Ya ahora la asignación, es decir, la asignación que se le da de los datos es de uno a uno. ¿Cómo de uno a uno? Claro, es así, chicos, si tú le mandas.
+Si tú le pides, a ver, vamos a evolucionar esta función, saludar a, por ejemplo, una función.
+Calcular este producto, ya vamos a ver cómo se ve esto.
+Ven aquí ya voy a definir 2 variables, una variable, no sé, número uno y la otra variable número 2. ¿Por qué? Porque las voy a usar acá adentro, vean aquí.
+Le voy a poner acá con sol punto log y aquí voy a mostrar.
+Ahí está esto acá, muchas gracias. Miren, aquí está el consuelo. El producto de número uno y número 2 es esto. Ya aquí yo le he pedido 2 datos, entonces la asignación es de uno a uno. ¿Cómo decirlo así? A ver, hay que hay que presentarlo mejor, o sea.
+Debes.
+La cantidad de datos que mandes debe ser igual.
+A la cantidad de datos de perdón.
+De parámetros.
+Que tiene la función ya, es decir, si la función te pide 2 datos, es el número uno y número 2, pues tú al invocarlo tú tienes que pasarle esos 2.
+Tienes que pasarle esos 2, tú no puedes invocarlo vacío, miren, vamos a invocarlo vacío, vamos a comentar esto aquí.
+¿Qué me estás probando ya?
+¿Miren y vean como al pasarle vacío, qué es lo que pasa?
+Miren, ejecuté esta función calcular producto que es para calcular una multiplicación de estos 2 números. Yo le estoy pidiendo, le estoy pidiendo usando el paréntesis, pero no le he dado ningún valor. Entonces, como tú no le has dado ningún valor, ¿qué es lo que pasa al momento de ejecutar?
+Ni este ni este reciben ningún valor, o sea, no hay valor.
+Ya no hay valor. Como no hay valor, recuerdan el undefinite, el undefinite que permite que justamente usar variables que no tienen valor. Entonces eso es lo que está mostrando en consola. Miren, vean el producto de undefinite y undefinite.
+Es nan, que es, pues obviamente nan es no se puede calcular porque un definite más un definite no existe, pues ya no es algo numérico. También hemos visto nan. ¿Lo ven? Entonces lo que tienen que hacer es poner la cantidad de valores que les pide la función, que en este caso, digamos, es cuatro.
+Y siguiente cualquier número, ya voy a poner cuatro y 7 y ahora vean que vean que sí, obviamente ya eso es lo que pide la función, lo que ha hecho, perdón, lo que ha ejecutado la función. El producto es cuatro y 7 es 28 ya y así puedo calcular cuantas veces quiera con diferentes números.
+¿Puedo usar 6 y 5 a sí, verdad? Algo que me olvidé, chicos, los parámetros para separar parámetros usamos la coma. Ya acá sí me olvidé, me olvidé esto.
+Ya vamos a poner acá mejor así parámetro uno coma.
+Si vas a poner más de más de un parámetro, tienes que usar la coma para separar. Igual ya vamos a poner puntos seguidos para que se note igual en los argumentos, ya en los argumentos, si tú vas a pasar varios, tienes que usar la coma.
+Vamos a poner en lugar de argumentos valores ya para que ustedes lo puedan entender, valor uno, valor 2, valor 3, etcétera, las que te pidan. Por eso es que dice que la asignación es de uno a uno.
+Bien, entonces eso es lo que pasa.
+Cuando haces esto, ahora sí, este cuatro en el orden en el que está se asigna al número uno y este 7 en el orden se asigna al siguiente, lo ven, y esos como son variables, estas almacenan esos valores cuatro y 7 y que se calcula acá dentro de la función.
+Lo mismo con 6 y 76 asigna número uno y 7 se asigna número 2, el orden en el que pongas.
+Importante, el orden en el que importas, el orden en el que pongas los valores importa.
+Ya importa el horno.
+Importa mucho el orden, acá no se nota porque es un producto, pero digamos si es unas no sé una resta, una resta sí importa el orden, cierto, quién es mayor y quién es menor.
+Muy bien y en otras operaciones importa el orden y cómo lo mandes, se asigna de uno a uno.
+Muy bien, ok, chicos, a ver, se entendió eso.
+Un ejemplo más, coménteme, por favor.
+A ver, Carlos, gracias, sí se entendió, me dice un ejemplo más ya.
+Okey.
+Ya que no te preocupes, vamos a ver un ejemplo más, vamos a darle a esta función que pues miren a esta función de saludar.
+Ya esta función no tiene parámetros, pero vamos a crear un saludar con parámetros, es decir, vamos a crear una función con parámetros de saludar. ¿Qué pasa si yo si le pongo un saludar parámetros? Ya saludar, acá vamos a poner un saludar 2 ya.
+Pero aquí sí voy a poner un parámetro que es te voy a pedir tu nombre porque quiero saludar a alguien con nombre. Entonces voy a poner hola, pero aquí voy a.
+Cerrar esto aquí.
+Yeah.
+Hola.
+Vamos a poner solo un nombre ya.
+No, este o k, ¿qué es lo que hemos hecho acá, chicos? A ver lo que hice acá, a diferencia del saludar, que no pidió un parámetro, ya no pidió acá arriba un valor y yo lo invoqué simplemente.
+Yo lo invoqué por sin valor porque no pide nada, o sea, no hay donde asignarse, pues no hay una variable aquí al invocarlo, sí necesito dar un valor. ¿Por qué? Porque ese valor es lo que voy a usar aquí.
+Ya dentro de la función usamos esos datos que le damos. Por ejemplo, voy a llamar a saludar 2, pero ahora no puedo llamarlo así simplemente porque aquí, a diferencia de este saludar que está aquí y no me pide parámetros, no me pide datos. Vean, el paréntesis está vacío.
+Aquí sí me lo pide, aquí sí hay un nombre. Este nombre es lo que nosotros nos pide, nos pide este saludar 2 y es lo que nosotros tenemos que darle para que se use dentro de la función.
+¿Ya qué nombre cualquiera? Vamos a poner, por ejemplo, ya Kevin.
+Aquí lo que estoy haciendo, estoy ejecutando el saludar 2 con tu nombre, o sea, estoy pasándole Kevin a tu nombre, o sea, este es el valor. El valor es Kevin y la variable es nombre. Se está guardando como si estuviera pasando esto, mira Kevin, como si estuviera pasando dentro de la este. ¿Cómo se llama?
+Dentro de la función estuviera pasando esto, esto es como si estuviera pasando esto de aquí, o k esta variable nombre le estás asignando Kevin, ya es eso como si estuviera pasando aquí.
+Muy bien, y luego pues está usando este como consola, es ese es el relativo o el similar. Ese es está por detrás, está pasando esto.
+Por eso lo puse ahí.
+Ya voy a ponerlo acá, pero lo voy a comentar para qué.
+Se nota, ya lo voy a comentar para que no afecte el correo. Entonces, es eso lo que está pasando por detrás que se está asignando el nombre y se está usando.
+Bien, ok, entonces hasta ahí se puede entender que ven eso.
+Sí, exacto, debe tener el parámetro si no lo tiene, entonces si no lo tiene, como dice saludar acá, obviamente no, pues no le damos nada, pues porque no me está pidiendo nada. No tiene caso que darle un valor si no me pide nada ya. Y una cosa más, sí tienes que poner darle la cantidad de parámetros que pide.
+Acá está pidiendo 2, acá solo está pidiendo uno.
+Ya vamos a ver qué pasa si pongo otro, ya voy a poner María, vamos a probar en vivo si me da un error o no, mira estoy pongando 2.
+Voy a ver acá.
+Ya no hay ningún error, no me sale ningún error, acá lo voy a poner este.
+Pero obviamente no está usando el María, pues a quién se le va a asignar si no hay alguien que lo capture.
+Ya nombre captura Kevin, pero María, que no hay, no hay nada, pues no hay ninguna variable que lo capture. Entonces va a quedar al aire. Ya lo ven, entonces por eso es que se asigna de uno a uno.
+Bien, listo, o k, entonces sí se puede entender las funciones, vamos a integrar algo más a las funciones porque nos falta un componente importante.
+¿Qué nos falta al momento de hablar de funciones, chicos? Mencionamos que nos da un resultado, cierto, un resultado.
+Ya, pero hasta aquí en las funciones que hemos hecho no nos ha dado un resultado, no nos arroja. Lo que ha hecho es adentro, ha hecho algo, pero usualmente las funciones se usan para retornarte algo. Por ejemplo, Por ejemplo, prompt prompt es una función que te retorna algo, cierto o no recuerdan pro.
+Claro, miren, aquí está.
+¿No te retorna acaso lo que tú escribes?
+Vean, prompt no imprime en consola, prompt, tú escribes algo y se y te retorna algo. ¿Y tú qué haces con eso? Pues lo guardas en una variable, cierto, ahí está retornar esa palabra, retornar. Eso es lo que tenemos que darle a nuestra función. ¿Cómo se lo damos? ¿Cómo le damos esa capacidad de que me devuelva un resultado que ha calculado dentro de la función?
+Ahí entra un nuevo término, más estimado, entra return ya return, que es otra palabra clave.
+¿Qué es lo que hace return? Ya debería estar en minúscula.
+Return es la palabra clave que vamos a usar para.
+Vamos a poner acá uno.
+Devolver.
+Un valor.
+Este a ver, le va a dar la capacidad, le va a dar la capacidad a la función de retornar un valor.
+Ya un valor que nosotros podemos guardar. Esto ya lo sabemos dónde se guardan los valores, una variable.
+¿O K, para qué? Para usarlo después, ya para usarlo después, pero eso ya respecto a eso, entonces el returno nos permite eso, la capacidad, dar a esa capacidad a la función de poder retornar un valor.
+¿Dónde va el return, chicos? El return es súper sencillo, ya el return va dentro de la función.
+Ya el return va dentro de la función, pero el return, mira, es así, la sintaxis es así, chicos, ya la misma función va acá, el return va dentro de la función y este ponemos return y espacio y acá ponemos el valor que queremos retornar. Por ejemplo, queremos retornar un 5.
+Que se calculó ahí, se retorna un 5 o queremos calcular un número 2, que es una variable que se calculó dentro de la función se retorna así. Ya esto es return valor retornado, valor a retornar.
+Ya es así la ahora la posición donde va, chicos, acá pasan 2 cosas y es mejor explicarlo con práctica, porque no hay una posición específica para returno. Usualmente se coloca al final por una razón, ya ahorita te explico la razón, pero vamos a verlo en acción.
+¿Vamos a verlo en acción, qué pasa si en lugar?
+De a ver si en lugar de aquí calcular al producto, en lugar de que me muestre por consola, me retorna ese producto, es decir, esto.
+Aquí miren, voy a poner return así en minúscula todo.
+Y listo.
+Ahí está, es así de fácil. Miren, el return aquí lo que está haciendo es retornando un producto. ¿Qué es lo que pasa aquí? Primero se calcula esto de aquí, o sea, el producto de ambos, y luego la función, una vez tenga la respuesta, lo retorna cuando se le llama.
+Vamos a poner acá calcular productos.
+Ya 5 y 10, lo estoy llamando.
+Pero obviamente no estoy, pues no lo estoy guardando bien, vamos a poner acá, vamos a poner aquí la variable producto, la variable producto que está guardando eso que me está retornando.
+Y lo voy a imprimir por consola.
+Ya está, vamos a usar esto aquí, el producto de.
+El producto es.
+Y.
+Esto lo borro, esto aquí ya el producto es, voy a mostrar esto bien, okay, vamos a ejecutar eso, vamos a eliminar también ya estas funciones para no confundir solo esto.
+Me voy aquí.
+Mira, el producto es 50.
+Y efectivamente es 50 porque proceso uno, llamé a la función, ya invoqué calcular producto, se asignó este 5 aquí y se asignó el 10 en el siguiente variable. Bien, bacán, ¿qué pasó? Se ejecuta la función calcular producto con esos 2 números, 5.
+Y 10 ya 5 y 10, número uno es 5, número 2 es 10, hizo el producto, le salió 50. Siguiente paso, vio que es un return y como return entonces devuelvo este valor a la función. ¿A quién le devuelve? ¿A quién le asignamos?
+O sea, la variable producto, no, porque acá vemos que hay un igual y la variable producto almacena ese 50, que es justamente lo que muestra al momento de yo imprimirlo por consola.
+Bien, eso es lo que muestra el momento de imprimirlo por consola, mis estimados, es ese el proceso que vimos ahí.
+Ya ese es el return que pues está ahí, así de así de sencillo, o sea, el return ahí. Ahora quiero aclarar algo, ¿qué más hace el return? Porque tiene una segunda función y esto ya es referente a este es referente, tiene una segunda función.
+Que esto ya este justamente como a ver esta segunda función o esta segunda utilidad.
+Es la principal es esto, ya en realidad ambos van a pasar a la vez, ya, pero esta segunda utilidad define la ubicación.
+La ubicación de return. ¿Por qué ya chicos? ¿Por qué define la ubicación de return? Por lo siguiente, esta segunda habilidad hay que llamarle la de return es.
+Detiene la ejecución de la función, detiene la ejecución. ¿Cómo es que detiene la ejecución? A ver, detiene la ejecución de la función cuando te llega a return.
+Detiene la ejecución de la función cuando se llega a retorno. Ejemplo, ejemplo, mis estimados, miren, miren, miren, en este mismo este, en esta misma función yo lo retorné. Miren qué pasa cuando yo abajo voy a poner una consol.
+Y voy a poner acá el mensaje después de return.
+Ya en realidad, miren, no está, ni siquiera se muestra el color. ¿Por qué? Por lo siguiente, mire, justamente acá esta mención resalta y voy a poner varios. Ya voy a poner otra cosa, no sé este después.
+Hola, no sé, hola debajo de lectura, van a ver incluso por qué no se muestra color ya por una razón. Chicos, miren, le voy a mandar ese mismo y creo que vean lo que dijimos era lo siguiente: no que una función al momento de llamarlo al momento, al momento de llamarlo una función.
+Las líneas de código que están aquí se ejecutaban, cierto, se ejecutaban o k aquí. ¿Cuáles son las líneas? Es esta, es esta, es esta ya, pero pasa algo con retur y es justamente esa segunda funcionalidad.
+Vamos a verlo en la ya lo ejecuté, vamos a ver cómo este voy a reiniciar y vean lo que pasó. Vean cómo a pesar de que yo puse 2 console log para mostrar estos mensajes, no me aparecieron.
+¿Por qué no me aparecieron por justamente esto de aquí?
+Porque detiene la ejecución de la función. Ya pasa lo siguiente, vamos a explicarlo más claro. ¿Qué ha pasado, profesor? ¿Por qué no se mostró? Por lo siguiente, ya invoqué la función bacán, le di a número uno y número 2, 5 y 10. Bien, ejecuto esta línea.
+Ya es secuencial, es secuencial. Recuerden, ejecuto línea por línea, primero ejecuto número uno y número 2, multiplico, me sale 50, ya hasta ahí todo bien, ya lo sabíamos, retorno, retorno, se guarda en el producto, pero aquí está el cambio. ¿Qué pasó cuando yo retorno en realidad?
+Termina la función, chicos, ya return lo que hace es termina la función.
+Eso es el la segunda funcionalidad de return. Lo termina en consecuencia, las siguientes líneas que están debajo de return, el return que se ha ejecutado, no se van a ejecutar, no se van a ejecutar para nada porque ya lo terminó, ya no es necesario.
+Entonces, por eso es que no ha mostrado el consuelo.
+Ya vamos a decirle, acá termina la función en consecuencia las líneas debajo del return ejecutado no se ejecuta, no se del.
+Return del return, cómo llamarlo porque hay varios returns chicos ya en una función pueden haber muchos return, ahorita vamos a verlo, no solamente hay uno, van a ver, ahorita van a ver debajo del return seleccionado y que más le ya no se ejecuta, miren.
+Miren, miren, miren.
+Vamos a hacerlo con esto de acá, en realidad, la función de verificar tu edad. Ya esto lo voy a meter dentro de una función.
+Función, verificar edad.
+Bien, aquí está. De hecho, ya me lo puso. Muchas gracias.
+Listo.
+Miren, acabo de crear la función verificar edad, ya que pide la edad, pide la edad que tú le das. Esta verificar edad es para saber si votas o no. Ven acá, tienen esta capacidad, chicos.
+En verificar edad hay vean como hay 2 returnos, ya el primer es si eres mayor de edad, pues puedes votar. Aquí te está retornando un mensaje, ya está retornando un mensaje, tú le estás dando un número, pero te está dando retornando un mensaje que tú puedes mostrar y si no, si no eres mayor de 18, pues aún no puedes votar y hay un returno.
+¿Qué pasa aquí? Vemos el flujo en vivo.
+Ya vamos a.
+No, un consuelo, porfa.
+Yeah.
+Vamos a llamar a esa función, solo me pide un dato, perdón, un parámetro, entonces un dato y yo le voy a dar solamente un dato.
+Bien, ¿qué me va a mostrar? Sencillo, vamos a ejecutarlo esta función.
+Mejor le explico aquí nomás ya.
+Me está pidiendo solamente un dato, solamente un dato, le estoy pasando bacán, ya lo estoy llamando, estoy llamando, entro aquí ya secuencial, entro, entro al primer if, chequea la condición, le he dado 20, 20 es mayor que 18, pues sí, es mayor que 18 o k.
+Entonces se tiene que ejecutar lo que está dentro del IF. ¿Qué es return? Puedes votar bien, esto es lo que voy a mandar, voy a mandar, ese puedes votar o K lo estoy mandando y en realidad yo no estoy usando, miren, lo estoy imprimiendo en consola. Ya aquí es puedes votar.
+Eso es lo que va a imprimir en consola. Puedes votar. ¿Qué pasa? Como ya mandó este return, los siguientes ya no se van a ejecutar. Lo sabemos, cierto, ya no se van a ejecutar o k.
+Y eso básicamente es eso, ya, pero aquí lo que quería que noten es que podemos tener más de un return, chicos, ya el return permite el return lo que nos permite es terminar la ejecución deliberada de un de una función. Bien, van a haber funciones con bastantes este con bastantes líneas de código.
+Pero return es como ese salvavidas de si llegaste a este punto, ya no es necesario ejecutar esto. ¿Para qué ya voy a ejecutar esto o lo siguiente?
+Ya no lo necesito. Yo el retur es como que ese salvavidas que te permite cerrar una función, ya cerrar y terminarla ahí. Ya no necesito, no es necesario hacer lo siguiente.
+Ya logré el resultado que quería entonces retur, vamos a llamarla así, retur.
+Como salida anticipada, bien return como salida anticipada de la función.
+¿O K, se entendió esos estimados.
+¿Se entendió el papel de retum, chicos?
+A ver.
+Ya el meses, sí, gracias, Kevin, gracias.
+Sí se entendió, entonces perfecto si se puede entender porque.
+¿Por qué?
+No hay preguntas, no hay preguntas porque voy a pasar un reto estimados, voy a pasar un reto.
+Entonces, si no hay preguntas, voy a pasarle a un reto de 5 minutos, ya un reto de 5 minutos.
+Antes que nada, chicos, antes que nada, quiero que todos accedan a su laboratorio, ya accedan a su laboratorio número, perdón, sí, al este proyecto que tenemos actualmente, que es Number. Accedan, por favor.
+Porque ahí van a trabajar ese reto temporal, ya van a trabajar ese reto.
+De hecho, miren, de hecho, los cestes que tenemos aquí ya no lo necesitamos, o sea, primero si tienen 2 scripts, borren uno, borren uno, por favor, porque en este mismo laboratorio ya vamos a hacer el proyecto entonces.
+Todo bacán nos ayudó a entender, pero ya está guardado, obviamente ya está guardado en Git, ya no lo vamos a perder, podemos retornar incluso a esto, pero aquí ya podemos este ya podemos chicos borrarlo. Si quieren podemos borrar, voy a borrar de hecho un script porque solamente voy a usar el otro.
+Mire, yo voy a hacer la limpieza, borré un script y este de acá lo voy a limpiar. Ya tenemos un script limpio para poder trabajar aquí. El índex sigue igual, no hay problema. Aquí sí voy a modificar mi CRC.
+Porque este ya no tengo el script 2 ya no tengo el script 2 me doy clic, me dice que no existe porque ya lo eliminé, entonces solamente es el script uno que es este de aquí.
+Ya entonces ahorita pueden, por favor, limpiar su proyecto, límpienlo, límpienlo y ya practicamos ahí, ya vimos condicionales, variables, etcétera, límpienlo, chicos, límpienlo.
+Bien, ahí les doy unos minutitos.
+Me doy unos.
+2 minutos me confirman por el chat, porfa.
+Yeah.
+O K, perdón, todavía salió un momento, a ver, sí, a ver, limpien su script yeysy solo el script yeys, la verdad, el HTML no todavía. De hecho, no hay nada en el HTML, solo hay un es están el enlace al script. El script es lo que tenemos que limpiar, tienen que tener.
+Un index punto html y un script.
+Punto IES.
+Vamos a poner acá limpio, ya sea sin código, eso es lo que tienen que tener el link es HTML y el Script JS limpio.
+Con eso ya podemos empezar a.
+A trabajar.
+Confirman, por favor, chicos.
+Para poner en pantalla el proyecto, el proyecto, el reto de allá sobre funciones que está aquí.
+Stop!
+9 a ver a las 9:00 pongo el este, pero me confirman sí, ya porque si quisiera que manden la captura de ese reto que les voy a dejar.
+Bueno.
+El reto está, sí, bien.
+A ver.
+A las 9:00 mando el reto, es un reto breve ya.
+¿Cuánto tomaría?
+System.
+Go.
+A ver, ahí no me ha confirmado todavía, chicos, si ya tienen este limpio el JavaScript.
+Asegúrese también de que esté conectado por favor.
+De que esté conectado.
+Gracias, Kevin.
+¿Cómo vamos los demás?
+Colegas.
+¿Cómo vamos?
+Herman, 2 vamos 2.
+Es gracias, yo ya está.
+Recuerden que es participación chicos.
+Ya es un reto también para que puedan comprender las funciones.
+Bien, sabes.
+¿Cuánto puedo?
+And.
+Es un restaurante.
+5 minutos para el reto ya.
+Vamos a poner acá.
+Okay.
+Yeah.
+Veo que la mayoría ya están limpiando. Entonces el reto es esto, chicos, ya van a crear una función llamada evaluar rango.
+Que reciba un parámetro. Aquí ya no se está haciendo la cantidad de parámetros que necesita un parámetro llamado puntos. Aquí viene lo que va a ir dentro de la función. Si los puntos son menores a 1000, la función debe retornar bronce. Si los puntos están entre 1000 y 3000 incluidos ambos.
+Tienen que retornar plata.
+Pero si son mayores a 3000, entonces retornar leyenda.
+Aplicamos aquí lógica condicional, obviamente es si no elif.
+Dentro de una función, chicos, ya luego ejecutan con un valor, ejecutan con un valor y quisiera que me manden la captura por WhatsApp.
+Ya la captura por WhatsApp, eso lo voy a considerar yo como nota adicional. Bien, chicos, entonces ahí está el este.
+Voy a dar 5 minutos a partir de ahora, ya está contando.
+Que básicamente sería 9 y 6. Bien, listo chicos, ahí les dejo el reto para que podamos desarrollar esa intuición de programadores. Súper sencilla la función.
+Listo, a ver.
+Cualquier consulta me avisan.
+5 minutos.
+Okay.
+3 minitos.
+Mhm.
+Mm.
+Recuerden que tienen que mandar chicos por WhatsApp.
+¿Cómo se mostraría al final? A ver, el mensaje ya claro, tienen que ejecutar esa función y mostrar el mensaje, ¿no?
+¿Pueden usar si quiere un adder, un consordor?
+Sí, con solo suficiente.
+O solo las que diga este puntos igual a y soy bronce, digamos y soy lo que retorna la función.
+Un, un.
+Ya pasaron los 5 minutos, chicos, ¿qué pasó? ¿Cómo vamos a ver?
+Necesito más tiempo, dígame, no hay problema.
+Porque Street no recibió ninguna respuesta.
+Hey.
+Your me?
+Stop, yeah.
+5 minutos más, bien, no hay problema, ya vamos a dar.
+A ver, no se preocupe, voy a dar otra vez 5 minutos contando a partir de ahora.
+And we up.
+Sí, ajá.
+Ajá, claro, ya.
+A ver, chicos, ya estoy haciendo el conteo nuevo, sería más o menos 9 y 12, hay que poner 9 y 12.
+What have me?
+Mhm.
+Yeah.
+Mhm. Yeah.
+Which costs?
+¿Hay un mandado más?
+Soy leyenda, como lo peli ya.
+Mhm.
+Mhm.
+1 minuto, chicos.
+Yeah.
+Bueno, so.
+Chicos, vamos cerrando 1 minuto.
+Y para seguir con la con el siguiente tema, a ver.
+And.
+Yeah.
+Listo, chicos, 9 y 13 ya mandaron algunos alumnos sus respuestas. Buenísimo, felicidades.
+¿O K, entonces esto a ver, lo vamos a hacer aquí ya porque es súper este, vamos a hacer la parte este, ¿cómo decirlo?
+La parte más.
+A ver si me quiere pedir tiempo normal, le damos chicos, todo bien.
+Okay, okay, okay.
+Vamos a hacerlo aquí, chicos, juntos ya vamos a hacerlo con los que no han podido terminar para este tampoco alargarnos en cuanto al tiempo ya.
+Okay, entonces.
+Bien, es súper sencillo. Aquí ya nos da aquí mismo, ya nos da el nombre de la función que es evaluar rango. Ya incluso nos dice qué parámetro tiene que recibir, que es puntos. Abrimos, cerramos y aquí dentro del código. ¿Qué va a ser dentro del código? A ver, if.
+Ya ahora.
+Estamos haciendo la parte básica, chicos, la parte básica porque estamos suponiendo que obviamente evaluar rangos puntos es un número, ya estamos suponiendo eso.
+Pero obviamente vamos a seguir el flujo, como dice acá nos da puntos el usuario. Sí, los puntos cierto son menores a 1000.
+Ya nos dice que retornemos algo, en sí, un return bronce. Ya acá nos está diciendo que retornemos bronce. He visto que algunos también han puesto console log ya console log bronce, no? O sea, simplemente está mostrando directamente bien, o k.
+Está haciendo ya un resultado, pero aquí este vamos a hacer return bronce porque pues ahí nos dice que retornemos bronce. Bien, cuando se ejecuta esta función, cuando puntos es menor a 1000, si es 1000 no se ejecuta, si es mayor a 1000.
+No se ejecuta, ¿quién capturaría esto?
+We will leave.
+Pero han puesto hoy este.
+Ya o K chicos, ahí está la revisión, no se preocupe, ya quién capturaría esto, capturaría el Else, pero gracias, ahí siguen enviando chicos, no se preocupen. Igual voy a tomar en cuenta su participación, ya no se preocupe, voy a tomar en cuenta su participación, sería un Else, no, pero aquí como vemos chicos, en realidad no hay solamente 2 condiciones, sino que son 3.
+Entonces con un el se yo no voy a poder capturar los 2 siguientes, solamente este de aquí, que es si son menores a 1000 los 2 siguientes que están aquí. Necesito sí o sí otra condición, cierto, otra condición que lo captura, es decir, un el seif ahora en este.
+En este el saif nos dice si los puntos están entre 1000 y 3000 incluido. ¿Qué pasa que chicos? Este el saif nos dice entre 1000 y 3000. Ahora si puntos es ahí he visto si en la mayoría que han puesto si puntos es mayor igual que 1000.
+Y pues este o perdón, ahí sería así sería y puntos sería menor igual que 3000, cierto que sea mayor y menor que 3000. Ahora esto es válido, sí es válido, pero podemos resumirlo simplemente.
+Poner puntos menor que 3000. ¿Por qué? Porque debido a esta condición que está aquí, chicos, ya suponemos que sí o sí los que van a entrar aquí son mayores a 3000.
+Ya sí, porque aquí están los que son menores a 1000 aquí.
+Aquí entra sí o sí los a ver los mayores igual, iguales, mayores o igual a 1000. ¿Por qué? Porque pues esta condición que está aquí nos lo dice, vean en esta condición.
+¿Quiénes no entran, o sea, quienes no entran a esta condición? No entran los que son mayores a 1000 o 1000. Cierto, tú pones 1000, por ejemplo, 1000 no entra porque 1000 no es menor que 1000. Ven, tú pones 1500, 1500 tampoco entra porque no es menor que 1000. Entonces sí o sí estamos seguros de que aquí en este va a entrar los mayores igual a 1000. Por eso es que solamente he puesto menores que 3000.
+Ya porque a esos mayores, igual que 1000, le vamos a pasar ese filtro de menores que 3000, que es el return.
+El retur plata, no el retur plata, no o plata, perdón, plata ya y o k si no ha pasado ninguno de estos, ya ahora sí estamos seguros de que son menores. Bueno, son mayores a 1000, perdón, son mayores a 3000 en realidad son perdón.
+Sí, son mayores a 3000 ya y esos son estos de aquí y aquí pues sería return leyenda, no, nada más que eso sería return legendar.
+Y listo, la siguiente forma que es la llamada aquí sí, este aquí vía viene en la creatividad del programador. ¿Cómo quieres tú mostrar en el mensaje? No, acá lo puedes mostrar como sea. Si quieres dar un mensaje más descriptivo, pones mi puntaje es cierto, mi puntaje es.
+Hm.
+¿Cómo le dirías?
+No, perdón, sí vamos a poner eso.
+Ya soy, podemos hacer incluso esto. Miren, miren, para hacerlo más como que crecerlo. Por eso digo, acá viene la actividad de cómo quieres tú mostrar. Tú puedes poner acá LED puntaje, ya tú se lo pides por pro, le dices dame tu puntaje.
+Dame tu puntaje y acá soy este acá sí, pues mi puntaje es acá muestras puntaje que lo ha capturado, pero acá viene otra cosa. Miren chicos, más mi puntaje es y este y soy.
+Ya y soy más y soy, pues aquí en bocas de la función, pero ojo, ojo, la función recibe un número, recuerda, lo que tengo que hacer acá es.
+Meterlo dentro de un under.
+¿Y por qué la función recibe un número? Entonces, hoy, ¿qué pasó, no?
+La función recibe un número a y Dios mío, el control Z. Ya esa era la idea, bien, Dios mío.
+Vamos a hacerlo rapidito, ya es plata, palta, es plata, palta es lo que acaba de pasar. Entonces, el es acá mejor lo hubiera hecho en código para que se pueda notar, pero acá vamos a poner leyenda.
+Ya listo, nada más. Eso nombre, ya aquí como tú lo muestras, mi estimado, ya es la creatividad de cada uno, ya tú puedes usar un console log, etcétera. Aquí sí no había una restricción, pero básicamente era esto. Ya algunos le han añadido esta capacidad que está muy interesante y es validar qué puntos.
+Sea exactamente números. Una forma que yo les recomiendo es, por ejemplo, el ISNAM. El ISNAM, chicos, es un método para verificar si es numérico. Ya si tú haces esto ISNAM puntos que está aquí, toda esta función ISNAM puntos me da me va a retornar true.
+Si es pun, si es número, ya si no es número.
+Si no es número, miren, si no es número.
+Obviamente acá tienes que retornar, hacer un return, mira un return y acá puedes retornar, no es un número.
+Pero sí lo es. De hecho, incluso acá debería poner, miren, miren esta jugada, voy a poner un invertir.
+Y esto voy a ponerlo aquí.
+¿Ya qué es lo que ha hecho esto aquí? Hasta aquí hemos cumplido, o sea, aquí está muy bien, chicos, solo que ya como programadores recuerden que dijimos que tenemos que tomar en cuenta los casos en los que posiblemente no nos den puntos, no nos den, o sea, números.
+Ya nos den texto, se puede aquí, es una forma de manejarlo aquí, la otra es como vimos al momento de llamar.
+Hacer un este, no un number.
+Vea, hay tantas formas chicos, o sea, la programación es tan flexible. Hay tantas formas al momento de llamar a hacer esto number puntos y asegurarnos de que sí se va a convertir puntos en número. Muy bien hacer esto o hacer esta otra forma que es usar is nam, o sea.
+Is nam es esto lo que hace es verificamos si puntos es número, pero acá lo que estamos invirtiendo es estamos si no es número. Ya este paréntesis recuerdan el not lógico es si no es si no es número puntos, entonces retornar esto. Entonces ya no se va a ejecutar esto, pues.
+Porque no es número, vean el poder de return, no se va a ejecutar nada de esto porque ya sabemos que es número y obviamente los números no podemos compararlo, pues los textos, perdón, posiblemente texto no se pueda comparar con números. ¿Lo ven? Okay, listo chicos, entonces muy bien a los que ya han entregado.
+Ya yo lo reviso después, no se preocupe, pero hasta ahí el reto, bacán, bacán con el reto.
+Ajá, la consola lee de manera vertical y por su cumpleaños. Sí, exacto, ya o k chicos, entonces vamos a pasar con algo adicional, algo adicional. ¿Qué es esto? Para eso quiero quisiera que vean esto aquí en el código directamente vamos a.
+Vamos a cerrar esto, sí, salir. Vamos a hacer algo chicos en el código. Ya aquí no lo he generado, pero bueno, miren, voy a crear una variable. De hecho, podría usar incluso ese mismo.
+Voy a crear una variable llamada, voy a llamarle pruebas, ya ustedes no hagan esto porque es para explicar el siguiente tema que vamos a ver: función prueba.
+Ya aquí miren, voy a crear un número, se pueden crear variables dentro de funciones, se puede, ya le voy a poner 5 chicos, ya y aquí este quiero que vean esto, quiero que vean esto chicos.
+Me.
+Parece rara la función, pero quiero que se fijen en la en las líneas de code.
+Bien, chicos, miren, dentro de esta función prueba, yo he ejecutado lo que sería, he creado lo que sería la variable número uno, no hay problema. Adentro le he dado una función número 5.
+Ya adentro le he dado un número 5 o incluso mejor vamos a hacer esto ya.
+Vamos a hacer esto, miren.
+Sí, vamos a darle número 2 para que no se pueda para que quede más claro.
+Ya y vamos a hacer un led producto que guarde ese número uno.
+Por número 2, muy bien y vamos a.
+Vamos a imprimir ya.
+El producto es.
+¿El producto es o k ya chicos, quisiera que ustedes me digan cuánto es el producto, qué mensaje va a mostrar aquí?
+Mejor lo vamos a sacar ya. ¿Qué mensaje va a mostrar con solo? ¿Qué va a mostrar con solo? Sí, con solo va a mostrar algo, chicos.
+Ya vamos a ejecutar esto ya para que no se confunda.
+Ya aquí acabo de ejecutar prueba, no me está pidiendo ningún dato. Ya acabo de ejecutar prueba, es decir, estas líneas que tú estás viendo se están ejecutando, ya se están ejecutando. Las líneas que estás viendo se están ejecutando porque yo he llamado a la función sin datos porque no me los están pidiendo.
+Ya y luego estoy usando el console of llamando a esta variable que está dentro de prueba, por eso yo te pregunto a ti si.
+¿Qué muestra con solo producto?
+A ver, les da que pensar este, miren, miren esta forma que muestra con solo un producto.
+Muestra algo lo que ustedes me digan, si quieren, muestra el número, muestra el número, muestra texto, muestra error, que muestra a ver.
+Ahí les doy el te invito mientras voy revisamos las tareas.
+Bien, buenazo.
+¿Qué muestra, chicos?
+¿Me están dando su respuesta ahí?
+April, muy bien, está bien a ver esa intuición, no se va a ver, creo me dice.
+A ver.
+Vean, vean, vean la secuencialidad. Quiero que en su mente plasmen ese flujo de secuencialidad. Bien, esto es una función. Aquí estoy ejecutando la función.
+O sea, está ejecutando todas estas líneas, se está ejecutando estas líneas porque lo estoy llamando y a Kea lo que estoy haciendo es mostrar directamente este producto que está aquí.
+Hay algo sospechoso ahí y algo que.
+Bueno, buenísimo, muchas cosas ya.
+Bien, a ver qué me han escrito, no muestra nada, da error, nada. Muy bien, vamos a ver qué es lo que muestra. Está bien, vamos a ver qué es lo que está mostrando. Vamos aquí y cuando lo damos, efectivamente, lo que da chicos no es que no muestre nada, sino lo que nos va a dar.
+Es un error. Incluso nos está diciendo lo siguiente: Hey, producto que es esta variable que está aquí no está definida. ¿Cómo que no está definida? Si yo les yo lo he definido acá, o sea, acá y le producto, si yo lo he definido como que no está definida, no está definida, me dice el programa, yo te voy a explicar.
+¿Por qué nos sale este error? Porque aquí viene un término nuevo.
+¿Qué es ya chapa esto acá?
+¿Qué es mis estimados alcance de variables? ya ¿Qué es alcance de variables? Hay 2 tipos de alcance, o sea, el alcance de variable es mira, cuando tú creas una variable, el lugar donde tú creas la variable importa mucho ya porque el alcance variable define.
+¿Dónde, ¿Hasta dónde puede vivir o tiene influencia esa variable?
+Ya hay 2 tipos de alcance, lo que sería el alcance global.
+O el alcance.
+Ok, muy bien, vamos a hacer acá y vamos acá.
+Define dónde o hasta dónde puede vivir o se puede usar una variable. Ese es un alcance variable. ¿Hasta dónde se puede usar una variable? o ky justamente ahí está tu respuesta. ¿Qué es un alcance global? A ver, un alcance local.
+Es.
+Una variable.
+Creada dentro de una función.
+Y solo se puede usar dentro de esa función.
+Ya solamente se puede usar dentro de esa función.
+Ese es el caso de esto de aquí. La variable prueba se ha creado, perdón, producto se ha creado dentro de la función prueba, ya, pero solamente se va a poder este usar dentro de prueba. Fuera de prueba es como si no existiera ya fuera de prueba. Yo he querido usar esto.
+Pero el programa ha dicho, ¿quién es producto? No producto, mi estimado ha muerto aquí, ya ha muerto junto con la función. Así como suena, ha muerto con la función. Cuando una función termina, todos los procedimientos que ha pasado ahí se mueren, ya se borra.
+Lo único que tienes o que obtienes es ese este, ese retour que ha dado la prueba. Ya entonces, por eso es que el programa dice: ¿quién es producto? No sé quién es producto, porque aquí ya mancó, mi estimado, aquí ya estiró la plata, la pata, perdón, porque producto ya fue borrado.
+Ya no existe, esa es una variable de alcance local, a diferencia de una variable de alcance global que se crea.
+Fuera de.
+De cualquier función ya fuera de cualquier función.
+Se crea fuera de cualquier función y se usa en cualquier lado.
+Se usa en cualquier lado, es, o sea, es por eso es global. ¿Qué es global? O sea, es como si fuera mundial, ya local sería como que tu país, Perú, ya y este bueno, nuestro país, no, porque yo también soy peruano, y global sería a nivel ya como que mundial, ya entonces se crea fuera de cualquier función y se usa en cualquier.
+Lago ejemplo, miren acá, miren lo que voy a hacer aquí, miren qué pasa si en lugar de usar yo LED número 2 de aquí voy a crear un LED número 2 acá, miren fuera de la función.
+Esto se puede hacer, vean si se puede hacer. Miren chicos, voy a imprimir acá mismo. Miren el número 2 de aquí es este número 2 de acá y voy a imprimir el producto. ¿Me dará error? Vamos a verlo.
+Vean que no me ha dado error porque me ha dado 50 en realidad, o sea, me ha dado las respuestas tal cual. ¿Por qué? Bueno, por lo siguiente, porque al momento de leer el código entra a esta línea de código y dice: o K, tú has declarado número 2 igual a 10, estás definiendo tu función, aquí lo estás ejecutando. o K, vamos a ejecutar línea por línea.
+Creas la variable del número uno. Aquí estás usando esa variable número uno local, pero también estás usando el número 2 global, que yo sí lo conozco porque ya lo creaste antes. Ya una variable global lo puedes usar en cualquier función dentro de cualquier función. Si hay otra función que lo llamaba acá.
+Porque esta no se borra, este va a vivir hasta que tu programa se termine. Ya esa es la diferencia de esa es la diferencia de este. Entonces lo está usando aquí con producto y pues producto muestra normal sin problemas en consola ese valor que es al momento de ejecutar lo que sería la función.
+Ya es eso, estimados, ya dura hasta que termine tu programa.
+Esa es la función local, mientras que una de alcance local, perdón, sí, local dura hasta que termine tu función.
+Bien, ok, chicos, ¿se entendió eso?
+Se puede entender eso porque eso es lo que vamos. Vamos a estar muy seguido. Ya es la importancia de dónde tienen que crear ustedes sus pues sus variables. Bien, nosotros como no hemos usado funciones, no hemos tenido que hablar pues de alcance global o local porque simplemente ha estado fuera. Ya nuestras variables han estado en realidad.
+Fuera de una función, pero ahora que nosotros sí vamos a crear funciones, tenemos que ser conscientes de que las variables que creamos dentro de funciones no se pueden usar fuera de ellas.
+¿Ok, chicos, se entendió eso?
+Claro, con eso.
+Mhm.
+Bien, parece que sí se intendió. ya o K o K Abel, gracias, listo. o K, entonces vamos ahora sí a pasar como el siguiente concepto que es ya. Ahora sí vamos a interactuar con los elementos, chicos, vamos a interactuar con los elementos. ¿Dónde está mi escalibrador? Así que no nos vamos a demorar, vamos a pasar acá muy bien.
+Pasa lo siguiente, mis estimados, ya para no hacerla larga. Cuando nosotros trabajamos con HTMLYCCS, ya hemos mencionado esta, pues esta presentación varias veces, no hablamos de HTMLYCCS ya, pero que al tener nosotros trabajar con solamente estos 2.
+Nuestras páginas web son estáticas. ¿En qué sentido? Que el usuario no va a poder interactuar, no darle clic. O sea, las interacciones que nosotros le demos no va a responder nuestro programa, entonces no va a cambiar el programa a pesar de que el usuario intervenga. Ahí es justamente donde.
+JavaScript le agrega esa interactividad.
+¿Pero cómo le agrega? ¿Qué elemento tiene que usar para eso? Para eso, mis estimados, viene el siguiente componente, que es el doom. Bueno, no el doom de Marvel, chicos, no, este doom es algo que ya hemos visto antes. No sé si ustedes se recuerdan que cuando hablamos de HTML.
+Se representaba como un árbol de nodos.
+Lo vimos en hace este, pues hace clases y es eso. O sea, ¿qué es el DOOM? El DOOM, vamos a ponerlo con *****.
+Es una representación, ya es una, es la una representación.
+Sí.
+Del documento HTML, o sea, de todos los elementos que están del HTML en forma de árbol.
+They no.
+Ya es simplemente eso, ese es un DOM, va a representar como visualizamos aquí. Vean, vean esto como este HTML, la posición. Obviamente sabemos que en HTML hay anidación, es decir, jerarquía. Hay vamos al código.
+Aquí hablamos otra vez de jerarquía, que son los elementos que están más arriba. Los padres son los que están más arriba en el árbol, obviamente como los ancestros, y mientras vamos bajando va este va bajando también el árbol. o K, eso ya aquí con rojo, por ejemplo, ya.
+HTML, que es la cabeza ya porque es el elemento que está más arriba. Luego vemos hit que está aquí, que es en realidad es un este hijo de HTML, pero hay otro hijo que es el body, cierto que está aquí. El body es otro hijo, ese hermano de hit no está dentro de hit.
+Este hermano, por eso es que están en la misma línea, línea genealógica, hay que llamarle. Luego dentro están los hijos que va bajando los nodos. Yo creo que esto sí se entiende cómo se arma un arma, no como una relación familiar de hijos y padres. Ya así es como se construye.
+¿El doom que es ese árbol de qué es la representación? Pues de lo que sería nuestro HTML. Muy bien, pero ¿por qué? ¿Por qué en nodos, chicos? ¿Por qué en nodos?
+A ver.
+¿Pero por qué no?
+¿Y por qué esto nos va a ayudar a agregar la interactividad a nuestra página web? Ya porque cada nodo.
+Cada nosotros vamos a usar esos nodos ya cada nodo del árbol es un objeto.
+Es un objeto con propiedades, con funciones que ya vimos que era, ya es un objeto dentro del este que nosotros.
+Vamos a acceder para modificarlos, para interactuar con ellos.
+Por ejemplo, Por ejemplo, mira, si tú accedes al objeto del título, si tú crees.
+Si tú accedes al objeto title.
+Al objeto h uno ya al objeto h uno, ya que es tu título principal. Si tú accedes a esto, tú puedes acceder al título que está dentro y modificar el título.
+Puedes acceder al.
+Al título, que es el título principal, y modificarlo en tiempo real. Si tu título era laboratorio 10, en tiempo real tú lo puedes modificar al laboratorio 11. ¿Lo ves como? Accediendo a ese objeto HU o K de esa forma nosotros vamos a acceder a lo que sería el DOM, mis estimados.
+¿O K, se pudo entender eso, es lo que nosotros vamos a hacer. Eso es lo que pasa por detrás. ya qué? ¿Cuál es el proceso que pasa? A ver, pasa lo siguiente, mire, el proceso es secuencial. ¿Qué es lo que pasa primero?
+Vamos a de primero.
+Primero, el navegador obviamente renderiza.
+Está muy grande esto.
+Yeah, primero.
+El navegador.
+Renderiza.
+El HTML, ese es el proceso, ya vamos a ver el proceso, cómo se llega a la red, renderiza el HTML.
+Luego, qué es lo que hace segundo.
+Lo que es segundo es.
+Ahí está, transforma, o sea, transforma el HTML en el árbol DUM.
+Ya transforma el HTML en el árbol tercero, que pasa tercero.
+Tercero, lo que pasa es que se aplican los estilos, en realidad se aplican los estilos CSS.
+A cada elemento.
+Y último, ya último, chicos, es cuando interviene JavaScript, JavaScript está al final, o sea.
+Luego último, ahí viene la interacción con JavaScript. Ya JavaScript espera que todo esté listo. Cuando todo esté listo es cuando JavaScript va a actuar.
+Así funciona por detrás de manera general, hay que decirle el proceso de.
+Bueno, el proceso de desarrollo de la página web ya así pasa por detrás, se renderiza el HTML, se transforma el HTML en árbol DOM, se aplican los estilos SSK de elemento y por último, la interacción que le vamos a agregar con JavaScript, que es modificar. Se pueden crear en curso elementos, o sea, tú puedes meter un h uno sin que tú lo quieras.
+Perdón, claro, tú queriendo, no, pero tú puedes meter elementos, puedes crear elementos, puedes modificar elementos, etcétera.
+Ok, ahora.
+Hay que ver un elemento importante en el DOM chico. Si tú te fijas, acá hay un nodo que no vimos acá y ese es.
+Exacto, es document. ¿Qué es document ya document?
+¿Qué es documento así tal cual? ¿Qué es documento? Le voy a decir qué es documento.
+Document es el nodo raíz, nada más que eso, o sea, es el nodo que está sobre todos, ya es el nodo raíz del doom.
+Ya del árbol es el nodo raíz, nada más que eso. ¿Por qué nos importa el documento?
+Document, chicos, document, como dice el nombre, en realidad representa el documento HTML ya.
+O sea, todo lo que tú ves aquí, todo lo que está construido aquí, todo, todito, todo esto.
+Todo esto, mi estimado.
+Me voy a reducir todo esto, cualquier HTML está metido dentro de Document, ya todo está metido dentro de Document. o K, entonces por eso nos importa Document, porque para acceder.
+Para acceder a lo que sería un nodo, vamos a usar document todas las funciones, los las funciones.
+¿Que vamos a usar para acceder a los nodos?
+Pertenecen a ese este a document.
+Ya pertenecen a Document. Document es la puerta para entrar a los diversos hijos que tiene ya a HTML, a Git, a Body, a quien tú quieras. Ahora vamos a ver cómo acceder, pero quiero que tomes en cuenta este objeto que es muy importante en realidad.
+Ya miren, vamos a ver un caso de document, vamos a quitar esto y vamos a cómo se cómo acceder a document. Pues sencillo, document simplemente se referencia. Sí, document, ya esto es document, pero yo lo voy a mostrar en console log para que vean a ver qué me da si yo lo mostré en console.
+Document es un nodo raíz. Por lo tanto, chicos, también es un objeto porque es un nodo. Ya lo dijimos y un nodo es un objeto.
+Ya un objeto ya dijimos que tiene datos y funciones dentro. Entonces vamos a ver esos datos y funciones aquí. ¿Dónde está? Aquí ya vean, vean, vean como ya me da. Justamente me imprimió el documento que me va a dar un extensible ya los objetos este cuando tú los imprimes en consola.
+Te va a mostrar como un extensible que al darle click te va a dar todos los datos, todas las datos y algunas funciones que tiene ese objeto. En este caso, document tiene esto. Aquí lo que me importa más es, bueno, acá vemos, por ejemplo, nombre del nodo que es document.
+¿Hombre, no document, qué más? Lo que me importa acá es y que voy a usar ahorita dónde está.
+De.
+Aquí está, miren, título, vean este título de acá, chicos, este título. Aquí vamos a ver un ejemplo de cómo es que documentos representa todo el documento. Miren, este título es este de acá.
+¿Lo ven? El título que está aquí es este de aquí, que está aquí, así que yo puedo cambiar esto, o sea, puedo acceder a esta propiedad. Recuerdan cómo usando el punto puedo acceder a esta propiedad y asignarle otro valor.
+Vamos a hacerlo en vivo, miren console document y acá vamos a hacer document. punto Acá vamos a poner t, ya que está la propiedad título. Ya le puse adivina el número. ¿Qué es lo que estoy haciendo? Estoy referenciando a esa a esa propiedad de document llamado título.
+Y le estoy asignando ahora un nuevo valor, adivina el número, vamos a reiniciarlo.
+Y vean como le he cambiado en vivo ese valor, no, incluso acá ya se ve, vean, ya no tiene el nombre de este documento, creo que se llamaba, no, ahora se llama adivina el número, ven, ven como ha accedido en tiempo real al documento en sí, y ahí solo y aquí solamente he accedido, pues.
+Al título que se ve acá, pero nosotros vamos a acceder a los diversos elementos que tenga nuestro proyecto. Aquí hay métodos para eso.
+O K, aquí accedido de esa forma. Cambiamos el título de pestaña ya usando JavaScript, o sea, aquí ya usamos JavaScript para cambiar algo dentro de nuestra, pues dentro de nuestro código. O K, bien, entonces ya vimos el papel de Doom. ¿Qué es Doom?
+Que es el árbol de nodos y vimos.
+La importancia de document, que es lo que vamos a usar para pues para acceder a esos nodos que son los diversos elementos en nuestro HTML, ya que son los diversos elementos. Ahora sí vamos a pasar, ahora sí vamos a pasar a interactuar, chicos, vamos ahora sí a interactuar.
+Con los elementos usando JavaScript, para eso se se para eso hay que decirle, no sé si recuerdan ustedes CCS, chicos, recuerdan lo que es CCS. A ver, va a ser un proceso similar. ¿Recuerdan que en CCS se usaban Select?
+Sobre CCC.
+Ya selectores SS más o menos igual va a pasar por aquí ya porque primero para interactuar con un elemento tienes que seleccionarlo, o sea, tienes que buscarlo dentro de todos los nodos de tu barro. ¿Cómo lo busco? Básico, fácil, similar que.
+Similar a los selectores CSS, ya entonces seleccionarlos es obtener.
+Una, o sea, a buscar, hay que decir buscar al nodo elemento con el que quieres interactuar.
+Ya.
+Por ejemplo, acá vamos a ver 3 métodos, 3 métodos para seleccionarlo. Existen 3 métodos, obviamente los 3 métodos son de document. Primero está document punto está acá, get que es obtener get element. Es un poco que necesito el nombre, pero no se preocupen.
+Get element by ID.
+Ya sí, los que tienen inglés, los que entienden inglés seguro ya la captaron. ¿Qué es lo que hace este método? Pero los que no, lo que hace simplemente este método es capturar un elemento del nodo usando el ID. Ya eso es lo que dice acá, obtener elemento usando la ID aquí en.
+Texto, tú vas a poner el ID del elemento ya y te va a dar, pues te va a capturar eso. La otra forma, chicos, es vamos a poner acá.
+Captura usando ID.
+Listo, ya la otra forma es.
+¿Selectores, qué otra forma era? Recuerda clase, cierto, captura usando la clase ya la clase de los elementos.
+Esta era la otra forma.
+Usando clases ya y la tercera forma de selectores, ¿recuerdan cuál era? Era usando, pues, el nombre de la etiqueta.
+O K, recuerda el nombre de etiqueta PH uno a o K es eso y acá pones pues el nombre de la etiqueta.
+Listo, captura usando.
+Nombre de la etiqueta. Ya esto es súper sencillo, chicos, no necesita tanto detalle. Vamos a verlo mejor en práctica para que vean eso.
+Ya primero vamos a capturarlo, a ver, vamos a capturarlo aquí en la esto aquí ya acá tenemos h uno, le voy a agregar.
+Un poco más le voy a agregar p ya vamos a poner párrafo uno.
+Muy bien, y de hecho voy a.
+Listo, voy a duplicarlo, voy a poner párrafo 2. Ahora, yo acá la importancia, obviamente para usar estos elementos tienen que tener IDs o clases y yo se los voy a poner porque ya sabemos cómo se pone en clases, cierto, y IDs también recuerda, el ID es una propiedad.
+De la etiqueta y acá la voy a poner título, título mamá y acá a estos 2.
+Pues me llegó esto acá a estos 2 le voy a poner class ya class, barra, hay que hacerse, barra.
+Vamos a copiar, pegar, listo, ya nada más vamos a he creado estos 3 elementos aquí porque voy a referenciarlos, voy a acceder a ellos.
+Como ahí verá, vamos a ver.
+Script ya escri aquí ya accedí a documento la primera forma.
+Document.
+Punto.
+Eso es lo bueno de JavaScript, perdón, de Visual Studio Code te propone ya cual usar para que no tengas que escribir todo aquí y acá vamos a usar el único que tiene que es título ya bacán todo esto. Con esto, mis estimados, ya he capturado el elemento título, o sea, este de aquí.
+Ya lo he capturado, incluso lo voy a mostrar, miren, vamos a ver mostrando lo que es lo que pasa.
+Miren, acá lo capturo y adentro lo muestro, vamos a ver que pasa.
+Ya miren, me está mostrando el título, chicos, aquí está, este es el nodo título, ya este es el nodo título. Vean, lo voy a expandir y acá me está dando las propiedades que tiene. Una de ellas es, miren, aquí está el ID que tiene eso, que es el ID que le hemos puesto, obviamente título.
+Pero otro es bien, aquí está el contenido, cierto, laboratorio clase uno, que es el contenido del HU, está como propiedad, aquí está, miren.
+Hay 2, uno que es esto de acá.
+Es inner HTML, inner text, inner HTML ya es todo el HTML que está dentro, que está dentro de lo que sería el nodo, porque obviamente un este, pues una etiqueta, una etiqueta HTML no solamente tiene texto, ¿cierto? Recuerden el dip, por ejemplo, que adentro puede tener.
+¿Más elementos, se acuerdan?
+El D puede tener más elementos, ya se va a mostrar como todas esas etiquetas, pero si es solo texto, si es solo texto, la propiedad que vamos a ver ahorita es text content, ya text content es como dice el nombre, el mismo nombre, es contenido de texto de ese elemento que es laboratorio clase uno.
+Ya laboratorio casi uno, incluso lo puedo cambiar mi.
+Pero o K, pero la forma más, la forma más recomendada de capturar estos chicos es dentro de una variable, ya es dentro de una variable.
+Porque recuerden que este método de aquí nos retorna el título que hemos capturado, ya que hemos capturado, el nos retorna el get elemente by ID, vamos a ver captura usando ID.
+Y lo retorna, hay que ponerlo así. En realidad, todos los que vemos acá, todos acá capturan y los retornan. Por eso es que vamos a usualmente usar lo que serían, pues variables para obtener ese valor que retorna.
+Bien, listo, otro, por ejemplo, es let párrafos. Perdón, perdón, document punto que vamos a usar a la clase de párrafo ya acá. Obviamente, lo que retorna de element by class name no es únicamente un elemento ya.
+El que es ID sí es un elemento porque el ID es único, cierto, captura usando ID y lo retorna. Aquí sí es un único elemento. ¿Por qué?
+Porque ID no se repiten, el ID es solamente para uno. Ya recuerden que el ID es.
+Es pues único ya un único elemento.
+Retorna un único elemento, pero a diferencia de estos 2 chicos que están acá.
+Ya los demás va a retornar varios elementos, ya este class name y lo que sería.
+El siguiente, que es let p, hay que ponerle p, por ejemplo, get element tag name, que es p ya. ¿Qué es lo que he hecho acá? Aquí lo que he hecho es capturado el párrafo, me va a retornar los párrafos ya.
+O sea, estos de aquí, esto y esto porque tienen clase, párrafo me los va a retornar y esto de acá me va a retornar, pues los que tengan de título P, o sea, igual estos de aquí porque son las etiquetas como P. Ya di nada más que eso, vamos a duplicarlo para que ustedes lo vean de forma rápida.
+Hey, vean aquí vamos a reiniciar y listo. Se retorna como una colección en realidad, ya porque ya no es una variable que solamente tiene un elemento, sino va a tener más. Por eso se retorna, miren, como una colección de el párrafo uno y el párrafo 2, cada uno con sus respectivos valores. Como vemos acá, miren el text content de.
+El primer elemento y el test content del segundo elemento es el párrafo 2.
+Bien, o k, pero no se preocupen chicos, porque estos 2 no los vamos a usar acá, nosotros vamos a usar solamente el element by ID en lo que sería el este.
+Ya una vez nosotros hemos seleccionado, vamos a modificarlo. ¿Cómo se modifica? Vamos a hacer 2 modificaciones. En realidad, ya la primera es usando el text content.
+Recuerdan al text content que es el contenido de el contenido textual de un elemento. Ya eso lo vamos a usar porque ya lo hemos visto y el otro es usando la propiedad style.
+¿Qué es los estilos del elemento? O sea, le vamos a poner estilos, usamos JavaScript.
+Ya ven aquí, no le he mostrado, pero vamos a usarlo aquí.
+Títulos, solamente títulos, esto no es problema, necesito solamente esto y voy a mostrar título para que vean esa propiedad Style. Si bajamos a ese, vean aquí está Style, ya le voy a dar click y vean todos los estilos que tiene.
+Ya todos los estilos que tiene en realidad están vacíos porque no le he mostrado, no le he puesto un estilo, no le he puesto un estilo usando CSS.
+Si yo, por ejemplo, le pongo aquí un style.
+Oliver.
+Ya Aquamarine, ya o sea, estoy pintando esto de.
+Ya estoy pintando, accedo a ese título que fue agarrado, me voy a style, bajo a color, que es el estilo que le he puesto.
+Vean como efectivamente se ha puesto ese color, vean, se ha actualizado y ahí está el color que yo le he puesto.
+Entonces, a través de esto, lo que quiere decir entonces es que a través de este estilo que está aquí, de esta propiedad, nosotros podemos ponerle estilo. Miren cómo le voy a cambiar yo el estilo ya a este título le voy a poner título punto style ya punto. Hasta acá he accedido a la propiedad, pero ahora necesito acceder a qué estilo agregar. En este caso es color.
+Igual.
+Y aquí le voy a poner ya esa es la sintaxis. La sintaxis sería eso, sería estilo, perdón, sería elemento capturado, punto, estilo, punto, y acá lo que iría sería pues la propiedad, la propiedad es ese que acá mis estimados.
+La propiedad CCS, el tema con la aquí es que la propiedad CC no es como nosotros lo definimos en CCS, no, aquí va todo junto, no hay ningún guión y acá el valor, pero en comillas.
+Ya siempre el valor en un string, siempre en un string. No le vas a poner como CSS directo red, no, acá no estás en CSS, estás en JavaScript, entonces hay que seguir sus reglas. Título, que es el elemento capturado, style y accedo a la propiedad color.
+Ya la propiedad CSS.
+No es como, no es como en un documento.
+Sí, ya se escribe.
+Todo junto en Camel Cakes.
+En Camel Case recuerdan que era mayúscula y minúscula. A ver, vamos a hacer un caso ya un caso sería font size, font size. Recuerda que era la propiedad para poner mayúscula ya font size en CC será así, no font size.
+Cierto, ya así va a ser en JavaScript, va a ser con size.
+Ya va a ser sin guión y va a juntarse todo.
+Ya otro, un ejemplo más, back brown.
+Color, así era en CSS. ¿Cómo va a ser en JavaScript? Va a ser igualito backroom, pero así junto.
+Ya así es como se define una propiedad CSS.
+Listo, acá miren como le he cambiado en vivo y también le voy a cambiar.
+Ya el contenido textual.
+¿Quién se va a llamar laboratorio clase 11? ¿Qué contenido tenía laboratorio clase 11? Pero acá le he agregado algo más editado desde JavaScript.
+Vean, chicos, vean cómo ha cambiado ahora el texto y también ha cambiado qué cosa el color usando el estilo. ¿Lo ven?
+O K, así de fácil, chicos, ¿qué hicimos? Capturamos o seleccionarlos ya usando estos elementos del propio documento, los guardamos en una variable, se guarda en una variable.
+Come on.
+Ya se guarda en una variable.
+Y esa variable que va a tener el elemento y ahí los modificamos. Ya usamos esa variable que ahora representa el elemento, la variable título representa el título, por lo tanto, puedo acceder a su contenido, puedo acceder asus estilos ya y con la variable igual.
+Perdón, con el operador igual le puedo asignar valores, puedo asignar valores. ¿Qué es lo que he estado haciendo aquí?
+Thanks.
+Listo, o k chicos, entonces se puede entender eso, a ver qué me comentan, se puede entender el doom, mis estimados.
+¿Cómo la ven, okey?
+El doom.
+Pero ahí me dice Kevin, bien, su cuerdo bien.
+O K, si se puede entender el chicos, estamos listos ahora sí para el laboratorio, ya estamos listos ahora sí para el laboratorio.
+Ya lo publiqué, sí, lo publiqué ya al laboratorio, chicos, al laboratorio de Dexter. Vamos al laboratorio, vamos a limpiar este, bueno, yo voy a limpiar porque yo escribí, ustedes no deberían tener nada, ya deberían tener así el reto, ya bórrenlo, no se preocupen, ya borren el reto de.
+Del script que ejecutaron, chicos, no, porque ahora vamos a poner nuestro proyecto ahí. Ya borren ya el reto que hicieron. Ya tengo ahí anotado en WhatsApp, no se preocupe, vamos a hacer ahora el laboratorio.
+El laboratorio es súper sencillo en realidad y es referente a al proyecto. Muy bien, estamos todos aquí. Por favor, me confirma si estamos todos aquí para allá empezar.
+Ya vamos con la parte número uno, chicos. o K, no se preocupen porque esta interfaz de aquí no la vamos a construir nosotros desde C, no, el laboratorio ya nos lo da.
+Así que ahí buen buen datazo, buen puntazo para el laboratorio para ahorrarnos tiempo. ¿Dónde está eso? Está aquí, chicos, ya está aquí. Vean, en la parte uno o en la interfaz del juego, abres tu index, vas a reemplazar todo tu index por todo este código que está aquí.
+Reemplaza todo tu index por este código que está aquí, por favor lo copias toda la parte 1.1, vas a tu index HTML de aquí y plag lo pegas ahí.
+Ya.
+Cuando vayas a tu proyecto debería estar ahí. ¿Ves? Cuando tú ejecutes tu proyecto, ahí es debería estar. Hagan eso, por favor.
+A ver, hagamos eso.
+Y me confirman, por favor, si ya está o k.
+Me confirman si está.
+O K, entonces en tu caso, Yarny, te recomiendo que crees otro proyecto, ya sí, porque es que posiblemente los nombres de los IDs de los elementos que has creado, el nombre de los IDs o de las sí, sobre todo de las IDs, sea diferente a las que tú hayas creado. a.
+¿Con tu estilo, no? Entonces yo te recomiendo que crees otro proyecto o este sí guardes el que tú tienes en otro proyecto nuevo. Ya copia tu Inkest, tu JavaScript en otro este.
+Y en ese mismo guess.
+¿Trabajas ya?
+Ya luego tú puedes perfecto, gracias. Ya luego tú puedes compararlo y adaptarlo a tu estilo. No vas a tener ese tiempo, no te preocupes. Entonces copiar el punto 1.1 a su índex.
+Chicos, esa es la chamba que tienen ahorita.
+Con eso.
+Por favor, me manda captura si ya tienen eso, los que los que ya mandan captura al WhatsApp a ver para ver.
+Porque esta es la base, chicos, sin esto, sin este HTML no podemos avanzar lo siguiente, ya sin este HTML no podemos avanzar lo siguiente, por eso es que quisiera que lo tenga.
+Ya ahí les voy a dar 1 minuto, 2 minutitos para que lo pongan en su index HTML. y.
+Y le manden, me manden una captura de cómo está, o sea, esto ya súper fácil, súper fáciles.
+Recuerden que su JavaScript tiene que estar limpia.
+Yeah, captura.
+¿Me mandan una captura de esto, OK?
+un momento 1 minuto a la captura porfa
+Bye.
+A ver, estimados, bien.
+Bien, chicos, bien, ahí estoy viendo que mandaron captura bacán. Ya vamos a trabajar sobre eso, chicos, ya vamos con el siguiente paso mientras ahí mandan captura, porque el siguiente paso es como ya tienes tú tú este, vamos a ver en realidad, vamos a analizar un minutito la interfaz. ¿Qué tenemos en la interfaz? Ya el título, obviamente.
+¿Qué más? También me dice un mensaje, pero acá hay varios elementos importantes. La primera, tienes un input, ya tienes un input, que es donde tú vas a escribir, pues el número que vas a adivinar, no, tú escribes 3, luego tienes un botón, el botón adivinar.
+Ya el botón que usa la etiqueta que no hemos visto antes, pero es una etiqueta súper sencilla llamada button, el input, pues el input creo que sí lo conocen. Ya el input es, no sé, los que hemos visto HTM, todos lo conocen, ya todos lo conocen. Si tú te vas a Google, por ejemplo, aquí ya te aparece un input.
+¿Lo ves donde tú escribes? Pues algo, ya tú escribes algo. Eso es un input, chicos, un input es como ese campo de formulario que recoge este el donde tú escribes y se puede recoger ese valor. Ya ahora, ¿qué más tiene este input? Vemos lo que vemos que tiene el.
+Tip number, ¿qué es lo que hace el tip number? Un input puede recibir correo, puede recibir texto, puede recibir este números con el tip number. Lo único que le indicamos es que solamente va a recibir números. Si tú escribes letras, intentas escribir letras ahí, vas a ver que no se va a poder solamente L porque L es una constante numérica.
+Pero de ahí todos los demás no se puede escribir nada. Ya estoy intentando de nada, solamente puedo escribir números muy bien. Luego le está poniendo un ID que vamos a usarlo al momento de capturarlo, un placeholder, que es ese mensaje descriptivo que vemos acá, es el mensaje.
+El placeholder usualmente no sé si ustedes han visto al momento de loguearse, hay como que esos mensajes de coloca tu contraseña aquí ya el placeholder simplemente es ese camp, es el mensaje guía, mensaje descriptivo ya podría poner acá.
+Por ejemplo, coloca.
+Coloca tu número, ya coloca tu número. Miren, en lugar de poner eso, puedo poner coloca tu número y eso se mostraría aquí atrás, solo que no se ve porque le ha puesto un ancho a este, pero en móviles sí lo vemos. Ven, coloca tu número ya. ¿Qué más? El Min y el Max es para establecer el.
+Para establecer los números mínimos y máximos que puede permitir ya estos son como que condicionales, luego el botón que usa esta etiqueta botón, ya el botón lo presionamos cuando nosotros colocamos algo, debería hacer ese procedimiento de adivinar, solo que ahorita no tiene H, no tiene nada de JavaScript, por eso aunque.
+Presiones, no pasa nada, no hay interacción ahorita ya, pero es eso. ¿Qué más? Otros cuatro elementos importantes son estos, el mensaje, nosotros no vemos aquí, chicos, no vemos porque no hay un mensaje, ven, está vacío, pero este mensaje de acá.
+Este mensaje de acá es un este mensaje descriptivo.
+Acá no voy a poner porque me mira, no se puede comentar a JavaScript, pero esto es un mensaje descriptivo que lo vamos a ver mientras interactuamos con el proyecto.
+Cerca, etcétera. Ya ese es este mensaje de acá, el contador ya lo mencionamos, el contador que tiene que tener en nuestro proyecto. ¿Dónde está el proyecto? No, que obviamente tiene que contar los intentos. Recuerda, ya ese es ese contador que va a contar los intentos y luego tenemos el historial.
+¿Qué es lo que hace un historial, el historial?
+Ya esto lo voy a cerrar porque ya no lo necesito. Perdón, se está confundiendo el historial. Lo que hace, chicos, es cuenta los elementos o los números que tú has.
+Que tú haces un propuesto, hay que decirle así, o sea, como un historial, ya es el historial de números de intentos, no es la cantidad de intentos, sino, por ejemplo, ya si el número es 7, ya si el número es 7 y el usuario adivino 5 no adivino. Ok, esto queda como historial, luego adivino 8.
+No, historial tiene 58, ya luego 9, no historial. ¿Lo ves? Son los números que puso el usuario, pero que no, pues que no se acercaron o no dieron con el número que de este que eligió el programa. Ya tienes ese historial de números.
+De los cuales representan los intentos.
+Muy bien, y hay otro más, hay otro más chicos, que es el botón jugar de nuevo. ¿Qué pasa? ¿Por qué no se muestra? O sea, aquí está renderizado, pero ¿qué pasa, profe? ¿Por qué no se visualiza acá un botón? Por lo siguiente, bien, tiene el ID, botón reiniciar, pero también tiene un estilo. ¿Qué estilo tiene?
+Display no, ¿qué hace esta propiedad? Lo que hace esta propiedad simplemente es ocultarlo, por eso es que no se muestra. Y es que para qué mostrar jugar de nuevo si todavía no ha jugado. Cierto, este bostón se va a mostrar solamente cuando ya haya terminado de jugar o haya conseguido pues adivinar el número.
+¿Cierto que es la mejor aparición? No me sirve ahorita que aparezca un botón jugar de nuevo si todavía no lo ha hecho. Ya miren, voy a quitar incluso este estilo para que ustedes vean, mamá, no lo quiten ustedes para que ustedes vean cómo aparece. Ven aquí está, aquí está el botón jugar de nuevo, ya se lo voy a volver porque lo necesito ahí.
+Listo, ya conocemos los elementos que vamos a usar, ahora vamos al.
+A lo que sería la parte 1.2, que es conectar nuestro llave, escribe, es decir, capturar ya vamos a copiar todo esto, chicos, copiemos todo esto.
+Copiémoslo y llevémoslo a nuestro JavaScript ya porque ahí lo vamos a analizar. ¿Qué es lo que está haciendo aquí? Súper fácil, está solamente capturando cada uno de los elementos de los que te acabo de hablar. Mira, está usando Get element by ID para capturar, pues estando el ID de cada uno del input, de la autónoma adivinar, del mensaje, del contador, del historial.
+Del botón reiniciar y de la tarjeta también, que es la tarjeta principal, pues esta no, que tiene todo el elemento. Ya eso es lo único que está usando, que está haciendo mis estimados.
+Está capturando todos los elementos, pero aquí, ojo, ojo, ojo, acá una cosa, chicos, ya.
+Está capturando solo los elementos con los que se va a interactuar. o K, tú no vas a capturar el título porque tú no vas a interactuar con eso, cierto, es decir, que van a este, por ejemplo, el botón vas a interactuar porque necesitas que pase algo cuando presione el botón. ¿El mensaje por qué se captura?
+Porque este mensaje va a variar cuando, pues según la situación, los intentos por qué se capturan o el contador que representa, porque también va a cambiar, lo ves aquellos elementos HTML que se van a modificar mientras yo, o sea, el usuario interactúa con la página web.
+Necesitan ser capturados, ya por eso es que a mí no me sirve capturar el título. ¿Para qué voy a capturar el título si yo no lo voy a cambiar? ¿Cierto, para qué voy a capturar este mensaje descriptivo que está aquí si yo no lo voy a usar?
+Muy bien, entonces esa es la regla que tomen en cuenta, por favor, al momento de capturar, no voy a poner aquí.
+Ya voy a ponerlo aquí.
+Ya capturen solo lo que los elementos que se.
+Para los elementos que se modificarán durante la fracción, ya no falta, no hace falta capturar todos este console log, mis estimados. Este console log es este más que nada con motivos de comprobar que este has capturado correctamente.
+Ya si no has capturado correctamente alguno de los elementos, te tiene que salir un null. Mire, yo voy a poner aquí contador, de hecho voy a poner todos para que vean que efectivamente estoy capturando todos.
+Ya ustedes quieren comprobar que lo han que han capturado bien.
+A Muestren todos los todas las variables en console ojo, ya que son un total de 6, me voy aquí a consola y me está dando todos los elementos. Ven, me ha dado todos los elementos que están aquí.
+Ya si a ti te ha dado todos los elementos y no te ha parecido null, no has hecho bien.
+O K, pero no creo que pues este no haya capturado mal porque literal solosente estamos copiando el este ya listo. Entonces ya capturado los elementos, ya verificado que los hemos capturado correctamente, pasamos ahora sí a usar nuestro primera función.
+Ya a pasar nuestra primera función, pero aquí hasta aquí están todos chicos, están todos hasta aquí ya para pasar a la primera función.
+Un check rápido por favor de validación para continuar un check rápido, ya él me dice sí, genial, estamos hasta ahí todo bacán.
+Todo bacán, estamos ahí bien.
+Bravazo, bravazo.
+Muy bien, si estamos hasta ahí, chicos, ya podemos este pasar a la primera función.
+¿Qué hace esta función? Vamos a copiarlo. La función no, pues hace lo que dice su nombre, no hace muestra el mensaje. Para eso se va a apoyar efectivamente. ¿De quién? De este elemento mensaje. Recuerda, dijimos que el mensaje, el elemento mensaje va a cambiar según la situación.
+Aquí que es lo que estamos haciendo, lo copiamos.
+Este mensaje recibe un este parámetro de texto y un parámetro de color, pide valor de texto y valor de color. ¿Luego qué es lo que hace? Acá vemos que está usando una variable de alcance.
+Alcance, recuerdan alcance.
+Global, por eso es que lo puede usar dentro de la función. ¿Lo ven? Mensaje es alcance global. Por eso es que adentro a mensaje lo está referenciando mensaje punto text content, que era el contenido del texto. ¿Cierto? Con esto le estamos diciendo lo siguiente ya con esto de acá.
+Cambia tu texto según el valor texto. Ya eso es lo que le estamos diciendo al mensaje punto textcontent. Lo mismo con su estilo de color va a cambiar según el valor de color. ¿Luego, qué es lo que estamos haciendo? Está ejecutando.
+Ese mostrar mensaje ya que mensaje le estamos dando bienvenido al juego.
+¿Qué color le estamos dando? A ver, el color se le podemos pasar en hexadecimal, podemos pasarle en nombre si queremos. Ya en este caso ha pasado este hexadecimal que nos está dando el propio laboratorio y nada más. ya Dicho esto, vamos a ver cómo queda. El resultado tiene que ser que el elemento mensaje.
+Muestre este texto que está aquí con este color.
+Ya vamos a verlo, sí funcionó.
+Bien, genial, esto es lo que tiene que mostrar mi estimado. Bienvenido al juego. Si tú tienes esto, entonces has terminado la parte uno del laboratorio exitosamente ya porque el mensaje se está mostrando con éxito. Bienvenido el juego en el color que quieras. Ya tú si quieres puedes cambiar el color.
+Le voy a poner un grupo.
+Y vean cómo es este, no me gusta, ya voy a ponerle.
+White, sí.
+Ahí está, bienvenido al juego, ya entonces vean como yo puedo cambiar el color o k al mensaje como quiera, incluso este puedo editar el mensaje, pero solamente voy a dejarlo ahí. Yo le puse otro color, bienvenido al juego usuario, ya le puedo, puedo modificar el mensaje también de.
+Bienvenido al juego sol, no, bienvenido al juego del calamar, no sé, pero ahí está ese mensaje de bienvenida.
+Okey.
+Y chicos, a ver.
+Hasta ahí yo creo que es súper sencillo.
+Esto es súper sencillo, hasta ahí estaríamos con el laboratorio número, perdón, laboratorio, parte número uno.
+Ya estaré ahí estaríamos con la parte número uno.
+Ok, estimados, todo bien.
+¿Hicieron eso? ¿Cómo vamos con ese check? Le salió, le salió el mensaje.
+Les mostró el mensaje bienvenido al juego.
+A ver, Carlos me dice que sí, genial, Carlos, ya terminaste la parte uno. Entonces, ¿cómo vamos los demás? ¿Terminaron ese mensaje?
+Me dice que se encuentra en reunión, claro.
+Ya vamos a continuar.
+Ya vamos a continuar, chicos, pero no me sería ese mensaje, ya vamos a continuar porque ya terminamos la parte número uno, vamos a la parte número 2 y para esto vamos a ver este concepto que está aquí, eventos. Necesitamos ver ese concepto que está aquí. ya ¿Qué son los eventos?
+¿Qué es un evento, mi estimado?
+Yeah.
+Vamos a compararlo así, ya si tú tienes tu celular, tú tienes tu celular, ya tu celular obviamente recibe mensajes, cierto, tu celular recibe mensajes.
+Tu celular recibe mensajes, o k, pero tú como usuario tú no estás siempre al tanto, o sea, no estás siempre pegado este a tu celular al tanto de tal vez algún mensaje de WhatsApp. ¿Qué es lo que pasa cuando tú recibes un mensaje? ¿Cómo sabes tú que llegó el mensaje? A ver.
+¿Cómo saben ustedes que llegó el mensaje mis estimados? ¿Qué tiene el solar que les indica? Hey, mensaje, ya qué es lo que tienen mis estimados.
+Exacto, ajá, muy bien, Carlos. Las notificaciones, exacto. Lo que tiene el celular es las notificaciones, no funciona así.
+Te avisa la notificación, te avisa justo cuando la acción que es este mensaje ocurrió. ¿Para qué? Para que pues tú actúes, no el mensaje lo que activó, ¿qué es?
+Activo cierto, activó una notificación, el mensaje activó una notificación y esta notificación alerta al usuario, no alerta al usuario.
+Ya alertó al usuario. ¿Entonces, qué es lo que vamos a hacer y por qué mencioné esto? Porque mis estimados tomen el mensaje como si fuera la interacción que hace el usuario en su página web, ya en su página web, que es adivinar, colocar el número, tomen el mensaje como esto, lo que nosotros tenemos que hacer.
+¿Es construir esa notificación para alertar a quién? A JavaScript al programa a que haga algo. Ya nosotros vamos a construir ese sistema de notificaciones, chicos, hay que llamarlo así, ya entre comillas, no es que vayamos a construir una notificación, no, pero hay que llamarlo así ya.
+¿Qué es un evento? Un evento, mi estimado, es simplemente esa señal de que.
+Ocurrió algo en la página, nada más que eso es la interacción que se hizo en la página, por ejemplo.
+Por ejemplo, presionar un botón, presionar un botón es algo que pasa con la página web. Por ejemplo, al entrar aquí y presionar enter pasa algo cierto. Aquí si tú escribes algo, presionas enter, pasa algo, ves aquí se está reaccionando. Yo he prestado enter y ha reaccionado a Google. ¿Lo ves? ¿Qué más?
+Por ejemplo, si le das click.
+Si das clic, es otro este otra señal de que ha ocurrido algo. Ya aquí en Google le doy clic a modo guía, vean y me activa eso, ves, está reaccionando eso o, por ejemplo, hacer scroll.
+No hacer scrot, esos son algunos ejemplos. En realidad, hay varias formas en como un usuario integra manda señales, o sea, que ha ocurrido algo en la página. Ya entonces el evento es esto de acá, chicos, el navegador detecta eventos, ya el navegador detecta eventos.
+Pero lo que falta.
+Ya lo que falta es avisarle.
+¿A JavaScript, qué tiene que hacer?
+Cuando esos eventos sucedan.
+Ya el navegador puede detectar eventos, pero lo que falta es al momento de presionar adivinar pase algo. Miren, he aplastado y no pasa nada ya porque JavaScript no se ha enterado, no le has dicho que tiene que hacer cuando pase eso. o K, entonces veamos.
+¿Cómo crear ese sistema para avisarle a JavaScript? Y aquí están los elementos chicos que nosotros vamos a usar.
+Elementos que nosotros vemos justamente en ese sistema de eventos, en ese sistema de notificación, por así decirlo, vamos a verlo en un caso real. Ya cuando yo voy a presionar adivinar, ya yo el usuario estoy en la página web y presiono el elemento adivinar. Este de por sí, chicos, ya es un este.
+Un componente que es el elemento destino, hay que llamarlo. ¿Qué es lo que hace esto? Pues es el elemento donde ocurre el evento, o sea, donde ocurrió el evento, que en este caso, ¿cuál es el evento? Ocurrió el clic, cierto, el clic, no lo de enamorarse chicos, sino el clic de.
+¿Qué hacemos con el mouse? El evento clic, ya nosotros vamos a este a la página, le damos clic, aquí estamos interactuando. Ya este es el evento que nosotros estamos haciendo y dónde lo estamos haciendo. Nosotros cuando interactuamos, lo hacemos usualmente en un elemento chico.
+Ya aquí lo estamos haciendo en el botón. Usualmente, por ejemplo, pasamos el mouse sobre un área. Aquí, por ejemplo, escribimos dentro de un campo. ¿Lo ven? Usualmente se interactúa con un elemento del HTML, ya sea un botón, sea un enlace, sea un título, un este.
+Es un elemento ya y a ese elemento donde está ocurriendo el evento, ya que sea click, sea este scroll, etcétera. Se le llama elemento destino, elemento destino, elemento target, como sea, ya, pero es el elemento donde ocurre el evento.
+Este clip, este clip lo que ha hecho es activar el evento, ya ha creado el evento.
+Bien, ha activado lo que llamamos ese evento, chicos, que es el evento JavaScript.
+Ya es un tipo de evento en realidad, ya en JavaScript hay varios tipos de eventos.
+En realidad, aquí están los tipos de eventos. Miren, hay del evento de ratón, hay click, hay mouse de teclado, hay este cuando tú presionas un teclado, en realidad cada evento tiene un nombre. Chicos, ya cada evento tiene un nombre, el más usual es el click, pero hay, por ejemplo, el formulario que es submit.
+Hay input cuando este el texto cambia, hay chanque, ya hay miles de eventos, pero el que nosotros vamos a ver solamente es el evento click.
+Y el came down también para cuando presionamos un el evento.
+Una tecla de teclado, perdón, una tecla del teclado ya, pero seguimos, ya le di click al elemento destino. Esto activa un evento, ya esto es un evento, pero qué pasa, mis estimados, hasta aquí no hay nada nuevo, pero nosotros lo que tenemos que hacer es agregarle esta notificación.
+Cierto, esa señal ya nosotros lo que tenemos que agregarle, chicos, es lo que se llama un y esto es lo que vamos a definir, un escuchador de eventos.
+Un escuchador de eventos, este escuchador de eventos lo que va a ser estimado es.
+Bueno, permite, va a escuchar, permite a un elemento escuchar un evento.
+Un evento pues específico, sea clic, sea teclear, etcétera. ¿Y qué es lo que va a hacer? Va a ejecutar algo, una función va a ejecutar una función en respuesta a ese evento. Es esto lo que va a suceder, chicos.
+Ya ese evento lo va a oír el escuchador de eventos, lo va a oír el escuchador de eventos. o K, ha ocurrido un clic muy bien. Como ha ocurrido un clic, yo te voy a hacer esta función que es, por ejemplo, en el caso de adivinar, calcular si es este.
+Bueno, calcular si es exactamente adivinaste o no. ¿Lo ves? Es eso, o sea, es eso lo que está detrás, nada más que eso, mis estimados. Lo que nosotros vamos a hacer es definir este escuchador de eventos. Ya vamos a ponerle escuchadores de eventos a nuestros elementos, por ejemplo, el adivinar para que.
+Al momento de darle el clic, este automáticamente active la función asociada a eso.
+Ya listo, entonces ese es el sistema que vamos a construir ahora, ¿cómo construimos el escuchador de eventos?
+¿Cómo construimos esto? Porque esto ya está, el elemento ya está, el evento se crea automáticamente. Ya conocemos cuáles son los , pues los textos con lo que se refiere a eso, pero lo más importante es esto, el escuchador de eventos. ¿Cómo se construye eso?
+Muy bien.
+Se construye así.
+Ya ahí entra una función importante que todas todos los elementos tienen.
+Yeah, I stop.
+Escuchador de eventos, todos los elementos tienen esta función ya y es chicos, es el llamado add event listener.
+Add event vista, que es básicamente añadir.
+Vamos a poner completo, ya en realidad es elemento punto a bueno, elemento capturado ya acá en realidad es tú capturas un elemento, mi estimado, y a ese a ese elemento tú le adicionas un escuchador de eventos, ya se adiciona al elemento.
+Que tú este que tú obviamente tú sabes que se va a interactuar. Por ejemplo, nosotros sabemos que se va a interactuar con el botón adivinar, entonces a ese le vamos a poner un escuchador de eventos que va a estar siempre al tanto hasta que suceda. Ya vamos a ver, es decir.
+El escuchador.
+De eventos se dedica.
+A esperar, sí, va a estar ahí todo el tiempo a que el usuario haga algo ya que en este caso es el evento, no le dé clic, pase el sombreado, etcétera.
+Dar clic, pulsar un botón. Muy bien, eso, entonces esto de aquí es esta aquí es la sintaxis ya, pero falta más, o sea, esta es la sintaxis general, pero falta más porque no solamente es esto, tenemos que ser más específicos.
+El escuchador de eventos at Event Listerners es una función, mis estimados. Esto es una función de el elemento capturado. Ya cualquier elemento que tú hayas capturado, sea botón, sea título, etcétera, tú le puedes agregar esta función.
+Ya le puedes agregar esta función, pero adentro va a recibir 2 parámetros ya 2 parámetros muy importantes. ¿Cuáles son esos parámetros?
+El primer parámetro es el evento, ya aquí va, aquí va en bueno, aquí va esto de acá.
+¿Esto que ves aquí?
+Esto de aquí es lo que va ahí ya. ¿Qué evento va a ser? Va a ser click, va click, va a ser este presionar un botón, back in down came down, perdón, se llama así, pero ya. Por ejemplo, si sería un evento click, sería así.
+Click ya, ok, así.
+Tiene que ir entre comillas porque es un string.
+Y lo siguiente, chicos, lo siguiente sí es algo, es algo que tal vez este me sorprenda, pero es una función. Sí, ajá, dentro de un de una función vas a meter.
+¿Vas a enviar una función como parámetro? Ya es así, pasa que es la función que pues que se va a ejecutar. Recuerda la función que se va a ejecutar cuando sucede el evento es esa función que está ahí automáticamente. Cuando sucede el evento, esta función se va a ejecutar.
+Ya esta es la sintaxis completa de lo que sería, pues lo que sería este escuchador de eventos.
+Pero hay que verlo en acción para poder entenderlo.
+Ya hay que verlo en la opción, miren, yo voy a crear una función cualquiera, solamente una función de test evento.
+Y voy a poner acá con solo.
+Se presionó el don adivinar.
+Ya, pues adivinen a quién le voy a poner este evento efectivamente al botón adivinar que ya capturamos aquí. Entonces voy a bajar, voy a poner este botón adivinar. Ustedes no lo hagan, por favor, esto es con fines de prueba y acá le voy a agregar tal como comenta acá, ya elemento capturado es el botón adivinar.
+Add event listener, esto sí, event.
+Bien, y acá van a ir los parámetros, la primera.
+La primera es.
+El evento entre comillas.
+Ya es el evento entre comillas.
+Siempre entre comillas, chicos, porque es un string. En este caso, como yo le voy a dar un clic, pues el evento es simplemente clic ya coma coma, porque necesito poner el segundo, pues el segundo este parámetro que necesita ese método de add event listener. ¿Qué es la función?
+¿Es esto de aquí ya ahora cómo mando la función? Aquí es súper importante, ya cómo yo voy a mandar una función como dato.
+Ya chicos, acá hay una diferencia muy grande entre invocar.
+Entre invocar una función.
+E.
+Pasar una función como dato ya cómo se invoca la función, sabemos cómo se invoca la función.
+Simplemente ponemos el nombre de la función entre paréntesis y adentro el dato si lo piden, cierto, hasta ahí no hay nada nuevo, pero ¿cómo vamos a pasar a una función? Chicos, una función simplemente es poner el nombre, ya es eso, así se pasa una función como dato, si tú pones esto aquí.
+Si tú pones aquí directamente esto, vamos a verlo, ya vamos a ver esto de acá, vamos a ver qué pasa si pongo yo directamente así. Acá lo que estoy haciendo es invocando, cierto, vamos a ver, voy aquí y automáticamente, miren, no he hecho nada, he entrado a mi página web, pero automáticamente me dice se presionó el botón eliminar.
+¿Cómo que se presionó el botón adivinar? Pues si yo no he presionado el botón. Ajá, es que lo que pasa es que esto de acá al tú mandarlo como tú mandarlo de esta forma, lo que has hecho es que se ejecute inmediatamente sin que incluso haya ocurrido el evento.
+Ya por eso es que este.
+Por eso es que te está saliendo esto de acá de ese presionar el botón adivinar, aunque no lo hayas hecho porque se está ejecutando inmediatamente. Lo que tienes que hacer es mandar así la función ya pasar a una función como el dato involucra.
+Solo dar el nombre de la función.
+Okey, no se usa, recuerda esto.
+No se usan.
+No se usan paréntesis, acá no se usan paréntesis, ya no uses paréntesis, simplemente ponlo directo, vean acá ahora.
+Vamos a reiniciarlo.
+Ok, aquí me está troleando, es que acá y me invocaron ya, ahora sí.
+Listo, o k vean que no me está saliendo. Ahora sí se se presionó el botón adivinar cuándo va a salir, cuándo creen ustedes cuando suceda este evento. Miren, ahorita está escuchando el evento, ya he puesto el escuchador de eventos, está esperando a que yo haga clic. Vean qué pasa cuando hago clic en adivinar.
+Lo ven, ahí se ejecutó efectivamente eso.
+Ya aquí yo dejé escuchando un listener cuando sucede el evento click que ejecute este test evento, que es esto de aquí se va a quedar ejecutando ahí las veces que pues que esté vivo tu programa, ya las veces que esté vivo tu programa, cualquier momento va a estar ahí escuchando, esperando ese click.
+Para ejecutar este test evento, cuando sucede ese click ejecuta todo lo que está dentro de tu función ya, pero obviamente ese click donde se tiene que dar en el elemento que hemos indicado, pues que en este caso es el botón adivinar. Aquí está un elemento que es el botón adivinar, aquí está otro.
+¿Que es el evento? Aquí está otro chicos, que es la función que se va a ejecutar y aquí está el principal.
+El escuchador lo ven todos esos elementos que nosotros mencionamos justamente donde aquí ven el elemento, el evento, el escuchador y la función.
+Ya están todos integrados solamente aquí dentro, aquí dentro están todos este integrados.
+Ya acá vamos a poner el elemento destino en realidad.
+Para no confundir ya elemento destino, que es ese elemento donde está ocurriendo el evento y listo, vean que al presionar otra vez, pues me va a ejecutar varias veces.
+Ya y eso, chicos, es agregarle un evento a lo que sería nuestros elementos. Ya eso es lo que vamos a agregar a adivinar a esto a diversos.
+Está bien, se entendió eso mis estimados.
+¿A ver, se entendió o explico, este hay alguna duda, alguna consulta?
+Un check si se pudo entender para pasar al siguiente parte del laboratorio o si no normal los escucho en caso tengan alguna duda. April me dice bien, o k, April, gracias.
+Carta.
+No, claro.
+Uh-huh.
+Carlos, Yael, Kevin, gracias, todo claro. o K, perfecto, muchas gracias. Listo entonces.
+Entonces, si todo esto quedó claro, ahora sí, una cosa más.
+Carlos, gracias, Kevin, ya una cosa más que sí, ¿verdad? Me olvidé ya una cosa adicional, chicos, a ver, va a pasar, chicos, que nosotros vamos a ver esta forma de vamos a ver esto ya.
+Es que a ver, hay 2 formas de pasarle una función a un elemento. A veces uno crea las funciones anónimas. ¿Qué es una función anónima? El mismo nombre te lo dice una función.
+¿Que no tiene nombre? ¿Cómo que no tiene nombre? Pero tiene que tener nombre para invocarlo. ¿Cierto? Sí, es verdad, pero es que estas funciones que no tienen nombre es no tienen nombre por una razón.
+¿Por qué son funciones?
+Funciones que pasamos como argumento.
+Como valor, ya a veces tú, este, como vimos acá, no la función acá la hemos declarado y acá la hemos pasado, cierto, pero hay otra forma, chicos, las funciones anónimas no tienen nombre, o sea, la sintaxis es igualita a una función, solo que quítale el nombre.
+Ya nada más que eso, quítale el nombre donde acabamos ya.
+Acá esto ya vamos acá, vamos a copiarlo, es lo mismo que una función con la diferencia de que.
+Pero esas funciones, obviamente, como no tienen nombre, no se usan para cualquier caso, solo se usan cuando los usamos como argumento, como en este caso, no a TV en Internet se usa como argumento. Miren, en lugar de hacer esto, voy a hacer lo siguiente.
+Voy a crear la función aquí, untión, no le voy a poner nombre, voy a poner acá el este y lo voy a abrir aquí adentro. Miren, es como si hubiera usado este espacio aquí dentro para crear ahí mismo la función. Ya funtión espacio acá no tiene nombre porque no lo voy a llamar, solamente lo voy a usar para aquí.
+Este como argumento aquí, este bueno parámetros, no necesito, es este mismo y voy a poner esto de aquí, nada más eso ven, ahí me ahorré esas líneas de código, tener que crear función y llamarlo aquí directo, es lo mismo.
+Vean, voy a reiniciar.
+Adivinar y vean como es la misma funcionalidad, chicos, ya entonces tienes 2 formas, que es crear tu función aparte y llamarlo adentro.
+Y llamarlo adentro.
+O es este crear la función ahí mismo, ya usualmente cuando usan esto de aquí, bueno, cuando es son pocas líneas, ya así no tiene, no hay necesidad de crear una función aparte, pues.
+Bien listo, entonces como ya hablamos de funciones, ahora sí vamos a hacer la siguiente parte del laboratorio.
+La primera parte es crear variables de juego, chicos, copien la parte 2.1 por favor y péguenlo en su script. Yo voy a borrar esto porque solamente era.
+Justo debajo de los las capturas de los elementos, ahí copia ya las variables. Las variables siempre tienen que estar en la parte de arriba, ya las funciones y las demás líneas de ejecución si van a estar abajo.
+Las variables están arriba, por eso quiero que lo coloquen justo debajo de donde están los elementos HTML.
+Muy bien, aquí lo que hemos creado es lo siguiente: lo primero, esto de acá es el número aleatorio entre 1 y 100. Esto ya lo hemos visto en la clase pasada. Recuerdan armar ese código para generar ese número aleatorio entre 1 y 100 usando el mat random y el mat floor.
+Aquí está, eso se va a guardar en número secreto. Número secreto es lo que al empezar ya adivina el programa. Ya al empezar, no más ya el programa está adivinando el número secreto. Bien, luego también estamos creando una variable para intentos. ¿Qué es? Pues es la cantidad de intentos que hace el usuario en un juego.
+Y por último, estamos viendo led historial intentos.
+¿Ya led historial intentos, pero ahí hay algo que tal vez ustedes no, que ustedes tal vez les traiga dudas, no? ¿Y es qué chompiras es este corchete que está aquí? no? ¿Qué chompiras es este corchete que está aquí o qué chicos, qué es? Yo les voy a decir.
+Ya es un tipo de dato.
+A ver, ¿qué es eso? Vamos a cerrar esto. Eso, mis estimados, es un dato array.
+Ya que en realidad es todo un tema, pero vamos a hacerlo, vamos a verlo súper resumido ya array o arreglo. El array o arreglo en realidad es un tipo de dato. Nosotros hemos visto number, string, booleano. Este tipo de dato es un tipo de dato compuesto, hay que llamarlo así compuesto.
+Es un tipo de dato más complejo, no necesariamente porque es más difícil de entenderlo, sino porque por lo siguiente.
+Porque permite.
+Almacenar múltiples valores a la vez.
+Así es como escuchaste, recuerdas que las variables solamente son una caja.
+Donde tú este almacenas solo un valor, digamos 5, lo almacenas ahí y luego cuando le das igual lo puedes cambiar por 6, es decir, solo almacena un valor o K mi estimado, con el array cambia eso. El array ya permite almacenar varias varias este múltiples valores a la vez.
+Ya almacena múltiples valores a la vez.
+Como así es como si tuvieran varias cajas apiladas en realidad.
+Ya vamos a usar esto. Mira, aquí tengo una imagen de array, lo voy a usar para la explicación. Esto es un array, chicos, ya es como si tuvieras, mira, múltiples páginas a la vez.
+Ok, como si tuvieras múltiples cajas a la vez, donde en cada caja se va a guardar un valor.
+Ya en cada caja, múltiples espacios hay que llamarle en una caja ya para no confundir, como si tú tuvieras múltiples espacios en una caja, como si fuera así tu caja. Mira, tu caja fuera larga y a ver, le creas este.
+Un espacio para cada uno de los valores.
+Eso es el papel de un array.
+Ya eso es un arreglo, mis estimados o K, pero falta aquí algo más, y es que permite almacenar valores a la vez de forma ordenada. Así es cómo se almacenan los valores, es decir, cada espacio en realidad tiene un índice, ya que es lo que vemos aquí. Mira, se empieza desde el cero el índice.
+Es este la posición donde se ha almacenado la posición de la caja, hay que llamar así la posición en la caja donde se ha almacenado ese valor. Tenemos cero aquí que empieza siempre de cero, luego va la posición 1234, ya por eso se dice que es ordenada, pero hay otra cosa, usamos estos índices.
+Para acceder a un valor correcto, para acceder a qué valor tú quieres acceder, usamos esos índices de año.
+¿Cómo es la sintaxis para crear una variable? Por ejemplo, un arreglo ya es así, no usamos corchetes, chicos. Con los corchetes tú puedes crear variables de arreglo y adentro, si quieres, le puedes poner 456. B adentro los valores son los que conocemos.
+Numéricos, textos, boolean, ya este acepta varios a la vez. Incluso puedes meter un texto adentro, o sea, juntos lo puedes meter, pero lo recomendable es que solamente uses uno, chicos, uno ya esta es la forma y esto es lo que está usando aquí. Ya no lo vamos a ver tanto, no se preocupen, pero quería ponerlos en contexto.
+Historial intentos, lo que va este se está creando como un arreglo porque vamos a almacenar no solamente un valor, o sea, nosotros no vamos a almacenar solamente 5, sino que el bueno, el usuario va a intentar varias veces, cierto, puede intentar con 9.3.2.1.
+Y esto no se puede almacenar en una variable normal, pues en una caja no puedes meter esto porque una caja solamente admite un valor. Por eso es que ha usado arreglos, porque un arreglo sí permite múltiples valores.
+Ya listo, entonces cuando tú entres a tu este, cuando entres tú a tu ejecución, aquí vamos a ver qué vean aquí, chicos, este console log que está aquí.
+Es con el objetivo o con el fin de mostrar el número que se ha generado, que es esto de acá, ven, se ha generado el 37, ya ese es el número que se ha generado, número secreto que no lo sabemos, pero le hemos puesto aquí para que lo vean.
+Bien, listo, ¿qué es lo que sigue? Ya hemos creado esto, vamos a la parte número 2. Aquí ya chicos viene lo que sería la función de implementar intento. Ya aquí está, esta es la función principal que se ejecuta al momento de darle click en adivinar.
+Ya verificar intento, es decir, si el intento, obviamente el número que escribió concuerda con lo que adivinamos. Ya aquí sí quiero que estén atentos, por favor, ¿qué es lo que tiene todo esto? Ahorita lo vamos a ver.
+Ahorita lo vamos a ver que tiene todo esto es súper fácil, ya vamos a verlo línea por línea.
+Vamos a verlo línea por línea, ya o k listo, vamos a yo le voy a pegar línea por línea para explicarles qué es lo que tiene cada uno y que no se puedan confundir.
+Hey.
+Hasta ahí estamos.
+Si me sigue.
+Hasta ahí estamos, ok, voy a explicar línea por línea.
+Veamos, veamos con la primera línea ya led valor. ¿Qué es lo que está haciendo aquí mis estimados? Aquí lo que está haciendo es primero está interactuando con el input intento. ¿Qué es esto de aquí? Ya es esto de aquí, o sea, el input, el campo donde tú colocas el valor.
+Okey.
+¿Qué está haciendo aquí, chicos? Está accediendo a la propiedad value. ¿Qué hace la propiedad value? La propiedad value es el valor que tú estás poniendo en el input. Ya si tú pones 5, esto de acá lo que retorna es pues un 5 ya si tú pones acá, ta ta ta ta ta de 23000 sí, 23123.
+Eso es lo que está capturando acá. Eso es lo que hace evalúe, mis estimados. Ya es simplemente esto. Lo que pasa es que, al igual que prompt, retorna un string texto, entonces lo está convirtiendo usando un número. Ya vamos a ver.
+A.
+Obtenemos el valor del input y lo convertimos a nada más, lo guardamos en valor. Ya seguimos con la siguiente línea. La siguiente línea es todo esto, chicos. La siguiente línea es súper sencilla, lo vimos en un ejemplo de en el ejemplo del reto. ¿Se recuerdan? Es simplemente validar la entrada. Recuerden que comentamos que.
+Nosotros, como programadores, tenemos que considerar todas las opciones que pueden dar. Esto de acá es para validar si obviamente el valor que hemos escrito es un número ya, y además que ese número esté entre 1 y 100, que es a lo que refiere el juego. No, el juego tiene que ser entre 1 y 100, no me no vale, pues que el.
+Que el usuario coloque 200, no, ya está saliéndote del juego. Entonces, justamente esa es la función de validar entrada, ya validar entrada nos permite.
+¿Qué pasa? Vamos a leer esto, si es si, por ejemplo, aquí lo que hace es is nam valor, lo que nos dice es si es un número, si el valor es un número.
+O el valor es menor que uno, o perdón, sí, o el valor es mayor a 100, o sea, ya no estás con los rangos que yo quiero. Entonces me dice que me da un mensaje de alerta, ya me dice que ingresa un número uno al 100, porque bueno.
+¿Qué es lo que ha pasado aquí? Lo que ha pasado aquí, chicos, es que yo voy a ingresar un número 5 ISNAM, o sea, es un número, pues sí, es un número ya entonces no debería ejecutarse. Vamos a probarlo, ya vamos a probarlo.
+Déjeme verificar algo.
+Nos con Butum adivinar punto advenis, verificar intento, vamos a ver.
+Le estoy poniendo ya esta función al botón adivinar, es decir, que al momento de dar clic me voy a ejecutar ese intento, vamos a ver.
+Ya vean que no he puesto nada, es un texto y me está ejecutando esto, ya voy a poner un cero, adivinar y me está dando eso.
+Cero adivinar y me está dando eso porque ha entrado en este if.
+Ha entrado en este if y obviamente cero no es menor que uno.
+Yeah.
+¿Cómo ha entrado un texto acá?
+También aquí, sí, bueno, no puedo poner texto, obviamente, pero si yo le doy a adivinar, le estoy pasando un, si no me equivoco, un define, no le estoy pasando un espacio así, ya entonces está como string y como es un string, obviamente cumple la condición, ¿no?
+Cubre la condición de que no es numérico, entonces va a mostrar ese mensaje.
+¿Por qué el return, chicos? ¿Por qué el return? Porque el return termina la ejecución, es decir, ya validé que este ya hice lo que quería que haga este if, que era validar que los valores que me está dando el usuario no cumplan con lo que yo quiero en mi juego.
+Ya, y como ya cumplí con esta función, ejecuto un return para terminarla. Ya no me sirve ejecutar lo que venga porque yo no puedo tratar con un cero, pues yo no puedo tratar con un espacio. ¿Para qué? Si yo dejo que pase, va a contaminar el código que tenga debajo.
+Muy bien, por eso es que pone un return pasivo aquí. Sí, chicos, esto es un truco que usamos los programadores para terminar funciones, este funciones así a secas, ya colocar un return sin nada que enviar, o k sin nada que enviar. Muy bien, aquí vemos una técnica, por ejemplo, que usan los programas.
+Muy bien, entonces siguiente línea, la siguiente línea es simplemente para incrementar intentos, chicos, ya esto es súper sencillo.
+¿O K, ¿qué es lo que está pasando aquí? A ver, esto sí, tal vez le parezca extraño, intentos más. ¿Qué es ya intentos más más? Aquí lo que estamos viendo es un operador nuevo, este es el operador de incremento. Ya esto es igualito a esto, chicos, ya es igualito a esto, esto es como decir esto.
+Intentos es igual a intentos más uno. Lo que hace este operador de incrementos es sumarle uno a intentos, nada más que eso como lo vemos aquí. O sea, es como esto de acá, intentos es igual a intentos más uno. Si intentos será cero como está aquí, lo ven.
+Ahora va a ser 0 + 1 0 + 1 o k 0 + 1 intentos, entonces va a ser uno, ya es matemática, aquí solamente matemática.
+Es Esto es igual a esto.
+Ya listo, muy bien, y acá lo que pasa es bueno, acá ya está interactuando con el contador que está aquí, chicos, acá está dándole ya cambiando ese contador, vean contador, text content, intentos es bueno, acá le está ya sumando a intentos a uno.
+Ya vean, vamos a verificar, le voy a poner uno, vean cómo ha cambiado, 2 ves cada vez que yo presiono adivinar, en realidad está sumando, chicos, ya está incrementando, o sea, a este este incremento se le está incrementando a esta variable que está aquí, que empezaba con cero.
+Pero ahora con cada click que le dé por el por el evento, este de click ya que ejecuta cada verificar intento, está incrementando más. Ya empezó con 0 + 1 intentos vale uno. En el siguiente click es intentos 1 + 1.
+Ahora intentos vale 21 + perdón, 2 + 13 intentos vale 3 lo ven 456. Así con cada vez que se ejecuta verificar intentos, que es incrementar el contador y mostrarlo en pantalla. Esa es la función que está haciendo esas 2 líneas que están ahí.
+Bien, siguiente agregar el historial. ¿Qué hace esta función de aquí? Vamos a poner agregar el historial, como dice ahí mismo, ya es poner el historial de valores que estás adivinando. Ya esta es una función push push, ¿qué es lo que haces?
+Push, mis estimados.
+Es el método para insertar un valor en.
+El arreglo ya ese es el método para insertar un valor en el arreglo. Lo que está haciendo aquí es insertando en el historial de intentos que ahorita está vacío, le vas a meter el valor que ha escrito, pues el usuario por el campo de texto ya y simplemente aquí lo que está haciendo es mostrarlo ya historial test content, es decir, aquí la interacción.
+Vamos a verlo, vamos a poner, por ejemplo, 5, adivinar y vean, 6, adivinar y vean como el historial está aumentando. ¿Lo ven? Está haciendo un push cada vez que yo haga el adivinar. 7.
+Lo inserta dentro del arreglo, mis estimados, ya 567 lo ven y también está aumentando los intentos. Vean como ya está funcionando, ya está, se está viendo la funcionalidad de nuestro programa. o K siguiente, siguiente ya es esto de acá, chicos, esto es súper sencillo, esta es la lógica.
+¿Que usa el programa para comparar? Pues ya esa es la lógica que usa el programa para comparar. Vamos a poner el documento muy bien. Ya la comparación es sencilla, si el valor que escribió en el input, que es esto de aquí que hemos capturado aquí, es igual al número que se generó, el número secreto.
+O sea, el número aleatorio que genera el programa. ¿Entonces, qué mensaje va a mostrar? Pues correcto, adivinaste el número ya correcto, adivinaste el número. Hasta ahí podría estar bien, pero aquí, chicos, le he agregado otras 2 cosas interesantes, ya que ya viene en la creatividad del programador. ¿Cómo quieres que tu programa evolucione?
+La primera.
+Es esto de acá, el botón adivinar se desactiva. Esta es una función del botón adivinar de los botones en realidad, que es disabled.
+¿Qué es lo que hace esto? Lo que está haciendo acá es desactivar el botón adivinar. ¿Por qué? Porque ya cumpliste con tu propósito. Por eso, o sea, ya cumplió con adivinar el número. Entonces ya no hay necesidad de presionar otra vez el botón. Por eso es que ha puesto desactivado el botón adivinar. Lo siguiente es.
+And.
+Vean acá, chicos, lo que ha hecho acá es ahora al botón reiniciar. Recuerden cuando teníamos que mostrar ese botón reiniciar, cuando ya haya terminado el juego. Cierto, aquí lo que está haciendo es eso, está mostrando el botón reiniciar y está usando otro método. Ya le ha quitado el none que está aquí.
+Y le ha puesto lo ha sobreescrito por inline block.
+Inline blog, que es este otra propiedad que permite, pues que sea un elemento en línea, ya elemento en línea. ¿Y eso qué hace esta propiedad acá? Chicos, esta propiedad acá es lo van a ver en vivo. Miren, vamos a verlo en vivo.
+Esta propiedad lo que hace es, vamos a ver, miren el número 87, le doy a 5, me dice muy bajo en denta más alto. A sí, este, obviamente hay otras condiciones para evaluar si como no es igual, si es mayor, en este caso te va a decir que es muy alto o si es menor te va a decir que es muy bajo.
+Aquí ya me está diciendo 6 muy bajo, no 70 muy alto, así pues el número 52. Miren, voy a poner 52 y vean lo que pasa, es decir, voy a ejecutar, voy a hacer que se cumpla la condición de que lo adiviné. Listo, vemos lo que pasó, chicos, todo lo que pasó.
+Ya adiviné el número, me sale el mensaje correcto, era el 52. Lo siguiente, vean aquí el botón adivinar se ha desactivado, no le puedo dar clic a esto. ¿Y qué más ha pasado? Ha aparecido el botón jugar de nuevo. Vean, ha aparecido el botón jugar de nuevo y también ha pasado otra cosa.
+Sea, si notan la tarjeta, si lo noto, obviamente la tarjeta se ha alumbrado, lo ven, ha cambiado de color, se ha resaltado como para dar esa señal de que genial lo adivinaste, ya eso es lo que es lo que hace estas 2 líneas de acá.
+Ya ha cambiado el borde, el color, acá ya voy a poner otra vez, ha cambiado el borde de la tarjeta y le ha puesto un boxhaw, nada más que eso ya le ha puesto estilos a la tarjeta para que se vea así como lo ves tú aquí.
+Ya ha usado ese style, ese style, esa propiedad style que nosotros mencionamos y ha hecho referencia a esas propiedades y adentro, pues le ha pasado los valores que quieres tú esto. Muy bien, entonces eso ya es respecto a eso y lo demás, ¿qué es lo que hace aquí, chicos?
+Aquí lo que hace lo último de este código es, como comenta acá, limpia el input, porque si tú ves acá ya.
+Voy a adivinar el número otra vez.
+Pues ya lo limpió, pero ha limpiado el campo porque nosotros tenemos que este preparar el juego. Bueno, ha limpiado el campo, nada más que eso y ha dentro del input ha puesto focos.
+¿Qué es focus? ¿Qué este es enfocar? Ya se ha puesto el prompt dentro de lo que sería el intro, nada más que eso es lo que ha hecho ahí. Entonces con eso, chicos, ha terminado lo que sería la función principal, que es la de verificar intento.
+Luego, obviamente, lo ha asignado al botón adipinar o k o k chicos, hagan eso, por favor, es súper sencillo, no simplemente copian, verificar intento que es todo esto y se lo pasan aquí.
+Se lo pasa al botón adivinar.
+No asignar el evento click al botón adivinar para que ejecute la función verificar intento. Ya tienen que hacerlo abajo chicos, al final ya copien la función y luego pásenlo a bueno, pónganle un escuchador de eventos al botón adivinar y pásenle ese verificar intentos.
+Ya, y ustedes ahí pueden ver si funciona, si funciona sencillamente porque va a funcionar. Ya van a ahí adivinar números, por ejemplo, vayan a su consola, aquí está el número que a este.
+Ya para que no estén ahí probando cuál cuál es, ya ahí en su consola está. ¿Qué número es? Ya a ver chicos, ¿tienen alguna duda ahí?
+Tienen algunos de chicos hasta ahí.
+A ver, me comentan, porfa.
+Todo claro, hasta ahí se están haciendo esa parte que es.
+Ya con eso, porque con eso ya básicamente ya estaríamos cumpliendose lo que sería el proyecto de porque ya nuestro juego está adivinando, ya nosotros colocamos valores y lo está adivinando. Muy bien, lo está haciendo eso o K chicos.
+Muy bien.
+¿Luego, qué es lo que seguiría? Ya luego seguiría la parte. En realidad, esta parte de acá es súper sencilla. Esto también solamente lo voy a porque lo voy a pegar porque no necesita tanta explicación. ¿Qué es lo que hace aquí, chicos? Miren, lo que hace aquí es la funcionalidad que nosotros, nosotros usualmente hacemos al momentos de.
+¿Al momento de estar en una página web, no les ha pasado a ustedes que, por ejemplo, en Google, cuando ustedes escriben algo, no sé, lucha libre ya WWE, escriben algo, o sea, acaso nosotros tenemos que buscar, mira, ni siquiera hay el botón de buscar, no. ¿Qué es lo que hacemos? Presionamos enter.
+Cierto, en los formularios o cuando pasa eso, escribimos algo y presionamos enter, cierto, porque sabemos que enter hace que se ejecute ese formulario. Entonces lo que vamos a hacer acá, lo que hace esta función de acá, es que al momento de escribir ya no voy a presionar adivinar.
+Simplemente más facilito, ejecuto enter. ¿Lo ven? Sigo, no, a ver, no lo ven, ejecuto enter. ¿Qué es lo que ha hecho acá? Súper fácil, ha usado la función el evento key press, ya no es click, key press es esta función.
+Es un evento que se dispara cuando el usuario presiona una tecla. Ya luego le hemos creado, miren aquí lo que ha hecho, ha creado una función anónima que ya habíamos mencionado, que se puede crear, que no necesita nombre y se pasa directamente dentro de, pues en este caso el escuchador de eventos, lo ven.
+¿Qué es lo que tiene esta función anónima? Adentro tiene a ver qué es lo que vas a hacer cuando tú presionas un botón. Lo primero que vas a hacer es o k, ¿qué botón? No, porque este key press no es cuando tú presionas enter, sino cuando presionas cualquier botón, cuando tú presionas IZW.
+Va a ejecutar eso, ya va a ejecutar eso, mira.
+Ya no está pasando nada porque no le he puesto, pero acá lo que hace es cuando presiona enter.
+Quiero ejecuta esto, no ejecuta esa función solo cuando presiona enter. Si no, miren, voy a voy a agregarlo yo acá, no lo hagan ustedes, sino.
+Con solo, miren, voy a usar tecla presionada.
+Ya tecla presionada, chicos, ya veamos aquí.
+Miren, voy a escribir un número y no voy a presionar enter, sino voy a presionar W. Miren cómo he identificado que efectivamente he presionado W.
+Ya presiono y presioné, la tecla presionada fue y presiono la tecla presionada fue o, ¿lo ven? ¿Cómo he identificado eso? ¿Lo ven, chicos?
+O K, lo que pasa es lo siguiente: es que en la función ya lo que pasa, ¿cómo es que he identificado eso? Porque dentro de la función se puede pasar lo que sería un objeto llamado el evento. Sí, chicos, el evento también es un objeto ya y se le puede pasar a la función que está dentro de tu add event listener.
+Como está acá, se le pasa adentro como parámetro, automáticamente ya lo reconoce. Tú escribes simplemente evento y puedes acceder a las propiedades que tiene eso.
+Ya entonces eso es lo que ha pasado ahí, chicos, pero acá lo único que quiero es que al momento de presionar enter me ejecute todo esto que está aquí, ya no solamente cuando presione adivinar, sino cuando ejecute enter. Bien, o k chicos, eso sería el código de.
+el 2.4 de agregar el enter para eliminar
+Bien, chicos, hasta aquí me siguen para hacer esta parte 3, que es directo ya, o sea, esto ya no necesita conceptos, esto también ya lo hemos visto.
+Todo bien, checa ahí, todo claro, chicos, para terminar con esto ya de una vez, ya unos si me dan unos 10 minutos más, por favor, con eso ya lo acabaríamos. o K Carlos, muchas gracias.
+Ya bien, que muchas gracias. Ya con eso vamos a acabar esto de aquí bien, chicos, o k.
+Y la parte número 3 que viene ya con implementar, o sea, hasta aquí ya en realidad el juego ya es funcional, ya es funcional, estimados, ya adivina el número, te da los mensajes. Lo que es esta parte 3 es este mejorar tu juego y agregarle algunas cositas más. Muy bien, la primera es la siguiente.
+Reiniciar juego ya el mismo nombre lo dice, pasa lo siguiente: y es que cuando tú escribes intentas adivinar, pues obviamente tu número ya acá ocurre ese procesamiento de pues detrás, correcto, la función se ejecuta.
+Vamos a adivinarlo. Lo correcto es que lo adivinemos, pero pasa algo, chicos, jugar de nuevo no tiene nada implementado todavía. Ven, quiero jugar de nuevo, pero no tiene nada implementado. Para jugar de nuevo tengo que reiniciarlo ya, y obviamente eso no es profesional, cierto.
+No voy a estar reiniciando todavía para hacerlo, o k, entonces tenemos que agregarle a ese botón de jugar de nuevo.
+A ese botón de jugar de nuevo su funcionalidad y esa funcionalidad es esto de aquí.
+Es el reiniciar juego.
+Ya voy a copiar y lo voy a pegar aquí abajo.
+Voy a copiar y lo voy a pegar aquí abajo ya. ¿Qué es lo que hace este reiniciar juego? Lo que hace este reiniciar juego, mis estimados, es simplemente.
+Ya hace como una limpieza, ya hace una limpieza de veamos, veamos, vamos a jugar, ya vamos a jugar, ta ta ta, vamos 8, vamos 20, ya vamos 64, ya chicos, hasta aquí.
+Lo que ha hecho el programa obviamente ha jugado con nosotros, pero han pasado muchas cosas que hay hasta acá. Primero, los bordes tienen ese color. ¿Qué más? Los intentos están en 5, hay un historial, hay un número, este, es decir, hay muchas cosas, muchos datos.
+Del juego que hemos jugado ya hay bastantes datos del juego que hemos jugado y si nosotros queremos jugar de nuevo, esos datos no nos sirven porque son es un juego nuevo, pues es un juego que va a empezar desde cero. Entonces yo no necesito ya la cantidad de intentos 5, no necesito ese historial, no necesito ese mensaje que me está mostrando de correcto en el 64.
+No lo necesito, ya lo que va a ser el jugar de nuevo va a ser por atrás una limpieza, una limpieza para que todo empiece desde cero, para que el juego pues comience así desde cero. Ya eso es lo que está haciendo acá.
+¿Qué es lo que hace acá? Otra vez adivina un número. Miren, adivina otro número ya porque el anterior ya sé, pues ya sé, pues ya se adivino, ya se adivino. o K, entonces necesito otro número que adivinar. Baja el intento a cero, reinicia el contador porque vas a jugar de nuevo.
+¿Qué más? Limpia el historial de intentos, mi estimado, el historial de intentos que tenía tus intentos de la cantidad de números que tú habías puesto. Ahora lo va a limpiar bien. ¿Qué más tenemos el contador? Bueno, el mensaje que va a mostrar aquí, chicos, ya el mensaje ahora va a mostrar en lugar de intentos.
+¿Te has puesto? Va a mostrar ese test intentos, ya va a reiniciar el contador visual, va a limpiar el historial visual. También no solamente está limpiando por detrás los cestes.
+No está, no solamente está limpiando por detrás, mis estimados, lo que sería, pues este.
+Las variables, sino también están limpiando la interfaz. Ya con esto lo que estoy haciendo es limpiar la interfaz, ven el contador, el historial y también el mostrar el mensaje ya que es nuevo juego, adivina el número. Bien, qué más seguimos este.
+Seguimos este actuando directamente en la interfaz porque si recordarán al momento de adivinar el juego, desactivamos el botón adivinar y obviamente para jugar de nuevo tenemos que activarlo. Entonces aquí vamos a reactivar el botón adivinar.
+Vamos a ocultar chicos el botón reiniciar. Ya vamos a jugar un nuevo juego, así que no nos interesa que aparezca ese botón de nuevo juego porque estamos. Vamos a jugar un nuevo juego. Ya vamos a limpiar el input, que es esto de aquí ya.
+Y pues vamos a poner el foco.
+Poner el foco.
+En el info.
+Poner el foco es poner este prompt para escribir, chicos, este prompt que ven que está ahí alumbrando y parpadeando. ¿Dónde escribir? Se lo va a poner aquí. Eso es lo que está haciendo ya y también está reseteando la tarjeta, pues porque la tarjeta se había pintado de un color verde. Si lo recuerda, ya eso es lo que va a hacer.
+Y listo chicos, ya vean como ya lo puse también aquí al botón reiniciar, al botón reiniciar le puse ese escuchador va a ejecutar este reiniciar juego cuando lo presione. Vamos a ver cómo funciona, voy a jugar, voy a poner 3.
+Voy a poner 2, voy a poner 6 o K, vamos a adivinar qué número es 76 no 76, correcto, lo adiviné, ya se llenaron de datos, pero lo adiviné. Ahora voy a resetear, miren, voy a presionar jugar de nuevo ya.
+Listo, chicos, se ha limpiado todo. Ya vean aquí que me ha calculado un nuevo número secreto, 59. ¿Qué más? Se ha limpiado el input, el botón adivinar.
+Se ha activado, me sale el mensaje de nuevo juego, también la cantidad de intentos ha bajado a cero y no hay ningún historial.
+Todo limpio, chicos, para que puedan jugar de nuevo sin necesidad de refrescar. Ya no tengo que refrescar, sino simplemente presionar ese botón bien o k eso es lo que logramos con reiniciar el juego o ky el último que vamos a ver es.
+La función de pista cercanía, esto es opcional, chicos, esto es opcional. De hecho, esto se los voy a dejar a ustedes ya porque es súper sencillo. Lo que hace esta pista es mejorar. Esto es mejorar, mis estimados, esto de aquí.
+El mostrar de muy alto, muy bajo que está aquí, esta pista que está aquí de es que esta no es muy específica, no es muy específica porque este tú no sabes qué tan alto o qué tan bajo estás. Ya lo que agrega este esta función de pista de cercanía es eso, ya va a permitir.
+Que pues este sea más específico el mensaje que le da durante la jugada. Vea, yo le puedo adivinar que 63 me dice muy bajo, intenta más alto, ya, pero ¿qué tanto más alto? No lo sé, ya voy a poner 30, pero me sigue saliendo ese mensaje de muy bajo, intenta más alto.
+Ya entonces lo que hace esta función de pista de cercanía es que le da una mejor pista, se crea como una función aparte y esto de acá se pone dentro del verificar intento, o sea, se cambia esto de aquí, pero eso se lo dejo a ustedes chicos. Ya con esto, ustedes verifican si el juego obviamente es funcional.
+Como indica acá, escriben un número, escriben otro o k lo que hemos estado haciendo mientras estamos interactuando con el proyecto. Listo, cuando hayan visto que todo funciona, OK le este, pues hace suben ese cambio a su repositorio ya porque recuerden.
+Que este proyecto, chicos, tiene que estar en su repositorio remoto ya.
+Debería estar en un repositorio remoto para que ahora este suban con git. Bueno, hagan el proceso de del git, no a el add, el commit y el push para subirlo a su repositorio remoto. Entonces es eso, chicos, ya acá hay logros adicionales que voy a tomar en cuenta.
+Para el porque esto ya es el proyecto final, chicos, ya incluso ya es como si ya tuviera, si no hubieran hecho el proyecto final, eso de acá ya es como si se hubieran hecho el proyecto final. Entonces sí les recomiendo que uno ya para que no todos tengan el mismo proyecto, cámbienle de color, si quieren le pueden cambiar de estilo o K.
+Cámbienle eso porque ya hasta aquí hemos hecho casi el 70 80% del proyecto final que deberían presentar el miércoles. Ya hasta aquí ya lo tienen casi completo. Entonces yo les recomendaría que le cambien el color a lo que ustedes quieran, ya al color que a ustedes les agradaría mejor.
+Camilela, si quieren, por ejemplo.
+Aquí ven que el estilo está dentro del propio HTML. Si quieren, pueden separarlo en CCC ya si dominan eso, claro que sí. Yo confío en eso y aquí están los estilos. Vean que en el mismo HTML están los estilos que tienen los elementos.
+O K, hay input, hay control, hay h Uno. Ahí están los mismos estilos que ustedes pueden cambiar. Si quieren, apóyense de la IA, chicos, ya hemos visto cómo se usa la IA, apóyense si quieren de la IA, pásenle el código y pregúntenle a la IA, o K, este, ¿qué estilo quieres tú?
+Minimalista, moderno, caricaturesco. Ahí interactúa con la IA para que te ayude en eso, no la IA, chicos estimados, está permitido. No se preocupen, necesito también que evolucionan nuestras habilidades usando lo que sería esta herramienta.
+No, y hay logros adicionales y ya muy bien, chicos, entonces el entregable es.
+A ver, el entregable ya de por sí se vería en lo que sería.
+Hagan el entregable, obviamente el laboratorio 2, pero también preparen este proyecto porque es el proyecto que van a presentar el día miércoles. Ya no me han confirmado cómo sería, no vamos, no van, no van a entrar otras personas, pero no me han confirmado, lo van a presentar obviamente ustedes porque el miércoles no va a haber, no va a haber.
+Clase mía, o sea, yo no voy a dejar alguna clase, sino que yo voy a evaluar, creo que en vivo sus proyectos ya como lo explican eso, pero no me han dado un concepto de cómo sería. Ya creo que incluso serían solo 5 minutos por usuario, ya serían 5 minutos por persona.
+¿Cómo van a presentar su proyecto? Y chicos, si es necesario que presenten el proyecto si quieren aprobar ya si quieren aprobar el Co 101, me comentaron que este es el proyecto final, ya este es como que el metegol gana. Sí, este el laboratorio obviamente son puntajes, pero.
+Este proyecto define que ustedes, obviamente, este es como que un necesario, un vital para que cuenten como aprobados. Por eso es que es necesario que lo presenten y de por sí, chicos, pues el proyecto ya está aquí, no ya está casi aquí, sino que.
+Háganle esos cambios. que.
+Que les he comentado ya en los cambios que le he comentado de personalizar, de agregarle esos logros excepcionales, de subirlo incluso a su a su git y de y deployarlo. Muy bien, y con eso ya, pues con eso lo avanzaríamos o k chicos.
+Entonces, en todo caso, si hay alguna duda, me pueden contactar.
+Si tienen alguna pregunta hasta aquí, me comentan, porfa.
+Ya para pues cerrar esta clase.
+Chicos, me comentan cualquier duda, por favor, hasta aquí no nos quedemos con dudas. Recuerden que es la última clase. Bien, voy a estar en WhatsApp, sí, pero por acá si quieren me pueden comentar también algo si tienen algo que decirme.
+¿Alguna duda de cómo es lo que le tengo que agregar, profe, qué voy a presentar?
+O K, te va a presentar ya el detalle que yo tengo ahorita, Yarly, pero también lo voy a escribir por WhatsApp. es.
+¿Se va a presentar este proyecto en clase en vivo? O sea, tú lo vas a ejecutar y vas a interactuar con el proyecto simplemente unos minutos, ¿no? Bueno, vas a como si tú fueras un usuario que interactúa, ¿no? Y este.
+Y eso no vas a ver el proyecto funcional.
+Lo que simplemente es.
+Es simplemente eso, no el código, el código. Yo lo voy a ver cuando me pases el repositorio. No hay necesidad tanto de que tú me comentes el código, pero lo que sí me tienes que comentar es cómo funciona y tal vez si quieres puedes hacer algunos, se va a evaluar.
+Como tú también usas elementos de programación para explicar cómo pasó algo, ya cómo pasó algo, así como si tú también estuvieras dando una clase y explicando cómo es que armaste el proyecto. Ya vas, vean, véanlo así más o menos o k, pero no hay necesidad tanto en detallar cómo es el código, porque el código yo lo puedo revisar.
+Así, tal cual, okey.
+Sí, exacto, este explica el funcionamiento, pero sí explica, por ejemplo, las distintas funciones que hay, no, por ejemplo, del cambio de mensaje, el número de intentos, el los que incluso las que tú añadas, no, o como el cambio de color, incluso adicionale algo si quieres, ¿no?
+Porque eso se va a tomar en cuenta, porque hasta que hemos visto que casi todos chicos tenemos el mismo proyecto, ya casi todos, porque hay el mismo colores. Entonces por eso yo les pido, yo les les recomiendo que lo personalicen a ustedes. Ya las funciones ya están, pero personalicenlo en colores, en posición.
+Personalicen los chicos, incluso los mensajes que muestra personalicen ya a cómo es ustedes para así ver proyectos variados, chicos, porque hay proyectos hasta acá. Todos tenemos el mismo laboratorio, el mismo código. Muy bien, entonces eso se entonces se se dejó en claro eso mis estimados.
+Okay.
+O K, John, muchas gracias.
+Perfecto, que gracias.
+Gracias Yale por ese check. Está bien, entonces hasta ahí no habría alguna duda más, pero si la hay me pueden contactar por WhatsApp. Voy a pasar las pautas, voy a preguntarle mejor a Gabriela, pero si es como les comenté, ya lo voy a escribir también por WhatsApp para los que ya se retiraron, tal vez por el tiempo lo puedan ver chicos entonces.
+Sin nada más que decir ya para no quitarles más tiempo. Gracias por estar hasta el final. Conmigo será hasta el miércoles. Bien, que tengan muy buenas noches, chicos. Chao, chao, bye.
+Hasta luego, Ángel, gracias por eso. Nos vemos, Yael. Gracias, voy a.
+Dejar de grabar.
+
+Orador 1 ha detenido la transcripción

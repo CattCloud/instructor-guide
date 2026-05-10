@@ -1,0 +1,1235 @@
+Clase_07 Code101n19
+16 de marzo de 2026, 12:36a.m.
+3 h 22 min 35 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   0:05
+Buenas noches, programadores y programadoras. ¿Qué tal, chicos? ¿Cómo están? Buenas noches, Carlos, Kevin, la mujer, Yael, Abril, Yosibel, John y Diego. ¿Qué tal?
+Ah, se me escucha.
+¿Qué tal, Kevin?
+No.
+Buenas, muchas tontas, chicos. Hola, Pri, buenas noches.
+Veremos.
+Bien.
+Ya esas son las gracias, Kevin, gracias por la respuesta, ya son las 7:36 entonces.
+Sí.
+Ya podemos darle pase a la clase. Hola John, hola Jadel, ¿qué tal? Buenas noches, hola Josidel, ¿qué tal? Buenas noches, bendecido día con todos. Entonces vamos a empezar ya esta clase, no vamos a.
+Vamos con todo bien, estamos en la clase número 7, mis estimados programadores y programadoras, y este hoy va a ser una clase algo distinta a las anteriores. Muy bien, distinta en el hecho de que hoy no se va a ver tantos. ¿Qué tal, Carlos? Buenas noches, no se va a ver tanto lo que serían conceptos teóricos.
+Como si fueran en las clases anteriores, sino que va a haber más participación de ustedes. Ya hoy día el objetivo es terminar el laboratorio. Es un laboratorio corto, la verdad, divertido. Si a ti te gusta este, no sé, este diseño o experimentar ya en este laboratorio quiero que deje influir sus ideas, ya porque básicamente está centrado en eso.
+En lo que sería diseñar bien, entonces este por eso digo que va a ser más con participación suya que mía. Claro, yo sí voy a estar, pero yo voy a hacer como que el modelo, como que el paciente es cero y ustedes van a plasmarlo con sus propiedades. Ya lo van a ver cuando veamos laboratorio.
+Ya, pero antes. este.
+Antes lo que quiero hacer es un repasito, chicos, básicamente un repasito sencillo de lo que vimos en la clase 5 y 6, porque quiero , quiero ver dónde estamos parados hasta el día de hoy. Vale, vamos a hacer un pequeño Kahoot también hoy día de 10 preguntas, similar a la anterior, que van a agrupar justamente los temas de las 5:00 y 6.
+Por eso quiero hacer un repaso. Bien, en la clase 5 vimos este herramientas de desarrollador, además de haber comandos, vimos algo muy importante que usa un, digamos, un programador que trabaja en una empresa hoy en día, cierto, 2 en realidad vimos Git y vimos GitHub. Bien, sabemos qué es Git.
+Git es esa, es ese controlador de versiones, cierto, es un controlador de versiones que nos permite pues guardar los cambios que realicemos, las modificaciones que hagamos a nuestro proyecto. No nos permite básicamente hacer eso y movernos entre distintos puntos o commits o guardados como lo conoce aquí. Bien, en esta, en esta etapa lo que hicimos fue clonar.
+De un repositorio que estaba en GitHub. Sabemos que GitHub es este ese servicio de mejoramiento de páginas web, o sea, de perdón, de repositorios en la nube. Entonces ahí subimos nuestros repositorios y de ahí también los podemos traer. Y a eso se le llama justamente clonación. No clonamos nosotros con git clone.
+¿Qué es este? Pues uno de los tantos comandos que nos brinda GitHub. Bien, perdón, Git, entonces a ver, hasta ahorita estoy.
+Ya entonces vimos también que habían áreas en Git, cierto, o sea, Git nos ofrece áreas y tenía un flujo de trabajo sencillo, ya relativamente sencillo, que básicamente cuando creamos nuestro proyecto, nosotros tenemos un espacio de trabajo que en realidad es la carpeta de proyecto, no tenemos la carpeta de proyecto. ¿Qué es lo que teníamos que hacer luego?
+Teníamos que avisarle a Git que vamos a trabajar en esa carpeta de proyectos, que vamos a este que necesitamos que lo rastree. ¿Y cómo lo hacíamos? Lo hacíamos con pues el comando de Git init, cierto, el Git init inicializaba lento me parece.
+Está un poco lento, extraño, ya inicializaba Skaledra o está lento como si fuera un juego de PlayStation 5, ya Gittinny. Entonces Gittinny era para inicializar Git en tu este, en tu carpeta de proyecto, o sea, convertir tu carpeta de proyecto en un repositorio. ¿Qué significa? Hey, voy a ejecutar comandos.
+Dentro de este comandos de Git dentro de mi proyecto, porque quiero guardar cambios bien y eso activa Git, por así decirlo, listo, dicho y hecho, ¿qué es lo que pasa después? O creabas un archivo o lo modificabas o k si tú creabas o lo modificabas, usualmente Git no tenía como que no tenía este esa idea de.
+¿Que es ese era un archivo nuevo, no? Entonces era, era no identificable o un tracket para Git porque era nuevo, o sea, no lo había rastreado antes. Entonces a ese se le conoce como archivo en estado un tracket, o sea, inrastreable, por así decirlo, nuevo para Git es como que desconocido.
+Hasta que tú lo vuelves este rastreable. ¿Y cómo era eso? ¿Cómo era? Justamente sabemos que involucra pasos, cierto? Había el paso de guardar cambios.
+Un poquito perdón de guardar cambios y había, pero antes de guardar cambios lo que teníamos que hacer era.
+Avisarle cuál eran esos cambios que teníamos que guardar y para eso usábamos justamente comandos, no para avisarle que qué tendríamos que guardar. Teníamos que usar git add, cierto sencillo, era git. Con eso pasaba un área de preparación donde le decíamos a git, hey, estos son los cambios que vas a guardar. o K, atento.
+Y para guardar ya ahora sí usamos git commit, cierto, git commit menos m con un mensaje descriptivo respecto a la tarea que hicimos. Es así de sencillo, vale, entonces ese era el flujo básicamente de git.
+Y luego intervenía GitHub. ¿Qué es lo que hacía GitHub? Como comentábamos, era un servicio, era un servidor ya donde podíamos subir ya el repositorio que teníamos en Git que habíamos guardado, lo podíamos subir a Internet y lo que adicionó esta herramienta de GitHub era un repositorio remoto.
+Cierto, repositorio remoto, el proceso era el mismo. En realidad, el proceso era el mismo en Git, pero lo único que tenías que hacer ahora era sincronizar tu repositorio local. Tenías que sincronizar tu repositorio local con tu repositorio remoto, es decir, mandar los cambios de local a remoto.
+¿Y cómo se hacía eso con el comando git push? No, con eso se le mandaba. Hasta ahí era sencillo respecto a Git y GitHub. Bien, entonces.
+Lo siguiente.
+Se me cruzaron las herramientas ya lo siguiente era vimos responsive, cierto responsive que era la capacidad de que tus tu página web se adapte a distintos dispositivos, nada más que eso. Vimos el concepto de viewport, un concepto muy importante porque está relacionado con esa área visible de tu ventana que pues que puedes ver, ¿no?
+Como lo vemos aquí en el sombreado, correcto, esa parte sombreada de celeste es eso, no en directos dispositivos es diferente. Bien, entonces era solamente eso. ¿Qué más, qué más, qué más? Luego vimos herramientas relacionadas a eso.
+Man.
+Ya luego vimos de herramientas relacionadas a eso. Comentamos exacto que píxeles era una unidad absoluta correcto. Si le poníamos a un elemento píxeles, no podía modificarse. Tomaba esa unidad correcto, como se lo indicaba hasta cual el navegador lo dibujaba con esas medidas. Entonces ahí es donde definimos lo que eran las unidades relativas.
+Que eran dependientes de algo, eran unidades flexibles que sí se podían adaptar. La primera que vemos fue el porcentaje súper sencillo, el porcentaje que si tú le pones el porcentaje al hijo, este esta medida depende de quién, del elemento padre, no el padre directo. Entonces es el porcentaje del padre, es así bien, eso es lo que vimos. Luego qué más vimos, vimos.
+Un derivado, justamente si vimos el porcentaje, vimos las unidades relativas referentes al viewport, es decir, a este de acá, porque básicamente es como aplicar el porcentaje, pero a esa ventana que te muestra, no a esa ventana de navegador que te muestra. Es eso, vimos Bhybw, Bh, que es viewporate, que es la unidad que hace referencia al alto del viewport.
+No es decir, bueno, a la altura, más que nada, como vemos aquí en la imagen, y sabemos que este la regla era que un BH era igual a 1% de alto el viewport. Entonces, si este tú quieres que, por ejemplo, tu tu contenedor, digamos, quieres que tenga la medida que tenga toda la altura de ese viewport, cuánto le tenías que poner.
+100 BH, cierto, con 100 BH que era el 100% del alto del viewport. Es así de sencillo y el viewport with que ya tiene referencia al ancho, ya similar aquí es lo que hace referencia al ancho y un BW es igual a 1% del ancho del viewport, correcto. Y si queremos que un elemento tenga el 100% del ancho del viewport.
+Simplemente le teníamos que poner 100 BBW. Bien, así funcionaba lo que serían las unidades del viewport. Luego pasábamos a las unidades de tipografía. Recuerdan las unidades basadas en el tamaño de la fuente, ese esa propiedad llamada font size.
+Correcto, aquí vimos 2, primeros vimos EM que tiene casi comportamiento igual al porcentaje porque depende del padre. Recuerdan este el font size del hijo depende del padre cuando le poníamos un M se tenía que fijar en el padre y hacía este cálculo de aquí del valor EM por el valor de font size.
+Cierto, y así te daba el tamaño de letra del hijo, pero pasaba que a veces no estábamos al tanto de ponerle al padre también fonsais, luego al abuelo. O sea, era una toda una maraña de cálculos. Si nos acordamos de este ejemplo que hicimos acá, bien, donde teníamos que calcular a cada uno, ya era un básicamente era.
+Exceso de cálculos que podría llevar sobre saturar al desarrollador. Entonces CC se pensó en nosotros y nos brindó REM, que es mucho, mucho más sencillo, cierto REM, donde el cálculo de un elemento, el font size de un elemento, se basa en.
+La etiqueta HTML que como sabemos por esta descripción de aquí, casi todos los navegadores tienen un tamaño de fuente predeterminado de 16 píxeles para esa etiqueta HTML, pero lo recomendable es que tú mismo lo pongas explícitamente dentro de tu este tus CCS.
+O K, pon CSS tu HTML, o sea, abre una regla con HTML indicando font size 16 píxeles. De ahí tú lo puedes cambiar porque recuerda que este el REM es adaptable. Bien, el REM es adaptable. Entonces era más sencillo porque simplemente lo calculábamos, calculábamos el font size directamente del HTML, mucho más sencillo.
+Muy bien. Y luego, por último, bueno, vimos también max with y mis bim with, ya que básicamente eran como que rangos de mencionamiento que lo vimos aquí, cierto, derivados del with y delate con with y eight. Si usábamos una ideas relativas, vimos que eran muy flexibles y sí eran flexibles, pero también eran difíciles de controlar.
+Porque, como sabíamos, habían tantos dispositivos que no sabíamos cuál era el valor exacto que iban a tener entonces para no controlar que se estiren tanto, cierto, un al establecer with y eight que se estiren tanto que se achiquen tanto, controlábamos esos rangos usando pues el max y el MIN, no el MIN que era para el mínimo, ancho mínimo o alto mínimo.
+Y más que era para el ancho máximo y el alto máximo. Muy bien, eso era respecto justamente a los rangos de dimensionamiento.
+Y por último vimos el móvil first design, no que básicamente se centra en qué en este construir tu página web o tu perdón, sí, tu página web, pero partiendo desde un diseño móvil y de ahí este tú lo vas haciendo crecer hasta llegar a un dimensionamiento ya de escritorio.
+Bien, es así de sencillo, que esto era lo opuesto a qué era lo opuesto a responsive web design, que era lo como justo como nosotros construimos, digamos, nuestra primera página web de mi perfil, ya donde nosotros partimos de aquí, no partimos de crear una página web basada en el escritorio, pero de ahí este justo en la clase pasada a las 6:00.
+Le tuvieron que aplicar responsive para que se adapte a un móvil. Bien, es así y ya y último los bird points, que espero esto sí es vital que justamente se memoricen que son.
+Las medidas de ancho que tienen que tener los distintos dispositivos que existen ya en general, cierto, el móvil, el tablet, una laptop pequeña y un monitor grande. No eran las unidades en ancho específicamente, no tanto se visualiza en alto. Ya comentamos por el scroll infinito, pero en el ancho sí, porque.
+No hay un scroll horizontal, entonces por eso usábamos las medias querys. Recuerdan las medias querys que eran las condicionales que le establecíamos, eran estilos aplicados con condiciones. Entonces nosotros usábamos estas unidades, el 1000, el max y el 1000. Exacto, las condiciones que se basan en medidas del dispositivo respectivamente en ancho, el max with que nos decía.
+¿Que este aplica las reglas a partir de si el ancho mi por es menor a este valor, cierto? Era un poco confuso y el mi width si el ancho es mayor al valor indicado. Bien, eso era respecto al 1000 y al más. o K chicos, entonces ahí a ver hasta ahí. ¿Hay alguna consulta ya para pasar al kahoot? Quería hacer un repaso sobre eso.
+Correcto, eso ya.
+Quiero hacer el cajón.
+April, sí.
+Hello!
+Red.
+Levantaste la mano, te escucho normal.
+Huh?
+Sí, levantaste la mano a Print.
+Solo que no sé si estás.
+Hablando porque no te logro escuchar.
+
+Orador 2   15:10
+Quería saber si podía hacer preguntas.
+
+Orador 1   15:14
+Sí, claro, normal, o sea, puedes preguntarme o k estamos en eso.
+
+Orador 2   15:17
+¿Podría compartir la pantalla?
+
+Orador 1   15:21
+Tu pantalla, sí, claro, no te preocupes, a ver.
+
+Orador 2   15:22
+Sí.
+
+Orador 1   15:29
+Yeah.
+Mhm.
+
+Orador 2   15:37
+Justo tenía la pregunta sobre el min y el max. No sabía si por qué ponían en el código solo min o max. O sea, no se podría poner ambos para hacer un intervalo.
+
+Orador 1   15:51
+En realidad sí se deberían poner ambos, este es incluso la mejor práctica, poner un intervalo máximo y mínimo, y obviamente tu, o sea, si tú pones, por ejemplo, min, si vas a poner para el ancho, pones ancho y ponle tu min ancho y tu máximo ancho.
+O sea, los 3, los 3 trabajan en realidad bien.
+
+Orador 2   16:13
+¿O K, o sea, tendría que poner cuatro en total, ¿no?
+
+Orador 1   16:14
+Ajá.
+Cuatro como cuatro.
+
+Orador 2   16:22
+O sea, 2 de hate y 2 de wait.
+
+Orador 1   16:27
+Sí, exacto, pero este a ver, el Ninja Lake es que depende, creo que el diseño algunos no lo ponen porque no quieren controlar los rangos, quieren que sí se estire todo el ancho, por así decirlo. Bien, por ejemplo, es depende del diseño, por ejemplo, como comenté en ese ejemplo, era.
+
+Orador 2   16:41
+okey.
+
+Orador 1   16:46
+Una imagen, no, tú no quieres que una imagen se hinche todo porque se puede distorsionar. Tú dices no, mejor lo hago hasta 500 píxeles porque a partir de ahí en adelante se ve distorsionado. Bien, entonces ahí le pones un max width, o sea, un anching, un ancho máximo. Bien, ahí puede ser, por ejemplo, por eso son casos específicos, por así decirlo.
+
+Orador 2   17:08
+Ay, no sé si se logra ver el PowerPoint de acá.
+
+Orador 1   17:14
+A ver, sí, estoy viendo tu pantalla.
+
+Orador 2   17:16
+Justo este era un ejemplo de la clase pasada que usted puso y solo había max with, entonces por eso me confundió un poco.
+
+Orador 1   17:26
+Claro, sí, disculpa, si no, si no logré dejar en claro, era más que nada un ejemplo, pero este.
+Tomando en cuenta más que nada, el concepto es si tú necesitas un ancho mínimo, ya, o sea, no quieres que se reduzca tanto, usa un minwid. Si tú necesitas un ancho máx, o sea, un ancho máximo definirlo sí o sí, uso un maxwid. No siempre lo vas a tener, o sea, no siempre vas si partes con ese concepto.
+
+Orador 2   17:54
+Okay.
+
+Orador 1   17:55
+¿Con ese concepto de diseño lo vas a tener más claro, vale?
+
+Orador 2   18:01
+Otra pregunta que tenía de la clase pasada es si el contenedor, en el caso del EM y REM, era por el DIP, o sea, se refería a que si está dentro del DIP, está dentro del contenedor.
+
+Orador 1   18:01
+Yeah.
+Ajá, decir un llamamos contenedor, no necesariamente un div. Un div es un contenedor, pero llevamos un contenedor a un elemento que agrupa a una caja, un elemento que agrupa a otros elementos. Por ejemplo, un section, si te acuerdas de HTML semántico, pues es un contenedor porque agrupa a otros, un footer.
+Un mail, un header son básicamente este etiquetas de HTML que nos permiten agrupar ya. Entonces a eso se le llama un contenedor de contiene algo bien. Por ejemplo, un enlace, una etiqueta a no es contenedor porque no puede contener otros elementos, es simplemente un enlace simple. Hay elementos.
+Que no sirven para contener, ya simplemente tienen su propósito. Por ejemplo, una imagen, no necesariamente una imagen no puede contener texto, cierto, porque es una imagen, vale entonces, pero sí, usualmente un contenedor se usa un div ya usualmente, pero no siempre lo vas a ver solamente al div como contenedor.
+Bien.
+
+Orador 2   19:15
+O, ky una pregunta más era sobre si por temas de diseño el h 3 puede ser más grande que el h uno utilizando justo el font size con rem.
+
+Orador 1   19:16
+En ese caso es por aquí, sí.
+Claro, es que a ver, nosotros podemos hacer el h 3 más grande que el h uno. No hay problema, pero lo que pasa es lo siguiente: es que tenemos que separar lo que es estética de lo que es concepto. Ya el h un, el HTML no establece estética, establece concepto.
+Es decir, te dice que un h Uno es un título principal y tú tienes que usar el h Uno. Puede ser más chiquito que incluso tu párrafo, pero mientras uses sh Uno como título principal lo estás haciendo bien o k estás cumpliendo con lo que dice la regla de HTML, pero si usas sh Uno como texto, como subtítulo, como este, entonces lo estás haciendo mal.
+O K, vale, en cambio, el h 3 es subtítulo, o sea, un título de sección, por así decirlo, que está en una categoría más baja de h 2. Si partes con eso también en claro de h uno, que es título principal, h 2 subtítulo y h 3 este subtítulo y subtítulo, tú le puedes poner el tamaño que quieras, no pasa nada.
+
+Orador 2   20:35
+Okay, listo.
+
+Orador 1   20:35
+Pero.
+
+Orador 2   20:38
+Y con respecto al medio queries, solo funcionaba para imágenes.
+
+Orador 1   20:43
+No, el media query en realidad funciona para cualquier elemento de tu HTML. Puede controlar cualquier elemento HTML, solo que luego se para imágenes porque usualmente, o sea, es un caso que se usa más, pero hay contenedores distintos. Estos ya hay muchos casos que en los que se va a usar media queries.
+
+Orador 2   21:03
+okey, y no se pone hate en este caso.
+
+Orador 1   21:07
+¿Dónde, en la condición o adentro como regla?
+
+Orador 2   21:13
+En la condición.
+
+Orador 1   21:15
+Sí, ahí yo he usado, o sea, los que más, básicamente los que hemos visto en el laboratorio, los que más se usan para hacer el móvil, el diseño móvil es el min, el en ancho ya en ancho, min way y más with, perdón, min with y más with, ya porque como vimos hay breadpoint, cierto, tenemos que controlar el ancho.
+
+Orador 2   21:35
+Mhm.
+
+Orador 1   21:36
+Pero hay otras condiciones, por ejemplo, establecido en alto, hay también basado en viewport. También está basado en si tu dispositivo está horizontal o vertical, te acuerdas cuando haces ese movimiento con tu este, ya hay más formas, pero yo en este caso he usado el que más lo van a ver, correcto, pero si tú, por ejemplo, buscas otras condiciones, vas a encontrarnos.
+Yeah.
+
+Orador 2   21:59
+Ok, listo, gracias.
+
+Orador 1   22:02
+No, gracias a ti, April, la verdad, preguntas muy buenas. Creo que no solo te ayudaron a ti, sino algunos compañeros que están. Bueno, entonces ahora sí, estimados colegas, vamos a hacer el Kahoot bien, no se preocupen. Como comenté, el Kahoot no es.
+¿Tanto este?
+No es tanto nota de evaluación, pero sí les va a ayudar a ustedes a que.
+¿A qué?
+Ya lo ya.
+A que pues refresquen los conceptos, o k.
+Ya vamos a ver, acá voy a entrar y les voy a mandar este, por favor, por mientras entren a la página web de Kahoot.
+Mhm.
+¿Qué les voy a compartir aquí, colegas?
+Entonces voy creando el enlace.
+Yeah.
+Son 10 preguntas también, así que o sea.
+Cierto, no estoy compartiendo, pero lo bueno es que ya está grabando, así que bien.
+Bien, ok, chicos, voy a voy a este.
+Voy a generar el, por favor, espero que ya estén.
+¿Por qué voy a hacer una clase ya?
+Ya a ver, los que ven mi pantalla ya se lee ya este en mi pantalla chicos se ve el código, si lo ven, 9913500.
+Con eso pueden entrar al cajón.
+In the meal.
+Carlos.
+Bing Jong.
+Claro, está como Cowboy, Oswaldo Rosas, uy.
+Cortés.
+Ahí pueden tomarse un tiempito para si quieren gritar su.
+Su avatar, chicos, bien, bueno, ¿cuántos vamos ahorita en el Teams ya?
+Somos, les contaron, somos 3. Entonces, a ver, afrita hay 9, por favor, los que me pudieron.
+Ahí estamos esperándoles.
+Creo que sí, ya estamos 11. Ya falta uno, chicos, no faltan. Uy, ¿qué pasó? ¿Qué pasó?
+A ver.
+¿El 10 y 10, quién falta?
+Por favor, no quiero dejar a nadie afuera, chicos, 913.
+And office.
+Ya.
+Tomas 10.
+Chicos, si no tienen, bueno, no creo que no tenga internet porque están en la clase, pero sí tienen problemas, me avisan, vale.
+Porque ahorita estamos 13, pero somos 10, si tienen problemas.
+We are 1 minuto más.
+Voy a reusar por si tengo mensajes.
+No.
+Sí.
+O K, Juan, Juan, o K, es que hay 2 John Peña, mira, ya no le vamos a hacer más este ves John ya o K, este vamos a empezar chicos.
+Hey.
+No creo que sea más cuesta aquí, no.
+Ya pregunta número uno: se creó un archivo contacto HTML en Git sin comandos. ¿Lo creaste recién en tu proyecto? ¿En qué estado se encuentra? ¿Recuerda?
+Y no lo reconoce, sí lo reconoce.
+Estado sin cuenta.
+Edge.
+Muy bien, estado no rastreado, efectivamente, no lo no lo rastrea.
+Ya vale, vamos a darle siguiente, muy bien, muy bien, habla.
+¿Cuál es el propósito principal de un sistema de control de versiones como Git?
+En la web de forma gratuita en la nube, registrar los cambios en los archivos a lo largo del tiempo, crear copias de seguridad automáticas en un disco duro externo cada 5 minutos.
+Uy, aquí chicos, aquí una confusión entre Git y GitHub. La primera definición de quién es de GitHub, cierto, GitHub nos permite alojar páginas web en la nube y Git es el que nos permite registrar los cambios en los archivos.
+A lo largo del tiempo, o k esa diferencia de conceptos, muchos programadores o k en las preguntas de reclutamiento se han confundido, vale, pero espero que o k con esto se haya quedado un poco más peor, porque creo que la siguiente pregunta no hay una pregunta justamente entre la diferencia entre.
+¿Has modificado tu código y quieres guardar el cambio solo en Git, solo en Git? ¿Qué secuencia debes usar?
+Uy, exactamente, recuerden avisarle a Git de los cambios y luego guardarlos, ir add seguido digit commit, chicos bien.
+O K o K, vamos a darle kilos. ¿Cuál es la diferencia técnica? Aquí está diferencia técnica fundamental entre Git y GitHub.
+Espera, pregunta de.
+Pregunta de reclutamiento.
+¿Diferencia entre IT y IT? ¿Cuál es la diferencia?
+Exacto, buenísimo. Git es el control de versiones y GitHub aloja repositorios en uno.
+Le damos, estamos en la mitad. Te dan la URL de un proyecto en GitHub para colaborar, o sea, para que tú lo veas y le saques la copia. Recuerden qué comando Git usas para descargarlo a tu equipo desde GitHub, lo dije al inicio.
+We.
+Chicos, es Git Clon, Git Clon y con la URL que te dan en el repositorio remoto descargas de remoto a local. Bien, Gini Gini lo que hace en realidad es solamente inicializa Git en tu proyecto o K que es diferente.
+Bien, bien, bien.
+Uy, pasamos a responsive, chicos, si defines font size 2 rem 2 rem, ¿de qué depende exactamente su tamaño final en pantalla? ¿A partir de qué se calcula el rem?
+Ver del viewport, o sea, del ancho de la ventana del navegador o viewport, del tamaño de fuente configurada en el sistema operativo o del tamaño de fuente de la etiqueta HTML. Exacto, recuerden chicos, la etiqueta HTML es diferente al que está configurado en el sistema operativo.
+Uy, allí había una respuesta.
+Sí, aparecía. Ahora vamos a porcentajes. ¿Tienes una tarjeta con WIT 50%, ese 50 de qué depende exactamente?
+Esto será siempre 50 píxeles, el 50% del ancho de la pantalla del dispositivo o del contenedor padre.
+Uy, ¿qué pasó, chicos? Aquí casi vamos mitad a mitad. El porcentaje depende efectivamente del ancho del contenedor padre. Quien depende del ancho total de la pantalla del dispositivo o viewport es BBW, que es diferente. o K.
+BBW referente este relacionado a viewport y porcentaje relacionado solamente al padre bien.
+Hey.
+Esto lo voy a mover porque parece que.
+¿Para qué utilizas estratégicamente? Aquí está, perdón, vamos a moverlo acá para qué utilizas estratégicamente las propiedades max with y min with?
+Junto con porcentajes.
+¿Qué más y 1000 para qué?
+Uy, a ver, vamos a aclarar.
+¿Si nos vamos, dice, para qué utilizas estratégicamente las propiedades Max Week y Minweek? Si nos vamos por la respuesta A, dice para que un elemento mida siempre los mismos píxeles sin importar la pantalla. Recuerden que Max Max Week y Minweek, o sea, porcentajes nos da flexibilidad, no siempre se van a medir los mismos píxeles. o K.
+Para centrar un elemento en la pantalla, no es necesariamente para centrar chicos sin usar la propiedad margin. Recuerden que era max min, max perdón, wiski, min with perdón, es un trabalengua de nombres, es este para establecer rangos topes o K para que tu contenedor que tiene un valor relativo o fluido.
+Por así decirlo, no crezca o se achique exageradamente bien.
+9 de 10. ¿Qué mandato establece el estándar móvil first en el desarrollo web moderno?
+Escribir es ese base pensando exclusivamente la visualización móvil.
+Creo que aquí sí.
+Recuerden móvil first chicos o primero móviles, como dice el este.
+Exacto, escribir pensando en la visualización móvil. Lo que dice la segunda es diseñando primero para PC, no móvil fies lo dice al revés en realidad.
+Okay y la última chicos si requieres que un contenedor de tu página mira exactamente la misma altura esta altura de acá que la vi por qué unidad usas Uy si requieres que un contenedor tu página web puedo usar chicos
+¿Guerdan? Los lo definí como medida relacionado a viewport a viewport medidas relativas relacionadas a viewport, chicos.
+Exacto, BH, si tú pones a 100 porcentaje, depende en realidad de dónde esté ese elemento. ¿Qué tal si no está dentro de body? ¿Qué tal si está dentro de un contenedor? Va a ser relacionado a ese contenedor. Correcto, entonces no es este algo absoluto.
+Que ese 100% ocupe todo esa altura. Bien, en cambio, un 100 BH sí asegura eso, sea donde sea que esté el elemento, 100 BH asegura que efectivamente ocupes el 100% de la altura de tu viewport. o K.
+Listo, entonces muchas gracias este colegas por responder estas preguntas. En serio, como comenté, simplemente es una evaluación de ustedes para ustedes. Por favor, felicidades a los que mostraron un conocimiento bueno resaltante. Bien, felicidades, John, genial ahí también.
+Y a los demás también por participar, o K, a April, Yael, Kevin, Jon Peña también les y a los demás chicos. o K Con esto espero pues que también haber aclarado si se han equivocado, también poder haber aclarado este donde hayamos tenido esas dificultades. o K, entonces dicho esto.
+voy a cerrar chicos gracias gracias gracias
+A mí no me da recompensas.
+Que no me dan nada.
+Yeah.
+Es una foto sopa.
+Listo, chicos, listo, listo, listo. ¿Alguien tiene alguna pregunta respecto a lo que?
+Algunas dudas de Kahoot, chicos, bueno, no referente a unas preguntas para pasar ya a la clase de hoy.
+Sí.
+No, claro, todo check.
+Todo perfecto.
+¿Y yo que me alegro, o k entonces?
+Almost.
+Vamos a hacer ahora sí lo que sería la clase 7, mis estimados.
+Programadores, programadores, OK, vamos a hacer lo que sería la clase 7.
+¿Pero antes quisiera preguntarles, hemos visto el concepto de wireframe, cierto?
+Que hemos visto el concepto de wireframe, pero quisiera que ustedes en sus palabras me vuelvan a aclarar la idea a mí. ¿Qué es un weird frame? Vale, ahí por el chat, por favor, que es o tal vez por audio, como quieran. ¿Qué es un weird frame?
+A ver, recuerda, hemos incluso hemos hecho weird frames y lo vamos a hacer hoy, pero con una intención.
+Por eso es que quisiera que ustedes me puedan aclarar ese término de wiref, bien.
+Mientras voy a abrir yo mis Calibrau, ya sí está abierto.
+Ay, ay, ay, a ver.
+Hice un esquema de diseño genial. La palabra esquema resalta lo que no se hace, lo que se hace en el Scalydraw como un bosquejo. Sí, efectivamente, Scalydraw es una de las herramientas, pero también puedes usar papel y lápiz, Kevin, que es a la antigua, una hoja en blanco. y.
+Maquetas, ya claro, como un bosquejo en Yarney, el esqueleto o maqueta del proyecto. Muy bien, sí, esqueleto o maqueta es básicamente esa. El concepto va por ahí. Bien, esqueleto, maqueta, ya está escribiendo. Efectivamente, ya lo voy a ver con un ejemplo.
+Hey, April, boceto esquema visual de una página web o aplicación que muestra la estructura y ubicación de los elementos, pero sin diseño final, sin colores, tipografías finales. Ajá, separando exactamente lo estético de la base. Cierto, es como el plano de una casa, pero para una página preciso. Gracias, April.
+Entonces, con esto, efectivamente, chicos, con esto, efectivamente vamos a verlo en un ejemplo, ya en un ejemplo preciso. Yo aquí le he sacado screenshot a mi página de YouTube, chicos, le he sacado screenshot. ¿Y qué es lo que pasa? Vamos a separar lo que es exactamente un wire reframe que es.
+No es más que nada que el esqueleto, ya el esqueleto, exactamente la estructura, el esqueleto, el plano de una página web de el lo que sería el diseño final. o K Miren esto, lo voy a sacar y básicamente es esto, lo ven chicos, ven la separación.
+Bien, funciona igual que un plano exactamente no te dice de qué color de pared, o sea, no te dice qué color es, te da sí la estructura de dónde va cada uno posicionado, pero en cuanto al color, la imagen, incluso el texto que va a ir exactamente, no te lo dice.
+Ya es un plan exactamente y en este mundo existen en el mundo del diseño existen 2 polos, ya recuerdan esta de acá, recuerdan. Bueno, yo presenté esta dispositiva al inicio, hace hace varias clases, donde justo habíamos mencionado el wire la wireframes como esas estructuras básicas de baja fidelidad.
+Baja ya, pero que había efectivamente más diseños. O sea, había una evolución, por así decirlo, y por ejemplo, uno de esos es el mackup, que ya sí implementa colores, solo que esta página lo tiene, pero es el mackup. ¿Qué es esto? Ya este es el weather frame y esto sería como que el mackup.
+Ya si nosotros lo maquetáramos, es decir, ya tiene los colores, ya tiene los iconos, ya tiene las imágenes, ya tiene los textos. Entonces hay 2 que es baja, baja fidelidad, que es esta de aquí, y alta fidelidad, que ya es porque se le llama alta fidelidad, porque como que es ya es más fiel.
+¿A la página web que tú vas a construir, o k, cómo se vería realmente tu página web si estuviera? Pues en Internet, así lo verías. o K, entonces, ¿cuál es el peligro? Lo que yo quiero, lo que yo quiero ahora es que me respondan estos chicos. ¿Cuál es el peligro de no hacer un plano o de no hacer un wireframe primero y pasarse directamente, digamos?
+Aquí, perdón.
+Aquí directamente a esa alta fidelidad. ¿Por qué no es recomendable ir directo aquí y tener que hacer primero tu esqueleto o este tu plano? ¿Por qué? A ver, quiero que me respondan, por favor. ¿Por qué? ¿Por qué no es recomendable saltarme el esqueleto?
+Y ir directo a hacer esto, o sea, soy, me pongo ansioso en diseño, digo, voy a hacer directo esto de aquí, ya voy a hacer directo mi alta fidelidad, mi boceto de alta fidelidad con colores, con imágenes, con formas. ya por qué?
+Me salto esto, no quiero perder el tiempo. ¿Cuál es ese riesgo que existe detrás? A ver, chicos, ¿cómo decir por qué no construir directamente una casa?
+Y necesitar primero un plano porque todas las casas, casi la mayoría creo que todas requieren de un plano.
+Muy bien, porque necesitamos una base e ir diseñando ya con la idea plasmada.
+No tener un orden en la idea al no hacer las bases, porque hacer cambios después toma más tiempo, también porque se desvía de lo importante que es la estructura. Bien, todas los todos los todos me dan diferentes ideas, pero que justamente van a lo mismo, cierto, efectivamente. ¿Por qué? ¿Qué pasa? ¿Por qué una base?
+Tener un plano te guía, tener un plano exactamente ahorra tiempo, facilita este. Ya tienes más claras las ideas, tienes también un orden. Si tú no tuvieras un plano, no sabrías cuántos ladrillos comprar, no sabrías cuánto mide tu este tu pared. o K, no sabrías dónde va tu ventana.
+¿Dónde va esto? ¿Dónde va lo otro? No tienes una base, entonces no tienes una estructura, un esqueleto. Por eso es importante primero diseñar esto y luego pasarse a esto o k en el mundo de diseño. Esa es la etapa y eso es lo que vamos a hacer, chicos. Ya eso es lo que nosotros vamos a hacer.
+Entonces vamos directo a nuestro laboratorio al laboratorio número 7.
+O K, como comenté, hoy día vamos a ver más, vamos a hacer más que nada laboratorio. La idea es terminarlo muy bien y lo que vamos a hacer hoy es lo siguiente.
+Yeah.
+Vamos a primero en la parte uno.
+Vamos a ver, quiero que primero este vamos a instalar referente a la justamente esa página web de enlaces que tuvimos, que era este MyLinks. Lo que vamos a hacer ahora es a ver, vamos a la parte de boom ya que viene con la análisis e inspiración.
+Es decir, vamos a construir hoy un my links ya en ese momento, en la el my links que tenemos actualmente, es no es hacer un my links este que trajimos, por así decirlo, de un repositorio, lo clonamos y simplemente plastamos, o sea, plasmamos nuestras ideas. Ya he visto laboratorios hoy día.
+He revisado algunos laboratorios y hay diseños muy buenos, correcto, pero ahora lo que vamos a hacer nosotros vamos a en realidad plasmar otro diseño. Vamos a buscar otro diseño, pero un diseño con intención, con intención, es decir, con un objetivo, con una razón. ¿Por qué el diseño es así y tiene que ver con términos como UXY? Muy bien.
+Entonces.
+Primero, lo que quiero chicos, es que este vayan a esta página de aquí, vayan a esta página de aquí que es Karting Place. Esta de aquí es las otras 2 no, porque ahí van a encontrar expiración.
+Inspiración significa este, bueno, inspirarse, no cómo definir ese concepto, inspirarse.
+Como un artista, vale como un artista, ahí van a encontrar páginas webs de similar estructura, o sea, páginas web de MyLinks de contacto, pero todos con diseños diferentes, ya todos con diseños diferentes.
+Y aquí, chicos, lo que quiero que hagan es que busquen 2 o 3 diseños ya porque lo vamos a usar de inspiración, busquen 2 o 3 diseños. Yo, por ejemplo, en mi escalera ya los tengo, ya los elegí, son estos 3 de aquí que encontré ahí, pero yo quiero que escojan.
+¿2 o 3 ya que les llama la atención? Algo que les llame, porque vamos a analizar, vamos a prender ese foquito de diseñador y este vamos a hacer que ustedes no vean simplemente algo como una página bonita. No quiero que vean patrones estructurales, es decir, cómo están organizados.
+¿Cómo? ¿Cuál es el propósito? ¿Cómo están este jerarquizados? Okay, entonces seleccionen 3 bien y luego creo que la forma es ponerlo aquí en demo. Si tienen un screenshot acá, si le ponen a demo es cuando se pone efectivamente la página, esto tiene varios.
+Esto tiene varios, yo no escogí esta, yo escogí, por ejemplo, esta de aquí en serie, no le den a Select, denle, denle a demo chicos y si quieren abren sus páginas aquí en pestañas o los descargan como imagen. La idea es que estén juntas ya porque vamos a compararlos.
+La idea es que lo tengan juntas, así que le voy a dar unos minutos, unos 5 minutitos, por favor.
+Para que busquen el diseño ahí que les llama la atención, que les que quisieran, por ejemplo, tener ustedes como su próxima página de contactos.
+Yeah.
+Una vez tengan máximo 3 entre 2 a 3.
+Vamos a continuar bien, 5 minutitos ahí voy a comer acá.
+De hecho, acá voy a poner unos 5 minutitos.
+Hasta 3 podrías, creo que.
+Pero ahí busquen chicos, acabo de mandar el link en el este, por favor.
+Busquen un diseño, test, denle click a demo.
+Y este guárdelo como pestaña porque algunos son largos y no se puede tomar un screen.
+No se puede tomar. Yo tengo esta extensión de acá que se llama print friendly. Me hace reír muchísimo porque esto le hace una captura a toda la página, como que le imprime ya y te la da así.
+Sí se llama la extensión.
+Esto no sería más.
+Entonces lo puedes crear como un PDF como imagen. O K, sí, yo bueno, es que aquí van a confluir muchas personalidades, chicos. Yo sinceramente no me gustan las páginas, o sea, para esta página en específico.
+Yo prefiero que se muestre en una ventana. No es necesario que haya un scroll vertical, no en escritorio, porque ese es mi busto, pero como le digo, acá cada uno tiene diferentes personalidades. Yo creo que eso es lo que va a resaltar al momento de que ustedes busquen lo que sería una página web. Ya esa personalidad eres minimalista.
+Eres moderno, eres más este, no, tal vez seas, no sé, estilo pon, estilo profesional, estilo chill. o K, hay tantos, tantas características y van relacionadas contigo. O tal vez te llama la atención los colores, no la estructura.
+Correcto, vean realidad y este la cantidad de diseños que hay aquí. Y lo increíble es que todos hablan de lo mismo, mostrarte enlaces y este una breve descripción sobre ellos. Todos son de contacto en realidad, pero vean como cada uno está estructurado.
+Ya a ver cuánto vamos, vamos 2 minutos, 2 minutos más.
+Escojan, por favor.
+Porque vamos a hacer lo siguiente, todavía siguen escogiendo, vamos a responder preguntas como les comenté.
+Vamos a activar ese foquito de analizador de diseños.
+Hey.
+Vamos a responder estas preguntas, pero para eso necesito que ustedes tengan sus propias páginas web. Yo lo voy a hacer con las mías y ustedes van a hacerlo después con las suyas. Les voy a dar un tiempo también para eso.
+Ahorita le estoy dando un tiempo, por ejemplo, para que escojan sus este si ya lo tienen, porfa.
+Me avisan o K por el chat, me avisan con un check, por favor, para este también.
+Me avisan, porfa.
+Genial, Kevin, gracias.
+2 o 3 no nos sobrecarguemos de diseños, por favor, sé que tal vez les gusten todos, pero este.
+En cama.
+Listo, gracias, yarni, Carlos.
+Es posible, chicos, no sé, me le toman un screen, no sé, bueno, no sé lo recomendable y yo voy a hacer con esto porque voy a analizar los 3 a la vez, ya, pero este si es posible hacer que no, tal vez pónganle una pestaña cada uno después para el laboratorio porque van a comparar los 3.
+Yeah.
+A ver, por favor, me confirman los que ya tienen el este.
+Ahorita he visto 3, me confirman por favor chicos, porque este.
+Tenemos que determinar el laboratorio juntos, o k.
+Ya pasaron ya 4 minutos, queda 1 minuto, chicos, 1 minuto.
+1 minuto.
+Tata.
+Hubiera puesto música de café, ¿no? O no sé, música para, no sé si también escuchan música para estudiar chicos, lofi, algo con el que pasan el tiempo programando.
+Creo que todo buen programador, tienen un playlist de.
+¿Qué música así?
+A ver.
+Ya vamos a.
+Creo que necesitan más tiempo. Si necesitan más tiempo, por favor, me piden para darle 1 minuto más si necesitan ya este.
+Chicos, háganme una validación, porfa, que este el silencio.
+Hay un total silencio.
+Ed.
+Aún están buscando.
+Ángel dice, OK, check gracias Ángel por ese check.
+Yep.
+Estamos todos.
+Ya no se preocupen, 8 y este porque después de que haga la parte uno les voy a dar todavía minutos, ya le voy a dar todavía minutos porque la parte uno al final de la parte uno le voy a dar unos 10 minutos por ahí para que ustedes hagan esto. o K, entonces vamos a hacerlo, vamos a hacerlo ya.
+Ya vemos, ya exploramos los ejemplos reales. Lo que vamos a hacer es responder estas preguntas. Chicos, ¿cómo se responden a estas preguntas comparando? Vamos a comparar justamente esos diseños. Los vamos a ver con ese ojo de diseñador, de experimentador. o K.
+Yo lo voy a hacer con el mío, o K, vamos a ello. Primero me dice qué elementos visuales se repiten. Entonces yo veo estas 3 referencias y bueno, a simple vista, obviamente son diseños totalmente distintos, no la pintura, el estilo de fuente, el color, son distintos ya.
+Pero si nosotros nos damos cuenta en este, en el esqueleto, en el esqueleto tiene exactamente el mismo esqueleto, chicos, todos si nos damos cuenta.
+Vienen, a ver, voy a usar esto y rojo, todos empiezan con una imagen.
+Ven que en la parte de arriba todos tienen una imagen bueno en las que agarré, obviamente en las que agarré. A ver, mejor voy a usar esto en las que agarré. Todos tienen una imagen en la parte de arriba, chicos, todos tienen una imagen en la parte de arriba. Luego tienen una presentación con un título que es en realidad el nombre y la descripción en ambos ya aquí también. Bueno, acá tiene.
+En diferente orden, posesión, pero los tiene ya los tiene y tercero, bueno, eso es tercero con la descripción y cuarto, que los botones de acción, o sea, los botones de contacto están debajo, están al final, ya vemos como una especie de jerarquía.
+Vertical, porque los botones no van arriba de la imagen, cierto, sino que están debajo. o K, entonces otro más que, por ejemplo, los enlaces, en mi caso se ven en fila, todos se ven en fila como sueltos.
+Claro, en celular se va a ver en columna, pero aquí en modo escritorio se ven en fila. Entonces vemos el esqueleto: imagen, descripción y abajo enlaces. Bien, es así. Así es como funciona, por ejemplo, el esqueleto en las.
+En los diseños que yo elegí como inspiración y yo voy a seguir ese esqueleto o k, pero a ver, pero con eso vamos a la segunda pregunta: ¿qué me dice cómo organizan la información?
+¿Ya o sea, cómo están? ¿Cuáles son? Básicamente es qué cajas están usando, no qué cajas están usando, a ver.
+Acá en las 2 que están aquí, estas de aquí, efectivamente ya se notan las cajas, ¿no? O sea, ya ni siquiera necesito resaltarlos, pero bueno, es esta caja del medio y esta caja del medio. Cierto, se nota que la información, toda la información está en un contenedor en el centro, ya está centralizado y lo mismo con este.
+Pero con este no es así, acá no se ve ni un contenedor, pero o sea, no se ve ni un contenedor. Incluso parece como si perteneciera al fondo, cierto, parece como si estuviera suelto ahí.
+Ya es este fluye libremente en la pantalla combinando con el fondo. ¿Qué más organiza? Sabemos que organizan, tal vez, tal vez chicos, este organizan lo que serían los enlaces, los enlaces están juntos, no están sueltos, ven los enlaces están juntos y no están sueltos.
+Y un detalle más, chicos, es que estos enlaces acá separados los enlaces en 2, estos enlaces de aquí son enlaces como que de contacto personal, o sea, teléfono, correo y mensaje, mientras que estos son redes sociales.
+Lo ven, estos son redes sociales, igual aquí habrá puesto enlaces de contacto personal y los hace para los ha separado como que de redes sociales o de esto, no Instagram, Facebook, Twitter, o K de esto acá. Bueno, acá lo ha combinado, acá lo ha combinado. ¿Por qué? Porque en realidad acá no veo.
+Bueno, sí, solamente hay uno.
+¿Pero este tal vez por qué? Porque no hay tantos enlaces, chicos, no hay tantos enlaces ya y ahí vi, por ejemplo, cómo organizar la función y la información. Perdón, bien respecto a esto. Tercero, ¿qué colores y estilos te gustan? Y he aquí lo que vas a hacer es mirar y solamente detectar.
+¿Por qué te gustó esta página web? ¿Por qué algo en específico? Ya aquí va a jugar la personalidad de cada uno. ¿Qué vio a esa página o a ese diseño que escogió? A mí me gusta mucho de esto. Justamente yo soy como que un raro, ¿cómo llamarle? No sé la palabra, un antisistema.
+Y este irónico, no porque soy ingeniero de sistemas, es solo que este no sigue el patrón de ir al centro, como es esto de acá, o sea, no es como que asimétrico, sino que es asimétrico y vemos cómo se va a un lado, ven como si fuera una lectura.
+O algo así o k me gusta eso porque está alineada a la izquierda y es perfecta justo para mi estilo de no saturar al usuario. Ya me gusta que combine con el fondo y no esté metido en un contenedor.
+¿Luego qué me gusta de esto? Acá sí tuve como que un respecto a los colores, sí tuve como que un conflicto. ¿Por qué? Porque acá hay 2 estilos, chicos, acá vemos un estilo moderno, más moderno, con un tono como que light, pero acá vemos tonos fuertes. En el de arriba vemos como que tonos caricaturescos.
+Ya entonces me gustaron ambos, pero yo me voy a inclinar por esto de aquí, porque van a ver que más adelante los voy a combinar en realidad y siento que esto y esto no combina. Entonces me voy a quedar yo con los colores de, o sea, me gustan los colores resaltantes o fuertes.
+Casi caricaturescos que tiene esta este diseño de aquí me gustan los colores, el rosado, el celeste me gusta y también me gusta el sombreado que tienen. Vean cómo es el sombreado, chicos, es un sombreado fuerte, se le llama, es como que ya este no es como que una sombra que se difumina.
+Es una sombra fuerte que se nota, no con un color oscuro intenso. Entonces me gusta eso y también lo voy a usar para mis enlaces.
+Ya eso es lo que me gusta cada uno y claro, qué más, qué más este bueno, eso más que nada, porque de ahí, bueno, el estilo de fuente ya buscaré uno, porque yo creo que estos estilos de fuente ya son este las páginas usualmente chicos de negocio usan estilos de fuente.
+Bradas ya usan estilo de puente con bradas.
+No he comprado nunca una fuente, la verdad, pero ya he investigado y sí, algunos de Google Phone sí son buenísimos, ya son buenísimos, pero será ver eso listo entonces.
+Eso sería ver el ojo de qué es lo que te gusta en las estas. ¿Qué harías diferente? Acá ya vamos a combinar, chicos, ¿qué harías diferente? A ver, ninguna es perfecta, pero sí saqué de lo que de cada uno. Sí saqué algo ya de acá, ninguna es perfecta. ¿Quieres diferente? Aquí que haría diferente, chicos, acá lo que no me gusta.
+Es que haya combinado la descripción, ya o sea, esta página es la que más me voy a guiar, pero no me gusta que haya combinado la descripción. Apuesto y lo notamos en el tamaño del fuente de ambos, cierto, no separa el nombre de la descripción.
+En cambio, estas de acá sí lo separan, estas de acá sí lo separan. Lo ven esto sí hay un nombre resaltante en título más grande y la descripción pequeña. Entonces lo que haría diferente era sería poner eso.
+Yeah.
+¿Qué más entonces? Descripción solo bloque y yo no haré eso, voy a darles como que una separación.
+Y también que voy a hacer, voy así, voy a seguir esta simetría y esta alineación izquierda.
+Dándole, o sea, que es lo quería diferente. Voy a seguir esta página, pero como comenté, el texto va a ser diferente, tomando también justamente los colores que está acá. Estos colores también los voy a cambiar. ¿Por cuáles? Por los que mencioné en esta página de aquí. Bien, entonces ya tengo 2 cambios, eso y eso.
+Eso lo quería diferente, nada más.
+Ok, entonces con eso respondí las cuatro preguntas.
+Con eso ya como que definí una idea que hice este qué es lo quería diferente, extraje las combinaciones de los diseños es de los distintos inspiraciones. Vi como extraje también el esqueleto, cuál va a ser el mejor esqueleto o mejor posicionamiento para mí y ya tengo como que una idea.
+De Tengo una idea de cómo va a ser el diseño, pero ahora, como les comenté, vamos a diseñar con.
+¿Con qué? Con este, con una razón, con un objetivo, y eso es lo que nos pregunta acá.
+Define tu objetivo de rediseño, entonces lo que nos dice es que completemos esta frase de aquí.
+Ya una vez haya respondió a las preguntas, ¿vas a tener más claro cuál es tu objetivo de rediseño?
+Y este pasa a completar justamente eso aquí, o sea, 1000 link actuales describe el estado actual, pero quiero que sea, lo vamos a ver ya porque yo también he hecho uno para mí, pero esto responde, chicos, a esta pregunta. A ver, qué pregunta me haría para responder esto. La pregunta que yo les haría sería.
+¿Qué partes específicas?
+¿ Voy a tomar ya qué parte específicas voy a tomar de mis inspiraciones, justamente esas 2 o 3 que hayan tomado para construir lo que sería su propio diseño, ¿no?
+Su propio diseño visual.
+Eso sería una.
+¿Y por qué? O sea, por qué esa combinación hay una, hay un detrás de por qué, chicos, es la mejor.
+Para tu usuario final, es decir, para el que va a ver tu página, es la mejor para tu usuario final. ¿Quién quieres que vea tu página? Tu mamá, tu bueno, no creo. Yo creo que la estás construyendo básicamente para que lo vea un reclutador, cierto, entonces este eso.
+Entonces voy a dejar esta pregunta aquí también porque basado en esta yo voy a responder la mía, ya voy a responder efectivamente esto de aquí lo voy a poner en azul. Ya mi link actual es.
+Esto creo que todos tenemos lo mismo porque hemos partido de una plantilla y tu mi link actual es un HTML genérico.
+Sí, a ver, tendría que abrir mi link.
+A ver si me permiten.
+Tendría que ver mi link, pero es un HTML genérico y si yo más recuerdo también es centrado, claro, es centrado, no, pero este, pero, pero a mira aquí centrado, pero quiero que aquí justamente vas a escribir cómo este describe en palabras cómo se va a ver ahora tu HTML.
+Por ejemplo, ya yo lo voy a poner como una lista.
+Asimétrico, recuerde, yo quiero que sea asimétrico, o sea que esté alineado a la izquierda.
+¿Bien, qué más minimalista?
+Yo quiero que sea minimalista, súper sencillo, la verdad, yo soy, creo que es parte de mi personalidad. Eso ya soy minimalista en contenido. ¿Por qué? Porque este no voy a usar muchos, no tengo tantos enlaces, chicos, yo no tengo tantos enlaces, yo no uso redes sociales, entonces yo no tengo Facebook, yo no tengo Twitter, no tengo este.
+No tengo esta, no tengo esas cosas. Yo creo que tengo cuatro enlaces, mamá, que son LinkedIn, GitHub y WhatsApp. Entonces este por eso es que minimalista en contenido específicamente en enlaces, pocos enlaces. Ya no quiero sobrecargar tampoco a mi usuario. Bien, entonces.
+Personalidad, colores vibrantes, ya colores vibrantes, como mencioné, uy, colores vibrantes, perdón.
+Con tonos.
+Con colores vibrantes y vivos, ya y vivos.
+Con este con sombras duras, por así decirlo, así muy bien, con sombras duras, y yo creo que mi usuario ideal.
+Es efectivamente, creo que acá vamos a todos vamos a estar de acuerdo en que es un reclutador.
+¿Es un reclutador ya un reclutador o tal vez otro programador o un colega técnico?
+Ya un colega técnico que aquí porque pues no quiere leer, como no le voy a dar tantos enlaces y quiero que sea minimalista, que no quiere leer tantos enlaces.
+Sino ir.
+¿Directamente a dónde? A ver, a justamente los enlaces que le voy a dar, por ejemplo, mi LinkedIn.
+¿Cuál es el objetivo de darle mi darle este contacto?
+Quiero que abra mi LinkedIn. ¿Para qué voy a querer que abra, por ejemplo, mi Facebook, un reclutador? No tiene sentido. O sea, yo no quiero que vea mi vida, aunque tal vez creo que sí hay algunos que ven tu vida personal este para hacer un test de personalidad, pero obviamente lo hacen más que nada para ver profesionalmente cómo estás entonces para ir directamente a mi LinkedIn.
+O a tus o a mis proyectos personales porque también le voy a compartir.
+Ya a mis proyectos personales sin fricción, porque como que va a ser más rápido para ellos.
+Muy bien, este, por ejemplo, qué sería chicos, este sería.
+Mi objetivo de diseño, este es mi objetivo de diseño. Cuando tú tienes esto, ya tienes las cosas en claro.
+Ya quedó claro en esos chicos, ahorita lo que he hecho es que tiene que, o sea, lo que tiene ahorita que hacer es.
+¿Tienes tus 3 o 2 inspiraciones basado en eso? Respondemos estas preguntas que justamente lo hice yo. Con eso me dio una mejor idea de que capturar de cada este de cada inspiración, que es que esqueleto, etcétera. Y luego con eso en mente me definí un objeto.
+Un objetivo de diseño rediseño o k completando efectivamente esta palabra. Aquí les dejé una pregunta de ayuda que pueden usar para responder exactamente eso, ¿no? ¿Qué partes específicas voy a tomar de mis inspiraciones para construir mi propio diseño visual? No tiene que ser necesariamente un calco chico.
+No tiene que ser necesariamente eso y este no se guíen por páginas bonitas, sino por este por una intención, no ayudar a tu usuario final. ¿Cómo? ¿Por qué lo haces? ¿Por qué quieres llegar a él?
+Okey, y yo planteé este objetivo de diseño.
+Chicos, algunas dudas, alguna pregunta, por favor, porque les voy a dar también unos minutos para que ustedes.
+Ahorita hagan eso, así que necesito preguntas, no para empezar a contar.
+Listo, te puedo entender, chicos, si no ha tenido una verificación, una validación, ajá.
+O están trabajando y no, y los estoy desconcentrando.
+Hola.
+We.
+Oh yeah.
+Cosmo.
+Okay.
+A ver, a ver.
+Ya están, ya están trabajando ya en esa parte uno.
+A rish.
+Hay algunos que piden cierto, esto tratando de posturar positivo.
+En eso este sí, creo que más que nada es, pues efectivamente los programadores somos este, creo que la mayoría sí o sí vamos a trabajar en un equipo, ¿no? Entonces ven ya tanto el aspecto no solo profesional, sino también social.
+De cómo te llevas en un equipo, por así decirlo, y tal vez sea eso la razón. No creo que sea, no creo que sea otra, pero bueno.
+Y.
+De.
+Estaría mal, creo que colocar.
+Pero ahorita ya OK chicos, pero bien ahí, bien ahí Johnny por hacerlo notar.
+Yeah.
+Aunque, aunque, aunque sí, algunas han convertido su Facebook o su Instagram como una especie de contenido, también de programación. Sí, suben en este contenido relacionado justamente a eso, no la vida de un programador. de entonces, cómo?
+Básicamente como si fuera, no sé, Twitch o eso, suben videos ahí mostrando eso y tal vez quieren, quieren mostrar eso, no quieren mostrar eso.
+Ya ahí ya me estoy respondiendo, chicos.
+Ajá, es buenísimo, una marca personal. Eso sí, tenemos que empezar, tiene que empezar a construir desde ahora. No, cada uno tiene su marca personal, chicos, algo que lo representa.
+Yo sí quise llegar a hacer eso, pero como en el comentario, no soy tanto de redes sociales. Yo soy creo que más de vida natural, entonces, pero sí, al menos tengo lo suficiente, que es LinkedIn, que es GitHub, porque imagínate que un programador hoy en día no tenga eso, no, es parte esencial.
+No, y tal vez alguna que otra red social para que te hagas conocer, no porque es eso, pero que eso también ayuda mucho reconocimiento en eso. Chicos, voy a darles 10 minutos.
+Si lo necesitamos para que para que empiecen haciendo esto, por favor ya para que empiecen haciendo esto ya el 1.3.
+Ya la parte uno, porque vamos a ir a la parte 2, que es justamente ese diseño que han construido, lo vamos a dibujar. Entonces por eso necesito que hagan la parte uno, chicos, necesito que hagan la parte uno.
+Ya voy a dejar esto aquí.
+Para que ustedes puedan ver también el ejemplo que hice yo.
+Ya está contando, a ver, está contando cualquier cosa, esto acabe.
+Necesito contar porque son las 8:50, como que a las 9 tendríamos que terminar.
+Porfa, me comentan aquí si ya tienen eso, si tienen ya su diseño clarísimo, lo tienen en mente, lograron capturar este, me lo comentan, por favor. ¿Por qué este?
+Pero también saber cuántos ya estamos en el mismo punto.
+Bien.
+Munchines.
+Se fue el internet en un ratito.
+Ya me está escribiendo.
+Red.
+¿Podrán definir ese objetivo de revisión, chicos?
+Mm-hmm.
+Voy a tener que dejar esto aquí mejor.
+Me voy a mandar, creo que a WhatsApp.
+Me a mandar a WhatsApp.
+No, todavía este un toque ya sí, este bueno, si quieres puedes ya ir avanzando el wireframe, pero lo vamos a hacer, yo también lo voy a hacer con este, pero estoy esperando ahí a que todos tengan claro su diseño, porque eso va a ser justamente el aparato de cosas ya el wireframe en SkyDraw, pero vamos a hacer otra cosa más, o sea, van a dibujar eso, pero también van a.
+Vamos a hacer como que vamos a poner a prueba su diseño, pero eso cuando lo lleguemos ahí.
+Ya si quieres puedes avanzarlo, claro.
+Sí, no te preocupes.
+Dibujar en la idea va a tomar menos tiempo. Esa es como que la parte más trabajosa, ya porque de ahí este cuando lleguemos al wirefoom es súper sencillo. Ya hemos dibujado ahí, chicos, chicas, esta es la parte más trabajosa.
+Correcto, voy a compartirlo por WhatsApp.
+Así que aquí sí, este tal vez por eso es que estoy dando un poco más de tiempo hasta las 9:00.
+¿Para qué?
+Mhm.
+¿Para qué clarifiquen ideas?
+Para que coger el fiking ideas.
+Claro, ¿por qué no intentar un diseño totalmente distinto al que tenemos actualmente en el la plantilla que mandé? ¿Recuerdan esa plantilla que es un diseño centralizado? Ahí ven tantos esqueletos que hay en esa este.
+Porfa, me hace un chat, pero por chat, porque si lo hacen por.
+Si lo hacen, así un check de un de un también se va al toque y tal vez ni lo no puedo verlo ya por el chat. Sí me comentan sí, este si lograron eso.
+Voy a mandar esto por aquí.
+Tal vez como guía.
+¿Ustedes pueden usar eso? este?
+Por chat, por favor, confírmeme porque me asusta ver que bueno, ya no exista genial que ya no esté ya al tanto, pero quisiera que todos estemos en el mismo punto.
+Hmm.
+No sé si podría poner una canción así tipo Loffi o este, no sé si tal vez haga derecho de doctor. y.
+Me trabajo.
+Mhm.
+Bien, voy a estar al tanto, voy a estar tanto.
+Ya mandé por WhatsApp eso.
+Y también voy a mandar, por ejemplo, voy a mandar algo más, voy a mandar justamente cómo respondí yo las preguntas ya para que ustedes también puedan tomarlo de modelo si quieren.
+No todos vamos a tener las mismas respuestas, claro, porque son distintas inspiraciones, colegas, entonces.
+Y.
+Mhm.
+Chicos, 4 minutos.
+4 minutos para pasar a la parte 2, por favor.
+¿Quier duda, cualquier pregunta?
+Okay.
+Okay.
+Hmm.
+Oh, you, you is?
+Internet.
+Tiempo, chicos, tiempo, como les fue, por favor.
+No he recibido ninguna respuesta todavía más de, claro, la de Yarmi.
+Genial John, muchas gracias, bien.
+Estamos poniendo ya chicos los últimos detalles, por favor.
+Ok, un Tomás.
+Mhm.
+Gracias April por esta venidación.
+Okey.
+Okay, chicos.
+Vamos a empezar con las segunda etapa porque si no nos va a alcanzar el tiempo. Ya no se preocupen que este la segunda etapa no es tan pesada, no se lo pueden en la segunda etapa también voy a dar un tiempo y tal vez ahí pueden avanzar también la parte única. Ya es super este super sencilla. En esta segunda etapa ya vamos a pasar como comenta el laboratorio.
+En la parte 2 que es diseñar ese wireframe loft, pero antes o k a ver, antes, estoy bien normalidad este, antes chicos, crear un wireframe no es solamente colocar cajas o k no es solamente hacer una página bonita.
+Ya requiere en el mundo del diseño, se requiere una intención y este hoy vamos a ver una metodología que se implementa mucho, que es llamada diseño thinking o metodología de diseño básicamente, y para eso me voy a apoyar de un pequeño video con un ejemplo.
+De unos 2 minutos chicos, así que atención, por favor.
+Tengo un pequeño video aquí.
+Yeah, the same thing.
+¿Alguna vez escuchaste acerca de Antisa? Creo que sí se escuchó. ¿Me comentan? ¿Se escuchó el video? En este video te escuchamos a aplicarlo con un
+Va, lo valida genial, ya chicos, este video dura 2 minutos. Sí, solo cortito. Este es la metodología de Design Think que vamos a usar porque no es más que diseñar pensando justamente en nuestro usuario, ya pensando en el problema del humano. Mira, gracias Carlos.
+Que iban a escuchar el audio nomás. o K, mira el audio, no, esperen, esperen, ahora no sabe escuchar porque acabo de compartir, pero sin sonido, a ver.
+Un momento, tengo que ir aquí a incluir sonido.
+Muy bien, como decía, design thinking o método de diseño es diseñar, pero no pensando en lo bonito, colegas no es pensando en lo bonito, sino es pensando en tu usuario, ya pensando en el problema del humano que lo va a usar, porque justamente el humano o tu usuario lo usa con una intención.
+Ya no se acerca a tu página por algo, es reclutador porque lo usa tal vez algunos porque efectivamente quieren conocer tu proyectos, otros quieren conocer tu vida personal o tu vida este social. Hay que llamarles correcto. Hay una intención para acercarse a lo que sería tu página web y en eso nos ayuda esta metodología de.
+Is I thinking ya.
+Voy a darle a Facebook ¿Alguna vez has estado acerca del Design Thinking? En este video te enseñamos a aplicarlo con un ejemplo. Tráfico vehicular en la ciudad de Arequipa.
+Paso 1 Empatizar En esta primera fase hay que aproximarse al mundo, comprender sus necesidades, sus preferencias y recabar información.
+Nos hemos situado en la Avenida Ejército, donde entrevistamos a diferentes personas. Todas, molestas por la situación, nos cuentan que pierden hasta 1 hora en el caos vehicular. Coinciden que son varios los problemas a resolver. Esto nos lleva al siguiente paso.
+Paso 2 Definir el problema.
+se deberá especificar cuál es el problema que queremos resolver esto nos llevará a buscar una solución innovadora uno de los problemas es el incremento del parque automotor en Arequipa existen tres automóviles por cada 10 personas también se advierte el deterioro de varios semáforos en la zona
+Otra causa es el cierre de vías para la ejecución de obras y la poca cultura vial existente en la población. Paso 3 Ideal
+Dentro del Design Thinking, el aporte de diferentes ideas resulta crucial para encontrar soluciones innovadoras a los problemas que se plantearon en el anterior paso. Después se haber recabado la información necesaria y de haber entrevistado a personas incluso otros países como Francia,
+Alemania.
+es que realizamos nuestra lluvia de ideas, por ejemplo, tren eléctrico, semáforos inteligentes, ciclovías, entre otros. Prototipos
+Llegados a este punto, la idea es hacer un diseño de la solución, tratar de representarla bien sea con el uso de tecnología o quizá de una forma más rudimentaria, explicar su funcionamiento y el impacto positivo respecto al problema hallado. Del anterior paso escogimos los semáforos inteligentes.
+su principal función es conectar coordinar y monitorear a través de cámaras de video sensores y luces led también contará con un panel solar la energía adicional captada se almacenará en unas baterías el semáforo también funcionará de noche paso 5 evaluar finalmente se llega a la etapa en la que el usuario va a poder interactuar con el prototipo
+y en la que nosotros podremos obtener retroalimentación de su parte y así hacer mejoras que nos ayuden a ir perfeccionándolo hasta hacerlo una realidad e introducirlo al mercado. Esperamos que este video te
+Bien, chicos, entonces esto es lo que es la metodología de diseño. Vemos que son 5 pasos establecidos, cada uno sencillo de aplicar, pero está más que nada enfocado en conocer al usuario y también el problema. Lo que quisimos con la parte uno es, efectivamente, eso no es responder.
+¿Considerando su diseño de Mylins, quién es tu usuario, ya quién es tu usuario y qué problemas tú le estás resolviendo al entrar a tu página?
+Es lo que tú tendrías que haber definido aquí, más que nada tienen que resaltar 2 conceptos que ya lo hemos visto ya, pero ahora se van a entender mejor.
+Ya aquí viene la diferencia entre UXUI. ¿Hemos ya entendido eso, cierto? Coménteme, por favor, por chat. ¿Qué entendemos por UX? Seguro ya lo han escuchado. ¿Qué entendemos por UX? Por favor, esto lo voy a detener.
+A ver qué se los viene a la mente al mencionar UX o experiencia de usuario en español, no user experiency. Ay, creo que a mí ya experiencia de usuario UX.
+¿Alguna idea? Porque es justamente UX está enfocado en eso ya en la experiencia del usuario. ¿Pero qué tipo de experiencia? A ver qué conceptos, qué palabras.
+Y ahí intuitivo, bien, mhm intuitivo.
+Ya.
+¿Cómo así intuitivo? April, ver, por favor, profundízame ese término intuitivo.
+Um.
+Útil, eficiente y fácil de usar, ya ahí sí, efectivamente.
+Ahí está mejor, más el más explayado, fácil de usar, eficiente y útil. Ajá, experiencia de usuario UX, fácil de usar. Exacto, por ahí creo que.
+Lo del usuario o K, exacto, también me dio la definición de U. Bien, muy bien, fácil de usar. Efectivamente, la palabra que podría representar a UX, chicos, es satisfacción al cliente, pero no satisfacción estética, está más que nada relacionada con la funcionalidad, o sea, cómo se siente al usuario.
+Al navegar por la página web, ¿cómo quieres que se sienta? Obviamente, tú no quieres que se sienta abrumado, sobrecargado. No quieres que sea una experiencia de usuario, como acá comentan algunas, justamente fácil de usar, eficiente, útil o k porque el usuario se acerca a tu página web con un objetivo.
+Y lo que quieren que este lo que quieren, lo que debe hacer tu página web es cumplir ese objetivo. si tú.
+Perdón, si tu usuario se acerca a la página web, disculpen, si su usuario se acerca a la página web con este la razón de ver tus, no sé, tu vida profesional, tus proyectos y tu página web no tiene, digamos, el link de.
+De LinkedIn no tiene el link de GitHub. ¿Cómo va a cumplir tu objetivo? Ya entonces US está relacionado a eso. Más que nada, aquí hay como que test psicológicos, hay pruebas de encuestas, usuarios muy fuera a lo que es UI. En UI sí es sí o sí.
+Estética y aspecto y únicamente eso, no las reglas de estética aspecto, como por ejemplo la armonía de colores, el posicionamiento de los botones que tienen que ir siempre, por ejemplo, encima de una imagen, un título grande, etcétera. Ese es UI. ya. ¿Cómo ve el usuario en tu página web? Lo usual, chicos, lo usual.
+Es que hay un equilibrio entre ambos. En realidad tiene que haber un equilibrio entre ambos, porque si tú, por ejemplo, le das, si tú solamente te fijas, digamos, en una página bonita y sobrecargas tu página de no sé colores, el usuario se puede ver perdido ya y no va a cumplir con Sucre.
+Bien, digamos, tu usuario, no sé, es este más. Tus usuarios se acercan más a tu página web en la noche, pero tú haces una página web súper resaltante, súper brillante, como si fuera, no sé, sin modo oscuro. Ya entonces lo que vas a hacer es espantar más bien a tus usuarios y su experiencia que tienen ahí.
+Por eso tiene que haber un equilibrio. ¿Ya qué pasa entonces? ¿A qué? La pregunta entre el la relación entre estos 2 es qué pasa cuando diseñamos sin empatía, es decir, sin pensar en tu usuario, o sea, sin tomar en cuenta el UX y solo lo hacemos por una.
+Intención de bonita, o sea, por estética.
+Ha pasado chicos, y acá les voy a dar un claro ejemplo. Ya ha pasado en este en la vida real, ha pasado muchas veces. Quiero que vean esta botella de aquí y me digan si ven algo estéticamente mal o feo aquí, ya algo que parezca desequilibrado. Vean la botella y explíquenme.
+Tal vez a ustedes si les gusta esta botella, les parece bonita en lo estético. ¿Cómo lo ven, chicos? Ya no hay que enfocarnos en otro, simplemente desde un punto de vista estético. ¿Cómo ven esta botella? A ver, chicos, es una botella de vidrio.
+Ya.
+Es una botella de la marca Heinz de Ketchup.
+A ver, muy sobrecargado de texto, hey.
+Sí.
+Sí, tiene mucho texto, o k, pero en la estética, ¿cómo ves la forma, el vidrio, la tapa, cómo lo ves?
+A ver, solo en la estética, por favor.
+Ya pongamos nuestros ojos solo en modo UI o UI, perdón.
+Disculpe, no sé, mi silla no quiere trabajar, mi día casi me.
+Ay, ya.
+A ver, muy sobrecargado.
+¿Cómo ven, chicos, por favor?
+La opinión sobre esta botellita, a ver si es bonita, díganlo solo linda, bacán, me gusta, lo puedo coleccionar, lo colecciono.
+Normal.
+Quiero su opinión de señores sobre estas esta botella.
+Ay, lánzeme lo que quiera, no importa.
+Ver.
+Sí chicos, porque quiero validar porfa.
+Mhm.
+No muestra un diseño real del producto, solo una imagen referencial. OK, no muestra un diseño real del producto.
+Como a ver, déjame entender tu respuesta, Carlos, un diseño real del producto solo una imagen referencia. Claro, esta es esto en realidad es el producto, o sea, es una botella de kétchup. Ya esto estuvo en el mercado, es claro, esto estuvo en el mercado, la marca lo sacó.
+No es solo que obviamente es como que sí, obviamente no se ve real, pero así como lo ves, estuvo efectivamente en el mercado ya.
+No es común ahora, sí, es de esas épocas, es de 1906, como dice acá, no se ve ahora, pero te voy a decir por qué no se ve ahora. John, ven, buena, buena acotación. La forma en la que está colocando esto arriba es más tedioso de leer. Sí, efectivamente tiene mucho texto, eso no lo voy a negar.
+Eso no voy a negar y parece una imagen de caricatura. Ajá. Creo que debió haber encontrado una imagen de una botella real, chicos, pero ¿saben cuál es la intención de esto? En realidad, en real esto es una botella de vidrio. ¿Y qué es lo que pasa en la forma de la botella?
+Era una botella de ketchup. Esto en sus épocas era considerada coleccionable. O sea, esta botella de ketchup de aquí era muy bonita visualmente. Ya no hablemos de experiencia, hablemos de UI visualmente era muy bonita y era coleccionable. Ya en era una botella de vidrio elegante, era, por así decirlo, tenerlo en tu mesa.
+Pero eso es hablando solamente en términos de UI.
+¿Pero qué pasa si lo vemos en términos de UX? Había un problema con esta botella, y es que qué pasa cuando tú, chicos, cuando tú, bueno, acá no lo tengo, pero cuando tú, digamos, tienes tu hamburguesa ahí lista y quieres echarte ketchup, pasa que con estas botellas de vidrio.
+Para tú, digamos, sacar el ketchup del fondo o de los costados, correcto, ¿qué es lo que tenías que hacer? Tenías que pegarle a la parte de atrás, cierto, y te botaba el ketchup, pero a veces te hacía todo un desastre porque tenías que este botaba todo un chorro gigante de ketchup, por así decirlo, otras veces no salía nada.
+No funcionaba así. ¿Entonces ahí qué pasó? El diseño falló, el diseño falló. Entonces, ¿qué es lo que hizo Heinz? ¿Qué es la marca justamente de esta botella?
+Uso la metodología de diseño y este pensó en el usuario, pensó en el usuario y bueno, hicieron justamente los pasos que vimos en el video y no pensaron en cómo hacerlo más bonito, sino en cómo resolver esa frustración del usuario de 'Ey, estoy cansado de golpear la piel en la'.
+La botella para que todavía me de este bueno, lo que necesito, ¿no? Entonces, ¿qué es lo que hicieron? Efectivamente, diseñaron esta botella de acá, que obviamente se llama más realista, pero es una botella de ketchup que usualmente lo vemos hoy día, es de plástico, ya no es de vidrio. Entonces hay un contraste, cierto.
+Bueno, más allá de que esto es un dibujo y esto es una, y esto sí es una botella real, pero hay un contraste diferente entre vidrio y plástico, por ejemplo, entre las formas o k cómo evolucionó. Entonces, ¿qué es lo que pasó acá? Esto de acá, la que esto sí, ya.
+Este tal esto tal vez no tenga tanto UX, o sea, perdón, tanto UI. O sea, el diseño no sea tan digamos elegante, pero sí hay términos de UX porque obviamente esto es mejor usarlo, o sea, mejoró tanto la experiencia de UX. Como vemos en esta imagen de acá, no es fácil porque tú simplemente sí puedes aplastar la botella de ketchup y te sale.
+¿Te sale cierto? Es una UI práctica, también es pequeña, es se puede voltear, etcétera, y hay un UX. O sea, acá se logró un equilibrio.
+Se logró un equilibrio y vemos cómo cambió totalmente al haber implementado lo que sería, pues este esta metodología de diseño.
+Entonces es lo que justamente queremos hacer nosotros aquí, no queremos hacer simplemente una página web o un diseño bonito, sino este página web que resuelvan un problema, chicos.
+¿O K, entonces, considerando ustedes a su situación, a su diseño actual, ¿quién es su usuario? O sea, ¿qué problema quieren resolver ustedes con esta página web que este con esta página web de MyLinks que ustedes están diseñando? A ver, ¿qué problema ustedes quieren resolver? Por ejemplo, yo lo que dije es.
+A.
+¿Pero digan mientras yo lo encuentro, pero qué problema están resolviendo ustedes con su página web?
+no, pues acá esto voy a cerrar.
+A ver, respóndame, por favor, voy a cerrar esto, voy a.
+Ay, es calibro hasta aquí.
+No, ella tiene más que una relación con su objetivo de diseño, chicos.
+Ya, yo hice una.
+Página web más minimalista.
+Ya para un reclutador que no puede leer tantos enlaces, pero este sí puede ir directamente a mi LinkedIn o a mis proyectos personales sin fricción. No quiero generarle tanta fricción a este un reclutador y que pueda ir justamente directamente a mi LinkedIn.
+A ver, Yarni me dice, yo puse esto en mi usuario ideal y la función que busco, mi usuario ideal es un recolectador de IT, OK.
+Un developer o un cliente potencial que dispone poco tiempo bien.
+Eficiencia, necesito acceder a mi portafolio, perfil de GitHub.
+Genial, es me gusta esa especificidad que tienes, este Yarmy, al mencionar incluso la cantidad de clics.
+Ya sí, hay páginas que son súper simples y toman en cuenta eso, la cantidad de clicks, va donde va logrando tanto la capacidad técnica de implementación como el buen gusto en el diseño UAX UI, genial.
+Muy bien pulido, ya mismo y bien.
+Recrutador IoT.
+Tecnologías de información, un lead developer o cliente potencial.
+Exacto, aquí estás viendo la necesidad que tiene esto el poco tiempo que tienen estos usuarios.
+Al acceder a tu página web.
+Bien, y acá le estás dejando en claro más que nada cuál es el contenido que tú quieres que lo vea, ¿no? ¿Cuál es el contenido que quieres que vean? Y esto es un buen detalle. Sí, me sorprendió esto, menos de 3 clics.
+Que en realidad, al ser una página web de una sola página.
+Creo, sí la va a cumplir, no, sí la va a cumplir porque este simplemente accede y lo visualiza. No hay como que una navegación de página en página, pero bueno, sí era, sí es, sí me sorprende que haya acotado eso. Entonces bien, chicos.
+Ya entonces, dicho esto, vamos a pasar justamente a dibujar la estructura. ¿Qué es lo que se quiere hacer ahora? A ver, lo que se quiere hacer ahora es.
+El diseño que ustedes tienen se lo que se quiere es como que pasar por, como así decirlo, a ver, primero dibujen su primera versión en Scaly Draw, chicos, ya la visión que tienen de su diseño, dibújenla en Scaly Draw. Yo he dibujado esto, por ejemplo, que es justo la visión que yo definí.
+Ya yo he dibujado esto, no lo voy a dibujar en vivo porque bueno, porque primero ya vimos Scaly Draw, ya conocemos las herramientas que tiene, entonces no lo voy a dibujar en vivo, pero sí voy a mencionar, por ejemplo, qué es lo que tomé. Recuerden que tomé una imagen circular arriba, cierto, mi foto circular arriba al abajo.
+Abajo, mi nombre separado de la descripción. Como comenté, es un nombre separado de descripción. Vemos la diferencia de fuentes y que también el título va a estar en perdón, el título va a estar en negrita.
+Y también algo que capturé es que no voy a poner simplemente Eric Verde, ya, sino que algo que capture de esta página es como dice acá, ay, I am Rachel de Carr, o sea, yo soy ta ta ta, entonces voy a tomar eso también. Hola, soy presentarme, ¿no? Y acá pues pongo una descripción, genero el sistema, se desarrollador full stat, me ocasiona la guía y crear páginas web.
+Bien, y voy a usar pocos enlaces. Como comenté, voy a usar pocos enlaces con una descripción precisa ya para que puedan para que pues el reclutador pueda entrar y pueda leer cada uno de esos. Bien, este es mi diseño de página. Como comenté, es asimétrico porque se va hacia la izquierda, no está centralizado.
+Y el no tiene un color de contenedor distinto al fondo, sino que pues se unifica. Y eso, este es mi diseño de wireframe. Lo que quiero que hagan ahora, chicos, es que diseñen el suyo. Bien, diseñen el suyo, por favor, a partir de ahora, porque vamos a crear la de 3 variantes. Vamos a pasar por eso, pero primero necesito ese.
+2 variantes, ya solo 2 variantes, pero necesito que pasen a esto a su opción segura porque a partir de eso se van a crear las variantes.
+¿Chicos, hey, se captó eso?
+Ahorita.
+Plasmar.
+En Scalydrop.
+So.
+Weird.
+Plasmar que está librado subir a ver.
+Y mándeme capturas, por favor, mándeme la captura al WhatsApp.
+Yeah.
+Ver.
+Voy a dar este primero voy a dar 5 minutos para ver cómo las va, chicos.
+Porque crear un diseño escalibrado nuestro bueno es relativamente sencillo, pero depende como les ya 10 a bueno tras las 10 veamos los resultados, pero sí mándenlo porfa a su al WhatsApp, manden al WhatsApp eso.
+Ok, voy a estar al tanto también en WhatsApp.
+Mhm.
+Recuerden que la wear frame no tiene colores ni tiene imágenes, entonces es solo figuras geométricas y letras, nada más que eso.
+A.
+Un rato, voy a cambiar mi silla, chicos, a ver si voy a poner también punta.
+Dice Yarni, lo mismo por WhatsApp. Sí, claro, sí, Yarni, mándalo por WhatsApp. Vale, ahí manden, por favor, chicos, ya cumplió el tiempo de.
+De diseño de su Scary Draw. ¿Cómo vamos? Mándelo por WhatsApp para tener un una vidación de que justamente estamos en este punto.
+Red.
+Ya no, todavía no, ahí todavía tienen 1 minuto, chicos, por favor, vayamos avanzando eso.
+Gracias por esa acotación, John, no te preocupes, o sea, hay todavía tiempo, pero ahorita presenten porfa una base, no hay problema en una base para que tomen esto como una práctica. Ya de ahí con el tiempo, obviamente tener este diseñar una página web no es un proceso de minutos.
+Cierto, este a veces uno necesita más inspiración o más creatividad para plasmar lo que uno quiere, no, , pero pon una base, un avance con eso es suficiente, la verdad, con eso es suficiente.
+O K, ya siendo ya las 6, chicos, vamos a avanzar porque este si no nos vamos a las 11:00 y la verdad yo que este.
+¿A ver qué nos faltaría? Nos faltaría la parte 2 y la parte 3 ya en la parte 2. ¿Qué es lo que tenemos que hacer aquí, chicos?
+Ya voy a esperar a que lo suba, ya ustedes suban, que es normal.
+Oh, yeah.
+El John ha mandado.
+Yo, Jeremy, a ver, Jeremy.
+Sí.
+Que veo una jota, lo siento, a ver.
+Yarni, perdón, Yarni, gracias por eso, ya.
+Tienes ahí, si quieren pueden usar ya chicos, no hay problema ya este para sus ideas, muy bonita.
+Muy bonitos este inspiraciones, colores elegantes, tiendo.
+Veo que hay generación también todos.
+Ya listo, gracias listo. Entonces vamos a continuar chicos. ¿Qué es lo que se va a hacer ahora? Ya no hay problema, vamos a avanzar lo que vamos a hacer ahora.
+Es demostrar que la primera idea rara vez, o sea, a ver, la primera idea usualmente. este.
+No es la definitiva ya sin antes haber explorado otras vías. o K, como comentamos o como vimos en los pasos de la metodología de diseño, habían hablado del prototipo, pero este el prototipo no necesariamente es el producto final, sino que se crean diferentes prototipos o variaciones.
+Bien, variaciones. Eso no solamente se ve en lo que sería el diseño de página web, si no lo vemos en distintas industrias, en realidad, en videojuegos como prototipos de personajes, este en lo que serían afiches, etcétera. Ya se crean variaciones y este eso es lo que vamos a hacer ahora. ya.
+Vamos a poner a competir su diseño, vamos a crear prototipos, o sea, variaciones ya, y eso es justamente lo que nos propone laboratorio.
+Vamos a ponerle retadores a su diseño actual ya porque no queremos que pase directamente, como decir a la segura, hey, esta va a ser mi página web. No le vamos a dar como que una razón de que esta sea la el diseño final con el que nos queremos quedar, ya basándonos claro en ese objetivo que nosotros tenemos o que hemos respondido.
+No en ese problema que nosotros queremos resolver. Entonces, ¿qué es lo que vamos a hacer? Vamos a crear variaciones y aquí nos nos plantea exactamente si estoy compartiendo, es cierto, sí o ky aquí efectivamente el laboratorio nos plantea variantes, 3 diferentes variantes. Bueno, en realidad solamente 2. Esta ya es una variante que digamos que es como que la opción segura para nosotros.
+Ya es la opción segura porque es la que este hemos definido con la parte uno.
+¿Qué es lo que vamos a hacer? Vamos a definir otras aquí, como por ejemplo, yo voy a sacar copia de esto y lo voy a.
+Ya voy a generar otra opción alternativa basada en mi diseño, que es lo que dije. ¿Qué fue lo que dije? Voy a poner una opción creativa ya o no sé, loca. Bueno, una palabra, no una palabra en la personalidad de esa variante o variación. Y en esta lo que voy a hacer, por ejemplo, sería.
+A ver, yo me animaba a hacer una variación en lo que sería la posición, es decir, ¿qué tal si pongo así mi página web? Pongo la imagen aquí, no sé, tal vez encuadrada, no está bien en círculo ya, pero lo pongo al costado del este.
+Luego este esto normal lo mantengo, ya esto no, esto lo mantengo, pero no quiero, por ejemplo, botones.
+Pero digamos, iconos ya.
+Quiero íconos, entonces voy a hacer eso.
+Ya voy a poner iconos aquí.
+Esto sería una variante que podría tomar, por ejemplo, una que me hubiera gustado tener, por así decirlo, una que me hubiera gustado tener.
+Muy bien y otra opción que voy a crear es a partir de justamente mi opción segura.
+Ya es una opción más minimalista todavía, o k más sencilla, más simple, porque justamente eso está en mis términos, el que sea minimalista. Entonces yo quiero una opción más minimalista. ¿Y qué pasa si, por ejemplo, yo le quito la yo le quito esa imagen que está aquí?
+Ya voy a poner acá una opción minimalista.
+Una opción minimalista y le quito esa imagen y solamente va a tener esto, digamos, va a tener una letra más grande. Ya ahí va a estar así por ingeniero de sistemas.
+Y no sé, acá también este sí quiero que sea minimalista y voy a hacer esto de acá, voy a copiar estos links de aquí.
+Y lo voy a dejar aquí.
+Ok, chicos, y ya esa es la opción más sencilla que tengo. Ya he usado iconos, no he usado texto y he usado nombre y ya la más sencilla que tengo yo aquí. Es una opción minimalista. Ya he planteado variaciones respecto a eso. Muy bien, ya tengo, bueno, voy a terminar esto porque.
+Tengo ya como que 3 páginas, tengo 3 diseños distintos, ya tengo 3 diseños distintos.
+Perdón, ya voy a moverlo aquí.
+Entonces tengo 3 diseños distintos, la opción segura, la opción creativa que le llamo yo y la opción minimalista. Muy bien, ¿qué es lo que vamos a hacer? Lo que vamos a hacer chicos es bueno, acá te está dando ya ideas para variar, ya sea en la foto de el posicionamiento, varía incluso simplemente el posicionamiento va a cambiar la experiencia de usuario, chico.
+Ya variar el posicionamiento, este si cambias botones por listas, por iconos, por cars, que tu fondo tal vez sea una foto, no sé la organización cómo está. Esas son distintas ideas para variar, no, acá te está proponiendo una, pero tú este escoge, escoge las que quieras.
+Cambia de posición ahí a tu water frame como saca de copia y cambia de posición como si fuera un rompecabezas y mueve las piezas. Muy bien, porque luego lo que sigue, chicos, es que elijas obviamente uno de ellos. No, acá va a pasar el filtro de simplemente elegir uno de ellos. ¿Y cómo te vas a basar en elegir a uno de ellos con las preguntas que?
+¿Te estás planteando aquí decir, te estás planteando 3 preguntas para este bueno, para elegir una de ellas, no?
+¿Entonces, qué hacemos? Vamos a pasarla por un filtro. Es fácil encontrar los enlaces, refleja mi personalidad y marca o puedo implementarlo en HTML CSS. Entonces yo evalúo en la variante B.
+Que es la opción creativa. A mí aquí me forcé a cambiar la posición y este rompí el flujo clásico que tenía aquí, lo rompí, es decir, puse a un costado. Entonces en la variante C, que es esta de aquí, lo hice más minimalista.
+Fui al extremo ya casi porque le quité las imágenes y traté de hacerlo más simple.
+¿Entonces hasta mostrar solamente iconos y no texto ya entonces con cuál me quedo?
+Vuelvo a mi objetivo, mi objetivo que era mi objetivo está aquí, reclutador, ya un reclutador técnico o un colega técnico sin tiempo, ya que sin fricción y sin tiempo.
+Y sin tiempo.
+Ya.
+A ver, creo que acabas ponerte sin tiempo aquí, ¿no? A ver, muy bien, soy ideal, es un completo, un comleo técnico.
+Por el corto tiempo que dispone, si no.
+Sí, directamente a mi ok, listo ahí.
+Ya voy a bajar porque se ve muy grande ya muy bien. Entonces tenemos un reclutador y colega técnico que no dispone de tiempo y no queremos darle tanta fricción.
+Basado en eso, voy a como que descartar. ¿Cómo lo hago? A ver, la variante C, que es la minimalista. Muy bien, falla por una razón, chicos, falla por una razón aquí y es porque usualmente los reclutadores, como te comentaban, te identificaban más con una imagen o una foto.
+Cierto, en el mundo real creo que hay como que más desconfianza en aquellos que no sé, tal vez no usan su foto de perfil de perfil como foto. Es decir, más que nada a uno se le identifica con la con el rostro, cierto, con el rostro este noble en evaluar si es bueno o malo, sino que conoce a alguien.
+Por la mirada, por el rostro, así o k entonces la ausencia de una foto quita como que esa humanidad, esa identificación frente a un reclutador. Entonces los reclutadores conectan básicamente con rostros, no con cómo es la persona. entonces.
+No digo que sea bonito o sea feo, no, sino que ver la cara da ese perfil de inspirar confianza. Eso más que nada. Entonces aquí no lo tiene. Entonces, por eso la opción minimalista no me parece la opción correcta para este.
+Para definir mi página web, entonces por eso yo voy a diseñar, voy a quitar eso, ya voy a quitar eso.
+Esto de acá, ya perdón.
+Listo, voy a quitar eso. ¿Qué pasa con la opción creativa? A ver, la opción creativa sí agrupo a mis enlaces, pero pasa que los íconos. El problema con los íconos es que el reclutador va a tener que identificar, o sea, lee los íconos. En realidad no se lee, lo tiene que ver.
+Tiene que verlo así como si tú te vas acá, por ejemplo, y yo te digo, oye, presióname Facebook, el reclutador va a decir a ver, va a tener que buscar todavía cuál es Facebook. No, obviamente es el segundo, pero le va a tomar un tiempo, no le va a tomar un tiempo entre la cantidad de iconos que hay, va a tener que buscar efectivamente ese icono que necesita darle click.
+Entonces ahí como que ahí este tiene que escanearlo, no tiene que escanearlo y le da como que corto, por así decirlo, no al extremo, aumenta la fricción ya de identificar eso. Entonces, por eso la opción creativa para mí es descartable, mientras que en la opción segura vamos a ver.
+Obviamente tiene foto o K se lee rapidísimo porque tiene textos de tiene textos amplios en lo que sería el botón. No hay iconos, son textos que los puede leer fácilmente, bien y va a tener colores brillantes, ya solo que acá no se ve, pero va a tener colores resaltantes.
+A diferencia del fondo, que va a ser un color blanco, entonces acá lo que encontré yo fue darle menos fricción y también mayor velocidad de lectura al ponerle letras a lo que serían mis botones chicos. o K entonces, dicho esto, por eso yo digo que la opción la opción.
+A que es la opción segura, todavía sigue siendo mi diseño final.
+Entonces es eso, es como que una prueba de prototipo basándose en lo que sería tu objetivo, bueno, tu objetivo de diseño. Bien, es una prueba así. Otra sería justamente pasar por este, por esta, por estas preguntas, no si es fácil encontrar los enlaces. Yo comenté que.
+Efectivamente, en realidad los que tienen iconos no es fácil, a diferencia de los que sí se pueden leer.
+Ya refleja mi personalidad y marca.
+En parte sí, pero esto es muy minimalista, ya tanto al extremo que me quita la foto de perfil.
+Y bueno, todos obviamente se pueden implementar en HTML CSS, no es no tienen ninguna dificultad para implementarlo.
+O KY con eso, chicos, eso ya con eso ya tienen claro con qué diseños se van a quedar.
+O K, es básicamente eso. Ustedes lo tienen que implementar 3 o implementen uno nomás, chicos, implementen uno, no se preocupen, yo entiendo, implementen uno que sea como que su retador, su como si uno fuera Goku y el otro Vegeta, o sea, su retador ya su retador y pónganlos a prueba.
+Basado en su objetivo, ya pueden implementar solamente uno y hacerse la pregunta en ellos, ya la idea es que justamente.
+Aprendan a formular preguntas, chicos, ¿qué preguntas les permite seleccionar uno sobre otros? A adquirir ese comportamiento de diferenciador entre 1 y el otro y el por qué descarto uno del otro bien.
+Aquí les voy a dar 5 minutos más.
+¿Te puedo entender eso, chicos, se puede entender para dar los 5 minutos, por favor?
+¿Que es la cómo se finaliza la parte número 2?
+La parte número 3 es ya es ya no hay tantas preguntas. La parte 3 es diseñar en Figma. Entonces hasta aquí como que nos acabamos con las con las ideas ya con las ideas, pero eso se pudo captar, por favor, che algo.
+¿Están ahí todavía?
+Amy.
+Todavía están ahí legas.
+Defo.
+Oh.
+Mhm.
+A ver, voy a ver el WhatsApp.
+A ver, yo me estaba preguntando.
+Porfa, voy dejando correr los 5 minutos.
+Aquí para que ustedes puedan avanzando también esa parte.
+Una variación, solamente una variación.
+¿Para que puedan responder esas preguntas ya por qué?
+Tal vez solo un movimiento de.
+Elementos, cambiar iconos, perdón, botones por iconos.
+Hay una variación.
+O K, aquí, entiendo, entiendo. Sí, tal vez algunos todavía este están en ese celular, no se preocupen, ya o algunos este no tienen acceso a escaydrop. Lo entiendo, no se preocupen, igual va a quedar grabado, así que pueden revisarlo de nuevo ya, pero lo que sí es este gracias por avisar eso. John.
+Vale.
+Ahí creo que me compartiste, solo puedo hacer permiso ya bien.
+Qué bien, gracias.
+Mira, buenísimo, exactamente ahí.
+Mira, tú usaste iconos perfecto.
+Y ajá, centrado ya en una esquina, bueno.
+En la opción minimalista parece que combinas tanto el título como.
+Como la descripción, no sé, podría ser claro, también le quitas la imagen y te quedas con los iconos, ¿no?
+Y en la opción este, bueno, en la opción más creativa, sí cambias el posicionamiento.
+O sea, que pasa de también si nos damos cuenta en lo que sería la codificación en esa en esa parte donde la imagen está.
+Así.
+Cierto, la imagen está a un costado a esta imagen. Esto de acá, obviamente, el móvil se va a tener que poner en columnas, o sea, tu imagen arriba y tu descripción abajo, correcto, mientras que esto no va a tener, no va a necesitar tanto código porque simplemente se va a reducir hasta acá.
+Okey, y esto.
+No creo que ni necesita centralizarse, o sea, se va a reducir. En cambio, acá sí vas a tener obligatoriamente que implementar flex y medias queries para este para controlar la el posicionamiento, no también por eso es que pregunta. Una pregunta que puede ser es si eres capaz de.
+¿Cómo así decirlo, decodificarlo? No, en realidad todo lo que se ve aquí es se puede codificar, chicos. Aquí lo que está usando son CCS, lo que se llama background image, que es poner una imagen como fondo ya las propiedades de background image, poner una imagen como fondo. Algunos sí ya están usando JavaScript.
+Porque son interactivos, es decir, se puede dar clic. Hay movimientos, entonces ahí viene con JavaScript. Otros son más simples, bien, otros usan opacidad. ¿Qué es opacidad? Este que se puede ver como que transparente un fondo ya le quitas lo concreto, lo duro al color.
+Y lo vuelves transparente, entonces hay niveles de opacidad de cero al 100 y mientras.
+Más reduzca la velocidad, más transparente se ve.
+Yeah.
+Genial, Kevin, listo. Entonces, en realidad no un consejo, chicos, un consejo a después ya un consejo es que practiquen, o sea, tomen uno que les gusta cuando ya terminen, por ejemplo, este code 101, chapen uno de acá y practiquenlo ustedes mismos con sus CCS, su HTML.
+Creen esa estructura así sin este ya y así practiquen este, vean como imiten esta estructura, pero para ustedes practiquen así, vale, yo a mí me gustaba la verdad chaparran diseños y este.
+Y hacerlo por mi propia cuenta. Y eso también fue en los trabajos que nos dejó el anterior donde yo estaba, nos dijo, hey, agarren una tarjeta y simulenlo ustedes con su propio desconocimiento y era bacán. ¿Cómo terminabas? No necesariamente al de igual forma, porque son distintas fuentes, pero o.
+Colores, pero bueno, era así, no era una forma de practicar.
+Ya a ver, listo.
+O K, ya podemos avanzar, creo, porque ya pasaron los 5 minutos.
+En celular, primera foto.
+Sí, en columna, muy bien que en columna, como un flex column.
+Y cuarto iconos, ajá. Y los iconos también. Ahí le vas a tener que aplicar flexwrap. ¿Por qué? Porque este tal vez los iconos depende el tamaño, la verdad, si entran en móviles ya.
+Acá sí entra, no, pero acá no. Por ejemplo, en este que estoy usando yo este no va a entrar en móvil, entonces voy a tener que usar un flexwrap, es decir, va a tener que crear líneas abajo, ya saben, para que no se desborde. Entonces, por ejemplo, se va a aplicar acá o este mejor aún, que todos ocupen todo el ancho del móvil.
+No que se ponga uno sobre otro.
+Creo que es más mejor, más mejor ya listo, chicos. Dicho esto, vamos a pasar ahora sí a la parte número.
+La parte final, la parte.
+¿Dónde está la parte 3 que ella tiene que ver con high five, o sea, un diseño más realista de alta fidelidad hecho en Figma?
+¿Cuántos conocen aquí Filma, chicos? Levántenme la mano por favor o un check. ¿Cuántos conocen ya Filma? ¿Ya lo conocen? ¿Han escuchado sobre Filma? Yo creo que sí, o sea, modo el diseño es una herramienta súper súper usable. ¿Cuántos lo conocen? A ver.
+Yeah.
+¿Conocen fin más?
+¿Tienen alguna experiencia con firma, por favor?
+yo con las Sfigma, genial.
+Ya vamos a un check.
+O K, John Peña también para escribir ahí.
+Figma, genial, exacto. Figma es una herramienta. Es como que la evolución de ScaleDraw. Ya vamos a ver por qué, pero Figma nos va a permitir ya poder meterle colores, poderle meterle imágenes, poderle meterle fuentes, poderle meterle todas esas características.
+A este water frame que nosotros hemos escogido ya y además nosotros al conocer CCS este vamos a tener una intención más sencilla de usarlo.
+Lo que primero quiero que hagan es que vayan a su firma y se creen una cuenta.
+Voy a.
+Voy a abrir Figma y después.
+Compartir, ya tiene 2 versiones, muchachos, chicos, chicas, tiene 2 versiones, la de web, pero también tiene la de escritorio que yo la tengo descargada. Ya por ahora pueden usar la de web porque este no sé, tal vez este ahorita ya instalarla de escritorio les puede tomar, les puede ser un poco más pesado.
+Entonces usen por mientras hoy solo hoy la de escritorio y ya perdón la de web y ya este cuando haya un poco más de tiempo, ustedes tengan después la pueden instalar para.
+Para su escritorio.
+Ya quiero que se cree una cuenta ahí porque necesitan crear una cuenta para poder usar la herramienta.
+Si se van aquí, estamos en fin, ya.
+Le dan a iniciar sesión y abajo.
+Hay una opción de crear una cuenta, ahí se crean la cuenta. Hay 2 modalidades con Google o Gmail y un correo electrónico, nada más eso.
+Ya yo voy a iniciar sesión con mi cuenta que ya tengo, ya está aquí.
+Voy a iniciar sesión con esa cuenta, pero ahí los espero, por favor, 3 minutitos hasta las 10.
+Para avanzar firma, ya si este tiene en cuenta, me lo confirman, por favor, por el chat, ya tengo cuenta, ya me cree.
+Para ver cuántos estamos ahí.
+Para explicar la herramienta porque es súper sencilla, yo tengo cuenta, por ejemplo, yo tengo cuenta, ustedes escriban chicos.
+Sí, ya lograron crearse la cuenta de firma.
+Ahí les compartí un enlace.
+Y parece que me enviaron un poquito más.
+Yeah, sí, sí.
+Mira, más tenemos otro estilo, gracias.
+No.
+No geniografía.
+Ya ha separado los 2 bloques. Gracias Kevin por esa confirmación. Mira cómo se ve en móviles, debe ser no o modo vertical.
+¿Tienes imagen? tienes?
+Pero arriba y abajo, mira como una píldora.
+Interesante ese diseño, cómo se verá.
+Está todo comprimido en un contenedor como que como que vertical, ¿no? Y has puesto en una fila la imagen, luego has puesto otro bloque de tu título y tu biografía.
+Y entiendo que esos sí conocen, se han puesto como un cuadrante.
+Sí.
+Ya aún está por pulir, vale.
+¿Cómo vamos? ¿Cuántos tenemos ya la cuenta? Por favor, ya se la crearon. Es súper sencillo, chicos.
+Pues claro, me pueden confirmar también los que.
+Claro, además de.
+¿Quiénes son ahorita no están en esto?
+Sí, trabajar a estas horas es, pero.
+Sobre todo para mí cuando trabajaba.
+Ya.
+A ver.
+1 minuto más, por favor.
+Mhm.
+Ya lo tenemos, a ver.
+Ya.
+Okey.
+Vamos a cerrar las hostias que no las quemos.
+I don't have to eat on.
+Some more restore.
+Ya esta es la ventana principal que les va a salir a ustedes.
+Voy a continuar.
+Bien, voy a continuar chicos presentando firma.
+Ya me está empezando. Ya esta es la ventana que les va a salir a ustedes al inicio, ya van a salir algunos proyectos por aquí.
+Ok, estas ventanas que están aquí.
+Yo estaba practicando ya con algunos, esta es una cuenta nueva. Tengo otra cuenta de figma, pero esta es una cuenta nueva con algunos diseños que estaba haciendo y a dónde nos vamos a ir. Bueno, podemos ir a borradores para hacer una diseño fácilmente.
+O nos vamos a abajo. No sé si a usted le sale proyecto en equipo o todos los proyectos. Vamos a todos los proyectos que están aquí, porque este un proyecto en realidad representa como que cuaderno, un cuaderno donde tú puedas dibujar ya.
+Listo, estos son los proyectos. Lamentablemente, firma, pues la versión free, la versión free no te deja crear más proyectos, solamente te ofrece estos de aquí, pero acá sí se pueden crear como que adentro se pueden crear los cuadernos. O sea, esto es como una carpeta de proyectos y adentro se pueden crear más proyectos.
+Entonces denle aquí, por favor, los que estamos, los que están conmigo, hay que darle aquí, ya no. Entonces vamos a darle a este que yo creo. A usted sí, obviamente, porque ya no sé cuántos cree yo.
+Por eso es que no me permite crear más, por así decirlo, cuadernos ya.
+Pero a ustedes sí les va a.
+Permitir porque bueno, somos hoyos nuevos.
+Bien, están aquí conmigo, son usuarios nuevos, entonces no hay problemas.
+Listo, chicos, son las 10:03, vamos a hacer esto, vamos a hacer un pequeño tutorial mientras también voy a graficar la opción que yo escogí aquí en mi en mi figma. Ya entonces esa es la carpeta de proyecto, esa es la carpeta de la.
+Página realidad que te da el proyecto ya es la página, ya acá le voy a poner, por ejemplo.
+Hi.
+Hi, William.
+No.
+Me voy a atorar acá ya esto, nada más eso nomás. Esos le pueden poner el nombre para identificar, eso no importa, pero al igual que Scally Draw, les va a presentar aquí como que una pizarra grandaza, les va a presentar una pizarra grandaza ya infinita, sin límites. Ahora obviamente nosotros no vamos a dibujar aquí.
+Ya acá nos, acá no se dibujan, chicos. La pregunta es para ustedes, ¿cómo se llama justamente esa ventana que nosotros podemos ver solamente en nuestra página web? ¿Cómo se llama ese área?
+Que nosotros podemos ver en nuestra página web. Recuerda, lo mencioné en responsive. ¿Cómo se llama esa área? Una palabra.
+El área es diferente a distintos dispositivos, pero cómo se llama esa área donde esa área, pues donde se observa la página web, básicamente.
+A ver.
+John Dios, gracias.
+¿Cómo se llama esa ya estimados colegas?
+Viewport, genial, gracias exactamente un viewport. Ahí también dijo Kevin, este viewport, John viewport. Bien, efectivamente, viewport ya el viewport. Si recordamos es donde justamente nosotros dibujamos, cierto, nosotros dibujamos en un viewport que nos ofrece el navegador. Ahí es donde dibujamos HTMLYCSS, cierto, y el viewport es diferente para diferentes.
+Figma también nos ofrece viewport para dibujar. Por eso no dibujamos nosotros aquí, dibujamos eso, pero acá se llama frames o marcos con la letra F no sale acá abajo. Acá abajo es donde están todas las herramientas. Bueno, sí, las herramientas de dibujo básicamente están acá abajo.
+Así similar a su colega Scaly Draw que está acá arriba.
+El de nosotros está aquí abajo en fin, ya y aquí está la herramienta de marco o este frame en inglés. Cuando nosotros presionamos esto nos va este justamente al costado, en la barra derecha, la barra lateral derecha nos va a salir que Viewport, tú deseas dibujar, ya sea en mi teléfono.
+Sea en una tableta, sea en un escritorio, donde tú quieres hacer esa ese primer diseño. No, yo voy a escoger escritorio porque estaba dibujando ahí, estaba dibujando un escritorio y ahora sí vean cómo me ha aparecido justamente como una ventana de escritorio.
+Ya yo acá voy a poner un este página de enlaces que voy a poner, ya le podemos poner nombre ahí arriba, nombre representativo de qué significa justas en página. Esta es mi viewport de.
+De escritorio o de computadora, como sea, ya porque ahí es donde he diseñado yo. Ustedes también escojan eso, porque ahí es donde ahí es donde justamente se dibuja eso, ahí se dibuja lo que sería.
+O K.
+Ahí están escribiendo, chicos, ¿qué pasó? A ver, cuesta ahí al tanto, pero ahí efectivamente es donde se dibuja. ¿Cómo lo activamos con F no? O abajo, acá en la herramienta, sale con F se puede dibujar ese viewpo. Ahí es donde vamos a dibujar. Lo que les recomiendo, chicos, es que pongan esto acá es la ventana de zoom, aquí pongan.
+El color, el zoom para encajar ya acá, pónganlo al 100% porque recuerden que estamos diseñando en una aplicación. Entonces es un zoom, ya básicamente es un zoom, pero así es como se va a ver realmente. Por eso le pongo 100%, porque así es como se va a ver realmente en escritorio. Vean como ha ocupado en realidad.
+Todo bueno, todo el mío porque yo tengo en esta en esta laptop ya.
+O K, sí, así es mejor diseñar, porque si ustedes hacen la letra grande y está ahí en este en esta distancia, obviamente va a salir más grande cuando nos acerquemos. o K entonces.
+Listo, ya voy a continuar, chicos.
+¿Qué ¿Cuáles son los siguientes elementos? Bien, los siguientes elementos están aquí y son elementos geométricos, igualito que escalidro, elementos geométricos. Tenemos el rectángulo que se activa con R ya el rectángulo que dibuja básicamente pues es un rectángulo, pero si nosotros nos quedamos aplastando la tecla shift, lo que nos permite activar es dibujar esa línea que va en el medio.
+Nos permite hacer un cuadrado, un cuadrado perfecto. Ya si ustedes quieren hacer un cuadrado, se quedan aplastando chip y arrastran o este según sea el tamaño que quieren, pero si no lo sueltan y ahora sí pueden hacer de cualquier ancho o alto diferente con el chip, si te va a hacer el ancho y el alto igual ya listo.
+Listo con eso, luego el otro sería la el elipse, que es lo mismo, la misma funcionalidad. Con shift creas un círculo perfecto, pero si le quitas puedes crear el tamaño que tú tienes.
+Eso y la línea, creo que esos 3 son los que más se van a usar. Con shift también se pone una línea recta o k con shift vean, le planto shift y se pone una línea recta para arriba, ahí ya según la posición donde esté, va a poner una línea recta y eso son básicamente esos 3 y abajo que está la opción de imagen y video que también se puede colocar.
+Ya la imagen y video que se puede colocar esos cuatro, más que nada, mayormente vamos a usar en cuanto a lo que sería el diseño. Ahora voy a empezar yo, por ejemplo, haciendo mi círculo, ya voy a empezar haciendo yo un círculo en mi diseño y para eso voy a, qué es lo que dije, voy a necesitar una elipse, cierto, voy a necesitar.
+Lo que es una elipse.
+¿Qué es lo que voy a hacer aquí? A ver, primero voy a mostrar las herramientas que tiene acá al costado porque no son tan difíciles de notar, ya que son, si conoces, como te digo, CCS, vas a notarlo fácilmente. Esto en realidad se aplica para el rectángulo también. Ya primero tenemos en disposición lo que son las dimensiones.
+Ya sabemos un ancho, que es obviamente el ancho de la figura y un alto. Es eso, nada más que eso bien, listo. ¿Qué más tenemos en apariencia? Acá está la opacidad, como lo comenté, que es qué tan transparente quieres que se dé.
+Ya ves que si lo baja se vuelve más transparente, o sea, hasta que se vuelve invisible. Ya qué más tenemos el radio de esquina. Esto no funciona tanto en círculo, obviamente porque no lo tiene, pero sí funciona en lo que sería el rectángulo. El rectángulo permite redondear las esquinas ya si tú le pones 10.
+Aquí ves cómo se redondea las esquinas. Efectivamente, con esa propiedad que ves aquí se redondea. Si tú le aplastas al costado, en realidad en la mayoría le aplastas al costado y te sale esa flecha como que bidireccional. Funciona como una rueda, tú lo mueves a la izquierda o a la derecha y ese número varía.
+Ven.
+¿Ven cómo varía? Así funcionó ya o le puedes poner un valor numérico nada más que eso. O hay otra forma que es acá en la esquina del rectángulo te sale el que puedas cambiar para todos a la vez girándolo. Así ya escoge la forma que tú mejor quieras, no hay problema.
+Con la cual tú te adaptes más. Relleno, relleno es como background color porque permite pintar el rectángulo del color que tú quieras. Te da ya una paleta como que un selector de colores en vivo, pero tú puedes colocar el color que quieras aquí en hexadecimal. Tú lo tienes, tienes el código hexadecimal.
+Lo copias aquí y automáticamente pues le se pondría de ese color. Ya nada más que eso, ya nada más que eso. Trazos, que es trazos, trazos es bordes, chicos, trazos es ponerle un borde, ya vean como ya se puso un borde oscuro, solo que no se nota porque aquí en peso nosotros podemos ponerle más.
+Ancho a ese trazo de cero a 23 como queramos. Ya le podemos poner un ancho más alto a ese trazo. Es como el border que tú le pones en cssy podemos, claro, cambiar el color también del trazo que queremos implementar.
+Ya listo, ya es súper sencillo, como comenté, qué más, qué más, qué más, qué más efectos, efectos tiene que ver, por ejemplo, las propiedades, es ese que había mencionado. Recuerden, box shadow, con eso vamos a hacer, pero otra otro dato, si ustedes le han puesto el trazo, pero se lo quieren quitar.
+Le ponen acá al costado, hay una opción que dice justamente eliminar o hay otro que alternar invisibilidad.
+Que lo oculta básicamente yo lo voy a eliminar porque no quiero el trazo para mostrar lo que son efectos, que aquí es donde está, por ejemplo, el boxado ya darle ese sombreado.
+Si vamos al sombreado y le damos a este cuadro de aquí, nosotros podemos jugar con eso. Por ejemplo, le voy a poner 5.
+¿Y si lo ve?
+No sé si aquí se nota, pero está flotando como que está muy chiquito.
+No, mejor le voy a poner acá un 10.
+Para que se note, ya vean como hay un sombreado detrás. Ya genial, es justamente eso, ¿no? Con estas herramientas tú vas probando y le vas implementando eso, no propagación ya.
+Yo, por ejemplo, voy a ponerle esto de aquí.
+Más y más, a ver, así debería ser mi efecto de sombra.
+Mucho, pero es ahorita lo pongo ya, pero noten eso. ¿Cómo le ponen los efectos? Es y exportar. Bueno, exportar va a ser después, eso no hay nada de que preocuparse. Esos son las propiedades que van a aplicar tanto a lo que sería el círculo y el rectángulo y otras figuras que están ahí.
+¿Es eso qué más? Ya entonces no me desvío, voy a colocar el círculo que está aquí porque a este círculo lo que le voy a colocar es una foto mía, no tengo una foto mía, así que voy a descargarla de Internet, no sé, voy a Smile.
+Pero lo que sí voy a hacer es a ver.
+Cualquiera, no, ya cualquiera.
+Ya un chinito, ya entonces vamos a.
+Guarda la imagen, espero que me lo guarde en formato Aves, mi primer en formato Aves.
+Necesito otro formato.
+Esto ya es estación personal, pero vamos a abrir imagen en la pestaña.
+Vamos a guardar imagen como.
+Ya listo, muchas gracias, ya esto es como que.
+Perfil.
+¿Buenazo, ya qué hacemos chicos? Miren la facilidad que está para implementar imágenes. Ya si nosotros vamos justamente aquí donde están las figuras y le damos acá a las opciones, le damos a imagen, vamos a seleccionar una que está en nuestra carpeta, voy yo la guardé aquí.
+Le doy a clic, le doy a abrir. ¿Y qué pasó? Miren, está. ¿Qué es lo que pasa? Acá abajo da un mensaje y dice, haz clic o arrastra para colocarla. La imagen está a la espera de que tú la coloques ya. ¿Qué es lo que puedes hacer? Puedes soltarla así como sin nada aquí en campo vacío.
+O puedes meterla dentro de una figura si tú la metes dentro de una figura, si tú le das click aquí, por ejemplo.
+Se mete dentro de la figura.
+¿Lo ven ese método dentro de la figura, ven la facilidad, cómo maneja este?
+¿Cómo maneja? Pues Figma esas cosas. Ahora tú lo puedes soltar obviamente afuera y va a tomar el tamaño que tiene la imagen. O sea, este tamaño grandazo que está aquí lo va a tomar, o sea, va a ocupar como que todo eso y tú de ahí lo puedes reducir ya, pero yo quería que se resalte aquí. ¿Qué más? Le voy a poner acá trazos ya porque parece que sí necesita.
+2 ahí ya le voy a poner ese trazo y listo, ya tengo la imagen. ¿Qué más voy a poner el texto? ¿Cómo se pone texto con este elemento de acá? Simplemente tú lo tú le das clic. Hay 2 formas de ponerlo, ya simplemente agarras y le das clic o creas un contenedor.
+Creas un contenedor y lo pones. ¿Cuál es la diferencia? La diferencia es la siguiente. A ver, si tú solamente agarras y le das clic, tú creas un contenedor flexible, es decir, no tiene límites en el ancho. Tú escribes y va a seguir alargando y alargándose hasta el infinito. Esa es la diferencia. ¿Qué pasa cuando tú pones un contenedor?
+De texto, esto es un contenedor fijo. Ya le estás poniendo un tamaño. Si tú le pones así, por ejemplo, fíjense, automáticamente baja.
+Ya eso se ve en esta propiedad de aquí disposición, aquí está actualmente en tamaño fijo. Tú le puedes este poner autor automática o ancho automático, que es el que es este de acá, el de infinito ya flexible, por así decirlo.
+Alterno, altura automática le va a quitar si tú dices que hasta aquí no más. O sea, si tú no quieres que haya todo este espacio debajo de tu texto, le pones altura automática, te lo corta hasta donde está tu texto, pero tú puedes agrandarlo si quieres con la fecha ya, pero automáticamente te lo corta muy bien. Esa es la diferencia entre ambos.
+Entonces yo sí voy a poner, bueno, yo voy a poner un contenedor automático, o sea, porque quiero que sea flexible, es decir, voy a poner esto de aquí.
+Aquí listo, pero no se ve como un título, cierto.
+¿Qué es lo que voy a hacer? Voy a usar las propiedades que me ofrece Figma para ese título, propiedades que también conocemos. Si nosotros bajamos abajo, vemos este en tipografía. Esto es lo más importante para.
+Para nuestro texto tipografía, acá podemos poner nosotros las fuentes que queramos. Podemos poner las fuentes aquí. Esto de aquí es como font wave. Le puedes poner, por ejemplo, bolt, es decir, negrita, mis estimados, negrita, ven estos valores que están aquí, eran los mismos que estaban para font.
+Este.
+Para el peso de la fuente, cierto, acá le voy a poner bolt, que es un título para mí.
+Y aquí al lado está el font size mis estimados que todo es pixeles en realidad yo le voy a poner.
+Tal vez 36 ya le voy a poner 36 píxeles. Esto de altura de línea aplica para cuando tienes un párrafo de varias líneas. Es como que la separación entre líneas ya, y este espacio de letras es si ven el texto y sienten que está muy comprimido este espacio de entre letras. Efectivamente, como dice el nombre, le da un espacio entre letras, nada más.
+Ya muy bien, y aquí está la alineación que depende del contenedor. Si, por ejemplo, hago el contenedor más grande, como ven, yo ahora puedo voy a poder alinearlo adentro, voy a poner al centro o a la izquierda o al centro o al este. Ya es eso, nada más lo ven. Son técnicas que ya vimos en CSS.
+Este más y esto de acá es alineación ya en al en ancho, o sea, en vertical. Esto es la parte de arriba, esto es centralizado y esto es abajo.
+Súper sencillo.
+Ya muy bien con respecto a eso, entonces yo le puse ahí, eso de ahí no es tocar nada, claro, en relleno lo que hace es pintar. Es como que ahora la propiedad color ya lo puedo pintar, pero yo lo voy a dejar como estaba.
+Lo voy a dejar como estaba eso y acá voy a poner otra descripción, pero acá sí va a ser este, a ver, voy a copiarlo de aquí.
+Listo.
+Obviamente no va a tener el mismo este.
+Voy a bajar a.
+Esto le voy a poner regular.
+¿Y acá qué pasó?
+¿Qué pasó?
+Regular.
+parece que el formato.
+Ha afectado entonces solamente voy a.
+Uy, perdón, voy a hacerlo manual.
+Voy a hacer cortito, nomás apaga la guía, ya nada más no necesito tanto. Creo que ya se entiende la idea. Sí, le voy a dar un poco más de tamaño.
+Para que tampoco desaparezca mi página web, ya está listo. Eso es respecto a tipografía. Ahora solamente me faltan los botones de enlace, pero para eso este necesito que ahora sí voy a usar colores, chicos, voy a usar colores. ¿Cómo se usa colores?
+En Ya vimos en realidad cómo poner colores a los contenedores a las letras, pero este lo que a lo que me refiero es cómo definimos nuestras paletas de colores.
+¿Cómo lo hacemos?
+En Figma, Figma nos nos da la posibilidad de crear nuestras paletas de colores en como un sistema y luego poder reutilizarlos. Vamos a ver eso ya para eso, primero necesito traer los colores de las páginas webs que.
+Pues que me estoy inspirando, que en realidad si tenía era este de aquí.
+Y voy a entrar a una página que yo usualmente uso muy continuamente. y es.
+Encontrar colores de un imagen.
+Es esta página de acá, acá me permite encontrar colores de una imagen. Cualquier imagen que tú le pases te te lo identifica ya y le voy a pasar esta de aquí, que es la página donde me voy a copiar los colores.
+Le voy a tomar una captura porque no es necesario que luego este.
+Que lo descargue y aquí simplemente le doy a control c, control vy ya.
+Ya está, sí, ya está, vean que ya me identificó los colores aquí abajo.
+Ya me identificó los colores, uno de estos es esto de aquí.
+Uy, no me da no me da 11 exacto, qué raro.
+sí, ya me lo dio.
+No sé por qué no me está dando aquí un valor exacto, pero vamos a darle.
+Ya voy a darle esto de aquí. ¿Ahora qué hago? ¿Cómo pongo el estilo de colores ya chicos para poner estilo de colores en Figma?
+Lo primero que tenemos que hacer es primero vayamos aquí a nuestro lado de nos olvidamos de mencionar este panel. Ya si este panel lo que tiene son como que las herramientas de lo que dibujes en este lado, primero vean cómo funciona por capas. Ya en Figma todo funciona por capas, es como no sé si han trabajado en PowerPoint.
+Y se puede poner uno encima de otro, no es decir un elemento. Si tú lo pones encima de otro, como que lo tapa o k haz más de forma similar funciones en Figma. Si yo pongo, por ejemplo, esta imagen aquí, acá le da está abajo, pero si le doy clic y le digo llevar al frente, puedo ocultarla.
+¿Lo ven? La que está encima es la capa con mayor prioridad de visualizarse, por así decirlo, o k así funciona, pero también se pueden contener. Acá vamos a ver que hay contenedores.
+¿Cómo así? Veamos, si yo le doy acá y le digo a agrupar selección, ¿qué es lo que hace agrupar selección? Lo que hace agrupar selección es crea un grupo de los elementos, pero este visualmente.
+Porque yo, por ejemplo, yo no puedo mover este. Si yo quiero mover todos estos elementos a la vez, ya tengo que hacerlo 1 1. Vean, si muevo, desplazo esto lo tengo que hacer 1 1. Entonces, si yo quiero que sean como que un bloque, un solo un bloque para que se muevan en conjunto, yo simplemente hago esto, primero selecciono esos elementos.
+Ya selecciono esos elementos, me quedo prestando control y me sale un cursor. Selecciono esos elementos y este le doy a agrupar selección. Cuando le das a agrupar selección, así igual que Free, que Scarly Draw, no sé si lo han intentado ahí, puedo moverlos como un único bloque. Ya eso es lo único que hace agrupar y si ven, por ejemplo, aquí.
+Se visualiza que se ha creado un bloque de grupo y adentro están esos 3 elementos.
+O K, es así de sencillo, pero ahorita vamos a ver otra funcionalidad más poderosa a agrupar. o K agrupar es solamente un hilos en un bloque, pero hay otro algo mucho, mucho más este más funcional, pero no nos desviamos porque estamos en colores. ¿Cómo poner mi paleta de colores?
+¿Ya como pongo mis paletas? Entonces voy a crear una página más, que es como que una hoja más de dibujo. Si ven acá me ha creado una página más, la página número 2 porque se crean páginas distintas, en realidad hay distintas razones para crear una página, no o una hoja. Algunos lo usan, por ejemplo, para separar su diseño de escritorio de su diseño móvil.
+Acá tal vez quieran diseñar en la segunda página, quieran diseñar, no sé, puro diseño móviles y acá pura página white de escritorio. Ya son distintas. ¿Yo por qué lo voy a crear, chicos? Primero, por lo siguiente, voy a crear un marco cualquiera.
+Aquí voy a crear un marco cualquier en realidad de escritorio, porque aquí voy a establecer mis paletas de colores, vean como lo hago ya.
+Voy a dibujar dónde está.
+Es que tengo que solucionar el este, perdón, ya ahora sí voy a dibujar el círculo.
+Que la bandeja, casi ya voy a dibujar, no es un polígono.
+¿Dónde estoy? Ya súper rápido, súper rápido, nos estamos enviando, perdón, ya estoy dibujando el elipse. Lo que hago luego de dibujar un elipse, voy a dibujar acá como que no sé si recuerdan esa acuarela, no llenar la acuarela. Usualmente el pintor llena una acuarela de colores, cierto, antes de lanzarse, pues a pintar.
+Nosotros vamos a hacer casi lo mismo, ya vamos a crear un como que es acuarela, vamos a poner los colores ahí, lo vamos a guardar, ir, vamos a volver a nuestra imagen y vamos a este reusar justamente los colores que definimos. Ya he puesto acá un círculo, he puesto un círculo y lo que vamos es.
+Vamos a relleno y a o sea, background color y le voy a pintar yo con el color que quiero que se esté aquí. Como les digo, si yo pongo el color, efectivamente me lo reconoce. ¿Qué más hago? Voy a poner un text para identificar.
+Ese color, digamos, rosa viva.
+Ya rosa viva, siguiente, yo voy a usar solo 3 colores, entonces.
+Siguiente, voy a usar el siguiente color que es.
+¿Bueno, es este de aquí, no? Sí, ya ahora sí me lo identificó muy bien. Voy a regresar a mi Figma, le voy a cambiar a ese el color que quiero que es.
+Quito este michi que es ese mismo color. Voy a copiar esto, se puede copiar elementos porque lo voy a cambiar a un celeste viva y un último color que va a ser justo el otro de ahí es.
+Eso.
+¿Esto aquí qué es? No copio.
+Me voy a relleno, le pongo aquí el término.
+Eso no era, bueno, ese.
+Ya no parece, está muy este a ver.
+ya es que está como opacidad, este ya ahora sí.
+Por alguna razón se puso a pasear listo.
+Y esto vamos a, no sé, no parece naranja.
+Aparece naranja.
+Crema viva. ¿Por qué le pongo esos nombres? Porque vean, le voy a dar a ese a esa pintura que yo creé y si bajamos abajo en relleno, chicos, le damos a este cuadrante de se llama aplicar estilos y variables. Ya este cuadrante que ven aquí le damos clic ahí.
+Le damos luego a.
+Este más que está aquí y al momento de darle más, justamente ha identificado ese color y nos dice o k vas a crear un nuevo estilo, créalo. Aquí le vamos a poner ese nombre con el que le hemos identificado Rosa Viva.
+Y nada más y le damos a crear este.
+Listo, se creó con el otro, es lo mismo.
+Con el otro es lo mismo, vamos acá, vamos acá y acá vamos a ponerle celeste viva. Ya estamos creando nuestra acuarela y lo mismo aquí vamos al cuadrante, le damos a más, ya vamos a darle a crema viva.
+En realidad no es necesario, chicos, poner estos nombres aquí, pero yo los pongo para justamente representarlos. No es necesario poner estos nombres. Lo que sí es necesario es tener estos colores que están aquí, pero yo los pongo aquí para guiarme, para decir cuáles son los nombres con los que los puse. Muy bien, es eso.
+Si nosotros le damos aquí a cualquier espacio que está fuera, vemos acá en estilos que ha identificado los colores que yo les he, yo les he puesto y son esos colores los que voy a usar.
+Muy bien, ¿qué más, chicos? ¿Qué más? Además de colores, nosotros también podemos como que crear efectos. Ya vimos los efectos, cierto, el box shadow que es como que el sombreado. Y si veo yo, por ejemplo, en mi página web que quiero crear o en la página web donde me estoy guiando, tiene unos efectos.
+Como les comentamos en llamados efectos enduro, porque tiene un tono oscuro ya este muy fuerte. Entonces voy a implementar ese efecto para poder copiarlo en todos los enlaces que voy a hacer. ¿Cómo lo hacemos? Lo mismo, voy a crear un rectángulo.
+Cualquiera puede ser un rectángulo, un círculo. No hay, no hay problema. En realidad, lo que se necesita en realidad es que tenga efecto ya que tenga el efecto. Yo le voy a poner aquí, acá voy a buscar solo el efecto que quiero. Le voy a acercar porque no se visualiza nada.
+Ya ahora sí lo voy a editar.
+Pero voy a poner 6, acá lo que no importa es que tenga un tono oscuro, oscuro, oscuro.
+Pero bien oscuro aquí.
+Ya creo que tiene que estar en cero.
+Ya creo que logro imitar algo, ese efecto está un poco más.
+Vamos a reducirlo a.
+Cuatro.
+Ya creo que ahí está, ya tienes efecto y justamente en ese mismo efecto también hay esa opción. Vean, acá hay aplicar estilos.
+Le dan aquí armas y ya lo identifica, ya yo lo voy a poner, no sé, box shadow.
+No, mejor así, sombreado.
+Heart ya sombreado heart y lo creamos. Ya tenemos aquí, vean los estilos de color y los estilos de efecto. Esto automáticamente lo ha identificado Figma.
+Ahora, como ya tenemos esto, ya podemos reutilizarlo muy bien, ya podemos reutilizarlo. Volvemos a nuestra página uno.
+Volvemos a nuestra página uno.
+Y, por ejemplo, vamos a crear un rectángulo ya y vamos a probar con eso, vamos a probar con eso. Si nosotros, por ejemplo, le vamos acá a relleno.
+¿Qué?
+Estilo a ver.
+Aquí donde está, donde está, deberían salir aquí los colores.
+Acá está bibliotecas, nos vamos a bibliotecas, aquí están los colores que podemos escoger, ven.
+Listo, o k de nuevo le voy a poner relleno, le voy a poner aquí a bibliotecas, ya le doy a bibliotecas, o sea, vamos aquí bibliotecas.
+Y ahí pueden escoger justamente los colores que ustedes han creado en su paleta de estilos. Y así se le pone, chicos, nada más. Así se rehusa eso. Lo mismo sería con efecto. Si nosotros vamos aquí y le ponemos acá, aquí sale el sombreado hardia.
+Ven como automáticamente se puso ese sombreado que había creado, ya lo reutiliza.
+Ya es eso respecto a eso, pero vamos a crear ya los enlaces fácilmente para ya terminar con esto de Figma. ¿Cómo son mis enlaces?
+Nombre y este.
+En tono rectangular, puntiagudo, no quiero bordeado. ¿Cómo se crea enlaces? A ver, lo que usualmente se nos viene a la mente es, hey, crea un rectángulo y ponle un texto. Cierto, sería eso, ¿no? Oye, crea un rectángulo y ponle un texto, ¿por qué no?
+Que no.
+Ver.
+Yep.
+Listo, esto lo voy a desarrollar ya lo que viene en realidad es ponle un rectángulo y este ponle un texto. Cierto, chicos, eso es lo primero que se nos ocurriría, ¿no? Y ponle un texto, pero ¿qué pasa con esto, mis estimado? Y claro, agrúpalo, ¿por qué no agrúpalo?
+Y ya es un botón, claro, este no me he fijado en el este, pero en el ancho en el este, pero quiero que tomen en cuenta, sería como crearlo así, no, ahora le voy a reducir el tamaño y todo eso, pero porque no sería una forma recomendable crearlo así porque no es flexible. Miren.
+Voy a darle doble clic, se puede editar o k es un grupo, ya se puede mover como uno solo.
+Lo desagrupé, ya lo voy a agrupar.
+Listo, ahora sí, ya cuando es grupo también le puedo editar el texto, no hay problema, le doy doble clic al texto y acá se puede editar. ¿Pero qué pasa? El tema es que no es flexible. Si tú escribes más, vean cómo se pasa y el contenedor en realidad no se adapta.
+Ya entonces lo que se tiene que hacer aquí es implementar otra característica que tiene Figma y es el auto layout. ¿Qué es un auto layout? Es como la evolución del contenido, o sea, de la agrupación, pero te da más características, ya te da más características, no solamente agrupar.
+Sino características que nosotros vimos en Flex, recuerdan un contenedor Flex que permite alinearlo, posicionarlo dentro de un contenedor. Ya lo mismo se le va a hacer acá cuando lo conviertes en un autology out. ¿Cómo se convierte en eso?
+Bueno, se puede convertir, es fácil. El atajo es shift a ya, pero si no lo encuentra, si no le funciona así, simplemente se van a.
+Aquí a disposición y acá, por ejemplo, en disposición acá, si presionan ese esa opción que está ahí, lo va a activar.
+Lo va a activar y automáticamente miren.
+¿Cómo?
+O K, aquí en realidad, claro, es que es así, miren chicos.
+¿Es así? ¿Cómo se activa esto? Ya voy a escribir el texto para un botón. Ya estoy aplicando ya este auto. Yo tengo un botón, yo voy a escribir el texto que se llama LinkedIn.
+Ya voy a crear como LinkedIn, le voy a poner un tamaño de botón porque es mucho ese tamaño. También no quiero que sea Bold, que sea Medium, por ejemplo, y ya aplasto Shift A. ¿Qué es lo que hizo? Lo metió en un contenedor, si ustedes lo ven, ¿cómo lo veo?
+Voy a poner colores.
+No el contenedor voy a poner justo bien, ahí está el contenedor, si yo le pongo relleno.
+Ya una biblioteca color rosa. Vean cómo se ha implementado el contenedor. ¿Lo ven? El contenedor flex y adentro ya tiene sus elementos. Bueno, pero en este caso solamente tiene uno. ¿Por qué digo? ¿Por qué preferí usar esto? Porque miren, si yo voy a escribir adentro.
+Miren, yo escribo adentro, vean cómo se va a adoptar.
+Es un contenedor adaptable, es flexible.
+Ya por eso es que es un comportamiento mejorado, a diferencia de solamente agrupar. ¿Qué propiedades más nos da? Nos da estas propiedades de aquí de disposición automática.
+Estas propiedades de aquí.
+Veamos, primero no puede notarse, obviamente este bueno, esto es ya cuestión de no, esto es como que recuerdan el alineado horizontal o vertical. Ya es esto de aquí, es esto de aquí, chicos, solo que aquí, como solamente es un elemento, no se diferencia, pero por ejemplo, vean como esto lo voy a desagrupar.
+Voy a desagrupar para que estén uno ya y miren, le voy a meter shift a cada uno, ya voy a seleccionarlos.
+Sí, agrupados, sí, agrupados, claro, a ver.
+Vamos a ver las capas.
+I'm still not post.
+Ya ahora sí, vamos a meter directo a disposición de acá, le voy a presionar y vean la estachivos, vean como.
+Ve.
+Aquí es modo columna y esto de acá es horizontal y vean como dentro de ese contenedor ha puesto uno al costado de otro como flex, ya modo fila o modo este.
+Bien, esto es modo este.
+Este modo es cuadrícula que está en beta, pero más que nada conocemos estos 2, no vertical, horizontal, y aquí también hay, por ejemplo, el espaciado que es gap, que es el gap, o sea, el espaciado entre los elementos si tú le pones 100, por ejemplo.
+Ese es el espacio que ha habido entre los 3 elementos que yo seleccioné ya y esto de acá es el espaciado, este es el marching.
+Este es el margen ya, pero ya nada más quería ver eso. Vamos a pasar a este LinkedIn. Aquí sí voy a usar, no voy a usar el espacio porque este solo es un elemento. Lo que voy a usar es el espaciado, que es el margin, puede ser.
+Horizontal, como dice acá, es decir.
+No.
+Yeah, yeah.
+Listo.
+O vertical, porque no me da.
+John.
+Es que ya este ya horizontal o vertical. En este caso le estoy dando un espaciado pues horizontal porque no quiero que se vea tan extenso. Le voy a dar un espacio así.
+Y uno radio esquina, no necesito, que es esto de aquí a vertical.
+Bueno, casi me da el espaciado vertical, como lo ven, es decir, un margin dentro del este ya.
+Debe ser un padding en realidad porque lo está haciendo dentro de la caja.
+Muy bien y nada más que eso ya es lo único que necesito y claro, también tengo que ponerle un efecto.
+Ya y el efecto está aquí.
+Listo, ahí está mi efecto y tengo mi botón de LinkedIn. Me faltarían los demás enlaces, pero es súper sencillo porque voy a reutilizar esto, chicos, voy a reutilizar este enlace porque es básicamente copiar y pegar, cierto, pero hay otra forma que es te vas acá y lo creas como componente. ¿Qué pasa al crear como componente?
+Es decir, va a ser reutilizable. Si tú te vas aquí a recursos, está aquí, entras aquí todas tus bibliotecas y aquí está ese elemento que tú puedes reutilizar, ¿lo ves?
+Es así de sencillo, voy a poner solamente 3.
+Sí, porque solo tengo 3 colores, voy a poner solamente 3 y listo.
+Ya lo acabo de reutilizar y a esos botones le voy a pues poner uno y le voy a pintar de.
+Celeste y al otro le voy a poner, por ejemplo, no sé.
+What?
+ya está y lo voy a pintar de
+A ver, lo voy a pintar de crema y nada más chicos y listo. Básicamente así quedó mi página web, que claro, sí está muy este, la tengo que hacer más grande, ya lo tengo que hacer más grande, pero como es un contenedor, ya acá pasa algo. Miren, acá lo que me está haciendo es dimensionamiento, vean como este no.
+Solamente está aumentando el tamaño del contenedor, pero la letra sigue igual, ¿cierto? Acá viene justo una otra herramienta necesaria que es aquí. Si se van aquí y lo cambian, solamente estamos moviendo, pero si le damos a escala van a ver cómo cambia diferente ya.
+Tanto el contenido como el contenedor se expanden.
+Ya tanto el contenido como el contenedor se expanden. Esa es la versión de escala. Lo mismo, aquí voy a aplicar lo mismo.
+no, ya estoy usando instala, ya entonces simplemente pues lo hago crecer.
+Listo, aquí también lo voy a hacer crecer.
+Perdón, es que este ya sé por qué, ya sé por qué pasa eso, es que este es el componente, chicos, esta es la plantilla. Si tú esto, mira, si tú esto lo eliminas, ay, perdón, si tú esto lo eliminas, estos en realidad son copias de esto de aquí. Si tú al clon lo matas.
+Todos las clones de más, literal, también desaparecen ya entonces lo que usualmente pasa es que tú tienes que crear tus componentes en un otra página, como aquí, por ejemplo, en otra página donde se puedan cuidar.
+Ya otra página donde tú puedas cuidarlo.
+Es básicamente así, si yo lo pongo, por ejemplo, aquí ya lo voy a cuidar aquí, que se quede de ese tamaño.
+Ahora, aunque ya lo voy a dejar ahí, pero ahí es donde debería estar, chicos, esto no lo voy a eliminar porque si no.
+¿Qué haría esto, ya?
+Voy a.
+Voy a dejarlo como está aquí porque si no lo voy a desviar.
+Esto de aquí le voy a cambiar el descarga un poco más pequeño.
+Ya espero que se haya entendido el comportamiento de escala que se diferencia del mover.
+Y básicamente es eso en realidad.
+Ya, pues claro, debía haber utilizado eso, ¿no?
+Interesante.
+Y básicamente lo que he hecho es.
+Ya mi error fue no haber creado el componente aparte y crear y traer otro componente aquí ya, pero la idea es que cuando creen componentes los creen en otro lado seguro y este traigan las copias en su página web.
+Muy bien, o k chicos, entonces es eso o k se puede entender eso respecto a Figma.
+¿Uy, cuál hago de nuevo? Este, se puede hacer.
+¿Dónde nos quedamos, chicos? Por favor, a ver, ¿se puedo comprender en qué punto?
+Todo entendido que genial se puede entender eso, mis estimados, porque este ya es como que el bueno, sería como que ya el proyecto de alta fidelidad es súper sencillo, no, el mío no me ha requerido tanto, ya lo hice como le dije minimalista. Claro que acá le faltó solamente un enlace.
+Pero bueno, al final este es parte de ustedes que diseñen el suyo con lo que le he enseñado, creo que es suficiente.
+Suficiente para que crean la mayoría de.
+De componentes, de hagan su paleta de colores, sus efectos, nada, es así.
+A ver, por favor, me confirma.
+Me confirman estimados: Carlos, Ángel, Yael, Josibel, Diego, Oswaldo, John, John Peña, John Durán.
+Como les fue, se comprendió Figma.
+Que es la herramienta de diseño por hoy estándar. Yael, bien, che, gracias.
+¿Cuándo?
+Carlos, gracias, Igualdo también, genial, genial, muy bien, porque eso es lo que justamente piden en la parte 3 que ya sí les voy a dejar a ustedes. Bueno, este claro, tal vez algunos todavía no hayan, no tienen este definido su weather frame, normal se le entiende, pero cuando lleguen justo a la parte 3 van a crear su archivo de Figma.
+El frame que ya definí, la paleta de colores, que es pues esto, los colores que van a reutilizar en pues en su página web, busquen colores, ya busquen colores con los que se sientan identificados.
+Los elementos, diseño, los elementos que ya saben, tienen que usar las figuras que nos ofrece, pues que nos ofrece Figma. También pueden traer iconos, pero traen en formato SVG, chicos, traen en formato SVG. Les voy a recomendar una página muy buenísima. de.
+Que se llama SBG reco. Aquí hay este tantos iconos y son gratuitos, son súper gratuitos. Si quieren traer iconos, tráiganlo ahí.
+Ya son gratuitos, no se preocupen, por ejemplo, voy a poner un like.
+Ya acá le doy, acá le doy a descargar directamente, me lo va a descargar.
+Me lo descarga y una vez adentro simplemente lo traes como imagen, lo puedes copiar y pegar o lo puedes traer como imagen aquí.
+Ya esto donde está doble Whats, aquí está. Eleccionas eso y obviamente también te dice dónde lo quieres colocar. Mira, si yo lo coloco acá me lo va a traer grandazo. Ya entonces lo que te recomiendo aquí, mi estimado, es que uses el botón de escala.
+Para no distorsionar tu icono, usa la escala y sí va a tener, vas a tener mayor control en cuanto al tamaño.
+Ya vas a tener mayor control en cuanto al tamaño y eso ya pues lo puedes poner donde tú quieras, no lo posicionas y listo. o K, por ejemplo, lo puedes posicionar aquí, posicionar junto con no sé un texto acá.
+Este like ya le pones like, seleccionas ambos, lo pones shift A, le pones un autolayout muy bien, listo, está en este, aquí lo centras. ¿Lo ves? Acá hay alineación más vital. ¿Ven como esto es para alinear mejor?
+Perfecto, OK, y ya.
+Le pones tu relleno si quieres.
+Ay, lo hizo desaparecer.
+Ya le pones tu relleno si quieres y listo.
+Y ahí está tu botón de este. Muy bien, eso es con respecto a ponerle iconos, que también es súper sencillo. Acá tu foto de perfil, tu nombre, botones de enlace.
+¿Y acá qué está haciendo? Esto es justamente eso lo que estoy haciendo, no del contenedor flex de poder alinearlo y bueno, y detalles finales. Y si quieres creas una versión móvil, ya una versión móvil, ya tienes tu versión este web, crea tu versión móvil. este.
+Ahí mismo, créalo porque recuerda que puedes poner frame móvil también. Si puse escritorio, le das a frame, ahí mismo le pones tableta, acá le pongo Android y ese es el frame móvil. Ve, se adapta automáticamente en altura y tiene un ancho aproximado a lo que sería un móvil.
+Y ahí tú puedes dibujar.
+Ya y listo, listo, listo, listo. Componentes reutilizables también ya lo vimos, ya vimos como crear un componente. Recuerden crearlo, por favor, en otra página crear su componente en otra página. Por ejemplo, este voy a crearlo como.
+Yeah.
+Esta parte en otro lado y aquí yo lo puedo utilizar en recursos.
+En ese mismo aquí está.
+Vean, lo puedo usar ahí ya si yo elimino este no pasa nada.
+No pasa nada, pero si yo elimino al clon que está aquí, ya en GG primero se elimina el componente. Miren que ya no sale porque lo afecté. Entonces el original tiene que estar guardado para que los demás, porque si tú le dices una modificación al original, todos los demás se ven afectados. Eso es lo importante de crear un componente.
+Prototipo interactivo, les recomiendo que investiguen esto de aquí, esta opción de aquí que es prototipo que permite simular, miren, permite simular en realidad tu página web, tu diseño en una en lo que sería un dispositivo en un emulador.
+Miren, súper sencillo.
+Solo que aquí.
+Si tú le das aquí a play, veamos, le da un link y en ese link ve se visualiza.
+Simula como se vería ese diseño, ese link to incluso lo puedes compartir.
+Vean que ahí me está cargando y es así como se vería va a ser más o menos mi diseño si se lo mostrara a un a un usuario, no así se comparte. Por ejemplo, los diseñadores primero diseñan su página web y lo que hacen luego es en prototipo, que es la segunda opción que está acá. Nosotros estamos en diseño, se van a prototipo.
+Le dan a play.
+Aquí lo que permite este genera un link y este link tú lo puedes copiar y se lo puedes mandar.
+¿Alguien que quieres que vea tu dicen?
+Sencillo.
+Me manda esto, no sé por qué.
+Una imagen, pero bueno, acá sale, no compartir el prototipo.
+Ya se copia el enlace.
+Y ahí está eso, así se se comparte de esa forma, súper sencillo. No necesitas una autorización o nada. Obviamente acá me falta, me falta mejorarlo un poco, pero lo que sí quería era que entiendan los elementos para usar Figma, no que no es tan complejo.
+Muy bien y bien, chicos, las la entrega es son todos esos elementos que están aquí.
+Yo lo voy a pasar por, voy a especificar una mejor entrega por el WhatsApp ya.
+Porque son muchos elementos aquí, pero eso sí, este sí, por favor aplíquenlo de laboratorio, porque sí voy a pedir lo que está haciendo en laboratorio. Ya entonces ya vayan avanzando juntos. Muy bien, listo chicos. Mira, o K, Kevin, lo veo después, pero buenísimo, buenísimo ya.
+También tiene surf.
+Bueno, chicos, ahí mientras está abriendo, ¿alguien tiene alguna duda, alguna pregunta ya para terminar esta clase el día de hoy?
+Resulta pregunta.
+Todo claro, todo okey.
+A ver.
+para copiar los colores. Bueno, gracias. Este de acá es yo te voy a pasar el link estimado Carlos.
+Yeah.
+Puedes usar esta página de aquí o tú simplemente buscas en el navegador.
+Identificador de colores en página, sigue saliendo esto.
+Oye.
+Qué raro, ya salió.
+Mira, a ver, perdón.
+Ya visto.
+Esa es la página carlosimagecolorpicker.com.
+Ahí tú le tomas un screenshot a la página que quieras, lo pegas ahí y te va a identificar automáticamente los crores. Copia los X que están aquí y ponlos en Figma ya y tienes tu paleta automática que vas a poder reutilizar en todo tu diseño.
+¿Bien, alguna otra consulta?
+Yeah.
+Okay.
+Alguna otra consulta, chicos, a ver ya para cerrar o si no, déjenme su check, todo bien, todo correcto.
+Ya para pues pasar a despedirnos y cerrar esta sesión, bien, todo bien.
+Te pones.
+Ay, ay, ay, vamos a ver WhatsApp.
+¿Cómo la vieron, estimados colegas, cómo vieron esta?
+¿Cómo vieron esta clase, estimados? Este Creo que la mayoría sí, hoy día no puedo estar disponible, pero ¿cómo la vieron?
+Les hizo pensar.
+¿Sabes?
+Enfocarse ya.
+Ya estoy mirando.
+O K chicos, ya es muy tarde, ya pasamos las son las 10:53. No quiero este tomar más de su tiempo, así que hasta aquí sería la clase. Muchas gracias porque ya sea hasta estos últimos minutos. Chao, chao, buenas noches con todos. Bye.
+Bien, gracias Yael, por esos aplausos. Bravo, gracias.
+Saludos a todos, chicos. Fue una cosa muy agotadora.
+A ver, vamos a dejar de bajar.
+Sí.
+Gracias Carlos, gracias por esas palabras.
+O sea, buenas noches.
+So.
+Yeah.
+
+Orador 1 ha detenido la transcripción

@@ -1,0 +1,1200 @@
+Clase_10 Code101n19
+25 de marzo de 2026, 12:45a.m.
+3 h 2 min 25 s
+
+Orador 1 ha iniciado la transcripción
+
+Orador 1   0:03
+Buenas noches.
+Ya está empezando a grabar. Hola, espero que estén teniendo pues un buen día, estimados, colegas, equipo.
+Bien, ya esperamos, ya son las 7:45.
+¿Está pensando a hacer frío o me equivoco, tal vez hacer mi distrito?
+Bien, buenas noches con todos, estimados. Hoy, bueno, hoy empezamos con la clase número 10, estamos a 2 clases de culminar lo que sería este módulo número 3 y también culminar con lo que sería el code.
+300, no, perdón, 300 con el Code 101, ya me estaba viendo ya el Code último, el Code 101, bien.
+Lo que hicimos ayer, estimados, fue programar ya o los primeros pasos para programar, debería decir, porque programar es un largo camino, ya es un largo camino, pero estamos viendo lo básico. Bien, entonces esperemos, espero que estemos listos cada uno de nosotros.
+Para asimilar los conceptos que vamos a ver hoy, porque hoy vamos a seguir con JavaScript, vamos a seguir viendo nuevos conceptos.
+Bien, pero antes de empezar, vamos a hacer un refrescamiento y voy a cambiar la dinámica. Estimados, voy a cambiar la dinámica porque ahora primero voy a compartir mi pantalla.
+Adiós.
+Escribir sonido.
+Y voy a comprar.
+Estimado, vamos a refrescar los conceptos que vimos en la clase pasada, en la clase de JavaScript.
+Pero para eso necesito necesito su ayuda bien porque vamos a refrescar. Yo voy a girar esta ruleta, estimados, que son que están los conceptos que vemos en la clase 9 y yo quiero que me den con sus propias palabras. ¿Qué entendieron de ese concepto? Bien por el chat, por favor, o si quieren, pueden este pueden.
+También prender su micrófono, no se preocupe, yo los escucho, los leo.
+Listo, entonces atentos aquí a ver que sale.
+La abra es.
+Uy, sencillo consolog. ¿Qué es consolog estimados? A ver, los escucho.
+Con solo.
+Vamos a quitar esto.
+Ver para imprimir el mensaje en consola me dice Kevin.
+Ahí están escribiendo con solo. ¿Cómo lo entendemos ustedes? Una forma de escribir mensajes en la consola. Bien, Carlos está escribiendo, ahí te esperamos, Carlos te muestra un resultado en consola, abrir también está escribiendo bien, imprimir, escribir, mostrar cierto, todos van por lo que sería un mensaje, pero sobre todo.
+¿En dónde? En la consola.
+Cierto, allá, pero también va a escribir.
+¿Y efectivamente, y también es más específico, no? ¿Dónde está consola en las herramientas? Bueno, está en el navegador, no en la herramienta de desarrolladores, correcto, o sea, a ver, está.
+Perdón, tengo que hacer esta forma porque la forma más lenta está aquí, cierto, creo que ya lo sabemos y aquí es donde nos imprime efectivamente lo que indica con solo. Entonces vamos a borrar esto aquí porque ya lo vimos.
+Y vamos con lo siguiente.
+No.
+Y el término es uy, uy, un término muy importante, variable, que entendemos por variables, estimados, a ver.
+¿Qué me dicen de variable?
+John, sí, te escuchamos normal, puedes hablar si deseas.
+A ver, variable, escribimos, escribimos por el concepto, ahorita estamos girando la ruleta viendo este conceptos, ya quiero que me digan en sus propias palabras qué entienden por el concepto que ha salido, en este caso ha salido variable.
+Kevin nos dice dónde se guarda la información. Bien, ¿qué información? A ver si queremos, si podemos ser también un poquito más. ¿Qué información? A ver.
+Bueno, eso va, creo que con otro concepto, ¿no? A ver, pero sí, guardar es una palabra clave. Exacto, guardar.
+Oswaldo nos dice.
+Kevin también está haciendo su segundo intento, Carlos, a ver.
+Vamos chicos, el concepto que tengan que se les haya venido al momento de haber visto variables, no hemos interactuado mucho con variables y se va a interactuar más. Chicos, la variable es uno de los conceptos básicos que sí o sí como programadores vamos a usar en todo programa ya entonces.
+Tiene que estar asimilado, tiene que estar asimilado. Es ese concepto de cómo lo vemos, porque cada uno lo ve de una forma, no, pero este lo usa de igual manera en lo que sería el programa. En este caso, por ejemplo, ¿cómo lo usas tú en el programa? Yo en el programa, ¿qué hago?
+¿Creo la variable para qué, para qué creo una variable en el programa?
+Ver.
+Llevamos Waldo a ver 1 minuto chicos para ir con los siguientes conceptos.
+Uno
+Los.
+Mhm, I need.
+John Rivas no dice dónde se guarda información para usarla más adelante en el proyecto. Ya ajá, guardar la información, pero ahora te dice para qué, para qué voy a guardar la información. Pues para esto, para usarla más adelante en proyecto, no la palabra reutilización. Eso nos da esa es una ventaja que tienen las variables en lugar de usar una palabra, una perdón.
+Un valor suelto como 5 o un texto, lo guardo en una variable y lo reutilizo. Oswaldo nos da otra información, le dice, tú le das un nombre y almacena un dato. Sí, un nombre identificador, recuerdan ese nombre que nos permite este usar esa variable. Ese nombre tiene que estar relacionado con lo que va a guardar.
+Bien, si ese nombre es plato, no digo, si ese nombre, por ejemplo, es nombre, ya perdón, un poco confuso, si ese nombre es plato, tú no vas a guardar un vaso ahí, no correcto, tiene que haber una relación entre el identificador y lo que vas a guardar.
+Y ahí, a ver, Carlos también nos dice almacenatos que se pueden modificar en cualquier momento. Otra característica muy importante, las variables. Muchas gracias, Carlos. Modificar, modificar, porque por eso se le llaman variables, no porque se pueden modificar, va y ar bien.
+Creo que ya tenemos claro eso, vamos a quitar variable y vamos a dar otro a ver qué concepto me sale.
+Bien, uy, esta sí la vimos, la vimos a medias, pero la vimos chicos. Esta sí vamos a ver también mucho, una función que es una función, estimados.
+¿Qué entendemos por funciones? ¿Dónde hemos visto funciones? Aquí hemos visto funciones.
+A ver qué entendemos por funciones.
+A ver, voy a poner ahí es este, pero ¿qué entenden ustedes? ¿Cómo captaron las funciones? Recuerden que console log es una función, cierto, console log es una función. ¿Qué entendemos nosotros por funciones?
+Uno de los conceptos que sí o sí también tenemos que dominar porque este lo vamos a usar continuamente en programas más complejos. Ya aquí no los estamos usando tanto porque no lo requiere, pero sí vamos a usar funciones a ver.
+Correr código, se crea una función de un solo tipo y se le puede llamar en otro momento. Ya bien, Kevin.
+Ahorrar código, sí, reutilización también, cierto, una función también es de reutilización, mis estimados.
+Yeah.
+Una función es de reutilización, como tú nos dices, Kevin, ahorrar el código, ajá.
+¿Qué reutiliza? Ahorita vamos a ver qué reutiliza. Ahorita les voy a explicar qué reutiliza exactamente qué reutiliza.
+Ya Oswaldo, ahí nos está escribiendo.
+Igual ahí nos está escribiendo, a ver, Osvaldo, te esperamos.
+Esperamos tu este por mientras yo voy a dibujar algo aquí.
+Voy a cortar esto porque vamos a explicar efectivamente a qué se refiere Kevin con es que este.
+Para realizar tareas como función saludable, muy bien, red teleccionar tareas como función saludable. Voy a usar tu función saludar a mi estimado Walter. ya ¿Qué es una? ¿Qué es una función? Una función, mis estimados, es una, es un bloque, un conjunto de líneas de instrucción, nada más que eso. Ya es un conjunto de líneas de instrucción.
+Por ejemplo, ya tú sabes que para imprimir, mira, vamos a hacerlo acá súper rápido ya para no este atrasarnos, vamos a poner ly sabes que, por ejemplo, este vamos a crear una variable con led, led nombre súper rápido igual.
+No.
+Es mi teclado de acá, es este mousepad que me incomoda, disculpen.
+Yo estoy usando modo normal, entonces le acá vamos a poner prom y acá le pedimos dame tu nombre, ya dame tu nombre y acá voy a imprimir por console punto log digamos.
+Por consort.log.
+Tu nombre es...
+Y acá le ponemos nombre o K chicos, esto es una línea de código para pedir nombre y mostrarlo. ¿Cierto? ¿Qué pasa? Una función es eso, o sea, una función es instrucciones, es como meter esto, pero ahora meter dentro de un bloque es meterlo dentro de un bloque de código, lo metes.
+¿Para qué? Para que tú esto lo puedas reutilizar en lugar de estar preguntando a cada rato el nombre a cada usuario. Tú, mi estimado, esto de aquí ya es una función, un bloque de código. ¿Ves? Este es el bloque de código, vamos a hacerlo un poco más de este para ya este es un bloque de código, voy a poner de naranja.
+De función para que tú más adelante.
+A ver, con qué se saca ya más adelante, en alguna línea de tu código, tú ya no tengas que escribir esto, simplemente llamas a la función.
+Llamas a la función y traes toda esta línea de código. Eso es permitir reutilizar. La función nos ahorra código, nos permite reutilizar líneas de código en varios puntos, como una variable que guarda una variable, guarda un valor, una función te va a guardar una línea de instrucciones.
+Que tú lo vas a usar más adelante. Ya tú usualmente vas a crear funciones, vas a crear como que acciones o instrucciones que este usas en cada momento y en lugar de repetirlo varias veces, tú lo creas como función y lo llamas después. Bien, eso es una función, mis estimados, por ejemplo, la función de saludar.
+Que este lo puedes usar más adelante en tu codificación. o K vimos también que hay funciones que existen, que ya nos lo da el navegador como console.og. Vean como usamos console.og. Miren, detrás de console.og hay líneas de instrucciones que permiten escribir en consola.
+Y en lugar de nosotros estar teniendo que escribir esos niños por nuestra cuenta, el navegador nos dice no te preocupes, yo te lo ahorro, yo te ahorro ese código y te doy esta función para que tú directamente de forma fácil lo ejecutes. o K el navegador te permite eso. Es justamente la función o el poder, perdón, de una función.
+Bien, entonces sí, estando claro ya con lo que sería función, vamos a iniciar con otro concepto estimado.
+Vamos a iniciar con otro concepto y el concepto es.
+Uy, algoritmo también lo vimos, chicos. Este concepto lo vimos al inicio. No sé si se recuerdan las del café. ¿Qué es un algoritmo? A ver.
+Esto está súper sencilla, chicos, esto está, pero ahí está. Kevin da el primer ataque, conjunto de pasos.
+O K, conjunto de pasos, conjunto de pasos, pero te falta, Kevin, te falta ahí algunas palabritas, conjunto de pasos ya.
+Vamos para resolver un problema, vale resolver un problema.
+A ver, chicos, ¿quién añade más información? Va a llevar, ahí todavía falta, vamos, vamos.
+R es un conjunto de pasos, lista de pasos ya resuelve un problema ya exacto, objetivo de un algoritmo es resolver un problema, resolver un problema o darte un resultado.
+Ver construcciones para llegar con un resultado. Muy bien, Kevin, lo hare, señor. Carlos dice la instrucción para generar una acción predeterminada paso a paso.
+Hey, quien instrucción para generar una acción. Sí, paso a paso, ahí está, hay otro. Ahí, a diferencia, ahí ese paso a paso, no secuencial. Ahí hay una palabra secuencial, un paso a paso.
+Pero falta ahí un término, chicos, un término importante, a ver.
+Recuerden que vimos que una este un algoritmo tiene 3 propiedades o tiene que tener 3 características importantes, ya vimos uno secuencial.
+Es decir, progresivo, tú no te puedes saltar un paso sin haber hecho el paso anterior, pero ahí vienen 22 de forma ordenada. Muy bien, Carlos, exacto, esa es la segunda, pero faltarían a ver.
+Exacto, faltarían 2 mis estimados.
+Pertarían 2 a ver, uno es tiene que ser, recuerden, fi.
+A ver, FF.
+F de qué, F de foca, F de Finlandia, F de Fin.
+Al fin, claro, pero fin que.
+A ver.
+Ya chicos, no se preocupen.
+Vamos a los apuntes FD finita, eso a ver, un algoritmo es una secuencia de instrucciones de o de pasos justamente para resolver un problema o llegar a un resultado, no tal como comentaron, y tiene 3 propiedades. La primera ordenada, el orden importa es secuencial.
+Ya tienes que seguir paso por paso, la otra es finita, o sea, tiene que terminar, mis estimados, sino tu programa se va a quedar ejecutando, este no sé permanentemente, ya tu algoritmo tiene que tener un tiene que ser finita, tiene que tener un fin.
+Si no se va a quedar atrapado en un bucle y la otra es tiene que ser preciso. Tienes que ser preciso porque tú le estás dando reglas a una computadora, mi estimado, tú no le estás dando reglas a un humano que puede razonar o puede pensar y puede corregir tu código. Si tal vez pues no sé, te hayas equivocado.
+La computadora simplemente sigue los pasos que tú les has dado. Y si comentamos, por ejemplo, que un paso este con el café, no, si tú le dices 8 cucharadas, la computadora no te va a hacer razonar y decir no está muy dulce con 8, dale 2, no más, no le va a echar las 8 cucharadas así a secas. Entonces tenemos que hacer.
+Precisos, muy bien entonces, y bueno, en el algoritmo también tiene relación con lo que sería un programa, ¿no? O sea, un algoritmo está escrito en un un programa, es un algoritmo, son instrucciones, cosas que tú vas a escribir, pero en lo que sería un lenguaje de programación.
+Que la computadora entiende y va, como lo entiende, pues lo va a realizar, lo va a seguir.
+Bien, listo.
+Entonces vamos a borrar algoritmo y vamos con el siguiente, veamos, quedan 6.
+Os quedan, 66666, taipo, uy, taipo.
+¿Qué es typo?
+A ver, yo creo que hasta typo. Bien, ¿quién tenemos por typos typo typo? ¿Cómo se dirá en inglés eso?
+A ver, chicos.
+A ver, Kevin dice para que nos dé el tipo de dato que tiene una variable.
+Tipo de dato que tiene una variable muy bien.
+Carlos dice.
+Justo no este mensaje a ver.
+Bien, a ver qué nos dijo Carlos.
+Nos quedamos con bien ya, pero es eso, no exactamente es eso ya para no expandirnos sobre type of es es esta, es un operador. ya type of es un operador, no es una función, es un operador que nos permite saber el tipo de dato que va a tener una variable. es.
+Eso no es preciso, preciso con eso. Kevin, muy bien, muchas gracias. ¿Dónde lo usamos? En los tipos de datos, no usamos typos para identificar eso.
+Ya vamos a borrar typos y vamos a ver lo demás.
+Chrome, otra función súper sencilla que nos da el navegador. ¿Qué hace el prompt, chicos? ¿Qué hace el prompt?
+¿Qué es lo que hace Prompt? Estimados, te muestra una ventana para pedir información. Carlos, es la ventana que me deje para rellenar la información. Ajá, exacto, es eso cierto. Prompt nos muestra una ventanita. De hecho, voy a ejecutar aquí esto para verlo en vivo ya porque aquí estamos usando Prompt. Este es el laboratorio número 9 y automáticamente ya.
+Nos está saliendo lo que pues permite Prompt. Prompt nos da, nos muestra una ventanita para solicitar, para pedir información a lo que sería el usuario, no a quién está interactuando con tu programa. Le da un campo, tú le mandas el mensaje que quieres que se muestre, le mandas el mensaje, escribes, le das a aceptar y listo. Ese este contenido, recuerden, muy importante.
+Ese contenido.
+A ver dónde está ese prompt. Ese contenido que nos da el prompt lo tenemos que guardar en un identificador. Ya tenemos que guardarlo en un identificador porque si simplemente escribimos pronto así a secas no lo estamos guardando en un lado. Por eso usamos una variable.
+Para almacenar esa información ya y otra cosa más, ¿qué tipo de dato nos da? Esto también es otra regla importante, siempre nos va a dar un string.
+Siempre ya tú le envías número, te va a dar un stream, tú le envías este letras, texto, te van a dar un stream, tú le dices true que es un booliam, te va a mandar un stream, tú no le envías nada. Ajá, eso vamos a ver hoy. ¿Qué pasa si tú no le envías nada? Va a pasar algo, estimados, pasa algo si tú no le envías nada.
+Ya, okey, entonces.
+Vamos a seguir, vamos a seguir a ver, nos enviamos.
+Vamos a borrar prompt, no se dan solamente.
+Cuatro conceptos ya para comenzar con la clase también.
+Concatenación de texto, esto lo vimos en una pequeña parte, también lo vimos el texto creo que ya nos dice, no que es concatenar, a ver, concatenación de texto, esto a secas.
+Te da nada. Uy, Carlos, ya sí, eso es efectivamente respecto a concatenación de texto. ¿Qué es concatenar?
+Vimos un operador para concatenar cierto.
+Para unir las cadenas, bien, la unión de información.
+Ajá, ya listo. Concatenación de texto es unir este concatenar cadenas, no unir texto, pero también podemos unir. En realidad, ¿qué es lo que pasa al concatenar? Chicos, si en realidad es concatenación de texto es unir texto, ya, pero profe, cuando yo uno una variable, ¿qué es lo que pasa?
+No es texto mi variable, si yo le meto un número, no, si yo le meto mi edad, por ejemplo, ese no es un texto. Es que lo que pasa por atrás, mi estimado, cuando tú usas un operador o usas esta forma de concatenar con template literales, lo que pasa por detrás es que el programa lo convierte a texto.
+Ya tú no lo notas, pero el valor de tu variable se convierte a texto. Tu variable va a seguir lo mismo como un número. ¿Lo recuerdas? Va a seguir si es un número va a seguir como número, pero el valor lo va a tomar como si estuvieras tomando una copia y lo va a convertir a texto y como texto lo va a mostrar justamente en la concatenación.
+Al mostrar, por ejemplo, el mensaje en consola, etcétera, ya entonces efectivamente es texto usando el operador más y o la otra forma que son los template literal, que es usar a ver usar estos backs tips que están acá.
+¿Estos de acá adentro, cómo pones una variable con el dólar encerrado entre este llaves?
+Ya listo, entonces ya vimos concatenación de texto, nos quedan 2.
+Nos quedan 2.
+Mhm.
+Casting, a ver si recordamos que es casting, chicos, porque sí lo vimos. Uy, ya lo ya lo ya lo quiero mostrar, pero en ya lo vimos casting, ¿no? Y vimos también 2 métodos para aplicar casting. ¿Qué es casting, chicos? No es moda, no es este.
+No es pasarelas, tal vez suena que es un casting.
+Casting, casting, casting.
+Ya estamos escribiendo.
+Casi nos dice Kevin para cambiar una variable de un tipo a otro para convertir valores. Exacto, bien.
+Para cambiar una variable de un tipo a otro, más específico de un tipo de valor de un tipo de dato a otro, no de texto a número, por ejemplo, sí o del número a texto. Y como en esos cuadro también para convertir los valores, no que son los tipos de dato. Bien, casting es eso, estimados, casting es.
+Ok, está muy rebelde hoy día en la escalera. Ya casting es conversión de datos, nada más que eso. Recuerden que tenemos tipos de datos, número texto. William, ya con casting tú puedes convertir de número a texto o de texto a número. Eso es casting.
+¿Cómo lo conviertes? Usando si quieres el número de texto, usas simplemente string y adentro ingresas el número. Esto te va a retornar un texto. Si quieres texto a número, usas un number adentro, pones el texto entre comillas y te retorna un número para ser más claros, chicos.
+Esto es un casting explícito, ya es decir, nosotros mismos lo hacemos y se lo decimos a el programa. Esto de aquí en concatenación, como les dije, el programa por detrás convierte a texto. Eso es un casting implícito, es decir, no lo este no se ve en código, lo hace por detrás.
+No se ve en código, lo hace por detrás, o sea, sin que tú lo notes, es implícito.
+Vamos a poner acá.
+Casting implícito, ya van a escuchar ese término seguro. Hay este, hay momentos, hay momentos donde la computadora hace casting, hace ese casting que tú no ves como, por ejemplo, la concatenación de texto, otro es al momento de operar, recuerdan con más.
+Ahí ya listo.
+Entonces vamos a cerrar esto, vamos a pasar con nos quedan solamente 2 que son súper sencillas ya para continuar con la clase.
+La siguiente es tipos de datos ya. ¿Qué son los tipos de datos? Creo que ya lo hemos visto bastante tipos de datos, lo hemos mencionado, no son simplemente.
+Ava.
+Air.
+Uy, tipos de datos text number o bullying. Ahí directo que ven nos da ya cuáles son los tipos de datos que hemos visto. Bien, exacto, gracias. Los tipos de datos estimados son esos, no lo he mencionado justo ya ahora varias veces.
+Y también está aquí en el apunte, aquí los 3 tipos de datos que son el tipo de valor que le vas a dar a tu variable la constante que va a almacenar. No hemos visto 3 números, texto y boolean. Hoy vamos a ver uno más.
+Uno más vamos a ver hoy día, estimados, no. De hecho, vamos a ver 2 más ya 2 no usuales, pero esas son estos ya recordar el Boolian. Hoy vamos a ver el Boolian bastante, estimados el Boolian. Recuerden eso de que solamente hay 2 valores, true o fails.
+Porque hoy lo vamos a ver bastante.
+Ya listo y el último es constante, chicos. ¿Qué es? ¿Qué se entiende por constante? A ver, ya para sacar esto.
+¿Constante, qué me dicen ustedes de Constante?
+Mhm.
+Con eso ya.
+Bien, Yael, Yael es información que no puede ser unificada.
+Es.
+Una variable de información cerrada, ahí el término cerrada.
+Hm, Ya.
+Información que no puede ser modificada y yo entiendo, a ver, ya él, cuando dice cerrada, a que este no podemos cambiar la información que tiene. No entiendo yo que cerrada debe tener ese término, la verdad, pero sí, una constante es bien, ajá, exactamente.
+Es Tiene una similitud con las variables o K en que almacenan información, en que este, en que tienen identificador, tienen este tienen identificador, pero la diferencia es que pues una variable es.
+Puedes variar el valor que contiene, mientras que una constante no el valor, el primer valor que tú le das al inicializarlo.
+Es el valor que va a detener de por vida. Ya no le puedes cambiar. Si tú haces eso, va a soltar un error como lo vimos en la clase anterior. ¿Qué me dice? Es una variable que no se puede cambiar. Ajá. Sí, este en realidad sí le dicen mucho a las constantes variables, ya le dicen mucho a las constantes variables.
+Pero queremos con esa idea de que no le podemos cambiar el valor a una constante, no con eso creo que ya nos queda clarito.
+Ya entonces ya vimos la clase 9, mis estimados, estoy grabando, ya vimos la clase, ya estoy grabando, entonces vamos a.
+Mostrar esto, ya no vamos directo, ya vamos directo, esto tampoco.
+¿Esto lo voy a cerrar y dónde está?
+Yo también lo cierro.
+Vamos a.
+Vamos a ver los que terminamos nuestro laboratorio. A ver, el laboratorio es número 9, estaba súper sencillo, chicos, ya estaba súper sencillo, el laboratorio este voy a ejecutarlo, de hecho ya está ejecutado ya mi primer programa en JavaScript y el laboratorio lo que nos actualmente lo que hace es esto, no este el usuario te pide un nombre.
+Acá te pido un este, yo le voy a poner Eric, digamos, ya le voy a poner acá, o sea, 256, ya le puse eso. Hola, Eric, tiene 256 años y este continúa, no continúa y ya, y obviamente, si yo le doy a inspeccionar, estamos interactuando con la consola hasta ahí todo acá.
+Es todo lineal, es decir, estamos yendo de arriba hacia abajo.
+Bien, pero yo, digamos, quisiera hacer algo. ¿Qué pasaría si yo ingreso mi edad?
+A ver, voy a ejecutar un nuevo stop. ¿Qué pasaría si yo ingreso a mi edad? Pero quiero que el programa a partir de mi edad detecte si soy mayor o menor de edad. Ya quiero que lo detecten, es decir, por ejemplo, escribo 25.
+Y a Cambell, digamos, me dice, hola Eric, pero me dice, tú eres que me diga, no sé, tú eres mayor de edad. Ya entonces ahora mismo el programa no puede hacer esto. ¿Por qué? Porque este no tiene la capacidad, mis estimados, de tomar decisiones siguiendo.
+Una información.
+¿Cómo tú le dirías al programa que evalúe la edad? Lo que tienen que hacer es evaluar esta edad y basado en eso tiene que darme o un resultado o lo otro. Actualmente, a ver, actualmente el programa es lineal, sigue así, pero en un momento tú le vas a dar tu edad y basado en esa edad.
+¿Te tiene que dar uno o lo otro?
+Ya vean cómo cambia el flujo, o sea, ya no es tanto así, tanto así, sino así. Ya entonces eso es la este, ¿cómo decirlo? A ver, es la capacidad que le tenemos que dar a nuestro programa el día de hoy.
+¿Cómo este la capacidad de decidir, por así decirlo, qué hacer según la información que reciba? Ya quedémonos con eso, por favor, porque.
+A eso vamos a.
+El día de hoy.
+Y eso en realidad es lo que pide tu programa, el proyecto final que era Adivina el número. Ya les expliqué, ¿recuerdan el proyecto de Adivina el número en la clase pasada? Ya en realidad este programa.
+También necesita la capacidad de este basado en una información, realizar cierta este acción. Miren el comportamiento, este es el programa y este es el usuario. Es cierto que en la interacción el programa tiene que adivinar un número, cierto, elige un número y le pregunta ese número a lo que sería el usuario.
+El usuario te da un valor, ya el usuario te da un valor, pero acá pasa algo, chicos, el lo que haga el programa a partir del valor que le dé el usuario depende, depende de ese valor, no es lineal, sino.
+Pero si no depende de qué, depende de si es muy alto, a ver.
+Si es muy alto, chicos, aquí entra como que un este y entra, si es muy alto, pues se va a ejecutar esto. Si es si le acertaste al número elegido, pues te tiene que mostrar este mensaje, pero si no, si es muy bajo al número elegido le tienes que dar esto, ¿lo ves?
+Aquí le tienes que dar la capacidad de decidir.
+De decidir a tu programa.
+Bien, entonces es eso, o sea, por eso es que nosotros tenemos que este aprender hoy el darle ese comportamiento.
+Bien, es súper sencillo ahí, chicos.
+Ahora una cosa, una cosa antes, a ver, es cierto que sí, aquí tienes tu número, este le das la capacidad, o sea, va a decidir qué hacer basado en el número que elegiste, pero muy atrás.
+Muy atrás, o sea, a ver, te da el número, ya te da el número que este para decidir qué es lo que tiene que hacer. Yo les pregunto a ustedes para decidir el programa, si es muy alto, muy correcto, muy bajo, ¿qué tiene que hacer entre el número 5 y el número que eligió? A ver.
+¿Qué tiene que hacer entre estos 2?
+El número elegido está aquí y digamos el valor que da el usuario está aquí, pero entre estos 2 tiene que hacer algo para decidir si efectivamente es esto, qué es lo que tiene que hacer.
+¿Qué tiene que hacer el programa para este darse un resultado?
+Ahí dice Kevin, a ver.
+Kevin ya nos dio una respuesta, chicos, lo que se les ocurra ver.
+¿Qué tiene que hacer entre estos 2 valores para decir o K, ya hice esto ahora? Sí, estoy seguro de darte este mensaje, decirte no es muy alto o decirte no, o decirte sí, correcto, es ese número el que yo pensé o es muy bajo.
+Ajá, en términos, creo que hubiera sido más claro y yo hubiera dicho en términos de este conceptos, no más que de programación, pero creo que ya sí lo entienden. Cierto, exactamente es compararlos, chicos. Lo que vamos a hacer es comparar. Tiene que comparar esto con esto, nada más que eso.
+¿Sino, cómo sabría si es muy alto o si está bien o si es muy bajo? Va a comparar el valor del usuario con el número elegido, los va a comparar y basado en eso ya recién va a decir ajá, no, este tu número es muy alto.
+Intenta de nuevo.
+Ya.
+¿Por qué mencionó comparar los chicos? Porque hoy efectivamente vamos a ver más ojito acá operadores de comparación. Ya hemos visto qué es un operador, lo dijimos, un operador es y lo voy a poner acá, es un símbolo que le.
+Dice al programa.
+¿Qué operación realizar? Cierto, vimos lo que son los operadores aritméticos que le dicen al programa que van a realizar operaciones, pues matemáticas no, o aritméticas, ya específicamente con un número. Bien, lo que vamos a ver hoy día son los operadores de comparación.
+Hacen algo diferente, obviamente, pero en un mismo nombre lo dice, no comparan.
+Ya compara, vamos a poner acá bien, está en *****, ya compara, es decir, compara.
+Tall Mum.
+Los valores y los compara, así de sencillo, estimados, pero acá pasa algo, pasa algo, el resultado de la comparación. Y por eso le dije, hoy vamos a ver mucho el booleano porque el resultado de la comparación.
+Siempre, siempre.
+Yeah.
+Uy.
+Vale, me quedé sin espacio siempre.
+Es.
+¿Un booleano o en otras palabras, mi estimados, es true o fails? Ya es decir, es verdadero o falso, nada más que eso, el la comparación te va a dar o esto es verdadero o es falso.
+Ya es así la sintaxis. ¿Cómo sería? A ver, la sintaxis sería así el valor uno, ya que tú estás comparando, luego diría el operador de acá vamos a poner, vamos a poner de hecho como otro este.
+Otro color valor uno.
+Operador de comparación o comparación.
+Y un valor 2 es eso, chicos, vas a comparar 2 valores y el cual este el operador de comparación va en el medio, similar a lo que sería una operación aritmética ya. ¿Y cuáles son los operadores de comparación? Súper sencillo, chicos, lo hemos visto también en matemática básica, son súper sencillo. ¿Cuáles son los operadores de comparación? Pero vamos a ver de nuevo.
+Si tú conoces el mayor o igual o el menor, ya entonces ya sabes que son los operadores de comparación, porque son esos también están en matemática ya.
+Son 6 operadores de comparación, tenemos lo que sería el igual, pero aquí al igual mis estimados.
+El que tienen que aprender es que la sintaxis del igual muy grande está.
+Vamos a cerrar esto, ya la sintaxis de lo que sería el operador de igualdad.
+Son 3 iguales, ya acá sí tal vez te si es un concepto nuevo porque tú usualmente usas uno, no en lo que sería este, pero recuerdan que ese igualdad de uno está asignado para asignación, recuerdan al momento de este de usar las variables y darles un valor.
+Ya ese está reservado para eso, entonces acá no, acá es 3 iguales y el diferente como es diferente, es simplemente un signo de admiración y 2 iguales. Sobre lo demás ya los conocemos, chicos, tenemos el mayor que, menor que, mal, este mayor o igual que.
+O el menor o igual que ya es súper sencillo. Aquí vemos, por ejemplo, pues ya los conceptos, ya, pero es eso, es eso, a ver.
+Casi voy a ponerle chiquito igualdad.
+Ya porque estos 2 si se tienen que diferenciar, igualdad.
+Diferencia.
+Ya listo, entonces sobre todo lo demás ya estaría este. Entonces, ¿qué es lo que tenemos que almacenar aquí entonces en la comparación?
+¿Vas a obtener tu?
+Si la comparación es cierta, obviamente si la comparación es cierta ya y vas a obtener.
+Pols o falso, si la comparación es, pues no es cierta, no es, o sea, no cumple nada más que eso.
+Ya con eso, con esas reglas ya que establecí respecto a los operadores de comparación, ya podemos continuar con lo que sería, pues este ya la tenemos claro, creo yo, o alguien tiene algo, alguna duda, lo vamos a ver mejor con este, con el demo en el código, en el código ya aquí.
+Este es un este, no lo no lo hagan, por favor, ustedes todavía en su proyecto. Esto es una práctica, este bueno, es un proyecto práctico ya, pero como dijimos, a ver, operador de comparación 5.
+Mayor que 8.
+Estos chicos me va a dar true of face 5 mayor que 8 true of face me va a dar.
+¿Qué me da eso? OK, me dice Force Carlos, me dice Force, bien, exacto, me dice, vamos a ejecutarlo ya.
+No quiero que me abra, ya me lo está abriendo en otro, este lo voy a cerrar porque.
+En muchas ventanas va a confundir.
+Can, yes, they can, yes.
+Ya chicos, consola, ups, ¿qué pasó?
+A ver qué pasó estimados porque no muestra false.
+¿Por qué no me está mostrando force, chicos? ¿Qué está pasando si yo puse 5 más que 8, por qué no me muestra force?
+A ver, estamos atentos, falta el if, dice Carlos, if a ver.
+Falta imprimir el mensaje. Exacto, chicos, a ver, falta imprimir el mensaje. Solo estamos a ver acá lo que está haciendo es está operando muy bien. La operación te sale false, pero yo no estoy mostrándolo por consola, por eso es que aquí no sale nada. Entonces, como mostramos por consola.
+Ahí entra el consuelo.
+Ahí entra el console ojo. Mostramos ahora sí la operación que está adentro. Creo que estamos notando también la capacidad que tiene el console. Es muy este flexible para admitir adentro no solo variables, chicos.
+Y no solo variables o valores directamente, sino también lo que son expresiones.
+Ya el consuelo, a ver lo que admite.
+No solo están metiendo variables, es decir, tú creas una variable y la metes o una constante, sino.
+¿Expresiones y qué es una expresión? Una expresión sencillamente es todo lo que arroja un resultado.
+Por ejemplo, Por ejemplo, las funciones, las funciones, hay funciones que nos arroja un resultado. Ya otra cosa más que vimos son este, a ver, déjeme recordar las operaciones, las operaciones, como por ejemplo las aritméticas, la suma te da un resultado, cierto, el producto te da un resultado.
+Aquí esta operación de comparación te está dando un resultado false, por eso es que es posible meterlo dentro de un consuelo.
+Ya y por eso, al mostrarlo también acá me da efectivamente falso.
+Ya vamos a copiar esto con shift all.
+Y vamos a poner otro a ver si pudimos entenderlo ya 7 menor igual que 7.
+Esto, chicos, que me da 7 mes.
+Chicos, esto es esto es matemática básica, por favor, 7 menor igual que 7.
+Recuerden que la participación es nota.
+7 menor igual que 7 está súper, súper, súper sencillo. Carlos me dice true que me dice true bien, exacto. ¿Por qué true? Porque este cumple o una de las 2:00 condiciones, no cuando decimos menor igual es o tiene que ser menor o tiene que ser igual. En este caso 7 es igual a 7, por eso es que esto me va a dar.
+True.
+Oh, verdadero.
+Y otro un último ver ya para estar seguros.
+Ya está, ya último es.
+Esto de aquí.
+Esto yo no lo voy a decir, ya ustedes me tendrían que decir qué significa esto ya si vimos las operaciones.
+1010. ¿Qué es qué operación? ¿Qué operador es esto? A ver, qué operador es esto. ¿Qué es lo que está haciendo? A ver, chicos, chicas.
+Ya Carlos me dice, no, Carlos, yo anoche debe ser este igualdad sin diferencia.
+Mira, y me dice Carlos, ya hay un true ahí.
+Are you true age, chicos?
+A ver, creo que estaban escribiendo.
+Mhm.
+Ya efectivamente, estimados, esto de acá es diferente, ya es comparar si los valores son diferentes, entonces acá lo que está comparando es si son valores diferentes.
+10 es diferente de 10.
+Falso, no son diferentes, son iguales.
+¿Lo ven? Me está dando falso porque es verdad. Esto acá, estimados, es diferente. Ya no es esto lo que es igualdad, el triple igual, pero aquí estoy usando el asterisco. Entonces es falso, estimados, vale, es falso.
+Ya espero que ahí haya quedado claro, a ver, uno más porque eso me ha puesto en duda. A ver, tranquilos, chicos, tranquilos con calma.
+Con calma a ver.
+Vamos a.
+Ver si pudimos entender ya 262.
+¿A ver, chicos, aquí qué nos da?
+¿Console log 26 y 12, el triple igual, qué es eso?
+Como entienden qué es esto, entonces ya vamos a ver qué respuesta dar.
+Kevin dice Fols, Carlos dice Fols, ya fue fast eso, chicos, muy bien. Efectivamente, el triple igual es igualdad. Entonces lo que estamos haciendo es si 26 es igual a 12.
+Ya si 26 es igual a 12, efectivamente no es un no es igual, no, por eso es que ja no es false, es false ya aquí me estaba desviando y es false ya listo. Entonces ahí como ya vimos, creo que ya entendimos completamente cómo es los operadores de.
+Comparación y algo que notar también, no algo que podemos notar todos que tienen en común todos los resultados que acababan de ver. Chicos, acá estamos imprimiendo en consola todos los resultados que tienen en común.
+A ver qué tienen en común todos los resultados.
+Son booleanos. Muchas gracias por aclararlo. Sí, el este todos los resultados son boolean, son true o fails, nada más que eso ya listo. Entonces ahora una cosa más que quiero añadir, estimados, quiero añadir una cosa más.
+A ver dónde lo pondría.
+Mire, no le guarda espacio, ya no importa, vamos a hacerlo aquí.
+Ya quiero remitirme a la palabra estrictos. ¿Por qué estrictos? Ya miren, acá hay igualdad estricta.
+¿A qué se refiere con estricto? ¿Por qué estrictamente? Claro, son iguales y a igualdad, pero por qué estricto a ver.
+¿Qué es esa particular particularidad de ser estricto? Vamos a ver, se le dice estricto por 2 razones, estimados, por 2 razones.
+Y las razones son lo siguiente, la realidad por una razón ya es por una razón, la primera es notoria, ya compara.
+El valor.
+Comprar el valor, ya a eso sí lo sabemos, no comprar el valor, pero la segunda y la razón.
+Por una razón vamos a poner acá.
+La razón principal.
+De ser estricto.
+Es que también compara el tipo de dato, estimados, compara el tipo de dato. ¿Cómo que el tipo de dato? ¿Y por qué? ¿Por qué este tengo que comparar el tipo de dato? Vean, vean, vean, ya vamos a ver esto de por qué. ¿Por qué comparar el tipo de dato? Ya vamos a.
+Sacarle copia a esto.
+Vamos a ponerlo acá, vamos a poner de hecho voy a.
+Ya ahora sí.
+De hecho, voy a hacer esto o k miren, voy a igualar, voy a comparar esto ya 5 es igual que 5. Muy bien, esto está súper fácil. He puesto este mensaje para diferenciar true ya, pero ¿qué pasa si yo hago esto?
+Quiero que me respondan qué valor nos da aquí, 5 texto es igual a 5 número.
+¿Qué va a pasar ahí?
+A ver, estimados, ¿qué me responderían a eso? Miren, ahora estoy comparando, pero estoy comparando el texto con contenido 5.1 número 5.
+Ya estoy comprando esos 2.
+¿Qué creen que me sucede ahí?
+A ver qué es lo que les viene a la mente que podría suceder. Si me dicen que da un error normal, díganme que da un error normal. No se preocupen, chicos. Aquí estamos para equivocarnos ya para dar las respuestas en realidad que queremos. Kevin dice false.
+Perro.
+Kevin dice false.
+Porque 5 es texto y 5 es un número. Ya John está escribiendo, a ver, John.
+Música de suspenso.
+Ha ha.
+O K, ahí Kevin ya me dijo una razón.
+Veamos que nos dice mi estimado John Rivas.
+¿Alguien más tiene alguna respuesta que se le ocurre estimado?
+Uy, a ver, Oswaldo se unió a la fiesta, Oswaldo.
+Mamá, chicos, los espero, por favor. Yo quiero ver su participación, ya quiero ver su interpretación de esta situación. True lo tomaría como igualdad, dice John. Oswaldo dice error. Muy bien, gracias por sus este, por sus respuestas. Chicos, a todos vamos a ver qué pasa. Ya vamos a ver qué nos da el programa.
+Entonces esta este estamos comprando esto, veamos este qué nos muestra.
+Nos muestra false o k chicos, nos muestra false, muy bien, nos muestra false porque.
+Por la razón de que estamos usando 1/3 igualdad y la tercera igualdad, ya como comenté aquí, es una igualdad estricta.
+Ya esta es una igualdad estricta y se le llama estricta por una razón. o K compara el valor en el valor, chicos, es igual, ya como dices tú, John, John Rivas, este como tú dices, es igual, o sea, esto es un 5 y esto es un 5 bien, en el valor es igual.
+Pero pasa algo y es que también compara el tipo de dato y en el tipo de dato si no estamos viendo que hay igualdad porque.
+¿Por qué? Porque el 5 de aquí.
+Es texto, es tipo de dato texto, no ahí, como nos comentaste tú, Kevin, es texto, mientras que el 5 normal, pues es un número y como son diferentes tipos, nos va a dar falso.
+Ya nos va a dar a ver dónde estaría. Perdón, aquí nos está dando falsos. Muy bien, muy bien, estimados, perfecto. Ya lo mismo aplica, lo mismo aplica con la.
+Diferencia estricta, estimados una diferencia estricta.
+Estamos usando ya que es esto de aquí también va a revisar.
+Va a comparar el tipo de dato y el valor, es decir, en la diferencia tiene que ser obviamente también tipo de datos, por ejemplo.
+Pero vamos a escribir acá uno más ya.
+Ya miren, acá son diferentes, no son diferentes. Esto debería darte true.
+Es un poco confuso la diferencia, la verdad, y de hecho sí te va a dar true, no a ver, te va a dar true, pero son tipos de datos. A ver qué nos da ya para verlo. Yo también nos da true por qué a ver.
+Porque la diferencia, a ver, este es que son datos diferentes, pues.
+Aquí la diferencia sí está un poco este, a ver en la diferencia.
+Yo siempre me he peleado con la diferencia, la verdad no lo he usado tanto, pero la referencia compara el valor que es si son diferentes.
+Es true, ya si son diferentes es true, de hecho sí lo son, son diferentes, pero en el tipo de dato creo que si también son diferentes tipos de datos también es true porque es eso, no parte de la diferencia estricta. Si son tipos de datos diferentes es true.
+Vamos a ver si le ponemos el 7 así ya, aunque nos va a dar true de hecho, ves también porque este no se ve tanto en la diferencia, ¿no?
+No se ve tanto, no sé si lo han notado ustedes, pero ya chicos ya. ¿Cuál fue la razón de este de mencionar la igualdad estricta? La razón es la siguiente, chicos, ya vamos a borrar la diferencia para no confundirlos.
+Quédense con la igualdad estricta, hay una razón porque ustedes también van a ver porque existe una igualdad no estricta, chico.
+Hay una igualdad no estricta.
+Y eso es doble igualdad. Tal vez ustedes, cuando cuando vean programas, otros programas van a ver que hay una doble igualdad y no una triple. ¿Por qué? Porque también existe una igualdad no estricta, y esto a diferencia de su este de la anterior.
+¿Solamente por qué se le llama no estricta? ¿Por qué?
+Sí, ya no compara el tipo de datos, si no compara solamente el valor.
+Muy bien, compara simplemente el valor y con eso se queda. Veamos, miren, veamos, vamos a verlo en vivo ya este mismo de aquí que hemos usado, vamos a usarlo acá y le vamos a quitar una igualdad.
+Ya le vamos a quitar una igualdad, vean lo que pasa. Ahora estoy comparando solamente con una igualdad no estricta o una igualdad normal que algunos le llaman.
+Lo hacemos esto, vamos al código y vean que me ha dado true, o sea que ha aceptado. ¿Por qué? Porque esta de acá compara solamente el valor, compara 5.5, el mismo son el mismo valor, pero el tipo de dato son diferentes.
+Pero la igualdad no estricta, dice, a mí no me importa el tipo de dato mientras tengan el mismo valor. Por eso es que esto es chu, estimados.
+Ya yo les recomendaría.
+Es una muy mejor práctica que ustedes este y también para que tengan más control que nosotros usemos la igualdad estricta, que es la de pues triple este triple igualdad ya para que se vayan acostumbrando también. Por eso es que yo les enseñé esa triple igualdad para que tengan ese control de.
+Del tipo de dato.
+Del tipo de dato muy bien, pero como les comenté, van a ver también algunos programas que son igualdad no estricta.
+Muy bien, ya listo. Otra cosa más, otra cosa más, chicos, respecto a los operadores de comparación, algo que también se puede hacer con estos, a ver, es que también se puede hacer en texto. Ya podemos también aplicar los operadores de comparación.
+Operadores de comparación en texto también lo podemos aplicar, pero acá hay un pequeño pero, acá hay un pero.
+Muy chiquito, ya hay un pero, el pero es que.
+Solo 2 operadores nos funcionan, chicos, solo 2.
+Ya el operador de igualdad.
+¿Qué es esto?
+Son los 2 operadores, el de igualdad que este se fija, o sea, revisa, compara.
+Sí, ambos textos.
+¿Son iguales, no?
+¿Y este, obviamente, el de diferencia, no?
+Compara.
+See, ambos.
+Textos son diferentes, nada más que eso ya, porque obviamente tú no puedes decir si un texto es mayor que otro o menor que otro. Bien, ahí ya aplicaría lo que serían los números. Entonces es nada más que eso. ¿Cómo lo veríamos aquí? Miren, vamos a verlo fácilmente.
+Vamos a chapar esto.
+Vamos a copiarlo abajo, vamos a copiar esto también porque necesitamos.
+Mhm.
+Comparación en textos.
+Ya y vamos a comparar acá, estimados, texto.
+Por ejemplo, vamos a poner acá, hola.
+Y acá, adiós, vemos que nos lanza eso.
+También funciona aquí el operador de, obviamente, doble o triple, no este.
+Y obviamente nos da falso porque no son iguales, ¿no? Pero qué pasa si tú le das a hola, así tal cual, igualito te va a arrojar ya esto es sensible a mayúsculas. Vamos a verlo. ¿Qué pasa si le doy hola en minúsculas? ¿Dirá que es igual o diferente?
+Dirá que es diferente, ya aquí vemos que es sensible a mayúsculas, es decir, este términos de mayúsculas, aunque sean la misma palabra, los diferencia, ya los diferencia.
+Pols bien y lo mismo sería con este.
+Con diferente, pues con diferente.
+Ya vamos a poner acá diferente.
+Vamos a poner hola acá, sí, así y así.
+Y nos da true porque son diferentes, ya son diferentes.
+Textos diferentes that true.
+Listo, chicos, eso sería todos los que lo que les tengo, los que le quería enseñar respecto a los operadores de comparación.
+¿Ya entonces, cómo lo ven, chicos? ¿Alguna consulta respecto a eso?
+Todo claro, pueden levantar la mano si tienen consultas, si desean. ¿Cómo les quedó eso? Carlos, que bien, gracias.
+Los demás, por favor.
+Waldo, a ver.
+Ya me dice todo claro, lo guardo todo claro. Bien, listo. Entonces ya entonces, si ya terminamos los operadores de comparación, esto lo vamos a usar más adelante. Vamos a pasar a otros operadores, que son los el undefinite, lo dejamos un momento. ¿Qué son los operadores?
+Lógico.
+¿Por qué a ver qué es en los operadores lógicos? En los operadores de comparación, chicos, comparamos 2 valores.
+Ya comparamos 2 valores, pero en la vida real, mis estimados, las decisiones, o sea, suelen depender de más de una condición, al mismo tiempo suelen depender más de una condición al mismo tiempo, por ejemplo.
+Por ejemplo, aquí ya aquí vamos a poner.
+A ver, texto.
+Pongamos el caso de un carro, no manejar un coche, conducir un coche tiene 2 razones, tienes que tener más de 18 años. Aquí hay una comparación entre tu edad y los 18 años ya y pues tienes que tener licencia, mi estimado.
+Ya acá vemos que no hay, hay más en realidad de más de una comparación. Acá hay 2 comparaciones, ya son 2 comparaciones. En realidad, nosotros aprendimos solamente una comparación. ¿Qué es esto? Ya esto es una comparación, hacer esto, esto es una comparación.
+Comparar 2 valores, esto es una comparación, pero aquí ya tenemos 2.
+Tenemos 2 comparaciones, que es esto de aquí y es esto de aquí, tener más de 18 años y tener licencia ya no basta con una sola condición, sino que.
+Tienen que cumplir ambas.
+O pensemos, por ejemplo, en un feriado, acá vamos a poner también el contexto porque conducir un coche, porque si no se va a entender.
+O pensemos en, por ejemplo, tu día libre.
+¿Tu día libre, qué tiene? ¿Cómo es este? ¿Cómo se representa tu día libre? A ver, tú tienes tu día libre si es feriado, si es feriado o si es domingo, digo, si ya domingo o hasta o sábado, no, vean hasta acá incluso o si es sábado, vean que aquí incluso hasta 3 comparaciones hay.
+Si es feriado o si es domingo o si es sábado, no, ahí ya estás viendo.
+Que este ahí estás viendo que hay más de pues más de una comparación. Así es como funciona la vida real en la vida real es así, tú no vas a comparar solamente una vez. ¿Por qué digo esto? Entonces lo que tenemos que tener nosotros este ahora agregar ya aprendimos a comparar.
+Pero lo que tenemos que agregar es unir esas comparaciones y para eso justamente combinar comparaciones. Ahí es donde entran los operadores lógicos. Ya los que han visto lógica, tal vez en la academia o en su colegio, no sé si lo recuerdan, se hacían tablas tabulares donde.
+Habían símbolos como el entonces que, el ant, el or, etcétera, ya más o menos. Bueno, por ahí están los operadores. Es eso, ya son eso, pero ahí lo vamos a ver porque son súper sencillos, este colegas, ya son súper sencillos. Los operadores este lógicos nos permiten.
+Combinar ya.
+Vamos a ponerle, a ver, no necesariamente combinar, bueno, unir ya unir comparaciones, acá hay varios de estas, ya unir comparaciones o este.
+A ver, vamos a ser más precisos.
+¿Van a combinar condiciones? ¿Qué es una condición?
+¿Qué es una condición, a ver chicos, quién tienen ustedes por condición?
+¿Qué les viene a la mente a ustedes?
+Sobre las condiciones.
+Ver qué les viene a la mente de qué es una condición. A esos son condiciones. A ver, esta es una condición. Tener más 18 años es una condición. Tener licencia es otra condición. Ahí qué les da la idea de condición.
+A ver, ahí tenemos una respuesta, una característica dice Oswaldo, un poquito más. A ver, característica de qué específicamente, por favor, a ver característica.
+No creo que así, a ver, vamos a repetirlos a condiciones, este, ¿cómo sería?
+¿De condicionar? Sí, porque obviamente yo entiendo qué condiciones debe tener varios conceptos. Ya vale para no confundir, vamos directo al concepto. Gracias por la por tu respuesta, Oswaldo. Condición en realidad es una expresión. Ya vimos que es una expresión, algo que nos arroja un resultado. Es una expresión.
+Que digamos en programación, ya que este la computadora evalúa, o sea, va a evaluar esa condición, es una expresión que evalúa para obtener.
+Un resultado, pero el resultado es verdadero.
+O falso, ya o sea, true o false, tú todas las condiciones, este todo una condición es algo que simplemente arroja verdadero o falso. ¿Ya tienes más de 18 años, verdadero o falso? A ver, eso según la edad, no, yo, por ejemplo, tengo más de 18 años, para mí es verdadero. Aquí tal vez hayan menores de edad, falso.
+Bien, pero ahí estamos viendo. ¿Tienes licencia? No, falso, es feriado, no falso, es domingo, no falso. Ven, esa es una condición, mis estimados, y en realidad una condición es como que toda expresión, una de esas expresiones, ya una de esas expresiones es.
+Vamos a ver una de esas expresiones.
+¿Puede ser o es?
+Porque hay varias formas de demostrar una colisión, pero puede ser una comparación, mis estimados, ya o sea, toda comparación es una.
+Toda comparación es una condición. ¿Por qué? Porque toda comparación que te arroja verdadero o falso. Por eso es que todo esto lo voy a poner de hecho en rojo, porque esta idea es súper importante.
+Toda comparación es una condición, mis estimados, ya y vamos a justamente usar los operadores lógicos para combinar condiciones que pues es combinar comparaciones.
+Muy bien, listo entonces.
+¿Cuáles son los operadores lógicos? ¿Cuál es esa sintaxis? Ya la sintaxis ya la vimos. Dijimos que combina comparaciones, pero cómo a ver así, no condición uno, operador.
+Voy a poner aquí con rojo condición uno.
+No.
+Sí, ya operador lógico.
+IT.
+Condición 2, ya esta es una forma básica porque obviamente puedes combinar varias condiciones, ahorita vamos a ver cómo.
+Pero tú puedes combinar varias, esta sería la sintaxis, chicos.
+Muy bien, hay 3 operadores del este operadores lógicos. Existen 3 operadores lógicos. A ver, un momento chicos, denme 1 minuto, por favor, un minutito.
+Tomando la puerta.
+Okay, ya muchas gracias.
+Nos quedamos en qué, ajá, en decir cuáles son los operadores lógicos. Bien, existen 3 operadores lógicos, pero para enseñarlo de una forma más clara, estimados, que es el ANT, el OR y el NOP, ya, pero para hacer una analogía súper sencilla, nosotros en realidad.
+Lo vemos en nuestro lenguaje, ya en nuestro lenguaje, veamos el ant, que es esto de aquí.
+Ajá, el ANT, que es esto de aquí sería como en realidad ANT en inglés es I, no cierto, antes I, o sea, esa Y griega.
+Esa y es an, chicos, el lenguaje, o sea, en el lenguaje, en nuestra gramática, en nuestro lenguaje, nosotros qué hace y lo que hace es indica obligatoriamente.
+Indica obligatoriamente ambos, o sea, que ambos, que ambos se cumplan. ¿Cómo que ambos se cumplan? A ver, miren, en términos de nuestro lenguaje, si yo quiero entrar a mi cuenta de no sé, a una cuenta de videojuegos, ya cualquier una cuenta de GitHub para entrar a mi cuenta de GitHub.
+Necesito mi nombre de usuario y mi contraseña. ¿Lo ven? Ahí he usado SI. Entonces SI que me indica que AMLO se tiene que cumplir, es decir, tengo que dar mi nombre de usuario y tengo que dar y mi contraseña. ¿Lo ven si falla uno? O sea, si falta uno, obviamente eso no se va a dar.
+Sí, no sucede uno.
+Pues es falso, o sea, falla, veamos.
+Yeah.
+Vamos a ver aquí.
+Vamos a cerrar esto ya ahora sí, entonces eso es lo que hace ahí, por ejemplo, ya como comenté acá, yo te presto mi coche, te presto mi carro si eres mayor de edad y tienes licencia.
+Ya hay un aquí hay un ejemplo, miren, ahí estoy dando condiciones. Le estoy diciendo si eres mayor de edad y tienes que tener licencia. Si tú haces esto, mi estimado, la respuesta, o sea, el resultado es verdadero. Yo te voy a prestar mi carro, pero si no, si tú no cumples ninguna de estas, o sea, tú eres mayor de edad.
+Pero tú no tienes licencia, yo no te lo voy a dar.
+Muy bien, o k eso es el valor que he tenido y cuando nosotros usamos y es como que decir que ambos sucedan, no denme ejemplos de y chicos que usualmente o que no sé cotidianamente usan ese y ya en su lenguaje diario, porque el y es literal, es una.
+¿Cómo decirlo? Tal vez no nos este no lo hemos notado, pero lo usamos bastante. Elí, no sé, compra pan y mantequilla ya o este vean, no sé qué sería, barre el piso y luego lava tu ropa, no como un encomendado de la madre.
+Pero denme esos ejemplos de cómo se ustedes ven el ya denme un ejemplo, por favor.
+A ver, y prestar carro.
+Ya en lenguaje, por favor, este Kevin, muchas gracias en ir, pero en un lenguaje natural, no en un lenguaje natural como esto.
+Yo te presto mi carro si eres mayor de edad o es esto, no, ahí estoy usando un en lenguaje natural. Exactamente, tú nos muy bien, gracias, Kevin. Esa sería una respuesta en programación. Sí, ahorita lo vamos a ver, pero en lenguaje natural quisiera que entiendan el concepto de ese ant, porque el ant es sí.
+Ya a ver.
+A ver, deme un ejemplo, por favor.
+Un ejemplo de I.
+Chicos están ahí.
+A ver.
+Un ejemplo de estimados colegas.
+Lleva las llaves y el candado muy bien ya.
+Llevan las llaves y el candado, aquí están siendo.
+¿Qué ambos tienen que cumplir?
+No, lo que sí te faltaría, Oswaldo, sería como que el contexto, no un contexto breve, por ejemplo, este asegura la puerta, lleva las llaves y el candado. ¿Lo ves? Ahí le das como que un contexto más preciso. Mañana iremos de paseo, si es que no llueve y hayas terminado tu tarea. Ya bien, qué bien. Carlos Ramos dice: te compro un globo si sacas buena nota y te portas bien. Ajá, la clásica, ¿no?
+Bien, muy bien, chicos. Exacto, vean cómo se usa el ID para este indicar que ambos se cumplan.
+Bien, entonces vamos a trasladar eso a lo que sería el LAND, porque el LAND es similar. El antes es lo mismo, ya el antes, el ilógico. ¿Por qué? Porque en el LAND el resultado, o sea, el LAND sabemos que viene de esto, ¿no?
+Aquí está esto es el ant.
+Pero como dice es 2 símbolos de Amperstein, ya el AND en realidad evalúa condición uno, condición 2, pero ¿qué pasa? Similar al I, el AND lo que dice es que ambas tienen que ser y, o sea, la condición uno y la condición 2 tienen que ser verdaderas para que tu resultado sea verdadero.
+Para que tu resultado sea verdadero.
+Creo que me faltó aclarar chicos de este operador lógico, o sea, el operador lógico lo que hace es obviamente combina condiciones, pero te va a dar un resultado, te va a dar un único resultado y ese resultado obviamente es.
+Y ese resultado es un booleano. Mi estimado es un booleano, es true o face. Ya es un único resultado en el caso de Ant, ya en el caso de Ant, como dice aquí, vamos a poner con rojo, no mejor con azul. Ya lo que dice es lo que similarmente es aquí, pues.
+Devuelve true, si ambas condiciones, ya lo voy a sacar la cara, si ambas condiciones son verdaderas, de lo contrario te da falso. Ya igual que el y tiene que pasar ambos para que suceda. Si no, si al menos uno solo es falso, entonces.
+Entonces todo es falso, o sea, no va a suceder.
+Bien.
+O K, entonces es así como funciona el ant como igual que el in. Ambas tienen que suceder, si no, si no pasa uno es falso. ¿Qué pasa con el or? Con el or es símil, o sea, con el or es así, o sea, el or dónde lo usamos. Vamos a ver, el or es o ya en nuestro lenguaje, el or es como el or.
+Hielo.
+No.
+Ya a ver, vamos a ver.
+Hello.
+Ya.
+El logo en realidad indica cualquiera de los 2. Esto lo voy a borrar aquí ya que es lo que hace el oro indica.
+Y.
+Cualquiera de los 2, o sea.
+Es o no cualquiera de los 2.
+Tu seda, vamos a poner con que cumplas uno es sufi. Vamos a ver sufi es suficiente, pues es suficiente. Con que cumplas uno es suficiente, es lo que hace el horno, por ejemplo.
+Lo vimos aquí, cierto, si es feriado o si es domingo o si es sábado, obviamente tienes día libre.
+¿Ya tienes?
+¿Tienes día libre? A ver un momento, disculpen, voy a voy a llevarme por otro lado que está haciendo.
+Sí, chicos, gracias. Pueden darme ejemplo si quieren de lo para que vean este cómo se entiende lo porque lo suficiente con que uno suceda, ya es feriado o es domingo o es sábado. Aquí cualquiera puede suceder, no tienen que cumplirse todos, sino con que uno cumpla y es suficiente ya o es domingo o es sábado.
+A ver, chicos, ¿qué ejemplo me pondrían de un momento?
+Bien, o K, perdón, ya listo. Carlos dice: vamos a la playa o a la piscina. Ajá, exacto, vean el la habilidad de o no al o ya no, este ya o ya no es más estricto, o si suficiente con que cumplas uno es suficiente ya y o cómo sería en la lógica, en la lógica es similar el comportamiento.
+Te va a dar true, sí, al menos 1 condición.
+Es true ya si al menos 1 condición es true, sino de lo contrario te da el false, o sea, sin ninguna es este, sin ninguna de las condiciones, obviamente sucede aquí. Por ejemplo, es feriado, es domingo, es sábado, digamos que es lunes, obviamente no va a ser, no va a ser un día libre, no, ya no va a ser día libre, tiene que suceder al menos 1 para que.
+Pues para que este sea verdadero y si hay condiciones donde ambos incluso también son verdaderos, pero suficiente con una.
+Ya esos serían estos 2 palitos que están aquí, ese sería la condición or.
+Y lo que luego viene lo que es el note. El note es más sencillo, mis estimados. El note es este, a ver, si vemos en sintaxis, es diferente a esta de acá.
+Porque el not lo que hace es invertir ya, pero invierte el valor, o sea, invierte un booleano.
+Invierte un boliviano, si es true lo va a invertir a false, o sea falso, y si es falso lo invierte a true. ¿Cómo es la sintaxis? La sintaxis es así.
+Ya la sintaxis así es esto, el signo de admiración y aquí vendría lo que sería, por ejemplo, a ver.
+No está llegando, está bajando, ya sería esto y el boolean.
+Ya el buleano o también puede ser, por ejemplo, así esto y este.
+Vamos a poner acá ya expresión booleana.
+Así más para resumir todo, que es una expresión booleana, todo lo que toda expresión que nos da este un resultado verdadero o falso. Por ejemplo, esto de aquí, miren, esto es una esta es una forma. ¿Cuál es el resultado de esto? Esto te va a dar false, vea esto.
+Y una condición, por ejemplo, si la condición es verdadera, esto te va a arrojar. Falso. Si la condición es falsa, esto lo invierte y te va a dar una condición verdadera. Ya muy bien eso.
+Así es como funciona el no, ya es una este es una sintaxis diferente a estas porque este está al lado, al ladito nomás pegado de la expresión booleana.
+Bien, pero vamos a verlo mejor en el código, porque ahí es donde más se va a entender, veamos.
+Vamos a verlo aquí.
+Voy a copiarlo, voy a pegarlo y ya.
+Vamos como operadores lógicos.
+Muy bien, chicos, esto aquí estimados ya listo, perfecto. Vamos a ver similar a operadores de comparación. Voy a poner yo algo y ustedes me dicen si es verdadero o falso. El resultado final ya acá hay una comparación, miren, 5 es mayor.
+O igual a ver, 5 es mayor o igual que 18 y acá estoy usando un ant, vean ant true. A ver, esto es para analizar, estimados, ¿qué resultado creen que nos arroje esto?
+O tienen dudas, o sea, si tienen dudas, chicos, me explican por favor si se pudo entender los operadores de compración que me lancé directual a verlo en el código.
+Si no normal, a ver, por favor.
+Ok, ya me está dando la respuesta false false.
+A esto false, vamos a ver qué es.
+¿Ya chicos, no hay dudas, no?
+Sí.
+Oh, claro en eso.
+A ver, vamos a con eso, vamos con eso.
+Acá hay 2 comparaciones o perdón, 2 condiciones. Acá la primera que la condición te dice si 15 es mayor de 18, eso te da, pues obviamente te da false porque no es mayor que 18 y en consecuencia, a ver chicos, acá es súper fácil, con el AND dijimos que.
+Si uno es falso, ya todo es falso. Entonces acá no hay necesidad de evaluar si esta condición es true o falso, pero obviamente se ve que es true, pero no importa que sea true porque ya uno es falso.
+Ya uno es falso y como uno es falso, tu resultado es falso and true es falso, mi estimado, y es lo que nos va a arrojar aquí, ven falso.
+¿Se puede entender cómo?
+¿Cómo este o funcionan los se me fue?
+No.
+¿Se puede entender, estimados? Gracias, Kevin. ¿Se puede entender cómo funcionan los operadores este lógicos, por favor?
+A ver.
+Ya, yo también su check.
+Ya, pues está bien, Carlos está bien, Abril, Jazmín, Yosel, Ángel, Oswaldo, Yosel, gracias, yo.
+¿Te puedo entender, por favor, para poder continuar?
+Ya John Ríos está escribiendo, John Ríos. Gracias, ya bien, vamos a seguir. Entonces, si se puede entender esto, esto va a ser súper sencillo, la siguiente.
+La siguiente también es súper es este va a ser el siguiente operador, que es estos palitos que está debajo de escape, ya debajo de escape, ahí como que yo lo presiono y me da esto.
+¿Pero qué resultado daría esto? Esto es el or.
+¿Qué resultado me daría esto, estimados false or true?
+A ver qué resultado me maría false on true.
+No.
+Sí.
+Sí.
+Yeah.
+Ahí me dicen true y true, exactamente, estimados, unidad true. ¿Por qué el or, qué es lo que dice? o K, el or lo que dice es no es tan estricto, nos dice que mientras uno cuenta es verdadero.
+Acá creo que hay un bolso, pero acá hay una condición.
+Que es true, si una condición ya cumple, o sea, es verdadero. Cuando hablamos de cumple, es decimos si es verdadero, entonces todo es verdadero y obviamente te va a dar true, vamos a darlo y como dice acá, es verdadero.
+Ya es bien una última y vamos a ver con el not.
+A ver.
+Convernote.
+Ya estimados, aquí va el note que nos da este resultado, acá estoy comprando ahora 2 cadenas.
+¿Por qué usar el paréntesis? Porque estoy encerrando.
+En realidad el note usualmente se usa con paréntesis para encerrar toda la operación porque esta es una operación, yo me lo estoy dando un solo booleano.
+Como es una operación, tengo que encerrarlo porque va a evaluar al resultado de la comparación, pero ¿qué arrojaría?
+¿Qué arroz con cierto rojo?
+A ver, se me escucha ahora sí.
+Se me había de antes, el se me había ido de antes, perdón, el Internet.
+Can you see it true?
+Ver esta operación de aquí, estimados, esta da para pensar qué les arrojaría.
+No.
+Okey.
+Está bien, a ver.
+Carlos, ya muchas gracias Carlos por esa respuesta. Vamos a analizarlo este lentamente, ya primero esta expresión de acá.
+Hola, igual, igual, hola. Sabemos que las operaciones de igualdad se aplican lo que sería texto, también se puede aplicar. Entonces estamos comparando este.
+De acá con este o la de acá, pero como vemos, obviamente no son iguales por la sensibilidad de mayúsculas.
+Ya por la sensibilidad de mayor class no son iguales, por lo tanto esto me saldría face. Ahora este resultado me sale face, pero está evaluado bajo un NOT y lo que hace un NOT lo como recuerdan es revertir, cierto lo revierte, revierte un booleano.
+Entonces, la el opuesto a lo que se.
+Sería false es verdadero, o sea.
+No, entonces eso es lo que debemos saber.
+Y efectivamente, true, como estoy sombreando acá, ya esto es true mis estimados, o k todo claro.
+Claro, ahí estimados.
+Kevin dice, es sensible a mayúsculas poros, ya seas.
+Oh, claro, sí, muy bien, estimados.
+Todo claro porque vamos a pasar día.
+El momento 3 a y sí, un pequeño paréntesis aquí, chicos. y es.
+¿Cómo?
+Ya que no se van a evaluar 2 condiciones, como vemos acá, si no se van a evaluar más de 3.
+Vean aquí mira condiciones para entrar a una fiesta.
+Ya cuestiones para entrar a una fiesta.
+Digamos que estas son las condiciones de un este local, solo mujeres, mayo de 18 años o cualquier persona en la lista VIP. Ya aquí están las condiciones, tiene que ser mujer, ser mayor de 18 años o estar en la lista VIP, pero aquí lo que pasa es algo, mis estimados.
+Mhm.
+Este Al momento de colocarlos, al momento de plazar lo que sería en código.
+Ya este.
+Igual que las operaciones matemáticas, hay que decirlo. Recuerdan que en operaciones matemáticas hay como que quién tiene más orden de evaluación, o sea, si yo acá les pongo así.
+Esto sería como un an, cierto, esto sería un an, es mujer y es mayor de edad.
+Y acá sería como un Word porque es un o no o cualquiera de estos estes ya, pero si tú le das al programa así va a decir o k.
+¿Acá hay 3, pero por dónde empiezo?
+¿Por dónde voy a empezar?
+¿Sí, este tú me estás dando 3, pero a ver cuál es la precedencia? ¿Cuál es el orden? A mis estimados es donde tenemos que usar los paréntesis.
+Igual que igualito, igualito que una operación matemática paréntesis.
+O sea, esto recuerden en los paréntesis qué hacía el este, los perdón, qué hacía en matemáticas las paréntesis.
+Agrupaba, cierto, agrupaba.
+¿Pero este obligaban, también hacía, resaltaba, cómo que resaltaba?
+El paréntesis, lo que sigue matemáticas y lo que va a hacer acá es decirle, hey, opérame esto primero, opérame esto primero y después ya este haz lo siguiente, ya agrupa y resaltaba.
+Y esto es lo que efectivamente vamos a hacer aquí.
+El paréntesis.
+¿Va a obligar?
+A la computadora.
+A resolver.
+Primero ese grupo, o sea, el grupo que tú estás agrupando con el paréntesis.
+Primero hay que notar que obviamente esto es un grupo chico, no sé si ustedes lo han notado al momento de leerlo, y es que.
+Estos 2 son un grupo, ya esta es una evaluación y esto es otra. Si esto cumple, ya no hay necesidad de seguir esto de aquí.
+Si es mujer y es mayor de edad, es una agrupación. Ambos tienen que evaluarse juntas ya mujer o mayor de edad.
+Si no cumple esto o K, puede cumplir esto que ya es diferente, no estar en la lista VIP, no sé, esto ya tiene que ver con lógica, chicos, con la lógica como interpretamos nosotros, no, esto ya va fuera, este es lo que se integra también a la programación, la lógica de nosotros como programadores de cómo interpretar un texto, por ejemplo.
+Ya entonces es lo que merece o lo que se tiene que hacer es ser envuelto en.
+Paréntesis tiene que ser envuelto en paréntesis.
+O sea, tiene que estar.
+Así.
+Tiene que ser envuelto en paréntesis al momento de lo que sería, por ejemplo, plasmarlo. ¿Cómo sería esto en texto? En texto sería como edad, es si tu edad ya es mayor, igual que 18, es no, pero este es mujer, no, sí, este digamos género.
+Tu género es igual.
+A mujer, ya si tu género es mujer o hay que ponerle femenino, ya tu género es femenino y eres mayor de edad, o sea, edad es mayor o igual a 18, y esto lo envolvemos en paréntesis.
+Vean, esta es una condición envuelta en paréntesis y afuera, afuera estaría el or y estás en la lista VIP. Esto sería como es VIP, no es VIP, o sea, esto puede ser true o false.
+Y eso así es como nosotros plasmaríamos esto de aquí, esto de aquí.
+Sería así como se vería en programación, ya era una forma de uso de las paréntesis estimados bien.
+O K, se puede entender, esto es en el caso de obviamente múltiples condiciones para poder guiar a tu computadora al programa de cómo debería evaluar y también guiarnos a nosotros como programadores al momento de leer tu código.
+¿Bien, se puede entender eso?
+¿Cómo la ven?
+Vamos a usar varias condiciones, en realidad no vamos a usar varias condiciones, por eso es que quería mostrar eso también de este.
+De usar paréntesis, ya Carlos, gracias.
+Ya tenemos chicos las herramientas, ahora sí, para ya tenemos creadores de cooperación y tenemos creadores lógicos. Esas 2 son las herramientas que nos va a permitir justamente esa capacidad de decidir. Ya con eso ya estamos listos.
+Listo, ahora sí, para pasar a la a tocar código, vamos a tocar código, chicos. ¿Cómo lo vamos a tocar? Muy bien, vamos a ver el concepto de flujo de control. ¿Qué es flujo de control? El flujo de cortón es simplemente el orden.
+El orden es el orden en que se ejecutan tus bueno, tus líneas de código, hay que decir, tus líneas de código, tus instrucciones.
+Eso es el flujo de control. Nosotros este le hemos visto, hemos estado trabajando un flujo de control, cierto, es decir, de arriba hacia abajo, así sin ninguna alteración, simplemente así, línea por línea, lo lee y lo ejecuta. Ejecuta esta línea, lo lee, perdón, lo ejecuta, lo lee, lo ejecuta, lo lee, lo ejecuta.
+Así es como ha estado trabajando tu computadora, ven instrucción por instrucción.
+Esta flecha, como lo ves acá, continuamente.
+Sin ninguna alteración, pero ya vimos el problema, cierto, el problema aquí el programa no toma decisiones. El problema de este modelo es que en la vida real, mis estimados, no funciona y la vida real no funciona así.
+Es el caso de un semáforo, por ejemplo, ya un semáforo este no siempre va a ser lo mismo.
+Va a evaluar qué va a evaluar basado en qué en el color, cierto va basado en el color. Es como este nosotros nos comportamos frente a un semáforo correcto, color. Ya acá ya estamos, estamos viendo como en la vida real se toman decisiones basado en una condición. En este caso, digamos, es el color, el color.
+Okey, sí, el color es.
+Verde, obviamente, si el color es verde.
+¿Qué decisión se toma bien a adelante, no? O sea, pasa.
+Tú vas a pasar.
+Estamos hablando de tú eres el que maneja.
+Si la opción, por ejemplo, es amarillo, bueno, este es alerta, ¿no? O precaución, hay quemarle, precaución y si es rojo.
+Pues detente.
+Detente o K hasta ahí. Esa, por ejemplo, es una forma de en la vida real. ¿Cómo este cambia el flujo? O sea, hacemos que actúe basado a algo.
+Entonces, lo que vamos a hacer nosotros, chicos estimados, es eso, vamos a cambiar el comportamiento del programa, va a dejar de ser secuencial, ya si va a ir de arriba a abajo, ya eso sí, o k eso no va a cambiar, va a seguir yendo de arriba a abajo, pero lo que va a cambiar es que no va a ser lineal, mis estimados.
+Va a ser condicional. También va a haber como una combinación entre secuencial y condicional. En algunos puntos va a ser condicional. ¿Cómo implementamos esa condicionalidad y cómo se ve? A ver, la condicionalidad es así, veamos.
+Tú tienes tus códigos, ahí tus instrucciones, tus líneas de código ahí, pero va a llegar un punto en el que aparezca una condición que ya vimos que es una condición y según esa condición.
+Va a actuar, es decir.
+Si tu condición.
+Vamos a poner esto acá un poco, esto si tu condición es verdadera.
+Entonces, este se ejecuta líneas a ver.
+Código si es verdadero, vamos a poner, se ejecuta el código si es verdadero, pero si su condición es falsa.
+Se ejecuta el código que es falso.
+No, pero aquí es sí, ya la flecha es así, miren.
+Si es esto, va aquí ya esto es si tu condición es true, si tu condición es true, vas a ejecutar esta línea, pero si tu ejecución, si tu código.
+Es falso, vas a ejecutar esta línea de aquí, o sea, la línea false. ¿Lo ven? Aquí ya no es lineal, mis estimados. Aquí estamos haciendo como que un este un rombo de decisión estamos tomando, le estamos permitiendo tomar al programa tomar decisiones bien.
+Y al final, obviamente, el programa va a continuar. Si tienes más instrucciones, aquí los va a seguir ejecutando. Ya no es que aquí se detenga, sino que va a seguir ejecutando, como te digo, va.
+Continuar de arriba hacia abajo.
+Va a continuar de arriba, se bajó, pero hemos añadido dentro la capacidad de tomar la decisión basado en una condición.
+Por ejemplo, miren, vamos a aplicar esto este mismo.
+Aquí ya lo hemos visto, por ejemplo, digamos que tienes una condición de.
+Y.
+Puedes votar a ver.
+¿Eres?
+¿Cómo sería, eres?
+Sí.
+Sí, mejores, eres mayor para votar, ya que se acercan las votaciones ya.
+¿Eres mayor para votar, por ejemplo, ya?
+Si es true, digamos, tú muestras un mensaje.
+¿Puedes votar?
+Puedes votar ya, en cambio, si es full.
+Sí, es falso.
+¿Podrías mostrar un mensaje?
+¿Eres menor para votar?
+¿Lo ves?
+Eso sería un caso, por ejemplo, de cómo usaríamos nosotros las condiciones.
+Muy bien, o K, vamos a verlo. ¿Qué usamos nosotros estimados para construir estas condiciones? Ya porque ya sabemos que es una condición, ya sabemos que vamos a cambiar el comportamiento creando condicionales para construir esa condición. Y ya lo mencionaron algunos.
+Ya lo conoce, vamos a usar lo que sería el término if, ya sería en minúscula, en realidad es en minúscula, pero en realidad es en minúscula. Vamos a usar el término if.
+O K o K estimados, en realidad son 3 términos, pero vamos con la primera que es el if. ¿Qué es lo que hace el if? El if es la.
+Instrucción, o sea, es una instrucción, es un una palabra clave.
+Ya que le dice al programa lo siguiente ya.
+Lo siguiente le va a decir al programa, estimado, le dice: ejecuta este bloque, estas líneas de código, ya estas líneas de código que tú lo vas a poner ahí, ahorita vas a ver cómo solo si la condición que evaluaste es verdadera.
+¿Cuáles líneas de código, chicos, cuál es cuál condición lo vemos mejor, más claro en la sintaxis, la sintaxis?
+No.
+Yeah.
+La sintaxis es la siguiente, voy a poner en azul y voy a acercarlo.
+La sintaxis es esta, mi estimado.
+If aquí está el if.
+Ya la condición entre paréntesis condición, ya vimos que era una condición, por ejemplo, vamos a poner comparadores aquí y lo otro importante.
+¿Bloques dónde van las líneas de código? Van encerradas entre llaves, ya entre llaves van a ir las líneas de código aquí.
+Van las líneas de código que se ejecuta si la condición cumple.
+Esta es la sintaxis, estimados del IF.
+Ya esa es la sintaxis del if y aquí estamos viendo 2 reglas, la primera condición.
+Entre paréntesis, ya condición o condiciones, estimados, porque se pueden colocar más de una condición. ya ¿Cómo se cómo podríamos este tener más de una condición? Recuerda, operadores lógicos.
+Ya operadores lógicos, esa y la regla 2.
+Este las llaves, usa las llaves, mis estimados, las llaves.
+Encierra el código.
+Eso de ahí son las 2:00 reglas al momento de.
+Hacer tu if condición.
+Muy bien, esas serían las reglas. ¿Cómo sería aquí en el rombo? A ver en este de aquí, si lo vemos en el diagrama, vamos a copiar este diagrama aquí.
+En realidad aquí todavía chicos, si lo vemos en el diagrama que está aquí.
+Aquí no le hemos todavía dado esa posibilidad.
+El if en realidad sería esto de acá, ya este sería el if.
+If condición y si cumple.
+Si cumple, o sea, si es true, te ejecuta la instrucción.
+Pues te ejecuta la instrucción respectiva. que es.
+Esto de acá ya esta instrucción que es justamente esto de acá, lo que está este dentro de tu bloque.
+Ya ahí todavía no le hemos dado la capacidad de false, chicos, simplemente eso.
+Y luego continúa tu código, obviamente luego continúa tu código.
+Ya vamos a vamos a verlo en código para que se pueda notar más aquí porque es súper sencillo, estimados el DIF.
+Es súper sencillo, condicionales, vamos a llamar así.
+¿Cómo sería el asiento del IFU así?
+Para no estar haciendo bastante, voy a copiarlo aquí la bacán, ahí está. If condición, líneas en código. ¿Cuál puede ser la condición? Comentamos.
+Puede ser este comparación, ya lo vimos comparación. Aquí vamos a hacer lo mismo que hicimos acá, pero lo vamos a meter dentro de este if.
+Bien, voy a hacer un este con puntaje, digamos.
+De hecho voy a ponerle mayúscula respetando eso y voy a pedirle.
+Voy a pedirle.
+Que ingrese su nota, no ingresa tu nota ya tu nota del cero al 20, ya una nota de colegio.
+Pero obviamente este me va a resultar, me va a retornar un texto y yo no quiero texto, quiero número, entonces lo voy a convertir.
+Ahora sí.
+Y este puntaje, mi estimado, le voy a dar un ir y voy a decir si el puntaje es mayor que digamos 18, porque ya sé que es un número, lo que yo quiero mostrar es aquí dentro.
+Aquí dentro van a ir las líneas de código que se va a ejecutar. Si tu puntaje es mayor de 18, lo que está aquí dentro se va a ejecutar. Entonces, si el puntaje es mayor de 18, que quiero que pase, pues quiero que me muestre una alerta.
+Que me diga, digamos, este excelente nota.
+Nada más que eso.
+Ya vamos a verlo en el COE.
+Después, para.
+Y aquí está, mira, me dice, ya se está ejutando directamente, me dice, ingreso tu nota del 0 al 20. Muy bien, yo te voy a dar 17.
+Y no pasó nada. ¿Por qué? ¿Por qué mis estimados? ¿Por qué creen que no pasó nada? A ver.
+Le di de 17, o sea, aquí el prompt me salió este mensaje. Yo le di 17 valor, ese valor de 17 se almacenó en puntaje, pero no me no me dio el mensaje de excelente nota. ¿Por qué?
+A ver, ahí me están respondiendo.
+Porque no hay condición, si es que pones uno también.
+Ya, ajá, sí, también una razón, pero si nos vamos aquí, Kevin, es porque obviamente no se ha cumplido la condición, no, yo le di.
+Nota 17.
+Pero la condición, ¿qué es lo que dice el if? El if lo que dice es mi puntaje. Si tu puntaje es mayor que 18, entonces 17 es como se dice reemplazar acá, no 17 en lugar de puntaje, y obviamente 17 no es mayor que 18, por lo tanto.
+En este bloque que está aquí adentro.
+Este bloque que estás dentro no se va a ejecutar, no se va a realizar, simplemente lo pasa, es decir, lo pasa y va a seguir continuando en realidad abajo y vean que esto acá, chicos, sí se va a imprimir.
+Ya voy a darle 17 nuevo y vean.
+Ok, no sé porque nos imprimimos a ver.
+Ya listo, no me no me mostró el mensaje de excelente notas, pero si vean que me mostró el siguiente que es control log porque va a continuar, chicos, el flujo continúa, no se detiene aquí, va a seguir continuando aquí si se detiene, pero evaluar, evalúa y sigue su flujo normal de arriba a abajo. Por eso les dije que era como que una combinación entre condicional y.
+Secuencial, eso es lo que pasa, ok, se puede entender, es como el este y, por ejemplo, ¿qué pasa si yo le voy a dar?
+Obviamente, a ver.
+Cambié el este por acá, pero ya, ¿qué pasa si yo le voy a dar?
+Le doy otra nota.
+A ver, otra vez ingresa tu nota, le voy a dar 20 ya.
+Y ya me miren lo que pasa, ya sí se está ejecutando ahora sí el alert que era mostrar una ventana con el mensaje. Excelente nota me dice muy bien, se ejecutó porque sí está cumpliendo la condición que está aquí, sí está cumpliendo. Por eso es que sí me ejecuta eso.
+¿Ya o k se puede entender eso? ¿El se puede entender, chicos, cómo funciona el if?
+A ver.
+Se puede entender con función el por favor, porque lo van a usar bastante también creo que sí que sí.
+Me confirmen esto, por favor, sigue allí se pudo entender si es todo claro. Gracias chicos a los que respondieron los demás, porfa.
+Como estamos los demás y estamos cenando, creo, Yael, April, Yarni, y Fidel.
+Aquel.
+A ver, ahí tenemos, puedo checar. Esto está bien, o k, John, John, John Durán, John Rivas, John Peña.
+Oh, claro, Abril, gracias. Listo, ya si está todo claro, bacán, bacán, entonces bacán, entonces ya vemos el if.
+Ya vimos el if, vamos a pasar al siguiente bloque ya porque el bloque siguiente es simplemente añadirle. Recuerdan que aquí había hablar de la condicional que estaba aquí. Hablamos también, o sea, hablamos.
+De que había un si la condición cumplía, este se ejecutaba el código si era verdadero, pero había un camino, cierto, había un camino en caso fuera falso.
+Había un camino en caso fuera falso y se ejecutaba el código si era falso, o sea, si no cumplía con el if, no, con el if no vimos ese camino todavía. Lo que vamos a hacer ahora es agregarle ese camino.
+Alternativo, en caso no cumpla, y ese camino alternativo, mis estimados, es el Else. Ya el Else es ese camino alternativo. ¿Qué hace el Else?
+Hey, ay.
+LLC va a definir las líneas de código o el bloque, el bloque de código.
+¿Que se ejecuta cuando la condición del if?
+No.
+No se cumple.
+O sea, o sea, sea falsa.
+Cuando no se cumpla la condición del IF se va a ejecutar el Else.
+Ya listo, veamos cómo es la sintaxis. La sintaxis es súper sencilla. En realidad, chicos, LLC va junto con el if, ya necesita sí o sí el if.
+¿Por qué este a ver, necesitas sí o sí? ¿Por qué? Porque lo dijimos, ya lo dijimos aquí a ejecutar lo que no se.
+Ya lo que no se cumpla, lo vamos a ver mejor en la sintaxis. Vean la sintaxis como es porque yo creo que sí o sí. La sintaxis es esta, chicos, en realidad es el mismo if.
+Es el mismo ir.
+Pero aquí entra el Else, es el mismo if, pero tú le tienes que agregar el Else.
+El Else es así, mira, es como dice ahí el nombre Else, pero tienes que abrir otra vez ahora un este, pues llaves, no, porque es un bloque de códigos, vas a tener que cerrar ahora este código, pero ¿qué código vas a encerrar? Pues vas a encerrar las líneas de código.
+Que se ejecutan.
+¿Cuándo?
+La condición.
+Elite no se cumplió.
+Quiero que no tenga algo, chicos, y es importante.
+Miren, mamita, el Else no tiene condición.
+Vea, el ELC no tiene una un paréntesis con condición, no tiene por qué, porque no lo necesita. La condición que permite que el ELC se ejecute está en el if, está aquí.
+Ya el ELC solamente se va a ejecutar, como dijimos, si no se cumplió, ya es decir, el programa entra aquí y evalúa el if y si vio que no se no se este no se cumplió, salta directamente al ELC y esto de aquí sí lo ejecuta.
+Por eso es que no tiene visión.
+Ya el Else no tiene condición y sería en realidad ya todo esto de aquí.
+Es básicamente eso, o sea.
+Creo que sí se puede entender, no creo que sí se puede entender que básicamente el LC es.
+Es esto de aquí.
+Sería en diagrama, sería esto aquí, sería ya agregar la capacidad del force. Vamos a verlo, vamos a agregarle el el ahora a este proyecto de acá.
+Vamos a agregar el ya mire a este mismo if le voy a agregar un else mis estimados.
+Le voy a agregar un LC ya. Si tu puntaje es mayor de 18, me va a mostrar una excelente nota, pero vamos a ponerlo acá. Ya si tu puntaje es mayor de 10, vamos a poner acá hay que.
+Es aprobar ya digamos con 11, algunos creo que jalan con 10, ya vamos a ponerle 11 ya.
+No, 10 ya con 10, si tienes más de 10, 10.5 ya estás aprobado y no debería ser igual, si no debería ser mayor. Si tu puntaje es mayor que 10 aprobado, pero si tu puntaje, veo aquí chicos, líneas de código que se ejecutan si la condición no cumple.
+Ya si no cumple, acá entra alert.
+Vamos a mostrar otro mensaje.
+¿Estás desaprobado?
+Bien, ok, listo, sí, este vamos a ver cómo se visualiza este.
+Vamos a ver cómo se visualiza.
+Ya ingresa tu nota al cero al 20, digamos que yo saqué cero 8.
+Uy, ya cero 8.
+¿Y listo, vean que me sale ahorita, está aprobado por qué?
+Bueno, sencillo, no entro aquí.
+Le di cero 8, obviamente el puntaje almacena cero 8 baja, evalúa aquí la condición 8 es mayor que 10, no, esto es falso, entonces esto no lo ejecuta, baja y entra aquí porque como no se ejecutó, ejecuta lo que es.
+Tiene el else, ya else ejecuta lo que tiene el es que es si la conexión no cumplió, es decir, eso de aquí y continúa. Eso es lo que pasó, mi estimados, por eso es que me sale ese mensaje y ya listo. Si yo le doy, por ejemplo, un puntado.
+Que sí cumpla con la condición, como por ejemplo 1814. Vean que ahora sí me sale, así cumple con la condición y se ejecuta dentro del IF y el LC obviamente ya no se ejecuta, ya iría así, iría así, esto tiene 14.
+Entra a puntaje, se cumple porque es mayor de 10 y esto lo ignora, se baja, esto ya no lo ejecuta, va, lo pasa, lo ignora y sigue con el flujo.
+Esto es lo que pasó con el Else.
+O K, claro, todo claro con el Elsa.
+Claro, el papel que tiene el Else y cómo se integra junto al IF. Ya le dimos la capacidad al programa de que puede hacer algo en caso cumpla o no cumpla la condición. Ya ese es el fin del IF del Else.
+Todo claro con Alexis, a ver.
+Chicos.
+Todo claro, me dice Carlos.
+Ya gracias, Ángel Israel, bien, genial, ya clarísimo, ese que perfecto. Entonces, si está todo claro con el Excel, solo nos faltaría una instrucción, chicos, y con esa instrucción ya estaríamos haciendo laboratorio, porque el laboratorio de hoy en realidad es súper pequeño, ya es súper cortina.
+De hoy es simplemente 2 condiciones de creo que no lo abrí, lo voy a abrir ya.
+Lo voy a abrir, voy a entrar a bueno, tú eres pequeñito, la verdad. Este se puede acabar. De hecho, creo que hasta ustedes no lo pueden hacer. Si entendieron el IP y el porque no es tanto de.
+Es tanto de que ya.
+Muy bien, voy a habilitar el laboratorio 10, los voy a mostrar aquí. Creo que con el CIF y el C ya hasta lo pueden hacer. Miren, el laboratorio de 10 simplemente son 2 pasos, estos 2 de aquí, esto de acá ya es el laboratorio. Chicos, ejecutar este código ya es el laboratorio, por eso le digo, por eso es que.
+No es que estaba, no estaba avanzando en realidad el laboratorio este al paso, porque el laboratorio directamente ya nos hace ejecutar el LIF y el LC. Vean, por eso es que tenía que mencionar los operadores lógicos de combinación con etcétera.
+Y lo que está acá son retos, ya son retos que ustedes también van a hacer, son sencillos referentes al nos falta solo uno que es el CIF.
+Pero este creo que incluso podemos hacer el paso uno, miren, el laboratorio en el mismo Guess de Number, o sea, en este mismo proyecto.
+Que está aquí en el proyecto que tenemos si quieren.
+Aquí, para no este manchar esto y empezar de nuevo, pueden crear otro script, un script, digamos.
+2 punto Gs podemos tener varios scripts, chicos. ¿Y cómo asociamos varios scripts al HTML? Vean, voy a asociar otro script. En realidad se asocia uno debajo de otro, pero cumple con la misma condición, chicos, cumple con la misma condición de arriba a abajo, es decir.
+Primero va a ejecutar todo lo que está en el script uno.
+Y luego va a ejecutar todo lo que está en el script 2.
+Ya el orden, el orden.
+El orden como colocas los scripts o los JSON, por eso hay que decirlo, es importante ya que JSON quieres que se ejecute primero. Eso es lo que justamente este define eso. Ya el orden como colocas JSON es importante.
+Muy bien, yo voy a crear, por ejemplo, otro que se llama Script 2, así que el no tiene que ser exacto.
+Listo.
+Ya, eso es para no perder lo que me indica mi script ya hizo uno y de hecho aquí no afecta tanto. Mire, aquí no afecta tanto y hasta lo voy a comentario.
+Yo voy a comentar script Jason 2 porque yo no lo estoy usando, pero no lo estoy borrando porque pues hay trabajo ahí, no hay trabajo de mi laboratorio este.
+Entonces trabajo ahora mi script J son 2 y simplemente ejecuto esto de aquí que es.
+¿Super fácil, no? ¿Qué es lo que hace este programa ya?
+Chicos, por favor, hagan eso también conmigo, ya vamos a nuestro laboratorio número este ya para acabar, ya hagan este paso uno, creen un script 2 ya para trabajar en limpio, conéctenlo, conéctenlo chicos a su HTML, el script 2 y ahí.
+Simplemente copian el código que pues que le está dando el laboratorio, que es referente a.
+Si puedes votar o no, ya si puedes votar o no.
+¿Analicen esa línea, no? ¿Qué es lo que hace? A ver, aquí te pide valor.
+Aquí te pide un valor, te pide tu edad.
+Cierto, aquí te pido este dato, súper fácil. Luego, ¿qué es lo que hace? Lo convierte. Acá hay un casting de texto porque retorna texto, casting de texto a número.
+Ya y aquí ya viene la comparación, acá viene ya la condicional.
+Compara, tu edad es mayor que 18.
+Si esto cumple, según la edad que tú le hayas puesto, si cumple, tú te va a dar este mensaje de, hey, puedes votar, pero si no, si no cumplió, se ejecuta el bloque de els que es no, aún no puedes votar. Así de sencillo, por favor, chicos, dicho esto.
+Quisiera que ejecuten el programa y me manden esa captura por ese ejecución, a ver, está donde está.
+Sí, no, mi amor, si te pega.
+Mande.
+Aquí ya vean, yo voy a poner, por ejemplo, 26.
+Listo, quiero que me manden esa captura del resultado que han conseguido chicos de esto.
+Por WhatsApp, por favor, a mí me sale el mensaje, puedes votar según tu edad que tú vas a poner ahí te va a dar un mensaje, ya eso quisiera que me manden por WhatsApp ahorita mismo chicos.
+bien.
+A ver.
+Si dudas con los pasos hicimos, me avisan por favor, si no trabajar chicos.
+¿Crees que podemos implementar?
+Súper sencillo, a ver, ya están mandando muy bien.
+Ahí estamos dando constimados.
+Allá vemos uno.
+Bien, aquí me salió, puedes votar o k a ver cuántos votan ya chicos que se acerca, que se acerca lo que sería la votación mensaje.
+Ahí los espero.
+Mandan esta es la captura que tienen que mandar ya el mensaje que les va a salir a ustedes.
+Grande, ya tenemos 2, ojalá no sean miembros de mesa. Por favor, les deseo eso, ojalá no sean. Yo por suerte no lo soy, pero bueno.
+Ya él está aplaudiendo, ahí creo que ya él tampoco lo es, a ver.
+De hecho, yo fui miembro de mesa una vez. este.
+Pero fue el pueblo de mi abuelo.
+Me probaron una atún y una galleta soda. este.
+Y nada, en ese eso fue hace no sé cuánto tiempo.
+Pagaron y me dieron de comer eso, vaya, yo tuve que comprarme la comida fuera todavía.
+Listo, chicos.
+Increíble.
+Ahora pagan, creo que ahora pagan por ser miembro de mesa.
+Mhm.
+Todavía hay 2, a ver.
+150, uf.
+Guau, ya y pues este para los que no han sido miembros de mesa, estimados, es y para los que lo van a hacer, se van a quedar este, se van a quedar contando hasta no sé hasta la noche. Todo termina cuando publican afuera.
+El resultado de las votaciones en su mesa, no en su mesa. ¿Quién fue el que tuvo más votos? Todos los conteos para cada este. Con eso termina, pero ustedes van a quedarse votando y todo eso, o sea, contando. Sí, no recuerdo a qué hora era eso. Lo que sí recuerdo es que afuera los que sabían que era miembro de mesa.
+Me rodearon los al bueno, me rodearon aquellos que sí están al tanto de las votaciones y me preguntaron, hey, ¿quién salió primero en tu S y todo eso? Y yo me quedé como que.
+Yo le dije, pues obviamente está pegado ahí en la puerta, no para qué me preguntan a mí, pero sí, o sea.
+Quieren enterarse, no quieren enterarse de eso.
+Recuerdo que tenía un tío, o sea, en esa votación, un tío que está para el alcalde y me para y mi familiar me paraban preguntando si obviamente mi tío estaba primero en el este, ¿no?
+¿Y quieren volver a contar? Eso sí no me ha pasado, Carlos, yo la conté a la primera nomás, pero mi error fue mi error fue, creo, haber querido ayudar a mi tío, ya quería haber ayudado a mi tío porque tuve que ir a la sierra, todavía votaron. Yo no estoy en la sierra, yo mi dirección está con mi casa de acá en Lima.
+Pero para ayudar a mi tío, no sé, creo que hay que hay que llamarlo así, crudo, se llaman votos golondrinos, no te dicen, da la cierra y vota por esto ya por querer ayudar a mi tío, tuve que ir allá. Al final no fui por motivos de estudio, por motivos de no pude ir y cuando fui tuve que ir, pero por.
+Que era miembro de mesa para que no me caiga el dichoso, este, la dichosa multa. Ya entonces, chicos, yo les doy este, les cuento mi historia, por favor, como un motivo de que este.
+No sé, la verdad, con motivo de enseñanza, creo con ese motivo.
+A ver.
+Ya no está escribiendo.
+Pero vaya.
+Ya vamos.
+Chicos, ¿cómo van? 5, llevamos 5.
+Ahora la muerte también es por zonas, ya no todo su monto único. Sí, debe ser. Creo que sí supuse eso en zonas, obviamente rurales más.
+Um.
+Con una condición socioeconómica más baja, no nivel de pobreza, te cobran menos, te cobran menos, obviamente en zonas, pero ya y tucas, ya hay que decirlo así, este me correríamos. Gracias por esos datos, Carlos, datos.
+¿Que hay que tomar en cuenta, chicos, para este 12 de abril?
+Ya ahí están mandando, por favor, realicen eso.
+Hasta las.
+10 y 5 chicos, 10 y 5 para este porque nos falta solamente un bloque. Ya vamos, quiero terminar, vamos a terminar exactamente 10 y medio. Nos falta solamente el el CIF, chicos, el el CIF y una librería que es el MAT que le vamos a usar para el proyecto. Ya el MAT nos va a usar, lo vamos a usar para.
+Lo que sería este proyecto de aquí de adivina el número.
+Muy bien.
+A ver, 10 y 5, por favor.
+Tiene 5 los que faltan, OK, todavía veo que faltan.
+Ya.
+Siempre, chicos, 15.
+Bien.
+O K, ya vamos a continuar ahora.
+A continuar así con el siguiente bloque que es el.
+¿Era el CEIP ya, qué es lo que hace el CEIP? Mis estimados, ya si ya vimos, ya vimos los bloques.
+Para este, bueno, para tomar en cuenta lo que es si el código se ejecuta o no, ¿qué es lo que le agregaría el LSIF? El LSIF simplemente nos va a permitir agregar múltiples condiciones o múltiples if hay que llamarles, ya va a permitir agregar múltiples condiciones, mis estimados.
+Mhm.
+Es simplemente eso.
+Ya vamos a ver la sintaxis de cómo se vería, que es más entendible.
+Vamos, ay, vamos a copiar esto aquí y lo vamos a pegar porque funciona sobre el mismo if else, solo que aquí, estimados, es como te comenté, ya son múltiples condiciones if.
+Aquí hay un if, pero yo le puedo agregar otro así.
+Miren, debajo entre el if y el el CE iría el CEIF así separado, el CEIF y a esta if obviamente le agrego la otra condición.
+¿La que hagas la otra condición ya aquí qué es lo que está? Yo brevemente tienes que abrir, mira, me olvidé eso, tienes que también abrir y cerrar llaves, ya abrir y cerrar llaves y aquí que está, aquí están las líneas, vamos a ponerle condición uno ya.
+Condición 2.
+Aquí están las líneas de código que se ejecuten si la condición 2 no cumple.
+Ya así de sencillo, mira aquí vamos a poner.
+Listo, en este i vamos a regresar de nuevo en este i.
+En este if está la condición uno y aquí se van a ejecutar las líneas de código si esa condición uno cumple, si no continúa bajando y entra a este el CIF. Si no cumplió la condición uno, ahora en este if va a evaluar otra condición, una condición 2 si esta condición.
+Funciona, o sea, si se cumple, entonces va a ejecutar estas líneas.
+Código, si no, si no, entonces como última opción, sí o sí va a ejecutar el.
+Sí o sí va a ejecutar eso, que las líneas de ejecutas se ejecutan cuando.
+Ninguna acá no se va ninguna condición.
+Se cumplió, de hecho, acá tú puedes agregar varios el safe.
+No solamente una, si no puedes agregar 234 si tú tienes varias varios caminos, por así decirlo.
+Si tiene, entonces puedes agregar varios el CIF. Aquí he visto otra regla que es a ver.
+El LC se ejecuta, de hecho, aquí está, no por ejemplo, no faltaría añadirlo porque aquí dice cuando ninguna condición se cumplió.
+Entonces el orden importa aquí el orden, el orden de tu CIF.
+De tus if importa, primero la va a evaluar porque evalúa de arriba.
+Aquí abajo.
+Ya así que la condición que primero se evalúe tiene que estar lo más arriba posible y la condición que quieres que se evalúa al final tiene que estar hacia abajo.
+Si una condición, si una condición cumple, ignora, ignora los demás.
+Los demás y sí, ya cumplió el IF de acá, estimados, ya no va a revisar el CIF que está aquí, ya no va a revisar porque ya concluyó esto.
+Baja directamente. En cambio, si por aquí un LSEIF cumple, ya no va a revisar los siguientes, ni incluso ni el LSE, porque ya se cumplió y va a continuar muy bien. Así funciona el LSEIF. ¿Y cómo sería en un este? Bueno, en un bloque sería como.
+sería como agregarle tú ahora como que una este más ya sería como un este más esto de acá en lugar de decir código es falso sería como que acá no ves le agregas una condición dos tiene su propio camino si es true
+Ejecuta el código si esa condición cumple, si es false, si es false, chicos, tú puedes incluso agregar otra condición o simplemente ejecuta el código si es falso.
+O sea, el else no sería el else. ¿Lo ves? ¿Sería así? ¿Cómo funcionaría el seco? ¿Cómo lo haríamos en el código?
+Algo súper sencillo, también a este mismo le vamos a agregar a ver.
+Vamos a ver a este mismo puntaje, vamos a hacer 3, ya uno que sea, ya vamos a separar si es mayor igual a 18.
+Le vamos a decir excelente nota.
+Excelente nota acá, pero acá, perdón, el CEIF. Vamos a agregar otra condición, si tu puntaje aquí ya es mayor de 18, aquí ya van a entrar los que son menores que 18 todavía, entonces son menores que 18, pero mayores.
+Si es mayor que no sé, a ver, hay que ponerle.
+Hay que ponerle 2.
+Abrimos estes, entonces aquí yo voy a poner.
+Nota regular, ya nota regular.
+Si no, acá incluso le puede poner otro, mira, si no.
+Puntaje este aquí ya a ver aquí ya en este el CIF van a entrar primero los que son menores que 18 porque no cumplió aquí, no cumplió aquí entran los que son menores de 18. Esto no se cumplió, entran aquí entran ahora los que ya son menores que 12 porque esto no se cumplió.
+Entonces, de aquí para abajo ya tienes que ser consciente que entran los que son menores que 12. Yo no le voy a poner.
+Sí, ya porque ya creo que con uno es suficiente, porque si es menor que 12, de hecho que 11 hay que poner, ya tienes una nota desaprobatoria de esa.
+Probatoria muy bien y continúa, vamos a probarlo.
+Bueno, este aquí ya mira, me dice ingresa tu nota, la voy a reiniciar de nuevo para que no me haga la jugadiña.
+No he puesto nada, pero bueno.
+Sí.
+Sí, me hizo loco de niño, vamos a abrirlo de nuevo.
+Listo, yo esperando, ya ingresa tu nota del cero al 20. Muy bien, a ver, yo quiero que se ejecute esta condición de aquí. ¿Cómo lo hago?
+¿Qué valor tendría que poner para ejecutar esta condición? Chicos, quiero ejecutar este el save de acá. ¿Qué valor tendría que poner a ver?
+¿Quién me dice a ver?
+13, vamos a probar este Oswaldo, vamos a probar con ese 13, vamos a ver si funciona ya si es 13 y me va a ejecutar esto, voy a poner, no me va a tener que dar nota regular.
+Vamos a poner 13.
+Perfecto, muy bien, Oswaldo, exacto, es 1313. Me permite ejecutar esto. ¿Por qué? Porque obviamente aquí puntaje tiene 13. Exacto, este de aquí no se cumple porque no es mayor que 18, continúa, continúa y entra aquí cumple que 13 es mayor que 11. Genial.
+Esto sí te voy a ejecutar, ignora esto y sigue de largo.
+Y es justamente lo que está pasando aquí, le doy a aceptar y ha seguido de largo porque sí me ha ejecutado el debajo del.
+Ya si quiero que ejecute esto, le tengo que dar qué un puntaje mayor, cierto, por ejemplo, 18 excelente nota, ya excelente nota, me va a ejecutar esto.
+No, esto no me va a ejecutar. De hecho, va a hacer este if, va a ejecutar este if porque cumple 18, pero esto ya se va a olvidar, lo va a ignorar y esto también porque ya cumplió una condición y va a continuar.
+Y listo, vea, no me ejecutó ese bloque de safe muy bien.
+Ok, se puede entender ese bloque del CEIF estimados.
+El comportamiento de poder agregarle ahora más condiciones.
+Todo okey, todo correcto, yo que me alegro muy bien. Entonces, si les puedo agregar esto, ya pueden realizar, por ejemplo, el paso 2 de este laboratorio que pues también está súper sencillo, por favor, con esto ya incluso no lo pegan acá, lo pegan y ya tienen ya su laboratorio de hoy, chicos, así de sencillo el laboratorio.
+Pero claro, pueden hacer los retos que están aquí estimados, pueden hacer los retos si quieren. De hecho, si se los recomendaría, están súper fáciles.
+Ya led temperatura, a ver, aquí te pide la temperatura y a quién le agregaron el safe. Mire, aquí le agregaron el safe. Sí, la temperatura es mayor que 15, entonces haz esto, no ponte el abrigo, ya si no es menor igual que ya.
+Esto no te dejo a ti para que lo interpretes, para que lo interpretes, porque ya pues literal la respuesta está ahí.
+Y eso sería el laboratorio. Ahora, estimados, lo que yo tengo también es un reto. O sea, el laboratorio es eso, pero obviamente está pues súper sencillo. Entonces yo, mis estimados, tengo mi propio reto.
+Ya se los voy a pasar y está súper sencillo. Mira, mi reto uno es este de aquí.
+Ya lo que tenemos que pasar como programadores, nosotros nosotros como programadores vamos a interactuar con usuarios que no sepan programación y te lo van a decir en texto. Un usuario que no sepa programación te va a decir tu problema en texto, te va a contar lo siguiente, ya lo siguiente vamos a poner acá.
+Como reto.
+Miren chicos, aquí está mi reto. Miren, una tienda online aplica descuento según el total de compra. El usuario ingresa el precio total con prompt. Con pronto vas a ingresar el precio total y el programa calcula el precio final, o sea, muestra acá sería muestra.
+El precio final con alert, si el total bien acá ya.
+O sea, en los captaciones, si total el precio total es mayor a 100, aplícale 20% de descuento. Si el total está entre 50 y 100, ambos incluidos, o sea, mayor que 50, mayor o igual que 50 y menor o igual que 100.
+Ahí estoy ya dando una pista, aplicas 10% de descuento. ¿Cómo vas a aplicar el descuento? Ajá, ahí viene tu matemática, ¿no? ¿Qué es un descuento? Yo creo que acá sí tendríamos claro que es eso. Si el total es menor a 50, entonces no le aplicas nada y el total sería eso sin descuento, o sea, sería el mismo precio que se le hará ya chicos.
+Ese sería el reto que yo les daría, de hecho, tengo 2, pero este.
+A ver, acá es todavía más estallado.
+Y incluso acá es un poco más exacto, es constar el precio final con un mensaje, tu precio final es y aquí está el éxito, se mide en 3 casos.
+No, tú pruebas con estos valores. Si tú ingresas 120, te debe dar 96. Ya esto es el éxito, o sea, tú lo pruebas con eso sería.
+El bueno, ese sería el reto que yo les voy a dar, se los voy a copiar, que es lo que quiero que adicionen ustedes al entregable de este laboratorio, es decir, abajito de acá ya de esto y de esto.
+Abajito quisiera que veas.
+Me ponen como comentario, incluso para que se.
+Ya lo ponen como comentarios.
+Sí, ahí tardes, así se programa, ya así ya lo tienes a la vista, ya lo pones como comentario y abajo tú empiezas a programar.
+Ya estimado o K, ese es el reto que yo les voy a dar por este. Entonces, dicho esto, voy a pasar al último concepto ya para terminar para no alargarme, pero ahí quería mostrar. El otro concepto que les voy a mostrar es más chicos.
+¿Qué es MAT? ¿Por qué les voy a mostrar? ¿Por qué debo enseñarles MAT? Porque MAT es lo que ustedes van a usar para su proyecto, mis estimados, ya el proyecto necesita números aleatorios, necesita que el programa produzca un número aleatorio entre uno al 100.
+Y ahí es donde va a entrar Matt ya es.
+¿Qué es MAD chicos? MAD es un objeto.
+Mat es un objeto como un objeto. Un objeto es como una agrupación, hay que ponerlo como redondear, una agrupación que adentro tiene lo que serían datos de adentro, hay datos o funciones, pero funciones bajo la misma temática.
+Bajo la misma temática, o sea, del que tienen relación, que tienen relación, o sea, que tienen relación estas funciones, por ejemplo, MAD.
+Es un objeto, el mismo nombre lo dice Matt viene de matemática. Entonces Matt agrupa funciones matemáticas dentro de Matt, chicos van a encontrar funciones matemáticas.
+Y también este datos matemáticos, como por ejemplo pi.
+O logaritmo de 10, ya en datos constantes y datos matemáticos, entonces en lugar de.
+Decirlo, en lugar de estar suelto por ahí los las funciones matemáticas, ¿qué hace el JavaScript? Este dice, mejor te doy yo esto como objeto, como grupo, y tú interactúa con ese grupo. ¿Cómo accedo yo a estas funciones matemáticas o datos matemáticos? Vamos a poner acá esto es.
+Un objeto porque es lo que es un objeto. ¿Cómo accedo yo con esta sintaxis, mi estimado? ¿Cómo se accede a la sintaxis o a las funciones o datos de MAT? Es así, de hecho, es para todos los objetos, ya es objeto.
+Ya punto.
+Nombre de la función.
+Nombre función, así es como se observe en consecuencia, o sea, para Max y así.
+Sería mat con mayúscula punto el nombre de la función a la que tú quieres ingresar.
+Ya es así como se ingresa. Miren, vamos a dejar que el mismo este el mismo JavaScript nos de eso, nos ayude. Vean, voy a hacer esto, maps, atentos con esto, maps, punto y todo esto lo que está acá ya es justamente esto lo que les comenté, las funciones.
+Y aquí hay algunas constantes, o sea, ya hay valores. Por ejemplo, vamos a poner acá, mira, vamos a imprimir qué es eso.
+¿Mat Pi qué es? Mat Pi es una constante. Recuerda que le dije que las constantes van entre mayúsculas. Aquí estoy accediendo al valor de pi sin tener que yo escribirlo. Ya vamos a vamos a ver cómo lo imprime.
+A ver, esto de acá es si me estoy confundiendo ya voy a comentar esto porque ya no es necesario, perdón.
+Sí, porque me va a pedir datos.
+Listo, vamos a reiniciarlo.
+Y miren acá, chicos, atentos, acá ven, me ha imprimido el PRI. Este es el valor que tiene el MAT PI. La constante PI tiene todo este valor para que tú simplemente lo uses para tus cálculos si lo deseas. o K eso, pero nosotros no vamos a usar MAT PI. Vean que MAT tiene bastantes funciones.
+Ma tiene bastantes funciones.
+Es como un estuche y a un estuche de herramientas a donde tú puedes usar varios de este.
+¿Cuál de estas funciones vamos a usar? Acá hay funciones de coseno, de tangente, de redondeo, de logaritmo, pero vamos a usar 2 específicamente Matt Random.
+Ya vamos a usar específicamente 2 funciones.
+Una de ellos es la función random ya se llama random y yo creo que el mismo nombre ya les da una idea de qué es random, qué es lo que hace random.
+Matt Random.
+Genera.
+Un es una función, así que como tal tiene una acción. ¿Qué hace esta función random? Genera un número decimal aleatorio o random, ya random aleatorio, como tú le quieras llamar.
+Entre, pero aquí importante, chicos, entre qué términos entre 0 y uno, o sea, que decimales, o sea, que genera decimales.
+O sea, valores decimales hay que poner ya valores decimales porque son valores entre 0 y uno, o sea 0.5 0.6 0.5 así ya cada vez que se llama, ahora sí, otra cosa cada vez que se llama.
+Te da un valor diferente.
+Era un valor diferente ya.
+Vamos a probarlo para ver cómo es Matt Random, así tal cual, así ya estás generando un destino.
+Chicos, algo a tomar en cuenta, las funciones siempre van a tener este paréntesis ya.
+Es diferente a llamar un dato, dato o variable. Los datos no tienen ese paréntesis, las funciones sí, porque usualmente dentro de esas funciones se ponen como que la información que necesita que necesita, pues esa función ya los datos que necesita esa función. Por eso vas a diferenciar.
+Un dato, un dato de una función, porque las funciones tienen paréntesis, mientras que, por ejemplo, los datos no lo tienen, son a secas. Ya consolog, por ejemplo, consolog, por ejemplo, este es una función como comentamos, aquí no está, pero consolog tiene un paréntesis, cierto, pro también tiene un paréntesis, lo ven.
+Todas las funciones, chicos, tienen paréntesis al final, ya tienen paréntesis. Dicho esto, vamos ahora sí a ejecutar entonces más random, pero aquí.
+Vamos a mostrarlo, obviamente si no.
+Como y de hecho voy a sacarle copia para que vean unos 5 ya para que vean cómo me genera los números aleatorios y entre qué términos listo.
+Atentos aquí abajo, aquí está.
+A ver, vamos a encerrar bien, aquí está los números aleatorios. Miren, vean cómo me origina entre 0 y uno. Acá hay un 0.3 0.2 o sea tal 0.8 0.1 no pasa de cero a uno, ahí siempre está entre ese rango de valores es.
+Donde genera MAT.
+Muy bien, listo entre ese rango de valores ahora.
+Vamos a usar esa función y también hay otra chicos que ustedes van a usar en su proyecto y es otra misma de Mat, ya otra misma de Mat y es la lo que nosotros llamamos Mat Floor, Mat Floor. ¿Qué hace Mat Floor?
+Vamos.
+Mat Flor, lo que hace mis estimados, bueno, lo que hace es redondear, simplemente ya sabemos que es redondear, cierto, o sea, redondea.
+Un decimal al entero menor, al entero debajo o menor, como de entero debajo o menor.
+Como que entero, o sea, hacia abajo, hay que decir acá, redondear.
+Reundiar un decimal hacia abajo, más preciso es así.
+Al entero más cercano.
+Ya redondear, chicos, es volverlo entero, ya redondear un decimal es volverlo entero. Para los que no entienden ese término, es eso, digamos que el mismo Matt Flor lo explique.
+Con 3 decimales con estos mismos decimales que me generó.
+Ya a estos mismos este decimales, chicos, les voy a aplicar más.
+Punto.
+Flor, que aquí está, ten.
+Voy a encerrar dentro como es una función dentro entre el paréntesis del match floor para que no se confunda, ahí es donde estoy dando el decimal. Ya acá se me pasó, se me pasó poner la sintaxis y es que aquí va la decimal, no va entre comillas, decimal que quieres.
+Pero enviar.
+En el paréntesis baja eso este.
+Por eso es que en el paréntesis más flor estoy poniendo eso, voy a cerrar esto que lo voy a duplicar.
+Ya voy a duplicar para que veamos más random genera números decimales entre 0 y uno, más flor los redondea.
+Mostremos eso.
+¿Todos me salen cero, por qué?
+Porque todos me salen cero, chicos. De hecho, voy a poner uno acá, miren para que vean este.
+De hecho, voy a poner mira 4.6 voy a poner números exactos.
+Ahí ya me los ponieron, creo bien, voy a poner decimales ya la mayor cantidad posible.
+Y acá voy a poner.
+13 punto ya porque ese más random medio cero.
+Ver.
+Que bueno, que haces ya mencionó Flor.
+Porque no le puso un límite, no cae, no.
+Lo que pasa es que obviamente más random, como te comenté, exacto, va por ahí, más random va entre 0 y uno, cierto. Entonces digamos que uno de ellos es cero punto tantos, 0.3 cero punto este como comenté en mat floor en realidad redondea hacia abajo, chicos. ¿Y cuál es el entero más cercano hacia abajo? Es cero.
+Es cero, por eso es que te ha dado cero ya para más random, como si te va a dar entre 0 y uno. Entonces siempre todos los que tú redondeas de más random te va a dar siempre.
+Pero estamos aplicando ahora con todos los demás, mire, con un 13 punto este, con un vamos a ver.
+Y vean como ahora este se puede notar ya siempre va a redondear hacia abajo, no hacia arriba. O sea que básicamente te va a tomar este valor que está aquí, nada más que es 138574. Bien, es lo que ha hecho ahí. Listo, entonces ya vimos Mat Random y Mat Floor.
+Ahora lo que vamos a hacer, chicos, es cómo vamos a llegar a esto.
+Vamos a llegar a esto de aquí, o sea, vamos a armar esto de aquí.
+¿Qué es?
+¿Dónde está? A ver, ya es esto de aquí.
+De hecho, lo hubiera escrito, no, pero en lugar de hacer todo esto ya.
+Usando estos 2 tienen que.
+Dar números aleatorios entre uno y 100.
+¿Cómo hacemos eso?
+Usando estos 2, primero sabemos que con más random ya tenemos números alto, o sea, lo vamos a usar, pero aquí me da entre cero y uno.
+Me da entre 0 y uno, no me sirve todavía de uno a 100. ¿Qué es lo que hacemos aquí?
+Aplicamos matemática básica, estimamos, aplicamos matemática básica, más humedad entre cero y uno.
+¿Qué hago para llegar a uno a 100? ¿Qué es lo que debería hacer de cero a uno a uno y 100?
+A ver qué dice su matemática, chicos, va a llegar de cero a uno a uno o a un aproximado de uno a 100. ¿Qué tengo que hacerle a este más random de aquí?
+A este más random que tengo que hacerlo a ver primero porque son varios pasos, pero primero que tengo que hacer.
+Ahí me da la respuesta, bien.
+Kevin, muy bien, dale, ya exacto, chicos, tenemos que multiplicarlo por 100.
+Ya vamos a hacer eso, porque vamos a agregar un, vamos a agregar 2 más, pero a esto le vamos a quitar el más.
+Vamos a estar aquí un color ya listo que está el más raro que me está ejecutando, hemos usado 2 que me está ejecutando números decimales, pero yo no quiero de cero a uno, sino.
+De uno a 100. ¿Qué pasa si multiplicamos? Obviamente multiplicamos al cero es cero, pero si multiplicamos al uno es 100 ya. O sea que aquí me va a generar números de cero a 100 entre 0 a 100, pero recuerden que estos son decimales decimales.
+Por 100 no te va a dar entero todos, vean, vamos a ver los resultados ya.
+Por si mire, esto voy a ocultarlo.
+Voy a generar unos 5 para que vean.
+No me confundo, aquí está, miren, miren, chicos, ya tengo el de cero a 100, pero vean algo, todavía siguen siendo decimales y una cosa más.
+Ahora sí, pero ahora sí, ya tengo en nuestro a tiempo, pero hay todavía un problema y es que todavía no se puede redondear todavía. Perdón, no, todavía es un decimal. ¿Qué teníamos que hacer, chicos, para convertir ese decimal a entero?
+¿Qué librería justo le?
+Les mostré el más flor, gracias, exactamente vamos a usar el más flor.
+Ya hasta ahí vamos a ver.
+Dale le entramos ya.
+Listo, le agregamos el más flor y ahora bajamos y vean chicos, ya vean esto.
+Me ha dado 3 respuestas de cero 38 de 71. este.
+Ahora sí son enteros, pero noten algo y qué bien que haya aparecido. Acá hay un cero, acá hay un cero ya porque obviamente, obviamente un más random te puede dar un cero coma tantos y si tú lo multiplicas por sí, eso sigue siendo cero, o sea, cero coma tantos y si tú lo redondeas a Matfloor.
+¿Recuerda que dijimos que redondea hacia abajo, o sea, hacia el cero, pero nosotros qué queríamos?
+¿Nosotros qué queríamos? Queríamos entre 1 y 100.
+No entre cero y 99 ya nos va a dar 99, porque recuerden que si uno es 99 coma tantos ya un más random genera un 99 coma tantos, no hay un 100 coma tantos. O sea, el máximo que van a ver es un 99 coma tantos. Entonces el más floor lo va a redondear a 99 nunca, nunca hasta este punto va a llegar a 100, es decir.
+Aquí más random lo redondeamos con más flor.
+Y tenemos entre.
+Cero a 99 en realidad.
+Cero 99 y acá vamos a poner, pero son decimales, que no es lo que quería.
+Y acá tenemos otro problema, estimados, que es de cero 99. ¿Qué es lo que tenemos que hacer para llegar de cero a 100? Súper sencillo, no, yo creo que ya lo saben.
+¿Qué tengo que hacer, chicos?
+Ahí creo que lo comentaron en algún momento tengo de cero 99, quiero llegar a uno a 100.
+¿Qué le hago? Le sumo uno, así de fácil, chicos, le sumo uno.
+Le pongo más uno y con esto ya ahora sí pasamos de.
+Cero a 100, vean aquí fuera del mat, este le voy a sumar uno.
+Hecho esto, ahora sí, chicos, tengo armado el parte del proyecto. Ya vean, todos son enteros. La verdad es que aquí no me ha sacado ninguno que sea, no me ha sacado ninguno este, no seas cuánto tendría que poner para probar que no me da cero o este o.
+Con un número mayor a 100, pero este vean que ya justamente me genera números electorios enteros y que están entre 1 y 100.
+Bien, esa es la forma, chicos.
+¿Cómo ser?
+¿Que ustedes van a tener que aplicar?
+Para.
+Voy a pegar acá.
+Es acá, también les voy a compartir, no se preocupen para el para el proyecto, ya esa es la forma que van a aplicar para el proyecto.
+O K chicos, entonces se puede entender eso y el mat y el flor.
+Ok, a ver, puedo entender eso porque eso es lo que vamos a dar ustedes en el proyecto de.
+Bueno, el proyecto de.
+El proyecto final de generar sus números.
+A ver, me comentan eso.
+Primados.
+¿Me escucha? Hola, ¿se puede entender esto del más floor y el este?
+¿Y cómo van a tener que? Bueno, eso cuando lleguen al proyecto 12, que ya les mostraré, si quieren puede avanzarlo con eso, pero.
+Oswaldo dice sí, dice sí, los.
+Perfecto, ya entonces, dicho esto.
+Ya este ya estaría completado, solo me falta esto. ¿Qué es el undefinite, chicos? ¿Qué es lo que hace el undefinite? El undefinite es un tipo de dato, ya es un tipo de dato y cuando se muestra usualmente, ya recuerden que vimos tipo de dato número, tipo de dato string, tipo de dato boleano o k.
+O K, este el un es un tipo de dato, pero no es un tipo de dato común común, por así decirlo. Es un tipo de dato que no podemos, no se lo asignamos, o sea, no le asignamos así directamente, no le asignamos a una.
+Yeah.
+¿Cómo no asignamos? Ya no vamos a decir, no sé, led número.
+Y le vamos a estar en un defi, no chicos, así no se puede, si no, ya esto es errado.
+No, el undefinite cuando aparece el undefinite aparece cuando aparece cuando usas una variable.
+¿Que no se ha inicializado?
+Cuando usas una variable que no se ha inicializado, ahí aparece. Ya recuerden que dijimos como no se ha inicializado, o sea, no tiene valor.
+Miren aquí chicos.
+¿Cómo que no soy iniciado a ver?
+De hecho, voy a borrar esto ya porque ya no es necesario.
+Aquí voy a poner un definite para que vea y pasa en realidad cuando tú.
+No.
+Este prueba no le has dado ningún valor y digamos qué pasa si en algún caso tú estás imprimiendo y dices, a ver, voy a imprimir prueba, no tiene ningún valor, pero vean cómo lo quiero imprimir, vean qué es lo que me va a dar la consola, chicos.
+Ahí está, aquí está esto, esto un definitivo considero, pues prueba.
+Un defini para separar es este de acá, chicos, vean cómo me ha dado ese valor, un defini.
+Ahí está, es esto pasa porque yo he usado este pruebas aquí sin haberle dado un valor. Como no tiene un valor, ahí es donde ha aparecido un defini. Ya por defecto está dentro ese valor de un defini. Bien, seguro aún usado ustedes algunos.
+Que tal vez al momento de hacer su proyecto o al momento de hacer su laboratorio, por error han creado una variable, pero no le han dado un valor. Entonces lo han imprimido, tal vez han hecho una operación, pero le ha salido un déficit.
+Porque efectivamente no tiene un valor, lo que tienes que hacer es darle un valor ya para que ya no salga ese un defi aquí.
+Ahora sí me sale cuatro ya listo, eso es más que nada un definite y otro valor que también va a haber aquí.
+Acá y con esto ya cerramos, es el valor de nam.
+¿Qué es namis? Estimados, na es como dice el nombre.
+Ya una.
+Es un valor, no es un tipo de valor, también hay que decirlo así.
+Es también otro tipo de dato, ya es un tipo de dato.
+¿Es un tipo de dato, pero NAM, qué es lo que indica cuándo aparece NAM?
+NAM viene de no es un número, obviamente es NAM en hay que ponerlo. Las siglas NAM es not a number o no es número.
+Cuando aparezca nam, tampoco nosotros lo vamos a, al igual que un definite, tampoco nosotros te lo asignamos a una variable, no le podemos asignar una variable directamente en nam.
+Por eso digo que es un tipo de dato, pero es un no. Hay que llamarle como que especiales, ya no le asignas, no se le asignas.
+Cuando aparece Nan aparece cuando tú a ver cuando tú haces.
+Tiene que ver con matemáticas, ya tiene que ver con matemáticas.
+Mejor sería así ya.
+Es la forma que tiene la computadora, o sea, el programa.
+Para decirte.
+Intenté hacer una operación matemática.
+¿Pero los datos que me diste?
+No son números, es decir, sí, tú has querido hacer operaciones matemáticas, pero tal vez según esos datos tú lo hayas dado letras.
+Ya entonces ahí es donde aparece nada o, por ejemplo, quisiste hacer una conversión del de letras a números, pero en esas letras de texto, perdón, a números, pero en ese texto habían letras, entonces no va a poder convertir, obviamente, a número.
+Veámoslo en ejemplo ya para que se entienda mejor.
+Prueba, no.
+Vamos a ver, miren, acá voy a hacer lo siguiente, súper sencillo, ya con un ejemplo que se puede entender. ¿Qué pasa si yo sumo? No, si no sumo, porque sumar obviamente concatena, no, si hago esto no me va a salir UNAM, porque ya sabemos que el más concatena.
+Ya miren el más concatena, lo ven, no me ha salido nada, me ha concatenado a B con 2 otras operaciones, voy a hacer el por.
+A B por 2. ¿Qué pasa? Ahí está, chicos, ese es el NAM. Ya he hecho una operación matemática, pero obviamente el dato que le he dado no es número, no puede hacerlo. Entonces ahí me indica que es NAM.
+Otra forma, otra forma aquí, chicos, aquí miren otra forma, recuerdan el number para convertir texto a.
+A número, imagínate que yo le doy 87, pero acá le suelto una.
+¿Qué es lo que va a pasar? Otro nan, porque he querido hacer una operación de conversión a número, pero esto no es un número, no es un número. Por eso es que me ha soltado nan mis estimados. Ya ahí van a ver nan. Cuando vean nan es porque ha pasado algo en una operación matemática, en una conversión a número ha pasado un.
+Tengo tal vez un boleante, pero ha pasado.
+No.
+Bien, ok, chicos.
+Entonces con esto ya estaríamos cerrando.
+Eso sería todo respecto a lo que sería, pues el NAM.
+Ya entonces lo que voy a hacer yo es explotarle, o sea, el laboratorio y este ya lo tienen, ya lo hicieron.
+Pero les voy a pasar de hecho un reto.
+Ese reto que está aquí les voy a dar.
+Hay otro aquí, pero eso es más sencillo. Ese no lo voy a dar ya un reto, solamente eso quisiera que su laboratorio tuviera ese reto.
+Sí, no te preocupes, Kevin, lo voy a pasar por WhatsApp para que todos lo vean y lo incluyan en su en lo que sería, pues.
+Su laboratorio, el final bien o k.
+Chicos, momentos de las preguntas, todo claro, todo entendible hasta ahí ya para cerrar.
+Por favor, me dan su checo su validación.
+Ya él me dice, okey.
+Bueno, me hice bien.
+Ángel, gracias por ese está bien, está bien, que bien, todo claro. John, bien, si tienen alguna duda, alguna pregunta normal.
+O K.
+Parece que todos claros, esto todo claro. Bien, chicos, si todo fue claro, espero haberles este bueno, espero haberles guiado en este en esta parte de lo que sería la de JavaScript. Ya otra parte muy importante con conceptos súper súper interesantes y necesarios, sobre todo.
+En este camino de programación, con esto ya daríamos por concluida la clase.
+Yo me retiro, chicos, espero que tengan una bonita, un bonito fin de semana. El laboratorio es súper facilito, ya así que dense un tiempito y pueden revisar también ya el proyecto porque ya está subido y ya pueden ir avanzándolo si quieren. o K chicos, con esto yo me retiro.
+Conmigo sería hasta la próxima. Chao, chao, chicos. Bye.
+Gracias, Joel.
+Ay, chicos, dejar de grabar.
+Sí, yo soy, tenés alguna consulta.
+Ya que levantaste la mano, ay, okey, gracias.
+Vamos a detener la grabación.
+
+Orador 1 ha detenido la transcripción

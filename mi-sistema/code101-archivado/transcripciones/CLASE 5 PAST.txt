@@ -1,0 +1,1215 @@
+Clase_05 Code101n19
+9 de marzo de 2026, 12:40a.m.
+3 h 38 min 15 s
+
+Orador 1 ha iniciado la transcripción
+Orador 1 es instructor
+Orador 1   0:03
+Está grabando, inició una grabación, listo ya ahora sí, bueno, no van a salir esas preguntas número uno, pero no importa, ya lo importante es que salga la clase y justo donde estamos empezando, que es esto bien, entonces ahora que sí se visualiza, me lo están confirmando chicos, bien, vamos a pasar con la clase número 2 porque como les comenté, hoy no vamos.
+Tanto a programar, pero si vamos a ver herramientas que usaría un programador o un desarrollador moderno, ya herramientas que en cualquier desarrollador del mundo laboral del día de hoy, pues los tienen en su stack o ky tal vez, y creo que sí lo pregunté en el primer día de clase, lo conocen algunos de ustedes lo conocen ya entonces.
+El módulo uno ya construimos, vimos tecnologías básicas para construir nuestra página web. Vimos HTML para estructurar nuestra página web, luego le dimos estilos con CCS, dominamos Flexbox, esta tecnología que hoy en día es muy usada, tecnología que nos da CCS para el posicionamiento.
+Pues el layout no de nuestra página web. También vimos un poco de animación con los hover states, box shadow, transición y estas propiedades que le agregan algo de vida a nuestra página web. Bien, pero hay algo importante aquí que justamente lo dice en esto de acá.
+Tu perfil vive en tu computadora, programadora, programadora, tu página web actualmente solamente está en tu computadora. Y si te das cuenta, nosotros creamos una página web muy bien, bien diseñada, bien estructurada, bien bonito. ¿Pero para qué? Para mostrárselo al usuario, cierto, para mostrárselo a nuestros clientes.
+Y ahorita no lo estamos haciendo chicos, simplemente está ejecutándose nuestra computadora. Entonces lo que vamos a ver justamente hoy día en el módulo 2 comienza con estas herramientas que sí nos van a permitir que nuestra página web ya no esté solamente nuestra computadora, sino que esté en Internet, el lugar donde están las páginas web o donde se visualiza.
+Bien, el módulo 2 comienza con estas 3 tecnologías, específicamente la terminal Git y GitCap. Vamos a hablar de esos y el objetivo de esta de bueno, el objetivo final de esta clase es que el proyecto que tú has creado en tu módulo uno vaya a estar en Internet e incluso hoy mismo lo vayamos desplegado, es decir.
+Tengamos ese link que podemos compartirle a cualquier persona. Digamos, tú quieres mostrarle la página web a tu tío, a tu tía, a tu mamá, a tu papá, donde sea que esté, le das un link y él va a poder acceder ahí y ver tu página web. o K, ese es el objetivo final de el día de hoy, chicos. o K, a mí me emociona eso, la verdad, porque ya pues.
+Básicamente que esté en Internet ya es otra cosa, ¿no? Ya es como si estuvieras mostrando justamente al mundo lo que has construido tú. Bien, entonces voy a empezar justamente con esta pregunta, ya que está relacionado con lo que mencioné, ¿cómo harías para que otra persona pueda ver esa página que has construido?
+¿Qué creaste? Pues en el módulo uno, como tú lo harías, chico, chica, programador, programadora, respóndeme, por favor, este lo primero que se te venga a la mente, no sé, le llamaría y le diría, even, este, ven a mi casa, te presento aquí mi página web, te lo pasas por WhatsApp.
+Subiéndolo en la nube, Carlos ya nos dio una pista, claro, exacto, justamente a eso iba por ahí este programadoras que conocen eso, que conocen la nube, pero como lo hicimos, por ejemplo, para que ustedes me compartan a mí, no la página web.
+Usualmente antes, ya antes de que exista la nube, digamos que no existe la nube. Estamos en ese tiempo en el que no existe la nube. ¿Cuáles son esas formas creativas que se nos ocurriría? Uno diría, como le comenté, es o K, tú pásame tu correo y yo te paso el código por ahí, ya los archivos de código por ahí. Otros dirían.
+Bien, te paso mi WhatsApp y por ahí pues te paso mi este, te paso mi este. No hay medios como redes sociales, chat para poder compartirlos, ¿cierto? Esa sería una forma.
+Ahí me están respondiendo chicos.
+O K, esas formas, pero obviamente los que ya conocemos la herramienta que vamos a ver hoy ya tienen la armas puesta, ya lo tienen ahí, se la están guardando subir a GitHub page. Exacto, Juan ya pues la lanzó, ya la lanzó.
+¿Pero es eso? Ya justamente quería hacer esta pregunta para abrir esa mente y decir o k, ¿cuáles serían las formas ya?
+Pero vamos a GitHub page. Efectivamente, exactamente GitHub, ya vamos a ver GitHub por el día de hoy. ¿Y cuál es el proyecto del día? Pues cuál es el proyecto relacionado al módulo número 2, el proyecto relacionado al módulo número 2. Como ven, chicos, esta página web que yo tengo es una página web.
+De enlaces de contacto ya es como un hub personal donde tú vas a poner las formas en las que te van a contactar aquí, específicamente las personas, bueno, los reclutadores, las personas que este están buscando programadores, tú les puedes pasar esta página web y este ellos pueden acceder acá a caballo tu nombre. Yo te voy a compartir esto después para que tú lo puedas personalizar. Lo vamos a hacer en medio de la clase.
+Y acá lo que van a ver botones con enlaces para que al presionar uno de estos enlaces te mande directamente. Pues digamos, si presionas GitHub, te manda tu repositorio de GitHub. Si es email, te mande a tu a tu email, si es WhatsApp, WhatsApp, si es Facebook, tú lo vas a personalizar con los enlaces que tú quieras.
+Ya si nos damos cuenta, esta página ya está subido a Internet, no está ejecutado en Visual Studio Code y es justamente lo que vamos a hacer con la página que tenemos hoy día.
+Bien, ese es el proyecto número 2 que vamos a ir desarrollando a lo largo pues de los días. Ya este es una primera, este esto no es un proyecto final, o sea, si es un proyecto final, pero el diseño que nosotros vemos aquí no es un diseño este ya finalizado, es una plantilla que se las voy a compartir después. Muy bien.
+Listo, entonces con esto vamos a pasar a lo que sería ya el primer, la primera herramienta que vamos a ver el día de hoy, que es la terminal bien ante ustedes, programadores y programadores.
+La terminal dada, ahí está la terminal, chicos, eso yo creo que muchos de ustedes es que esta terminal está relacionada necesariamente con programación. Es las personas que han manejado un equipo, una máquina lo conocen. Quiero que me que me respondan, por favor, en el chat. ¿Cuántos ya conocen la terminal o cuántos la han visto al menos?
+Porque esto, al menos seguro, se les ha aparecido alguna vez cuando han estado en su computadora. Respóndame por favor por chat. ¿Cuántos ya han visto esta ventanita ya la terminal?
+O tal vez hayan visto esto de aquí, es que también es una terminal en realidad.
+Overship.
+Eso también es una terminal, ya son las son mismo, bueno, son diferentes programas, pero van a tener la misma función que vamos a ver ahorita.
+O tal vez hayan visto este que está en celestito.
+Exacto, Carlos ya vio, Carlos ya lo vio, John Rivas, alguno ahí, ahí vamos a ver un mensaje, sí, la vi, exacto, sí, para ver puerto IP, exacto, también ves, por eso digo que este usualmente la terminal no solamente tiene, no es a ver, la terminal es un software que no tiene solamente el fin de programador.
+La terminal es una herramienta que te permite comunicarte con tu sistema operativo, te das Windows, tengas Mac, tengas Linux. Te permite comunicarte con tu sistema operativo, o sea, usar las funcionalidades de tu sistema operativo, pero basándose en qué, en comandos, chicos. Bien, ahí tenemos un Ubuntu, exacto, buenísimo.
+Que te permite comunicarte justamente con tu sistema operativo basado en comandos. Ya es un lenguaje universal. Funciona como un control remoto universal, por ejemplo, un control remoto universal en tu casa. Bueno, en una casa tecnológica sería para, no sé, acceder a la tele, acceder a la ventiladora, a la radio, a la cocina. No sé ya.
+Tiene muchas funcionalidades, una terminal es lo mismo. Se puede acceder justamente a crear carpetas a diversas funcionalidades que tiene tu sistema operativo, ya a ver este puertos, como comentó John Peña, incluso para navegar o incluso para programar. Es decir, puede funcionar como un editor sin necesidad de Visual Studio Code.
+Podemos programar código aquí, tiene muchas funcionalidades. Ese sería el concepto de terminal y entonces acá nos vamos a una cuestión, a pesar de que.
+Hoy en día, en pleno 2026, exista la inteligencia artificial, haya interfaces muy bonitas, muy modernas, correcto, pantallas táctiles.
+Todo funciona, o sea, con clics, todo funciona con deditos. o K, porque a pesar de eso los ingenieros de computación, hackers, programadores todavía usan, usan esta herramienta. ¿Por qué de buen? ¿Por qué? O sea, porque, por ejemplo, ahorita lo estamos aprendiendo. ¿Por qué chicos, algunos de ustedes se les vendría esa idea de por qué todavía?
+Tenemos que usar esto porque miren, este esta herramienta existe, pues desde que literal se creó la computadora, el cuando se creó la computadora, lo primero que aparecía era esto, no aparecía lo demás. O sea, los que accedían a la computadora simplemente lo usaban solo con esta ventana, no te aparecía.
+Íconos no te aprecia eso.
+¿Por qué creen ustedes que hoy aún en día se usa esto?
+Algunos se le vino una idea.
+Hmm.
+¿Está bien lo que ya hayan usado? ¿Han visto alguna diferencia entre usar este usar la terminal y usar los la interfaz que nos da Windows?
+A ver, mientras voy haciendo algo.
+Una palabrita nomás, chicos, sería una palabrita. La palabra sería eficiencia o K por la potencia y eficiencia que tiene. Como les comenté, este la terminal te permite hablar directamente con tu sistema operativo, ya no necesitas y solamente basado en comandos, es decir, y solamente vas a estar en esa ventanita, nada más, pero vamos a ver esa eficiencia en acción.
+Bien, permítame hacer algo, por favor, voy a poner esto aquí.
+Que no me sirve.
+Ay.
+Ya debería salirme acá al costado, un momento voy a mover esto aquí.
+Ya saben que mejor voy a poner esto aquí quería poner un cascada para que se puedan ver las 2 carpetas a la vez, pero voy a ponerlo por mi cuenta.
+Ya un lapsus chicos, perdón, a ver, ya voy a colocarlo así, tengo que hacerlo manualmente porque no quiero chambear hoy día mi este. Bien, entonces ya digamos que digamos que güey, voy a usuarios.
+A lo mejor en disco locarse, ya digamos que tu jefe, ya digamos que tu jefe te dice, hey, quisiera que me crees 12 carpetas que van a representar los 12 meses del año, porque dentro de cada este carpeta vamos a pues crear un reporte. Ya bien, dices o K, es súper sencillo, este jefe, yo lo hago. Los que no conocerían la terminal iría harían esto, no irían a su disco local C donde quieren guardarlo.
+Ok, facilito, le doy de nuevo carpeta.
+Meses, perfecto, le doy a meses.
+Y aquí, pues.
+O K, enero, n no sé ya y así ta ta ta ta ta le empiezan a crear las carpetas, no lo que te tomaría unos 5 minutos y le diría sí se pudo visto acá o K.
+Los que usan terminales no harían esto chicos. ¿Qué es lo que harían? Harían lo siguiente, voy a eliminar la carpeta, harían lo siguiente ya.
+Pero es que estoy ahorita en.
+Esto es lo que tengo que usar.
+Ya lo que no sean terminales serían lo siguiente: ya uso PWD, pero esto o K, voy a hacer esto, listo, estoy en disco local C, acá voy a.
+Crear justamente esa carpeta porque como les digo, ahorita estoy interactuando, por ejemplo, con el sistema operativo, miren como ya se creó la carpeta de meses y acá lo que haría es.
+Va a ver chicos.
+Usaría un prompt únicamente para crear las carpetas que me pidió sin necesidad de hacer tanto clic, chicos.
+Ya entro a meses y vean como automáticamente me creó todas esas carpetas. Yo no tuve que hacer clic, crear, clic, crear, clic, poner nombre, crear, no con un prompt ya me creó todo eso. Vean la potencia que tiene usar simplemente prompts, la facilidad que nos permite interactuar con este con nuestro sistema operativo.
+Por eso es que hoy en día hackers, programadores, este ingenieros de computación lo usan por la potencia. Muy bien, aquí nos remontamos a la historia, chicos, y a un versus entre la terminal y las interfaces.
+Windows 95 ya la historia, Windows 95. Windows 95 fue el sistema operativo que democratizó el uso, pues que democratizó la computación. ¿A qué me refiero? Como comenté antes de Windows 95, cuando tú accedidas a una computadora, lo único que mirabas.
+Se encendía y directamente te mostraba esta ventana y nada más que esa ventana. Muy bien. Entonces, ¿qué pasa? Que las personas necesitaban sí o sí conocimientos sobre prompt, o sea, conocimientos sobre los comandos que se tenían que ejecutar en ese tiempo. No cualquiera podía usar una computadora, sino a las personas con ese conocimiento.
+Pues por lo algo complejo que resultaba entender lo los comandos, también que tener que memorizarlos y etcétera.
+Windows 95 lo que introdujo fue una interfaz que hoy en día ha evolucionado. ¿Qué es esa interfaz? Pues la que tú ves aquí, no con iconos, con escritorio, etcétera. o K, entonces esa interfaz me permitió democratizar en el sentido de que ahora cualquier persona tiene más accesibilidad o más facilidad de poder manejar una computadora.
+Porque simplemente se basan en iconos, se basan en clics que tú sí puedes ver y sabes pues qué hacer. No tienes como que más, se tiene más sentido como interactuar. Ya entonces aquí vamos a un versus sí, en Windows 95 y de aquí en adelante este se insertó una interfaz y esta interfaz permitió la accesibilidad.
+Permitió este poder manejar una computadora, pero algo que no cambió es que los prompts, perdón, la terminal todavía sigue teniendo esa potencia. Entonces ese es un diferencial. Ahora aquí les pregunto a ustedes, chicos, chicas, o k.
+Hoy en día hay muchos, hay usuarios, hay algunos programadores tan fanáticos de la terminal o bueno, que tan son tan este, cómo así decirlo, tan cercanos a la terminal que no usan, que tienen sistemas operativos, sistemas operativos que no tienen ninguna interfaz. Chicos, ellos simplemente tienen esto de acá, esta ventana de acá y se saben todos los comandos para interactuar.
+Con su máquina, bien, entonces en un futuro cercano, yo te diría a ti, tú serías.
+¿Tú tendrías, o sea, ¿Tú serías capaz de dejar la interfaz que te enfreció Windows si eres Windows o tal vez este en Ugunto también hay ya en Ugunto también tienes, pero hay sistemas operativos que son netamente terminal. ¿Tú serías capaz de dejar esa interfaz y pasarte solamente a terminales?
+O tal vez hay un costo en el cambio, te costaría y dirías o k, no puedo porque estoy tan acostumbrado, por ejemplo, a esta interfaz que tú ves acá. No estoy tan acostumbrado a usar la interfaz, es más sencillo.
+¿Cómo crees que te iría a ti en un futuro? ¿Serías team terminal puramente terminal?
+Depende lo que vaya a ser, lo que me ahorre más tiempo.
+Bien, claro, el depende.
+Exacto.
+Claro, si tú ya tienes conocimiento de terminales yarny, o sea, ya lo conoces exactamente, te va a ahorrar más tiempo, créeme, créeme, pero ahora si tú no tienes conocimiento, obviamente vas a tener que bueno, gastar algo de tiempo en aprenderlo, no gastar algo de tiempo en aprenderlo y también ese costo, como te digo, de cambiar.
+De darle clics de los iconos de lo que tú ves aquí a simplemente por texto.
+¿Eso no? ¿Qué tal? ¿Cómo se ven ustedes, chicos? ¿Tean terminals o no me quedo aquí nomás en Windows? Está bien cómo voy y continúo.
+¿Cómo me responderían esa pregunta, chicos de la respecto a la terminal?
+Carlos Ramos dice, yo sería muy bien.
+Exacto, creo que Carlos Ramos, tú usas Linux, ¿no? Y obviamente Linux este empezó siendo full empezó siendo un sistema operativo full terminals, cierto, este yo como programador, yo crecí con Windows, por así decirlo, , pero sí, yo en un futuro quería dominar Linux.
+Ya este sí vi algunos terminales, sí los vi.
+Pero este me quedé en Windows, pero obviamente sí tengo un futuro cambiar a Linux por el hecho de que Windows 11 literal. Yo estoy usando Windows 10, pero ahora sí Windows 11 y no pasa nada, la verdad, por lo que lo he visto. Entonces yo sí voy a ir a Linux, obviamente.
+Sí, claro que sí, aunque tome tiempo, perfecto, perfecto, Yarni, claro, quiero comentarles que este.
+No, acá no hay una. ¿Cómo decirle? No hay una respuesta buena ni mala. Ya no hay ningún problema en que tú te quedes en las interfaces, no hay, no hay ningún problema o hay, no hay ningún problema en que también te vayas solamente a terminales. No es. Creo que depende de cada uno bien.
+Exacto, ya él dice Windows hasta que decide entrarle a la ciberseguridad. Sí, creo que la ciberseguridad manejan lo que son los prompts, no, eso lo tienen que ver el bootgan también tiene una sección sobre eso. Bien, creo que lo tienen claro en su mayoría, pero lo que vamos a hacer hoy vamos a ver terminales, pero no lo vamos a ver tan a profundidad, chicos, sino justamente.
+Algunos comandos básicos ya que tú puedes usar en tu día a día para interactuar con tu sistema operativo, ya actividades que tú haces tu día a día cuando manejas tu computadora. Bien, ¿cuáles son esos comandos chicos? Son 5. En realidad voy a presentar mi pantalla.
+Ya voy a cerrar esto y voy directo a mi este.
+A mi presentación, bien, vamos a ver estos 5 terminales, chicos, para eso lo primero, bueno, los que tienen Ubuntu ya saben que terminar de abrir, porque los comandos que voy a enseñar hoy en día básicamente son relacionados a Linux, ya los que tienen a Linux, pero los que estamos en Windows, por favor, quisiera que abran.
+Windows Powershell ya simplemente acá ponen, no se tiene que instalar nada. La terminal ya viene, es un programa nativo de del sistema operativo Windows y solamente ponen Powershell, que es esto de acá.
+Ya es esto de acá, ábranlo por favor, quiero que lo abran porque esta es la terminal que vamos a usar nosotros. Más adelante vamos a instalar otra terminal de muy potente con Linux, con comandos Linux, pero vamos a usar por mientras esto de aquí hay otro que es el CMD, el problema con el CMD, chicos, problema con el CMD.
+A ver, ya lo brilla.
+Voy a abrir un Powershet.
+Esto de aquí ya abrimos PowerShell, que es la terminal que vamos a usar hoy.
+¿Por qué no abrimos CMD ya para el que se haya hecho esa pregunta? ¿Por qué no estamos abriendo esto de aquí, el terminal del sistema? Porque esta terminal no soporta comandos de Linux. Vale, es netamente Windows. Entonces, si yo voy a usar, por ejemplo, PWD, que es el uno de los comandos que les voy a enseñar.
+Inmediatamente dice que no se reconoce porque efectivamente es un comando Linux, no es un comando Windows. Estos tienen sus propios comandos, ¿no? Por ejemplo, dir, que es como que una similitud, pero por eso es que no lo estoy usando. Ya estamos usando Powershell, que es esta ventana azul bien conocida, tal vez otro ya tenga su propio este.
+Como le digo, su propio terminal de Linux, ábranlo eso y vamos a ver comandos que ya lo han visto ya en su mayoría, pero vamos a verlos o k básicos. Primero vamos con PWD.
+Cierto, antes que nada, antes que nada, antes que nada, me olvidé de explicar ya un reposito de 5 minutos.
+¿Cómo sabemos ya cómo sabemos en nuestro este toda la información o todo el contenido que tenemos en nuestro sistema operativo está en un sistema de jerarquía de archivos? ¿No? Si nosotros estamos, por ejemplo, en Windows y nos y estamos en usualmente tenemos el disco local C, no como medio de almacenamiento, tal vez tengan otros. En realidad estos y se dividen en un sistema de carpetas jerarquizadas.
+Cierto, es decir, una carpeta dentro de otra o archivos dentro de otros, como un árbol genealógico. ¿Lo ven carpetas dentro de otras carpetas? Eso es súper sencillo. Eso lo hemos notado correcto. ¿Por qué explico esto? Porque cada carpeta que nosotros vemos en este sistema de carpetas jerarquizadas se representan con una ruta.
+Chicos y chicas que representan con una ruta, que es lo que vemos aquí ya.
+Esta ruta vamos a usar mucho en lo que sería justamente ahora en las terminales, ya por ejemplo, esta carpeta de archivos 86, ya si voy a la ruta me dice que está en el disco local C, que para mí, que para mí es mi como que mi carpeta raíz, mi carpeta donde empieza todo.
+Porque no tengo disco local D, luego ahí adentro hay una carpeta llamada Program Files y si le doy, por ejemplo, a uno adentro me va a decir que adentro hay este una carpeta llamada Komodo. ¿Lo ven? Una carpeta dentro de otra súper jerarquizada y esta ruta que nosotros vemos acá es la que vamos a ver usualmente en los términos.
+Dicho esto, ahora sí continuamos porque al momento de entrar a Powershell, chicos, al momento de entrar a Powershell.
+Nosotros empezamos en realidad en una ruta, o sea, ya estamos dentro de una carpeta. ¿Qué es lo que vemos acá? Estamos dentro de la carpeta 2022 uno, está dentro de la carpeta de usuarios dentro de la carpeta C. Ya siempre vas a estar en una posición específica dentro de tu terminal.
+Bien, pero si no conoces cuál es la posición o la ruta donde estás ubicada, actualmente usa simplemente el comando PWD. El comando PWD te da la ruta actual donde tú estás. Bien, lo que quiero que hagan chicos ahora, chicos y chicas, es que copien esta ruta porque yo quisiera saber.
+¿Cuál es la carpeta donde están actualmente? Y lo mandan, por favor, en su chat o K en el chat acá por el Teams lo copian y lo pegan ahí, por favor, porque ahí vamos a anotar exactamente que estamos en diferentes rutas. Todos estamos en diferentes rutas, específicamente en.
+Este de acá, la carpeta que viene después de users es el usuario con el que nosotros hemos accedido a nuestro sistema operativo, no que en este caso esta máquina que estoy usando yo se llama así porque es una es la máquina que me ofreció pues la empresa no en la que estoy trabajando. Por eso tiene ese nombre tan raro, no es que yo me llame 2022, pero bueno.
+Bueno, por ejemplo, ahí algunos se llaman bueno, algunos tienen exactamente ese nombre personalizado, no Juan, Kevin, Vidal, lo ven y algunos simplemente van que están con System 32.
+Exactamente por defecto, consiste en 32.
+Yaelí, Yael está con Yaelí. Exacto, muy bien, cada uno conoce exactamente la ruta en la que está.
+Perfecto, entonces ya sabemos cómo imprimir la ruta actual. Ahora lo que vamos a hacer es listar la cantidad de archivos que tiene la vamos a usar otro comando que es ls. Muy bien, te dije que estás ubicado actualmente en una carpeta ls. Lo que simplemente me hace es.
+Imprimir o mostrar en una lista el contenido de esa carpeta es nada más que eso, si yo presiono LS aquí en esta columna de aquí ya en esta columna de aquí.
+En esta columna de aquí está mostrando todas las carpetas que tengo y los archivos. ¿Cómo lo corroborro? Mira, me voy a ir a esta carpeta, a esa misma carpeta que me está mostrando.
+Que es usuarios 2022 uno y esta lista que tú ves aquí es exactamente esta de acá ya Android Antigravity Copilot lo ven Android Antigravity Copilot es nada más que eso ya es eso LS simplemente hace eso, lista los archivos que tiene esa carpeta y también.
+¿Las carpetas que están ahí, por qué listar para saber cuál es el contenido?
+Por ejemplo, para usar el siguiente comando, el siguiente comando es CD. Ya como nosotros estamos en carpeta, nos podemos mover de carpeta a carpeta, o sea, entre carpetas. o K CD lo que hace es el comando que te permite justamente desplazarte de una carpeta a otra. Ya es simplemente CD.
+Espacio y acá colocas, depende la sintaxis que tú colocas, es donde te quieres ir. Si tú quieres ir, por ejemplo, a una carpeta que está dentro de tu este de la ruta en la que tú estás, por eso lo imprimí acá. Ya por ejemplo, me quiero ir a documents a la carpeta documents, simplemente escribo documents.
+Y vean como la ruta ha cambiado.
+Vean como la ruta ha cambiado. Ahora ya no estoy en C user 2022 solamente ahí, sino que acabo de entrar a documents, es decir, en el mismo terminal tú te vas a mover a carpetas. ¿Por qué te mueves a carpetas? Porque ahí vas a poder hacer las acciones siguientes, ya sea crear archivos o crear carpetas.
+O tal vez ver también qué hay ahí adentro. Miren cómo me muevo a documents, presiono lsy veo todos los documentos o este que están ahí, es decir, he entrado aquí y ahí he imprimido todo lo que está acá.
+Es así de sencillo, muy bien. ¿Qué más? Hay otra ruta que es CD 2 puntos. ¿Qué hace CD 2 puntos? Simplemente retrocede un paso atrás. No va a la carpeta anterior, o sea, la carpeta atrás. Si eres como esto.
+Ven y volvemos a la carpeta padre, es decir, seguimos en donde estamos. Payuser 2022, eso hace 2 puntos, es la sintaxis de 2 puntos. Otro más, tenemos CD barrita, esto lo que hace es mandarte a la carpeta raíz. ¿Lo ven?
+Como he regresado a la carpeta raíz que en realidad es C, como lo mencioné de antes, la carpeta C es la carpeta raíz. Si acabo a LS me, pues me muestra todas las carpetas DLS, voy a volver a donde estaba, voy a hacer C de users, miren como me voy ahí CD users, voy a imprimir.
+Puse un comando erróneo y ahí me sale justo ese mensaje, pero voy a poner CD 2, pongo tab.
+Ya voy a regresar ahí, ¿lo ven? Y otra cosa es que podemos ser usar CD imponiendo este la ruta exacta, ya la ruta exacta. Por ejemplo, voy aquí, voy a entrar a una carpeta que no sea users, me voy aquí, voy a copiar esto de aquí.
+No mejor no, porque acá no se avisa.
+Aquí voy a entrar a esta carpeta de aquí, ya acá esta ruta le estoy dando clic, lo estoy copiando control cy lo que voy a hacer es clic derecho y automáticamente me lo pega.
+tiene espacios, por eso es que me pasa eso.
+No tiene espacios.
+¿Ven estos espacios que está aquí? Ya esos los reconoce en su comando, eso los afecta. Ya entonces vamos a otra carpeta bien.
+Solamente para motivos de demostración o k este de acá.
+Esto no tiene espacios.
+Me dice el término 86, ahí está afectando. Vamos a entrar a otra carpeta o K, vamos acá, ya que son mis apuntes de esto sí, más confianza porque son los míos, ya, pero lo que tienes que hacer es acá Cd, colocar la ruta exacta y al momento de justamente presionar.
+Ya te mueve a esa ruta, ya es como si tú le dieras la dirección exacta y ya te mueve específicamente al CD, cocientes, bueno, consciente en mis apuntes C, que es justamente la ruta que le he pasado. Muy bien, se puede entender el término CD, chicos, porque es como que el más de los 5 que estamos viendo, como que el que más sintaxis tiene.
+¿Se puede entender eso?
+Y si tuve unos errores en los comandos, el tema es los nombres de las carpetas que tienen espacio, nombres que tienen este espacios o símbolos extraños afectan el prompt, ya por eso es que como que me da como como que me arroja ese error ahí.
+Carlos me dice, sí, se entendió, se entendió, chicos. Entonces entendió CD para pasar a las 2:00 últimas, los 2 últimos comandos ya que son.
+Súper, súper sencillos. Gracias, Juan, todo claro entonces.
+Yo me dice, yo o si no alguien tiene una duda para explicar lo nuevo, lo hago, no se preocupen.
+¿Cómo puede poner otra ruta de inicio? O sea, te refieres a o sea, a ver, esta ruta de acá representa obviamente la ruta donde estás actualmente en el prompt. Ya con la pregunta que tú me das, lo que entiendo es lo que entiendo es lo siguiente.
+Es que este.
+Modifiques tu carpeta, hay varias, ya hay varias formas de cambiar tu ruta de inicio. La primera que te comenté es CD con CD, simplemente con CD pones la carpeta donde tú quieres ir. Ya en este caso, este la carpeta que tengo aquí es, por ejemplo, el puntaje.
+Puedo entrar ahí, pero mejor voy a hacerlo desde acá ya desde la raíz, porque ahí tengo más carpetas. ya Cd, digamos meses, que es justamente el contenido de esta carpeta, no de la carpeta donde yo estoy actualmente. Ya estoy actualmente en C, imprimí la lista, sé que meses está adentro y al posicionar meses lo que estoy haciendo es o k me voy a mover a esa carpeta que está ahí.
+Y listo, me moví.
+O K, es la otra forma, este John es obtener la ruta. Bueno, si tú tienes la ruta exacta de la carpeta a la que te quieres ir, simplemente lo copias.
+Ya simplemente lo copias y este pones CD TAT lo con click derecho.
+¿Y listo, te mueve a esa carpeta, se puede entender eso?
+Ruta de inicio.
+Exacto, o K, muchas gracias. Bien, listo. Entonces, si se entendió a CD, vamos a poder usar lo que sería las otras 2 comandos, ya que son súper sencillos porque son simplemente comandos para crear una carpeta o un archivo. El comando Mkdir lo que permite simplemente es crear una carpeta, es nada más que eso.
+Ya voy a volver a mi raíz porque este básicamente acá voy a imprimir ya.
+Voy a ir a users, voy a ir a ya listo. Entonces estoy ubicado aquí, ya tengo todo estos testes y lo que yo quiero crear aquí es una carpeta.
+¿Qué hago la carpeta dónde se va a crear? Primero la carpeta se va a crear en la ruta en la que estás actualmente. Bien, que en este caso es esto.
+Ya ojo con eso, la carpeta se crea ahí. ¿Qué hacemos? Ponemos MKDIR y acá simplemente ponemos el nombre, digamos, yo quiero llamarle proyecto nuevo, o k si yo hago esto automáticamente me lo crea. ¿Cómo lo sabemos? Bueno, este podemos entrar ahí donde hemos creado ya.
+Es justamente donde está y aquí está la carpeta que se creó ya, pero si tienen más conocimiento del prompt, lo hacemos desde aquí, prestamos lsy vemos que exactamente aquí está la carpeta que se creó. Ya ahora algo a tomar en cuenta los espacios en el nombre de la carpeta. Si tú creas una carpeta con espacios.
+¿Vas a afectar al prompt? ¿Cómo así? Miren, voy a intentarlo, voy a poner proyecto nuevo así. ¿Y qué es lo que va a pasar? Efectivamente, me va a arrojar un error ese espacio. ¿Cómo coloco entonces? ¿Cómo creo yo entonces carpetas con un nombre que tengan espacio?
+Para eso usamos simplemente las comillas, chicos y chicas, ya usamos las comillas, proyecto acá a ver.
+Nuevo.
+Sí.
+Y listo, vean como ahora sí me creo. Voy a mostrar otra vez la lista de carpetas que se crearon y efectivamente, aquí lo resaltado es esa carpeta de proyecto nuevo que creamos. Muy bien, es así de sencillo como se crean carpetas. Ahora, ¿cómo se crean archivos?
+Bueno, los archivos, por ejemplo, quieres crear un index HTM, un CCS. Usamos el término touch, pero chicos, el tema con este prompt que está aquí es que no soporta touch. Si yo, por ejemplo, escribo touchindex.html, me va a salir un error porque este término no se utiliza.
+Ya este término, este prompt obviamente es para crear archivos, pero el PowerShell no soporta este, no soporta este comando, ya no lo soporta, pero no se preocupen porque ahorita vamos a descargar otro prompt, o sea, otro este otra terminal mejor ya que es Git Bash.
+Bien, pero es básicamente eso, es el término, quédense con ese término y además usualmente creamos por code, cierto, o sea, por Visual Studio Code es donde creamos el index, ¿no? Bien, entonces.
+Con esto yo creo que ya estaríamos terminando el terminal y si nos vamos nosotros a nuestro laboratorio, que es el laboratorio número 5. Bueno, es el laboratorio número 5. En cuanto a la parte uno es justamente relacionado a esto, la terminal y las actividades que se realizan acá, los puntos que se realizan acá.
+Son simplemente puntos este de práctica, ya no son algo que nosotros que yo, por ejemplo, no puedo evaluar porque ustedes lo van a hacer en su máquina, no van a abrir la terminal, van a este ejecutar ese comando que les mencioné, no los comandos en Powershell LS para ir, pues pueden ir practicando ahí creando carpetas.
+Moviéndose de un punto a otro, ver, sobre todo probar el CD, no navegando con el CD ya volver atrás con CD 2 puntos, ya, pero lo que sí se les pide o los que sí, lo que sí se visualiza ahora es que deban crear una carpeta para proyecto. Como sabemos, este code 101.
+Vamos a realizar 3 proyectos, cierto, cada módulo es por un proyecto y lo que queremos es que ustedes tengan no tengan esos proyectos dispersos, sino que lo tengan en una carpeta única. Tal vez ya lo tengan organizado en una carpeta única, ya si es así, pues no es necesario esto, pero tal vez puedan practicarlo.
+Porque lo que nos dice es que creen una carpeta de bootcamp en un sitio seguro, no necesariamente documents, ya creen este, vayan a documents, creen la carpeta bootcamp, accedan a la carpeta bootcamp y nada más que eso impriman la ruta. Es simplemente eso es lo que viene.
+La carpeta 1.6 es eso ya, pero ustedes tal vez tengan la dónde van a crear su proyecto, centralícenlo chicos, por favor, tengan organizado que no estén dispersos sus carpetas de proyecto, ahorita solamente tienen un proyecto, obviamente, pero van a integrar 1 segundo proyecto, entonces esos tienen que estar ahorita.
+En un sitio seguro, ya yo no sé cuál es el sitio seguro porque yo no conozco su equipo, ya, pero el mío, por ejemplo, está en, no sé, en documents. El mío está en el disco local C, la verdad está en el disco local C, básicamente aquí en dep. Así se llama mi carpeta de código. Bueno, este no es mi.
+Computadora, este no es mi laptop oficial, así que no está lleno de código. En realidad solamente está con el código que estoy trabajando con pues con la empresa, no con el bootcamp que tiene sus propios sistemas. Pero ustedes, por favor, tengan una carpeta propia para su código. Muy bien, porque ahora van a crear varias carpetas y es mejor que esté.
+Centralizadas en una carpeta, ya que en este caso es bootcamp. Eso es solamente lo que sería, pues el laboratorio número.
+Bueno, la parte número uno, laboratorio, este el laboratorio número 5, muy bien, ok, chicos.
+Si quieren pueden crearlo, ahorita ya hay un les doy 1 minuto para que lo puedan crear.
+Vale, ves, sí, un minutito ahí para que lo puedan crear.
+Hay que decir algo.
+No cree en proyecto nuevo, era parte de la práctica, no se preocupen. este.
+No, ahorita vamos a ahorita en realidad lo que vamos a hacer es otra cosa para este proyecto número 2, ya este no vamos a crear una carpeta desde cero, van a ver como la potencia que tiene GitHub, este esta carpeta de proyecto nuevo que yo creé es simplemente una demostracional, simplemente eso.
+Bien, no cree en una carpeta de proyecto nuevo, por favor.
+Mhm.
+A ver el módulo 2 en tu cuenta o K raro, a ver, vamos a verlo.
+Porque sí lo abrí para todos, este Carlos es extraño.
+Confirman chicos, si ustedes ven el módulo 2 porque actualmente sí está.
+Si está activo.
+Me confirman, por favor, si ustedes ven el laboratorio y la clase.
+Este April, a ver, sí, practiquen, practiquen parte del laboratorio. Uno, como les digo, es simplemente que practiquen estos comandos, exactamente usen el MK DIR, el CD, el este para que puedan dominar esto, no que lo usen en su día a día para que puedan pues dominarlos.
+No tiene módulos o K, voy a comentarle a Gabriela, a ver, espérenme un momento porque ya lo activé, pero es muy extraño que no se pueda visualizar.
+Un momentito, chicos, que Gabriela es la capa en esto, discúlpeme a ver.
+Pero me los pongo ahorita a ver.
+Mhm.
+Verro.
+Publicar únicamente el módulo ya.
+Voy a avisar, no se preocupen, chicos.
+Him.
+Todos tenemos esos problemas, chicos, por favor, para saber para diferenciar, no está activo el módulo 2, me dice.
+Sí, creo que ya veo 3 alumnos con eso, entonces parece que es un problema general ya.
+Mhm.
+Why, why, why, why, a ver.
+Ah, mini, mini, mini.
+No.
+A ver.
+Re-meeting.
+No creo que sea así.
+Ya vamos a colocar el módulo y todos los ítems. Sí, chicos, ya la vi, ya la vi, ya la capté, ya la capté. Buen ojo, buen ojo. A ver, vamos a probar esto, vamos a probar en vivo.
+Ya nada, chicos, aquí no pasó nada, aquí no pasó nada. Ahí, por favor, me confirman. A ver, en unos segundos, seguro se va este, me confirma.
+Me volví capo en 5 segundos, a ver, este me confirma, por favor, que ahora sí se ve.
+Los que no pudieron ver, por favor, recargar su página, voy a ver, incluso voy a ver a como estudiante ya.
+Que ver como estudiante para ver si ya se puede ver.
+Ya creo que ahora sí.
+Creo que ahora sí, genial, hicimos chicos, le decimos.
+Ya le mandé el mensaje a Gabriel, mejor lo voy a eliminar porque todavía no lo lee y no.
+Está de vacaciones, imagínense que estará haciendo este entonces.
+Ya ahora sí, no creo, ya listo, listo chicos, listo, vamos a continuar. Entonces, si ya lo pueden ver, pueden acceder a su laboratorio número 5 y pues como les comenté, la parte uno es simplemente práctica ya y crear una carpeta donde van a colocar sus proyectos. Ya ustedes crean la carpeta en el sitio seguro que ustedes consideren.
+De su máquina, póngale un nombre descriptivo. Acá les propone bootcamp. Ustedes pueden proponerle ponerle un nombre descriptivo que represente justamente, no sé, proyectos bootcamp, etcétera. Ya eso es la parte número 1.6 muy bien.
+Entendió hasta ahí chicos porque ahora voy a pasar a la parte número 2.
+Correcto, parece que nadie tiene alguna consulta, ya podemos cambiar.
+Listo, listo, listo.
+Ya vamos a abandonar la vista estudiante.
+Y vamos a pasar a la parte número 2.
+Pero antes acá hay una breve pregunta.
+Hay una breve pregunta, miren.
+¿Estás en esta ruta de acá? Users María Documents, ¿qué comando te va a llevar a Users María?
+¿Tienes la?
+¿Quién es el B?
+¿Tienes el C o tienes el D? ¿Qué comando, chicos? Por favor, en el chat me responden. Respuesta A, respuesta Bc o D.
+Para esta pregunta.
+Ya me respondió Gabriela por mientras respondan por favor esta pregunta.
+A ver chicos en el chat, por favor, me dicen CC, a ver unas respuestas más, a ver cuál creen que sea la respuesta.
+I said.
+Y Honduran me dice, sí, Yarny, ahí está escribiendo, Yarny.
+Ve, uy, ve, ver.
+¿Ok, chicos, cuál era la respuesta?
+En realidad hay 2 respuestas, o k pregunta trampa, habían 2 respuestas, tanto la B como la C me van a llevar a esta ruta, o k, pero hay una diferencia y es cuál es más como que, por así decirlo, más resumido o más efectivo. Ya ambas me llevan a la misma ruta. por.
+Pero este, si no quieres escribir tanto, ya sabes dónde estás ubicado, o k sabes que estás ubicado aquí y presiona CD. ¿Qué es lo que hace CD? Pues simplemente te lleva una carpeta atrás, cierto, es decir, amarilla, o sea, te lleva esta ruta, entonces la C cumple. ¿Por qué la? ¿Por qué esto también cumple? Porque acá le estás dando también.
+La ruta exacta, que es justamente como funciona este CD, cierto, le estás dando la ruta exacta y por eso también está viajando a efectivamente a donde queremos. Entonces ambas son, pero obviamente este cuál cuesta más, digamos, escribir, no, por cuál cuesta más escribir la B correcto entonces.
+En tal vez en ahorro de tiempo, la C es como que, por así decirlo, tu mejor opción. Bien, listo.
+Dicho esto, justamente la respuesta que nos da, vamos a pasar ahora sí, ya vimos las terminales y los comandos básicos, vamos a pasar a lo que sería aquí.
+Ya muy bien, pero para explicar Git vamos a explicar el problema. ¿Qué es lo que pasó para que nazca Git? Para eso voy a usar justo la carpeta proyecto.
+¿Que usé ahora?
+Ya voy a usar justo la carpeta proyecto que se ahora me permite un momento, voy a abrirlo con code.
+Mhm.
+Porque he hecho varios trabajos de universidad respecto a codificación y ha pasado lo siguiente, ya digamos que en este momento no tenía conocimiento de Git.
+¿Ya qué es lo que pasaba? O K, todo tranquilito, creaba mi HTML. Listo, ya lo tenía o K. Luego venía a querer agregar una característica. ¿Qué es lo que hacía?
+No sé si ustedes ya los que han videojuegos, los que han jugado videojuegos también me tengan, me entiendan. Y es que hay la opción de guardar partida y cargar partida. Cierto, nosotros guardamos partida ya y continuamos el juego, pero a veces, por ejemplo, sabemos que hay un boss súper complicado y no tenemos que arruinarla, por así decirlo, pero si lo arruinamos.
+¿Qué es lo que hacemos? Cargamos partida hacia el punto anterior. Cierto, yo creo que los que han jugado videojuegos me entienden mucho en este aspecto el usar estas funcionalidades, por ejemplo, a Silent Hill, a Resident Evil, diferentes juegos, ya porque básicamente más o menos así manejamos nuestro código.
+Muy bien, más o menos así manejamos nuestro código ya exacto, un checkpoint, ya ese checkpoint me suena a crash, casi le llamaba yo a esos puntos de guardado, un checkpoint ya, pero es justamente por ahí. ya ¿Qué es lo que pasa? Que yo creo a mi index HTML todo bonito.
+Pero si yo quería agregarle algo, digamos, para no afectar lo que ya tenía hasta aquí era perfecto. Dije, okay, voy a agregar algo. Lo que hacía era sacaba una copia y en esta copia, cuando esta copia en realidad lo guardaba y trabajaba en siguiente. ¿Por qué? Porque no quería arruinarlo, porque sentía que sí.
+Me equivocaba en algo, tenía que volver a eliminar todos esos códigos de línea que tenían error. Bueno, entonces lo más fácil era simplemente eliminar esto y pues tener la copia, cierto que digamos era o tal vez sí lo lograba y tenías que una versión 2 de tu index, ¿no?
+Luego seguías avanzando y tal vez ya tenías el proyecto terminado y tenías un index final, correcto, o tal vez en una versión 2, que es lo que pasaba, que pues este tenía un error y tu versión 2 lo terminabas de corregir ese error y tenía esto.
+Sí.
+Corregido ya un index versión 2, corregido o k así trabajaba yo chicos en la universidad cuando no tenía conocimiento de este. ¿Por qué hacía copias, varias copias? ¿Por qué? Pues me permitían justamente como esa partida, no me daban como varios checkpoints para primero para guardar copias de seguridad.
+Y segundo, pues para moverme entre cambios.
+Muy bien, esto en realidad es lo que se llama, tiene un término y se llama sistema de control de versionamiento. ¿Qué es un sistema de control de versionamiento? Ya es un sistema que va a permitir registrar los cambios que tú le has hecho a un archivo a lo largo del tiempo. Y es básicamente eso, al index yo le hice cambios, ¿no?
+Y pues cada cambio representó algo, no, ya sea pues un una versión 2, una versión corregida, etcétera, a lo largo del tiempo. ¿Pero qué pasa con esto? Esto de acá es un sistema de versiones, pero muy primitivo.
+Porque tenía que sacarle copias, etcétera. Linux Torval, el creador de Linux, tenía esta misma situación, pero no solamente con un programador. Tenía varios de programa, varios programadores. Imagínate la cantidad de archivos que había ya la cantidad de cosas así que se generaba.
+Muy bien, entonces lo que él necesitaba era crear un sistema de control de versionamientos ya porque esto no le funcionaba, era muy engorroso, era muy difícil de mantener. Entonces lo que él crea es lo que nosotros llamamos kit. Lo creó simplemente en 2 semanas.
+Creo Git, chicos, ¿qué es Git? Entonces Git es simplemente es lo mismo, es un sistema de control de versionamientos. O sea, vas a poder controlar este los cambios que has realizado ya registrar esos cambios realizados en un archivo o varios archivos a lo largo del tiempo. Pero Git es más eficaz, chicos, Git es más eficaz.
+Más sencillo de usar, por así decirlo, tú no tienes que estar creando, copiando archivos, no van a ver lo sencillo que es esto. Muy bien. Entonces, ¿cómo funciona Git? Okay, primero para usar Git, chicos, ya primero para usar Git, ajá, vamos a tener que instalarlo ya porque Git es un software.
+Ya no está incluido en tu computadora. Git es un software, para eso vamos a instalarlo juntos porque yo me acabo de desinstalar el Git para hacerlo desde cero como ustedes. Voy a pasarles el enlace, voy a pasarles el enlace de Git, no voy a pasarles mejor el enlace directo, ya que es esto de aquí.
+No mejor, a ver, voy a pasarles el enlace directo de aquí, aunque a usted se los voy a va a detectar.
+Ya esto acá.
+Les paso el enlace, chicos.
+Para que ustedes accedan a ese enlace para que lo descarguemos juntos bien para descargar juntos. Exacto, sí, eso exacto. Muchas gracias, Juan, por el aviso. Los que ya tengan git y ya lo han, ya lo han instalado, por favor, no se preocupen, vamos a guiar a los que tal vez todavía no lo tengan para instalarlo juntos.
+Bien, ya los que no pueden tomar agüita y mirar, no se preocupen, vamos a hacerlo rapidito. Ya estoy en la página web, estoy en la página este web de Git, me voy aquí al botón más resaltante que dice instalar para Windows, acá les va a salir a el sistema operativo en realidad.
+Que ustedes tengan a mí me detecta Windows, la mayoría aquí tenemos Windows, así que va a ser sencillo ya.
+Luego dónde vamos, luego vamos aquí.
+A este sencillo, a este enlace de aquí a click here to a un lado, no vean lo demás. Por favor, no se saturen. Veamos simplemente esto, le damos click y automáticamente me descarga el instalador.
+Descarga el instalador.
+Bien, voy a mi carpeta de descargas donde está a ver esto de acá. Bueno, yo tengo 2 porque había instalado.
+Yo tengo 2.
+Yo no lo descargo ya a ver.
+Un gato.
+Sí, exactamente yo no lo tengo. Entonces, ¿qué es lo que voy a hacer? Voy a instalar con ustedes chicos hasta aquí. Por favor, espero que los que hayan descargado me sigan. Si no me pueden levantar la mano y decirme, pues profe, dónde, espero que me que me sigan hasta aquí. Tendríamos que tener ya el instalador para pues instalar el programa.
+En nuestra máquina simplemente le damos doble clic. Ya ahí me siguen, por favor, los que no hay alguna duda para poder continuar, están los que pues los que lo han descargado están conmigo.
+Yami, perfecto, muchas gracias.
+Bien, ya listo.
+¿Qué es lo que pasa? Me ha abierto el instalador y aquí pues es simplemente cosa de next, next, next, chicos. Es simplemente eso, no se preocupe, no les va a pedir dinero, simplemente es una herramienta totalmente gratuita, ya es totalmente gratuita y ya vienen configuraciones por defecto.
+Lo que simplemente las demos es darle next next next es puro next chicos, ni se detengan en leer, confíen porque la configuración por defecto que ya me da este git.
+¿Es este ¿Es suficiente?
+¿Quieres que hagas cambios en tu dispositivo? ¿Me mandas, por favor, la captura por ahí por el chat de reunión?
+Yeah.
+¿Cambios en tu dispositivo, cómo así este qué cambios específicamente?
+Madrid.
+Porque si es la primera ventana que nos sale es simplemente esto.
+sí es esto es simplemente sí, es esta ventana que tú ves, no sé si lo puedes visualizar, simplemente si te dice quieres permitir que esta aplicación realice cambios en tus dispositivos, dale que sí.
+Nada más es este por motivos de seguridad lo hace tu sistema operativo.
+Mhm.
+No te preocupes, dale que sí, totalmente next, deberían este debo de darle tanto siguiente, siguiente, siguiente.
+Deberías terminar justamente mostrándote una barrita de grueso donde se está descargando.
+Yeah.
+Genial, pero genial.
+Okay.
+Muy bien, aquí simplemente esperamos.
+Pero decirles algo, decirles algo. Git es una herramienta este totalmente local. Es offline, no necesita Internet, muy bien. Git no necesita Internet para que pueda funcionar. Ahora lo van a ver porque ya porque se basa básicamente en repositorios pues locales.
+Por mientras en su powershell, una vez se termine de este de descargar, ya voy a darle clic acá, voy a dar clic para poder limpiar este comando.
+Ahorita me ejecuta, bueno, ahorita termina de instalar, pero decirles algo también. Git está basado netamente en comandos, chicos y chicas, está basado solamente en comandos. Git no te va a dar una interfaz visual que tú puedas ver, o sea, no se va a abrir un una ventana visual donde tú puedas darle clic.
+Vayan a ver botones, no git no es, no tiene eso, te va a dar sí comandos que te van a justamente permitir ese control de versiones, que es lo que queremos, no control de cambios que le vayas a hacer a tu código de programación ya.
+Pero este para esto git viene con una herramienta adicional ya de comandos, un prompt que se acuerdan que decir que lo íbamos a instalar un prompt, una terminal muy potente y esa es git bash. Ya vamos a desenmarcar si estamos aquí, si hemos llegado, vamos a desenmarcar este acá porque no queremos.
+Ver esto, sino esto abrir Git Bash, que es la terminal que nos ofrece Git.
+Para poder ejecutar comandos ya.
+Si se encuentran aquí, yo le doy a finalizar.
+Y me va a abrir automáticamente, pues otra terminal que ven que es muy diferente. Esta terminal de aquí, chicos, sí es, pues netamente sí vamos a poder correr los comandos que mencioné anteriormente, acá sí, ya sin miedo, chicos.
+Se llama Git Bash.
+Ya si ustedes lo si ustedes no lo pudieron abrir ahí, simplemente ponen git bash.
+Ya así como está, yo le voy a escribir en el este.
+Y les va a abrir esto, así que adiós Powershell, porque ya no lo vamos a usar. Vamos a quedarnos con esto de acá. Vean, si yo pongo PWD, puedo usarlo, me da la ruta, puedo poner LS, me imprime también la lista, etcétera. Lo que creo, lo que quiero ejecutar acá, no sé si clear.
+Así, clear también funciona aquí. Lo que sí voy a imprimir es este comando de aquí.
+Git menos B, Git menos B es para comprobar si se ha instalado correctamente chico su git para los que han terminado ya y estén más seguros de hey, se instaló mi git, le ponen git menos by ahí le va a dar la versión.
+Yeah.
+¿Ver qué es ahí?
+Dice línea, uy, no configuré Skype.
+Me.
+Yeah, okay.
+Esta línea me parece súper súper súper extraño, qué raro, este le viste.
+¿Next, next, next, y te apareció eso, John, este John?
+Ese error no me suena, me parece muy extraño.
+Yeah.
+O sea, liste.
+
+Orador 2   1:01:43
+Hola Eric, sí le he dado todo next sin modificar nada en los campos ni los ni los electores como indicaste, y al final me ha salido eso.
+
+Orador 1   1:01:45
+Sí.
+Huh?
+
+Orador 2   1:01:52
+Clos.
+
+Orador 1   1:01:54
+Okay.
+Ya voy a hacer lo siguiente, o k un momento, porque en serio ese error es la primera vez que yo lo visualizo, entonces voy a preguntarle.
+A la IA, pero por mientras los demás, este, por favor, los demás programadores, programas que estén instalando me sale así, está bien.
+Hay hay una acá, este está bien, tienes ya tienes git bash, pero se para el git de menos B a pri o k así mira git menos B, pone espacio ahí entre eso y te va a salir mejor porque ahí te está diciendo que no reconoce ese comando que tú estás poniendo ya a ver.
+Respecto al tema, John, a ver, vamos a...
+Vamos a poner acá.
+Okay.
+Vamos a poner acá.
+A.
+Gemini, yo tengo Gemini este que sí me va a reconocer, obviamente, las imágenes.
+A ver qué nos dice la IA respecto a tu problema, John, okey.
+Muy extraño que le haga eso en el setup.
+A bloqueo de seguridad, dice.
+Parece que tu Windows Defender, John. este.
+¿Han bloqueado la instalación?
+
+Orador 2   1:03:58
+Y ya, como el.
+
+Orador 1   1:03:59
+Ejecútalo como administrador. Ajá, exacto, ejecutalo, pero prueba este ejecutarlo como administrador, por favor.
+Primero que lo pruebas, a ver, eso puede ser otro, Kevin, claro, puede ser otro otra situación, pero ejecútalo como administrador. Cierto, te vas a donde está tu ejecutador, le das clic derecho, ejecutar como administrador.
+
+Orador 2   1:04:07
+A ver.
+
+Orador 1   1:04:21
+Y ahí le das así.
+¿Ya me comentas como eso, cómo te va, por favor?
+Lo siguiente podría ser que dice que desactives temporalmente el control de aplicaciones.
+¿Estás en Windows, cierto?
+Es yo.
+
+Orador 2   1:04:43
+Eric, lee lee cómo se llama.
+Le va a aceptar nomás a ese a ese mensaje.
+Y automáticamente me ha.
+
+Orador 1   1:04:51
+Y.
+
+Orador 2   1:04:55
+Me ha me ha mandado, me ha salido esto ya, o sea, como que me ha salido la última imagen que pasaste respecto de cambiarle en el.
+¿Dónde está? Espérame, esa ese primer campo que compartí, así me está saliendo, mira, no.
+
+Orador 1   1:05:07
+No.
+
+Orador 2   1:05:11
+Oh.
+
+Orador 1   1:05:12
+A ver, me lo compartes, por favor, ponerme en la.
+skip bash ok ahí escribe esto parece que se ha instalado simplemente lo que has mostrado hace un mensaje de advertencia vamos a probar vamos a probar a ver
+
+Orador 2   1:05:21
+Sí, pero.
+Yes, you.
+
+Orador 1   1:05:27
+Ahí escribes el comando que está aquí, tal vez haya sido solo un mensaje de advertencia y aún así te lo haya instalado.
+
+Orador 2   1:05:36
+Sí, pues porque.
+
+Orador 1   1:05:36
+Si en ese comando tú lo ejecutas y te sale exactamente la versión de Git que tienes, entonces se se ha instalado este sin ningún problema.
+
+Orador 2   1:05:48
+Yo le pongo git espacio, me dices menos bueno.
+
+Orador 1   1:05:48
+No.
+Y hombre.
+Mhm.
+
+Orador 2   1:05:56
+Sí, normal me vuelve a salir el mismo mensaje de arriba.
+
+Orador 1   1:06:00
+Y versión, o sea, te salió versión. Exacto. Entonces, muy bien, sí se instaló correctamente. John, no te preocupes, o K, sí puedes trabajar con nosotros. Listo, genial. Muchas gracias, ya.
+
+Orador 2   1:06:02
+Sí, correcto.
+Yep.
+Ah ya, gracias, Ari.
+Gracias.
+
+Orador 1   1:06:13
+Bien, entonces parece que ya todos estamos, ya tenemos git en nuestra máquina. Genial, o K, ahora sí vamos a pasar a lo que sería parte del laboratorio ya porque ahora vamos a avanzar lo que sería la parte del laboratorio número 2.
+Ya en este momento ya tienes git en tu máquina, ya hemos verificado justamente con este comando la versión que tenemos, les va a salir pues un mensaje descriptivo y lo que quiero ahora, chicos y chicas, es que configuren también o k su identidad.
+¿Por qué es necesario su identidad? Porque al momento de guardar cambios se va a guardar. ¿Quién lo ha hecho ya quién lo ha hecho? Importante eso.
+¿Quién lo ha hecho? Y hay otra importancia más. Ya Git, como les comenté, es una herramienta que les permite, pues bueno, que hoy en día todos los desarrolladores en una empresa lo usan, o sea, en un código, perdón, en un equipo de programadores ya usan Git. Entonces, al momento de guardar los cambios.
+¿Por qué es necesario este que salga tu nombre? Pues para conocer justamente quién hizo ese cambio ya y pues para verificarlo, por ejemplo, con esa persona, hey, tú hiciste ese cambio, sí, bueno, ahí sale, ¿no? Cuando nosotros ponemos este comando de acá.
+Que es este de aquí chicos, este es el comando que nos permite primero iden autenticar nuestro nombre. Ya ahí lo voy a pegar, pónganlo eso ahí y claro, pongan dentro, pongan dentro su nombre ya, por ejemplo.
+Great.
+Pongan dentro su nombre y aquí ponen, no sé.
+Y.
+Le voy a poner cat nomás.
+Listo ya y luego aquí creo que sin las comillas, sin las comillas funciona con las comillas, con las comillas también creo.
+¿No hay problema con las comillas, no?
+Yeah.
+Eso es para que pongan su nombre y aquí pongan un correo.
+O K, pongan un correo, si no tienen un correo, simplemente pueden, creo que pueden ponerle espacio.
+Ya pueden ponerle espacio así.
+No les va ahorita mismo ya aquí no les va a autenticar el correo, no se preocupe, por eso ya le he puesto un espacio aquí, no les va a autenticar ningún correo que es esto de aquí ya voy a pasarles también este prompt que está en su laboratorio también, así que ahí lo pueden visualizar.
+Ya este es el prompt, cambian obviamente el tu email por pues por tu este.
+Por el tuyo o ponle un espacio si no tienes un correo. Ahorita no es importante, chicos, pero cuando vemos GitHub sí va a ser importante, pero tranquilos, este se puede cambiar. Ya ustedes han puesto tal vez su nombre equivocadamente, ejecutan de nuevo este prompt con el nombre correcto, se sobreescribe, no se preocupen.
+Ya se sobreescribe, ok.
+Ahí pónganle su este y cómo vamos a ver justamente qué es lo que se puso, chicos, con esto de acá, con este comando que está aquí. Cuando una vez ustedes pusieron su nombre, lo recomendable es que pongan pues su nombre completo para que pues así se puedan identificar al momento de guardar un cambio.
+Ya y también, pues así se pueden identificar de manera profesional, no cuando digamos, tal vez ustedes usen gif en un proyecto real, ya porque si ustedes pueden tal vez un apodo, pues digamos otro programador que ve tu código, no lo va, no te va a reconocer, pues con un apodo a menos que te conozca muy bien.
+O K, entonces git config list lo que permite es poder ver este ese código, o sea, ver lo las configuraciones que tienen tu git.
+Acá te va a dar una lista de configuraciones, pero lo que nos interesa a nosotros, lo que nos interesa a nosotros son estos 2.
+Ya aquí, por ejemplo, están lo que hemos puesto. Yo no he puesto nada en email, por eso no me sale nada espacio. Y aquí en username me sale cat cloud. Ya ustedes fíjense ahí eso, por favor.
+Fíjense ahí eso, por favor.
+Bien, con eso se fijan y también otra cosa más, acá hay otros 2 prompts que nos recomiendan. La primera es este prompt Iván, bueno, este prompt que está aquí, que simplemente lo copian y lo pegan. Este prompt lo que hace es define por defecto o configura por defecto cuál es tu editor de código, ¿no?
+En este caso estamos poniendo como editor de código.
+Ya lo vamos a poner aquí, aunque creo que ya de manera default, cuando nosotros creamos cuando nosotros estamos instalando, ya lo pusimos así. Entonces esto no va a ver tanto la diferencia.
+Pero este comando de aquí sí es muy importante. Ya este comando aquí sí es muy importante cuando yo este creo una, cuando yo expliqué ramas más adelante, ya lo que hace este comando es la rama principal con la que se va a crear tu repositorio. Va a tener siempre el nombre de main en cualquier lado.
+O K, ese nombre es muy importante, sobre todo cuando veamos GitHub, chicos, ya luego vuelven a ejecutar este comando que ya se los pasé. Primero voy a pasar es este de la rama, ya en total son cuatro comandos, ya en total son cuatro comandos, muy bien, el del nombre, el del email y estos 2 de acá.
+Para configurar tu editor y para cambiar tu nombre de rama a min.
+Nada más. Y luego está este comando de aquí git config list que sale con este diferente para ver justamente esas configuraciones que las aplicado. Con eso ya estaremos listo para usar git. Ya voy a ejecutar esto, por ejemplo, y vean, vean, por favor, primero vean que obviamente no he puesto este.
+Nada en el mail.
+Pero si he puesto cat cloud, por ejemplo, nombre. Bueno, acá debería poner ir, pero como estoy usando un personal no hay problema, pero aquí en init default branch tiene que indicar main ya que significa que la rama por defecto se llama main.
+Ya por favor, con eso me mandan su captura, chicos, me mandan su captura a aquí por el chat, no más creo, sí, por el chat creo que se puede visualizar o por el WhatsApp. Creo que por el WhatsApp sería por el WhatsApp, me manda mejor chicos, porque por acá se va a sobrecargar el chat, me manda su captura de la ejecución de este comando de aquí.
+Git config guión guión list, ok.
+Una vez hayan ejecutado esto ya.
+Ya estamos avanzando el laboratorio de la parte 2 y ahí también pueden encontrar los comandos que les piden que ejecuten.
+Cualquier duda, cualquier consulta, tienen algún problema, por favor, levanten la manito y yo los guío. Ya no se preocupe.
+Tenemos que tener todos git configurado, los que acabamos de instalar, obviamente, para pues poder hacer los siguientes cambios bien.
+Me mandan la captura por aquí, bien, ya están mandando genial.
+Genial, John ya me mandó. También puso su email y su default branch mail. Perfecto, tienes ya configurado listo.
+Hey.
+Ahí me mandan la captura, a ver, ahí les doy unos minutitos, unos 3 minutitos por favor.
+Genial, gracias, Carlos, ya me envió, se puede visualizar buenísimo.
+Buenísimo main main.
+Buenísimo, ahí está, ya me está poniendo stream. Bien, puse nombre llamen John, pero salió John. ¿A qué se debe así?
+Puede ser uno por la ñ que no lo identifica.
+¿Cómo lo pusiste este yo? Me parece súper extraño porque mira, yo voy a poner mi nombre ya con flecha arriba. Tú puedes usar comandos que has que has tenido y voy a poner, por ejemplo, username.
+Eric Verde, tal vez sea porque para poner nombre espaciado tienes que ponerlo dentro de comillas. O K, mira así, Eric Verde.
+Ya ahora cuando vean coffee list.
+Ahí sale, ¿lo ves? Tal vez tu nombre lo tienes que poner ahora sí entre comillas. Recuerdas como los nombres de carpetas este John así vas a tener que ponerlo entre comillas para que puedas reconocerlo, ¿vale?
+Ajá, no es por la Ñ, es por el espacio. El espacio es reconocido solo la primera, el primer término. John ha ignorado peña, pero si tú lo pones entre comillas, tu nombre lo pones así, como te comento aquí, no sé, tú no me lo pones así.
+Ya ahí sí lo va a reconocer, ajá, tal como lo dije, como tal y como lo hice yo aquí, o k.
+Perfecto, qué bueno o k ahora sí.
+Bien, creo que ya todos estamos, chicos, chicas, ya todos estamos genial, Ángel, Sobrina, Diego, que.
+Muy bien, perfecto, no, gracias a ti por esa. Nosotros teníamos que también validar eso, no, porque obviamente la mayoría puso su nombre así.
+Bien ya.
+Estoy dicho y esto, dicho y hecho. Ahora sí, chicos, ya hablamos de Git, que reconoce justamente los cambios que vamos a hacer en nuestro proyecto, pero vamos a pasar a explicar el flujo, el flujo de Git. Para eso voy a apoyarme yo ya lo primero que voy a hacer es experimentar, chicos, no tienen que se.
+Tiene un bol.
+No tienen que seguirme necesariamente porque yo voy a usar una un proyecto, voy a usar un proyecto random ya porque lo que quiero más que nada que se vea es.
+Este.
+El funcionamiento de los comandos, ya voy a usar este index que está aquí, este index que está aquí, que es justamente la carpeta proyecto práctico. Ya o K les voy a explicar el flujo, es decir, cómo nosotros este Git es un operador, chicos, ya Git es un sistema.
+Que primero funciona mediante repositorios. ya ¿Qué es un repositorio? Un repositorio es simplemente un proyecto, es una carpeta, pero una carpeta que es vigilada por Git. Ya como te digo, Git funciona con repositorios ya ahora.
+Nosotros tenemos nuestro proyecto ya que vamos a hacer con esto. Yo voy a hacer con el proyecto práctica que está aquí ya voy a ir directamente eso porque voy a interactuar en vivo con ese proyecto práctico.
+Bien, ¿qué es esto de aquí? Voy a ponerlo en doble pantalla para que se pueda visualizar. Tengo mi git bash, primero voy a voy a limpiar lleno de comandos, ahora sí, y voy a abrir esto acá. Genial, ya ahorita estoy en mi proyecto práctica, primero tienes que ubicarte ya.
+Primero, tienes que ubicarte, hasta tu gifbash ya a esto, como les comenté, es por favor, ver porque voy a explicar este proceso, este flujo desde tú crear un archivo, modificarlo, etcétera en tu proyecto hasta tener un objetivo final que es guardar.
+Pues guardar tu cambio, que es justamente lo que nos permite hacer Git. Muy bien eso. Entonces, dicho y hecho, bueno, dicho y hecho. Entonces tengo esto de aquí. Lo primero que les comenté fue que Git funciona con repositorios, no con carpetas vacías. Un repositorio es simplemente una carpeta, ya una carpeta cualquiera.
+Pero lo que nosotros tenemos que hacer es transformar esta carpeta a un repositorio, porque lo que hace Git, o sea, un repositorio es simplemente una carpeta con la capacidad de ser como que rastreada o vista por Git. Es simplemente eso. Ya estoy en mi carpeta de proyecto práctica. Actualmente estoy dentro de mi carpeta proyecto práctica, lo abrí en Visual Studio Code.
+Y lo primero que tenemos que hacer es indicarle a Git, es primero que tenemos que hacer es transformar esa carpeta en un repositorio. ¿Cómo lo hacemos? Primero, obviamente nos tenemos que pues dirigir a esa carpeta. Yo voy a ejecutar este comando para ver, no estoy en esa carpeta como lo ven ahí para hacerlo más sencillo y más rápido.
+Voy a copiar la ruta y voy a poner aquí.
+Siri.
+Pegar ya con esto, ya estoy en mi carpeta.
+miren, nada más, ya acá lo que pasó es ya.
+Bien chicos, acá acabo de spoilear algo.
+No.
+Aquí acabo de después, lea la carpeta.
+Listo, ya o K, aquí no pasó nada, chicos, aquí no pasó nada. Es que como yo estaba, ya estaba haciendo esto, entonces por eso ya estamos acá, estamos acá, no se preocupe.
+Perdón, perdón, por eso ya estamos en justamente la carpeta de nuestro proyecto práctica, pero ahorita es solamente una carpeta. ¿Cómo nosotros convertimos esto en un repositorio que pueda ser rasteable por Git? Para eso existe el comando Git init, lo que hace es simplemente inicializa, o sea.
+Convierte esto esta carpeta donde estoy yo. O sea, efectivamente es esta. En realidad es la carpeta, ya esta es la carpeta en un repositorio. Le doy a Git init y lo que va a hacer es inicializarlo, a ver.
+Ya ahí justo me da ese mensaje, me dice: hey, hemos inicializado este el repositorio en esta ruta. ¿Cómo verificamos eso con esta carpetita acá que vemos acá? Esta carpeta usualmente no va a estar a la vista porque es una carpeta oculta, ya va a estar así.
+Pero es una carpeta oculta en realidad, este en la opción en Windows hay en la opción en vistas, mostrar y ocultas en elementos ocultos. Vamos a poder visualizarlo bien. ¿Qué es lo que tiene esta carpeta que nos acaba de crear? Este en realidad repositorio que nos acaba de crear Git. Este Esta carpetita punto Git tiene todas las configuraciones de Git.
+Pero también va a tener adentro los cambios que vayamos a guardar, que nos que en Git se refiere al término commit. Ya acá se van a guardar los distintos commits muy bien que nosotros vayamos a guardar. Usualmente no tocamos esta carpeta. Nosotros chicos no se toca para nada porque la única forma la que nosotros interactuamos con Git.
+Es a través de comandos como lo hemos estado haciendo muy bien. Entonces, al momento de inicializar, lo que le estamos diciendo aquí es, hey, rastreame esta carpeta proyecto, ya que es la carpeta donde he inicializado, rastreamelo o k rastreamelo porque es mi va a ser mi repositorio de cambios y aquí es donde voy a ejecutar yo los comandos.
+Para pues, para poder guardar o hacer ver los diferentes cambios. Muy bien, eso es todo lo que hace Gittinit. Entonces es el primer comando que necesitas cuando tienes una carpeta, pues que no es un repositorio. Lo segundo que tenemos que hacer y ahora sí entramos a nuestro espacio de trabajo. o K.
+¿Qué es un espacio de trabajo? El espacio de trabajo es simplemente, como le dice el nombre, el área donde tú estás trabajando, que es básicamente esto de aquí, no donde tú vas a crear tus archivos y vas a hacer las cambios, etcétera. Es eso, ya es simplemente hemos estado trabajando sobre un espacio de trabajo. Okay, entonces.
+Voy a abrir esa carpeta, esa carpeta ya está abierta con code.
+Pero yo voy a crear, yo voy a crear chicos un archivo.
+Voy a mover esto acá y voy a crear automáticamente un archivo, aunque ya casi me sale ya.
+Mejor empezamos desde un cambio.
+¿Qué vamos a hacer? Lo siguiente, primero nosotros lo que hicimos ahora estamos en ese mismo punto.
+Ya estamos en ese mismo punto, perdón, por eso estamos en ese mismo punto. Ahora lo que tenemos que hacer es ver el flujo. Estoy en un espacio de trabajo y aquí vamos a crear un nuevo archivo, ya un nuevo archivo. ¿Cómo lo va a tomar Git? Vamos a ver cómo lo vamos a tomar, cómo lo va a tomar Git. Voy a crear un nuevo archivo, digamos.
+Index 2 HTML, ya vamos a crear un nuevo archivo. ¿Qué pasa? Que cuando nosotros creamos un archivo ya Git nota este cambio y a estos archivos nuevos que nosotros hemos creado, Git los conoce como bueno, archivos no rastreados o un tracker. Git sabe que has creado un archivo.
+Pero Git necesita que tú se lo confirmes. Vamos a ver, hay otro comando muy importante que es git status. Git status es el comando simplemente para ver lo que git ha visto ya para ver este lo que git ha visto. ¿Cómo así? Ponemos git status y vemos, por ejemplo, que ha pasado 2 cosas.
+Y ha visto 2 cosas, dice que has agregado 2 archivos, tanto index como index 2 HTML. Están en rojo porque obviamente son archivos untracket, como dice acá, ya como dice acá, son archivos untracket, decir que todavía no han sido rastreados.
+Muy bien, es eso, es simplemente eso. Por eso a eso se refiere. Estamos en esta parte de acá. Son archivos que no han sido rastreados.
+Ahora.
+Ahora Git no guarda los cambios por defecto. o K, ya creamos los archivos, ya creamos los archivos e incluso a esos archivos yo le puedo ya generar código. No le puedo decir, por ejemplo, hey, a este de aquí no sé, ponme un a ver, un H ya un título principal así, etcétera. Lo ven ya.
+O K, ya hice algo acá, muy bien, quiero guardar esto. ¿Qué hago para guardarlo? O K, vas a pasar por un proceso así, o k, voy a poner esto acá, voy a pasar lo siguiente, va a ser una serie de 2 pasos, en realidad sencillo, va a ser una serie de 2 pasos.
+Git, como sabemos, no este no guarda tus archivos por defecto, no es un auto save como lo es, por ejemplo, en Visual Studio Code, no donde guarda automáticamente, no. Git lo que necesitas que tú se lo confirmes y para eso pasa por 2 procesos. La primera es lo que primero que tienes que hacer es avisar.
+Ya tienes que avisar aquí qué cambios has hecho.
+Y una vez tú le hayas avisado, lo segundo que tienes que hacer es pues simplemente guardar esos cambios. Es eso, avisar aquí y guardar se basa en eso simplemente y para eso están justamente estos comandos que están aquí. Para avisar usamos git add y para guardar vamos a usar git commit. Es así de sencillo, chicos.
+Es así de sencillo. Aquí ya hice un cambio, creé, por ejemplo, o tal vez haya hecho modificaciones a mi proyecto. Ahora lo que necesito avisarle al momento de hacer git status me dice que es esto, no me salió este mensaje rojo. Lo que necesito es avisarle, hey, hice estos cambios aquí, te los confirmo.
+¿Qué hago? Hago simplemente git add y lo que sigue es 2 cosas, o puedes poner el nombre.
+El nombre del de los archivos que tú ya has modificado o es la segunda, que es un atajo, es simplemente poner punto o poner punto. Lo que le estás diciendo es todos los archivos que yo he modificado, agrégalos a el área staging. Ya ahorita vamos a ver qué es el staging, pero los ha agregado ya el área staging es justamente esto de aquí.
+Que es un área donde simplemente están los archivos que están listos para guardar. Ya es un área donde están los archivos que están listos para guardar, por eso es que ya están preparados, como indica acá es simplemente esto. O sea, lo que he hecho ahorita es ya avisarle a Git ya avisarle a Git cuáles son los cambios que he hecho y ya voy a guardar.
+Todavía no he guardado o K solamente le he avisado como veo esto git status de nuevo, hacemos git status y acá si nos dice o K este bueno, acá dice que no hay commits, obviamente no hay no hay guardados todavía, pero hay que fijarnos en lo siguiente: ha pasado de rojo a verde ya porque ahora si no dice o K.
+Cambios, dice change to be committed, o sea, cambios ya listos para guardar y aquí están los cambios que se van a guardar, pero que todavía no se han hecho.
+Ok, hasta ese punto estamos en el área 2, hemos hecho el primer paso. Ahora vamos a hacer el siguiente y es ahora sí guardar ese cambio, chicos, guardar ese cambio. ¿Cómo lo guardamos con el siguiente prompt que hemos visto acá con git commit?
+Voy a ejecutar git commit.
+Ya en mi proyecto voy a ejecutar quito mid, perdón, git commit es así, sencillamente git commit, pero acá tienes que colocar el parámetro menos m, que es el mensaje que tú le vas a dar ya git commit menos my el mensaje ya el mensaje es un mensaje descriptivo del cambio que represente tu cambio, básicamente.
+¿Qué has hecho, por ejemplo, yo aquí?
+Cree 2 archivos HTM, digamos, no, esto puede ser un mensaje o k puedes poner el mensaje que tú quieras descriptivo a esto, pero chicos.
+Acá viene una recomendación, un estándar respecto a la forma de crear commits, que es la siguiente que vemos aquí. Hay una convención entre programadores de que la descripción del guardado que tú vayas a dar tienen que seguir como que una regla ya una regla, no simplemente es como dice acá.
+Que pongas que se llame cambios, que se ponga ahora sí sirve versión 2 o cree 2 archivos, no. La convención sigue lo siguiente, tienes que poner acá el tipo de cambio que tú hayas hecho y acá pues la descripción imperativa.
+¿Es así? ¿Cómo así? o K, acá hay términos que tú sí tienes que, pues como programador grabarte o si conoces inglés, este va a ser súper sencillo. El término fiat que tú ves acá significa fiat viene de feature, o sea, de características y tú le vas a poner características nuevas a tu.
+Pero a tú le estás poniendo por características nuevas este a tu proyecto ya usualmente es un Fiat, ya entonces empiezas con el tipo feed de Ponce, en lugar de poner tipo, pones esto y ahí en con imperativa me refiero a usar verbos de ar, er, ir urur, no como este, como ordenar.
+Por ejemplo, acá has puesto un ejemplo de agregar botón login.
+Fix es en realidad para errores. Si tú estás corrigiendo un error o has corregido un error en un cambio, usamos el término fix, fix 2 puntos y bueno, acá vemos, por ejemplo, que ha hecho corregir enlace roto. Style tiene más que nada sentido con cambios de CSS, nada más con cambios de estilos visuales. Si tú has hecho solamente cambios de estilos visuales.
+Te pones styles y un programador ya se da cuenta que o k este cambio representó un cambio de estilos, cambiar color del título. Lo ven, básicamente creo que estos son los 3 más principales, o k, pero esto es lo que vamos a usar esta estándar al momento de nombrar nuestro nuestro commit, no o guardar nuestro.
+Commit voy a borrar esto porque esto no tiene este y lo voy a poner feed.
+Crear 2 archivos HTM, ya le doy este, le doy espacio y ahí me da un mensaje y me dice o k 2 files cambiados. Acá te da un mensaje descriptivo de lo que ha pasado, sean este cambiado 2 archivos y sean 26 insertions, en realidad 26 líneas de código se han insertado.
+Se ha creado esto y se ha creado esto muy bien. El commit ha sido guardado. ¿Cómo yo visualizo mis commits?
+Para eso está el comando git log, git log te da una lista de commits que tú hayas hecho. Acá está la descripción, espero que se pueda ver. Voy a mencionar qué es lo que tiene ya aquí está la descripción del cómic que acabo de hacer. Primero, lo que tiene es sencillamente, pues este de acá, este texto que está acá grandazo es como un identificador, como el DNI del cómic.
+Nada más que eso, segundo que se ha hecho en la rama main, ahorita lo vamos a mencionar. Acá está otro dato importante, el autor que lo ha hecho ya acá, porque justamente mencioné que tienen que poner el un su propio nombre en cuanto al momento de autenticarse en Git.
+Porque sale durante los cambios, lo ven, acá sale su nombre durante los cambios y acá también tendría que salir su correo, ya acá también tendría que salir su correo en la fecha en la que se ha cambiado, o k la fecha en la que se ha cambiado y aquí sale la descripción que tú le has dado a ese commit que es pues crear 2 archivos HTML.
+Y con esto, chicos, si nos vamos a gif status para ver el estado, ya bueno, acá no pasa nada, no nos no nos dice que ya hay archivos que están listos para guardar o que no se han rastreado porque está limpio. Acá nos dice que está limpio, el está limpio en realidad tu.
+Está limpio para cambios, o sea que no hay nada que que requiera, por ejemplo, este ser guardado porque no hay ningún cambio rastreado. Muy bien, y es así como debería terminar. O sea, el resultado es que tú tengas un cómic, chicos, o sea, el resultado es que al momento de decir que tú tengas un git cómic.
+Correcto, pero para eso, como te comenté, tienes que pasar por un git app. Es un proceso muy bien. ¿Se pudo entender ese flujo? Chicos, hay dudas en medio de ese flujo, sino para resolverlas, por favor, es básicamente solo eso, ya es solamente eso.
+Ya son estos comandos que están aquí.
+Son una serie de comandos súper sencillos al momento de.
+Sargi es.
+Claro, ¿en qué punto quieres que te lo repita?
+Específicamente para pasar ahí.
+Porfa, me podrías decir en qué punto quieres que te lo repita o si no, por ejemplo, vamos a hacerlo ahora, digamos ya yo tengo mi carpeta de proyecto, ahorita está limpio, ya no hay ninguna este ninguna línea de código que requiera ser guardada, está súper limpio y digamos que digo o k en mi index 2 yo voy a agregarle una imagen, ya voy a agregarle.
+Una imagen.
+Ya listo, le agregué una imagen a mi index HTML y ahora lo que quiero hacer es guardar ese cambio. ¿Qué hago?
+Primero voy a git status chicos, voy a git status y vean, por ejemplo, que me indica que hay un cambio modificado. Ya hace cuando está en rojo ha rastreado un cambio, pero tú no le has dicho todavía a ese bueno, no le has dicho aquí todavía, hey, este cambio yo lo voy a guardar, no le has dicho todavía eso.
+Es lo que requiere es que tú se lo digas primero. ¿Y cómo se lo decimos? ¿Cómo le decimos? Hey, prepárame este archivo para guardar.
+Lo decimos con git add, cierto, git add punto git add punto me reconoce ese archivo para que pueda ser guardado.
+Con git add punto lo que hace es guardar y al momento de usar git status vemos que está en verde y significa que este cambio está listo. Bueno, este cambio en este archivo está listo para ser guardado, pero todavía no se ha guardado.
+Muy bien, este cambio está listo para ser guardado, pero todavía no se ha guardado. ¿Entonces, cómo hago para guardarlo? Simplemente git commit menos m y acá ponemos la convención que hemos justamente indicado para qué? Pues para que pueda hacer el guardado, o sea, el mensaje descriptivo del commit con git commit menos m es donde ya guardamos.
+Ya es donde ya guardamos entonces a cada comic, por ejemplo, agregar imagen.
+En incluso le podemos ser más descriptivos, es decir, en index punto html porque habían 2.
+Dicho y hecho, ahí justamente ha hecho eso y usamos git log para para justamente buscar los comments que hayamos hecho y aquí se visualiza eso.
+Muy bien, aquí se visualiza.
+Ese cambio que acabo de guardar es sencillamente eso bien.
+Es un este un flujo súper fácil de entender, ya de edit estatus.
+¿Te puedo entender eso, Abril?
+Para.
+Básicamente, Bit estatus es para ver este.
+Muchas gracias, o ky este estatus sería como que yo lo llamo así para que pueda ver, o sea, para ver como que el estado actual.
+O sea, para ver el estado actual, el repositorio, o sea, los cambios, etcétera.
+Ya git log es para que tú veas tus comandos, chicos.
+Perdón, para ver comics, los comics en realidad son los guardados que hace ya, solo que en Git se se tiene ese término comics.
+Ya los guardados que hace luego git add punto.
+Es para este.
+Para preparar los cambios antes de ser guardados, ya los para preparar los cambios que serán guardados.
+Yeah.
+Enlaza el código con Git, eso sería el inicio, vale el inicio.
+Muy bien eso, este Kevin.
+El inicio, como te comenté, Git lo que necesita es que tú primero conviertas tu carpeta de proyecto. Tienes una carpeta de proyecto que has creado, ya digamos este carpeta cualquiera. Ya en mi disco local sea, voy a crear una carpeta cualquiera.
+Nueva carpeta, ya esto va a ser mi carpeta de proyecto. Esta es una carpeta normal, pero Git trabaja con repositorios ya un repositorio es simplemente una carpeta con la capacidad de ser rastreado por Git. ¿Cómo hacemos para que esta nueva carpeta se convierta en una carpeta de proyecto simplemente desde nuestro?
+Vamos a ver acá, yo voy a abrir Git Bash. Aquí es otra forma de abrir directamente desde una carpeta de proyecto o K AP Script Bash ahí y automáticamente estás en esa ruta.
+¿Estás en esa ruta automáticamente ya qué es lo que vas a hacer acá? Vas a ejecutar el comando git init león, este Kevin, vas a ejecutar el comando git init y esto lo que sencillamente hace es convertir exactamente tu carpeta en un repositorio. O sea, estás has permitido que Git acceda a esta carpeta y la pueda rastrear.
+Y puedas ejecutar los comandos que justamente ahí te mandé por el chat. Es nada más que eso. ¿Cómo visualizas eso? 2 formas. La primera es si tú ves aquí que indica main, ya que indica main, es porque efectivamente ya se ha convertido en un repositorio y la otra forma es que en esa carpeta de proyecto donde estás.
+Tiene que salir a este punto Git, que es un que es una carpeta usualmente oculta. Ya tú lo puedes este ver en vistas elementos ocultos. Si te sale este Git es que ya se ha convertido en una repositorio y has enlazado correctamente. A partir de ahí ya inicia este flujo de la cual te hablé, Kevin o K.
+Puedo captar ahí genial, muy bien, el mismo Git en realidad ya te corrige, ya te corrige, por ejemplo, lo siguiente, miren algo rapidito, chicos, ya voy a quitar esta imagen, de hecho voy a quitar este h 2 listo, nada más voy a volver a mi GitHub, aunque este está en este, este no es perdón, es este ya este es la del proyecto.
+Ya si yo pongo git status va a ver que va a reconocer automáticamente que he modificado. Exacto. ¿Qué pasa si yo en lugar de ejecutar, o sea, de preparar mi archivo?
+Ya de preparar mi archivo, simplemente lo mando y quiero guardarlo directamente. ¿Qué es lo que va a pasar? Miren lo que va a pasar. Ya voy a decir git commit menos M, no sé este Fiat.
+Eliminar título, ya eliminar título.
+Te va a dar un mensaje de error que te va a decir que tú no has preparado tus cambios primero para el cómic ya que no tienes cambios que guardar porque no las has preparado y no va a ser el cómic muy bien el git en el mismo que ya te va a corregir en eso, entonces lo que dices tienes razón, perdón a ok quita.
+Ahora sí, cierto, ahora sí.
+Y vean como automáticamente lo hizo. ¿Lo ven? El mismo kit les va a ayudar en este proceso de primero preparar su este su cambio y segundo ya hacer el guardado. Okey, entonces con eso chicos, yo creo que este estaría todo claro, o k alguna duda alguna este o todo claro respecto a.
+Ese flujo para pasar directamente a ramas, chicos, con ese genial.
+O K Git es súper sencillo, chicos, son 5 comandos o 6 comandos que se lo tienen que grabar ya que les que les mande ahí. Es más, voy a mandar también estoy mandando infografías ya y voy a mandar uno de Git ya para que lo puedan ver justamente ahí el resumen de comandos. ¿Es posible mañana mismo?
+Porque es súper sencillo ese flujo bien.
+Ok, ahí me están escondiendo.
+Dice mi Git no se crea una carpeta, sino en user se elimina. Estás probándolo este a ver mi Git no se crea una carpeta al punto Git seguro no se crea una carpeta, sino en user, sino en user. Sí, elimina, mira, si tú eliminas tu Git, no pasa nada, simplemente estás si tú eliminas tu Git.
+Este deja de ser un repositorio y se convierte en un en una carpeta normal. No pasa nada, no te preocupes, ya este, eso sí, tienes que tener mucho, muy algo en claro. Y es que para convertir el repositorio para ejecutar Gittinit tienes que estar en la en la ruta de la carpeta a la cual quieres convertir repositorio.
+Hey.
+Oye, Journey, ¿te puedo entender eso?
+Puedes eliminar lo normal, pero este bien para convertirlo a repositorio tiene que ser el mismo este de la misma ruta de tu carpeta. Perfecto entonces.
+Un concepto más, chicos, ok, un concepto más, son las un concepto más.
+Y es el de ramas o k hemos visto main acá, pero ¿qué es main? O sea, o k se creó main. Hemos cambiado tal vez al inicio el nombre del main, pero ¿qué es main? Para entender main, chicos, quiero usar una analogía, quiero usar una analogía y para eso vamos a ver, vamos a usar dónde está, dónde está.
+Escalidrado, mi escalidrado. Chicos, voy a abrir mi escalidrado para representar justamente esto que está aquí. Ya para los que han visto volver al futuro, ya no sé cuántos han visto volver al futuro. ¿Quiénes han visto aquí volver al futuro? Chicos, es una pregunta.
+Espero que no sea personal, pero quiénes la han visto que la película de volver al futuro es un clásico. Creo que Juan dice genial, Juan lo ha visto, va a entender muy bien la analogía los que han visto volver al futuro. John también Carlos también. Creo que la mayoría hemos visto eso no es un clásico del cine, Volver al futuro, un clásico del.
+De la ciencia ficción.
+¿Por qué pregunto esto? Porque vamos a usar justamente las líneas de tiempo de volver al futuro como ejemplo, porque Git funciona más o menos así y justo la el término de guardado de videojuegos también funciona así como una línea del tiempo. Miren, chicos, ya en volver al futuro hay una.
+O K, hay una línea principal, cierto, línea del tiempo que representa a nuestro protagonista. Ya hay una línea principal que representa a nuestro protagonista. o K, ¿qué pasa que cuando viajan al futuro crean una línea alterna? Muy bien, crean una línea alterna.
+Y.
+Que al final obviamente se va a unir, o sea que al final va a afectar la línea principal. Correcto que se vería así. Mejor lo voy a escribir en rojo uno, ya la línea principal que es esto de acá, ya esta es la línea principal.
+Bien, es la línea principal y voy a escribir en otro color que se crea una línea alterna. Digamos que en este punto ya viajan al futuro una serie de eventos y este al futuro al pasado. Perdón, en realidad viajan al futuro al pasado y este sucede una serie de eventos que afecta pues la línea principal.
+¿Qué pasa que en esta línea principal, o sea que en esta línea alterna, si sucede algo bien, o sea, si pasa algo bien, qué pasa con la línea principal? Usualmente Perry Good, no. Por ejemplo, si en esta línea no se ganó la lotería en un futuro, obviamente tal vez la historia sea que se hayan vuelto ricos, ¿no?
+¿Pero qué pasa si en esta línea alterna ocurre un desastre o hacen algo que afecte? O sea, por ejemplo, atropellaron a su tío en esta línea principal tu tío ya no está. ¿Por qué? Porque le ocurrió a un accidente todo eso lo ven. Lo que quiero con esto es que vean que la línea alterna hay una línea alterna que puede afectar para bien o afectar para mal su línea principal.
+Esta es tu línea alterna, ya es tu línea alterna más o menos. Así es la representación de una rama, chicos, en lo que sería y ya una rama es una línea, o sea, lo pueden visualizar usualmente como una línea, que es la línea que están visualizando acá.
+Ya una línea como que una línea temporal que representa que chicos representa más que nada la línea de tiempo de interacción con tu proyecto. Ya como tú has estado escribiendo, has creado tu proyecto, que es el inicio, digamos, y has estado agregándole el código poco a poco, sino haciendo cambios, eliminando algunos, corrigiendo otros, etcétera.
+Correcto, esa es una rama y entre los cambios, entre los cambios tú has hecho, has guardado cambios que son estos puntos de aquí, o sea, los commits o k has hecho un commit aquí, has hecho otro cambio, otro commit aquí, otro commit aquí, etcétera. Muy bien, has hecho eso que sería, por ejemplo, el commit uno hiciste aquí, le agregaste código, cambio, imagen, etcétera. o K.
+Voy a guardar ese cambio, comic 2 o k ta ta ta ta ta ta ta comic 3. Así ya es eso, es simplemente eso, la representación de una rama que es una línea de que representa pues una línea independiente. Vamos a ver porque es independiente, pero es una línea independiente que representa el desarrollo del código de tu proyecto.
+Hasta aquí espero que se haya entendido el concepto de rama, ok.
+Porque ahora vamos a mencionar justamente esas líneas alternas. ¿Qué pasa a esa rama principal? O sea, esa rama que se crea cuando tú inicializas git, ya cuando tú inicializas git y le pones git init. Lo que pasa, lo que hace git es que por detrás crea una rama y esa rama se llama main, chicos.
+Esa rama se llama main, que es esa línea del tiempo que está justamente conformada por esos commits, ya por esos commits que tú has hecho o has guardado durante el tiempo. Ese es la representación del commit que tú ves acá.
+Ya estás en la rama main, te dice que estás en la rama main, por eso es la cabecera que te dice ahí. ¿Pero qué pasa en un mundo real, ya en un mundo este, en un ambiente real? ¿Qué es lo que sucede?
+Pasa lo siguiente, chicos, en un momento real lo que pasa es que se van a crear varias ramas. ¿Por qué? Porque se van a crear varias ramas. Primero, tu rama main que representa tu rama principal y es la herramienta, es la rama que contiene como que el código que se visualiza en la página web ya.
+¿Entonces, qué pasa si tú trabajas en esta rama y en este código? Pasa que si tú haces, por ejemplo, una modificación que lo afecte negativamente, lo que pasa es que este código se va a ver afectado y eso se va a visualizar en tu página web, es decir, va a ser un error fatal entonces en el mundo real.
+Ya en un proyecto laboral real, lo que hacen es crear ramas, crean como que líneas alternas. Es decir, esto porque chicos, ya por lo siguiente, si tú creas una rama, ya vamos a poner acá, tú creas una rama, esto acá.
+¿Tú creas una rama? Bueno, esto lo crea esta rama, perdón, ya lo crea. ¿Cómo se llama aquí, que es la rama main? ¿Ya qué pasa? ¿Por qué se crean varias ramas? Porque si tú creas una rama que es parte de la historia de la rama que tienes, ya así como la línea principal que vimos atrás, si tú la creas.
+Acá haces tus cambios, ya acá haces tus cambios.
+Pero si no te salió bien en esta rama, esta es una rama nueva, chicas, ya está chicos, chicas, esta es una rama nueva, ya está acá que estoy creando, es una rama nueva. Bien está, vamos a ponerle otro color porque para que se pueda notar ya esta es una rama nueva.
+Entonces yo hice cambios en esta rama, pero ¿qué pasó durante esta rama? Ocurrieron errores, ocurrieron este cosas fatales, o sea, no funcionó en las características que yo les puedo implementar al código. ¿Entonces, qué es lo que pasa? Lo que pasa es que.
+Ya no lo voy a subir, o sea, me evito. El cambio ocurrió o k ocurrieron errores, acá ocurrieron errores fatales, pero tengo la suerte de que de que tu código principal no se vea afectado, no se va a ver este modificado porque tú no hiciste el cambio en tu código principal, lo hiciste como que en una línea del tiempo.
+temporal Okay no se ve afectado tu unidad no lo has unido ya cómo se llama ese unimiento se llama merch ya se llama merch es Sencillamente eso creamos ramas porque en cada rama es una línea independiente tu código copia de tu código trabajamos ahí bien
+Pero este, si en la rama ocurre un error y no ocurrió como queríamos, no lo unimos a la rama principal. O sea, no afectamos la historia de nuestra rama principal, pero si ocurrió algo que efectivamente fue un éxito, entonces sí lo unimos como hacer varias ramas a la vez. Ya por eso hacemos varias ramas a la vez, chicos.
+Para trabajar nuestro código, o sea, para trabajar el código que tenemos, pero sin este, sin la posibilidad de tal vez este afectar a ese código, ya a menos que nosotros le hagamos un mercho, es decir, unamos las ramas en una sola ramificación.
+O K, es así de sencillo ya como vemos, por ejemplo, aquí qué rama tenemos con el comando git branch. Ustedes no lo van a usar en este laboratorio porque en este laboratorio no le piden crear ramas, pero es git branch es rama o K le pongo git branch y acá me ve, por ejemplo, que solamente tengo una rama.
+Como creó ramas, la rama se queda con ese mismo prompt, it branch espacio. Bueno, acá no necesitas espacio y acá le pones la rama, el nombre de la rama, digamos la rama developer.
+Ya me ha creado la rama, no lo veo porque porque le pongo git branch y ahora sí ven, por ejemplo, que ahora sí hay 2 ramas: git developer y git main.
+O K, git liberber y git main, yo me puedo mover entre ramas con git checkout.
+me puedo ir a la rama developer, vean en vivo como está y vean como aquí ha cambiado chicos, aquí ha cambiado de rama ok, ahora estoy en la rama developer, es decir, estoy en una línea alterna, ahorita estoy en una línea alterna, estoy aquí, no estoy en el código principal, estoy aquí.
+Y esto, el, pero en realidad es copia del código, o sea, es copia del código principal, ya y ahí yo puedo trabajar.
+Ahorita estoy en una rama developer ya yo puedo trabajar, o sea, puedo eliminar esto sin problemas, puedo hacer lo que sea, pero no se va a ver afectado mi rama main porque ya no estoy trabajando ahí, estoy trabajando en mi rama developer y si quiero, claro, ya depende de mí si lo quiero unir o no, acá no lo voy a unir, pero yo les puesto eso como ejemplo.
+Muy bien, entonces es eso, básicamente es eso, chicos, este no vamos a profundizar en ramas porque, como les comenté, no vamos a hacerlo. este Bueno, en este en este laboratorio no lo está pidiendo, pero quería darles como una inicialización de qué son las ramas, muchachos, chicas. o K, ¿te puedo entender el concepto de ramas?
+Está apuntando a de ajá.
+Sí, exactamente, pero coménteme, por favor, si se puede entender el concepto de ramas, chicos, chicas.
+¿Me puedo entender ese concepto, por favor?
+Sí, Juan me dice, sí, o k este.
+Las ramas sí lo vamos a trabajar muchos chicos en lo que es este, como les comenté, proyectos reales ya porque cada rama usualmente representa una.
+Una función, miren, git flow ya existe lo que se llama git flow chico. Git flow es como que un patrón de arquitectura es un patrón. Bueno, es en realidad.
+Una estructura de ramas es una estructura de ramas que se usa para desarrollar para las pruebas, el lanzamiento de software de manera ordenada. Es decir, ERAM ya te plantean nombres de ramas, nombres específicos de ramas que tú puedes crear o k para este no afectar tu código principal, que es el main.
+Para no afectar tu código principal, it flow te dice, hey, crees tu estructura de ramas muy bien para pues codificar fuera de tu rama main, pero al final sí, obviamente unirlo, no unir lo que es lo que se quiere. Es como si tú tuvieras este tu rama main fuera tu cuaderno principal.
+Y tu rama, las otras ramas fueran como tu blog. Ya en tu blog, tú trabajas y cuando estás seguro de que está bien, lo unas a tu rama, a tu cuaderno principal o tu rama main. Es así de sencillo, o sea, ese es el objetivo que se usa, ¿no? Si tú tienes un error, por ejemplo, o k en la rama main ocurrió un error, o k creo una.
+Creo una este una rama llamada Hotfix, que es la rama que propone Gitflow. ¿Para qué? Para reparar errores en esa rama reparo los errores y si todo ocurrió con éxito, lo uno, lo uno a la rama main y la rama main va a tener ese cambio o K lo uno de manera positiva. Es así de sencillo.
+La rama develop de que son la rama de los developers, o sea, los desarrolladores. Usualmente este la rama main lo tiene el líder técnico, que es como que la cabeza de los programadores o K porque él es el que toma la decisión de si un cambio se va a subir o no a la rama main.
+Los developers que son los demás, por ejemplo, van a tener su propia rama, ellos van a hacer su cambio en su rama y le van a decir al a la rama, o sea, le van a decir en realidad al líder técnico: Hey, terminé mi cambio, lo voy a subir. El líder técnico va a revisar el cambio que hizo o K va a revisar ese cambio que hizo y si ve que todo es con éxito.
+Permite la aprobación, o sea, permite unirlo, lo que se llama nosotros como lo comentamos merge, que en realidad pues es un comando que se hace ya, pero ahorita este por términos de laboratorio no vamos a hacer, pero es merge muy bien. La rama feature es para características, etcétera. Eso es git flow, más que nada es.
+Crear ramas con nombres específicos para trabajar este el desarrollo de tu código sin afectar main. Muy bien, es ese concepto que lo va. Esto es un concepto que van a verlo en entrevistas, chicos, ya gitflow. ¿Se puede comprender eso? El concepto de gitflow.
+Me comentan, por favor, porque con eso ya estaríamos viendo ramas ya Juan Vidal dice que sí.
+Muy bien.
+Lo puedo comprender porque ahora sí vamos a pasar a genial, muy bien, eso perfecto, ahora sí.
+Ahora sí, chavos, a ver.
+Son las 9:30, ya 9:30, si me un poco vamos a hacer, creo que un receso, chicos, sólo nos faltaría ver GitHub y con GitHub este ya pasaríamos a sencillamente terminar. Ya faltaría GitHub, también un receso, chicos, 20 minutitos, algo rapidín.
+Bien, son las 9:30.
+Lo demás se puede hacer hasta en 30 minutos.
+¿Qué les parece? Un proceso de son las 9:40, vendríamos 10, ¿les parece?
+¿Y es en punto el receso, vale?
+¿Nos ayudará a hacer el entregable? Sí, justo ya estamos haciendo el entregable del día de hoy, Kevin, hemos avanzado incluso el 2, faltaría el 3, que es este clonar el.
+Clonar y hacer tu primer cómic, no lo estamos haciendo juntos en realidad.
+Entonces ya lo hicimos, ya entonces ya lo hicimos, que es a ver, vamos a ver, configurar tu este es configurar tu Git que ya pues ya ejecutamos los comandos y lo configuramos. Justo me acaban de mandar los screenshots ahí. La parte 3 ya tiene que ver con GitHub, que es que es.
+Clonar el repositorio que les vamos a mandar.
+Bien.
+¿Qué no pudiste este John John Rivas? ¿Qué no pudiste exactamente?
+
+Orador 2   1:57:44
+Allá lo ejecuté los los comandos que me habías que estábamos avanzando, que pasas compartiste por el por el chat, pero me salían errores, lo reseteé y lo estoy trabajando de nuevo, pues no se ha podido configurar, me salía error.
+
+Orador 1   1:57:44
+Yeah.
+Okay.
+Me.
+Are you ring?
+Ya este, pero creo que sí habíamos visto el problema, ¿no? Y cuando pusiste git, git B, sí, justo ya pusiste git menos B, sí te salió la versión, ¿no? ¿Qué error específicamente te salían? O tal vez sea porque no creo que sea.
+Porque se podría ejecutar en cualquier lado. ¿Qué roles exactamente te salían? O sea, si tú ejecutas git menos B en cualquier lado, te tendría que salir la versión.
+
+Orador 2   1:58:21
+Sí.
+
+Orador 1   1:58:32
+Ok, entonces con eso creo que ya estaría verificado que tienes git.
+Pero exactamente.
+
+Orador 2   1:58:37
+no, sí que se los hijos.
+
+Orador 1   1:58:39
+Entonces exactamente, porfa, me podrías indicar.
+Claro, tenía que ejecutar primero comando por comando, obviamente es el comando de.
+Los comandos están aquí, primero lo puedes encontrar en tu laboratorio, pero ejecútalos 1:1, por favor, no ejecutes todo de golpe 1:1, primero este, por ejemplo.
+Lo copias 1 1 y ahí le cambias tu nombre, luego ejecutas el siguiente, vamos a poner una lista ya.
+Vamos a unir.
+Ya vamos a ver esto, esto.
+Lo ejecutas.
+Esto.
+Pero se ejecuta 1:1, por favor, control C, control con control B automáticamente se se pasa. Bueno, pones paz y se une y le pues ya ese es el al internada más que eso una vez hayas ejecutado esto.
+
+Orador 2   1:59:19
+Mhm.
+
+Orador 1   1:59:40
+1 1 ejecutas esto de aquí.
+
+Orador 2   1:59:41
+Nombre.
+
+Orador 1   1:59:43
+Get config list.
+Ya te voy a pasar esto, ejecuta git config list para ver si efectivamente se este.
+
+Orador 2   1:59:46
+Yeah.
+
+Orador 1   1:59:52
+Se estableció en la configuración por que tú le has estado con los comandos anteriores, que es justamente los screenshots que nos están mandando tus compañeros ahí en el WhatsApp.
+
+Orador 2   2:00:05
+Ajá, ya lo vas a hacer.
+
+Orador 1   2:00:05
+Yeah.
+Sí, perfecto, entonces con eso vamos a pasar un receso, chicos, hasta las 10.
+
+Orador 2   2:00:11
+Vale, gracias.
+
+Orador 1   2:00:13
+Listo, perfecto. Vamos a pasar un receso hasta las 10, lo que viene es 30 minutos y ya, pues esperemos terminar a tiempo. Ok, chicos.
+Ok, así es aquí, nos vemos.
+Listo, chicos, regresamos, voy a acabar el refrito nomás con GitHub, voy a cerrar algo.
+Boss.
+A ver, por favor, me confirma eso que estamos.
+En la sala para poder continuar con pues, okay.
+Perfecto, Kevin, gracias por ese check.
+Or.
+Estamos en la sala chicos.
+Estamos en la sala, check alguna verificación para saber que están vivos, por favor. Hola, ay, mira, me olvidé mi agua. Ay, me dan 5 minutos, chicos, 5 minutos están ahí, por favor.
+Esto va, está ahí, perdonen, perdonen, si no, bueno, sobrevivo, chicos, lo siento, parece que soy acuático porque.
+Sí, necesito agua. Bien, están ahí, chicos, ¿cierto? Ya podemos empezar.
+Vale.
+Muy bien.
+Vamos a empezar ya algo rapidito, nomás vamos a terminar para terminar a tiempo. Bueno, hasta aquí hemos visto el flujo de lo que vamos a hacer es lo siguiente ya.
+¿Qué es lo que pasa ahora? ¿En qué punto exacto estamos ahora? Okay, esta es la carpeta que he trabajado yo ahorita, donde he hecho justamente la carpeta proyecto git, si no me equivoco, proyecto práctica, sí, ya esa es la carpeta donde yo he hecho eso está acá, cierto, sí, esa carpeta.
+Donde yo he interactuado con el flujo de git, etcétera. Pero pasa que estamos en el mismo punto que mencionamos al inicio. Este proyecto está simplemente en mi sistema local, ya este repositorio está en mi sistema local y entonces pasan 2 cosas. ¿Qué pasa si, por ejemplo, mi máquina o mi equipo se daña?
+¿O K, ¿le pasa algo entonces o pierdo este equipo acceso a esto? Es como un print, ¿qué es lo que pasa?
+Pues simplemente pierdo también el proyecto, chicos, porque simplemente está sobreviviendo en mi máquina. Entonces, ¿qué es lo que tenemos que hacer para que sobreviva? Tenemos que subirlo a Internet este repositorio.
+¿Y es eso lo que vamos a hacer, no? Qué es, por ejemplo, lo que hacemos nosotros cuando queremos que se olvida una imagen o un video usualmente, pues lo suben a Google Drive. ¿Qué es lo que vamos a hacer para que nuestro repositorio pueda sobrevivir este ya fuera de nuestra máquina y además también para que pueda ser vista por otras personas usuarios?
+Usamos lo que sería GitHub, chicos, ya ahí sí pasamos a GitHub, que es simplemente y netamente subir este repositorio a Internet. Es solamente eso porque GitHub es una página web, primero que es una página web.
+Es un servidor, la nube, que pues permite alojar, permite alojar exactamente, es el término alojar lo que sería bueno.
+Ya lo que permite alojar, bueno, tu repositorio, eso sí es sencillo. GitHub aloja repositorios este de proyectos, eso.
+Así que les voy a mandar el link.
+Les voy a mandar el nick y para que ustedes, chicos, los que no tengan GitHub, por favor se se registren porque necesitas una cuenta para esto.
+Yo voy a empezar con ustedes, ya acabo de salir de mi cuenta, pero lo que sí necesito es que cada uno de ustedes, por favor, se registre y cree su repositorio, o sea, creen su perfil. Es eso bien, ahí accedan, por favor, los que sí, los que este no tienen GitHub.
+Para juntos.
+Bueno, el registro es sencillo, no estamos en GitHub.
+Ya, pero por favor accedan a esa página web.
+Yeah.
+Sea en esa página web de registro es como cualquier interfaz.
+Programadores y programadoras, nos vamos a.
+Lo a donde dice signo ya que sería pues inscribirse. La inscripción se puede dar con correo, bueno, con una cuenta de Google.
+Mire, muchas gracias. Bueno, por mientras vayan entrando ahí, por favor, gracias por avisarme eso, este que bien.
+Ver.
+Ya, entonces.
+Gracias, muy bien, este cuando accedan a la URL que les acabo de mandar, pues que es simplemente la ruta de GitHub ya.
+Van a entrar simplemente a Signap, que está aquí, es súper sencillo y ahí es donde se van a registrar. Ya si no tienen una cuenta, regístrense por favor. Las formas, las formas que hay son 3 formas. La primera es con una cuenta de Google, que es la más sencilla.
+Pues hoy día se cae la página de.
+No creo, no, no es mi internet porque está conectado a mi cable.
+We have you done now.
+Hmm.
+Stop.
+K.
+Yeah.
+Por alguna razón está súper súper lento, qué extraño.
+Mi internet está conectado.
+Hey, chicos.
+Ya este voy a cerrar esto, ya lo he creado perfecto. Sí, por favor, vayan creando que eso no los detenga, que no esté compartiendo. Por favor, vayan creando por alguna razón, a mí no me está abriendo.
+Ya, pero este creen una cuenta, ya sea con correo electrónico propio o con una cuenta de Google. Es súper sencillo, chicos. ya.
+Ya casi me funciona.
+Se haya caído ahora porque está en la nube, ya saben que.
+Últimamente han habido problemas en la nube. Bien, perfecto, ahora sí estoy compartido. Entonces simplemente van aquí y acá les va a salir, ya sea crearse con Google, con una cuenta de Apple, si lo tienen o con este un correo electrónico físico. Con eso van a crear su cuenta. Ojo, por favor, recuerden el nombre de su correo.
+Ok, recuerden el nombre de su correo porque lo vamos a usar.
+Yo voy a acceder con mi cuenta de Google que ya tengo.
+Yo tengo una cuenta de Google verificada, así que yo, por ejemplo, le dije a Sing ahí porque ya tengo, ya estoy registrado ya, pero los que por favor aún se están creando, voy a darles tiempo. Los que no, los que ya lo tienen pueden mencionarlo aquí en el chat, porfa, para también hacer un conteo.
+Los que no vamos a esperarlos todavía, pero los que ya lo tienen a Yarney, por ejemplo, dice que ya lo tiene, ya lo creó, Yarney ya logró tal vez acceder a lo que sería cuando tú ya te lo creas, Yarney, o sea, ya te ya te lo creaste, te va a salir este dashboard principal, nada más que esto ya entonces significa que ya has accedido, acá usualmente te van a salir los repositorios.
+Si vas a la esquina hay una foto, bueno, todavía no hay una foto, claro, pero en profile ahí es donde vas a poder editar, este vas a poderle como que dar. Es como que esto es como tu página de Bob Me, ya acá vas a poder agregar una descripción a tu.
+Haz tu repositorio, ponerle fotos, poner una descripción tuya ya enriquecerlo con eso. Voy a pasar en voy a pasar un video ahí de cómo poner una descripción así precisa sobre tu este, porque GitHub es un enlace muy importante para los reclutadores de programadores o k usualmente en.
+Compartimos este enlace, porque aquí es donde vamos a guardar nuestros proyectos, chicos. Esta es la esta es este la página donde nosotros vamos a guardar nuestros proyectos. o K.
+Ahí, por favor, sí, correcto, genial, me comenta ya este ahorita vamos 3 chicos. ¿Qué pasó con los demás?
+Por es importante este paso porque de ahí viene este ya, pues poder subir también lo que sería el proyecto uno del proyecto uno. Vamos a subir al final, chicos, ya antes también dio su check.
+Okay.
+Esperarles hay unos minutitos más, ya los que todavía están, este los que ya tienen, por favor, bueno, los que ya tienen, tal vez ya lo han instalado, lo que tienen que hacer ahora ya porque les digo esto, tienen que recordar el correo con el que ustedes han creado su GitHub. ¿Por qué?
+Porque acá viene el paso importante y es justamente esto al momento de autenticarse con su correo. Ya ahora sí necesitan establecer esto de acá. Ahora sí, lo que necesitan es establecer acá un correo, el mismo correo que ustedes se va a autenticar aquí en Git tiene que ser el mismo con el que se han registrado en GitHub.
+Ya tienen como que enlazarlos, ya yo me creé, por ejemplo, con este correo de aquí.
+Con a ver, yo voy a poner aquí, ahora lo voy a cambiar chicos, me creé con Erick punto verde.
+Proba Universidad Nacional Mayucos punto.
+Bueno, este es mi correo de la universidad, por eso es que estás, pero este voy a ejecutar esto de aquí ya.
+Y ahora sí se ha este se ha configurado con ese correo con el que yo estoy, pues este en lo que sería mi GitHub, ya si voy a git config list.
+Aquí, por ejemplo, vean que ahora sí ya tengo un correo. Muy bien ustedes, por favor, sí, tal vez al momento de de definir un correo con esta configuración, recuerdan al momento de autenticarse, no es igual al cual al igual al que se están creando el GitHub, tienen que ponerlo el mismo.
+Ok, tienen que poner el mismo.
+Wait.
+Sea esto de aquí.
+Pon ahí, por favor.
+Vamos a poner acá como que correo GitHub ya.
+Esto es importante, chicos, porque permito autenticar justamente a dónde va a subir el.
+¿A dónde se va a subir este? Necesitan estar enlazados porque vamos a subir nuestro proyecto a Internet y para eso, a través del correo, se va a usar como un enlace de saber a qué, pues a qué perfil se está subiendo bien.
+Bien, okey, yo creo que la mayoría, por favor, mayoría, porque ahora sí.
+Alguna consulta, alguna duda, algún problema, por favor me confirman ahorita.
+Los que están teniendo problemas, los que ya se crearon perfecto, hagan ese paso de verificar si el correo de Git Hub es igual al correo con el que están en Git, o sea, en el este.
+Para verificar cuenta, pero no muestra nada. ¿En qué momento te sale para verificar cuenta? Al momento de crear tu GitHub, me dices este John.
+Al momento de.
+Exacto, sí te va, te va a decir que te que verifiques tu cuenta, este, pero dices que no muestra nada. ¿Cómo lo entiendo? ¿Te habrá mandado un código de verificación? John?
+¿O algo al respecto, me mandas una captura, cómo así, o sea?
+Que invisual y audio, claro, o sea, si pasas por una prueba de, supongo que lo tienes que resolver, ¿no? La si es la clásica prueba de.
+De este de no de si eres un robot o no, simplemente la resuelves y continúas el registro. Si es una verificación de cuenta, yo creo que te va a mandar a tu a la correo que tú has puesto ahí. Tú te estás creando cuenta, o sea, tú estás creandote GitHub con un correo personal, o sea, no es un correo de Google.
+¿Me confirmas eso? Si es un correo personal, obviamente al correo personal si te van a mandar un código.
+Ya, si es una cuenta de Google, no creo que pase automáticamente.
+Con Gmail, entonces tendrías que haberle dado aquí. O sea, es obviamente es una correa. Si es una cuenta de Gmail, te tiene que ser desde aquí. John, mira.
+Tiene que ser desde este lado, o sea.
+Tiene que ser desde aquí y yo claro, obviamente no desde aquí, desde continuar con Google porque es una cuenta de Google, pero obviamente al momento de darle aquí es donde tienes que iniciar sesión, no digamos usar otra cuenta de ahí pones tu cuenta de Gmail. Correcto, es el paso que hiciste de esa forma.
+Ya cuenta de Google, entonces es el mismo Google el que te está pidiendo autenticación. Sí, creo que es el mismo Google el que está haciendo eso. John Peña.
+Ajá, es acá mismo. Obviamente, Google también te va a pedir una forma de verificar cuenta. Yo creo que a ver, a mí lo que me ha hecho es o mandarme un código a un número, o sea, una forma de de verificar cuenta. Eso ya es del propio Google, no es de GitHub.
+Sí, y eso es este, tienes que pasar simplemente la prueba.
+Acá dice, bueno, entonces este, pero eso es este verificar tu cuenta, resuelve el puzzple, simplemente eso es más sencillo.
+Verifica tu cuenta, por favor, resuelve el puzzle. Ajá, claro, resuelve el puzzle, por favor. No creo que sea un puzzle tan complejo.
+Ya en la primera opción visual puzzle y a ver qué te sale.
+Te has demorado mucho tiempo, dice, carga el carga, por favor el este, te has demorado mucho tiempo, resulta reloj Chayengue. A ver, recargar este prueba, sale algo.
+Nunca me salió un puzzle, la verdad. Nunca me salió un puzzle. Los demás, por favor, chicos, ya estamos mientras vamos a voy a resolver el problema del yo.
+Ver los demás como estamos.
+Sí, ya está ya mientras voy a resolver el problema, yo por favor, yo.
+Si te sale así y recargando, te sale el puzzle, simplemente lo resuelves y ya estás listo. Ya hicieron, por favor, este cambio que está aquí, que es exactamente el que mencioné más arriba de que tú cuenta, o sea, el correo con el que estás aquí en GitHub que sale aquí al momento de ejecutar esto, o sea, esto de aquí sea el mismo con el que te registraste. Es importante ese paso.
+¿Por qué al momento de subir se va a autenticar eso?
+Por favor.
+Ay, miren, ya creo que eso ya sería con.
+Con lo que sería este GitHub, ahí sí.
+Ahí sí, ¿cómo te podría ayudar?
+Tal vez dándole tiempo John o intentando con otro navegador, tal vez eso y ejecútalo en otro navegador. ¿Te parece estás? No sé en qué navegador estás, tal vez tal vez sea por el tema del navegador. Cuando me pasa eso, yo voy a ir, yo tengo 2, yo tengo Chrome y si no me funciona me voy a Edge o K.
+Prueba en Edge, ya prueba en Edge, este Edge ya viene ya en Windows, así que no necesitas instalar nada. Ya ejecuta eso en Edge y posiblemente no te pida eso. Ya es tal vez ese es tema del navegador, no más bien o k entonces sí, también este chicos, lo que hemos visto la prueba de vivilización acá, lo que vamos a hacer es lo siguiente.
+Ya.
+O K, listo.
+Bueno, lo que vamos a hacer es si ya tenemos nuestro repositorio, ya dijimos que era GitHub, vamos a subir nuestros repositorios a Internet ya, pero ¿qué es un repositorio? ¿Cómo se crea un repositorio en GitHub? Para eso simplemente me voy a GitHub, ahí voy a acceder aquí, no había accedido acá, esto va a ser sencillo.
+Voy a seleccionar con mi cuenta, ahorita me sale un puzzle, ¿no? Ahora sí, perfecto. Entonces, ¿cómo se crea un repositorio, chicos? En GitHub, simplemente los repositorios son carpetas de proyecto, nada más que eso. Ya un repositorio se crea desde aquí, creas un nuevo repositorio y listo. Acá te va a dar una serie de campos que tú tienes que llenar.
+Pero esto te lo voy a explicar mejor a partir de aquí.
+Ya a partir de aquí, porque nosotros lo que vamos a hacer, no vamos a crear un repositorio desde C, chicos, lo que vamos a hacer nosotros es clonar un repositorio. ¿Qué significa? Vamos a hacer una plantilla para clonar un repositorio. ¿Qué es clonar un repositorio, chicos? Clonar un repositorio simplemente significa ya.
+Es bajar el repositorio que está en Internet a tu máquina local, a tu equipo. Es simplemente eso, o k, voy a darles este enlace.
+Porque lo que quiero que hagan es lo siguiente, todos conmigo aquí quiero que hagan lo siguiente, voy a este enlace.
+Ese es el repositorio que yo quiero que ustedes clonen ya es el es como que la plantilla del proyecto del módulo 2 ya es justamente esto de aquí. Si tú le das aquí al costado, está ya subido, es esto, ustedes van a tener esto ahora en su máquina, está en Internet.
+Pero lo van a tener en su máquina.
+Me siguen ahí, por favor, me siguen, si están ahí en GitHub, me siguen.
+A ver, pudieron acceder a eso para empezar juntos porque vamos a clonarlo.
+Sí, me dice Kevin, genial, si están todos, Yael o K, por favor, todos ahí porque vamos a clonar juntos paso a paso.
+Ya estoy creo que sería ya lo que sería el punto número 3. Estamos clonando el repositorio, les acabo de dar el link. Este es el nombre que le vamos a poner al repositorio. Ya vayan a su laboratorio 3 también porque vamos a usar estos campos que nos está dando al crear nuestro repositorio. Lo que estamos haciendo es.
+A partir de una plantilla, crean un repositorio. ¿Cómo se crea chicos? Si ustedes me están siguiendo, abril ahí y está escribiendo a ver para confirmar.
+O K, ahí esto o K Gabriela, espero que estés con nosotros bien.
+Espero que estés con nosotros porque ahora voy a crear un repositorio a partir a partir de una plantilla. Para eso nos vamos aquí, chicos, a use testing play, o sea, usar esta plantilla y al momento de.
+Darle clic acá y es lo que se llama crear nuevo repositorio. Ahí va a salir los mismos campos que les mencioné de Nantes. Ya ahí lo que van a hacer, chicos, es hacer esto, van a colocar esto acá.
+Lo que dice acá, el nombre repositorio se va a llamar MyLinks ya cuando sale acá un check de permitido, entonces el nombre es correcto. Abajo, donde dice descripción, van a poner esto acá mi Hub personal de enlaces, ya que es básicamente la descripción del proyecto que tú estás creando en GitHub.
+En visibilidad, visibilidad hay 2 visibilidades, chicos, tenemos privado o público. Cuando nosotros creamos un repositorio, podemos hacerlo público, es decir, que lo puedan ver otros programadores, como por ejemplo el repositorio que les he compartido. Yo es público porque ustedes también lo pueden ver, pero GitHub también nos permite crear proyectos privados, es decir.
+Que nadie en Internet lo puede haber solamente nosotros. o K, si tú vas a hacer proyectos privados que no quieres compartir código, tal vez porque es muy confidencial o porque digamos es un gran avance, una creación tuya propia y no quieres que otro se la robe. Ya lo pones en privado, aquí en privado y te ten la seguridad de que nadie lo va a ver.
+Solo más que tú bien, pero nosotros vamos a crearlo como público, porque obviamente si queremos verlo ya y eso y dale y con esto le das a crear repositorio.
+Con estos chicos se le tienen que crear un repositorio así.
+Y ahorita está generando el repositorio.
+Y el repositorio tiene justamente los elementos.
+Hola, Oscar, este pues los archivos que tiene la plantilla ya tiene eso o K hasta aquí me captan chicos, pudieron hacer eso, se pudo, se pudo este o K Kevin, muy bien, Kevin, normal, empezamos desde si algunos ya pudieron genial, me alegra, me alegra, vamos a ayudar por favor a los que.
+Este todavía tienen problemas. Empezamos desde aquí, desde el repositorio que les compartí en el link. Ya vamos a crear un repositorio a partir de esta plantilla. Nos vamos aquí a Justice Team Play que está aquí le doy a crear un nuevo repositorio, chicos.
+Crear nuevo repositorio aquí este nos dan campos que debemos llenar para crear repositorio. Primero, como dice acá repositorio name, acá ponemos el nombre que nos dice en el laboratorio, que es my links, ya my links. Voy a poner esto aquí ya para que ustedes también lo tengan acá nomás en el este.
+Ya los que no están.
+Lo tengo aquí en el este, ya my links le vas a poner a la descripción. Aquí vas a poner my links. Acá le vas a poner la descripción my whoo personal de enlaces.
+Bien, en configuración lo dejas en público porque si quieres que otros vean tu repositorio.
+Y luego simplemente le das a crear repositorio. Aquí me sale en rojo porque ya creé un repositorio con este nombre, lo acabo de crear, pero a ti te va a salir en verde, o sea, va a aceptar ese nombre ya con esto ya creas tu repositorio y te mandaría a ese repositorio ya que en este caso es.
+A ver, el mío es my.
+Que en el caso mío es my este de acá, o sea, te tendría que salir esto de acá.
+O K, pero sería tuyo propio, o sea, nombrado MyLinks y los archivos que pues este pues que sacaste de la plantilla del repositorio. ¿Es eso? Si tú tienes todo esto con tu nombre, obviamente aquí tu nombre.
+Aquí ya tu nombre y my links. Entonces creaste una carpeta perfectamente. Quiero que hagan esto, por favor, chicos, copien esto de acá, ya copien la ruta de su repositorio, vayan a su repositorio que han creado.
+Copien esto y lo manden porque así voy a verificar que efectivamente este han podido crear su repositorio a partir del este o k ahí estoy mandando este manden por el chat, por favor.
+Bien, mira, voy a ver justamente tu repositorio.
+Kevin, para comprobar esto y ven perfecto. ¿Lo ves? Has creado con éxito el repositorio y lo has hecho público. Ya por eso yo puedo acceder y puedo leerlo sin problemas. Bien, obviamente puedo leerlos, obviamente no puedo hacerle ninguna modificación. Esto es a menos que obviamente.
+Me des estos permisos, pero eso es otra otro tema. Ya solamente puedo leerlo y puedo hacer otra cosa, puedo clonarlo o k o sea que puedo hacer una copia a tu este, a tu repositorio para mí y para yo poder interactuar, no, pero no voy a afectar tu repositorio para nada. No lo voy a tocar para nada porque no tengo ese permiso de.
+De escribir sobre él o K listo. Entonces, por ejemplo, acá sí vimos que tú pudiste crearlo.
+O K John, no te preocupes, mira, este te voy a ayudar incluso en privado, no te preocupes, te voy a ayudar en privado. o K, si todavía no sé, no puedes este, ya puedes ingresar, sí, ya puedes ingresar ahí en la clase o me comentas en vivo. Esta clase es súper sencilla, ya.
+Ya sobre eso.
+Bien, entonces ahí Yael también ha subido. Ok, voy a darle clic a Yael.
+Okey, y también me envía mi perfecto y al muy bien.
+Ya ahí, por favor, manden los que han los que han podido. este.
+Porque esa chicos es chicos, chicas, esa carpeta de ahí ya esa carpeta de ahí es la carpeta ya de su proyecto 2. Es como si ustedes ya hubieran subido su proyecto 2 a GitHub. Felicidades, ya está en GitHub, ya o K lo que falta es su carpeta número uno, o sea, el proyecto número uno que ahorita lo vamos a hacer.
+Que tiene otra forma en realidad, ya, pero ya actualmente han subido su proyecto número 2 o un avance de su proyecto número 2. Bien, por favor, sigan subiendo, sí.
+Carlos también está subiendo. Perfecto, perfecto, Oswaldo.
+Vamos a ver el Oxlock o K Oxlock, buenísimo, Carlos.
+I.
+A ver, vamos a revisar.
+A ver.
+Sí, está perfecto. Aquí se ve este tu número de usuario es April Cortés Alt, ya ese es tu nombre de usuario en GitHub con el que te has creado y my links. Bueno, es la carpeta donde estás entonces muy bien, April también ha subido con éxito. Ya tienes con éxito el proyecto número 2 o un avance del proyecto número 2 en GitHub.
+Bien, genial. Yarny también nos está compartiendo. o K compartan así chicos, ya genial, genial. Bien, Yarny también tienes el proyecto número 2 o K.
+Partan así, John Peña.
+John Peña, este es este.
+Y estás en GitHub, lo que tienes que hacer es lo siguiente, ya vas rapidito nomás.
+¿Dónde está esta acá? Ya he pasado este enlace por GitHub.
+He pasado este enlace por GitHub por favor acá.
+En Toyon, si ya estás ingresado, ya estás en GitHub, he pasado este enlace por GitHub. Lo que tú tienes que hacer es acceder a ese enlace, accede a ese enlace, le das aquí a usar este enlace, creas un nuevo repositorio y en estos campos que están acá tú les pones los campos que salen aquí en tu este, en tu laboratorio que te indica.
+El nombre My Links.
+La descripción.
+Y este a ver quién lo mandó.
+A John Durham.
+Estoy compartiendo. Uy, le lo toqué, lo toqué. Gracias, me hubiera estado hablando solo. Gracias, gracias, Carlos, ya.
+Ahí está ya, okay, entonces.
+
+Orador 2   2:50:59
+Hola Eric, te puedo compartir la pantalla donde tengo se le creó, pero como te dije, tengo problemas todavía para instalar el también te he pasado ahí por el WhatsApp por interno.
+
+Orador 1   2:51:00
+Sí.
+Yeah.
+
+Orador 2   2:51:10
+Pero ahorita he hecho esto esta parte que justamente has explicado y ahí no sé si te puedo compartir la pantalla ahorita o.
+
+Orador 1   2:51:19
+¿En qué momento estás? A ver, me has compartido por WhatsApp, dices a ver, voy a ver ahorita.
+
+Orador 2   2:51:23
+No, ahorita te puedo compartir ahorita la pantalla donde estoy, te digo mejor para que me des una ayuda donde estoy.
+
+Orador 1   2:51:26
+A ver, a ver, claro, sí, un entonces a ver.
+Sí, no te preocupes, a ver, vamos a verlo.
+Voy a dejar de compartir, a ver.
+
+Orador 2   2:51:36
+Y a mí también.
+
+Orador 1   2:51:41
+¿Qué es esto?
+
+Orador 2   2:51:42
+Listo.
+No compartirán.
+
+Orador 1   2:52:00
+Okay, okay, okay.
+Mm.
+No, o k, no lo veo allá, ahora sí.
+Ya, por favor.
+Te vas a MyLinks, genial. Lo que ha pasado acá es que tú has creado una carpeta MyLinks, un repositorio pero vacío, no lo has creado a partir de el del enlace que te acabo de mandar. Revisa el enlace que te acabo de mandar. O sea, a ver, voy a mandarlo ahorita por el chat de nuevo.
+Ya se tiene que crear a partir de un repositorio.
+¿Qué es esto? Aquí lo estoy mandando último, ahí es el último mensaje, exacto, al último, ese de ahí. Dale click a eso, vas a tener que eliminar el repositorio que tienes, creo.
+Vete ahí, a vete John ahí, por favor, dale ahí, dale al repositorio, no, primero vete al repositorio que tienes, creo que no te va a permitir.
+Vete a settings, a configuraciones.
+Ahí nomás está arriba, ajá, en esa barrita de configuraciones, en esa línea, no.
+Ahí está settings, vete al final, al final, al fondo, al fondo, vete.
+Vete al fondo, al fondo, ya ahí pon BT A deleite repositor. Ajá, exacto, elimina ese repositorio porque parece que el nombre no te creí. Sí, yo quiero eliminar ese repositor, elimínalo.
+Ya no hay problema abajo, sí, ya y ahí escribe lo mismo que te dice ahí, copia y pega lo mismo que te dice ahí, John Rivas, T my links.
+Exacto, eso no solo John Rivas, My Links, nada más.
+Eso.
+Ponlo ahí, quítale las comillas, por favor, quítale las comillas.
+Ya elimínalo.
+Listo, ahora sí, vete ahí el mismo que te compartí.
+Arriba my links template, eso ya ciérralo y ahí en el botón verde que dice Justin Play, el primer botón verde, el primero que está al a eso le das click, ahí crea el repositorio.
+Ya ahí lo que tienes que hacer es ponerle justamente eso de laboratorio.
+También lo estoy poniendo en de nuevo en el chat, ya lo mismo que está en el laboratorio. My Links, eso ya para cada uno, para cada campo. Primero pones My Links.
+Perfecto la reconexión bajas abajo en la descripción pones lo que te comenté.
+It's.
+Hay en el chat, por favor, revisa el chat.
+Sí, revisa el chat, descripción, el campo de descripción.
+No, ahí mismo en el chat, ajá, ahí.
+¿Y eso lo copias?
+Lo pones en ese campo que está ahí de descripción y este y nada más. Ahí está en público. Sí, déjalo en público y ponle a crear repositorio.
+Ahí le das, pongo a crear repositorio.
+Y ahí se va a generar tu repositorio y lo vas a ver. Es nada más eso o k listo. John, ya tienes ya ahora sí creado tu repositorio, pues a partir de la plantilla que te mastre.
+¿Bien, ahora sí nos puede seguir ya en inglés, vale?
+Okay.
+Bien, perfecto, John Peña, genial, mandas el.
+Mandeseleste, por favor, en enlace.
+Ya manden el enlace que sale ahí arriba.
+O K, John, ya puedo dejar un nuevo. Muchas gracias. Listo, mandan el enlace ahí por este porque vamos a pasar a la siguiente etapa ya.
+¿Cuál es la siguiente etapa? A ver, mira ese nombre interesante.
+Voy a compartir, vamos a pasar a la última etapa, chicos, ya nos estamos haciendo un poco.
+Este, pero esta valeta puedo hacer súper rápida ya.
+Perfecto, ya acabo de ver todo este yo.
+Genial, ya tenemos nuestro repositorio, pero ahora qué es lo que falta, chicos, estamos en la situación, en la situación reversa.
+Estamos en una situación reversa, nuestro repositorio o el repositorio que tenemos ahorita está únicamente en Internet o ky no está en nuestra máquina local. Acá en Internet nosotros no le podemos, este, obviamente no podemos editar el código, nada de eso. No tenemos que bajarlo a nuestra máquina local para abrirlo con Visual Studio Code y empezar con la codificación, ¿cierto?
+Para eso, lo que tenemos que hacer para bajar a Internet, tenemos que hacer clonarlo ya.
+¿Qué es clonar? Efectivamente, eso es bajar nuestro proyecto a este nuestra máquina local. ¿Cómo lo hacemos? Todos nos vamos a nuestro repositorio. Por favor, vayamos a nuestro repositorio que acabamos de crear y le damos al botón verde y lo que quiero es que copien eso. Ya quiero que copien este link que está aquí.
+Copienlo, chicos, ya porque este URL es lo que vamos a usar para clonar, ya cópienlo.
+Cópienlo y vámonos a Kitbash. Vámonos a Kitbash de nuevo, pero ahora, pero ahora quiero que vayan en realidad, quiero que vayan en realidad a la carpeta donde quisieran que se suba ese proyecto. Recuerden la carpeta Bootcamp que les dije que creen donde van a crear sus proyectos. Váyanse ahí.
+Ya yo, por ejemplo, voy a crear en D ya porque ahí vamos a hacer la clonación.
+Yo, por ejemplo, lo voy a crear en Dev, pero ustedes tienen que crearlo o tienen que clonarlo en esa carpeta de proyectos donde están sus donde van a estar sus proyectos. Muy bien, aquí en esa carpeta te ubicas, ya estoy en la carpeta donde quiero y voy a abrir Gitbash porque esta es la ruta donde voy a crear el este.
+¿Dónde voy a crear o dónde voy a clonar el proyecto? Yo le voy a dar a Pwdy ven que estoy justamente la ruta CD donde quisiera estar.
+Muy bien, ¿qué es lo siguiente? Lo siguiente es ejecutar este comando que nos da aquí, git clone de clonar y acá le copiamos. Ahí se copió la última ruta. Perdón, acá ponemos justamente esta URL que nos que nos dio nuestro repositorio al momento de presionar acá.
+Ya que copiamos acá lo ponemos y dicho y hecho chicos, con esto le damos a enter.
+Empieza el proceso de clonación.
+Es así de sencillo. Con esto lo que estamos trayendo es justamente todos los documentos que tiene eso, ya todos los documentos que tiene esto. Y si me acerco y visualizo aquí, efectivamente ha traído a ese repositorio. ¿Lo ven? Aquí está.
+My links, si accedo ahí están todas los archivos que pues que tenía esto.
+Bien, pudieron hacerlo eso, chicos, por favor, a ver, sí, todos tienen el este genial, todos ya tienen este, ya tienen ese repositorio. Ahora quiero que clonen ese repositorio y lo traigan a su máquina local para que puedan codificar ahí.
+Quiero que lo traigan ahí o k al final quiero que me manden esta captura de aquí por WhatsApp, por favor, esta captura de aquí con su carpeta Mylinks abierta, o sea, ya clonada y esos este y pues sus respectivos archivos. Eso es lo que quiero que me manden por WhatsApp bien, chicos.
+Por favor, por WhatsApp me mandan esto.
+Porque ahí quiero ver que efectivamente.
+¿Han podido clonar con éxito? Si no explico de nuevo, me confirman, por favor, explico de nuevo, no quiere pegar el link. Sí, es la dificultad, simplemente pones control derecho. Ya hay una dificultad ahí para copiar el link, simplemente pones acá y pones paz porque con control B no se puede, chicos, con control B no se puede, pones git clone.
+ya y este le das clic derecho pas o pegar ya ya acá no lo tengo voy a copiarlo pero le das a past y ahí te lo copia y aplasto center no intenten con control B porque no se puede chicos sale como que una terminología medio rara miren
+Es control b y no me pasa nada. ¿Lo ves? La única forma de hacerlo aquí es compás o pegar y ahí recién se va a poder bien.
+Ahí todavía siguen con ese problema, por favor, Apple me dice o K, no te preocupes, Apple, primero lo que tienes que hacer es ir a la carpeta proyecto, bueno, la carpeta donde vas a guardar tu proyecto ya que yo estoy usando de estoy dentro de Dev y adentro adentro. Lo que voy a abrir es mi este git bash.
+Necesito el git bash, okay.
+Necesito el git pash. Entonces aquí primero verifica que estás en la carpeta de proyecto. Usamos el comando PWD, me indica que efectivamente estoy en la carpeta de donde quería estar y aquí lo que vas a hacer es clonar. ¿Qué necesitas para clonar? Necesitas en tu repositorio que justamente acabas de crear. Ya vete a donde está el botón verde code.
+Ahí abajo, aquí hay una ruta.
+Ay, mala fecha.
+aquí chicos, aquí hay una ruta, ok, aquí hay una ruta, esta de acá, esta ruta es lo que necesitas para clonar, le das a copiar, copias esa ruta, regresas a tu git bash donde tú querías clonar ya y pones esto git low
+Y ahí con clic derecho.
+Past o pegar con estos, con esto simplemente le das a enter y te va a salir esto de aquí, April te va a salir este mensaje que está aquí.
+Ya yo ya lo cloné y te va a salir este mensaje de estamos descargando los archivos ta ta ta listo. Verificas cómo te vas a esa misma carpeta donde querías clonar y te va a salir esto de aquí, la carpeta MyLinks, que es la carpeta que ya se clonó. O sea, ya lo descargaste desde Internet, le das a MyLinks.
+Y acá vas a ver que están todos tus archivos que estaban aquí, los archivos que estaban en tu repositorio en Internet ahora están en tu máquina local. ¿O K se puede entender eso?
+April ahí me mandan por favor me mandan el es genial lo pudiste entender bien porque lo que quiero es que es quieren que me manden un screenshot de esto ya de que efectivamente si pudieron bajar con éxito esta carpeta de proyecto bien.
+Si pudieron mándenme ese screenshot, por favor, que ahí lo estoy viendo los que no me consultan.
+Genial, acá me ha mandado justo el este, me has mandado el proceso con éxito. Muy bien, Yarni, gracias, me has pasado eso bien.
+Por favor.
+Listo, eso ya lo tenemos ya. ¿Qué pasa? ¿Qué pasa este? Hay otra cosa más que pasa, chicos, y es que el comando Git clone también hace algo importante. Ya inicializa tu proyecto como un repositorio Git. Miren, miren que ya tiene el punto Git. ¿Recuerdan qué significaba esta carpeta que es?
+Que ya había aplicado el Git init. No sé si se acuerdan de eso. El Git init, o sea, ya es un repositorio GitHub. Ya no necesitan inicializarlo porque automáticamente lo ha hecho el punto Git.
+Muy bien, no necesitan aplicar acá el git init de nuevo, ya está inicializado, esperen aquí voy a dar un momento, voy a entrar a la carpeta que esté, por favor, ahora desde la carpeta, voy a cerrar esto desde la carpeta en la que está, abran su git bash, ya abran desde su git bash desde la carpeta que están, cierren el anterior.
+Porque ahí es donde van a empezar a trabajar.
+¿O dónde vamos a ver algo ya?
+Por ejemplo, aquí ya podemos notar el main, significa que esta carpeta ya es un repositorio. Eso es lo que ha hecho, pues Git clone ha hecho esa funcionalidad.
+Y ya conectó los repositorios también.
+O K, veo que exactamente veo que.
+Todos estamos en esto perfecto, entonces voy a continuar ya entonces ya sin inicializar el repositorio, no necesito aplicar Git init, no necesito aplicar Git init. Aquí chicos, no lo haga porque ya está como un repositorio Git, es decir, que ya puedes implementar directamente tus este tus comandos. Ya aquí chicos, voy a abrir esto con voy a abrir esto también.
+Con GitHub, ya voy a abrir esto con GitHub porque quiero mostrar rápidamente lo siguiente, aquí con la carpeta MyLinks, ustedes van a poder interactuar como la interacción que mencioné justamente que hice con Git. No vamos a mostrarlo de forma más rápido porque ya lo comprendemos. Estoy en mi carpeta aquí ya.
+Estoy aquí en mi carpeta Git y ya abrí ese proyecto. Abrí my links con este Visual Studio Code. Hoy lo podemos abrir también desde el comando, así con kit con code.
+Punto ya voy a cerrar incluso esto para que lo puedan ver en vivo.
+Desde Git Bash también podemos abrir este esa carpeta chicos con Visual Studio Code. ¿Cómo usamos este comando? Code punto con code punto aplastamos ya. Obviamente tenemos que estar en esta ruta de My Links y vean como automáticamente me abrió ahí el Visual Studio Code.
+O K, perfecto, ¿qué es lo que van a pasar acá? Chicos, lo que ustedes van a hacer ahorita no, obviamente en su momento lo que van a hacer es personalizarlo con su nombre, su este, su descripción de lo que les apasiona y acá van a poner enlaces a su GitHub, o sea, acá lo van a editar con van a personalizarlo ya en su readme lo van a tener más claro cuando lean.
+El readme.md es un markdown que tiene la descripción de cómo es su proyecto. Ya esto no lo toquen, el readme no lo toquen, es simplemente una descripción. No es código, no es programación, el readme, no va a afectar en nada su código, es como un documento de texto con apuntes. Ya eso es el readme bien.
+Lo único a ustedes como programadores que les va a interesar es el index y el styles que ya lo hemos visto, cierto en el index ustedes van a, por ejemplo, modificar su este. Por ejemplo, yo voy a voy a hacer una pequeña modificación y solo voy a poner mi nombre aquí, Eric Verde ya.
+¿Por qué hice esta modificación? Porque voy a demostrar en vivo.
+¿Este ¿Cómo se modifica un proyecto con Git? Recuerden esto, hasta ahí me siguen, chicos, pudieron abrirlo ya.
+Perfecto, genial, voy a continuar.
+Ya parece que no hay dudas, va a olvidar, Carlos Messi, sí, genial. Okay, este ahí tienen ya una chamba, chicos, que es entrar a su proyecto ahorita no, obviamente por el tiempo, pero entrar su proyecto y modificarlo ya personalizarlo para ustedes, o sea, personalizarlo con sus datos, con su información y también puede modificar el estáis, porque ahí acá lo que hay son propiedades que nos.
+Conocemos ya pueden poner el color que quieran, muy bien la letra, el tipo de letra que quieran, pero aquí está con Popins, pero ustedes pueden eliminar esto y traer el que ustedes deseen. Muy bien lo que hice yo, chicos, puede hacer un cambio porque voy a ver en tiempo real justamente esto.
+Este git bash está justamente en la ruta de mi proyecto. Cuando ponga git status van a ver justamente git sabe que he modificado ese index. ¿Qué es lo que quiero hacer? Quiero guardar ese este ya como se hacía, recuerdan git, o sea, como.
+¿Cómo le avisaba a Git que quiero este? ¿Cómo le avisaba que he hecho un cambio, chicos, no? ¿Cómo hacía para avisarle que quiero hacer un cambio con Git a correcto? Exacto, John, muchas gracias con Git a con Git a le voy a avisar que efectivamente sí, de hecho ese cambio en Intex, por favor, te estoy avisando.
+Prepáralo para guardar.
+Voy a mandar a guita estatus.
+y efectivamente Sí ya lo preparó para guardar el Index solamente el Index chicos porque él solamente detectó que ahí este ese cambio lo siguiente es que era lo siguiente Ahora sí guardar git commit m
+Y acá podemos el mensaje descriptivo que digamos sea un filtro, no este agregar o no.
+Editar título principal.
+Con mi nombre ya dicho y hecho, chicos, se hizo ahora acá lo que va a pasar con ustedes muy bien, acá lo que va a pasar con ustedes, chicos, acá hice un cómic, ya es un perdón, acá no va a pasar nada, todavía hice un cómic y acá estamos trabajando hasta este punto.
+No hemos hecho, no hemos subido ningún código a Internet, chicos, no hemos hecho subido ningún cambio a Internet porque hasta el git commit, como mencionamos, solo hemos trabajado con git de manera local. Es decir, este cambio que yo he guardado solamente está en tu este local. Aquí en tu Internet no está ese cambio de Eric Verde.
+¿Que yo le he hecho en este caso, no? Por ejemplo, si voy a mi index, aquí no hay sigue igual, sigue igual con ese nombre de tu nombre. ¿Lo ven? No he guardado ningún cambio.
+¿Qué entonces qué este? ¿Qué comando se usa para ahora si subir mi cambio a Internet para subir ese cambio a Internet? Usamos el comando y bash ya que es.
+Este comando que está aquí, git push, perdón, git push, ya primero tienen que entender lo siguiente, que esto chicos, ahorita estamos aquí, ya ahorita de manera local solamente tenemos estos 3 escenarios, pero con GitHub estamos agregando un repositorio remoto, lo que tiene que pasar, chicos, lo que tienen que pasar.
+Es que tenemos que sincronizar el repositorio remoto y el repositorio local. Los cambios que le hagas en el repositorio local, que los guardes, los tienes que subir a tu repositorio remoto. Ya es simplemente eso y los cambios que hagas en el repositorio remoto lo tienes que bajar a tu repositorio local. Es una sincronía entre ambos repositorios.
+Esa es tu función tuya como programador usar al usar Git y GitHub. Bien, es así de sencillo. Entonces yo hice un cambio en el repositorio local y lo que quiero hacer es mandarlo al repositorio remoto. ¿Cómo hacemos con es? ¿Cómo hacemos eso con Git Push?
+Al momento de hacer git push, primero lo que tenemos que ver es una cosa.
+Ya esto aquí, ya listo, perdón.
+Tenemos que.
+Es saber cómo es que reconoce que efectivamente, cómo es que reconoce el cómo es que reconoce que a dónde subirlo. Esa sería la palabra, cómo reconoce a dónde voy a subirlo. Para eso esto no tienen que usarlo, pueden usar git push este directamente.
+Pero esto se hace justamente como para ver un proceso de un como para analizar o para verlo en vivo. Cuando yo pongo Git Remote B, lo que me está dando es los enlaces justamente de a dónde se va a subir el cambio que tú vayas a hacer a Internet. Y aquí efectivamente sale el link.
+Del repositorio que clonamos, lo ven que es este repositorio que está aquí. Sale el cambio del repositorio que clonamos. Entonces con esto ya sabe a dónde subirlo cuando yo hago git push ya directamente.
+O K, ahí va a pasar un proceso ya listo, va a pasar un proceso anterior donde nos va a decir qué es lo que está haciendo, hasta que al final nos dice lo siguiente.
+Subido aquí tal ya de main to main, es decir, rama main de la rama main de mi proyecto local. Recuerden el main que es la rama de esto a la rama main que está, pues en tu repositorio local, que tienes una rama main, como ves acá, rama main o K.
+Voy a esto, voy a.
+Recargarlo y vean cómo se va a ver el cambio, chicos primero ya ve que son 2 cómics, segundo.
+Ve acá el nombre del cómic que yo hice, cambié este índex y acá se ve cuál fue el cómic que hice future, editar título principal con mi nombre. Si le doy clic a esto, van a ver, acabo de subir con git push el cambio y van a ver que efectivamente el cambio está aquí, miren, ahí sale mi nombre Eric Verde.
+¿Lo ven, chicos? o ¿K lo ven a ustedes? ¿Qué les va a pasar chicos? Al ser la primera vez que usen ustedes GitHub, al ser la primera vez que ustedes hagan un cambio con Git Push, les va a pasar un proceso de autenticación ya para verificar como de autenticación para verificar que la conexión entre su Git y su Git.
+Push, este perdón, gifbash sea este una conexión segura, les va a pasar como un proceso de credenciales. o K, no sé si ahorita le ha pasado a alguno que me está siguiendo.
+Ay, sí, perdón, John, ya vamos a terminar, lo siento, lo siento.
+Sí, no te preocupes, sí.
+Sí, ya o K, sí, ya estamos por terminar. Se nos hizo tarde aquí, ya entonces genial. Si le pasó eso, ya simplemente este les va a pasar un les va a mandar al navegador para que ustedes se autentiquen de nuevo. Les va a pasar un proceso de autenticación de nuevo, ya simplemente siguen la autenticación y ya va a enlazar para siempre.
+Su Git de su máquina local con el Git que está con el GitHub, pues que está en la nube. O sea, ya va a haber una conexión para siempre, no solo en este proyecto, sino en los siguientes. o K o K chicos, aquí no me aparece porque este el tema es que yo ya lo había hecho en proyectos anteriores y incluso eliminando el Git.
+O sea, desinstale el Git diciendo OK, ya no me va a salir de nuevo. Esto no me salió, no me salió OK, pero si tienen problemas con esos chicos, por favor, me escriben al privado porque voy a continuar con lo último. Bueno, lo último es es creo que con eso sería esto, o sea, con esto ya en realidad hemos subido nuestro proyecto remoto.
+Pero lo último que quería hacer era lo siguiente, chicos, era lo siguiente.
+Ya para finalizar, ya era justamente lo que había propuesto en.
+Lo que había propuesto de subir su proyecto a lo que sería el proyecto uno que tiene ya el proyecto uno que tienen que lo suban a GitHub. Es un proceso súper rápido. Eso ya, por ejemplo, ahí está mi proyecto, mi perfil es esto o k, pero no está en GitHub.
+No están quejas entonces lo que quería que ustedes hagan crea que lo suban. ¿Cuáles son la serie de procesos que tienen que subir que tienen que hacer?
+Es sencillo, ya vamos a cerrar todo el vamos a eliminar todo esto porque esto va a ser un proceso sencillo. Con esto ya termino chicos, no se preocupen con esto termino.
+Voy a ejecutar git bash aquí en el proyecto donde está mi perfil, ustedes ejecutenlo en el proyecto donde está su perfil, por favor.
+Ya y lo primero que tengo que hacer es convertirlo, obviamente en un repositorio. Acá el flujo es el mismo, acá el flujo es el mismo que ya habíamos visto con los anteriores.
+Inicializo esto como un repositorio perfecto porque un repositorio es lo que se sube a GitHub. Ya lo inicializo como repositorio. Luego lo que hago voy a ver con Git status que todas estas carpetas no me los reconoce todavía, este no me lo reconoce. Ya lo que voy a hacer justamente es avisar que esas carpetas.
+Se van a este van a subir como un cambio, o sea, se van a guardar como un cambio. Les vamos a avisar que son un cambio, pero todavía no se van a guardar. Ya saben cómo se hace con GitHub, cierto con GitHub.
+Listo, también se va a subir. Sí, va a haber como que tal vez les va a salir una este una serie de advertencia, pero no se preocupen, es que usualmente a GitHub se suben lo que son este archivos como de programación y este Wireframe no lo reconoce.
+Ya no lo reconoce, por eso es que te sale como que eso no te sale eso.
+Pero igual se va a subir, no se preocupe, ya continúo, pongo git commit menos my acá le pongo, no sé, un feature, un feed de este.
+Subir, no o k.
+Iniciar proyecto, lo voy a poner, iniciar proyecto uno o finalizar ya en realidad, porque este ya es último, este no finalizar o mejor, mejor más específico, ya es subir proyecto a GitHub ya.
+Subir proyecto a GitHub. Okey, con esto he guardado el cambio perfecto. El commit ha sido hecho, el commit se ha hecho, pero todavía sigue donde todavía sigue el repositorio de manera local. Lo que se sube en chicos, lo que se sube.
+De Git a GitHub son los commits. Por eso he tenido que hacer un commit. Sencillamente eso ya está hecho el commit. Entonces ahora lo voy a subir a GitHub. ¿Cómo lo hago chicos? ¿Cómo lo hago? Hacemos lo siguiente ya.
+Lo siguiente es que usamos, recuerdan que es lo que tenemos que usar.
+Efectivamente, aquí está. Tenemos que usar el y pash, es lo que vamos a hacer. Vamos a este, vamos a subirlo.
+Pero antes de saber, antes de subirlo a Internet, obviamente falta algo, chicos.
+Falta algo, falta tu este repositorio remoto. No tienes el repositorio remoto, o sea, en Internet no hay un repositorio remoto en tu GitHub con el que hayas conectado eso.
+Nosotros hemos tenido que crear, por ejemplo, para esto nuestro repositorio remoto my links, cierto esto y automáticamente se había conectado con Cloud, pero para subir este proyecto uno que ya hemos hecho, o k primero voy a ver si hay preguntas, por favor.
+O K, si tienen alguna duda, alguna pregunta, por favor, levanten la mano si se han perdido ya este y yo los leo bien, voy a continuar.
+¿O K, dónde me quedé? Falta un repositorio remoto, chicos, para enlazarlo porque no hay un repositorio remoto, es decir, no lo crea cuando tú lo subes y push lo que hace es subirlo, pero lo tiene que subir a un repositorio remoto. Pero no has creado un repositorio remoto, no crea un repositorio remoto. Entonces lo que tienes que hacer es.
+¿Crear uno como lo creamos? Justamente lo mencioné, chicos, esto no se me había que raro. Ya vamos al botón de aquí, a este botón de aquí del más, entramos ahí.
+Yeah.
+Y le damos a new repositorio, es simplemente eso y van a salir los mismos campos que mencioné anteriormente.
+Aquí le van a dar el nombre del proyecto, que era mi perfil, ya así tal cual mi perfil, una descripción, página web.
+En mi perf sobre mí, ya sobre mí, eso página web sobre mí.
+Listo y nada más. Lo demás lo dejan como está en público, sin in play, déjenlo como está y le dan a crear repositorio.
+Nada más que eso, chicos, es súper sencillo.
+Yeah.
+Veo que no hay ninguna duda, espero que me estén siguiendo por favor.
+Entonces, este nada más que eso me sale lo siguiente, chicos, este es mi perfil, este repositorio ahora sí está vacío porque no lo he creado a partir de una plantilla, está vacío, lo he creado así tal cual vacío ya y aquí mismo ya nos da la respuesta, chicos, de cómo enlazarlo acá dice.
+Al crear un nuevo repositorio, usa estos comandos de línea. ¿Para qué? Para enlazarlo con un repositorio que ya tengas, pues en lo que sería acá, mira si existe un repositorio, si tú tienes un repositorio que exista en tu este.
+En tu dispositivo local, o sea, pues en tu máquina usa estos comandos.
+¿Cómo lo enlazamos manualmente? Usamos este comando que nos presenta al inicio give remote at origin.
+¿Ya usamos este comando, qué es lo que hace esto?
+Lo que hace esto es git remote, es lo que te lo que hace es enlaza justamente el repositorio remoto.
+Local.
+El repositorio remoto local con el repositorio remoto que tú has creado. Es eso, simplemente haz eso. Ya copiamos esto de aquí, nos vamos aquí y aquí lo pegamos. Es simplemente eso. Le doy a esto, aceptar y lo ha hecho. ¿Cómo lo sabemos?
+Recordando este comando que se los había mencionado anteriormente en Guin remote B.
+Cuando Cuando hacemos este comando nos da justamente el link, efectivamente el link de ese repositorio que acabamos de conectar. Los repositorios han sido conectados. Ahora sí puedo hacer git bash tranquilamente, pero aquí pasa algo, chicos, aquí pasa algo.
+Y es que no puedo ejecutar directamente git push al la primera vez cuando lo hacemos de forma manual o k cuando hacemos de forma manual como lo hicimos la primera vez que le vayamos a hacer git push a un repositorio, lo que tenemos que hacer es.
+Colocar este término aquí, git patch u.
+Y acá le ponemos.
+Origin, okay.
+Sí sí sí creo que así era a ver si el git A ver vamos a ver acá
+Es un término este que se usa la primera vez.
+Pero vamos a verlo, sí creo que era.
+No lo puse. Bueno, era origin or main para main. No, espera origin main, perdón, es decir, que me suba a el cambio al remoto origin.
+Que es justamente el remoto que le hemos es el nombre del repositorio remoto que le hemos dado, ven acá origin le hemos dado y vamos a subir main.
+O K, dicho hecho, acabo de prestar este y me ha subido todos esos cambios.
+Ahora sí, me ha subido el cambio a Internet a exactamente el repositorio que yo le indiqué aquí, si yo me voy a mi repositorio aquí y lo refresco.
+Ahí está, huala, chicos, se ha subido su proyecto número uno.
+se ha subido su proyecto número uno bien chicos sé que tal vez algunos no me hayan seguido ya no hay problema no pueden revisar otra vez algunos sí no sé este chicos
+Pero hasta ahí se pudo entender. ¿Y cómo lo abre en Internet? Exacto, sí, ahí vamos, ya ahí vamos. ¿Cómo lo abres en Internet? No te preocupes, es un proceso súper sencillo, Yarme, es un proceso súper sencillo. 1 minuto te toma ya 1 minuto te toma, pero primero quiero confirmar si este.
+Sí, hasta ahí se pudo ver, no, normalmente pueden mostrar la consola de perfil. o K, ahí está. Tómale tu screenshot, este voy a mandar los comandos también por el chat de este, si es posible por.
+Uh.
+Por el chat de WhatsApp o K, perdón, ahorita por la prisa estoy, estoy explicando lo más claro también posible, o K listo, pero también voy a intentar mandar los comandos por esto, ya son los mismos, solamente donde cambia chicos, es que en el anterior proyecto lo hicimos de hemos hecho de a partir de git clone. ya.
+Es decir, de un proyecto que estaba en Internet a nuestro local, no. En cambio, en este caso lo hemos hecho al revés, ya teníamos un proyecto en local y lo teníamos que subir a Internet. Ven que en cuanto al Git es lo mismo, pero en GitHub sí tienes que usar otros comandos.
+Tienes que manualmente enlazarlo y también mencionar un git patch, pues esa es la primera vez que se usa indicar al dónde estás, al remoto, dónde quieres a subirlo, que en este caso se llama origin. Nosotros lo hemos puesto así y rama main to main.
+Sí.
+Y chicos.
+Vamos a pasar ahora con este de acá, esto toma 1 minuto nomás, Yarmin.
+Genial, perfecto, Kevin, OK, perfecto.
+Perfecto, y esto toma 1 minuto más. ¿Cómo se hace? Estoy en mi página de mi perfil, vamos a cerrar esto y lo que quiero que hagan es que vayan a settings aquí.
+Vayan a settings.
+Al ir a settings, vayan abajo a donde se dice, a donde dice la página Page, ya vayan a la opción de Page, ahí le damos clic y aquí vamos a poder desplegar a la página a Internet ya.
+Se despliega desde una rama, ya si nosotros vemos acá la rama que nosotros tenemos que seleccionar, ahorita está en no, no está desplegado. Nosotros tenemos que darle main, es decir, que se va a subir la rama main, la que se va a desplegar y lo guardamos.
+Y con esto ya lo hemos desplegado, chicos, es sencillamente eso o k va a tomar 1 segundo, no sé, va a tomar máximo 1 minuto, ya va a tomar máximo 1 minuto cuando ustedes lo recarguen, ahorita no me sale, ya está haciendo el deploy, ya por detrás está subiendo la página web.
+Por detrás está subiendo la página web y me va a dar un link, pero me voy a recargar de nuevo para ver si ya me sale, todavía no o k solamente es creo que depende de tu internet en realidad, pero no he impuesto tantos archivos, así que no creo que se demore tanto.
+Pero cargar el nuevo, no, pero hasta ahí espero que me hayan seguido aquí. Ya es simplemente esperar lo que va a salir acá arriba, acá mismo en esta página, ahí arriba te va a salir el link.
+Hey, pudieron captarlo ahí chicos ahorita.
+Bueno, no, este yarmy.
+A ver.
+Se pudo, Se pudo ver ese este voy a recargar de nuevo para ver si me sale. Ajá, ya salió, chicos, aquí está.
+Este es el enlace, este es el enlace que me está dando para mi página web. Yo voy a enlazar ahí y vean. Bueno, el mío me quedó así, todavía no es este, pero el mío está así. Ya vean como ahora sí está en Internet.
+Que chicos, esa es su página que está en Internet.
+Yeah.
+Me quedé en la pitch o k de nuevo ya.
+¿Estás en tu?
+Proyecto te vas a settings.
+En settings vas a page, exactamente vas a page, le das a page y lo único que tienes que hacer aquí, este yarny, dejas aquí tal cual deployar desde la rama y acá lo que tienes que seleccionar es main.
+Seleccionas main y lo guardas.
+Y con eso va a pasar un proceso de va a subir, o sea, va a subir tus tu página web a Internet.
+Nada más que eso o k vas a subir tu página web a Internet. Ahí lo que tienes que hacer es esperar. Vas a tener que refrescar, no sé cada 1 minuto, depende de tu Internet y te tiene que salir esto de aquí.
+Te va a salir este esta información que está aquí, donde te dice tu sitio vive en este link que está aquí. Ya te da el link para que tú directamente, pues al darle click, se abra o se ejecute en Internet. Es sencillamente eso.
+Y lo que quiero, chicos, es que bueno, ahorita no, ya lo que sí hubiera creído es que compartan este link por WhatsApp.
+Ya otra cosa más, otra cosa más, un último este último tip, si ustedes subieron con éxito su página de mi perfil a Internet, cuando se vayan aquí a About, que está acá en esta sección que está al costado.
+Ya le dan a configuración que está aquí, ustedes van a poder enlazar automáticamente ese link de tu página web como acá donde dice websit.
+Ya acá donde dice website website le dan a este check que está aquí, usa tu este la página que tú has subido con GitHub, le das a eso, lo guardas.
+Y el ya tienes el link directo para que tú le puedas acceder ahí, ya le das a esto mismo y es justamente el link que subí.
+Sí.
+Ya salió genial, Yarni, muy bien, chicos. o K, este, ¿qué tal? ¿Cómo con los demás chicos? Sé que tal vez no me pudieron seguir, pero se pudo entender hasta ahí, por favor.
+Yer me dice o K genial.
+A los que tal vez tuvieron problemas, chicos, yo les voy a dar en privado, no se preocupen. o K, es un proceso sencillo, yo los ayudo en privado, pero lo que sí quisiera es que exactamente Kevin, genial, ya puedo, ya pudiste ver tu página web. Muy bien, justamente es el objetivo de esta clase. Lamento sí, el tiempo, perdón, pero es el objetivo que se quería cumplir.
+Que ya tengan, pues su página web, el link de su página web para que puedan pues mostrarlo, no acá el otro tip también que mandé about chicos.
+Aquí le dan al check, tiene que estar check y lo guardan y ahí va a salir su link automáticamente.
+Ya que le pueden llenar otras cosas, también ya pueden hablar sobre la descripción de su página web, etcétera, ya, pero principalmente que salga en link.
+Muy bien, chicos, por eso yo quisiera que me corroboren, por favor.
+Porque con eso ya estaríamos terminando esta clase número 5.
+Por favor, a ver, mira, mi cómo le está apagado.
+Ya entonces, chicos, ¿cómo hasta ahí? Bien, ¿alguna duda? ¿Alguna pregunta? Por favor, ya para cerrar esta página, bueno, perdón, para ya cerrar la clase.
+¿Una duda, alguna pregunta?
+Levanta la manito, si no, si me desean que repita algo.
+Ustedes me dicen chicos.
+Todo conforme en cuanto al laboratorio número 5, o K, la parte uno y 2 ya estaba hecho, la parte 3 también ya estaba hecho, los que clonaron su repositorio. Bueno, lo clonaron a partir del links que le di, o K al partir del link que le di, o sea, que ya lo tienen en su carpeta local. La mayoría me mandó su screenshot, así que perfecto.
+Si lo pudieron clonar, bueno, si pudieron primero crear repositorio y segundo clonar, tenerlo en su carpeta, en su máquina local, porque ahí justamente las dejé una tarea, una tarea propia, que es que este lo personalicen según pues sus datos personales, no sus datos propios ya.
+Luego, la parte cuatro tiene que ver con tu primer cómic y pash. La parte cuatro es justamente eso, no una vez ustedes han personalizado con sus datos esta página de MyLinks, ya le han puesto, yo le puse a Eric Ver, bueno, su información, su bio, sus enlaces, todo lo que tienen que hacer es.
+Personalizarlo, obviamente, como comenta acá, y tienes que pues hacer todo el proceso de Git, que es este desde el git add, el git commit correcto, o sea, hacerle ver su tus cambios, guardar tus cambios y aplicar el git patch ya el git patch que es subirlo.
+A subir tus cambios a internet, es decir, tú este.
+Tu repositorio de my links, tu repositorio de my links que está aquí, tiene que tener tus cambios, o sea, tu index y tu style tiene que tener tus cambios, o sea, aquí tiene que estar tus datos personales ya con tus cambios.
+O sea, que tiene que decir tu nombre, lo que tú hayas puesto acá. Eso es el punto número cuatro o k subir tus cambios, crear el commit te dice acá y sube tus cambios a GitHub y tienes que justamente verificarlos acá. Bueno, tú accedas a tu carpeta, perdón, a tu repositorio de My Links, ahí tiene que estar subiendo tus cambios. Si aquí están tus cambios.
+Entonces completaste el laboratorio con éxito, estimado programador y programadora.
+Muy bien y lo que tienes que entregar es la URL de tu repositorio, es decir, esta de acá.
+Lo que justamente les pedí que me compartan por acá, por el por el chat, eso este de acá lo tienen que compartir ahora por dónde.
+Pues lo tienen que entregar ahora por el canvas ya y un screenshot de tu terminal. o K, bueno, esto ya es un screenshot de terminal mostrando el comando git lag, git log online, es decir, los commits que tú has hecho y es eso, ya es efectivamente es esto en realidad ya el trabajo que tú has hecho.
+Para aplicar el git push, ese es lo que quieren es que mandes un este un scription de esto.
+Ya, pero git lag online, a ver, acá voy a ejecutar git lag.
+¿Qué es una variante del git light? Git log, simplemente, aunque acá no me reconoces el comando, es a es one line.
+Y es una variante que básicamente te da lo mismo, te da el cómic que tú hiciste, pero en una lista es simplemente es como el git log que también mencioné. Ven, es como el git log, pero en una lista nada más. Entonces tienen que mandar con ese cómic. Acá al menos tiene que haber un cómic ya, porque obviamente han tenido que hacer un cómic para que lo suban.
+A GitHub, muy bien, y eso más que nada, chicos, o k se puede entender el entregable.
+Por favor, ya para culminar esta clase y para ya no interrumpirlos más.
+Kevin me dice que sí, por favor me comenta con un check los demás para estar más tranquilo. Lamento de nuevo porque es que hayamos este terminado tan tarde, ¿verdad?
+Lamento eso ya con los personas que tal vez tuvieron inconvenientes durante este su git. Me pueden avisar normalmente por esto bien, John Durán, Carlos, Kevin, muchas gracias por ese.
+Sí, entonces sí, con esto creo que ya terminaríamos lo que sería esta clase número 5. Chicos, si no hay dudas, no hay preguntas. Muchas gracias por quedarse hasta el final y bueno, conmigo sería hasta la próxima. o K, chao, chao.
+Chicos.
+Chao, Yarni, gracias por esos aplausos, muchas gracias.
+Listo.
+Buenas noches, Carlos, buenas noches.
+Perdón para los que tienen que irse a su casa. Gracias, Kevin. Gracias a ti por estar todas estas horas por acompañarme hasta estas horas.
+Buenas noches.
+
+Orador 1 ha detenido la transcripción

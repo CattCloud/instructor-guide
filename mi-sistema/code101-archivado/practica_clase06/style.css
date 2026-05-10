@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* --- EJEMPLO  PIXEL MALO------------------------------ */
+
+/* .caja{
+    width: 700px;
+
+    height: 100px;
+    background-color: green;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}   
+ */
+
+
+
+/* --- EJEMPLO  PORCENTAJE-------------------------------- */
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja-padre {
+    width: 50%; 
+    height: 400px;
+
+    background-color: #333333; 
+}
+
+.caja-hija {
+    width: 50%;
+    height: 70%;
+
+
+    background-color: #4CAF50; 
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+} */
+
+
+
+
+
+/* --- EJEMPLO  MAX-MIN--- */
+/* .caja-elastica {
+    width: 100%; 
+    max-width: 400px;  
+    min-width: 300px;  
+
+    height: 200px;
+    background-color: blueviolet;
+    border: 2px solid black;
+} */
+/* 
+.img-elastica{
+    width: 50%;
+    height: 40%;
+
+
+} */
+
+
+
+/* --- EJEMPLO  VIEWPORT------------------------ */
+/* .caja-viewport {
+    width: 50%; 
+    height: 100vh;
+
+    background-color: coral;
+    border: 2px solid black;
+}
+
+.caja-viewport-padre{
+    width: 500px; 
+    height: 400px;
+
+    background-color: aqua;
+} */
+
+/* --- EJEMPLO  MEDIA QUERIES------------------------ */
+
+
+img {
+    width: 300px;
+}
+
+
+
+
+/* TABLET */
+@media (min-width: 640px) {
+    img {
+        width: 500px;
+    }
+    
+}
+
+
+/* LAPTOPS PEQUEÑAS */
+@media (min-width: 769px) {
+    img {
+        width: 650px;
+    }
+}
+
+/* lAPTOP*/
+@media (min-width: 1024px) {
+    img {
+        width: 800px;
+    }
+
+}
+
+/* MONITOR */
+@media (min-width: 1280px) {
+    img {
+        width: 1000px;
+    }
+
+}
