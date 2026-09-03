@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoyo en vivo — Clase 03 (CSS Grid)</title>
+  <style>
+    /* ==================================================
+       CSS MÍNIMO — solo para que los demos se vean legibles.
+       NO confundir con el reset universal del proyecto víctima.
+       ================================================== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      padding: 24px;
+      background: #fff;
+      color: #1a1a1a;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .intro {
+      background: #ffec99;
+      padding: 12px 16px;
+      border-left: 4px solid #f08c00;
+      margin-bottom: 32px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .demo-section {
+      margin-bottom: 48px;
+    }
+    .section-title {
+      background: #1971c2;
+      color: #fff;
+      padding: 8px 16px;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+    .demo-note {
+      background: #ffec99;
+      padding: 8px 12px;
+      border-left: 3px solid #f08c00;
+      font-size: 14px;
+      margin-top: 12px;
+    }
+
+    /* ==================================================
+       Estilos compartidos para todos los demos:
+       contenedor con borde punteado + cajas-ítems numeradas con colores funcionales.
+       ================================================== */
+    .demo-container {
+      border: 2px dashed #1e1e1e;
+      padding: 12px;
+      background: #f8f9fa;
+    }
+    .demo-item {
+      padding: 24px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 18px;
+      border-radius: 4px;
+    }
+    /* Paleta canónica del bootcamp — coincide con la del SKILL excalidraw-system §3 */
+    .item-1 { background: #b2f2bb; color: #2f9e44; }   /* verde */
+    .item-2 { background: #ffd8a8; color: #e8590c; }   /* naranja */
+    .item-3 { background: #a5d8ff; color: #1971c2; }   /* azul */
+    .item-4 { background: #ffc9c9; color: #e03131; }   /* rojo */
+    .item-5 { background: #d0bfff; color: #6741d9; }   /* lila */
+    .item-6 { background: #ffec99; color: #e8590c; }   /* amarillo */
+  </style>
+</head>
+<body>
+
+  <h1>Apoyo en vivo — Clase 03 (CSS Grid)</h1>
+
+  <div class="intro">
+    <strong>Cómo usar este archivo:</strong> abrir con Live Server. Por default todas las secciones DEMO están comentadas
+    (entre <code>&lt;!--</code> y <code>--&gt;</code>). Cuando toque demostrar un concepto, descomentar la sección
+    <strong>DEMO M2.X</strong> que corresponde, guardar (Live Server recarga), demostrar el efecto en pantalla, y
+    <strong>volver a comentar la sección</strong> antes de pasar al siguiente concepto. Esto mantiene la pantalla limpia
+    y enfoca al alumno en un solo concepto a la vez.
+  </div>
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M2.4 — display: grid (comportamiento por default) -->
+  <!-- ============================================
+       Contexto: sub-punto 2.2 del guion. Mostrar que con solo `display: grid`
+       (sin grid-template-columns), los hijos quedan en 1 columna por default —
+       perfecto para móvil. Abrir DevTools, inspeccionar el contenedor, click en
+       el badge "grid" para ver las líneas de la grilla en pantalla.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M2.3 — display: grid (1 columna por default)</h2>
+
+    <div class="demo-container" style="display: grid;">
+      <div class="demo-item item-1">Item 1</div>
+      <div class="demo-item item-2">Item 2</div>
+      <div class="demo-item item-3">Item 3</div>
+    </div>
+
+    <p class="demo-note">
+      Solo `display: grid`. Sin `grid-template-columns`. Los 3 hijos quedan apilados en 1 columna por default —
+      perfecto para móvil. Abrir DevTools y click en el badge "grid" para ver las líneas.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M2.5 — gap en Grid -->
+  <!-- ============================================
+       Contexto: sub-punto 2.3 del guion. Mostrar cómo `gap` separa filas Y columnas
+       sin necesidad de `margin` en los hijos. Cambiar gap entre 0, 8px, 24px en vivo.
+       Demostrar también que acepta dos valores: gap: 8px 32px (filas 8, cols 32).
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M2.4 — gap en Grid (separar celdas sin margin)</h2>
+
+    <div class="demo-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;">
+      <div class="demo-item item-1">Item 1</div>
+      <div class="demo-item item-2">Item 2</div>
+      <div class="demo-item item-3">Item 3</div>
+      <div class="demo-item item-4">Item 4</div>
+      <div class="demo-item item-5">Item 5</div>
+      <div class="demo-item item-6">Item 6</div>
+    </div>
+
+    <p class="demo-note">
+      Cambiar `gap: 24px` entre 0, 8px, 24px en vivo. Después probar `gap: 8px 32px` (filas 8, columnas 32).
+      Sin margin en ningún hijo — el espacio lo decide el contenedor.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M2.6 — grid-template-columns (declarar columnas explícitas) -->
+  <!-- ============================================
+       Contexto: sub-punto 2.4 del guion. Mostrar 3 estados en vivo:
+         1. grid-template-columns: 1fr 1fr 1fr   → 3 columnas iguales
+         2. grid-template-columns: 200px 1fr 1fr → primera fija, dos comparten el resto
+         3. grid-template-columns: 2fr 1fr       → 2 columnas en proporción 2:1
+            (la 3ra caja baja a una fila implícita nueva)
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M2.5 — grid-template-columns (3 columnas iguales)</h2>
+
+    <div class="demo-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+      <div class="demo-item item-1">Item 1</div>
+      <div class="demo-item item-2">Item 2</div>
+      <div class="demo-item item-3">Item 3</div>
+    </div>
+
+    <p class="demo-note">
+      Estado inicial: `1fr 1fr 1fr` → 3 columnas iguales. Cambiar en vivo a `200px 1fr 1fr` y después a `2fr 1fr`
+      para ver cómo cambia la distribución. La cantidad de columnas la decide cuántos valores le pasen.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M2.7 — Unidad fr (fracción del espacio) -->
+  <!-- ============================================
+       Contexto: sub-punto 2.5 del guion. Tres ejemplos lado a lado mostrando
+       distintas combinaciones con `fr`. Después demostrar el problema de los
+       porcentajes: cambiar `1fr 1fr` por `50% 50%` con `gap: 16px` y mostrar
+       que la segunda columna desborda (porque 50+50+gap > 100%). Volver a `1fr 1fr`:
+       ya no desborda. `fr` siempre se reparte lo que queda libre.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M2.6 — Unidad fr (proporciones del espacio disponible)</h2>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">1fr 1fr — dos iguales (mitad y mitad)</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+      <div class="demo-item item-1">Item 1</div>
+      <div class="demo-item item-2">Item 2</div>
+    </div>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">2fr 1fr — primera el doble de la segunda</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-bottom: 16px;">
+      <div class="demo-item item-1">Item 1 (2fr)</div>
+      <div class="demo-item item-2">Item 2 (1fr)</div>
+    </div>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">200px 1fr — primera fija, segunda toma el resto</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: 200px 1fr; gap: 16px;">
+      <div class="demo-item item-1">Item 1 (200px)</div>
+      <div class="demo-item item-2">Item 2 (1fr)</div>
+    </div>
+
+    <p class="demo-note">
+      Cambiar `2fr 1fr` a `3fr 1fr` en vivo (la primera caja crece a 3/4 del ancho).
+      Después, en el primer demo, cambiar `1fr 1fr` por `50% 50%` y mostrar que con gap desborda — `fr` nunca desborda
+      porque se reparte solo lo que queda libre después de los gaps y los valores fijos.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M2.7 — repeat() (azúcar sintáctica) -->
+  <!-- ============================================
+       Contexto: sub-punto 2.6 del guion. Dos contenedores idénticos lado a lado:
+       uno usando la forma larga (`1fr 1fr 1fr 1fr`) y otro usando `repeat(4, 1fr)`.
+       Se ven exactamente igual — son sintácticamente equivalentes. Después
+       extender ambos a 8 columnas para mostrar que la forma larga se hace ilegible.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M2.7 — repeat() (azúcar sintáctica)</h2>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">Forma larga: grid-template-columns: 1fr 1fr 1fr 1fr</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+      <div class="demo-item item-1">1</div>
+      <div class="demo-item item-2">2</div>
+      <div class="demo-item item-3">3</div>
+      <div class="demo-item item-4">4</div>
+    </div>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">Atajo: grid-template-columns: repeat(4, 1fr)</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+      <div class="demo-item item-1">1</div>
+      <div class="demo-item item-2">2</div>
+      <div class="demo-item item-3">3</div>
+      <div class="demo-item item-4">4</div>
+    </div>
+
+    <p class="demo-note">
+      Mismo resultado visual. `repeat(N, valor)` es azúcar sintáctica — forma corta del mismo código.
+      Para probar el caso extremo: extender ambos contenedores a 8 columnas (`1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr` vs `repeat(8, 1fr)`)
+      y mostrar la diferencia de legibilidad.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M3.2 — auto-fit (cuántas columnas caben) -->
+  <!-- ============================================
+       Contexto: sub-punto 3.2 del guion. Mostrar cómo `auto-fit` decide solo cuántas
+       columnas de 200px caben. Achicar la ventana lentamente para ver el número de
+       columnas bajar (6 → 5 → 4 → 3 → 2 → 1). El punto clave: el SOBRANTE queda como
+       espacio vacío al final de la fila — las cajas no se estiran. Eso motiva minmax
+       en el siguiente sub-punto.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M3.2 — auto-fit (sin minmax, columnas rígidas)</h2>
+
+    <div class="demo-container" style="display: grid; grid-template-columns: repeat(auto-fit, 200px); gap: 12px;">
+      <div class="demo-item item-1">1</div>
+      <div class="demo-item item-2">2</div>
+      <div class="demo-item item-3">3</div>
+      <div class="demo-item item-4">4</div>
+      <div class="demo-item item-5">5</div>
+      <div class="demo-item item-6">6</div>
+    </div>
+
+    <p class="demo-note">
+      `repeat(auto-fit, 200px)`. Achicar la ventana: las columnas bajan automáticamente (6 → 5 → 4 → 3 → 2 → 1).
+      PERO el sobrante queda como espacio vacío al final — las cajas son rígidas de 200px. Para que se estiren al
+      ancho disponible necesitamos minmax (siguiente sub-punto).
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M3.3 — minmax(min, max) — rango de tamaño -->
+  <!-- ============================================
+       Contexto: sub-punto 3.3 del guion. Mostrar cómo `minmax` define un rango para
+       una columna. Caso 1: `minmax(150px, 1fr)` — se estira al ancho disponible pero
+       nunca baja de 150px. Caso 2: `minmax(100px, 300px)` — rango cerrado, nunca pasa
+       de 300px aunque sobre espacio.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M3.3 — minmax(150px, 1fr) — rango con tope flexible</h2>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">minmax(150px, 1fr) — mínimo 150px, máximo 1fr (todo el ancho)</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: minmax(150px, 1fr); margin-bottom: 16px;">
+      <div class="demo-item item-1">Una sola columna que se estira</div>
+    </div>
+
+    <p style="margin-bottom: 8px; font-weight: 600;">minmax(100px, 300px) — rango cerrado, nunca pasa de 300px</p>
+    <div class="demo-container" style="display: grid; grid-template-columns: minmax(100px, 300px);">
+      <div class="demo-item item-2">Tope máximo de 300px aunque sobre espacio</div>
+    </div>
+
+    <p class="demo-note">
+      Achicar la ventana para ver el comportamiento. En el primero, la columna se estira al ancho disponible
+      hasta llegar a 150px mínimo. En el segundo, la columna nunca pasa de 300px aunque sobre espacio.
+      `minmax(<min>, 1fr)` es la combinación que vamos a usar con auto-fit.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M3.4 — repeat(auto-fit, minmax(...)) — el patrón canónico -->
+  <!-- ============================================
+       Contexto: sub-punto 3.4 del guion. Mostrar la combinación canónica:
+       `repeat(auto-fit, minmax(150px, 1fr))`. 6 cajas que se reorganizan en
+       6 → 5 → 4 → 3 → 2 → 1 columnas al achicar el ancho, SIN media queries.
+       Las cajas siempre llenan el ancho disponible (gracias a 1fr).
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M3.4 — repeat(auto-fit, minmax(150px, 1fr)) — la combinación canónica</h2>
+
+    <div class="demo-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px;">
+      <div class="demo-item item-1">1</div>
+      <div class="demo-item item-2">2</div>
+      <div class="demo-item item-3">3</div>
+      <div class="demo-item item-4">4</div>
+      <div class="demo-item item-5">5</div>
+      <div class="demo-item item-6">6</div>
+    </div>
+
+    <p class="demo-note">
+      `repeat(auto-fit, minmax(150px, 1fr))`. Achicar la ventana: las cajas se reorganizan en 6 → 5 → 4 → 3 → 2 → 1
+      columnas automáticamente. **Sin un solo `@media`.** Las cajas siempre llenan el ancho disponible (gracias a 1fr).
+      Este es el patrón canónico de Grid intermedio que vas a ver en TODO código real.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M4.2 — grid-template-areas (dibujar el layout con texto) -->
+  <!-- ============================================
+       Contexto: sub-punto 4.2 del guion. Mostrar cómo `grid-template-areas`
+       define el layout 2D con strings nombradas. Empezar con 3 áreas en 1 columna
+       (header / main / footer) y después cambiar en vivo a 2 columnas con T invertida
+       (header header / nav main / footer footer) para mostrar el poder de la propiedad.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M4.2 — grid-template-areas (dibujar el layout con texto)</h2>
+
+    <div class="demo-container" style="
+      display: grid;
+      grid-template-areas:
+        'header'
+        'main'
+        'footer';
+      grid-template-columns: 1fr;
+      gap: 12px;
+      min-height: 300px;
+    ">
+      <div class="demo-item item-1" style="grid-area: header;">HEADER</div>
+      <div class="demo-item item-2" style="grid-area: main;">MAIN</div>
+      <div class="demo-item item-3" style="grid-area: footer;">FOOTER</div>
+    </div>
+
+    <p class="demo-note">
+      Estado inicial: 3 áreas en 1 columna (header / main / footer apilados). Cambiar en vivo a 2 columnas:
+      <br><code>grid-template-areas: "header header" "nav main" "footer footer"; grid-template-columns: 200px 1fr;</code>
+      <br>(agregar un 4to div con <code>grid-area: nav</code> para que se vea el nav). El layout se redibuja literalmente con las strings.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M4.3 — grid-area (asignar elementos a áreas + orden visual independiente del HTML) -->
+  <!-- ============================================
+       Contexto: sub-punto 4.3 del guion. Mostrar que el orden visual depende de
+       grid-template-areas en el padre, NO del orden del HTML. Mover el footer al
+       principio del HTML y mostrar que sigue apareciendo abajo en pantalla.
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M4.3 — grid-area (orden visual independiente del HTML)</h2>
+
+    <div class="demo-container" style="
+      display: grid;
+      grid-template-areas:
+        'header header'
+        'nav    main'
+        'footer footer';
+      grid-template-columns: 200px 1fr;
+      gap: 12px;
+      min-height: 300px;
+    ">
+      <!-- Ojo: el footer está PRIMERO en el HTML pero aparece ABAJO por grid-area -->
+      <div class="demo-item item-4" style="grid-area: footer;">FOOTER (1ro en el HTML)</div>
+      <div class="demo-item item-2" style="grid-area: main;">MAIN (2do en el HTML)</div>
+      <div class="demo-item item-3" style="grid-area: nav;">NAV (3ro en el HTML)</div>
+      <div class="demo-item item-1" style="grid-area: header;">HEADER (4to en el HTML)</div>
+    </div>
+
+    <p class="demo-note">
+      ¡Mirá el orden del HTML! El footer está PRIMERO en el código, el header CUARTO. Pero en pantalla
+      aparecen donde diga el <code>grid-template-areas</code> del padre. Esto es el poder declarativo de Grid:
+      el orden visual lo decide el CSS, no la estructura del HTML.
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- DEMO M4.4 — Reorganización entre breakpoints (mobile-first declarativo) -->
+  <!-- ============================================
+       Contexto: sub-punto 4.4 del guion. Mostrar el patrón mobile-first canónico:
+       layout móvil apilado (base) + media query que redefine grid-template-areas
+       para T invertida en tablet+. El alumno ve el cambio en vivo al arrastrar
+       el ancho del navegador a través del breakpoint 640px.
+
+       NOTA: este demo tiene CSS scoped en un <style> propio adentro de la sección
+       (porque las media queries no se pueden poner inline con style="").
+
+       Descomentar la siguiente sección:
+  -->
+
+  <!--
+  <section class="demo-section">
+    <h2 class="section-title">M4.4 — Reorganización entre breakpoints (mobile-first declarativo)</h2>
+
+    <style>
+      /* CSS scoped al demo M4.4 */
+      .demo-44-container {
+        display: grid;
+        grid-template-areas:
+          'header'
+          'nav'
+          'main'
+          'footer';
+        grid-template-columns: 1fr;
+        gap: 12px;
+        min-height: 400px;
+        border: 2px dashed #1e1e1e;
+        padding: 12px;
+        background: #f8f9fa;
+      }
+      .demo-44-container > div {
+        padding: 24px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        border-radius: 4px;
+      }
+
+      /* TABLET+ (≥640px) — T invertida */
+      @media (min-width: 640px) {
+        .demo-44-container {
+          grid-template-areas:
+            'header header'
+            'nav    main'
+            'footer footer';
+          grid-template-columns: 200px 1fr;
+        }
+      }
+    </style>
+
+    <div class="demo-44-container">
+      <div class="item-1" style="grid-area: header;">HEADER</div>
+      <div class="item-2" style="grid-area: nav;">NAV (sidebar en desktop)</div>
+      <div class="item-3" style="grid-area: main;">MAIN (contenido principal)</div>
+      <div class="item-4" style="grid-area: footer;">FOOTER</div>
+    </div>
+
+    <p class="demo-note">
+      Arrastrar el ancho del navegador desde móvil (~400px) a desktop (≥640px). El layout cambia de
+      apilado a T invertida automáticamente. Lo único que cambia en el CSS son las strings del
+      <code>grid-template-areas</code> dentro del <code>@media</code>. El HTML es el mismo en los dos casos.
+      <strong>Esta es la magia declarativa de Grid: redibujás el mapa con texto.</strong>
+    </p>
+  </section>
+  -->
+
+
+  <!-- ============================================ -->
+  <!-- (Fin de las DEMOs de C03 — M5 es cierre + commit, no requiere demo en apoyo) -->
+  <!-- ============================================ -->
+
+</body>
+</html>

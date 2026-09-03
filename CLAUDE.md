@@ -3,7 +3,7 @@
 > Este archivo es la fuente de verdad para cualquier agente AI que trabaje en este repositorio.
 > Léelo completo antes de ejecutar cualquier acción.
 >
-> **Última actualización:** 2026-05-09
+> **Última actualización:** 2026-05-28
 
 ---
 
@@ -22,8 +22,16 @@
 
 ## 2. EL CURSO
 
-### Activo: Code 201
-Eric está arrancando **Code 201**. Tecnologías, módulos, cantidad de clases, duración y Proyecto Víctima — **TBD** (Eric subirá el material a `code201/` y ahí se completará esta sección).
+### Activo: Code 201 — bootcamp en curso
+Estructura: **5 módulos × 4 clases = 20 clases**. Cada clase dura **3 horas reales**, se prepara para **2h 30min** dejando 30 min de colchón. Receso de **10 minutos** entre Momento 2 y Momento 3 (convención M2 de C201).
+
+**Módulo 1 — CERRADO (C01-C04):** Frontend nativo con HTML semántico, CSS Flex, CSS Grid, CSS Variables + Forms validados nativos + Git workflow profesional. Proyecto Víctima del M1: **Landing Page multi-página** (`index.html`, `precios.html`, `faq.html`) deployado en GitHub Pages.
+
+**Módulo 2 — ARRANCANDO (C05-C08):** JavaScript fundamentals con paradigma imperativo. Proyecto Víctima del M2: **Gestor de Presupuesto Personal** (arrays + funciones imperativas + DOM básico).
+
+**Módulos 3-5:** TBD — se documentarán cuando el material entre al repo.
+
+**Lab calificado por módulo:** la última clase de cada módulo (C04 fue la primera; rúbrica de 5 criterios × 20 pts = 100 pts. Escala A 90-100 / B 80-89 / C 70-79 / F <70).
 
 ### Cerrado y archivado: Code 101
 Bootcamp anterior, cerrado. Tres módulos × 4 clases (12 clases) — HTML+CSS, JavaScript fundamentals, JavaScript avanzado. Material de instructor archivado en `mi-sistema/code101-archivado/`. Entregables del alumno en `code101/`.
@@ -52,17 +60,26 @@ instructor-guide/
 │   ├── SISTEMA DE CLASES.md             ← Notas meta sobre la metodología
 │   ├── DESARROLLO DE SLIDES.md          ← Guía de estilo para slides
 │   ├── EJEMPLOS DE CAPA 0.md            ← Plantilla / referencia de Capa 0
-│   ├── code101-archivado/               ← Material del 101 cerrado (capas, V2, prácticas, transcripciones)
-│   │   ├── CAPA 0 - CLASE {n}.md
-│   │   ├── CAPA 1 - CLASE {n}.md
-│   │   ├── CLASE {n}.md / CLASE {n} V2.md / CLASE 03 v_03.md
-│   │   ├── APUNTES DEL INSTRUCTOR - CLASE 09.md
-│   │   ├── PRACTICA-CLASE-09.md
-│   │   ├── mylinks-template/            ← Plantilla de la página de links
-│   │   ├── practica_clase06/, practica_clase09/, practica_clase09_v2/
-│   │   └── transcripciones/             ← *_PAST.txt, past *.txt (transcripciones reales del 101)
 │   │
-│   └── (cuando arranque 201: archivos CAPA 0, CAPA 1, CLASE {n} V{m}, GUIA EXCALIDRAW directamente aquí)
+│   ├── clase-01/                        ← Una carpeta por clase del curso activo
+│   │   ├── CAPA 0 - CLASE 01.md         ← Fase 1 (conceptos puros)
+│   │   ├── CLASE 01.md                  ← Fases 3+4 (Capa 1 + guion Capa 2+3)
+│   │   ├── GUIA EXCALIDRAW - CLASE 01.md ← Contrato con excalidraw-system
+│   │   ├── CLASE 01.excalidraw          ← Generado por excalidraw-system
+│   │   └── apoyo-clase01.html           ← Archivo de demos en vivo (ver instructor-system §17)
+│   │
+│   ├── clase-02/                        ← Misma estructura cuando arranquen las siguientes clases
+│   │   └── ...
+│   │
+│   └── code101-archivado/               ← Material del 101 cerrado (NO se reorganizó; plano)
+│       ├── CAPA 0 - CLASE {n}.md
+│       ├── CAPA 1 - CLASE {n}.md
+│       ├── CLASE {n}.md / CLASE {n} V2.md / CLASE 03 v_03.md
+│       ├── APUNTES DEL INSTRUCTOR - CLASE 09.md
+│       ├── PRACTICA-CLASE-09.md
+│       ├── mylinks-template/
+│       ├── practica_clase06/, practica_clase09/, practica_clase09_v2/
+│       └── transcripciones/             ← *_PAST.txt, past *.txt
 │
 ├── code101/                             ← Entregables del Code 101 (cerrado)
 │   └── clase01/ … clase12/              ← Cada clase con facilitador, lab, slide, resumen, repaso
@@ -93,7 +110,7 @@ instructor-guide/
 > Las variantes `Clase06_V2.md`, `CLASE 06 v2.md`, `CLASE 04 v_02.md` son **inconsistencias por migrar**: cuando toques uno de esos archivos, renómbralo a la forma canónica.
 
 ### Excepción viva
-- **`mi-sistema/CLASE 03 v_03.md`**: aún en formato antiguo porque está en uso activo. Cuando se cierre, renombrar a `CLASE 03 V3.md`.
+- **`mi-sistema/code101-archivado/CLASE 03 v_03.md`**: aún en formato antiguo porque está en uso activo. Cuando se cierre, renombrar a `CLASE 03 V3.md`.
 
 ---
 
@@ -121,7 +138,7 @@ instructor-system (Capa 2+3 progresiva)
     │
     │ Al cerrar cada Momento que tenga bloques **EN PANTALLA: EXCALIDRAW**
     ↓
-mi-sistema/GUIA EXCALIDRAW - CLASE {n}.md   ← Contrato (Borrador → Validado por Eric ✓)
+mi-sistema/clase-{n}/GUIA EXCALIDRAW - CLASE {n}.md   ← Contrato (Borrador → Validado por Eric ✓)
     │
     │ Cuando la Guía está validada (parcial o completa)
     ↓
@@ -164,8 +181,19 @@ Cada momento expone un **problema** que el siguiente momento **resuelve**. Nunca
 
 ## 6. ESTADO ACTUAL DE LOS GUIONES POR CLASE
 
-### Code 201 (curso activo)
-**Pendiente.** Sin guiones aún. Eric subirá el material a `code201/` cuando arranque y aquí se documentará la tabla de clases V{m} y transcripciones.
+### Code 201 (curso activo) — Módulo 1 cerrado
+
+| Clase | Tema | Estado del guion | Excalidraw |
+|---|---|---|---|
+| **C01** | HTML semántico + setup multi-página | Guion completo (Capa 0 + Capa 1 + Capa 2+3) | Generado |
+| **C02** | CSS Flexbox + responsive | Guion completo | Generado (Guía + Prompts IA + `.excalidraw`) |
+| **C03** | CSS Grid (básico + intermedio + areas) | Guion completo | Generado (15 imágenes IA) |
+| **C04** | CSS Variables + Forms validados + Git workflow profesional. **Lab CALIFICADO** | Guion completo (M1-M4 redactados, M5 cerrado por Eric aparte) | Generado (16 imágenes IA + canvas) |
+| **C05** | Programación Imperativa + Arrays (M2.1 — primera del M2) | **Pendiente — inputs en `code201/class-05/`** | — |
+| **C06-C08** | M2 — TBD | Pendientes | — |
+| **C09-C20** | M3-M5 — TBD | Pendientes | — |
+
+**Transcripciones del 201:** se guardan junto al guion cuando el dictado ocurra. Aún sin transcripciones formalizadas.
 
 ### Code 101 (cerrado, archivado)
 Material completo en `mi-sistema/code101-archivado/`. La nomenclatura ahí no fue migrada a la convención canónica `CLASE {n} V{m}.md` — coexisten variantes históricas (`Clase06_V2.md`, `CLASE 04 v_02.md`, `CLASE 03 v_03.md`, etc.). **No se migran** salvo necesidad explícita: el curso está cerrado.
@@ -188,7 +216,7 @@ Lo que añade respecto a su versión anterior (basado en transcripción real): H
 |---|---|
 | **VS Code** | Editor principal. Code-alongs siempre aquí. |
 | **Live Server** (extensión) | Preview en tiempo real en el navegador |
-| **Excalidraw** | Diagramas en vivo, generados por la skill `excalidraw-system` a partir de `mi-sistema/GUIA EXCALIDRAW - CLASE {n}.md` (ver §5.2) |
+| **Excalidraw** | Diagramas en vivo, generados por la skill `excalidraw-system` a partir de `mi-sistema/clase-{n}/GUIA EXCALIDRAW - CLASE {n}.md` (ver §5.2) |
 | **Canva** | Slides con imágenes (bloque vs línea, anatomía CSS) |
 | **Google Chrome DevTools** | Inspección de elementos, pestaña Computed |
 | **Kahoot** | Quiz de repaso al inicio de clase |
@@ -200,34 +228,41 @@ Lo que añade respecto a su versión anterior (basado en transcripción real): H
 
 ## 9. FORMATO DEL GUION — BLOQUES ESTÁNDAR
 
-Todos los guiones usan estos bloques. Respetarlos siempre:
+Todos los guiones usan estos bloques. Respetarlos siempre. **Detalle completo:** `.agent/skills/instructor-system/SKILL.md §6` (banco de bloques) y `§5.2` (orden canónico de bloques internos de un sub-punto).
 
 ```markdown
 ### {N.N} Título del sub-punto
 
 **EN PANTALLA: {HERRAMIENTA} — Descripción de lo que se muestra.**
 
-> **La acción guiada:**
+> **Tu apertura:** (opcional, solo si el sub-punto necesita gancho explícito)
+> *"Frase de apertura en voz del instructor."*
+
+> **Tu explicación teórica precisa:**
+> *"Texto del guion entre comillas en cursiva."*
+
+> **Code-along del lab — Parte X.Y:** (cuando aplique al proyecto víctima)
 > 1. Paso concreto e hiperespecífico
 > 2. Paso concreto e hiperespecífico
 
-> **Tu explicación teórica precisa:**
-> *"Texto del guion entre comillas en cursiva. Así el instructor sabe exactamente qué decir."*
-
-> **Pregunta de calibración:**
-> *"Pregunta abierta, nunca Sí/No."*
-> *(Respuesta esperada o guía de seguimiento para el instructor)*
-
-> **Preguntas de Activación:**
-> 1. {Pregunta contextualizada}
->    *(Respuesta esperada)*
-> 2. {Pregunta de escenario}
->    *(Respuesta esperada)*
-
-> **Nota táctica de transición:**<
->
-> Breve puente hacia el siguiente bloque.
+> **Pregunta de activación:** (solo donde aporta — NO en cada sub-punto)
+> *"Pregunta de escenario, consecuencia o comparación."*
+> *(Respuesta esperada o guía para el instructor)*
 ```
+
+**Al cierre del Momento (obligatorio en todos los Momentos excepto el último):**
+
+```markdown
+> **Cierre del Momento + puente al siguiente:**
+> *"{Cierre: qué quedó resuelto.} {Puente: el problema que abre el siguiente Momento — preferentemente como gancho ejecutable, ver SKILL §5.3.1.}"*
+```
+
+**Bloques opcionales** (NO generar por defecto — solo si Eric pide):
+- `> **Nota táctica de inicio: {ánimo}**`
+- `> **Checkpoint obligatorio N.N:**`
+- `### 🚨 Errores Comunes — Momento N`
+- `### Logros adicionales 🟢🟡🔴`
+- `### Checklist de cierre del momento`
 
 ---
 
@@ -267,7 +302,7 @@ Tema no cubierto en Clase N  →  Momento 1 de Clase N+1
 
 ## 12. PRÓXIMOS PASOS CONOCIDOS
 
-- [ ] **Documentar Code 201** en §2 cuando Eric suba el material a `code201/` (tecnologías, módulos, número de clases, Proyecto Víctima).
-- [ ] **Probar el flujo Guía Excalidraw end-to-end** con la primera clase del 201 (ver `~/.claude/plans/stateless-painting-peach.md`):
-  - Modo progresivo: generar Capa 0 → Capa 1 → primer Momento → su entrada en `GUIA EXCALIDRAW - CLASE {n}.md` → validación → `.excalidraw` desde la Guía.
-- [ ] **Confirmar el cambio masivo del Code 101 → archivado** con un commit de limpieza (muchos paths viejos aparecen como `D` en `git status`).
+- [ ] **Arrancar Clase 05** — primera clase del M2 (Programación Imperativa + Arrays sobre el proyecto Gestor de Presupuesto Personal). Inputs canónicos en `code201/class-05/` (README + lab + slides). Flujo: Capa 0 → Capa 1 → Capa 2+3 → Guía Excalidraw → Prompts IA → `.excalidraw`.
+- [ ] **Aplicar mejoras pendientes a las skills** (backlog del 2026-05-28) — quedan 10 mejoras de prioridad media/baja sin aplicar. Ver memorias de feedback para el detalle.
+- [ ] **Capturar primera transcripción del 201** cuando Eric dicte una clase. Convención de naming aún por confirmar (default: `*_PAST.txt` junto al guion).
+- [ ] **Documentar M3-M5 del Code 201** cuando los inputs entren al repo.

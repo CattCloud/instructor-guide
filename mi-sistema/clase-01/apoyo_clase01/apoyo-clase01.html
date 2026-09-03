@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoyo en vivo — Clase 01</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; padding: 24px; max-width: 900px; margin: 0 auto; line-height: 1.5; color: #1e1e1e; }
+    h1 { color: #e03131; border-bottom: 2px solid #e03131; padding-bottom: 8px; }
+    h2.section-title { color: #1971c2; margin-top: 0; font-size: 1.4em; }
+    h3 { color: #f08c00; margin-top: 24px; margin-bottom: 8px; font-size: 1.1em; }
+    .demo-section { border: 2px dashed #999; padding: 20px; margin: 24px 0; border-radius: 8px; background: #fafafa; }
+    .demo-note { font-size: 0.9em; color: #666; font-style: italic; margin-top: 16px; padding: 8px 12px; background: #fff3bf; border-left: 3px solid #f08c00; }
+    label { display: block; margin-top: 12px; font-weight: 600; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 4px; font-size: 16px; box-sizing: border-box; font-family: inherit; }
+    button { padding: 10px 20px; font-size: 16px; margin-top: 16px; background: #1971c2; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    img { display: block; margin: 8px 0; }
+    .intro { background: #e7f5ff; padding: 16px; border-radius: 8px; border-left: 4px solid #1971c2; }
+  </style>
+</head>
+<body>
+
+
+  <!-- =============================================================== -->
+  <!-- DEMO M2.1 — div-soup vs etiquetas semánticas                    -->
+  <!-- =============================================================== -->
+
+
+
+<!--     <div>
+      <div>
+        <div>Mi Producto</div>
+        <div>
+          <div>Inicio</div>
+          <div>Producto</div>
+          <div>Contacto</div>
+        </div>
+      </div>
+      <div>
+        <div>Bienvenido a mi landing</div>
+      </div>
+    </div> -->
+
+
+
+  <!-- =============================================================== -->
+  <!-- DEMO M3.2 — alt: tres casos (informativa / decorativa / sin alt) -->
+  <!-- ===============================================================
+  -->
+
+
+
+   
+<!--     <img src=""
+         alt="Logotipo del Producto, texto blanco sobre fondo azul"
+         width="400" height="120">
+
+
+    <img src=""
+         alt=""
+         width="400" height="60">
+
+ -->               
+
+
+
+
+  <!-- =============================================================== -->
+  <!-- DEMO 3: ARIA LABELS  -->
+  <!-- ===============================================================-->
+
+<!--  <button aria-label="Ir a Facebook">
+<svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="7935ec95c421cee6d86eb22ecd11b7e3"> <path style="display: inline;" d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379 c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302 c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263 l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z"> </path> </g> </g></svg>
+</button> -->
+<!-- 
+<button aria-label="Enviar formulario">Enviar</button> -->
+
+ 
+
+<!-- =============================================================== -->
+  <!-- DEMO M4.2 — Asociación label/input + regla del placeholder      -->
+  <!-- ===============================================================-->
+
+  
+
+
+<!--     <input id="correo-ok" type="email"> -->
+
+
+
+  <!-- =============================================================== -->
+  <!-- DEMO M4.3 — INPUTS - TEXT AREAS         -->
+  <!-- =============================================================== -->
+
+
+
+   <!-- 
+    <label for="prueba">Input Text</label>
+    <input type="text" id="prueba">
+
+
+
+
+    <label for="msg-textarea">TEXT AREA</label>
+    <textarea id="msg-textarea" rows="5"></textarea>
+ -->
+
+<!--     <h3>Validación nativa con type="email"</h3>
+    <form>
+      <label for="mail-validar">Correo</label>
+      <input type="email" id="mail-validar">
+      <button type="submit">Enviar</button>
+    </form> -->
+
+
+  <!-- =============================================================== -->
+  <!-- DEMO M4 : SIMULACION DE UN ENVIO DE FORMULARIO -->
+  <!-- =============================================================== -->
+
+<!-- <button type="submit" id="mi-boton"> Hacer clic aquí </button> -->
+
+   <h2>Registro de Alumno</h2>
+    <form id="miFormulario" action="https://httpbin.org" method="POST">
+    
+    <div class="campo">
+      <label for="nombre">Nombre completo (Obligatorio):</label>
+      <input type="text" id="nombre" name="usuario_nombre" required minlength="3" placeholder="Ej. Juan Pérez">
+    </div>
+
+    <div class="campo">
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="usuario_correo" required placeholder="correo@ejemplo.com">
+    </div>
+
+    <button type="submit">Enviar al Servidor</button>
+   </form>
+  <div id="consola"></div>
+
+  <script>
+    const formulario = document.getElementById('miFormulario');
+    const consola = document.getElementById('consola');
+
+    formulario.addEventListener('submit', function(evento) {
+      // Interceptamos el envío original solo para mostrarle al alumno los datos en pantalla
+      evento.preventDefault(); 
+      
+      // PASO 1: El navegador ya validó (si falta algo, este código nunca se ejecuta)
+      
+      // PASO 2: Recopilación de datos (Serialization)
+      const datos = new FormData(formulario);
+      let datosEstructurados = "<strong>Datos Recopilados (Paso 2):</strong><br>";
+      
+      datos.forEach((valor, llave) => {
+        datosEstructurados += `${llave}: ${valor}<br>`;
+      });
+
+      // Mostramos el resultado del Paso 2 en la página
+      consola.innerHTML = datosEstructurados + "<br><em>¡Paso 3 listo! Enviando datos reales al servidor...</em>";
+      consola.style.display = "block";
+
+ 
+    });
+  </script>
+
+
+
+</body>
+</html>

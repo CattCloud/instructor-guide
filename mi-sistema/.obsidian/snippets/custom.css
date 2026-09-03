@@ -1,0 +1,24 @@
+/* =========================================================
+   Ancho completo de la columna (lectura y edición)
+   ========================================================= */
+body {
+  --file-line-width: 100%;
+}
+
+.markdown-source-view.is-readable-line-width .cm-sizer,
+.markdown-source-view.is-readable-line-width .cm-contentContainer,
+.markdown-source-view.is-readable-line-width .cm-content,
+.markdown-source-view.is-readable-line-width .inline-title,
+.markdown-source-view.is-readable-line-width .markdown-preview-sizer,
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Padding lateral cómodo cuando se expande */
+.markdown-source-view .cm-contentContainer,
+.markdown-source-view .cm-content,
+.markdown-preview-view .markdown-preview-sizer {
+  padding-left: 48px !important;
+  padding-right: 48px !important;
+}

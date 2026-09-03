@@ -1,0 +1,14 @@
+- [Editar clase del 201 = revisar módulo entero](feedback_modulo_como_bloque.md) — propagación a las 4 clases del módulo antes de cerrar cualquier cambio
+- [Estructura Code 201 y repo ncode-201-guide](project_code201_estructura.md) — contenido del 201 vive en otro repo; 5 módulos × 4 clases; sistema de skills propio
+- [Código pre-escrito en labs no es bandera roja](feedback_codigo_completo_no_es_bandera.md) — el code-along en vivo de Eric resuelve el riesgo; solo marcar VAGO, no COMPLETO
+- ["Presentación" en Code 201 = .excalidraw, no slides](feedback_presentaciones_son_excalidraw.md) — flujo Guía Excalidraw → excalidraw-system; no proponer Marp/Canva salvo pedido explícito
+- [Analogías cotidianas, no ejemplos técnicos complejos](feedback_analogias_cotidianas.md) — vida diaria del alumno (frascos, rampa, WhatsApp, control remoto); evitar demos pesados y jerga
+- [Inputs canónicos de clase = README + lab + slides](feedback_inputs_canonicos_clase.md) — ignorar facilitador, demos, project-setup y cualquier otro archivo de la carpeta
+- [Estilo Capa 2+3 — recortar banco canónico §6](feedback_estilo_capa_2_3.md) — sin nota táctica de inicio/transición ni checkpoint/errores; bullets sobre prosa; preguntas solo donde aportan
+- [Tags HTML en `**_..._**` van escapados con `&lt;`/`&gt;`](feedback_tags_html_escapados.md) — desde el primer borrador, no como fix posterior; sin esto el parser rompe el render
+- [Patrón concepto → imagen → sintaxis → demo apoyo → lab](feedback_patron_concepto_a_lab.md) — para clases técnicas densas (Grid, OOP, hooks); 1 sub-punto por concepto nuevo + apoyo-claseNN.html con secciones DEMO; aplicar al lab al final
+- [Situaciones interactivas deben ser genéricas, no del lab del día](feedback_situaciones_interactivas_genericas.md) — para Verdad o Mito / "¿qué usás?"; productos que el alumno usa pero no construyó (Gmail, WhatsApp, Mercado Libre)
+- [Iluminar concepto implícito antes de introducir uno nuevo que contrasta](feedback_iluminar_concepto_implicito.md) — abrir con pregunta al alumno sobre el término "mágico" (main, function, hook) antes de definir el concepto hermano
+- [Nombrar concepto emergente donde sucede, no en sub-punto teórico](feedback_nombrar_concepto_donde_sucede.md) — composición/DRY se nombran inline cuando el code-along los produce, no en un punto aparte al final; el cierre queda solo para aplicar + reconectar
+- [Renotar (Tailwind/CSS) = tablas generales por familia, sin re-explicar el concepto](feedback_renotar_por_tablas_generales.md) — sintaxis general + tabla clase↔equivalencia + 1-2 ejemplos; el alumno ya sabe la propiedad, solo cambia la notación
+- [Criterios de aceptación = Definición de Terminado, antes de construir](feedback_criterios_definen_done.md) — en labs por HU: criterios después del enunciado y antes del código, redactados como resultados (no implementación); usar "terminado", no "done"; construir para cumplirlos

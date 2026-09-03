@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Semántico — Estructura la web con sentido</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { font-size: 19.2px; }
+    body {
+      width: 1080px;
+      margin: 0 auto;
+      background: #060913;
+      background-image: radial-gradient(ellipse at 50% 0%, rgba(99, 102, 241, 0.08) 0%, transparent 60%);
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
+    code, pre { font-family: 'JetBrains Mono', monospace; font-size: 0.85em; }
+    pre {
+      background: #161b22;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      overflow-x: auto;
+      line-height: 1.7;
+    }
+
+    section { padding: 2rem 3rem; }
+
+    .hero {
+      text-align: center;
+      padding: 3.5rem 3rem 2.5rem;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(217, 70, 239, 0.15);
+      color: #d946ef;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      letter-spacing: 0.03em;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.6rem;
+    }
+    .hero .subtitle {
+      font-size: 1.05rem;
+      color: #94a3b8;
+    }
+
+    .card {
+      background: #0d1117;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+    .card .desc {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .accent-purple { border-left: 3px solid #d946ef; }
+    .accent-green  { border-left: 3px solid #4ade80; }
+    .accent-blue   { border-left: 3px solid #93c5fd; }
+    .accent-orange { border-left: 3px solid #fb923c; }
+
+    .tag-purple { color: #d946ef; }
+    .tag-green  { color: #4ade80; }
+    .tag-blue   { color: #93c5fd; }
+    .tag-orange { color: #fb923c; }
+    .tag-muted  { color: #64748b; }
+
+    /* Estructura visual del árbol semántico */
+    .tree {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85em;
+    }
+    .tree-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .tree-indent-1 { margin-left: 1.5rem; }
+    .tree-indent-2 { margin-left: 3rem; }
+    .tree-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .dot-purple { background: #d946ef; }
+    .dot-green  { background: #4ade80; }
+    .dot-blue   { background: #93c5fd; }
+    .dot-orange { background: #fb923c; }
+    .dot-muted  { background: #475569; }
+
+    /* Split layout para formulario */
+    .form-split {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .form-split .col-left { flex: 1; }
+    .form-split .col-right {
+      flex: 0 0 auto;
+      width: 280px;
+      background: #161b22;
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+    }
+    .form-split .col-right p {
+      font-size: 0.8rem;
+      color: #94a3b8;
+      margin-top: 0.75rem;
+      line-height: 1.5;
+    }
+    .form-split .col-right p strong {
+      color: #fb923c;
+    }
+
+    /* Pill tag */
+    .pill {
+      display: inline-block;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px;
+      padding: 0.15rem 0.55rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78em;
+      color: #94a3b8;
+      margin: 0.15rem;
+    }
+
+    /* Glosario */
+    .glossary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+    .glossary .term {
+      background: #0d1117;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .glossary .term strong {
+      display: block;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.9rem;
+      margin-bottom: 0.25rem;
+      color: #e2e8f0;
+    }
+    .glossary .term span {
+      color: #94a3b8;
+      font-size: 0.8rem;
+      line-height: 1.4;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 3rem 3rem;
+      color: #64748b;
+      font-size: 0.82rem;
+    }
+    .footer span {
+      color: #475569;
+      margin: 0 0.4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="badge">Módulo 1 · Clase 01</div>
+    <h1>HTML5 Semántico — Estructura la web con sentido</h1>
+    <p class="subtitle">Etiquetas con significado, accesibilidad desde el día uno y formularios que funcionan para todos</p>
+  </section>
+
+  <!-- BLOQUES -->
+  <section>
+
+    <!-- 1: Etiquetas Semánticas -->
+    <div class="card accent-purple">
+      <h3><span class="tag-purple">1.</span> Etiquetas Semánticas</h3>
+      <p class="desc">Las etiquetas HTML5 describen el <em>rol</em> del contenido — no solo su apariencia visual.</p>
+      <div class="tree">
+        <div class="tree-row">
+          <span class="tree-dot dot-purple"></span>
+          <code><span class="tag-purple">&lt;header&gt;</span> <span class="tag-muted">— encabezado del sitio o sección</span></code>
+        </div>
+        <div class="tree-row">
+          <span class="tree-dot dot-purple"></span>
+          <code><span class="tag-purple">&lt;nav&gt;</span>    <span class="tag-muted">— menú de navegación principal</span></code>
+        </div>
+        <div class="tree-row">
+          <span class="tree-dot dot-purple"></span>
+          <code><span class="tag-purple">&lt;main&gt;</span>   <span class="tag-muted">— contenido único de la página</span></code>
+        </div>
+        <div class="tree-row tree-indent-1">
+          <span class="tree-dot dot-muted"></span>
+          <code><span class="tag-purple">&lt;section&gt;</span> <span class="tag-muted">— bloque temático dentro de main</span></code>
+        </div>
+        <div class="tree-row tree-indent-1">
+          <span class="tree-dot dot-muted"></span>
+          <code><span class="tag-purple">&lt;article&gt;</span> <span class="tag-muted">— contenido autónomo reutilizable</span></code>
+        </div>
+        <div class="tree-row">
+          <span class="tree-dot dot-purple"></span>
+          <code><span class="tag-purple">&lt;footer&gt;</span>  <span class="tag-muted">— pie del sitio o sección</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2: Jerarquía de Encabezados -->
+    <div class="card accent-green">
+      <h3><span class="tag-green">2.</span> Jerarquía de Encabezados</h3>
+      <p class="desc">El orden <code>h1 → h2 → h3</code> crea la estructura lógica que leen los screen readers y los motores de búsqueda.</p>
+      <pre><code><span class="tag-green">&lt;h1&gt;</span>Nombre del producto<span class="tag-green">&lt;/h1&gt;</span>        <span class="tag-muted">← Solo uno por página</span>
+  <span class="tag-green">&lt;h2&gt;</span>Características<span class="tag-green">&lt;/h2&gt;</span>              <span class="tag-muted">← Secciones principales</span>
+    <span class="tag-green">&lt;h3&gt;</span>Diseño intuitivo<span class="tag-green">&lt;/h3&gt;</span>          <span class="tag-muted">← Subsecciones</span>
+  <span class="tag-green">&lt;h2&gt;</span>Planes<span class="tag-green">&lt;/h2&gt;</span>                        <span class="tag-muted">← Siguiente sección</span></code></pre>
+    </div>
+
+    <!-- 3: Accesibilidad A11y -->
+    <div class="card accent-blue">
+      <h3><span class="tag-blue">3.</span> Accesibilidad (A11y)</h3>
+      <p class="desc">Prácticas que hacen el sitio usable para <em>todas</em> las personas — con o sin lectores de pantalla.</p>
+      <pre><code><span class="tag-muted">&lt;!-- Texto alternativo en imágenes --&gt;</span>
+<span class="tag-blue">&lt;img</span> src="logo.png" <span class="tag-blue">alt=</span>"Logotipo de la empresa"<span class="tag-blue">&gt;</span>
+<span class="tag-blue">&lt;img</span> src="banner.jpg" <span class="tag-blue">alt=</span>""<span class="tag-blue">&gt;</span>  <span class="tag-muted">← decorativa: alt vacío</span>
+
+<span class="tag-muted">&lt;!-- ARIA cuando la semántica nativa no alcanza --&gt;</span>
+<span class="tag-blue">&lt;nav</span> <span class="tag-blue">aria-label=</span>"Menú principal"<span class="tag-blue">&gt;&lt;/nav&gt;</span>
+<span class="tag-blue">&lt;button</span> <span class="tag-blue">aria-label=</span>"Cerrar modal"<span class="tag-blue">&gt;</span>✕<span class="tag-blue">&lt;/button&gt;</span></code></pre>
+    </div>
+
+    <!-- 4: Formulario Accesible -->
+    <div class="card accent-orange">
+      <h3><span class="tag-orange">4.</span> Formulario Accesible</h3>
+      <p class="desc">Cada <code>&lt;input&gt;</code> necesita su <code>&lt;label for&gt;</code> — sin esa conexión el lector de pantalla no anuncia el campo.</p>
+      <div class="form-split">
+        <div class="col-left">
+          <pre><code><span class="tag-orange">&lt;form&gt;</span>
+  <span class="tag-orange">&lt;label</span> <span class="tag-orange">for=</span>"nombre"<span class="tag-orange">&gt;</span>Nombre<span class="tag-orange">&lt;/label&gt;</span>
+  <span class="tag-orange">&lt;input</span> type="text"  <span class="tag-orange">id=</span>"nombre" name="nombre"<span class="tag-orange">&gt;</span>
+
+  <span class="tag-orange">&lt;label</span> <span class="tag-orange">for=</span>"email"<span class="tag-orange">&gt;</span>Correo<span class="tag-orange">&lt;/label&gt;</span>
+  <span class="tag-orange">&lt;input</span> type="email" <span class="tag-orange">id=</span>"email"  name="email"<span class="tag-orange">&gt;</span>
+
+  <span class="tag-orange">&lt;button</span> type="submit"<span class="tag-orange">&gt;</span>Enviar<span class="tag-orange">&lt;/button&gt;</span>
+<span class="tag-orange">&lt;/form&gt;</span></code></pre>
+        </div>
+        <div class="col-right">
+          <p><strong>Regla de oro:</strong> el <code>for</code> del label debe coincidir con el <code>id</code> del input.</p>
+          <p>Si al hacer clic en el texto del label el cursor salta al input → la asociación está bien.</p>
+          <p><strong>Nunca:</strong> <code>placeholder</code> no reemplaza al <code>label</code> — desaparece al escribir.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- GLOSARIO -->
+  <section>
+    <div class="glossary">
+      <div class="term">
+        <strong>A11y</strong>
+        <span>"accessibility" — prácticas para que productos digitales sean usables por todos.</span>
+      </div>
+      <div class="term">
+        <strong>ARIA</strong>
+        <span>Atributos que mejoran la accesibilidad cuando el HTML nativo no alcanza.</span>
+      </div>
+      <div class="term">
+        <strong>Screen reader</strong>
+        <span>Software que convierte el texto de la página en audio para navegar el sitio.</span>
+      </div>
+      <div class="term">
+        <strong>Tab nav</strong>
+        <span>Navegar por el sitio solo con la tecla Tab — la prueba definitiva de A11y.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
+    Code 201 — EnterTechSchool <span>·</span> Clase 01 <span>·</span> Módulo 1
+  </section>
+
+  <!-- EXPORT PNG -->
+  <button id="export-btn" style="position:fixed;top:16px;right:16px;z-index:1000;background:rgba(13,17,23,0.85);color:#e2e8f0;border:1px solid rgba(255,255,255,0.12);padding:0.5rem 1.15rem;border-radius:999px;font-family:'Inter',sans-serif;font-size:0.85rem;font-weight:500;cursor:pointer;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:opacity 0.2s">
+    Exportar a PNG
+  </button>
+
+  <script>
+  (function(){
+    var btn = document.getElementById('export-btn');
+    var originalText = btn.textContent;
+
+    btn.addEventListener('click', function(){
+      btn.disabled = true;
+      btn.textContent = 'Exportando...';
+
+      var script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = function(){
+        btn.style.display = 'none';
+        document.fonts.ready.then(function(){
+          html2canvas(document.body, { scale: 3, useCORS: true, windowWidth: 1080 }).then(function(canvas){
+            var link = document.createElement('a');
+            var title = document.title
+              .toLowerCase()
+              .normalize('NFD').replace(/[̀-ͯ]/g, '')
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-|-$/g, '');
+            link.download = 'clase-01-' + title + '.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+            btn.style.display = '';
+            btn.disabled = false;
+            btn.textContent = originalText;
+          }).catch(function(){
+            btn.style.display = '';
+            btn.disabled = false;
+            btn.textContent = 'Error — Intenta de nuevo';
+            setTimeout(function(){ btn.textContent = originalText; }, 2000);
+          });
+        });
+      };
+      script.onerror = function(){
+        btn.disabled = false;
+        btn.textContent = 'Error — Intenta de nuevo';
+        setTimeout(function(){ btn.textContent = originalText; }, 2000);
+      };
+      document.head.appendChild(script);
+    });
+  })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+# Que mejorar en la skill instructor-guide
+- Situacion que ocurrio en una conversacion : Detalle que estamos pasando por alto, ahi conceptos que mencionas directamente pero no mencionas su base o concepto requisito es como si     lo mencionaras sin contexto y los alumnos que no tienen conocimiento o recien estan aprendiendo lo necesitan, necesitan contexto, me hablas del concepto 6 y 7 pero nunca menciona formularios, ahi tenemos un hueco grave.
+EN LA CAPA 0 , PARA LOS CONCEPTOS QUE SE REDACTEN SE DEBE MENCIONAR O ENLISTAR LOS CONCEPTOS BASE QUE SE DEBEN SABER ,ASI EL INSTRUCTOR VERA Y PODRA DECIDIR SI ADICIONAR ALGUNOS DE ESOS CONCEPTOS ASI NO DEJA HUECOS
